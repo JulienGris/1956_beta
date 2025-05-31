@@ -8943,13 +8943,13 @@ focus_tree = {
 					has_dlc = "No Step Back"
 				}
 				add_tech_bonus = {
-					name = armor_bonus
+					name = JAP_diversified_tank_roles
 					bonus = 1
 					uses = 1
 					category = armor
 				}
 				add_tech_bonus = {
-					name = armor_bonus
+					name = JAP_diversified_tank_roles
 					bonus = 1
 					uses = 1
 					category = armor_variant_tech
@@ -9375,7 +9375,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = jet_rocket_bonus
+				name = JAP_rocket_artillery
 				bonus = 1
 				uses = 2
 				category = rocketry
@@ -9706,7 +9706,7 @@ focus_tree = {
 				create_intelligence_agency = yes
 			}			
 			add_tech_bonus = {
-				name = mp_tech_bonus_name
+				name = JAP_kempetai_repression
 				bonus = 1
 				uses = 2
 				category = military_police_tech
@@ -10871,6 +10871,18 @@ focus_tree = {
 			}
 		}
 
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
 		complete_tooltip = {
 			random_state = {
 				limit = {
@@ -10914,9 +10926,11 @@ focus_tree = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 					not = {
-						state = 646
-						state = 645
-						state = 555
+						or = {
+							state = 646
+							state = 645
+							state = 555
+						}
 					}
 					free_building_slots = {
 						building = dockyard
@@ -10937,9 +10951,11 @@ focus_tree = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
 					not = {
-						state = 646
-						state = 645
-						state = 555
+						or = {
+							state = 646
+							state = 645
+							state = 555
+						}
 					}
 					free_building_slots = {
 						building = dockyard
@@ -10956,7 +10972,7 @@ focus_tree = {
 				set_state_flag = JAP_new_naval_estimates_DY2
 			}
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 	}
 
 	focus = {
@@ -11169,6 +11185,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = JAP_supremacy_of_the_battlefleet
 			add_tech_bonus = {
 				name = JAP_supremacy_of_the_battlefleet
 				bonus = 1
@@ -11186,7 +11203,7 @@ focus_tree = {
 					category = naval_armor_tech
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_supremacy_of_the_battlefleet
 					bonus = 1
 					uses = 2
 					technology = fire_control_methods_1
@@ -11226,6 +11243,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		available = {
+			is_special_project_completed = sp:sp_naval_super_heavy_battleship
+		}
 
 		bypass = {
 			AND = {
@@ -11235,26 +11256,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.5
+			}
+			
 			if = {
 				limit = {
 					not = { has_dlc = "Man the Guns" }
 				}
-				add_tech_bonus = {
-					name = JAP_the_ultimate_battleship
-					bonus = 3.0
-					uses = 1
-					category = shbb_tech
+				custom_effect_tooltip = JAP_yamato_tt
+				hidden_effect = {
+					add_equipment_production = {
+						equipment = {
+							type = sh_battleship_1
+							creator = "JAP" 
+						}
+						requested_factories = 1
+						progress = 0.75
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = sh_battleship_1
+							creator = "JAP" 
+						}
+						requested_factories = 1
+						progress = 0.50
+						amount = 1
+					}
 				}
 			}
 			else = {
-				if = {
-					limit = {
-						not = { has_tech = ship_hull_super_heavy }
-					}
-					set_technology = {
-						ship_hull_super_heavy = 1
-					}
-				}
+				#if = { - no longer necessary due to shbb breakthrough availability
+				#	limit = {
+				#		not = { has_tech = ship_hull_super_heavy }
+				#	}
+				#	set_technology = {
+				#		ship_hull_super_heavy = 1
+				#	}
+				#}
 				create_equipment_variant = {
 					name = "Yamato Class"
 					type = ship_hull_super_heavy_1
@@ -11308,7 +11350,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_the_ultimate_battleship
 					bonus = 1
 					uses = 2
 					technology = basic_heavy_battery
@@ -11316,7 +11358,7 @@ focus_tree = {
 					technology = advanced_heavy_battery
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_the_ultimate_battleship
 					bonus = 1
 					uses = 2
 					technology = basic_heavy_shell
@@ -11326,6 +11368,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
+	
 	focus = {
 		id = JAP_increased_repair_capabilities
 		icon = GFX_goal_generic_expand_the_naval_industry
@@ -11468,13 +11511,13 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_submarine_modernization
 					bonus = 1
 					uses = 1
 					category = torpedo_equipment
 				}
 				add_tech_bonus = {
-					name = ENG_anti_non_contact_committee
+					name = JAP_submarine_modernization
 					bonus = 1.0
 					uses = 1
 					category = naval_minelaying
@@ -11516,7 +11559,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_supply_disruption
 					bonus = 1
 					uses = 1
 					category = torpedo_equipment
@@ -11524,7 +11567,7 @@ focus_tree = {
 					technology = improved_submarine_snorkel	
 				}
 				add_tech_bonus = {
-					name = ENG_anti_non_contact_committee
+					name = JAP_supply_disruption
 					bonus = 1.0
 					uses = 1
 					category = naval_minelaying
@@ -11562,13 +11605,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = industrial_bonus
+				name = JAP_redesign_the_naval_guns
 				bonus = 1
 				uses = 2
 				category = naval_gunnery_tech
 			}
 			add_tech_bonus = {
-				name = SPR_navy_modernization
+				name = JAP_redesign_the_naval_guns
 				bonus = 1
 				uses = 1
 				category = naval_shell_tech
@@ -11629,7 +11672,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				add_tech_bonus = {
-					name = industrial_bonus
+					name = JAP_divert_naval_guns_to_the_army
 					bonus = 1
 					uses = 1
 					category = naval_gunnery_tech
@@ -11660,7 +11703,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				add_tech_bonus = {
-					name = SPR_navy_modernization
+					name = JAP_long_lance_torpedoes
 					bonus = 1
 					uses = 1
 					category = torpedo_equipment
