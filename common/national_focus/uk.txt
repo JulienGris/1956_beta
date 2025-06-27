@@ -1022,12 +1022,24 @@ focus_tree = {
 			add_ideas = ENG_special_air_service_idea
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ENG_david_stirling
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 2
-				category = r56_special_forces_training_tech 
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 2
+					category = special_forces_doctrine
+				}
 			}
+			else = {
+				add_tech_bonus = {
+					name = special_forces_bonus
+					bonus = 0.5
+					uses = 2
+					category = r56_special_forces_training_tech 
+				}	
+			}	
 			add_doctrine_cost_reduction = {
 				name = special_forces_bonus
 				cost_reduction = 0.25
@@ -1273,17 +1285,73 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = generic_secret_weapons_ns
+			custom_effect_tooltip = generic_skip_one_line_tt
 			add_tech_bonus = {
 				name = UK_secret_focus
 				bonus = 0.5 # was 1
 				uses = 1 # was 2
 				category = rocketry
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt	
 			add_tech_bonus = {
 				name = UK_secret_focus
 				bonus = 0.5 # was 1
 				uses = 1
 				category = nuclear
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			ROOT = { # Because Britain has no commonwealth scientific cooperation focus, I put it here.
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_nuclear
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_nuclear
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_air
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_air
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_land
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_land
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_naval
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_naval
+					}
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3818,6 +3886,8 @@ focus_tree = {
 				has_full_control_of_state = 858
 				has_full_control_of_state = 642
 				has_full_control_of_state = 727
+				has_full_control_of_state = 656
+				has_full_control_of_state = 906
 			}
 		}
 		bypass = {
@@ -3840,6 +3910,8 @@ focus_tree = {
 					owns_state = 858
 					owns_state = 642
 					owns_state = 727
+					owns_state = 656
+					owns_state = 906
 				}
 			}
 		}
@@ -3868,7 +3940,6 @@ focus_tree = {
 				}
 			}
 
-
 			if = {
 				limit = {
 					has_full_control_of_state = 858
@@ -3895,7 +3966,15 @@ focus_tree = {
 				}
 			
 			}
-
+			if = {
+				limit = {
+					has_full_control_of_state = 656
+				}
+				IRQ = {
+					transfer_state = 656
+					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
+				}
+			}
 			if = {
 				limit = {
 					OR = {
@@ -3912,10 +3991,14 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_full_control_of_state = 659
+					OR = {
+						has_full_control_of_state = 659
+						has_full_control_of_state = 906
+					}
 				}
 				YEM = {
 					transfer_state = 659
+					transfer_state = 906
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
@@ -4594,7 +4677,6 @@ focus_tree = {
 				has_full_control_of_state = 907
 				has_full_control_of_state = 457
 				has_full_control_of_state = 456
-				has_full_control_of_state = 656
 				has_full_control_of_state = 765
 				has_full_control_of_state = 1007
 				has_full_control_of_state = 658
@@ -4610,7 +4692,6 @@ focus_tree = {
 				owns_state = 455
 				owns_state = 1021
 				owns_state = 1022
-				owns_state = 656
 				owns_state = 765
 				owns_state = 1007
 				owns_state = 658
@@ -4719,35 +4800,6 @@ focus_tree = {
 							has_war_with = ENG
 						}
 						EGY = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_full_control_of_state = 656
-				}
-				release = KUW
-				set_autonomy = { target = KUW autonomy_state = autonomy_protectorate }
-				hidden_effect = {
-					KUW = {
-						set_politics = {
-							ruling_party = neutrality
-							elections_allowed = no
-							last_election = "1935.12.17"
-							election_frequency = 48
-						}
-						set_political_party = {
-							ideology = neutrality
-							popularity = 50
-						}
-					}
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						KUW = {
 							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
 						}
 					}
@@ -4963,57 +5015,6 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_full_control_of_state = 689
-				}
-				release = JAM
-				set_autonomy = { target = JAM autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						JAM = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_full_control_of_state = 691
-				}
-				release = TRI
-				set_autonomy = { target = TRI autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						TRI = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_full_control_of_state = 308
-				}
-				release = BAS
-				set_autonomy = { target = BAS autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						BAS = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					has_full_control_of_state = 687
 				}
 				release = GYA
@@ -5032,100 +5033,53 @@ focus_tree = {
 			if = {
 				limit = {
 					has_full_control_of_state = 1081
-				}
-				release = STK
-				set_autonomy = { target = STK autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						STK = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
+					has_full_control_of_state = 308
 					has_full_control_of_state = 1082
-				}
-				release = DMN
-				set_autonomy = { target = DMN autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						DMN = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					has_full_control_of_state = 1083
-				}
-				release = STL
-				set_autonomy = { target = STL autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						STL = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					has_full_control_of_state = 1084
-				}
-				release = SVG
-				set_autonomy = { target = SVG autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						SVG = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					has_full_control_of_state = 692
-				}
-				release = BRB
-				set_autonomy = { target = BRB autonomy_state = autonomy_dominion }
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						BRB = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
+					has_full_control_of_state = 689
 					has_full_control_of_state = 1085
+					has_full_control_of_state = 691
 				}
-				release = GRA
-				set_autonomy = { target = GRA autonomy_state = autonomy_dominion }
+				release = TRI
+				set_autonomy = { target = TRI autonomy_state = autonomy_dominion }
 				hidden_effect = {
+					TRI = {
+						set_cosmetic_tag = TRI_caribbean_union
+						transfer_state = 1081
+						transfer_state = 308
+						transfer_state = 1082
+						transfer_state = 1083
+						transfer_state = 1084
+						transfer_state = 1085
+						transfer_state = 689
+						transfer_state = 692
+					}
+					
+					every_state = {
+						limit = {
+							NOT = {
+								is_core_of = TRI
+							}
+							OR = {
+								state = 1081
+								state = 308
+								state = 1082
+								state = 1083
+								state = 1084
+								state = 1085
+								state = 689
+								state = 692
+							}
+						}
+						add_core_of = TRI
+					}
 					every_other_country = {
 						limit = {
 							has_war_with = ENG
 						}
-						GRA = {
+						TRI = {
 							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
 						}
 					}
@@ -5391,7 +5345,11 @@ focus_tree = {
 			RAJ = {
 				transfer_state = 733
 			}
-			if= {
+			MAL = {
+				remove_ideas = MAL_colonial_idea
+				drop_cosmetic_tag = yes
+			}
+			if = {
 				limit = {
 					BHU = {
 						is_subject_of = ROOT
@@ -6988,7 +6946,7 @@ focus_tree = {
 				}
 			}
 		} 
-		icon = GFX_goal_generic_construction
+		icon = GFX_focus_generic_befriend_new_zealand
 		x = 0
 		y = 1
 		relative_position_id = uk_australia_focus
@@ -9594,8 +9552,12 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			SOV = {
-				has_completed_focus = SOV_lease_british_planes
+			if = {
+				limit = { has_global_flag = SOV_old_focus_tree }
+				SOV = { has_completed_focus = SOV_lease_british_planes_old }
+			}
+			else = {
+				SOV = { has_completed_focus = SOV_lease_british_planes }
 			}
 		}
 		prerequisite = { focus = ENG_reconciliation_with_ussr }
@@ -14968,7 +14930,15 @@ focus_tree = {
 			has_global_flag = r56_scw_our_own_ending_check 
 		}
 		available = {
-			communism > 0.35
+			if = {
+				limit = {
+					is_ai = no
+				}
+				communism > 0.35
+			}
+			else = {
+				has_government = communism	#works better for AI so they dont support the wrong side
+			}
 
 			has_global_flag = spanish_civil_war
 			has_war = no

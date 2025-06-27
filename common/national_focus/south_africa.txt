@@ -482,11 +482,35 @@ focus_tree = {
 					specialization = specialization_nuclear
 					value = 0.5
 				}
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_nuclear
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_nuclear
+					}
+				}
 			}
 			ELSE = {
 				add_breakthrough_progress = {
 					specialization = specialization_nuclear
 					value = 0.8
+				}
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_nuclear
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_nuclear
+					}
 				}
 			}
 		}
@@ -1871,7 +1895,7 @@ focus_tree = {
 		  available_if_capitulated = yes
 
 		  completion_reward = {
-			  add_manpower = 21548
+			  add_manpower = 25000
 			  add_stability = 0.05
 			   add_popularity = {
 				  ideology = communism
@@ -2243,6 +2267,44 @@ focus_tree = {
 				id = commonwealth_research
 				bonus = 0.05  # we get 20% higher bonus from this group
 			}
+			ROOT = {
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_air
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_air
+					}
+				}
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_land
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_land
+					}
+				}
+				every_scientist = {
+					limit = {
+						has_scientist_level = {
+							specialization = specialization_naval
+							level > 0
+						}
+					}
+					add_scientist_xp = {
+						experience = 100
+						specialization = specialization_naval
+					}
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -2461,10 +2523,16 @@ focus_tree = {
 		  		cost = 10
 
 		  		ai_will_do = {
-					factor = 10
+					base = 0 #Don't do this please
 					modifier = {
-						factor = 0
-						is_historical_focus_on = yes
+						add = 10
+						is_historical_focus_on = no
+					}
+					modifier = { #Well since you can't defend it, we will do it for you!
+						add = 10
+						ENG = {
+							has_capitulated = yes
+						}
 					}
 		  		}
 
@@ -2484,10 +2552,6 @@ focus_tree = {
 		  		bypass = {
 
 		  		}
-
-		  		
-		  		
-		  		
 
 				search_filters = { FOCUS_FILTER_ANNEXATION }
 
