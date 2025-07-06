@@ -4082,7 +4082,7 @@ MPL_mandate_resistance_category = {
 				tooltip = MPL_order_100
 				check_variable = {
 					var = MPL_order_level
-					value = 100
+					value = 90
 					compare = greater_than_or_equals
 				}
 			}
@@ -4647,7 +4647,7 @@ MPL_stabilize_syria_category = {
 				
 				declare_war_on = {
 					target = SYR
-					type = annex_everything
+					type = independence_wargoal
 				}
 				SYR = {
 					set_country_flag = MPL_syria_revolting
