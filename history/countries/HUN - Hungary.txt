@@ -82,6 +82,7 @@ add_ideas = {
 	HUN_revisionism_idea
 	disarmed_nation
 	HUN_oligarchic_power_idea
+	HUN_gyula_gombos_de_jakfa_idea
 }
 if = {
 	limit = {
