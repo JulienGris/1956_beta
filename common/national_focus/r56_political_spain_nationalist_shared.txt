@@ -1487,7 +1487,7 @@
 						has_government = neutrality
 
 						has_country_leader = {
-							name = POR_dom_duarte_nuno
+							name = "Dom Duarte Nuno"
 							ruling_only = yes
 						}
 						is_in_faction = no

@@ -1,14 +1,17 @@
-ALB_assimilate_the_albanian_territories = {
+political_actions = {
 	ALB_assimilate_kosovo = {
+
 		icon = generic_nationalism
+
 		cost = 25
 		fire_only_once = yes
+
 		days_remove = 30
-		visible = { 
-			NOT = {
-				802 = { is_core_of = ROOT }
-			}
+
+		allowed = {
+			original_tag = ALB
 		}
+
 		available = {
 			802 = {
 				is_fully_controlled_by = ROOT
@@ -20,20 +23,19 @@ ALB_assimilate_the_albanian_territories = {
 				state = 802
 			} 
 		}
+
 		complete_effect = {
 			add_stability = -0.01
 		}
 
 		remove_effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						802 = {
-							is_claimed_by = ROOT
-						}
+			if = {
+				limit = {
+					802 = {
+						is_claimed_by = ROOT
 					}
-					remove_state_claim = 802
 				}
+				remove_state_claim = 802
 			}
 			add_state_core = 802
 		}
@@ -42,10 +44,17 @@ ALB_assimilate_the_albanian_territories = {
 		}		
 	}
 	ALB_promote_the_integration_of_kosovo = {
+
 		icon = GFX_decision_eng_propaganda_campaigns
+
 		cost = 25
 		fire_only_once = yes
+
 		days_remove = 30
+
+		allowed = {
+			original_tag = ALB
+		}
 		visible = {
 			802 = {
 				NOT = {
@@ -53,6 +62,7 @@ ALB_assimilate_the_albanian_territories = {
 				}
 			}
 		}
+
 		available = {
 			802 = {
 				is_fully_controlled_by = ROOT
@@ -73,8 +83,10 @@ ALB_assimilate_the_albanian_territories = {
 				state = 802
 			} 
 		}
+
 		complete_effect = {
 		}
+
 		remove_effect = {
 			802 = {
 				add_compliance = 10
@@ -85,15 +97,23 @@ ALB_assimilate_the_albanian_territories = {
 		}		
 	}	
 	ALB_assimilate_mitrovica = {
+
 		icon = generic_nationalism
+
 		cost = 40
 		fire_only_once = yes
+
 		days_remove = 30
+
+		allowed = {
+			original_tag = ALB
+		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 953
 			} 
 		}
+
 		available = {
 			953 = {
 				is_fully_controlled_by = ROOT
@@ -103,24 +123,19 @@ ALB_assimilate_the_albanian_territories = {
 				is_core_of = ROOT
 			}
 		}
-		visible = { 
-			NOT = {
-				953 = { is_core_of = ROOT }
-			}
-		}
+
 		complete_effect = {
 			add_stability = -0.02
 		}
+
 		remove_effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						953 = {
-							is_claimed_by = ROOT
-						}
+			if = {
+				limit = {
+					953 = {
+						is_claimed_by = ROOT
 					}
-					remove_state_claim = 953
 				}
+				remove_state_claim = 953
 			}
 			add_state_core = 953
 		}
@@ -129,10 +144,17 @@ ALB_assimilate_the_albanian_territories = {
 		}		
 	}	
 	ALB_promote_the_integration_of_mitrovica = {
+
 		icon = GFX_decision_eng_propaganda_campaigns
+
 		cost = 25
 		fire_only_once = yes
+
 		days_remove = 30
+
+		allowed = {
+			original_tag = ALB
+		}
 		visible = {
 			953 = {
 				NOT = {
@@ -140,6 +162,8 @@ ALB_assimilate_the_albanian_territories = {
 				}
 			}
 		}
+
+
 		available = {
 			953 = {
 				is_fully_controlled_by = ROOT
@@ -160,6 +184,10 @@ ALB_assimilate_the_albanian_territories = {
 				state = 953
 			} 
 		}
+
+		complete_effect = {
+		}
+
 		remove_effect = {
 			953 = {
 				add_compliance = 10
@@ -170,19 +198,21 @@ ALB_assimilate_the_albanian_territories = {
 		}		
 	}		
 	ALB_assimilate_debar = {
+
 		icon = generic_nationalism
+
 		cost = 25
 		fire_only_once = yes
+
 		days_remove = 30
+
+		allowed = {
+			original_tag = ALB
+		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 950
 			} 
-		}
-		visible = { 
-			NOT = {
-				950 = { is_core_of = ROOT }
-			}
 		}
 		available = {
 			950 = {
@@ -190,19 +220,19 @@ ALB_assimilate_the_albanian_territories = {
 				compliance > 30
 			}
 		}
+
 		complete_effect = {
 			add_stability = -0.01
 		}
+
 		remove_effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						950 = {
-							is_claimed_by = ROOT
-						}
+			if = {
+				limit = {
+					950 = {
+						is_claimed_by = ROOT
 					}
-					remove_state_claim = 950
 				}
+				remove_state_claim = 950
 			}
 			add_state_core = 950
 		}
@@ -211,10 +241,17 @@ ALB_assimilate_the_albanian_territories = {
 		}		
 	}
 	ALB_promote_the_integration_of_debar = {
+
 		icon = GFX_decision_eng_propaganda_campaigns
+
 		cost = 25
 		fire_only_once = yes
+
 		days_remove = 30
+
+		allowed = {
+			original_tag = ALB
+		}
 		visible = {
 			950 = {
 				NOT = {
@@ -222,6 +259,7 @@ ALB_assimilate_the_albanian_territories = {
 				}
 			}
 		}
+
 		available = {
 			950 = {
 				is_fully_controlled_by = ROOT
@@ -242,6 +280,10 @@ ALB_assimilate_the_albanian_territories = {
 				state = 950
 			} 
 		}
+
+		complete_effect = {
+		}
+
 		remove_effect = {
 			950 = {
 				add_compliance = 10
@@ -253,38 +295,15 @@ ALB_assimilate_the_albanian_territories = {
 	}			
 }
 
-political_actions = {
-	ALB_question_of_the_capital = {
-		icon = GFX_decision_eng_trade_unions_support
-		fire_only_once = yes
-		allowed = {
-			original_tag = ALB
-		}
-		available = {
-			is_subject = no
-			has_cosmetic_tag = EGY_ALB_united
-			NOT = {
-				has_idea = generic_recent_political_unification
-			}
-			44 = { is_fully_controlled_by = ALB }
-			447 = { is_fully_controlled_by = ALB }
-			907 = { is_fully_controlled_by = ALB }
-		}
-		visible = {
-			has_global_flag = form_egypt_albania_flag
-		}
-		complete_effect = {
-			country_event = albania.15
-		}
-	}
-}
-
 ALB_form_egypt_albania_category = {
 	ALB_form_egypt_albania = {
+
 		icon = generic_form_nation
+
 		allowed = {
 			original_tag = ALB
 		}
+
 		available = {
 			is_subject = no
 			# Egypt
@@ -305,10 +324,13 @@ ALB_form_egypt_albania_category = {
 				controls_state = 910
 			}
 		}
+
 		visible = {
+			original_tag = ALB
 			has_completed_focus = ALB_liberate_our_homeland
 			NOT = { has_global_flag = form_egypt_albania_flag }
 		}
+
 		complete_effect = {
 			custom_effect_tooltip = form_country_gs_required_coring_states_tt
 			set_cosmetic_tag = EGY_ALB_united
@@ -330,6 +352,7 @@ ALB_form_egypt_albania_category = {
 			add_ideas = generic_recent_army_unification
 			add_ideas = generic_recent_economic_unification				
 		}
+
 		ai_will_do = {
 			factor = 200
 			modifier = {

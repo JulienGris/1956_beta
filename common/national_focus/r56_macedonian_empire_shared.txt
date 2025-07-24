@@ -31,8 +31,6 @@
 			factor = 10
 		}
 
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_political_unification
@@ -67,8 +65,6 @@
 		prerequisite = { focus = MAE_EMPIRE_persian_imperial_ambitions }
 		x = 2
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			has_idea = generic_recent_army_unification
 		}		
@@ -114,8 +110,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -182,8 +176,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 
 		}
@@ -204,8 +196,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -257,8 +247,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification

@@ -19,8 +19,7 @@ characters={
 		name="Mamadou Konaté"
 		portraits={
 			civilian={
-				large = GFX_kr_portrait_africa_generic_4
-				small = GFX_kr_portrait_africa_generic_4_small
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"
 			}
 		}
 		country_leader={
@@ -31,10 +30,9 @@ characters={
 	}
 	MLI_modibo_keita={
 		name="Modibo Keïta"
-		portraits = {
-			civilian = {
-				large = GFX_kr_portrait_africa_generic_1
-				small = GFX_kr_portrait_africa_generic_1_small
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 			}
 		}	
 		country_leader={

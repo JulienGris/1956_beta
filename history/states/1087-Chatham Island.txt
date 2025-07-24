@@ -7,7 +7,6 @@ state={
 
 	history={
 		add_core_of = NZL
-		add_core_of = CHT
 		owner = NZL
 		victory_points = {
 			13461 1

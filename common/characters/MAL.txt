@@ -10,7 +10,6 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits = { liberal_journalist }
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -34,7 +33,6 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits = { KAZ_healthcare_expert }
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -48,7 +46,6 @@ characters={
 		}
 		country_leader={
 			ideology= colonial_government
-			traits = { committed_colonialist }
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -63,7 +60,6 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits = { political_dancer }
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -93,7 +89,6 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits = { fierce_patriot }
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -108,7 +103,6 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits = { propaganda_expert }
 			expire="1953.3.1.1"
 			id=-1
 		}

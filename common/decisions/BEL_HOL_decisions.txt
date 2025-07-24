@@ -148,7 +148,7 @@ political_actions = {
 	}	
 }
 foreign_politics = {
-	HOL_request_control_over_flanders = {
+	HOL_ask_control_flanders = {
 
 		allowed = {
 			original_tag = HOL

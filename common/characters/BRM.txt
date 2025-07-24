@@ -54,7 +54,6 @@ characters = {
 			expire = "1965.1.1"
 			id = -1
 			traits = {
-				resistance_figure
 				r56_trait_opposed_to_fascism
 			}
 		}
@@ -62,20 +61,16 @@ characters = {
 			traits = {
 				jungle_rat
 				guerilla_fighter
-				homeland_connoisseur
 			}
-			skill = 3
+			skill = 2
 			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 2
+			defense_skill = 3
+			planning_skill = 1
 			logistics_skill = 3
 			legacy_id = 0
 			visible = {
 				NOT = {
-					OR = {
-						has_government = fascism
-						has_government = neutrality
-					}
+					has_government = fascism
 				}
 			}
 		}
@@ -84,7 +79,7 @@ characters = {
 		name = BRM_ba_maw
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MISC/portrait_BRM_ba_maw.dds"
+				large = "gfx/leaders/BRM/r56_portrait_BRM_Ba_Maw.dds"
 				small = "GFX_idea_BRM_ba_maw"
 			}
 			army = {
@@ -123,19 +118,19 @@ characters = {
 			id = -1
 			traits = {
 				r56_trait_opposed_to_communism
-				mon_dynasty_descendant			#vanilla trait
 			}
 		}
 		field_marshal = {
 			traits = {
 				homeland_connoisseur
 				infantry_officer
+				guerilla_fighter
 			}
-			skill = 2
-			attack_skill = 2
+			skill = 3
+			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 2
+			logistics_skill = 3
 			legacy_id = 0
 			visible = {
 				# While they collaborated with the Japanese, almost all of them were pardoned by the Burmese government upon independence
@@ -177,21 +172,6 @@ characters = {
 			}
 		}
 	}
-	BRM_myat_phaya_lat={
-		name=BRM_myat_phaya_lat
-		portraits={
-			civilian={
-				large="gfx/leaders/BRM/r56_portrait_BRM_Myat_Paya_Lat.dds"
-			}
-		}
-		country_leader={
-			ideology=constitutional_monarchy
-			traits={ konbuang_dynasty_descendant } 
-			expire="1965.1.1"
-			id=-1
-		}
-	}
-
 	BRM_bo_taya = {
 		name = BRM_bo_taya
 		portraits = {
@@ -199,8 +179,8 @@ characters = {
 				small = "GFX_idea_generic_political_advisor_asia_2"
 			}
 			army = {
-				large = "gfx/leaders/Asia/portrait_asia_generic_land_12.dds"
-				small = "gfx/interface/ideas/idea_asia_generic_land_12.dds"
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+				small = "GFX_idea_generic_land_asia_2"
 			}
 		}
 		advisor = {
@@ -234,8 +214,8 @@ characters = {
 		name = BRM_hmu_aung
 		portraits = {
 			army = {
-				large = "gfx/leaders/Asia/portrait_asia_generic_land_11.dds"
-				small = "gfx/interface/ideas/idea_asia_generic_land_11.dds"
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+				small = "GFX_idea_generic_land_asia_3"
 			}
 		}
 		corps_commander = {
@@ -255,7 +235,7 @@ characters = {
 		name = BRM_ne_win
 		portraits = {
 			army = {
-				large = "gfx/leaders/MISC/portrait_BRM_ne_win.dds"
+				large = "gfx/leaders/BRM/r56_portrait_BRM_Ne_Win.dds"
 				small = "GFX_idea_BRM_ne_win"
 			}
 		}
@@ -281,7 +261,7 @@ characters = {
 		advisor = {
 			# Commander-in-chief of the Burmese Army
 			slot = army_chief
-			idea_token = BRM_smith_dun
+			idea_token = BRM_acgs
 			allowed = {
 				original_tag = BRM
 			}
@@ -314,7 +294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			# AFPFL deputy later prime minister
+			# AFPFL deputy later Prime Minister
 			slot = political_advisor
 			idea_token = BRM_ba_swe
 			allowed = {
@@ -370,20 +350,6 @@ characters = {
 				factor = 1
 			}
 		}
-		corps_commander = {
-			traits = {
-				guerilla_fighter homeland_connoisseur organizer
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-			visible = {
-				has_government = communism
-			}
-		}
 	}
 	BRM_bo_let_ya = {
 		name = BRM_bo_let_ya
@@ -395,7 +361,7 @@ characters = {
 		advisor = {
 			# Burmese National Army chief of staff and later minister of defence
 			slot = army_chief
-			idea_token = BRM_bo_let_ya
+			idea_token = BRM_bo_taya
 			allowed = {
 				original_tag = BRM
 			}
@@ -718,16 +684,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_political_advisor_asia_2"
-			}
-		}
-	}
-
-	#GoE Burmese chaaracters	
-	BRM_archibald_cochrane = {			#will get promoted through on_action if puppeted by UK since we do not release Burma from start
-		name = BRM_archibald_cochrane
-		portraits = {
-			civilian = {
-				large = GFX_portrait_BRM_archibald_cochrane
 			}
 		}
 	}

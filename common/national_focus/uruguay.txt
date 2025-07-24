@@ -24,7 +24,7 @@ focus_tree = {
 	focus = {
 		id = URG_review_the_military_budget
 		icon = GFX_goal_URG_army
-		cost = 5
+		cost = 10
 		x = 4
 		y = 0
 		completion_reward = {
@@ -33,8 +33,23 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 1
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -59,13 +74,13 @@ focus_tree = {
 	focus = {
 		id = URG_expand_the_escuela_militar
 		icon = GFX_goal_generic_army_doctrines
-		cost = 8
+		cost = 10
 		x = 0
 		y = 1
 		prerequisite = { focus = URG_review_the_military_budget }
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			army_experience = 10
+			army_experience = 20
             add_doctrine_cost_reduction = {
 				name = URG_expand_the_escuela_militar
                 uses = 2
@@ -86,46 +101,36 @@ focus_tree = {
 
 	focus = {
 		id = URG_buy_czech_weapons
-		icon = GFX_goal_generic_befriend_czech
-		cost = 8
+		icon = GFX_goal_CZE_defense
+		cost = 10
 		x = -1
 		y = 2
 		prerequisite = { focus = URG_expand_the_escuela_militar }
 		relative_position_id = URG_review_the_military_budget
 		available = {
 			CZE = {
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_capitulated = no
-				has_opinion = {
-					target = URG
-					value > 39
-				}
-			}
+                OR = {
+                exists = yes
+                NOT = {
+                    has_war_with = URG
+                }
+            }
+            }
 		}
 
 		bypass = {
 			CZE = {
-				OR = {
-					has_war_with = ROOT
+				OR={
+					has_war_with = URG
 					exists = no
-					has_capitulated = yes
 				}
             }
 		}
 		completion_reward = {
-			army_experience = 5
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 1000
+				amount = 2000
 				producer = CZE
-			}
-			add_tech_bonus = {
-				name = infantry_weapons_bonus
-				bonus = 0.25
-				uses = 2
-				category = infantry_weapons
 			}
 		}
 		search_filters = { FOCUS_FILTER_MILITARY_EQUIPMENT }
@@ -143,51 +148,38 @@ focus_tree = {
 	focus = {
 		id = URG_purchase_bofors_cannons
 		icon = GFX_goal_generic_befriend_sweden
-		cost = 8
+		cost = 10
 		x = 1
 		y = 2
 		prerequisite = { focus = URG_expand_the_escuela_militar }
 		relative_position_id = URG_review_the_military_budget
 		available = {
 			SWE = {
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_capitulated = no
-				has_opinion = {
-					target = URG
-					value > 39
-				}
-			}
+                OR = {
+                exists = yes
+                NOT = {
+                    has_war_with = URG
+                }
+            }
+            }
 		}
 
 		bypass = {
+			
 			SWE = {
-				OR = {
-					has_war_with = ROOT
-					exists = no
-					has_capitulated = yes
+				OR={
+                has_war_with = URG
+                NOT = {
+					exists = yes
+                }
 				}
             }
 		}
 		completion_reward = {
-			army_experience = 5
 			add_equipment_to_stockpile = {
 				type = anti_air_equipment
-				amount = 150
+				amount = 250
 				producer = SWE
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 50
-				producer = SWE
-			}
-			add_tech_bonus = {
-				name = anti_air_equipment
-				bonus = 0.25
-				uses = 2
-				category = artillery
-				category = support_tech
 			}
 		}
 		search_filters = { FOCUS_FILTER_MILITARY_EQUIPMENT }
@@ -205,36 +197,24 @@ focus_tree = {
 	focus = {
 		id = URG_study_the_new_weaponry
 		icon = GFX_goal_ammunitions
-		cost = 8
+		cost = 10
 		x = 0
 		y = 3
 		prerequisite = { focus = URG_buy_czech_weapons }
 		prerequisite = { focus = URG_purchase_bofors_cannons }
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			army_experience = 15
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
 			add_tech_bonus = {
 				name = URG_study_the_new_weaponry
-                bonus = 0.5
-				ahead_reduction = 0.5
-                uses = 2
+                bonus = 1
+                uses = 1
                 category = infantry_weapons
-				category = artillery
+            }
+            add_tech_bonus = {
+				name = URG_study_the_new_weaponry
+                bonus = 1
+                uses = 1
+                category = artillery
             }
 		}
 		ai_will_do = {
@@ -261,50 +241,34 @@ focus_tree = {
 		relative_position_id = URG_review_the_military_budget
 		available = {
 			USA = {
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_capitulated = no
-				has_opinion = {
-					target = URG
-					value > 39
-				}
-			}
+                OR = {
+					exists = yes
+					NOT = {
+						has_war_with = URG
+					}
+            	}
+            }
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			if = {
+
+			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = USA_ford_motor_company_organization
-				mio:USA_ford_motor_company_organization = {
-					add_mio_size = 1
-					add_mio_funds = 500
+				show_mio_tooltip = URG_Ford_uruguay_organization
+				mio:URG_Ford_uruguay_organization = {
+					add_mio_funds = 1000
 				}
 			}
 			else = {
 				custom_effect_tooltip = available_designer
 				show_ideas_tooltip = URG_Ford_uruguay
 			}
+
 			add_equipment_to_stockpile = {
 				type = motorized_equipment
-				amount = 250
+				amount = 500
 				producer = USA
 			}
 		}
@@ -322,7 +286,7 @@ focus_tree = {
 
 	focus = {
 		id = URG_invite_vickers
-		icon = GFX_focus_chi_british_cooperation
+		icon = GFX_focus_generic_study_foreign_tanks
 		cost = 10
 		x = -2
 		y = 4
@@ -333,63 +297,34 @@ focus_tree = {
 		relative_position_id = URG_review_the_military_budget
 		available = {
 			ENG = {
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_capitulated = no
-				has_opinion = {
-					target = URG
-					value > 39
-				}
-			}
+                OR = {
+					exists = yes
+					NOT = {
+						has_war_with = URG
+					}
+            	}
+            }
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			if = {
+
+			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				custom_effect_tooltip = available_mio_tt
 				show_mio_tooltip = ENG_vickers_armstrong_eng_organization
 				mio:ENG_vickers_armstrong_eng_organization = {
-					add_mio_size = 1
-					add_mio_funds = 500
+					add_mio_funds = 1000
 				}
 			}
 			else = {
 				custom_effect_tooltip = available_tank_designer
 				show_ideas_tooltip = URG_vickers_armstrong
 			}
-			IF = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_equipment_to_stockpile = {
-					type = light_tank_chassis
-					amount = 50
-					producer = ENG
-				}
-			}
-			else = {
-				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1
-					amount = 50
-					producer = ENG
-				}
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+				amount = 200
+				producer = ENG
 			}
 		}
 		search_filters = { FOCUS_FILTER_MILITARY_EQUIPMENT }
@@ -406,7 +341,7 @@ focus_tree = {
 
 	focus = {
 		id = URG_mechanize_the_troops
-		icon = GFX_focus_CHL_domestic_production_of_the_willys_mb
+		icon = GFX_goal_mechanized_offensive
 		cost = 10
 		x = -3
 		y = 5
@@ -416,12 +351,10 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			army_experience = 15
 			add_tech_bonus = {
 				name = URG_mechanize_the_troops
-                bonus = 0.5
+                bonus = 1
                 uses = 1
-				ahead_reduction = 0.5
                 category = cat_mechanized_equipment
             }
 		}
@@ -438,7 +371,7 @@ focus_tree = {
 
 	focus = {
 		id = URG_an_oriental_rifle
-		icon = GFX_goal_machine_gun
+		icon = GFX_focus_generic_combined_arms
 		cost = 10
 		x = 0
 		y = 4
@@ -447,31 +380,10 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 500
-				producer = URG
-			}
 			add_tech_bonus = {
 				name = URG_an_oriental_rifle
                 bonus = 1
                 uses = 1
-				ahead_reduction = 1
                 category = infantry_weapons
             }
 		}
@@ -489,7 +401,7 @@ focus_tree = {
 	focus = {
 		id = URG_create_the_military_engineering_school
 		icon = GFX_goal_generic_military_funding
-		cost = 8
+		cost = 10
 		x = 0
 		y = 5
 		prerequisite = { 
@@ -497,13 +409,10 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			army_experience = 25
-			add_command_power = 35
 			add_tech_bonus = {
 				name = support_tech_bonus_name
-				bonus = 0.5
+				bonus = 1
 				uses = 2
-				ahead_reduction = 0.5
 				category = support_tech
 			}
 		}
@@ -531,25 +440,24 @@ focus_tree = {
 		completion_reward = {
 			300 = {
 				add_building_construction = {	#Fortaleza del Cerro
-					type = bunker
-					level = 1
-					province = 10362
-					instant_build = yes
-				}
-				add_building_construction = {	#Fortaleza del Cerro
 					type = coastal_bunker
 					level = 2
 					province = 10362
 					instant_build = yes
 				}
-				add_building_construction = {	#Fuerte San Miguel and Fortaleza de Santa Teresa
+				add_building_construction = {	#Fortaleza del Cerro
+					type = bunker
+					level = 2
+					province = 10362
+					instant_build = yes
+				}
+				add_building_construction = {	#Fortaleza de Santa Teresa and Fuerte San Miguel
 					type = bunker
 					level = 2
 					province = 10347
 					instant_build = yes
-				}	
+				}			
 			}
-			add_ideas = GEN_Anti_Invasion_I
 		}
 		ai_will_do = {
 			factor = 2.5
@@ -592,19 +500,6 @@ focus_tree = {
                     owner = URG
                 }
             }
-			add_tech_bonus = {
-				name = marine_bonus
-				bonus = 0.5
-				uses = 1
-				ahead_reduction = 0.5
-				category = marine_tech
-			}
-			add_doctrine_cost_reduction = {
-				name = marine_bonus
-                uses = 2
-                cost_reduction = 0.5
-                category = cat_marines_doctrine
-            }
 		}
 		ai_will_do = {
 			factor = 2.5
@@ -631,36 +526,23 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			if = {
+
+			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				custom_effect_tooltip = available_mio_tt
 				show_mio_tooltip = URG_CIACA_organization
 				mio:URG_CIACA_organization = {
-					add_mio_size = 1
-					add_mio_funds = 500
+					add_mio_funds = 1500
 				}
 			}
 			else = {
 				custom_effect_tooltip = available_designer
 				show_ideas_tooltip = URG_CIACA
 			}
+			
+			
 			add_tech_bonus = {
 				name = URG_expand_the_CIACA
                 bonus = 1
@@ -682,7 +564,7 @@ focus_tree = {
 	focus = {
 		id = URG_modernize_the_arsenal
 		icon = GFX_goal_generic_design_equipment_standards
-		cost = 8
+		cost = 10
 		x = 1
 		y = 6
 		prerequisite = { 
@@ -693,24 +575,9 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
 			add_tech_bonus = {
 				name = URG_modernize_the_arsenal
-                bonus = 0.5
+                bonus = 1
                 uses = 2
                 category = artillery
 				category = infantry_weapons
@@ -730,7 +597,7 @@ focus_tree = {
 	focus = {
 		id = URG_create_the_direccion_de_sanidad
 		icon = GFX_goal_medicine
-		cost = 8
+		cost = 10
 		x = -1
 		y = 6
 		prerequisite = { 
@@ -741,13 +608,10 @@ focus_tree = {
 		}
 		relative_position_id = URG_review_the_military_budget
 		completion_reward = {
-			army_experience = 15
-			add_command_power = 25
 			add_tech_bonus = {
 				name = URG_create_the_direccion_de_sanidad
-                bonus = 0.5
+                bonus = 1
                 uses = 2
-				ahead_reduction = 0.5
                 category = hospital_tech
 				category = logistics_tech
             }
@@ -766,20 +630,12 @@ focus_tree = {
 	### POLITICAL ###
 	focus = {
 		id = URG_the_terra_dictatorship
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_goal_uruguay_terra
 		cost = 10
-		x = 56
+		x = 55
 		y = 0
 		completion_reward = {
-			add_political_power = 15
-			add_stability = 0.05
-			add_country_leader_trait = ECU_moderate_dictator
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
+			add_political_power = 150
 		}
 		bypass = {
 			NOT = {
@@ -801,8 +657,8 @@ focus_tree = {
 
 	focus = {
 		id = URG_solidarismo
-		icon = GFX_focus_generic_workers
-		cost = 8
+		icon = GFX_goal_generic_citizens
+		cost = 10
 		prerequisite = { focus = URG_the_terra_dictatorship }
 		x = -2
 		y = 1
@@ -812,8 +668,23 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 1
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -822,17 +693,6 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-			add_war_support = 0.05
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
 			}
 		}
 		bypass = {
@@ -855,25 +715,15 @@ focus_tree = {
 
 	focus = {
 		id = URG_authoritarian_liberalism
-		icon = GFX_goal_democracy_people
-		cost = 8
+		icon = GFX_goal_generic_internal_democracy
+		cost = 10
 		prerequisite = { focus = URG_the_terra_dictatorship }
 		x = 0
 		y = 1
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
 			add_war_support = 0.1
 			add_country_leader_trait = liberal_grandee	
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
 		}
 		bypass = {
 			NOT = {
@@ -895,18 +745,12 @@ focus_tree = {
 
 	focus = {
 		id = URG_legalize_female_suffrage
-		icon = GFX_goal_AFG_womens_education
-		cost = 8
+		icon = GFX_goal_democracy_people
+		cost = 10
 		prerequisite = { focus = URG_the_terra_dictatorship }
 		x = 2
 		y = 1
 		relative_position_id = URG_the_terra_dictatorship
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
-		}
 		bypass = {
 			NOT = {
 				has_country_leader = {
@@ -923,19 +767,13 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-			add_stability = 0.05
-			add_ideas = r56i_laws_gender_limited
+			add_ideas = FRA_womens_suffrage
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_constitutional_reforms
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_goal_constitution
 		cost = 10
 		prerequisite = { focus = URG_legalize_female_suffrage }
 		prerequisite = { focus = URG_authoritarian_liberalism }
@@ -944,14 +782,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			add_political_power = 35
-			add_ideas = URG_strong_constitution
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
+			add_ideas = URG_a_new_constitution
 		}
 		bypass = {
 			NOT = {
@@ -968,7 +799,6 @@ focus_tree = {
 				is_historical_focus_on = yes
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -977,12 +807,6 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = URG_constitutional_reforms
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
 		}
 		bypass = {
 			NOT = {
@@ -996,27 +820,8 @@ focus_tree = {
 		y = 3
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
 			add_timed_idea = {
-				idea = URG_axis_loans_idea
+				idea = URG_axis_loans
 				days = 365
 			}
 		}
@@ -1025,16 +830,10 @@ focus_tree = {
 
 	focus = {
 		id = URG_crackdown_on_the_revolutionaries
-		icon = GFX_goal_attack_communists
+		icon = GFX_goal_generic_comm_purge
 		cost = 10
 		prerequisite = {
 			focus = URG_constitutional_reforms
-		}
-		available = {
-			has_country_leader = {
-				character = URG_gabriel_terra
-				ruling_only = yes
-			}
 		}
 		bypass = {
 			NOT = {
@@ -1050,7 +849,6 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = URG_aftermath_of_paso_morlan
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -1058,313 +856,168 @@ focus_tree = {
 		icon = GFX_goal_generic_election
 		cost = 10
 		prerequisite = {
-			focus = URG_axis_loans focus = URG_crackdown_on_the_revolutionaries
+			focus = URG_axis_loans
+		}
+		prerequisite = {
+			focus = URG_crackdown_on_the_revolutionaries
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+				always = no
 			}
+		}
+		bypass = {
+			has_country_flag = URG_1938_elections_held
 		}
 		
 		x = 0
 		y = 4
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				country_event = { id = uruguay.1 hours = 12 }
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
-		id = URG_seize_the_opprotunity
-		icon = GFX_goal_FRA_front_de_la_liberte
-		cost = 8
+		id = URG_the_torch_stays_lit
+		icon = GFX_goal_generic_liberty
+		cost = 10
 		prerequisite = {
 			focus = URG_1938_elections
 		}
-		mutually_exclusive = {
-			focus = URG_socialist_victory focus = URG_colorado_victory focus = URG_blanco_victory
-		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
 				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+				always = no
 			}
-			has_country_flag = URG_deadlock_flag
 		}
-		x = -12
+		bypass = {
+			OR = {
+				has_country_flag = URG_colorado_victory_flag
+				has_country_flag = URG_blanco_victory_flag
+				has_country_flag = URG_socialist_victory_flag
+			}
+		}
+		x = 0
 		y = 5
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				add_stability = -0.05
-				add_popularity = {
-					ideology = neutrality
-					popularity = -0.10
-				}
-				country_event = {
-					id = uruguay.3
-					days = 3
-					random_days = 3
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_colorado_victory
-		icon = GFX_goal_uruguay_democracia_y_paz
-		cost = 8
+		icon = GFX_goal_uruguay_democracy
+		cost = 10
 		prerequisite = {
-			focus = URG_1938_elections
-		}
-		mutually_exclusive = {
-			focus = URG_socialist_victory focus = URG_seize_the_opprotunity focus = URG_blanco_victory
+			focus = URG_the_torch_stays_lit
 		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
 				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+				always = no
 			}
+		}
+		bypass = {
 			has_country_flag = URG_colorado_victory_flag
 		}
-		x = 5
-		y = 5
+		x = 0
+		y = 6
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.05
-				}
-				add_stability = 0.10
-				set_politics = {
-					ruling_party = neutrality
-					elections_allowed = yes
-					last_election = "1938.3.27"
-					election_frequency = 48
-				}
-				promote_character = {
-					character = URG_alfredo_baldomir_ferrari
-					ideology = conservatism_n
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_blanco_victory
-		icon = GFX_goal_generic_secular_catholic
-		cost = 8
+		icon = GFX_goal_URG_partido_nacional
+		cost = 10
 		prerequisite = {
-			focus = URG_1938_elections
-		}
-		mutually_exclusive = {
-			focus = URG_socialist_victory focus = URG_seize_the_opprotunity focus = URG_colorado_victory
+			focus = URG_the_torch_stays_lit
 		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
-				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+    			tooltip = URG_election_tt
+    			always = no
 			}
+		}
+		bypass = {
 			has_country_flag = URG_blanco_victory_flag
 		}
-		x = 12
-		y = 5
+		x = 7
+		y = 6
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.15
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.05
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-					last_election = "1938.3.27"
-					election_frequency = 48
-				}
-				set_country_flag = URG_blanco_victory_flag
-				promote_character = {
-					character = URG_luis_alberto_de_herrera
-					ideology = conservatism
-				}
-				set_party_name = {
-					ideology = democratic
-					long_name = URG_partido_nacional_party_long
-					name = URG_partido_nacional_party
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_revisionist_coup
 		icon = GFX_goal_uruguay_revisionist_coup
-		cost = 5
+		cost = 10
 		prerequisite = {
-			focus = URG_seize_the_opprotunity
-		}
-		mutually_exclusive = {
-			focus = URG_communist_revolution
+			focus = URG_1938_elections
 		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
-				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+    			tooltip = URG_election_tt
+    			always = no
 			}
 		}
-		x = 3
-		y = 1
-		relative_position_id = URG_seize_the_opprotunity
+		bypass = {
+			has_country_flag = URG_revisionist_coup_flag
+		}
+		x = 12
+		y = 5
+		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				promote_character = {
-					character = URG_consejo_nacional_de_administracion
-					ideology = centrism_democratic
-				}
-				add_stability = -0.1
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.15
-				}
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_socialist_victory
-		icon = GFX_goal_generic_socdem_2
-		cost = 8
+		icon = GFX_goal_uruguay_movimiento_socialista
+		cost = 10
 		prerequisite = {
-			focus = URG_1938_elections
-		}
-		mutually_exclusive = {
-			focus = URG_seize_the_opprotunity focus = URG_colorado_victory focus = URG_blanco_victory
+			focus = URG_the_torch_stays_lit
 		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
-				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+    			tooltip = URG_election_tt
+    			always = no
 			}
-			has_country_flag = URG_deadlock_flag
 		}
-		x = -3
-		y = 5
+		bypass = {
+			has_country_flag = URG_socialist_victory_flag
+		}
+		x = -7
+		y = 6
 		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.10
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.10
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-					last_election = "1938.3.27"
-					election_frequency = 48
-				}
-				set_country_flag = URG_socialist_victory_flag
-				promote_character = {
-					character = URG_emilio_frugoni
-					ideology = socialism
-				}
-				set_party_name = {
-					ideology = democratic
-					long_name = URG_partido_socialista_party_long
-					name = URG_partido_socialista_party
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_communist_revolution
 		icon = GFX_goal_uruguay_follow_pcu
-		cost = 5
+		cost = 10
 		prerequisite = {
-			focus = URG_seize_the_opprotunity
-		}
-		mutually_exclusive = {
-			focus = URG_revisionist_coup
+			focus = URG_1938_elections
 		}
 		available = {
-			always = no
 			custom_trigger_tooltip = {
-				tooltip = URG_election_tt
-				OR = {
-					has_country_flag = URG_colorado_victory_flag
-					has_country_flag = URG_blanco_victory_flag
-					has_country_flag = URG_deadlock_flag
-				}
+    			tooltip = URG_election_tt
+    			always = no
 			}
 		}
-		x = -3
-		y = 1
-		relative_position_id = URG_seize_the_opprotunity
+		bypass = {
+			has_country_flag = URG_communist_revolution_flag
+		}
+		x = -13
+		y = 5
+		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			effect_tooltip = {
-				add_stability = -0.1
-				add_popularity = {
-					ideology = communism
-					popularity = 0.15
-				}
-				set_politics = {
-					ruling_party = communism
-					elections_allowed = no
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	
@@ -1391,35 +1044,15 @@ focus_tree = {
 				is_historical_focus_on = yes
 			}
 		}
-		available = {
-			has_war = no
-			num_of_civilian_factories > 8
-		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_ideas = URG_switzerland_of_the_americas_idea
-			add_ideas = neutrality_idea
+			add_ideas = { urg_switzerland_of_the_americas_idea }
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
 	focus = {
 		id = URG_join_the_allies
-		icon = GFX_allies
+		icon = GFX_goal_uruguay_join_allies
 		cost = 10
 		prerequisite = {
 			focus = URG_democracia_y_paz
@@ -1504,32 +1137,18 @@ focus_tree = {
 			focus = URG_switzerland_of_the_americas
 			focus = URG_join_the_allies
 		}
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
 		x = 2
 		y = 6
 		relative_position_id = URG_colorado_victory
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
+				factor = 10
 				is_historical_focus_on = yes
-			}
-		}
-		available = {
-			is_subject = no
-			is_in_faction = no
-			any_country = {
-				has_country_flag = hispanic
-				OR = {
-					is_neighbor_of = ROOT
-					tag = ARG
-					tag = PAR
-					tag = BOL
-				}
-				NOT = {
-					has_war_with = ROOT
-					has_capitulated = yes
-					exists = no
-				}
 			}
 		}
 		completion_reward = {
@@ -1537,26 +1156,6 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			create_faction = URG_montevideo_treaty
-			every_country = {
-				limit = {
-					has_country_flag = hispanic
-					OR = {
-						is_neighbor_of = ROOT
-						tag = ARG
-						tag = PAR
-						tag = BOL
-					}
-					NOT = {
-						has_war_with = ROOT
-						has_capitulated = yes
-						exists = no
-						tag = BRA
-					}
-				}
-				country_event = {
-					id = generic.5 days = 1 hours = 12
-				}
-			}
 		}
 		search_filters = { FOCUS_FILTER_ALLIANCE }
 	}
@@ -1570,7 +1169,7 @@ focus_tree = {
 			focus = URG_switzerland_of_the_americas
 			focus = URG_join_the_allies
 		}
-		x = -1
+		x = 0
 		y = 7
 		relative_position_id = URG_colorado_victory
 		ai_will_do = {
@@ -1581,62 +1180,15 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = ROOT
-				popularity = 0.05
-			}
-			add_war_support = 0.15
 			add_ideas = { URG_libertad_o_muerte }
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_MILITARY_IMPROVEMENT }
 	}
 
 	focus = {
-		id = URG_take_a_stance
-		icon = GFX_focus_attack_germany
-		cost = 10
-		prerequisite = {
-			focus = URG_expand_the_montevideo_treaty
-			focus = URG_join_the_allies
-		}
-		x = 1
-		y = 7
-		relative_position_id = URG_colorado_victory
-		available = {
-			GER = {
-				NOT = { has_government = democratic }
-				has_capitulated = no
-				NOT = {
-					has_war_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				is_historical_focus_on = yes
-				GER = {
-					has_government = fascism 
-					has_war_with_major = yes 
-				}
-			}
-		}
-		will_lead_to_war_with = GER
-		completion_reward = {
-			add_war_support = 0.05
-			create_wargoal = {
-				target = GER
-				type = topple_government
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-	}
-
-	focus = {
 		id = URG_curtail_fascist_influence
-		icon = GFX_focus_generic_anti_fascist_diplomacy
-		cost = 5
+		icon = GFX_goal_fascism_banned
+		cost = 10
 		prerequisite = {
 			focus = URG_colorado_victory
 		}
@@ -1644,51 +1196,19 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_colorado_victory
 		completion_reward = {
-			add_political_power = 50
 			add_popularity = {
 			    ideology = fascism
 			    popularity = -0.1
 			}
-			add_stability = 0.05
+			add_stability = 0.1
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
 
 	focus = {
 		id = URG_expand_the_ministerio_de_relaciones_exteriores
-		icon = GFX_goal_generic_foreign_diplomacy
-		cost = 8
-		prerequisite = {
-			focus = URG_colorado_victory
-		}
-		x = 2
-		y = 1
-		relative_position_id = URG_colorado_victory
-		completion_reward = {
-			add_political_power = 50
-			add_ideas = URG_ministerio_de_relaciones_exteriores
-			every_country = {
-				limit = {
-					is_major = yes
-					NOT = {
-						has_government = fascism
-						has_government = communism
-						has_war_with = ROOT
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = medium_increase
-				}
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-	}
-
-	focus = {
-		id = URG_western_commercial_relations
-		icon = GFX_goal_generic_positive_trade_relations
-		cost = 10
+		icon = GFX_goal_generic_major_diplo
+		cost = 5
 		prerequisite = {
 			focus = URG_colorado_victory
 		}
@@ -1696,12 +1216,46 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_colorado_victory
 		completion_reward = {
+			add_ideas = URG_ministerio_de_relaciones_exteriores
+		}
+	}
+
+	focus = {
+		id = URG_western_commercial_relations
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		cost = 10
+		prerequisite = {
+			focus = URG_colorado_victory
+		}
+		x = 2
+		y = 1
+		relative_position_id = URG_colorado_victory
+		completion_reward = {
+			add_opinion_modifier = { target = ENG modifier = trade_deal_relations }
+			add_opinion_modifier = { target = ENG modifier = trade_deal }
+			add_opinion_modifier = { target = USA modifier = trade_deal_relations }
+			add_opinion_modifier = { target = USA modifier = trade_deal }
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 1
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -1711,29 +1265,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			every_country = {
-				limit = {
-					is_major = yes
-					NOT = {
-						has_government = fascism
-						has_government = communism
-						has_war_with = ROOT
-					}
-					OR = {
-						tag = ENG
-						tag = FRA
-						tag = USA
-					}
-					exists = yes
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = trade_deal
-				}
-			}
-			add_ideas = BUL_trade_agreement
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
 	focus = {
@@ -1741,54 +1273,20 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_axis
 		cost = 5
 		prerequisite = {
-			focus = URG_curtail_fascist_influence focus = URG_expand_the_ministerio_de_relaciones_exteriores
+			focus = URG_curtail_fascist_influence
+		}
+		prerequisite = {
+			focus = URG_western_commercial_relations
 		}
 		x = 1
 		y = 2
 		relative_position_id = URG_colorado_victory
-		available = {
-			any_other_country = {
-				is_major = yes
-				has_government = fascism
-				exists = yes
-				NOT = {
-					has_war_with = ROOT
-				}
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-			}
-		}
 		completion_reward = {
-			every_country = {
-				limit = {
-					is_major = yes
-				has_government = fascism
-				exists = yes
-				NOT = {
-					has_war_with = ROOT
-				}
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				}
-				ROOT = {
-					send_embargo = PREV
-					effect_tooltip = {
-						add_opinion_modifier = {
-							target = ROOT
-							modifier = embargoed_us
-						}
-					}
-				}
-			}
+			send_embargo = GER
+			send_embargo = ITA
+			send_embargo = JAP
 			custom_effect_tooltip = embargo_relation_tt
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -1798,25 +1296,23 @@ focus_tree = {
 		prerequisite = {
 			focus = URG_curtail_fascist_influence
 		}
+		prerequisite = {
+			focus = URG_expand_the_ministerio_de_relaciones_exteriores
+		}
 		x = -1
 		y = 2
 		relative_position_id = URG_colorado_victory
 		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
 			swap_ideas = {
-				remove_idea = URG_strong_constitution
-				add_idea = URG_democratic_constitution
+				remove_idea = URG_a_new_constitution
+				add_idea = URG_a_new_constitution2
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_execute_the_golpe_bueno
-		icon = GFX_goal_AFG_disband_loya_jirga
+		icon = GFX_goal_generic_liberty
 		cost = 10
 		prerequisite = {
 			focus = URG_modify_the_terrist_constitution
@@ -1833,33 +1329,18 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 			    ideology = democratic
-			    popularity = 0.15
-			}
-			URG_alfredo_baldomir_ferrari = {
-				add_country_leader_role = {
-					country_leader = {
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							great_architect army_connections
-						}
-					}
-					promote_leader = yes
-				}
+			    popularity = 0.1
 			}
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes
-				last_election = "1938.3.27"
-				election_frequency = 48
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_public_works_projects
-		icon = GFX_focus_generic_public_works
+		icon = GFX_goal_generic_construction_tools
 		cost = 10
 		prerequisite = {
 			focus = URG_execute_the_golpe_bueno
@@ -1875,26 +1356,26 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1904,7 +1385,7 @@ focus_tree = {
 
 	focus = {
 		id = URG_social_reforms
-		icon = GFX_goal_FRA_reynaud_economic_reforms
+		icon = GFX_goal_generic_citizens
 		cost = 10
 		prerequisite = {
 			focus = URG_execute_the_golpe_bueno
@@ -1920,22 +1401,16 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
 			swap_ideas = {
 				remove_idea = URG_legacy_of_batlle
 				add_idea = URG_legacy_of_batlle2
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
-
 	focus = {
 		id = URG_democracia_y_paz
-		icon = GFX_goal_generic_freedom
-		cost = 8
+		icon = GFX_goal_uruguay_democracia_y_paz
+		cost = 10
 		prerequisite = {
 			focus = URG_social_reforms
 		}
@@ -1955,40 +1430,21 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = URG_colorado_hegemony
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_americanismo
-		icon = GFX_focus_generic_befriend_usa
+		icon = GFX_goal_generic_usa_assistance
 		cost = 10
 		prerequisite = {
 			focus = URG_blanco_victory
 		}
 		x = -1
 		y = 1
-		available = {
-			USA = {
-				is_major = yes
-				has_government = democratic
-				exists = yes
-				NOT = {
-					has_war_with = ROOT
-				}
-			}
-		}
 		relative_position_id = URG_blanco_victory
 		completion_reward = {
-			add_political_power = 35
 			add_ideas = URG_americanismo
-			USA = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = medium_increase
-				}
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2002,12 +1458,28 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_blanco_victory
 		completion_reward = {
+			add_ideas = URG_privatization
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 1
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -2021,8 +1493,23 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 1
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -2032,14 +1519,13 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = URG_privatization
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
 	focus = {
 		id = URG_ruralismo
-		icon = GFX_goal_agrarian_reform
+		icon = GFX_goal_generic_promote_ruralism
 		cost = 5
 		prerequisite = {
 			focus = URG_americanismo
@@ -2061,7 +1547,7 @@ focus_tree = {
 
 	focus = {
 		id = URG_anti_statism
-		icon = GFX_focus_DEN_limited_regulations
+		icon = GFX_goal_generic_political
 		cost = 10
 		prerequisite = {
 			focus = URG_ruralismo
@@ -2070,24 +1556,8 @@ focus_tree = {
 		y = 3
 		relative_position_id = URG_blanco_victory
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_ideas = URG_anti_statism_idea
+			add_ideas = URG_anti_statism
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2103,7 +1573,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = URG_traditionalism
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2120,18 +1589,8 @@ focus_tree = {
 		y = 4
 		relative_position_id = URG_blanco_victory
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.10
-			}
-			add_war_support = 0.10
 			remove_ideas = URG_legacy_of_batlle
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2147,7 +1606,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = URG_legacy_of_saravia
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2159,21 +1617,16 @@ focus_tree = {
 			focus = URG_blanco_victory
 		}
 		x = 4
-		y = 2
-		relative_position_id = URG_colorado_victory
+		y = 7
+		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
-			add_research_slot = 1
-			add_timed_idea = {
-				idea = URG_education_reforms
-				days = 365
-			}
+			add_ideas = URG_education_reforms
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
 
 	focus = {
 		id = URG_memories_of_the_council
-		icon = GFX_focus_generic_court
+		icon = GFX_goal_URG_coat_of_arms
 		cost = 10
 		prerequisite = {
 			focus = URG_education_reforms
@@ -2181,78 +1634,18 @@ focus_tree = {
 		available = {
 			has_government = democratic
 		}
-		x = 0
-		y = 2
-		relative_position_id = URG_education_reforms
+		x = 4
+		y = 8
+		relative_position_id = URG_the_terra_dictatorship
 		completion_reward = {
 			country_event = uruguay.2
-			custom_effect_tooltip = report_reward
-			effect_tooltip = {
-				promote_character = {
-					character = URG_consejo_nacional_de_administracion
-					ideology = centrism_democratic
-				}
-				add_stability = 0.05
-			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_work_with_the_PCU
-		icon = GFX_goal_communist_revolt
-		cost = 8
-		prerequisite = {
-			focus = URG_socialist_victory
-		}
-		x = 1
-		y = 1
-		relative_position_id = URG_socialist_victory
-		completion_reward = {
-			add_stability = 0.1
-			add_political_power = 50
-			add_popularity = { ideology = communism popularity = 0.10 }
-			add_country_leader_trait = united_front_leader
-		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-	}
-
-	focus = {
-		id = URG_reapproach_the_soviet_union
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 8
-		prerequisite = {
-			focus = URG_work_with_the_PCU
-		}
-		x = 1
-		y = 2
-		relative_position_id = URG_socialist_victory
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_popularity = { ideology = communism popularity = 0.05 }
-			add_opinion_modifier = { target = SOV modifier = huge_increase }
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-	}
-
-	focus = {
-		id = URG_destroy_bipartidism
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 8
+		icon = GFX_focus_generic_russian_deal_communist
+		cost = 10
 		prerequisite = {
 			focus = URG_socialist_victory
 		}
@@ -2260,13 +1653,44 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.15
-			}
+			add_popularity = { ideology = communism popularity = 0.15 }
+			add_country_leader_trait = united_front_leader
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = 0.05
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {
+		id = URG_reapproach_the_soviet_union
+		icon = GFX_focus_propaganda_soviet
+		cost = 5
+		prerequisite = {
+			focus = URG_work_with_the_PCU
+		}
+		x = 3
+		y = 2
+		relative_position_id = URG_socialist_victory
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.05 }
+			add_opinion_modifier = { target = SOV modifier = huge_increase }
+		}
+	}
+
+	focus = {
+		id = URG_destroy_bipartidism
+		icon = GFX_goal_uruguay_destroy_bipartidism
+		cost = 10
+		prerequisite = {
+			focus = URG_socialist_victory
+		}
+		x = 1
+		y = 1
+		relative_position_id = URG_socialist_victory
+		completion_reward = {
 			add_ideas = URG_bipartidism_destroyed
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
@@ -2276,7 +1700,7 @@ focus_tree = {
 		prerequisite = {
 			focus = URG_destroy_bipartidism
 		}
-		x = 3
+		x = 1
 		y = 2
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
@@ -2287,59 +1711,58 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
-						building = industrial_complex
-						size > 1
+						building = arms_factory
+						size > 0
 						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = industrial_complex
+					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_stability = -0.10
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				custom_effect_tooltip = remove_mio_tt
-				show_mio_tooltip = USA_ford_motor_company_organization
-				show_mio_tooltip = ENG_vickers_armstrong_eng_organization
-				show_mio_tooltip = USA_ford_motor_company_organization
-			}
-			else = {
-				custom_effect_tooltip = remove_designer_tt
-				show_ideas_tooltip = URG_Ford_uruguay
-				show_ideas_tooltip = URG_vickers_armstrong
-				show_ideas_tooltip = URG_CIACA
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -2347,75 +1770,59 @@ focus_tree = {
 
 	focus = {
 		id = URG_enshrine_worker_rights
-		icon = GFX_focus_generic_full_employment
-		cost = 10
-		prerequisite = {
-			focus = URG_socialist_victory
-		}
-		x = -1
-		y = 1
-		available = {
-			NOT = {
-				has_completed_focus = URG_reformism
-			}
-		}
-		relative_position_id = URG_socialist_victory
-		completion_reward = {
-			add_stability = 0.10
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-			add_ideas = COL_workers_protection_idea
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-	}
-
-	focus = {
-		id = URG_further_batllist_reforms
-		icon = GFX_generic_goal_communist_reforms
+		icon = GFX_goal_workers_support
 		cost = 10
 		prerequisite = {
 			focus = URG_socialist_victory
 		}
 		x = -3
 		y = 1
-		available = {
-			NOT = {
-				has_completed_focus = URG_reformism
-			}
-		}
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
-			add_research_slot = 1
+			add_ideas = COL_workers_protection
+		}
+	}
+
+	focus = {
+		id = URG_further_batllist_reforms
+		icon = GFX_goal_uruguay_further_batllist_reforms
+		cost = 10
+		prerequisite = {
+			focus = URG_socialist_victory
+		}
+		x = -1
+		y = 1
+		relative_position_id = URG_socialist_victory
+		completion_reward = {
 			swap_ideas = {
 				remove_idea = URG_legacy_of_batlle
 				add_idea = URG_legacy_of_batlle_s
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 	}
 
 	focus = {
 		id = URG_reformism
-		icon = GFX_goal_FRA_social_reforms
-		cost = 5
+		icon = GFX_generic_goal_communist_reforms
+		cost = 10
 		prerequisite = {
-			focus = URG_further_batllist_reforms focus = URG_enshrine_worker_rights
+			focus = URG_further_batllist_reforms
+		}
+		prerequisite = {
+			focus = URG_enshrine_worker_rights
 		}
 		x = -2
 		y = 2
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
 			add_ideas = URG_democracy_and_socialism
-			custom_effect_tooltip = lock_previous_focuses_tt
 		}
 	}
 
 	focus = {
 		id = URG_empower_the_CGT
-		icon = GFX_social_welfare
-		cost = 8
+		icon = GFX_goal_uruguay_empower_the_CGT
+		cost = 10
 		prerequisite = {
 			focus = URG_reformism
 		}
@@ -2426,67 +1833,54 @@ focus_tree = {
 		y = 3
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
 			add_ideas = URG_labourism
 		}
 	}
 
 	focus = {
 		id = URG_work_with_the_batllists
-		icon = GFX_goal_generic_intelligence_exchange
-		cost = 8
+		icon = GFX_goal_generic_liberty
+		cost = 10
 		prerequisite = {
 			focus = URG_empower_the_CGT
 		}
 		mutually_exclusive = {
 			focus = URG_work_with_the_anarchists
 		}
-		x = 1
+		x = -1
 		y = 4
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
 			add_stability = 0.05
-			add_political_power = 35
-			add_war_support = 0.05
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.10
-			}
+			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_work_with_the_anarchists
-		icon = GFX_focus_ARG_no_gods_no_masters
-		cost = 8
+		icon = GFX_goal_generic_election_chaos
+		cost = 10
 		prerequisite = {
 			focus = URG_empower_the_CGT
 		}
 		mutually_exclusive = {
 			focus = URG_work_with_the_batllists
 		}
-		x = -1
+		x = 1
 		y = 4
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
-			add_stability = 0.10
-			add_war_support = -0.05
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-			add_ideas = SPR_anarchist_public_transport
+			add_stability = -0.15
+			add_war_support = 0.1
+			add_political_power = 100
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 	}
 
 	focus = {
 		id = URG_champion_of_the_people
-		icon = GFX_focus_focus_fra_revolution_utmost
+		icon = GFX_goal_generic_socialism_fist
 		cost = 10
 		prerequisite = {
 			focus = URG_work_with_the_batllists
@@ -2496,33 +1890,13 @@ focus_tree = {
 		y = 5
 		relative_position_id = URG_socialist_victory
 		completion_reward = {
-			add_country_leader_trait = champion_of_equality
+			add_country_leader_trait = social_reformer
 		}
 	}
 
 	focus = {
-		id = URG_embrace_our_catholic_heritage
-		icon = GFX_focus_generic_pope
-		cost = 8
-		prerequisite = {
-			focus = URG_revisionist_coup
-		}
-		x = 1
-		y = 1
-		relative_position_id = URG_revisionist_coup
-		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-			add_ideas = CHL_state_catholicism_idea
-		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-	}
-
-	focus = {
-		id = URG_cooperate_with_the_bonete_nazis
-		icon = GFX_focus_chi_mission_to_germany
+		id = URG_glorify_the_gaucho
+		icon = GFX_goal_generic_army_mobilization2
 		cost = 10
 		prerequisite = {
 			focus = URG_revisionist_coup
@@ -2531,82 +1905,68 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			add_research_slot = 1
+			add_ideas = URG_legacy_of_the_gauchos
+		}
+		search_filters = { FOCUS_FILTER_MILITARY_IMPROVEMENT }
+	}
+
+	focus = {
+		id = URG_cooperate_with_the_bonete_nazis
+		icon = GFX_goal_generic_join_axis
+		cost = 10
+		prerequisite = {
+			focus = URG_revisionist_coup
+		}
+		x = 1
+		y = 1
+		relative_position_id = URG_revisionist_coup
+		completion_reward = {
 			add_popularity = {
 			    ideology = fascism
 			    popularity = 0.1
 			}
+			add_political_power = 50	
 			add_opinion_modifier = { target = GER modifier = huge_increase }
-			add_corps_commander_role = {
-				Character = URG_julius_dalldorf
-				skill = 2
-				attack_skill = 3
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 1
-				traits = {
-					politically_connected harsh_leader brilliant_strategist
-				}
-			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = URG_julius_dalldorf
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_create_the_JUP
-		icon = GFX_focus_generic_full_social_mobilization
+		icon = GFX_goal_generic_national_arsenal
 		cost = 10
 		prerequisite = {
 			focus = URG_cooperate_with_the_bonete_nazis
 		}
-		x = -2
+		prerequisite = {
+			focus = URG_glorify_the_gaucho
+		}
+		x = 0
 		y = 2
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			add_popularity = {
-			    ideology = fascism
-			    popularity = 0.05
-			}
-			add_ideas = CHL_fascist_youth_department
+			add_ideas = military_youth_focus
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
 
 	focus = {
-		id = URG_militarize_the_society
-		icon = GFX_focus_generic_fascist_troops
+		id = URG_embrace_our_catholic_heritage
+		icon = GFX_focus_generic_pope
 		cost = 10
 		prerequisite = {
-			focus = URG_embrace_our_catholic_heritage
+			focus = URG_cooperate_with_the_bonete_nazis
 		}
-		x = 2
+		prerequisite = {
+			focus = URG_glorify_the_gaucho
+		}
+		x = -2
 		y = 2
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_popularity = {
-			    ideology = fascism
-			    popularity = 0.05
-			}
-			add_ideas = URG_uruguayan_militarism
+			add_war_support = 0.10
 		}
-		search_filters = { FOCUS_FILTER_MANPOWER }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 	}
 
 	focus = {
@@ -2614,33 +1974,32 @@ focus_tree = {
 		icon = GFX_goal_generic_secret_police_2
 		cost = 10
 		prerequisite = {
-			focus = URG_cooperate_with_the_bonete_nazis focus = URG_embrace_our_catholic_heritage
+			focus = URG_cooperate_with_the_bonete_nazis
 		}
-		x = 0
+		prerequisite = {
+			focus = URG_glorify_the_gaucho
+		}
+		x = 2
 		y = 2
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			add_stability = 0.05
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.10
-			}
-			add_political_power = 120
+			add_war_support = 0.05
+			add_political_power = 100
 			remove_ideas = URG_legacy_of_batlle
-			add_ideas = r56i_laws_security_order
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
 	}
 
+	
 	focus = {
-		id = URG_glorify_the_gaucho
-		icon = GFX_focus_mex_caudillo_private_armies
-		cost = 8
+		id = URG_militarize_the_society
+		icon = GFX_focus_generic_fascist_troops
+		cost = 10
 		prerequisite = {
 			focus = URG_purge_batllist_influence
 		}
 		prerequisite = {
-			focus = URG_militarize_the_society
+			focus = URG_embrace_our_catholic_heritage
 		}
 		prerequisite = {
 			focus = URG_create_the_JUP
@@ -2649,21 +2008,17 @@ focus_tree = {
 		y = 3
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-			add_ideas = URG_legacy_of_the_gauchos
+			add_ideas = URG_uruguayan_militarism
 		}
-		search_filters = { FOCUS_FILTER_MILITARY_IMPROVEMENT }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
 
 	focus = {
 		id = URG_join_the_axis
-		icon = GFX_goal_generic_the_axis
-		cost = 5
+		icon = GFX_goal_generic_german_assistance
+		cost = 10
 		prerequisite = {
-			focus = URG_glorify_the_gaucho
+			focus = URG_militarize_the_society
 		}
 		mutually_exclusive = {
 			focus = URG_we_stand_alone
@@ -2682,7 +2037,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -1
+		x = 1
 		y = 4
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
@@ -2718,15 +2073,15 @@ focus_tree = {
 
 	focus = {
 		id = URG_we_stand_alone
-		icon = GFX_goal_generic_attack_allies
-		cost = 5
+		icon = GFX_focus_generic_fascist_propaganda
+		cost = 10
 		prerequisite = {
-			focus = URG_glorify_the_gaucho
+			focus = URG_militarize_the_society
 		}
 		mutually_exclusive = {
 			focus = URG_join_the_axis
 		}
-		x = 1
+		x = -1
 		y = 4
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
@@ -2740,14 +2095,11 @@ focus_tree = {
 
 	focus = {
 		id = URG_platine_ambitions
-		icon = GFX_focus_generic_spread_fascism
+		icon = GFX_goal_uruguay_platine_ambitions
 		cost = 10
 		prerequisite = {
 			focus = URG_join_the_axis
 			focus = URG_we_stand_alone
-		}
-		available = {
-			is_subject = no
 		}
 		x = 0
 		y = 5
@@ -2759,40 +2111,23 @@ focus_tree = {
 
 	focus = {
 		id = URG_march_on_buenos_aires
-		icon = GFX_focus_generic_attack_argentina
-		cost = 8
+		icon = GFX_goal_generic_attack_argentina
+		cost = 10
 		prerequisite = {
 			focus = URG_platine_ambitions
 		}
 		will_lead_to_war_with = ARG
 		available = {
-			is_subject = no
-			ARG = {
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
 		bypass = {
-			ARG = {
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				OR = {
-					ARG = { has_war = yes }
-					strength_ratio = {
-						tag = ARG
-						ratio > 0.8
+			OR = {
+				is_in_faction_with = ARG
+				has_war_with = ARG
+				ARG = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
 					}
 				}
 			}
@@ -2811,27 +2146,23 @@ focus_tree = {
 	focus = {
 		id = URG_repeat_the_paraguayan_war
 		icon = GFX_goal_generic_attack_paraguay
-		cost = 8
+		cost = 10
 		prerequisite = {
 			focus = URG_march_on_buenos_aires
 		}
-		will_lead_to_war_with = PAR
 		available = {
-			is_subject = no
-			PAR = {
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
+		will_lead_to_war_with = PAR
 		bypass = {
-			PAR = {
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
+			OR = {
+				is_in_faction_with = PAR
+				has_war_with = PAR
+				PAR = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
+					}
 				}
 			}
 		}
@@ -2853,23 +2184,19 @@ focus_tree = {
 		prerequisite = {
 			focus = URG_march_on_buenos_aires
 		}
-		will_lead_to_war_with = CHL
 		available = {
-			is_subject = no
-			CHL = {
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
+		will_lead_to_war_with = CHL
 		bypass = {
-			CHL = {
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
+			OR = {
+				is_in_faction_with = CHL
+				has_war_with = CHL
+				CHL = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
+					}
 				}
 			}
 		}
@@ -2886,28 +2213,24 @@ focus_tree = {
 
 	focus = {
 		id = URG_march_northwards
-		icon = GFX_focus_generic_attack_bolivia
+		icon = GFX_goal_generic_befriend_bolivia
 		cost = 10
 		prerequisite = {
 			focus = URG_march_on_buenos_aires
 		}
-		will_lead_to_war_with = BOL
 		available = {
-			is_subject = no
-			BOL = {
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
+		will_lead_to_war_with = BOL
 		bypass = {
-			BOL = {
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
+			OR = {
+				is_in_faction_with = BOL
+				has_war_with = BOL
+				BOL = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
+					}
 				}
 			}
 		}
@@ -2939,14 +2262,8 @@ focus_tree = {
 		y = 8
 		relative_position_id = URG_revisionist_coup
 		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.10
-			}
-			swap_ideas = {
-				remove_idea = URG_legacy_of_the_gauchos
-				add_idea = URG_legacy_of_the_gauchos_2
-			}
+			add_war_support = 0.1
+			add_stability = 0.1
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY }
 	}
@@ -2954,7 +2271,7 @@ focus_tree = {
 	focus = {
 		id = URG_ban_the_partido_nacional
 		icon = GFX_goal_uruguay_ban_the_partido_nacional
-		cost = 8
+		cost = 10
 		prerequisite = {
 			focus = URG_communist_revolution
 		}
@@ -2970,7 +2287,6 @@ focus_tree = {
 			    ideology = neutrality
 			    popularity = -0.1
 			}
-			add_political_power = 75
 			add_war_support = 0.05
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
@@ -2978,8 +2294,8 @@ focus_tree = {
 
 	focus = {
 		id = URG_cooperate_with_colorado_politicians
-		icon = GFX_goal_generic_dangerous_deal
-		cost = 10
+		icon = GFX_goal_uruguay_cooperate_with_colorado_politicians
+		cost = 5
 		prerequisite = {
 			focus = URG_communist_revolution
 		}
@@ -2990,24 +2306,17 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			add_stability = 0.05
-			add_war_support = -0.05
-			add_political_power = 120
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
-			promote_character = {
-				character = URG_paulina_luisi
-				ideology = marxism
-			}
+			add_stability = 0.025
+			add_war_support = 0.025
+			add_political_power = 50
+			promote_character = URG_paulina_luisi
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {
 		id = URG_government_purges
-		icon = GFX_focus_SWE_attack_landsorganisationen
+		icon = GFX_goal_uruguay_government_purges
 		cost = 10
 		prerequisite = {
 			focus = URG_communist_revolution
@@ -3019,13 +2328,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			add_stability = -0.15
-			add_political_power = 75
+			add_stability = -0.1
 			add_war_support = 0.05
-			add_popularity = {
-				ideology = communism
-				popularity = 0.10
-			}
+			add_political_power = 100
 			remove_ideas = URG_legacy_of_batlle
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
@@ -3042,25 +2347,26 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = URG_communist_revolution
+		available = {
+			
+		}
 
 		completion_reward = {
-			add_research_slot = 1
 			add_ideas = URG_one_union_for_all_workers
 			add_tech_bonus = {
-				name = URG_one_union_for_all_workers
+				name = ROM_civil_works
 				bonus = 1.0
 				uses = 1
 				category = construction_tech
-				ahead_reduction = 0.5
 			}			
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
 	focus = {
 		id = URG_workers_militias
-		icon = GFX_focus_ITA_peasants_rise
-		cost = 8
+		icon = GFX_goal_communist_revolt
+		cost = 10
 		prerequisite = {
 			focus = URG_government_purges
 			focus = URG_cooperate_with_colorado_politicians
@@ -3072,10 +2378,6 @@ focus_tree = {
 		y = 2
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
 			add_ideas = URG_workers_militias
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -3095,23 +2397,8 @@ focus_tree = {
 		y = 3
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
 			add_timed_idea = {
-				idea = URG_reorganise_the_economy_idea
+				idea = URG_reorganise_the_economy
 				days = 365
 			}
 		}
@@ -3129,18 +2416,9 @@ focus_tree = {
 			focus = URG_the_american_revolution
 		}
 		available = {
-			is_subject = no
+			has_completed_focus = URG_government_purges
+			is_puppet = no
 			is_in_faction = no
-			SOV = {
-				exists = yes
-				is_faction_leader = yes
-				NOT = {
-					has_war_with = ROOT
-				}
-			}
-		}
-		bypass = {
-			is_in_faction_with = SOV
 		}
 		x = -1
 		y = 4
@@ -3164,6 +2442,7 @@ focus_tree = {
 
 				SOV = { country_event = { days = 1 id = generic.2 } }
 			}
+
 			else = {
 				get_best_alliance_match_communism_effect = yes
 				var:best_leader = {
@@ -3188,6 +2467,7 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
+			has_completed_focus = URG_cooperate_with_colorado_politicians
 		}
 		bypass = {
 			is_in_faction = yes
@@ -3241,7 +2521,7 @@ focus_tree = {
 	focus = {
 		id = URG_the_dream_of_artigas
 		icon = GFX_goal_uruguay_dream_of_artigas
-		cost = 8
+		cost = 5
 		prerequisite = {
 			focus = URG_follow_moscow
 			focus = URG_the_american_revolution
@@ -3249,51 +2529,32 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = URG_communist_revolution
-		available = {
-			is_subject = no
-		}
 		completion_reward = {
-			add_war_support = 0.15
-			add_manpower = 25000
-			every_state = {
-				limit = {
-					OR = {
-						state = 510
-						state = 502
-					}
-				}
-				add_claim_by = ROOT
-			}
+			add_war_support = 0.1
+			add_manpower = 15000
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
 	}
 
 	focus = {
 		id = URG_across_the_uruguay_river
-		icon = GFX_focus_generic_attack_argentina
-		cost = 8
+		icon = GFX_goal_generic_attack_argentina
+		cost = 5
 		prerequisite = {
 			focus = URG_the_dream_of_artigas
 		}
-		will_lead_to_war_with = ARG
 		available = {
-			is_subject = no
-			any_other_country = {
-				owns_state = 510
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
 		bypass = {
-			any_other_country = {
-				owns_state = 510
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
+			OR = {
+				is_in_faction_with = ARG
+				has_war_with = ARG
+				ARG = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
+					}
 				}
 			}
 		}
@@ -3302,9 +2563,12 @@ focus_tree = {
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
 			create_wargoal = {
-				target = 510.owner
+				target = ARG
 				type = take_state_focus
 				generator = { 510 }
+			}
+			510 = {
+				add_claim_by = URG
 			}
 		}
 	}
@@ -3312,29 +2576,22 @@ focus_tree = {
 	focus = {
 		id = URG_retake_the_misiones_orientales
 		icon = GFX_goal_generic_attack_brazil
-		cost = 8
+		cost = 5
 		prerequisite = {
 			focus = URG_the_dream_of_artigas
 		}
-		will_lead_to_war_with = BRA
 		available = {
-			is_subject = no
-			any_other_country = {
-				owns_state = 502
-				NOT = {
-					is_ally_with = ROOT
-					has_war_with = ROOT
-				}
-			}
+			is_puppet = no
 		}
 		bypass = {
-			any_other_country = {
-				owns_state = 502
-				OR = {
-					exists = no
-					has_war_with = ROOT
-					is_subject_of = ROOT
-					has_war_with = ROOT
+			OR = {
+				is_in_faction_with = BRA
+				has_war_with = BRA
+				BRA = {
+					OR = {
+						exists = no
+						is_subject_of = URG		
+					}
 				}
 			}
 		}
@@ -3343,17 +2600,20 @@ focus_tree = {
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
 			create_wargoal = {
-				target = 502.owner
+				target = BRA
 				type = take_state_focus
 				generator = { 502 }
+			}
+			502 = {
+				add_claim_by = URG
 			}
 		}
 	}
 
 	focus = {
 		id = URG_tiranos_temblad
-		icon = GFX_focus_SWE_refuge_for_revolutionaries
-		cost = 10
+		icon = GFX_goal_generic_red_commando
+		cost = 5
 		prerequisite = {
 			focus = URG_retake_the_misiones_orientales
 		}
@@ -3370,26 +2630,22 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -100
 			add_war_support = 0.1
-			add_stability = 0.15
-			every_state = {
-				limit = {
-					OR = {
-						state = 510
-						state = 502
-					}
-				}
-				add_core_of = ROOT
-			}
-			custom_effect_tooltip = r56_newline
+			add_stability = 0.1
 			set_cosmetic_tag = LPU
+			502 = {
+				add_core_of = URG
+			}
+			510 = {
+				add_core_of = URG
+			}
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY }
 	}
 
 	focus = {
 		id = URG_protect_the_revolution
-		icon = GFX_goal_generic_communist_pride
-		cost = 10
+		icon = GFX_goal_uruguay_protect_the_revolution
+		cost = 5
 		prerequisite = {
 			focus = URG_tiranos_temblad
 		}
@@ -3398,21 +2654,17 @@ focus_tree = {
 		}
 		x = -1
 		y = 8
-		available = {
-			is_subject = no
-		}
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			add_stability = 0.05
-			add_manpower = 25000
 			add_ideas = deterrence
+			add_manpower = 25000
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT }
 	}
 	focus = {
 		id = URG_spread_the_revolution
-		icon = GFX_focus_ETH_freedom_at_gunpoint
-		cost = 10
+		icon = GFX_goal_generic_communism
+		cost = 5
 		prerequisite = {
 			focus = URG_tiranos_temblad
 		}
@@ -3421,12 +2673,8 @@ focus_tree = {
 		}
 		x = 1
 		y = 8
-		available = {
-			is_subject = no
-		}
 		relative_position_id = URG_communist_revolution
 		completion_reward = {
-			add_war_support = 0.10
 			add_ideas = URG_spread_the_revolution
 		}
 	}

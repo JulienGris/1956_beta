@@ -2,16 +2,16 @@
 state={
 	id=278
 	name="STATE_278" # Pampas
-	manpower = 4309201
+	manpower = 5596366
 	
-	state_category = metropolis
+	state_category = large_city
 
 	history={
 		victory_points = {
-			12364 30 
+			12364 10 
 		}
 		victory_points = {
-			7621 3
+			7621 1 
 		}
 		victory_points = {
 			1639 1 
@@ -20,7 +20,7 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
-			industrial_complex = 6
+			industrial_complex = 5
 			dockyard = 1
 			air_base = 4
 			12364 = {

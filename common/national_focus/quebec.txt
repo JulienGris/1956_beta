@@ -51,7 +51,7 @@ focus_tree = {
 
 	focus = {
 		id = QBC_tackle_the_economic_issues
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_goal_r56_CAN_industry
 		x = -4
 		y = 1
 		cost = 5
@@ -721,7 +721,7 @@ focus_tree = {
 	
 		completion_reward = {
 			468 = {
-				ETH_upgrade_state_category = yes
+				set_state_category = large_city
 			}
 			if = {
 				limit = {
@@ -782,9 +782,6 @@ focus_tree = {
 		}
 	
 		completion_reward = {	
-			466 = {
-				set_state_category = rural
-			}
 			random_owned_controlled_state = {
 				prioritize = { 466 }
 				add_extra_state_shared_building_slots = 4
@@ -803,7 +800,9 @@ focus_tree = {
 				idea = QBC_regional_development
 				days = 365
 			}
-
+			466 = {
+				set_state_category = rural
+			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -887,9 +886,6 @@ focus_tree = {
 		}
 	
 		completion_reward = {	
-			860 = {
-				set_state_category = rural
-			}
 			random_owned_controlled_state = {
 				prioritize = { 860 }
 				add_extra_state_shared_building_slots = 4
@@ -912,6 +908,9 @@ focus_tree = {
 			add_timed_idea = {
 				idea = QBC_regional_development
 				days = 365
+			}
+			860 = {
+				set_state_category = rural
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -942,10 +941,7 @@ focus_tree = {
 			factor = 2
 		}
 	
-		completion_reward = {	
-			861 = {
-				set_state_category = large_town
-			}
+		completion_reward = {		
 			random_owned_controlled_state = {
 				prioritize = { 861 }
 				add_extra_state_shared_building_slots = 4
@@ -963,6 +959,9 @@ focus_tree = {
 			add_timed_idea = {
 				idea = QBC_regional_development
 				days = 365
+			}
+			861 = {
+				set_state_category = large_town
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -993,10 +992,7 @@ focus_tree = {
 			factor = 2
 		}
 	
-		completion_reward = {
-			863 = {
-				set_state_category = town
-			}
+		completion_reward = {		
 			random_owned_controlled_state = {
 				prioritize = { 863 }
 				add_extra_state_shared_building_slots = 4
@@ -1014,6 +1010,9 @@ focus_tree = {
 			add_timed_idea = {
 				idea = QBC_regional_development
 				days = 365
+			}
+			863 = {
+				set_state_category = town
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1213,19 +1212,13 @@ focus_tree = {
 				uses = 2
 				category = jet_technology
 			}
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.50
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = r56_generic_jet_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
 
 	focus = {
 		id = QBC_expand_the_doctrines
-		icon = GFX_goal_generic_officers
+		icon = GFX_goal_CAN_air_chief
 		relative_position_id = QBC_fund_an_air_force
 		x = 4
 		y = 4
@@ -1265,20 +1258,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = { 
+			add_tech_bonus = {
 				name = QBC_rocket_research
-				bonus = 0.50
+				bonus = 1.0
 				uses = 2
 				category = rocketry
-				category = jet_technology
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.50
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = r56_generic_rocket_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1375,18 +1360,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-                name = QBC_radar_development
-                bonus = 1
+				name = radar_focus
+				bonus = 1
 				uses = 2
 				category = radar_tech
-            }
-            custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.25
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-            add_ideas = r56_generic_radar_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}	
@@ -1520,7 +1498,7 @@ focus_tree = {
 						has_idea = limited_conscription
 						has_idea = extensive_conscription
 						has_idea = service_by_requirement
-						has_idea = all_adults_serve
+						has_idea = all_adult_serve
 						has_idea = scraping_the_barrel
 						has_idea = influx_of_exiles_r56_law
 					}
@@ -1656,24 +1634,12 @@ focus_tree = {
 				uses = 2
 				category = r56_jaeger_infantry_tech
 			}
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 1
-					category = special_forces_doctrine
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = special_forces_bonus
-					bonus = 0.5
-					uses = 1
-					category = r56_special_forces_training_tech 
-				}	
-			}			
+			add_tech_bonus = {
+                name = special_forces_bonus
+                bonus = 1.0
+                uses = 1
+                category = r56_special_forces_training_tech 
+            }					
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -2403,29 +2369,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			IF = {
-				limit = {
-					NOT = {
-						has_tech = atomic_research
-					}
-				}
-				add_tech_bonus = {
-					name = QBC_nuclear_research
-					bonus = 1.5
-					uses = 1
-					category = nuclear
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.75
-				}
-			}
-			ELSE = {
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.95
-				}
+			add_tech_bonus = {
+				name = nuclear_bonus
+				bonus = 1.5
+				uses = 2
+				category = nuclear
 			}				
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2904,13 +2852,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			is_subject = yes
-			overlord = {
+			OVERLORD = {
 				OR = {
 					has_government = neutrality
 					has_government = communism
 					has_government = fascism
 				}
-			}
+			}		
 		}
 
 		ai_will_do = {
@@ -6301,7 +6249,7 @@ focus_tree = {
 
 	focus = {
 		id = QBC_expand_into_america
-		icon = GFX_goal_generic_attack_united_states
+		icon = GFX_goal_CAN_attack_america
 		prerequisite = { focus = QBC_invade_canada }
 		relative_position_id = QBC_our_own_way
 		x = -2

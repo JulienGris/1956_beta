@@ -7,7 +7,7 @@ units = {
             name = "Buscaminas"
             location = 1944 # Maracaibo
             ship = {
-                name = "ARV General Soublette"
+                name = "ARV Milazzo"
                 definition = destroyer
                 equipment = {
                     destroyer_1 = {
@@ -18,7 +18,7 @@ units = {
                 }
             }
 			ship = {
-                name = "ARV General Urdaneta"
+                name = "ARV Dardanelli"
                 definition = destroyer
                 equipment = {
                     destroyer_1 = {

@@ -1,10 +1,9 @@
 is_north_sea_island = {
     OR = {
-		state = 971 # Orkney
-		state = 970 # Shetland
-		state = 337 # Faroe
-		state = 100 # nw Iceland
-		state = 1043 # se Iceland
+        state = 841
+        state = 812
+        state = 337
+        state = 100
     }
 }
 is_nordic_country = {

@@ -225,8 +225,7 @@ characters = {
 		name = BHU_bachu_phugyal
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_asia_generic_land_1
-				small = GFX_kr_portrait_asia_generic_land_1_small
+				small = "gfx/interface/ideas/generic/advisors/kr_generic_land_asia_1.dds"
 			}
 		}
 	}

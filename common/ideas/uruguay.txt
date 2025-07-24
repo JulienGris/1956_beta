@@ -2,42 +2,23 @@ ideas = {
 
 	country = {
 
-		idea_URG_rapid_industrialization = {
-			name = URG_rapid_industrialization
-			allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			available = {
-			}
-
-			removal_cost = -1
-			
-			picture = generic_build_infrastructure
-			
-			modifier = {
-				consumer_goods_factor = -0.25
-				production_speed_buildings_factor = 0.2
-			}
-		}
-
 		URG_aftermath_of_paso_morlan = {
 
 			allowed = {
 				always = no
 			}
 
+			# cancel = {	#removed by a focus already
+			# 	has_country_flag = URG_1938_elections_held
+			# }
+
 			allowed_civil_war = {
 				always = yes
 			}
 
 			removal_cost = -1
 
-			picture = MEX_revolutionary_army
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				war_support_factor = -0.15
@@ -64,7 +45,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.1
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.1
 			}
 		}
 
@@ -84,7 +65,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.15
-				war_support_factor = 0.05
+				war_support_factor = 0.1
 				political_power_factor = 0.1
 				consumer_goods_factor = 0.1
 			}
@@ -105,11 +86,12 @@ ideas = {
 			picture = URG_legacy_of_batlle
 			
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = 0.15
+				war_support_factor = 0.05
 				political_power_factor = 0.05
-				consumer_goods_factor = 0.25
-				production_speed_buildings_factor = 0.05
-				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.16
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
 			}
 		}
 
@@ -125,13 +107,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = SPR_torchbearers_of_tomorrow
+			picture = generic_manpower_bonus
 			
 			modifier = {
 				conscription = 0.025
 				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				army_speed_factor = 0.10
+			army_defence_factor = 0.1
 			}
 		}
 
@@ -158,7 +139,7 @@ ideas = {
 			}
 		}
 
-		URG_reorganise_the_economy_idea = {
+		URG_reorganise_the_economy = {
 
 			allowed = {
 				always = no
@@ -170,20 +151,15 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_construction_guilds
+			picture = man_five_year_plan_industry
 			
 			modifier = {
-				consumer_goods_factor = -0.15
-				production_speed_buildings_factor = 0.10
-				industrial_capacity_factory = 0.10
-				industrial_capacity_dockyard = 0.10
-				production_factory_efficiency_gain_factor = 0.05
-				stability_factor = -0.05
+				consumer_goods_factor = -0.2
 			}
 			
 		}
 
-		URG_switzerland_of_the_americas_idea = {
+		urg_switzerland_of_the_americas_idea = {
 
 			allowed = {
 				always = no
@@ -195,7 +171,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = tur_balkan_central_bank_wealthy_greece
+			picture = swiss_banking
 			
 			modifier = {
 				consumer_goods_factor = -0.1
@@ -217,7 +193,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_invest_in_roads
+			picture = man_five_year_plan_industry
 			
 			modifier = {
 				production_speed_buildings_factor = 0.08
@@ -225,7 +201,7 @@ ideas = {
 			
 		}
 
-		URG_axis_loans_idea = {
+		URG_axis_loans = {
 
 			allowed = {
 				always = no
@@ -237,7 +213,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = italy_nationalize_banking_sector
+			picture = ger_mefo_bills
 			
 			modifier = {
 				consumer_goods_factor = -0.15
@@ -246,14 +222,14 @@ ideas = {
 			
 		}
 
-		URG_strong_constitution = {
+		URG_a_new_constitution = {
 
 			allowed = {
-				always = no
+				has_government = neutrality
 			}
 
 			allowed_civil_war = {
-				always = no
+				always = yes
 			}
 
 			removal_cost = -1
@@ -261,15 +237,15 @@ ideas = {
 			picture = generic_constitutional_guarantees
 			
 			modifier = {
-				political_advisor_cost_factor = -0.25
-				political_power_factor = 0.10
-				stability_factor = 0.05
-				drift_defence_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				local_resources_factor = 0.10
+				#political_power_factor = 0.15
+				stability_factor = 0.1
 			}
 			
 		}
 
-		URG_democratic_constitution = {
+		URG_a_new_constitution2 = {
 
 			allowed = {
 				always = no
@@ -284,13 +260,11 @@ ideas = {
 			picture = generic_constitutional_guarantees
 			
 			modifier = {
-				political_power_factor = 0.05
-				consumer_goods_factor = -0.05
-				conscription_factor = 0.05
-				industrial_capacity_factory = 0.05
-				political_advisor_cost_factor = -0.25
-				democratic_drift = 0.03
-				stability_factor = 0.10
+				#political_power_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				local_resources_factor = 0.10
+				democratic_drift = 0.05
+				stability_factor = 0.05
 			}	
 		}
 
@@ -301,19 +275,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				always = no
+				always = yes
 			}
 
 			removal_cost = -1
 
-			picture = ARG_american_allyship
+			picture = generic_flexible_foreign_policy2
 			
 			modifier = {
 				political_power_factor = -0.05
 				war_support_factor = 0.1
-				consumer_goods_factor = -0.05
-				democratic_drift = 0.05
-				fascism_drift = 0.01
+				democratic_drift = 0.1
 			}	
 		}
 
@@ -329,7 +301,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_economic_increase
+			picture = HUN_treaty_of_triannon
 			
 			modifier = {
 				production_speed_buildings_factor = -0.1
@@ -340,7 +312,7 @@ ideas = {
 			}	
 		}
 
-		URG_anti_statism_idea = {
+		URG_anti_statism = {
 
 			allowed = {
 				always = no
@@ -352,15 +324,15 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_growing_nationalism_modifier
+			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				political_power_cost = -0.10
-				political_advisor_cost_factor = 0.15
-				stability_factor = 0.15
-				compliance_growth = 0.05
-				resistance_target = -0.05
-				consumer_goods_factor = 0.05
+				political_power_cost = 0.1
+				political_advisor_cost_factor = 0.1
+				stability_factor = 0.05
+				compliance_growth = 0.1
+				resistance_target = 0.1
+				consumer_goods_factor = -0.2
 			}	
 		}
 
@@ -376,15 +348,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = MEX_church_power_5
+			picture = generic_neutrality_drift_bonus
 			
 			modifier = {
-				stability_factor = 0.05
-				war_support_factor = 0.10
-				fascism_drift = 0.01
+				war_support_factor = 0.1
 				max_planning = 0.15
-				max_dig_in = 2
-				dig_in_speed_factor = 0.05
+				max_dig_in = 5
 			}	
 		}
 
@@ -400,7 +369,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BRA_us_of_south_america
+			picture = generic_manpower_bonus
 			
 			modifier = {
 				political_power_factor = -0.05
@@ -426,8 +395,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_speed_factor = 0.10
-				consumer_goods_factor = 0.15
+				research_speed_factor = 0.1
 			}	
 		}
 
@@ -443,12 +411,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = EST_democratic_opposition
+			picture = generic_political_support
 			
 			modifier = {
-				stability_factor = -0.05
-				neutrality_drift = -0.05
-				political_power_factor = 0.10
+				democratic_drift = 0.05
+				communism_drift = 0.025
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
+				political_power_factor = -0.1
 				political_advisor_cost_factor = -0.15
 			}	
 		}
@@ -465,10 +435,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = FIN_socialist_welfare
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				political_power_factor = 0.10
+				political_power_factor = 0.15
 				army_core_defence_factor = 0.05
 			}
 			
@@ -486,40 +456,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_spirit_of_the_conquistadors
+			picture = generic_intel_bonus
 			
 			modifier = {
 				war_support_factor = 0.1
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
-				army_speed_factor = 0.10
-			}
-			
-		}
-
-		URG_legacy_of_the_gauchos_2 = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = ARG_spirit_of_the_conquistadors
-			
-			modifier = {
-				war_support_factor = 0.15
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.15
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				army_speed_factor = 0.15
-				breakthrough_factor = 0.10
-				conscription = 0.02
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				army_attack_factor = 0.1
+			army_defence_factor = 0.1
 			}
 			
 		}
@@ -539,13 +483,8 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				political_power_factor = 0.10
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
-				consumer_goods_factor = 0.10
-				stability_factor = 0.15
-				communism_drift = 0.05
-				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 			
 		}
@@ -562,12 +501,11 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_social_welfare_fund_ns
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.03
 				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
+				local_resources_factor = 0.10
 			}
 			
 		}
@@ -584,14 +522,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = citizen_militia_2
+			picture = generic_communist_army
 			
 			modifier = {
-				conscription = 0.01
-				army_org_factor = 0.05
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 1
-				communism_drift = 0.03
+					conscription = 0.01
+					army_org_factor = 0.05
+					send_volunteer_divisions_required = -0.5
+					send_volunteer_size = 1
 			}
 			
 		}
@@ -613,13 +550,13 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 				political_advisor_cost_factor = -0.25
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.25
-				economy_cost_factor = -0.25
-				high_command_cost_factor = -0.25
-				air_chief_cost_factor = -0.25
-				army_chief_cost_factor = -0.25
-				navy_chief_cost_factor = -0.25
+					trade_laws_cost_factor = -0.25
+					mobilization_laws_cost_factor = -0.25
+					economy_cost_factor = -0.25
+					high_command_cost_factor = -0.25
+					air_chief_cost_factor = -0.25
+					army_chief_cost_factor = -0.25
+					navy_chief_cost_factor = -0.25
 			}
 			
 		}
@@ -636,13 +573,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_workers
+			picture = generic_manpower_bonus
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 1
-				conscription = 0.05
-				justify_war_goal_time = -0.1
+					send_volunteer_divisions_required = -0.5
+					send_volunteer_size = 1
+					conscription = 0.05
+					justify_war_goal_time = -0.1
 			}
 			
 		}
@@ -659,7 +596,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascism_rising
+			picture = generic_manpower_bonus
 			
 			modifier = {
 				war_support_factor = 0.05
@@ -681,10 +618,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ARG_socialist_unification
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				justify_war_goal_time = -0.25
+				justify_war_goal_time = -0.2
 				communism_drift = 0.1
 				conscription = 0.02
 			}
@@ -743,7 +680,7 @@ ideas = {
 
 		URG_ute = {
 			
-			picture = URG_administracion_de_ferrocarriles_del_estado
+			picture = URG_UTE
 
 			allowed = {
 				original_tag = URG

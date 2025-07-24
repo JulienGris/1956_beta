@@ -2,9 +2,11 @@
 state={
 	id=255
 	name="STATE_255"
-	manpower = 1450893
+	manpower = 2342937
+	
 	
 	state_category = town
+
 
 	history={
 		owner = SOV

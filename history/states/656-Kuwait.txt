@@ -7,7 +7,7 @@ state={
 	
 	history={
 		add_core_of = KUW
-		add_claim_by = IRQ #Previously core. Why? Nobody knows.
+		add_core_of = IRQ
 		owner = ENG
 		victory_points = {
 			8085 1 
@@ -21,7 +21,7 @@ state={
 
 	}
 	provinces={
-		8085 13482 13483
+		8085
 	}
 
 	local_supplies=0.0 

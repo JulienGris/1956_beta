@@ -43,7 +43,6 @@ technologies = {
 			motorized_equipment
 			infantry_tech
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 5
@@ -116,14 +115,14 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 7 y = 9 }
+			position = { x = 7 y = 4 }
 		}
+		
 		
 		categories = {
 			motorized_equipment
 			infantry_tech
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 1
@@ -171,26 +170,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		#lets wait to bloat this stat
-		#supply_node_range = 0.05
+		supply_node_range = 0.05
 		truck_attrition_factor = -0.05
 		repair_speed_supply_node_factor = 0.05
-		repair_speed_rail_way_factor = 0.05
 
-		special_project_specialization = { specialization_land }
-		special_project_specialization = { specialization_air }
 
 		categories = {
 			motorized_equipment
 			logistics_tech
 			supply_node_tech
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_air_fido	
-			}
 		}
 
 		ai_will_do = {
@@ -248,7 +236,7 @@ technologies = {
 	}
 
 	r56_convoy_highways = {
-		research_cost = 2.0
+		research_cost = 1.75
 		start_year = 1941
 		folder = {
 			name = r56_vechicles_folder
@@ -264,13 +252,11 @@ technologies = {
 		truck_attrition_factor = -0.05
 		repair_speed_supply_node_factor = 0.05
 
-		special_project_specialization = { specialization_land }
 
 		categories = {
 			motorized_equipment
 			logistics_tech
 			supply_node_tech
-			mio_cat_tech_all_motorized_mechanized
 		}
 
 		ai_will_do = {
@@ -328,14 +314,12 @@ technologies = {
 	}
 
 	r56_convoy_highways_2 = {
-		research_cost = 2.0
+		research_cost = 1.75
 		start_year = 1943
 		folder = {
 			name = r56_vechicles_folder
 			position = { x = -8 y = 14 }
 		}
-
-		special_project_specialization = { specialization_land }
 
 		path = {
 			leads_to_tech = r56_convoy_highways_3
@@ -351,7 +335,6 @@ technologies = {
 			motorized_equipment
 			logistics_tech
 			supply_node_tech
-			mio_cat_tech_all_motorized_mechanized
 		}
 
 		ai_will_do = { #Dont really need this
@@ -360,7 +343,7 @@ technologies = {
 	}
 
 	r56_convoy_highways_3 = {
-		research_cost = 2.25
+		research_cost = 2
 		start_year = 1947
 		folder = {
 			name = r56_vechicles_folder
@@ -376,14 +359,11 @@ technologies = {
 		truck_attrition_factor = -0.05
 		repair_speed_supply_node_factor = 0.05
 
-		special_project_specialization = { specialization_land }
-
 
 		categories = {
 			motorized_equipment
 			logistics_tech
 			supply_node_tech
-			mio_cat_tech_all_motorized_mechanized
 		}
 
 		ai_will_do = { #Dont really need this
@@ -392,7 +372,7 @@ technologies = {
 	}
 
 	r56_convoy_highways_4 = {
-		research_cost = 2.50
+		research_cost = 2.25
 		start_year = 1950
 		folder = {
 			name = r56_vechicles_folder
@@ -408,7 +388,6 @@ technologies = {
 			motorized_equipment
 			logistics_tech
 			supply_node_tech
-			mio_cat_tech_all_motorized_mechanized
 		}
 
 		ai_will_do = { #Dont really need this
@@ -464,8 +443,6 @@ technologies = {
 			mot_rockets
 			motorized_equipment
 		}
-		special_project_specialization = { specialization_land }	#could consider adding air since rocket-related
-		special_project_specialization = { specialization_air }
 	}
 
 
@@ -515,7 +492,6 @@ technologies = {
 			cat_mechanized_equipment
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 2
@@ -588,7 +564,6 @@ technologies = {
 			tp_tech
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 2
@@ -639,7 +614,6 @@ technologies = {
 			tp_tech
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 2
@@ -693,7 +667,6 @@ technologies = {
 			cat_mechanized_equipment
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 2
@@ -744,7 +717,6 @@ technologies = {
 			cat_mechanized_equipment
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 2
@@ -795,7 +767,6 @@ technologies = {
 			cat_mechanized_equipment
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 2
@@ -842,7 +813,6 @@ technologies = {
 			armored_cars_tech
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 0
@@ -872,7 +842,6 @@ technologies = {
 			armored_cars_tech
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 0
@@ -902,7 +871,6 @@ technologies = {
 			armored_cars_tech
 			cat_light_armor
 		}
-		special_project_specialization = { specialization_land }
 		
 		sub_technologies = {
 			armored_car_at_upgrade
@@ -929,7 +897,6 @@ technologies = {
 			armored_cars_tech
 			armor_variant_tech
 		}
-		special_project_specialization = { specialization_land }
 
 		ai_will_do = { #the AI doesn't need this
 			factor = 0
@@ -1003,17 +970,6 @@ technologies = {
 			railway_gun_equipment_1
 		}
 
-		enable_equipment_modules = {
-			lc_hull_mounted_railway_gun #Module for Land Cruiser
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_land_super_heavy_railway_gun
-			}
-		}
-
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
@@ -1025,7 +981,6 @@ technologies = {
 			train_tech
 			artillery
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = {
 			factor = 0
@@ -1080,7 +1035,6 @@ technologies = {
 			train_tech
 			artillery
 		}
-		special_project_specialization = { specialization_land }
 		
 		ai_will_do = { #never
 			factor = 0
@@ -1101,7 +1055,6 @@ technologies = {
 			train_tech
 			artillery
 		}
-		special_project_specialization = { specialization_land }
 
 		ai_will_do = { #never
 			factor = 0
@@ -1289,6 +1242,7 @@ technologies = {
 		categories = {
 			train_tech
 		}
+
 		
 		ai_will_do = {
 			factor = 0
@@ -1314,7 +1268,6 @@ technologies = {
 			}
 		}
 	}
-	
 	###------> New railway stat techs <><> <><> <><> <><> <><>
 	r56_flexible_railnetwork = {
 		research_cost = 1.50
@@ -1474,25 +1427,6 @@ technologies = {
 				factor = 3
 				date > "1952.1.1"
 			}
-		}
-	}
-
-	tech_recon_focus_bonus = { #gained from Help from the Nagas
-
-		allow = {
-			always = no
-		}
-		category_recon = {
-			recon = 2
-		}
-
-		categories = {
-			support_tech
-			recon_tech
-		}
-
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }

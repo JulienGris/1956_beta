@@ -17,7 +17,7 @@
                 original_tag = CRC
                 original_tag = STK
 				original_tag = DMN
-				original_tag = BRB
+				original_tag = BAR
 				original_tag = STL
 				original_tag = SVG
 				original_tag = GRA
@@ -51,8 +51,6 @@
 		ai_will_do = {
 			factor = 5
 		}
-
-		text_icon = NORDIC_focus_style
 
 		available = {
 			if = {
@@ -108,8 +106,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -180,8 +176,6 @@
 		relative_position_id = CARIB_improve_local_infrastructure
 		x = -1
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -236,8 +230,6 @@
 		relative_position_id = CARIB_naval_buildup
 		x = 0
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -297,7 +289,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
 		allow_branch = {
 
 		}
@@ -319,8 +310,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -351,8 +340,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			controls_state = 692
 			controls_state = 694
@@ -385,7 +372,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
 		allow_branch = {
 
 		}
@@ -401,8 +387,6 @@
 		prerequisite = {
 			focus = CARIB_defend_the_new_union
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_army_unification
@@ -425,3 +409,5 @@
 			}						
 		}
 	}
+
+

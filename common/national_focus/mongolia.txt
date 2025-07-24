@@ -74,7 +74,6 @@ focus_tree = {
 				promote_leader = yes
 			}
 			custom_effect_tooltip = MON_pro_sov_ideological_agenda_tt
-			mark_focus_tree_layout_dirty = yes
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -2195,7 +2194,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_capital_operations_focus
-		icon = GFX_focus_generic_air_bases
+		icon = GFX_goal_CAN_toronto_island_airport
 		prerequisite = { focus = MON_establish_provisional_airforce }
 		x = 1
 		y = 1
@@ -2355,9 +2354,6 @@ focus_tree = {
 			}
 			build_railway = { 
 				path = { 1762 7717 12605 4801 7752 1787 12612 1796 12448 11752 }
-			}
-			if = { limit = { NOT = { has_tech = basic_train } }
-				set_technology = {  basic_train = 1 popup = yes }
 			}
 			add_equipment_to_stockpile = {
 				type = train_equipment
@@ -7621,7 +7617,6 @@ focus_tree = {
 					  	}
 				  	}
 				}
-				mark_focus_tree_layout_dirty = yes
 			}
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -8088,7 +8083,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_ensure_mvd_loyalty
-		icon = GFX_goal_generic_spy_connection
+		icon = GFX_goal_CAN_CAMP_X
 		x = -3
 		y = 1
 		relative_position_id = MON_reach_out_to_moscow
@@ -8737,7 +8732,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = MON_stabilize_the_country
-		cost = 8
+		cost = 7.9
 
 		prerequisite = { focus = MON_stabilize_the_country }
 		ai_will_do = {
@@ -10775,7 +10770,7 @@ focus_tree = {
 		x = 1	
 		y = 1
 		relative_position_id = MON_get_rich
-		cost = 8
+		cost = 7.9
 		prerequisite = { focus = MON_empower_hudonets }
 		prerequisite = { focus = MON_get_rich }
 
@@ -11253,7 +11248,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_full_social_equality
-		icon = GFX_goal_womens_rights
+		icon = GFX_goal_womens_rights2
 		x = -1	
 		y = 1
 		relative_position_id = MON_changes_within
@@ -11548,21 +11543,6 @@ focus_tree = {
 		relative_position_id = MON_hold_plenum_of_central_committee
 		cost = 5
 
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = { 
-					has_completed_focus = MON_hold_plenum_of_central_committee
-					has_completed_focus = MON_rely_on_national_strength 
-				}
-			}
-		}
-
 
 		mutually_exclusive = {
 			focus = MON_hold_plenum_of_central_committee
@@ -11587,7 +11567,6 @@ focus_tree = {
 			add_stability = 0.05
 			country_event = { id = mongol_anti_soviet.1 hours = 12 }
 			custom_effect_tooltip = MON_tree_is_in_development_tt
-			mark_focus_tree_layout_dirty = yes
 		}
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 	}
@@ -11827,7 +11806,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 0	
+			factor = 30	
 		}
 
 		completion_reward = {
@@ -11849,7 +11828,6 @@ focus_tree = {
 							state = 434
 							state = 324
 							state = 323
-							state = 1091
 							state = 441
 						}
 					}
@@ -11904,17 +11882,6 @@ focus_tree = {
 				}
 			}
 			set_cosmetic_tag = MON_BOGD_KHANATE
-			if = {
-				limit = {
-					is_subject = no
-					is_faction_leader = no
-					is_in_faction_with = SOV
-					SOV = {
-						NOT = { has_government = ROOT} 
-					}
-				}
-				leave_faction = yes
-			}
 			#event to ploclaim the Khanate restoration and appoint the regency council
 			custom_effect_tooltip = MON_tree_is_in_development_tt
 		}
@@ -12048,7 +12015,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 0	
+			factor = 30	
 		}
 
 		completion_reward = {
@@ -12157,23 +12124,6 @@ focus_tree = {
 		y = 0
 		relative_position_id = MON_form_the_provisional_government
 		cost = 10
-
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = { 
-					has_completed_focus = MON_hold_plenum_of_central_committee
-					has_completed_focus = MON_rely_on_national_strength
-					has_completed_focus = MON_form_the_provisional_government
-				}
-			}
-		}
-
 		mutually_exclusive = {
 			focus = MON_hold_plenum_of_central_committee
 			focus = MON_rely_on_national_strength
@@ -12188,7 +12138,7 @@ focus_tree = {
 		}
 	
 		ai_will_do = {
-			base = 0	
+			factor = 30	
 		}
 	
 		completion_reward = {
@@ -12275,7 +12225,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_invite_pince_su
-		icon = GFX_goal_generic_spy_connection
+		icon = GFX_goal_CAN_CAMP_X
 		prerequisite = { focus = MON_approach_japan }
 		prerequisite = { focus = MON_rally_the_radicals }
 		x = 0

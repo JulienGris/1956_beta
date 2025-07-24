@@ -21,8 +21,6 @@
 			}
 		}
 
-		text_icon = NORDIC_focus_style
-
 		available = {
 			has_army_manpower = {
 				size > 100000
@@ -72,8 +70,6 @@
 		ai_will_do = {
 			factor = 5
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			is_subject = no
 			AND = {

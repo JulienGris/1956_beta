@@ -105,11 +105,10 @@ characters={
 	}	
 	KUR_karim_abdulwahid_haji_aziz={
 		name = "Karim Abdulwahid Haji Aziz"	
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = "GFX_idea_generic_army_arab_2"
-				# small = GFX_Portrait_South_America_Generic_land_3_small @Abbus
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+				large= "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 			}
 		}
 		corps_commander = { #parachutist trained in British levy, fought in Italy
@@ -231,7 +230,7 @@ characters={
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		portraits={
 			army={
-				small="GFX_idea_generic_army_cav_middle_eastern_2d"
+				small="GFX_idea_generic_army_arab_1"
 			}
 		}
 	}

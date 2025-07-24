@@ -42,8 +42,6 @@
 			factor = 5
 		}
 
-		text_icon = NORDIC_focus_style
-
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = is_majapahit_tt
@@ -74,8 +72,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -146,8 +142,6 @@
 		relative_position_id = MAL_UNIFIED_improve_local_infrastructure
 		x = -1
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -202,8 +196,6 @@
 		relative_position_id = MAL_UNIFIED_naval_buildup
 		x = 0
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -263,7 +255,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
 		allow_branch = {
 
 		}
@@ -284,8 +275,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -316,7 +305,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
 		allow_branch = {
 
 		}
@@ -332,8 +320,6 @@
 		prerequisite = {
 			focus = MAL_UNIFIED_defend_the_new_union
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_army_unification

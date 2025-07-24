@@ -4,7 +4,7 @@ ideas = {
 		TIB_mountainous_people = {
 
 			allowed = {
-				always = yes
+				original_tag = TIB
 			}
 
 			allowed_civil_war = {
@@ -12,11 +12,10 @@ ideas = {
 			}
 
 			removal_cost = -1
-
 			on_add = {
+				#could be the solution
 				custom_effect_tooltip = TIB_montainous_people_effect
 			}
-
 			modifier = {
 				custom_modifier_tooltip = TIB_montainous_people_effect
 			}
@@ -854,7 +853,7 @@ ideas = {
 		}
 		TIB_monastic_priviliges = {
 			
-			picture = TIB_monasteries_elated
+			picture = TIB_elated_monasteries
 			
 			allowed = {
 				original_tag = TIB

@@ -3,8 +3,7 @@ characters={
 		name= "Puchalapalli Sundarayya"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_africa_generic_land_3
-				small = GFX_kr_portrait_africa_generic_land_3_small
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 			}
 		}
 		country_leader = {

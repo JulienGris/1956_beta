@@ -2,7 +2,7 @@ state={
 	id=89
 	name="STATE_89"
 	resources={
-		oil=2
+		oil=1 #Drohobych oil field not entirely sure if still active
 	}
 	history={
 		victory_points = {

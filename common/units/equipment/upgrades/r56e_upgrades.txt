@@ -21,17 +21,17 @@ upgrades = {
 		max_level = 5
 
 		cost = land
-		reliability = 0.04
-		build_cost_ic = 0.04
+		reliability = 0.05
+		build_cost_ic = 0.02
 	}
 	
 	INF_SA_upgrade = {
 		max_level = 5
 
 		cost = land
-		soft_attack = 0.02
-		reliability = -0.04
-		build_cost_ic = 0.04
+		soft_attack = 0.03
+		reliability = -0.02
+		build_cost_ic = 0.02
 	}
 	
 	INF_HA_upgrade = {
@@ -40,18 +40,18 @@ upgrades = {
 		cost = land
 		hard_attack = 0.1
 		ap_attack = 0.03
-		reliability = -0.04
-		build_cost_ic = 0.04
+		reliability = -0.02
+		build_cost_ic = 0.02
 	}
 	
 	INF_defence_upgrade = {
 		max_level = 5
 
 		cost = land
-		defense = 0.005
-		breakthrough = 0.01
-		reliability = -0.04
-		build_cost_ic = 0.1
+		defense = 0.01
+		breakthrough = 0.04
+		reliability = -0.02
+		build_cost_ic = 0.02
 	}
 	
 	#ART EQ
@@ -227,7 +227,8 @@ upgrades = {
 		defense = 0.10
 		breakthrough = 0.10
 		build_cost_ic = 0.02
-		reliability = -0.05
+		reliability = -0.05		
+		build_cost_ic = 0.01
 	}
 	#MOT EQ
 	MOT_reliability_upgrade = {
@@ -333,10 +334,10 @@ upgrades = {
 		max_level = 1
 
 		cost = naval
-		sub_attack = 15
-		sub_detection = 15
+		sub_attack = 10
+		sub_detection = 10
 		reliability = -0.025
-		build_cost_ic = 0.05
+		build_cost_ic = 0.02
 	}
 
 	ship_convoy_gun = {

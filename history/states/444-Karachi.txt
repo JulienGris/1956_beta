@@ -1,3 +1,4 @@
+
 state={
 	id=444
 	name="STATE_444" # Baluchistan
@@ -17,6 +18,7 @@ state={
 			infrastructure = 1 #was 2
 		}
 		add_core_of = PAK
+		add_core_of = RAJ
 	}
 
 	provinces={

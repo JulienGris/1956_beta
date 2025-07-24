@@ -1,6 +1,6 @@
 ideas = {
 
-	country = {
+country = {
 
 		ABC_establish_a_general_staff_idea = {
 
@@ -14,7 +14,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = CZE_planning_bonus
+			picture = generic_infantry_bonus
 			
 			modifier = {
 				experience_gain_army = 0.01
@@ -34,10 +34,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = CZE_planning_bonus
+			picture = generic_infantry_bonus
 			
 			modifier = {
-				experience_gain_army = 0.05
+				experience_gain_army = 0.01
 				max_planning = 0.10
 			}
 		}
@@ -54,12 +54,11 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = CZE_planning_bonus
+			picture = generic_infantry_bonus
 			
 			modifier = {
-				experience_gain_army = 0.05
+				experience_gain_army = 0.01
 				planning_speed = 0.10
-				dig_in_speed_factor = 0.05
 			}
 		}
 
@@ -123,7 +122,5 @@ ideas = {
 		        }    
            	}
        	}
-
 	}
-	
 }

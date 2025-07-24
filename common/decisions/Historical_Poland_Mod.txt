@@ -376,6 +376,7 @@ prestigious_projects = {
 					free_building_slots = {
 						building = infrastructure
 						size > 1
+						include_locked = yes
 					}
 				}
 				add_building_construction = {
@@ -407,6 +408,7 @@ prestigious_projects = {
 						free_building_slots = {
 							building = infrastructure
 							size > 1
+							include_locked = yes
 						}
 					}
 					add_building_construction = {
@@ -660,7 +662,18 @@ form_commonwealth_category = {
 				has_completed_focus = POL_Polish_Revanchism
 				has_government = fascism
 				GER = {
-					has_completed_focus = GER_reassert_eastern_claims
+					if = {
+						limit = {
+							NOT = { has_global_flag = ger_vanilla_focus_tree }
+						}
+						has_completed_focus = GER_demand_memel
+					}
+					if = {
+						limit = {
+							has_global_flag = ger_vanilla_focus_tree
+						}
+						has_completed_focus = GER_demand_memel_vanilla
+					}
 				}
 			}
 			NOT = { has_completed_focus = POL_The_Front_Morges }
@@ -797,23 +810,15 @@ form_commonwealth_category = {
 					add_state_core = 227
 					add_state_core = 228
 					
-					if = {
-						limit = {
-							UKR = {
-								exists = no
-							}
-						}
-						UKR_pavlo_shandruk = {
-							set_nationality = DOU
-							add_field_marshal_role = {
-								traits = { fast_planner }
-								skill = 2
-								attack_skill = 2
-								defense_skill = 2
-								planning_skill = 1
-								logistics_skill = 2
-							}
-						}
+					create_field_marshal = {
+						name = "Pavlo Shandruk"
+						picture = "r56_portrait_DOU_Pavlo_Shandruk.dds"
+						traits = { fast_planner }
+						skill = 3
+						attack_skill = 2
+						defense_skill = 2
+						planning_skill = 1
+						logistics_skill = 2
 					}
 					division_template = {
 						name = "Rezervna Bryhada"
@@ -2337,12 +2342,13 @@ POL_army_reform_category = {
 						owner = POL
 					}
 				}
-				if = { limit = { NOT = { has_unit_leader = 3160 } }
+				if = {
+					limit = { NOT = { has_unit_leader = 3160 } }
 					create_corps_commander = {
 						name = "Stanisław Maczek"
-						picture = GFX_Portrait_POL_Stanislaw_Maczek
+						picture = "r56_portrait_POL_Stanislaw_Maczek.dds"
 						traits = { armor_officer panzer_leader trait_mountaineer }
-						id = 3160 # think this will throw an error after changing to gfx, but need to test 1st
+						id = 3160
 						skill = 5
 						attack_skill = 5
 						defense_skill = 4
@@ -3328,8 +3334,12 @@ POL_Front_Morges_Diplomatic_Agenda = {
 		available = {
 			GER = { 
 				has_army_manpower = { size > 749999 }
-				has_completed_focus = GER_demand_sudetenland
-				NOT = { has_completed_focus = GER_fate_of_czechoslovakia }
+				OR = {
+					has_completed_focus = GER_demand_sudetenland
+					has_completed_focus = GER_demand_sudetenland_vanilla
+				}
+				NOT = { has_completed_focus = GER_end_of_czechoslovakia }
+				NOT = { has_completed_focus = GER_end_of_czechoslovakia_vanilla }
 			}
 			69 = { NOT = { is_owned_by = CZE } }
 			1078 = { NOT = { is_owned_by = CZE } }
@@ -3368,7 +3378,8 @@ POL_Front_Morges_Diplomatic_Agenda = {
 
 		visible = {
 			GER = { 
-				NOT = { has_completed_focus = GER_fate_of_czechoslovakia }
+				NOT = { has_completed_focus = GER_end_of_czechoslovakia }
+				NOT = { has_completed_focus = GER_end_of_czechoslovakia_vanilla }
 			}
 			has_government = democratic
 			is_subject = no

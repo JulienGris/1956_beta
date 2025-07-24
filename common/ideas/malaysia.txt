@@ -1338,14 +1338,10 @@ ideas = {
 			removal_cost = 10
 			
 			research_bonus = {
-				train_tech = 0.2
+				industry = 0.10
 			}
-
-			#research_bonus = {
-			#	industry = 0.10
-			#}
 			
-			traits = { railway_company } #was infrastructure_concern
+			traits = { infrastructure_concern }
 		}
 
 		straits_trading = {		

@@ -73,11 +73,6 @@ political_actions = {
 				is_fully_controlled_by = ROOT
 				compliance > 40
 			}
-			1096 = {
-				is_owned_by = ROOT
-				is_fully_controlled_by = ROOT
-				compliance > 40
-			}
 			669 = {
 				is_owned_by = ROOT
 				is_controlled_by = ROOT
@@ -89,22 +84,15 @@ political_actions = {
 				523 = {
 					is_core_of = ROOT
 				}
-				1096 = {
-					is_core_of = ROOT
-				}
 			}
 		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 523
-				state = 1096
 			}
 		}
 		remove_effect = {
 			523 = {
-				add_core_of = ROOT
-			}
-			1096 = {
 				add_core_of = ROOT
 			}
 			set_cosmetic_tag = PNG	

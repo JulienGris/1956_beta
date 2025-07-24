@@ -310,7 +310,7 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		
-		non_shared_modifier = {
+		modifier = {
 			army_core_defence_factor = 0.025
 			army_core_attack_factor = 0.025
 		}
@@ -348,8 +348,7 @@ leader_traits = {
 			always = no # not gainable
 		}		
 		modifier = {
-			promote_cost_factor = 0.50 #the eunuch trait of hoi4 - lower from 50 to 5 to 0.50
-			reassignment_duration_factor = -0.5 #please leave
+			promote_cost_factor = 5 #the eunuch trait of hoi4 - lower from 50 to 5
 		}
 
 		new_commander_weight = {
@@ -682,7 +681,6 @@ leader_traits = {
 			factor = 0
 		}
 	}
-
 	EGY_brotherhood_sympathiser = {
 
 		type = all
@@ -719,8 +717,7 @@ leader_traits = {
 		}
 	}
 
-	# AUS
-
+	
 	AUS_nazi_loyalties = {
 		
 		type = all
@@ -730,29 +727,5 @@ leader_traits = {
 			factor = 0
 		}
 	}
-
-	# ARM
-
-	ARM_anti_communist_sympathizer = {
-		
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	# MEN
-
-	MEN_fascist_sympathies = {
-		
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
 }
+

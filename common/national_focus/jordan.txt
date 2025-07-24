@@ -20,16 +20,26 @@ focus_tree = {
 		icon = GFX_focus_ETH_sway_the_warlords
 		x = 0
 		y = -1
+
+		available = {
+		}
+
+		bypass = {
+		}
 	
 		cost = 5
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
+
 		completion_reward = {
-			add_political_power = -75
 			add_stability = 0.1
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
+			add_political_power = -75
 			country_event = jordan.1
+		}
+
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -40,6 +50,12 @@ focus_tree = {
 		relative_position_id = JOR_national_conference
 		x = 3
 		y = 1
+
+		available = {
+		}
+
+		bypass = {
+		}
 		mutually_exclusive = {
 			focus = JOR_ally_opposition
 		}
@@ -49,13 +65,16 @@ focus_tree = {
 		}
 		cost = 5
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
+
 		completion_reward = {
 			add_political_power = 75
 			add_stability = 0.1
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
 			country_event = jordan.6
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -66,11 +85,21 @@ focus_tree = {
 		x = -1
 		y = 1
 
+		available = {
+		}
+
+		bypass = {
+		}
+
 		prerequisite = {
 			focus = JOR_appease_tribes
 		}
 
 		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_appease_tribes
 
@@ -89,6 +118,8 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
@@ -98,20 +129,32 @@ focus_tree = {
 		x = 1
 		y = 1
 
+		available = {
+		}
+
+		bypass = {
+		}
+
 		prerequisite = {
 			focus = JOR_appease_tribes
 		}
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_appease_tribes
 
 		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
 			random_owned_controlled_state = {
 				add_manpower = 20000
 			}
-			add_stability = 0.05
-			add_manpower = 5000
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
@@ -123,12 +166,21 @@ focus_tree = {
 		x = 0
 		y = 3
 
+		available = {
+		}
+
+		
+
 		prerequisite = {
 			focus = JOR_salvage_ottoman_assets
 			focus = JOR_circassion_integration
 		}
 
 		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_appease_tribes
 
@@ -148,6 +200,8 @@ focus_tree = {
 				keep_completed = yes
 			}
 		}
+		ai_will_do = {
+		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
@@ -157,6 +211,9 @@ focus_tree = {
 		relative_position_id = JOR_national_conference
 		x = -3
 		y = 1
+
+		available = {
+		}
 
 		ai_will_do = {
 			base = 1
@@ -179,12 +236,18 @@ focus_tree = {
 		}
 		cost = 5
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
+
 		completion_reward = {
 			add_political_power = 50
 			add_war_support = 0.15
 			add_stability = -0.05
 		}
 
+		ai_will_do = {
+		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
@@ -193,6 +256,9 @@ focus_tree = {
 		icon = GFX_goal_orthodoxy
 		x = -1
 		y = 1
+
+		available = {
+		}
 
 		bypass = {
 			is_subject = no
@@ -204,6 +270,10 @@ focus_tree = {
 
 		cost = 5
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
+
 		relative_position_id = JOR_ally_opposition
 
 		completion_reward = {
@@ -212,6 +282,8 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_ideas = JOR_orthodox_rallying_idea
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -222,6 +294,9 @@ focus_tree = {
 		x = 1
 		y = 1
 
+		available = {
+		}
+
 		bypass = {
 			is_subject = no
 		}
@@ -230,7 +305,11 @@ focus_tree = {
 			focus = JOR_ally_opposition
 		}
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_ally_opposition
 
@@ -247,8 +326,6 @@ focus_tree = {
 					country_event = jordan.2	
 				}
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
 
 			if = {
 				limit = {
@@ -263,8 +340,12 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
+
+	
 
 	focus = {
 		id = JOR_revolt
@@ -302,18 +383,23 @@ focus_tree = {
 			focus = JOR_rally_orthodox
 		}
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_ally_opposition
 
 		completion_reward = {
-			promote_character = {
+			add_country_leader_role = {
 				character = JOR_john_bagot_glubb
-				ideology = military_junta
+				promote_leader = yes
+				country_leader = {
+					ideology = military_junta
+					expire = "1965.1.1.1"
+				}
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = neutrality
@@ -324,15 +410,13 @@ focus_tree = {
 				}	
 				
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_equipment_to_stockpile = { # Give the guns FROM THE EVENts
 				type = infantry_equipment
 				amount = var:JOR_guns_amount
 				producer = JOR
 			}
-			
+
 			division_template = {
 				name = "Quwat Mithqal Al-Qabeliyah"
 				priority = 1
@@ -354,8 +438,6 @@ focus_tree = {
 					infantry = { x = 1 y = 1 }
 				}
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
 
 			1022 = {
 				create_unit = {
@@ -367,8 +449,6 @@ focus_tree = {
 					owner = JOR
 				}
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
 
 			
 			add_country_leader_role = {
@@ -399,17 +479,25 @@ focus_tree = {
 			has_civil_war = no
 		}
 
+		
+
 		prerequisite = {
 			focus = JOR_revolt
 		}
 
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_revolt
 
 		completion_reward = {
 			country_event = jordan.10
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -434,30 +522,30 @@ focus_tree = {
 		}
 
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_operation_hashem
 
 		completion_reward = {
 			
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.3
-			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.3
+			}
 			load_focus_tree = {
 				tree = r56_arab_focus
 				keep_completed = yes
 			}
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -472,6 +560,8 @@ focus_tree = {
 			has_country_flag = JOR_army_won
 		}
 
+		
+
 		prerequisite = {
 			focus = JOR_operation_hashem
 		}
@@ -480,30 +570,30 @@ focus_tree = {
 			focus = JOR_utaybah_victory
 		}
 
-		cost = 10
+		cost = 10	
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+		available_if_capitulated = no
 
 		relative_position_id = JOR_operation_hashem
 
 		completion_reward = {
 			promote_character = JOR_habis_majali
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.3
-			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
 			}
-			
-			custom_effect_tooltip = generic_skip_one_line_tt
-			
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.3
+			}
 			load_focus_tree = {
 				tree = r56_arab_focus
 				keep_completed = yes
 			}
+		}
+		ai_will_do = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}

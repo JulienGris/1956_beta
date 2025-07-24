@@ -149,23 +149,27 @@ political_actions = {
 						ruling_only = yes
 					}
 				}
-				add_field_marshal_role = {
-					character = LIT_kazys_skirpa
+				create_field_marshal = {
+					name = "Kazys Škirpa"
+					picture = "gfx/leaders/LIT/r56_portrait_LIT_Kazys_Skirpa.dds"
+					traits = {}
 					skill = 2
 					attack_skill = 2
 					defense_skill = 2
 					planning_skill = 2
-					logistics_skill = 1
+					logistics_skill = 2
 				}
 			}
 			else = {
-				add_corps_commander_role = {
-					character = LIT_kazys_skirpa
+				create_corps_commander = {
+					name = "Kazys Škirpa"
+					picture = "gfx/leaders/LIT/r56_portrait_LIT_Kazys_Skirpa.dds"
+					traits = {}
 					skill = 2
 					attack_skill = 2
 					defense_skill = 2
 					planning_skill = 2
-					logistics_skill = 1
+					logistics_skill = 2
 				}
 			}
 		}

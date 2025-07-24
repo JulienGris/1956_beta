@@ -1,25 +1,26 @@
+
 state={
 	id=442
 	name="STATE_442"
 	manpower = 4837295
+	
 	state_category = town
 	resources={
-		chromium = 2
-		steel = 2
+		chromium=2
 	}
-
 	history={
 		victory_points = {
-			12717 5
+			12717 3
 		}
 		owner = RAJ
 		buildings = {
-			infrastructure = 2 #was 3
 			industrial_complex = 1
+			infrastructure = 2 #was 3
 			air_base = 3
 		}
 		add_core_of = PAK
-		add_claim_by = AFG # to represent that they wanted it
+		add_core_of = RAJ
+		add_core_of = AFG
 	}
 
 	provinces={

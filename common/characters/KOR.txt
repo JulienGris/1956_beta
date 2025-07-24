@@ -54,7 +54,7 @@ characters={
 				OR = { 
 					is_subject_of = JAP
 					has_government = neutrality
-					has_government = fascism
+					has_government = democratic
 				}
 				NOT = { 
 					has_idea = yi_un_army
@@ -75,7 +75,7 @@ characters={
 				OR = { 
 					is_subject_of = JAP
 					has_government = neutrality
-					has_government = fascism
+					has_government = democratic
 				}
 				NOT = { 
 					has_idea = yi_un_air
@@ -96,7 +96,7 @@ characters={
 				OR = { 
 					is_subject_of = JAP
 					has_government = neutrality
-					has_government = fascism
+					has_government = democratic
 				}
 				NOT = { 
 					has_idea = yi_un_army
@@ -141,7 +141,7 @@ characters={
 		}
 		country_leader={
 			ideology= fascism_ideology
-			traits = { anti_communist corrupt likes_usa }
+			traits = { anti_communist corrupt }
 			expire="1965.7.19.1"
 			id=-1
 		}
@@ -404,16 +404,20 @@ characters={
 			}
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = KOR_yi_kang
+			slot = high_command
+			idea_token = yi_kang_high_command
 			allowed = {
 				original_tag  = KOR
 			}
 			available = {
-				has_completed_focus = KOR_cement_monarchic_rule
+				OR = { 
+					is_subject_of = JAP
+					has_government = neutrality
+					has_government = democratic
+				}
 			}
 			traits = {
-				constitutional_monarch
+				army_cavalry_2
 			}
 		}
 		corps_commander = {
@@ -425,11 +429,29 @@ characters={
 			logistics_skill = 1
 			legacy_id = -1
 			visible = {
-				has_completed_focus = KOR_cement_monarchic_rule
-				OR = {
+				OR = { 
+					is_subject_of = JAP
 					has_government = democratic
 					has_government = neutrality
 				}
+			}
+		}
+	}
+	KOR_yi_kang_civ = {
+		name = "Yi Kang"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/kor/kr_idea_KOR_advisor_yi_kang_civ.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yi_kang_advisor
+			allowed = {
+				original_tag  = KOR
+			}
+			traits = {
+				royal
 			}
 		}
 	}
@@ -437,8 +459,7 @@ characters={
 		name = "Kim Nam-ju"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_asia_generic_3
-				small = GFX_kr_portrait_asia_generic_3_small
+				small = "gfx/interface/ideas/generic/advisors/kr_generic_asia_3.dds"
 			}
 		}
 		advisor={
@@ -492,16 +513,12 @@ characters={
 			idea_token = kim_chang_ryong
 			allowed = {
 				original_tag  = KOR
-				has_dlc = "La Resistance"
 			}
 			available = {
 				OR = { 
 					is_subject_of = JAP
 					has_government = fascism
 				}
-			}
-			visible = {
-				
 			}
 			traits = {
 				head_of_intelligence

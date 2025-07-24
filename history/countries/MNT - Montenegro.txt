@@ -1,8 +1,9 @@
 ﻿capital = 105 # Montenegro
 
 add_ideas = {
-    TIB_mountainous_people
+        TIB_mountainous_people
 }
+
 
 set_convoys = 10
 set_war_support = 0.2
@@ -23,8 +24,9 @@ set_technology = {
 	tech_mountaineers = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	TIB_mountainous_people_tech = 1
-
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -108,7 +110,14 @@ create_country_leader = {
 	ideology = conservatism
 }
 
-recruit_character = MNT_michael_petrovic_njegos
+create_country_leader = { #Prince Michael Petrović-Njegoš of Montenegro may be better
+	name = "Novica Radović"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = oligarchism
+}
+
 recruit_character = MNT_kristo_popovic
 recruit_character = MNT_blazo_jovanovic
 recruit_character = MNT_blazo_dukanovic

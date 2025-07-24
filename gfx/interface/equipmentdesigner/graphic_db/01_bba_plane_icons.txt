@@ -13,17 +13,17 @@ default = {
 
 GER = { # suggestion, give every country their file for clarity's sake. But it may put the generics first, so maybe the solution would be to have country files but starting with 000 like 000_GER_plane_icons
 
-	#small_plane_airframe_0 = {
-	#	pool = {
-	#		weight = 20
-	#		limit = {
-	#			##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed substitution makes this not needed
-	#		}			
-	#		models = {
-	#			"GER_fighter_equipment_0_entity"
-	#		}
-	#	}
-	#}
+	small_plane_airframe_0 = {
+		pool = {
+			weight = 20
+			limit = {
+				##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed substitution makes this not needed
+			}			
+			models = {
+				"GER_fighter_equipment_0_entity"
+			}
+		}
+	}
 
 	small_plane_airframe_1 = {
 		pool = {
@@ -1382,32 +1382,7 @@ ENG = {
 			}
 		}		
 		
-	}		
-	cv_small_plane_airframe_3 = {
-		pool = {
-			weight = 1.2
-			models = {
-				ENG_light_plane_3_entity
-			}
-		}
-	}
-	
-	cv_small_plane_cas_airframe_3 = {
-		pool = {
-			weight = 1.2
-			models = {
-				ENG_light_plane_3_entity
-			}
-		}
-	}
-	cv_small_plane_naval_bomber_airframe_3 = {
-		pool = {
-			weight = 1.2
-			models = {
-				ENG_light_plane_3_entity # sea fury
-			}
-		}
-	}
+	}			
 	small_plane_airframe = {
 		pool = {
 			weight = 1
@@ -1452,94 +1427,6 @@ ENG = {
 			}
 		}
 	}
-	medium_plane_airframe_0 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_0_entity # change to light plane ?
-			}
-		}
-	}
-	medium_plane_airframe_1 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_3_var_1_entity # recon instead?
-				ENG_medium_plane_entity
-			}
-		}
-	}
-	medium_plane_airframe_2 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_3_var_1_entity # recon instead?
-				commonwealth_gfx_heavy_fighter_equipment_2_entity
-				ENG_medium_plane_entity
-			}
-		}
-	}
-	medium_plane_airframe_3 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_3_var_1_entity # recon instead?
-				
-				ENG_medium_plane_entity
-				commonwealth_gfx_heavy_fighter_equipment_2_entity # mosquito fighter bomber
-				ENG_medium_plane_3_entity # mosquito fighter bomber
-			}
-		}
-	}
-	medium_plane_fighter_airframe_1 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_2_entity
-			}
-		}
-	}
-	medium_plane_fighter_airframe_2 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_2_entity
-				commonwealth_gfx_heavy_fighter_equipment_2_entity
-			}
-		}
-	}
-
-	medium_plane_fighter_airframe_3 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			models= {
-				ENG_medium_plane_2_entity
-				commonwealth_gfx_heavy_fighter_equipment_2_entity
-				ENG_medium_plane_3_entity
-			}
-		}
-	}
 	medium_plane_airframe_4 = {
 		pool = {
 			weight = 20
@@ -1568,69 +1455,7 @@ ENG = {
 			}
 		}
 	}
-	large_plane_airframe_0 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-
-			models= {
-				ENG_heavy_plane_1_entity # large Flying boat
-				ENG_heavy_plane_2_entity # later war bomber I think
-				ENG_heavy_plane_entity
-				ENG_heavy_plane_0_entity
-			}
-		}
-	}
-
-	large_plane_airframe_1 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-
-			models= {
-				ENG_heavy_plane_1_entity # large Flying boat
-				ENG_heavy_plane_2_entity # later war bomber I think
-				ENG_heavy_plane_entity
-				ENG_heavy_plane_1_var_1_entity
-			}
-		}
-	}
-	large_plane_airframe_2 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-
-			models= {
-				ENG_heavy_plane_1_entity # large Flying boat
-				ENG_heavy_plane_1_var_1_entity
-				ENG_heavy_plane_2_entity # later war bomber I think
-				ENG_heavy_plane_entity
-			}
-		}
-	}
-
-	large_plane_airframe_3 = {
-		pool = {
-			weight = 90
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-
-			models= {
-				ENG_heavy_plane_1_entity # large Flying boat
-				ENG_heavy_plane_1_var_1_entity
-				ENG_heavy_plane_entity
-				ENG_heavy_plane_2_entity # later war bomber I think
-			}
-		}
-	}
-	large_plane_maritime_patrol_plane_airframe = {
+	large_plane_maritime_patrol_plane_airframe = { #must be integrated int 01_bba_plane_icons instead???
 		pool = {
 			weight = 90
 			limit = {
@@ -2335,7 +2160,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2359,7 +2184,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2386,7 +2211,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2413,7 +2238,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2440,7 +2265,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2468,7 +2293,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2505,7 +2330,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2529,7 +2354,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2615,7 +2440,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2638,7 +2463,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2669,7 +2494,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2701,7 +2526,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2734,7 +2559,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2768,7 +2593,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2797,7 +2622,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -2821,7 +2646,7 @@ ITA = {
 			weight = 20
 			limit = {
 				NOT = {
-					ITA = { has_government = fascism }
+					has_government = fascism
 				}
 			}
 			models = {
@@ -3548,7 +3373,7 @@ ROM = {
 		pool = {
 			weight = 20
 			models = {
-				ROM_light_plane_entity
+				ROM_fighter_equipment_1_entity
 				ROM_fighter_equipment_3_entity
 			}
 
@@ -3564,7 +3389,7 @@ ROM = {
 		pool = {
 			weight = 20
 			models = {
-				ROM_light_plane_entity
+				ROM_fighter_equipment_1_entity
 				ROM_fighter_equipment_3_entity
 			}
 
@@ -3580,7 +3405,7 @@ ROM = {
 		pool = {
 			weight = 20
 			models = {
-				ROM_light_plane_entity
+				ROM_fighter_equipment_1_entity
 				ROM_fighter_equipment_3_entity
 			}
 
@@ -3596,7 +3421,7 @@ ROM = {
 		pool = {
 			weight = 30
 			models = {
-				ROM_light_plane_entity
+				ROM_fighter_equipment_1_entity
 				ROM_fighter_equipment_3_entity
 			}
 
@@ -3720,9 +3545,6 @@ YUG = {
 	}	
 	small_plane_airframe_1 = {
 		pool = {
-			limit = {
-				#has_dlc = "Eastern Front Planes Pack"	#not a valid check...
-			}	
 			weight = 30
 			models = {
 				YUG_fighter_equipment_3_entity
@@ -3740,9 +3562,6 @@ YUG = {
 	}	
 	small_plane_airframe_2 = {
 		pool = {
-			limit = {
-				#has_dlc = "Eastern Front Planes Pack"	#not a valid check...
-			}	
 			weight = 30
 			models = {
 				YUG_fighter_equipment_1_entity
@@ -3759,9 +3578,6 @@ YUG = {
 	}	
 	small_plane_airframe_3 = {
 		pool = {
-			limit = {
-				#has_dlc = "Eastern Front Planes Pack"	#not a valid check...
-			}	
 			weight = 30
 			models = {
 				YUG_fighter_equipment_1_entity
@@ -3780,7 +3596,7 @@ YUG = {
 		pool = {
 			weight = 20
 			limit = {
-				##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed
+				##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed substitution makes this not needed
 			}
 			models = {
 				YUG_heavy_fighter_equipment_2_entity
@@ -3792,7 +3608,7 @@ YUG = {
 		pool = {
 			weight = 20
 			limit = {
-				##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed
+				##has_dlc = "Eastern Front Planes Pack" substitution makes this not needed substitution makes this not needed
 			}
 			models = {
 				YUG_heavy_fighter_equipment_2_entity

@@ -20,6 +20,10 @@ RUT_national_unification = {
 	picture = GFX_decision_cat_LAT_mobilization_plans
 	
 	allowed = {
+		
+	}
+
+	visible = {
 		original_tag = RUT
 	}
 }

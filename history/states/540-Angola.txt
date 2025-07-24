@@ -12,16 +12,17 @@ state={
 			8248 = {
 				naval_base = 1
 			}
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 		victory_points = {
 			8248 1 
 		}
 		add_core_of = ANG
+
 	}
 
 	provinces={
-		5158 7548 8219 8248 12981 13472 13473
+		5158 7548 8219 8248 12981 
 	}
 
 	buildings_max_level_factor=1.000

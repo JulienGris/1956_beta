@@ -8,7 +8,6 @@
 
  #################### 
 
-#r56 - changed tag to original_tag on numerous occasions difficult to log
 CZE_ckd_organization = {
 	include = generic_mobile_tank_organization
 	icon = GFX_idea_CZE_ckd
@@ -16,9 +15,9 @@ CZE_ckd_organization = {
 	allowed = {	
 		OR = {
 			original_tag = CZE
-			original_tag = PRU #r56
+			original_tag = PRU
 			AND = {
-				original_tag = ETH
+				original_tag = ETH 
 				has_dlc = "By Blood Alone"
 			}
 		}
@@ -29,7 +28,8 @@ CZE_ckd_organization = {
 			limit = { FROM = { original_tag = ETH } }
 			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
-		IF = { #r56
+
+		IF = {
 			limit = { FROM = { original_tag = PRU } }
 			FROM = { has_completed_focus = PRU_czech_tanks }
 		}
@@ -64,7 +64,7 @@ CZE_tatra_organization = {
 	allowed = { 
 		original_tag = CZE
 	}
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_medium_tank_designer
 
 		organization_modifier = {
@@ -80,27 +80,20 @@ CZE_tatra_organization = {
 CZE_skoda_armor_organization = {
 	include = generic_heavy_tank_organization
 	icon = GFX_idea_CZE_skoda_armor
-
+	
 	allowed = {	
 		OR = {
 			original_tag = CZE
+			original_tag = HUN
+			original_tag = CRO
 			AND = {
 				original_tag = ETH 
 				has_dlc = "By Blood Alone"
 			}
-			#AND = { #r56
-				original_tag = HUN 
-			#	has_dlc = "Gotterdammerung"
-			#}
-			AND = {
-				original_tag = PER
-				has_dlc = "Graveyard of Empires"
-				#has_dlc = "Arms Against Tyranny" #r56 dlc locked anyway
-			}
 		}
 	}
-
-	visible = { #r56 most reworked
+	
+	visible = {
 		owner = {
 			IF = {
 				limit = { FROM = { original_tag = ETH } }
@@ -108,19 +101,11 @@ CZE_skoda_armor_organization = {
 			}
 			IF = {
 				limit = { 
-					FROM = {
-						OR = {
-							original_tag = HUN
-							original_tag = CRO
-						}
-					}
+					original_tag = HUN
+					original_tag = CRO 
 				}
 				owner = { has_completed_focus = AH_coordinate_the_land_equipment_manufacturers }
-			}
-			IF = {
-				limit = { FROM = { original_tag = PER } }
-				FROM = { has_completed_focus = PER_czech_tanks }
-			}	
+			}		
 		}
 	}
 
@@ -133,7 +118,6 @@ CZE_skoda_armor_organization = {
 				}
 				FROM = { NOT = { has_war_with = CZE } }
 			}
-	
 			IF = {
 				limit = {
 					FROM = { original_tag = ETH }
@@ -146,10 +130,6 @@ CZE_skoda_armor_organization = {
 				}
 			}
 			IF = {
-				limit = { FROM = { original_tag = PER } }
-				FROM = { has_completed_focus = PER_czech_tanks }
-			}
-			IF = { #r56
 				limit = { 
 					original_tag = HUN
 					original_tag = CRO 
@@ -158,7 +138,6 @@ CZE_skoda_armor_organization = {
 			}
 		}
 	}
-
 	initial_trait = {
 		name = generic_mio_initial_trait_heavy_tank_designer
 
@@ -189,7 +168,7 @@ CZE_skoda_shipyards_organization = {
 	allowed = { 
 		original_tag = CZE
 	}
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_escort_fleet
 
 		organization_modifier = {
@@ -217,39 +196,35 @@ CZE_ckd_praga_organization = {
 	allowed = { 
 		OR = {
 			original_tag = CZE
-			original_tag = AUS #r56
-			original_tag = CRO #r56
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-			original_tag = HUN #r56
+			original_tag = HUN
+			original_tag = AUS
+			original_tag = CRO
 		}
+		
 	}
-
-	available = { #r56
+	available = {
 		owner = {
 			IF = {
 				limit = { 
+					
 					original_tag = AUS
 					original_tag = HUN
-					original_tag = CRO
+					original_tag = CRO 
+					 
 				}
 				owner = { has_completed_focus = AH_form_mechanics }
 			}
 		}
 	}
-
-	visible = { #r56
+	visible = {
 		owner = {
 			OR = {
 				original_tag = CZE
 				owner = { has_completed_focus = AH_austro_hungarian_unification }
 			}
 		}
-	}
-
-	initial_trait = { #r56
+	}	
+	initial_trait = {
 		name = generic_mio_initial_trait_naval_aircraft_designer
 
 		organization_modifier = {
@@ -259,22 +234,21 @@ CZE_ckd_praga_organization = {
 		production_bonus = {
 			production_capacity_factor = 0.05
 		}
-	}
+	}	
 }
 
 CZE_aero_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_CZE_aero
-
-	allowed = { #r56
+	allowed = { 
 		OR = {
 			original_tag = CZE
 			original_tag = AUS
 			original_tag = CRO
 		}
+		
 	}
-
-	available = { #r56
+	available = {
 		IF = {
 			limit = { 
 				FROM = { 
@@ -285,8 +259,7 @@ CZE_aero_organization = {
 			FROM = { has_completed_focus = AH_form_mechanics }
 		}
 	}
-
-	visible = { #r56
+	visible = {
 		owner = {
 			OR = {
 				original_tag = CZE
@@ -294,8 +267,7 @@ CZE_aero_organization = {
 			}
 		}
 	}
-
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_multi_role_tactical_aircraft
 
 		limit_to_equipment_type = { mio_cat_eq_all_medium_plane }
@@ -310,15 +282,15 @@ CZE_aero_organization = {
 CZE_letov_organization = {
 	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_CZE_letov
-	allowed = { #r56
+	allowed = { 
 		OR = {
 			original_tag = CZE
 			original_tag = AUS
 			original_tag = CRO
 		}
+		
 	}
-
-	available = { #r56
+	available = {
 		IF = {
 			limit = { 
 				FROM = { 
@@ -329,8 +301,7 @@ CZE_letov_organization = {
 			FROM = { has_completed_focus = AH_form_mechanics }
 		}
 	}
-
-	visible = { #r56
+	visible = {
 		owner = { 	
 			OR = {
 				original_tag = CZE
@@ -338,8 +309,7 @@ CZE_letov_organization = {
 			}
 		}
 	}
-
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_heavy_aircraft_designer
 
 		limit_to_equipment_type = { large_plane_airframe large_plane_maritime_patrol_plane_airframe }
@@ -355,14 +325,13 @@ CZE_letov_organization = {
 }
 
 CZE_avia_organization = {
-	name = CZE_avia
+name = CZE_avia
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_CZE_avia
-
 	allowed = { 
 		OR = {
 			original_tag = CZE 
-			original_tag = ISR #r56
+			original_tag = ISR
 			AND = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
@@ -399,14 +368,14 @@ CZE_avia_organization = {
 		}
 
 		
-		IF = { #r56
+		IF = {
 			limit = {
 				FROM = { original_tag = ISR }
 			}
 			FROM = { has_completed_focus = ISR_czech_weaponry }
 		}
 	}
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_light_aircraft_designer
 
 		equipment_bonus = {
@@ -434,7 +403,7 @@ CZE_zbrojovka_brno_organization = {
 	allowed = { 
 		original_tag = CZE
 	}
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_infantry_manufacturer
 
 		organization_modifier = {
@@ -492,7 +461,7 @@ CZE_skoda_artillery_organization = {
 			}
 		}
 	}
-	initial_trait = { #r56
+	initial_trait = {
 		name = generic_mio_initial_trait_artillery_manufacturer
 
 		organization_modifier = {
@@ -507,21 +476,24 @@ CZE_skoda_artillery_organization = {
 CZE_praga_organization = {
 	include = generic_motorized_mechanized_organization
 	icon = GFX_idea_CZE_praga
-
 	allowed = { 
 		original_tag = CZE
-	}
 
-	initial_trait = { #r56
+	}
+	available = {
+
+	}
+	initial_trait = {
 		name = generic_mio_initial_trait_motorized_mechanized_manufacturer
 
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
 		}
-	}
+	}	
+
 }
 
-CZE_tatra_armored_car_organization = { #r56
+CZE_tatra_armored_car_organization = {
 	name = CZE_tatra_organization
 	include = generic_armored_car_organization
 	icon = GFX_idea_CZE_tatra

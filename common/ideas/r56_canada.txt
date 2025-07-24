@@ -1272,7 +1272,7 @@ ideas = {
 			allowed_civil_war = {
 			}
 			
-			picture = ETH_customs_barrier_ITA
+			picture = generic_foreign_capital
 			
 			removal_cost = -1
 			

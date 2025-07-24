@@ -732,7 +732,7 @@ country_event = {#Election Notification
 					}
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
-						option = GOE_INDIA_COMMUNISM
+						option = ILP
 					}
 				}
 			}
@@ -775,7 +775,7 @@ country_event = {#Election Notification
 					}
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
-						option = GOE_INDIA_COMMUNISM
+						option = ILP
 					}
 					has_country_flag = PROVINCIAL_ELECTIONS
 				}
@@ -785,7 +785,7 @@ country_event = {#Election Notification
 				OR = {
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
-						option = HISTORICAL 
+						option = LORD_LINLITHGOW 
 					}
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
@@ -793,7 +793,7 @@ country_event = {#Election Notification
 					}
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
-						option = GOE_INDIA_COMMUNISM_URBAN
+						option = FREE_INDIA_MARXIST
 					}
 					has_country_flag = FREE_INDIA
 				}
@@ -971,7 +971,7 @@ country_event = {#PROVINCIAL ELECTIONS
 				factor = 300
 				has_game_rule = { 
 					rule = RAJ_AI_BEHAVIOR 
-					option = GOE_INDIA_COMMUNISM
+					option = ILP
 				}
 			}
 		}
@@ -1717,7 +1717,7 @@ country_event = {#Choice between British Raj and Azad Hind
 					}
 					has_game_rule = { 
 						rule = RAJ_AI_BEHAVIOR
-						option = GOE_INDIA_COMMUNISM_URBAN
+						option = FREE_INDIA_MARXIST
 					}
 					has_country_flag = FREE_INDIA
 				}
@@ -1874,9 +1874,6 @@ country_event = {#Nepalese White Peace
 	picture = GFX_report_event_picture_RAJ_Indian_Brigade
     trigger = {
 		323 = {
-			is_fully_controlled_by = NEP
-		}
-		1091 = {
 			is_fully_controlled_by = NEP
 		}
 		has_global_flag = {
@@ -2293,12 +2290,6 @@ country_event = {#Independent Labour Party secures international support
 			}
 			custom_effect_tooltip = raj_ifb_2
 		}
-		1090 = {
-			add_to_variable = {
-				ifb_state = 2
-			}
-			custom_effect_tooltip = raj_ifb_2
-		}
 		440 = {
 			add_to_variable = {
 				ifb_state = 2
@@ -2330,12 +2321,6 @@ country_event = {#Independent Labour Party secures international support
 			custom_effect_tooltip = embargo_relation_tt
 		}
 		439 = {
-			add_to_variable = {
-				ifb_state = 1
-			}
-			custom_effect_tooltip = raj_ifb_1
-		}
-		1090 = {
 			add_to_variable = {
 				ifb_state = 1
 			}
@@ -4458,7 +4443,7 @@ country_event = {#princely state initialisation
 	}
 }
 
-country_event = {#start demanding oaths of loyalty small princes
+country_event = {#demanding oaths of loyalty
 	id = india.501
 	title = india.501.t
 	desc = india.501.desc
@@ -4482,7 +4467,7 @@ country_event = {#start demanding oaths of loyalty small princes
 		}
 	}
 	
-	option = {#Arunachal Pradesh(This is Nepal! No Prince!), Odisha, North Kashmir, Mandalay, Peshawar, Shanland
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4496,19 +4481,10 @@ country_event = {#start demanding oaths of loyalty small princes
 		787 = {
 			prince_integration = yes
 		}
-		640 = {
-			prince_integration = yes
-		}
-		442 = {
-			prince_integration = yes
-		}
-		1018 = {
-			prince_integration = yes
-		}
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Gujarat Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4520,7 +4496,7 @@ country_event = {#start demanding oaths of loyalty small princes
 					}
 				}
 				0 = {
-					#Gujarat Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4535,7 +4511,7 @@ country_event = {#start demanding oaths of loyalty small princes
 		}
 	}
 }
-country_event = {#demanding oaths of loyalty Gujarat failed
+country_event = {#demanding oaths of loyalty
 	id = india.4280
 	title = india.4280.t
 	desc = india.4280.desc
@@ -4564,7 +4540,7 @@ country_event = {#demanding oaths of loyalty Gujarat failed
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Manipur Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4576,7 +4552,7 @@ country_event = {#demanding oaths of loyalty Gujarat failed
 					}
 				}
 				0 = {
-					#Manipur Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4592,7 +4568,7 @@ country_event = {#demanding oaths of loyalty Gujarat failed
 	}
 }
 
-country_event = {#demanding oaths of loyalty Gujarat success
+country_event = {#demanding oaths of loyalty
 	id = india.4281
 	title = india.4281.t
 	desc = india.4281.desc
@@ -4628,7 +4604,7 @@ country_event = {#demanding oaths of loyalty Gujarat success
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Rajasthan Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4640,7 +4616,7 @@ country_event = {#demanding oaths of loyalty Gujarat success
 					}
 				}
 				0 = {
-					#Rajasthan Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4655,7 +4631,7 @@ country_event = {#demanding oaths of loyalty Gujarat success
 		}
 	}
 }
-country_event = {#demanding oaths of loyalty Rajasthan failed
+country_event = {#demanding oaths of loyalty
 	id = india.4330
 	title = india.4330.t
 	desc = india.4330.desc
@@ -4674,7 +4650,7 @@ immediate = {
 		}
 	}
 
-	option = {#Rajasthan
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4685,7 +4661,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Indore Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4697,7 +4673,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Indore Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4713,7 +4689,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Rajasthan success
+country_event = {#demanding oaths of loyalty
 	id = india.4331
 	title = india.4331.t
 	desc = india.4331.desc
@@ -4732,7 +4708,7 @@ immediate = {
 		}
 	}
 
-	option = {#Rajasthan
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4749,7 +4725,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Indore  Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4761,7 +4737,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Indore Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4776,7 +4752,7 @@ immediate = {
 		}
 	}
 }
-country_event = {#demanding oaths of loyalty Indore failed
+country_event = {#demanding oaths of loyalty
 	id = india.4370
 	title = india.4370.t
 	desc = india.4370.desc
@@ -4795,7 +4771,7 @@ immediate = {
 		}
 	}
 
-	option = {#Indore
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4806,7 +4782,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Hyderabad Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4818,7 +4794,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Hyderabad Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4834,7 +4810,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Indore success
+country_event = {#demanding oaths of loyalty
 	id = india.4371
 	title = india.4371.t
 	desc = india.4371.desc
@@ -4853,7 +4829,7 @@ immediate = {
 		}
 	}
 
-	option = {#Indore
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4870,7 +4846,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Hyderabad Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4882,7 +4858,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Hyderabad Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4897,7 +4873,7 @@ immediate = {
 		}
 	}
 }
-country_event = {#demanding oaths of loyalty Hyderabad failed
+country_event = {#demanding oaths of loyalty
 	id = india.4270
 	title = india.4270.t
 	desc = india.4270.desc
@@ -4916,7 +4892,7 @@ immediate = {
 		}
 	}
 
-	option = {#Hyderabad
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4933,7 +4909,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Sikkim Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -4945,7 +4921,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Sikkim Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -4961,14 +4937,14 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Hyderabad success
+country_event = {#demanding oaths of loyalty
 	id = india.4271
 	title = india.4271.t
 	desc = india.4271.desc
 	picture = GFX_report_event_picture_RAJ_Hyderabad_Palace
 
 	is_triggered_only = yes
-	immediate = { set_variable = { current_state = 1013 } }
+	immediate = { set_variable = { current_state = 425 } }
 immediate = {
 		var:current_state = {
 			set_variable = {
@@ -4980,7 +4956,7 @@ immediate = {
 		}
 	}
 
-	option = {#Hyderabad
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -4997,25 +4973,25 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Sikkim Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
 					}
 					RAJ = { country_event = {
-						id = india.10130 #StateID + Integration Binary
+						id = india.4250 #StateID + Integration Binary
 						hours = 48
 					}
 					}
 				}
 				0 = {
-					#Sikkim Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
 					}
 					RAJ = { country_event = {
-						id = india.10131
+						id = india.4251
 						hours = 48
 					}
 					}
@@ -5025,7 +5001,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Sikkim failed
+country_event = {#demanding oaths of loyalty
 id = india.10130
 title = india.10130.t
 desc = india.10130.desc
@@ -5044,7 +5020,7 @@ immediate = {
 	}
 }
 
-option = {#Sikkim
+option = {#Gujarat
 	ai_chance = {
 		base = 20
 	}
@@ -5055,7 +5031,7 @@ option = {#Sikkim
 	var:current_state = {
 		random_list = {
 			0 = {
-				#Mysore Moves for Independence
+				#Moves for Independence
 				modifier = {
 					add = var:temp_calc_chance
 					always = yes
@@ -5067,7 +5043,7 @@ option = {#Sikkim
 				}
 			}
 			0 = {
-				#Mysore Integrates into India
+				#Integrates into India
 				modifier = {
 					add = var:voting_chance
 					always = yes
@@ -5083,7 +5059,7 @@ option = {#Sikkim
 }
 }
 
-country_event = {#demanding oaths of loyalty Sikkim success
+country_event = {#demanding oaths of loyalty
 id = india.10131
 title = india.10131.t
 desc = india.10131.desc
@@ -5102,7 +5078,7 @@ immediate = {
 	}
 }
 
-option = {#Sikkim
+option = {#Gujarat
 	ai_chance = {
 		base = 20
 	}
@@ -5119,7 +5095,7 @@ option = {#Sikkim
 	var:current_state = {
 		random_list = {
 			0 = {
-				#Mysore Moves for Independence
+				#Moves for Independence
 				modifier = {
 					add = var:temp_calc_chance
 					always = yes
@@ -5131,7 +5107,7 @@ option = {#Sikkim
 				}
 			}
 			0 = {
-				#Mysore Integrates into India
+				#Integrates into India
 				modifier = {
 					add = var:voting_chance
 					always = yes
@@ -5147,7 +5123,7 @@ option = {#Sikkim
 }
 }
 
-country_event = {#demanding oaths of loyalty Mysore failed
+country_event = {#demanding oaths of loyalty
 	id = india.4250
 	title = india.4250.t
 	desc = india.4250.desc
@@ -5166,7 +5142,7 @@ immediate = {
 		}
 	}
 
-	option = {#Mysore
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -5183,7 +5159,7 @@ immediate = {
 			var:current_state = {
 				random_list = {
 					0 = {
-						#Kashmir Moves for Independence
+						#Moves for Independence
 						modifier = {
 							add = var:temp_calc_chance
 							always = yes
@@ -5195,7 +5171,7 @@ immediate = {
 						}
 					}
 					0 = {
-						#Kashmir Integrates into India
+						#Integrates into India
 						modifier = {
 							add = var:voting_chance
 							always = yes
@@ -5215,7 +5191,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Mysore success
+country_event = {#demanding oaths of loyalty
 	id = india.4251
 	title = india.4251.t
 	desc = india.4251.desc
@@ -5234,7 +5210,7 @@ immediate = {
 		}
 	}
 
-	option = {#Mysore
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -5257,7 +5233,7 @@ immediate = {
 			var:current_state = {
 				random_list = {
 					0 = {
-						#Kashmir Moves for Independence
+						#Moves for Independence
 						modifier = {
 							add = var:temp_calc_chance
 							always = yes
@@ -5269,7 +5245,7 @@ immediate = {
 						}
 					}
 					0 = {
-						#Kashmir Integrates into India
+						#Integrates into India
 						modifier = {
 							add = var:voting_chance
 							always = yes
@@ -5288,7 +5264,7 @@ immediate = {
 		}
 	}
 }
-country_event = {#demanding oaths of loyalty Kashmir failed
+country_event = {#demanding oaths of loyalty
 	id = india.4410
 	title = india.4410.t
 	desc = india.4410.desc
@@ -5307,7 +5283,7 @@ immediate = {
 		}
 	}
 
-	option = {#Kashmir
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -5324,7 +5300,7 @@ immediate = {
 			var:current_state = {
 				random_list = {
 					0 = {
-						#Baluchistan Moves for Independence
+						#Moves for Independence
 						modifier = {
 							add = var:temp_calc_chance
 							always = yes
@@ -5336,7 +5312,7 @@ immediate = {
 						}
 					}
 					0 = {
-						#Baluchistan Integrates into India
+						#Integrates into India
 						modifier = {
 							add = var:voting_chance
 							always = yes
@@ -5356,7 +5332,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Kashmir success
+country_event = {#demanding oaths of loyalty
 	id = india.4411
 	title = india.4411.t
 	desc = india.4411.desc
@@ -5375,7 +5351,7 @@ immediate = {
 		}
 	}
 
-	option = {#Kashmir
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -5392,7 +5368,7 @@ immediate = {
 		var:current_state = {
 			random_list = {
 				0 = {
-					#Baluchistan Moves for Independence
+					#Moves for Independence
 					modifier = {
 						add = var:temp_calc_chance
 						always = yes
@@ -5404,7 +5380,7 @@ immediate = {
 					}
 				}
 				0 = {
-					#Baluchistan Integrates into India
+					#Integrates into India
 					modifier = {
 						add = var:voting_chance
 						always = yes
@@ -5420,7 +5396,7 @@ immediate = {
 	}
 }
 
-country_event = {#demanding oaths of loyalty Baluchistan failed
+country_event = {#demanding oaths of loyalty
 	id = india.4440
 	title = india.4440.t
 	desc = india.4440.desc
@@ -5428,7 +5404,7 @@ country_event = {#demanding oaths of loyalty Baluchistan failed
 
 	is_triggered_only = yes
 
-	option = {#Baluchistan
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}
@@ -5440,7 +5416,7 @@ country_event = {#demanding oaths of loyalty Baluchistan failed
 	}
 }
 
-country_event = {#demanding oaths of loyalty Baluchistan success
+country_event = {#demanding oaths of loyalty
 	id = india.4441
 	title = india.4441.t
 	desc = india.4441.desc
@@ -5459,7 +5435,7 @@ immediate = {
 		}
 	}
 
-	option = {#Baluchistan
+	option = {#Gujarat
 		ai_chance = {
 			base = 20
 		}

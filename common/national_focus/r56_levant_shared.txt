@@ -1,5 +1,5 @@
 ﻿#
-#Edit for Rt56 by Thinking_Waffle# This was supposed to be about the Levant only but it got expanded to the entire arab world, so with Graveyard of empires out, I am editing it further in that direction.
+#Edit for Rt56 by Thinking_Waffle#
 	shared_focus = {
 		id = SYR_UNIFIED_arab_unification
 		icon = GFX_goal_EGY_arab_league
@@ -28,21 +28,14 @@
 				original_tag = UAE
 				original_tag = BHR
 				original_tag = SUD
-				original_tag = DJI
-				original_tag = COM
 			}
 		}	
 		offset = {
 			x = 2
 			y = 0
 			trigger = {
-				has_focus_tree = R56_iraqi_focus
+				has_focus_tree = iraqi_focus
 			}
-		}
-		offset = {
-			x = 3
-			y = 0
-			trigger = { has_focus_tree = iraq_focus }
 		}
 		offset = {
 			x = 6
@@ -52,24 +45,17 @@
 			}
 		}
 		offset = {
-			x = -30
+			x = -24
 			y = 0
 			trigger = {
 				has_focus_tree = sudan_focus
 			}
 		}
 		offset = {
-			x = 6
+			x = 7
 			y = 0
 			trigger = {
 				has_focus_tree = saudi_focus
-			}
-		}
-		offset = {
-			x = 1
-			y = 0
-			trigger = {
-				has_focus_tree = algeria_focus
 			}
 		}
 		x = 58	
@@ -77,8 +63,6 @@
 		ai_will_do = {
 			factor = 5
 		}
-
-		text_icon = NORDIC_focus_style
 
 		available = {
 			NOT = {
@@ -125,8 +109,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -197,8 +179,6 @@
 		relative_position_id = SYR_UNIFIED_improve_local_infrastructure
 		x = -1
 		y = 1
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -249,7 +229,7 @@
 	}	
 	shared_focus = {
 		id = SYR_UNIFIED_pan_arab_cooperation
-		icon = GFX_focus_IRQ_rally_the_arab_world
+		icon = GFX_goal_generic_national_unity
 		cost = 10
 		prerequisite = {
 			focus = SYR_UNIFIED_improve_local_infrastructure
@@ -260,22 +240,13 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
+
 		allow_branch = {
 
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					has_global_flag = irq_dlc_focus_tree
-					tag = IRQ
-				}
-				add_stability = 0.10
-				add_war_support = 0.05
-			}
-			else = {
-				add_ideas = IRQ_rally_the_arab_world_idea
-			}
+			add_stability = 0.10
+			add_war_support = 0.05							
 		}
 	}	
 	shared_focus = {
@@ -291,8 +262,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_economic_unification
@@ -323,8 +292,6 @@
 		ai_will_do = {
 			factor = 10
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 
 		}
@@ -347,8 +314,6 @@
 		prerequisite = {
 			focus = SYR_UNIFIED_defend_the_new_union
 		}
-		text_icon = NORDIC_focus_style
-
 		available = {
 			NOT = {
 				has_idea = generic_recent_army_unification

@@ -2,7 +2,7 @@
 state={
 	id=1002
 	name="STATE_1002" # Paraná
-	manpower = 934624
+	manpower = 1236276
 	
 	state_category = city
 

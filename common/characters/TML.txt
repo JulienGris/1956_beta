@@ -3,8 +3,8 @@ characters = {
 		name = "Aleixo Corte-Real"
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_africa_generic_land_1
-				small = GFX_kr_portrait_africa_generic_land_1_small
+				large = "gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+				small = "gfx/interface/ideas/idea_africa_generic_land_1.dds"
 			}
 		}
 		corps_commander = {
@@ -85,10 +85,9 @@ characters = {
 		name = "Francisco Mendes"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_africa_generic_1
-				small = GFX_kr_portrait_africa_generic_1_small
+				large = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 			}
-		}	
+		}
 		country_leader = {
 			ideology = marxism
 			expire = "1953.3.1"
@@ -98,8 +97,7 @@ characters = {
 		name = "Manuel Silveira"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_africa_generic_1
-				small = GFX_kr_portrait_africa_generic_1_small
+				small = "gfx/interface/ideas/idea_africa_generic_1.dds"
 			}
 		}
 		advisor = {
@@ -122,8 +120,7 @@ characters = {
 		name = "David Salazar"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_africa_generic_2
-				small = GFX_kr_portrait_africa_generic_2_small
+				small = "gfx/interface/ideas/idea_africa_generic_2.dds"
 			}
 		}
 		advisor = {
@@ -146,8 +143,7 @@ characters = {
 		name = "Teodoro Cabral"
 		portraits = {
 			civilian = {
-				large = GFX_kr_portrait_africa_generic_3
-				small = GFX_kr_portrait_africa_generic_3_small
+				small = "gfx/interface/ideas/idea_africa_generic_3.dds"
 			}
 		}
 		advisor = {
@@ -170,8 +166,7 @@ characters = {
 		name = "Rafael Pinto"
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_africa_generic_land_1
-				small = GFX_kr_portrait_africa_generic_land_1_small
+				small = "gfx/interface/ideas/idea_africa_generic_land_1.dds"
 			}
 		}
 		advisor = {
@@ -213,8 +208,7 @@ characters = {
 		name = "Adriano Rodrigues"
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_africa_generic_land_2
-				small = GFX_kr_portrait_africa_generic_land_2_small
+				small = "gfx/interface/ideas/idea_africa_generic_land_2.dds"
 			}
 		}
 		advisor = {
@@ -235,8 +229,7 @@ characters = {
 		name = "Bruno Pereira"
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_africa_generic_land_3
-				small = GFX_kr_portrait_africa_generic_land_3_small
+				small = "gfx/interface/ideas/idea_africa_generic_land_3.dds"
 			}
 		}
 		advisor = {
@@ -280,8 +273,7 @@ characters = {
 		name = "Augusto Pulido"
 		portraits = {
 			army = {
-				large = GFX_kr_portrait_africa_generic_land_1
-				small = GFX_kr_portrait_africa_generic_land_1_small
+				small = "gfx/interface/ideas/idea_africa_generic_land_1.dds"
 			}
 		}
 		advisor = {

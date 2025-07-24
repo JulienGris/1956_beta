@@ -12,25 +12,6 @@ set_technology = {
 	tech_trucks = 1
 }
 
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		transport = 1
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		mtg_transport = 1
-	}
-}
-
-set_research_slots = 3
 set_convoys = 20
 
 set_politics = {
@@ -58,18 +39,18 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pouvanaa Oopa"
 	desc = ""
-	picture = GFX_kr_portrait_africa_generic_land_3
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 	ideology = leninism
 	traits = {
 		headstrong
 	}
 }
 create_country_leader = {
-	name = "Alfred Poroi"
+	name = "Rock Pidjot"
 	desc = ""
-	picture = GFX_kr_portrait_europe_generic_1
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"
 	ideology = socialism
 	traits = {
-		well_connected_businessman
+		savvy_politician
 	}
 }

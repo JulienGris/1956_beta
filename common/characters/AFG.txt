@@ -10,7 +10,7 @@ characters = {
 		country_leader = {
 			ideology = despotism
 			traits = {
-				AFG_pragmatic_modernizer polyglot r56_trait_opposed_to_communism #he knew Arabic, Persian, Pashto, Urdu, French and Russian
+				royal_prime_minister_hashim r56_trait_opposed_to_communism
 			}
 			expire = "1965.1.1"
 			id = -1
@@ -36,48 +36,11 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
-				AFG_pragmatic_modernizer
+				royal_prime_minister_hashim
 			}
 			ai_will_do = {
 				factor = 10
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
-					}
-				}
 			}
 		}
 	}
@@ -91,7 +54,7 @@ characters = {
 		country_leader = {
 			ideology = constitutional_monarchy
 			traits = {
-				PER_reza_shah_modernizer_new charismatic_monarch
+				PER_reza_shah_modernizer_new
 			}
 			expire = "1965.1.1"
 			id = -1
@@ -103,11 +66,6 @@ characters = {
 			idea_token = AFG_humaira_begum
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_completed_focus = AFG_power_to_the_king
@@ -138,43 +96,11 @@ characters = {
 					has_completed_focus = AFG_power_to_the_king
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
 		}
 		name = AFG_humaira_begum
 		portraits = {
 			army = {
-				small="GFX_idea_generic_political_advisor_female_south_america"
+				small = "GFX_r56_idea_AFG_advisor_humaira_begum"
 			}
 		}
 	}
@@ -193,7 +119,7 @@ characters = {
 		country_leader = {
 			ideology = controlled_democracy
 			traits = {
-				AFG_progressive_appeaser
+				royal_prime_minister_mahmud
 			}
 			expire = "1965.1.1"
 			id = -1
@@ -205,11 +131,6 @@ characters = {
 			idea_token = AFG_sardar_shah_mahmud_khan
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = neutrality
@@ -230,55 +151,17 @@ characters = {
 			ai_will_do = {
 				factor = 10
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
 		}
 		field_marshal = {
 			traits = {
 				politically_connected
-				organizer
 				AFG_barakzai_royalist
 			}
 			skill = 2
-			attack_skill = 3
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 2
-			logistics_skill = 1
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
+			logistics_skill = 3
 		}
 	}
 	AFG_turabaz_khan = {
@@ -303,11 +186,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
 				army_entrenchment_2
 			}
@@ -325,11 +203,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
 				prince_of_terror
 			}
@@ -344,18 +217,13 @@ characters = {
 			}
 			skill = 2
 			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id = 36792
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 		}
 	}
-	r56_AFG_abdul_majid_zabuli = {
+	AFG_abdul_majid_zabuli = {
 		name = AFG_abdul_majid_zabuli
 		portraits = {
 			civilian = {
@@ -367,19 +235,15 @@ characters = {
 			available = {
 				has_completed_focus = AFG_power_to_the_king
 				NOT = {
+					has_government = fascism
 					has_government = communism
 				}
 			}
 			slot = political_advisor
 			ledger = civilian
-			idea_token = r56_AFG_abdul_majid_zabuli
+			idea_token = AFG_abdul_majid_zabuli
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			traits = {
 				MPL_experienced_banker
@@ -397,41 +261,9 @@ characters = {
 					factor = 10
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
 		}
 	}
-	AFG_haji_faiz_muhammed_zikeria = { # Double
+	AFG_haji_faiz_muhammed_zikeria = {
 		advisor = {
 			slot = political_advisor
 			idea_token = AFG_haji_faiz_muhammed_zikeria
@@ -452,7 +284,7 @@ characters = {
 			}
 		}
 	}
-	AFG_abdur_rahim_khan = { # Double
+	AFG_abdur_rahim_khan = {
 		name = AFG_abdur_rahim_khan
 		portraits = {
 			civilian = {
@@ -477,45 +309,8 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
 				AFG_ruthless_goon
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
-					}
-				}
 			}
 		}
 		advisor = {
@@ -532,11 +327,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
 				army_cavalry_2
 			}
@@ -546,7 +336,6 @@ characters = {
 				politically_connected
 				harsh_leader
 				old_guard
-				cavalry_leader
 			}
 			skill = 2
 			attack_skill = 1
@@ -556,7 +345,7 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	r56_AFG_mohammad_gul_khan_momand = {
+	AFG_mohammad_gul_khan_momand = {
 		name = AFG_mohammad_gul_khan_momand
 		portraits = {
 			civilian = {
@@ -577,47 +366,52 @@ characters = {
 			}
 			slot = political_advisor
 			ledger = civilian
-			idea_token = r56_AFG_mohammad_gul_khan_momand
+			idea_token = AFG_mohammad_gul_khan_momand
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
-				nationalist_symbol
+				pashtun_nationalist
 			}
 			on_add = {
 				if = {
 					limit = {
 						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
+							has_active_mission = AFG_second_loya_jirga_mission
 						}
 					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_tribal_side
+					effect_tooltip = {
+						AFG = {
+							add_power_balance_value = {
+								id = AFG_power_balance
+								value = 0.05
+								tooltip_side = AFG_tribal_side
+							}
+							add_war_support = 0.05
+						}
 					}
 				}
-			}
-			on_remove = {
-				if = {
+				else_if = {
 					limit = {
 						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
+							NOT = {
+								has_active_mission = AFG_second_loya_jirga_mission
+								has_country_flag = AFG_finished_second_loya_jirga
+								has_completed_focus = AFG_power_to_the_king
+								has_completed_focus = AFG_handle_the_king
 							}
 						}
 					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_government_side
+					custom_effect_tooltip = AFG_momand_tt
+					effect_tooltip = {
+						AFG = {
+							add_power_balance_value = {
+								id = AFG_power_balance
+								value = 0.05
+								tooltip_side = AFG_tribal_side
+							}
+							add_war_support = 0.05
+						}
 					}
 				}
 			}
@@ -627,14 +421,6 @@ characters = {
 		}
 		advisor = {
 			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				NOT = {
 					has_completed_focus = AFG_form_weekh_zalmian
@@ -643,28 +429,25 @@ characters = {
 			}
 			slot = high_command
 			ledger = army
-			idea_token = r56_AFG_mohammad_gul_khan_momand_army
+			idea_token = AFG_mohammad_gul_khan_momand_army
+			allowed = {
+				original_tag = AFG
+			}
 			traits = {
 				army_regrouping_2
 			}
 		}
 		corps_commander = {
 			traits = {
-				old_guard
 				homeland_connoisseur
 				AFG_barakzai_royalist
 			}
-			skill = 1
-			attack_skill = 1
+			skill = 2
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id = -1
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 		}
 	}
 	AFG_haji_mirzali_khan = {
@@ -681,9 +464,8 @@ characters = {
 		name = AFG_haji_mirzali_khan
 		country_leader = {
 			ideology = islamism
-			expire = "1956.1.1.12"
+			expire = "1955.1.1.12"
 			traits = {
-				AFG_pashtun_nationalist r56_trait_opposed_to_democracy
 			}
 			id = -1
 		}
@@ -692,11 +474,6 @@ characters = {
 			idea_token = AFG_haji_mirzali_khan
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_completed_focus = AFG_contact_faqir
@@ -727,49 +504,9 @@ characters = {
 					has_completed_focus = AFG_contact_faqir
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.10
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.10
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
 		}
 		advisor = {
 			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				OR = {
 					has_government = fascism
@@ -788,23 +525,27 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = AFG_haji_mirzali_khan_army
-			traits = {
-				army_infantry_2
-			}
-		}
-		advisor = {
-			cost = 100
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
+			traits = {
+				army_concealment_2
 			}
-			available = {
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				old_guard
+				irregulars_officer
+				trait_mountaineer
+				politically_connected
+			}
+			visible = {
 				OR = {
-					has_government = fascism
+					AND = {
+						has_completed_focus = AFG_waaidu
+						has_government = fascism
+					}
 					AND = {
 						has_country_leader = {
 							character = AFG_amanullah_khan
@@ -817,75 +558,19 @@ characters = {
 					}
 				}
 			}
-			slot = army_chief
-			ledger = army
-			idea_token = AFG_haji_mirzali_khan_chief
-			traits = {
-				army_chief_morale_2
-			}
-		}
-		field_marshal = {
-			traits = {
-				war_hero
-				old_guard
-				irregulars_officer
-				trait_mountaineer
-				politically_connected
-			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 4
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id = 36791
-			visible = {
-				if = {
-					limit = {
-						has_global_flag = afg_dlc_focus_tree
-					}
-					has_character_flag = AFG_rural_cw_started
-					else = {
-						OR = {
-							has_government = fascism
-							AND = {
-								has_country_leader = {
-									character = AFG_amanullah_khan
-									ruling_only = yes
-								}
-								has_country_flag = AFG_approached_haji_mirzali_khan
-								NOT = {
-									has_country_flag = AFG_dissatisfied_haji_mirzali_khan
-								}
-							}
-						}
-						NOT = {
-							has_global_flag = afg_dlc_focus_tree
-						}
-					}
-				}
-			}
-		}
-	}
-	r56_AFG_provisional_government = {
-		name = AFG_provisional_government
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Provisional_Government.dds"
-			}
-		}
-		country_leader = {
-			ideology = islamism
-			expire = "1956.1.1.12"
-			traits = {
-				AFG_anti_secularist_jihad r56_trait_opposed_to_democracy
-			}
-			id = -1
 		}
 	}
 	AFG_mubashir_al_tarazi = {
 		name = AFG_mubashir_al_tarazi
 		portraits = {
 			civilian = {
+				large = "gfx/leaders/AFG/r56_portrait_AFG_Mubashir_Al_Tarazi.dds"
 				small = "GFX_idea_AFG_advisor_mubashir_al_tarazi"
 			}
 		}
@@ -894,11 +579,6 @@ characters = {
 			idea_token = AFG_mubashir_al_tarazi
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_completed_focus = AFG_approach_mubashir
@@ -909,38 +589,6 @@ characters = {
 			}
 			traits = {
 				AFG_islamic_scholar
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
 			}
 		}
 	}
@@ -957,11 +605,6 @@ characters = {
 			idea_token = AFG_amin_al_husseini
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_completed_focus = AFG_invite_amin_al_husseini
@@ -987,80 +630,29 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AFG/r56_portrait_AFG_Abul_Ala_Maududi.dds"
-				small = "GFX_idea_AFG_advisor_abul_maududi"
 			}
 		}
 		country_leader = {
 			ideology = islamism
 			traits = {
-				AFG_islamic_revivalist r56_trait_opposed_to_communism
+				AFG_islamic_revivalist
 			}
 			expire = "1965.1.1"
 			id = -1
 		}
-		advisor = {
-			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				has_government = fascism
-			}
-			slot = high_command
-			ledger = army
-			idea_token = AFG_abul_ala_maududi_army
-			traits = {
-				army_logistics_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				has_government = fascism
-			}
-			slot = army_chief
-			ledger = army
-			idea_token = AFG_abul_ala_maududi_chief
-			traits = {
-				army_chief_organizational_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			traits = {
-				organizer
 				politically_connected
 			}
 			visible = {
 				has_completed_focus = AFG_waaidu
 				has_government = fascism
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
-			skill = 1
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 			legacy_id = 38700
 		}
 	}
@@ -1069,27 +661,19 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AFG/r56_portrait_AFG_Ghulam_Muhammad_Ghobar.dds"
-				small = "GFX_idea_AFG_advisor_muhammad_ghulam_ghobar_prison"
+				small = "GFX_idea_AFG_advisor_muhammad_ghulam_ghobar"
 			}
 		}
 		country_leader = {
 			ideology = socialism
 			traits = {
-				resolute_social_democrat AFG_exiled
+				AFG_social_democrat
 			}
 			expire = "1955.1.1.12"
 			id = -1
 		}
 		advisor = {
 			cost = 150
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				has_completed_focus = AFG_form_watan_party
 				NOT = {
@@ -1103,43 +687,14 @@ characters = {
 			slot = political_advisor
 			ledger = civilian
 			idea_token = AFG_ghulam_muhammad_ghubar
+			allowed = {
+				original_tag = AFG
+			}
 			traits = {
 				liberal_journalist
 			}
 			ai_will_do = {
 				factor = 10
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
 			}
 		}
 	}
@@ -1157,11 +712,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				NOT = {
 					has_war_with = ENG
@@ -1170,7 +720,7 @@ characters = {
 				}
 			}
 			traits = {
-				AFG_british_ambassador
+				british_ambassador
 			}
 		}
 	}
@@ -1183,14 +733,6 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				OR = {
 					AND = {
@@ -1198,7 +740,7 @@ characters = {
 						has_government = communism
 					}
 					AND = {
-						has_completed_focus = AFG_the_getyear_general_elections
+						has_completed_focus = AFG_hold_elections
 						has_government = democratic
 					}
 				}
@@ -1206,43 +748,14 @@ characters = {
 			slot = political_advisor
 			ledger = civilian
 			idea_token = AFG_homeira_seljuqi
+			allowed = {
+				original_tag = AFG
+			}
 			traits = {
 				womens_figurehead
 			}
 			ai_will_do = {
 				factor = 10
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_parcham_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_khalq_side
-					}
-				}
 			}
 		}
 	}
@@ -1252,11 +765,6 @@ characters = {
 			idea_token = AFG_gul_pacha_ulfat
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_completed_focus = AFG_form_weekh_zalmian
@@ -1286,38 +794,6 @@ characters = {
 					has_completed_focus = AFG_form_weekh_zalmian
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_parcham_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_khalq_side
-					}
-				}
-			}
 		}
 		name = AFG_gul_pacha_ulfat
 		portraits = {
@@ -1326,71 +802,7 @@ characters = {
 			}
 		}
 	}
-	AFG_fazl_omar_mojadidi = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_fazl_omar_mojadidi
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				has_completed_focus = AFG_utilize_the_sufis
-				NOT = {
-					has_government = communism
-				}
-			}
-			traits = {
-				AFG_the_kingmaker
-			}
-			ai_will_do = {
-				base = 100
-			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_government_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_tribal_side
-					}
-				}
-			}
-		}
-		name = AFG_fazl_omar_mojadidi
-		portraits = {
-			civilian = {
-				small = "GFX_idea_AFG_advisor_fazl_omar_mojadidi"
-			}
-		}
-	}
-	r56_AFG_abdul_hai_habibi = {
+	AFG_abdul_hai_habibi = {
 		name = AFG_abdul_hai_habibi
 		portraits = {
 			civilian = {
@@ -1399,14 +811,9 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = r56_AFG_abdul_hai_habibi
+			idea_token = AFG_abdul_hai_habibi
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = communism
@@ -1414,52 +821,19 @@ characters = {
 			traits = {
 				popular_figurehead
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.05
-						tooltip_side = AFG_khalq_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.05
-						tooltip_side = AFG_parcham_side
-					}
-				}
-			}
 		}
 	}
 	AFG_abdulrahman_mahmudi = {
 		name = AFG_abdulrahman_mahmudi
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Abdulrahman_Mahmudi.dds"
 				small = "GFX_idea_r56_idea_AFG_advisor_abdulrahman_mahmudi"
 			}
 		}
 		country_leader = {
-			ideology = democratic_socialism
+			ideology = anti_revisionism
 			traits = {
-				compassionate_commoner gallant_doctor r56_trait_opposed_to_fascism
+				progressive_maoist
 			}
 			expire = "1955.1.1.12"
 			id = -1
@@ -1469,11 +843,6 @@ characters = {
 			idea_token = AFG_abdulrahman_mahmudi
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = communism
@@ -1485,7 +854,7 @@ characters = {
 				}
 			}
 			traits = {
-				marxist_academic
+				progressive_maoist
 			}
 			ai_will_do = {
 				base = 0.1
@@ -1506,46 +875,13 @@ characters = {
 					has_completed_focus = AFG_form_weekh_zalmian
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = 0.1
-						tooltip_side = AFG_khalq_side
-					}
-				}
-			}
-			on_remove = {
-				if = {
-					limit = {
-						AFG = {
-							has_power_balance = {
-								id = AFG_communist_power_balance
-							}
-						}
-					}
-					add_power_balance_value = {
-						id = AFG_power_balance
-						value = -0.1
-						tooltip_side = AFG_parcham_side
-					}
-				}
-			}
 		}
 	}
-	r56_AFG_mohammed_daoud_khan = {
+	AFG_mohammed_daoud_khan = {
 		name = AFG_mohammed_daoud_khan
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AFG/r56_portrait_AFG_Daoud_Khan.dds"
-				small = "GFX_idea_AFG_daoud_khan_political"
 			}
 			army = {
 				large = "gfx/leaders/AFG/r56_portrait_AFG_Daoud_Khan.dds"
@@ -1561,76 +897,28 @@ characters = {
 			id = -1
 		}
 		advisor = {
-			slot = political_advisor
-			idea_token = r56_AFG_mohammed_daoud_khan
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				NOT = {
-					has_government = democratic
-					has_country_leader = {
-						character = r56_AFG_mohammed_daoud_khan
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				AFG_nationalist_turncoat
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		advisor = {
 			cost = 100
 			slot = high_command
-			idea_token = r56_AFG_mohammed_daoud_khan_army
+			idea_token = mohammed_daoud_khan
 			ledger = army
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				NOT = {
-					has_government = democratic
-					has_country_leader = {
-						character = r56_AFG_mohammed_daoud_khan
-						ruling_only = yes
-					}
-				}
-			}
 			traits = {
-				army_infantry_2
+				army_armored_2
 			}
 		}
 		corps_commander = {
 			traits = {
-				infantry_officer
-				trickster
-				harsh_leader
+				armor_officer
 				AFG_barakzai_royalist
 			}
-			skill = 2
+			skill = 3
 			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
+			defense_skill = 3
+			planning_skill = 3
 			logistics_skill = 2
 			legacy_id = 36790
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 		}
 	}
 	AFG_mohammed_naim_khan = {
@@ -1645,26 +933,44 @@ characters = {
 			slot = political_advisor
 			idea_token = AFG_mohammed_naim_khan
 			ledger = civilian
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				has_country_leader = {
-					character = r56_AFG_mohammed_daoud_khan
+					character = AFG_mohammed_daoud_khan
 					ruling_only = yes
 				}
+			}
+			allowed = {
+				original_tag = AFG
 			}
 			traits = {
 				AFG_minister_foreign_affairs
 			}
 		}
 	}
-	r56_AFG_muhammad_ibrahim_khan = {
+	AFG_aalem_daana = {
+		advisor = {
+			slot = high_command
+			idea_token = AFG_aalem_daana
+			ledger = navy
+			allowed = {
+				original_tag = AFG
+			}
+			traits = {
+				navy_screen_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		name = AFG_aalem_daana
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_navy_arab_3"
+			}
+		}
+	}
+	AFG_muhammad_ibrahim_khan = {
 		name = AFG_muhammad_ibrahim_khan
 		portraits = {
 			civilian = {
@@ -1678,22 +984,17 @@ characters = {
 		}
 		advisor = {
 			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				has_government = fascism
 			}
 			slot = high_command
 			ledger = army
-			idea_token = r56_AFG_muhammad_ibrahim_khan
+			idea_token = AFG_muhammad_ibrahim_khan
+			allowed = {
+				original_tag = AFG
+			}
 			traits = {
-				army_regrouping_2
+				army_infantry_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -1703,184 +1004,15 @@ characters = {
 			traits = {
 				infantry_officer
 				homeland_connoisseur
-				trickster
 			}
 			visible = {
 				has_completed_focus = AFG_waaidu
 				has_government = fascism
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-			legacy_id = -1
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-		}
-	}
-	AFG_zmarak_khan_zadran = {
-		name = AFG_zmarak_khan_zadran
-		portraits = {
-			army = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Mazrak_Khan_Zadran.dds"
-				small = "GFX_idea_AFG_advisor_zmarak_zadran"
-			}
-		}
-		advisor = {
-			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				OR = {
-					has_government = fascism
-					AND = {
-						has_country_leader = {
-							character = AFG_amanullah_khan
-							ruling_only = yes
-						}
-						has_country_flag = AFG_approached_haji_mirzali_khan
-						NOT = {
-							has_country_flag = AFG_dissatisfied_haji_mirzali_khan
-						}
-					}
-				}
-			}
-			slot = high_command
-			ledger = army
-			idea_token = AFG_zmarak_khan_zadran
-			traits = {
-				army_concealment_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				OR = {
-					has_government = fascism
-					AND = {
-						has_country_leader = {
-							character = AFG_amanullah_khan
-							ruling_only = yes
-						}
-						has_country_flag = AFG_approached_haji_mirzali_khan
-						NOT = {
-							has_country_flag = AFG_dissatisfied_haji_mirzali_khan
-						}
-					}
-				}
-			}
-			slot = army_chief
-			ledger = army
-			idea_token = AFG_zmarak_khan_zadran
-			traits = {
-				army_chief_defensive_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		corps_commander = {
-			traits = { guerilla_fighter irregulars_officer ambusher camouflage_expert trickster trait_mountaineer }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = -1
-			visible = {
-				if = {
-					limit = {
-						has_global_flag = afg_dlc_focus_tree
-					}
-					has_character_flag = AFG_rural_cw_started
-					else = {
-						OR = {
-							has_government = fascism
-							AND = {
-								has_country_leader = {
-									character = AFG_amanullah_khan
-									ruling_only = yes
-								}
-								has_country_flag = AFG_approached_haji_mirzali_khan
-								NOT = {
-									has_country_flag = AFG_dissatisfied_haji_mirzali_khan
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	AFG_bacha_gul = {
-		name = AFG_bacha_gul
-		portraits = {
-			army = {
-				large = GFX_kr_portrait_arabia_generic_1
-				small = "GFX_idea_AFG_advisor_bacha_gul"
-			}
-		}
-		advisor = {
-			cost = 100
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				has_government = fascism
-			}
-			slot = army_chief
-			ledger = army
-			idea_token = AFG_bacha_gul
-			traits = {
-				army_chief_offensive_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		corps_commander = {
-			traits = {
-				guerilla_fighter
-				old_guard
-				caring_leader
-			}
-			visible = {
-				has_completed_focus = AFG_waaidu
-				has_government = fascism
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 2
+			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 36789
 		}
@@ -1890,72 +1022,18 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AFG/r56_portrait_AFG_Nisor_Avalovich_Magomedov.dds"
-				small = "GFX_idea_AFG_advisor_nisar_avalovich"
 			}
 		}
 		country_leader = {
 			ideology = stalinism
 			traits = {
-				polyglot patriotic_socialist r56_trait_opposed_to_fascism
+				polyglot
+				patriotic_socialist
 			}
 			expire = "1965.1.1"
 			id = -1
 		}
-		advisor = {
-			cost = 100
-			slot = army_chief
-			ledger = army
-			idea_token = AFG_nisar_muhammad_army_chief
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			available = {
-				has_government = communism
-				OR = {
-					has_country_flag = AFG_nisar_arrives
-					has_completed_focus = AFG_approach_the_soviets
-					has_country_leader = {
-						character = AFG_nisar_muhammad
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
-
-	GER_oskar_von_nidermayer={
-		portraits={
-			army = {
-				large = GFX_portrait_GER_oskar_von_nidermayer
-				small = GFX_portrait_GER_oskar_von_nidermayer_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id=-1
-			traits = { politically_connected infantry_officer }
-			visible = {
-				has_character_flag = AFG_cw_gained_german_support
-			}
-		}
-	}
-
 	AFG_dmitri_protopopov = {
 		name = AFG_dmitri_protopopov
 		portraits = {
@@ -1966,7 +1044,7 @@ characters = {
 		country_leader = {
 			ideology = stalinism
 			traits = {
-				stalins_puppet political_commissar
+				#stalins_puppet
 			}
 			expire = "1965.1.1"
 			id = -1
@@ -1976,16 +1054,18 @@ characters = {
 		name = AFG_revolutionary_council
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_supreme_soviet
+				large = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
 			}
 		}
 		country_leader = {
 			ideology = marxism
+			traits = {
+			}
 			expire = "1955.1.1.12"
 			id = -1
 		}
 	}
-	AFG_sardar_shah_wali_khan = { # Double
+	AFG_sardar_shah_wali_khan = {
 		name = AFG_sardar_shah_wali_khan
 		portraits = {
 			army = {
@@ -2000,11 +1080,6 @@ characters = {
 			ledger = army
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = neutrality
@@ -2023,14 +1098,9 @@ characters = {
 			cost = 100
 			slot = army_chief
 			ledger = army
-			idea_token = AFG_sardar_shah_wali_khan
+			idea_token = AFG_sardar_shah_mahmud_khan
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = neutrality
@@ -2055,11 +1125,11 @@ characters = {
 				politically_connected
 				AFG_barakzai_royalist
 			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 3
 			legacy_id = 200000
 		}
 	}
@@ -2079,11 +1149,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				OR = {
 					has_completed_focus = AFG_invite_wehrmacht_officers
@@ -2095,12 +1160,12 @@ characters = {
 				}
 			}
 			traits = {
-				army_commando_2
+				army_infantry_2
 			}
 		}
 		corps_commander = {
 			traits = {
-				commando
+				infantry_officer
 				war_hero
 				politically_connected
 			}
@@ -2112,9 +1177,6 @@ characters = {
 				}
 				GER = {
 					has_civil_war = no
-				}
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
 				}
 			}
 			skill = 3
@@ -2142,23 +1204,15 @@ characters = {
 			country_leader = {
 				ideology = absolute_monarchism
 				traits = {
-					AFG_dethroned_king
+					dethroned_king
 				}
 				expire = "1965.1.1"
 				id = -1
 			}
 			advisor = {
 				cost = 150
-				allowed = {
-					original_tag = AFG
-				}
-				visible = {
-					NOT = {
-						has_global_flag = afg_dlc_focus_tree
-					}
-				}
 				available = {
-					has_country_flag = AFG_amanullah_has_returned
+					has_completed_focus = AFG_return_of_the_king
 					has_government = fascism
 					NOT = {
 						has_country_leader = {
@@ -2170,8 +1224,11 @@ characters = {
 				slot = political_advisor
 				ledger = civilian
 				idea_token = AFG_amanullah_khan
+				allowed = {
+					original_tag = AFG
+				}
 				traits = {
-					AFG_modernizer_no_lar
+					afghan_modernizer_no_lar
 				}
 				ai_will_do = {
 					factor = 10
@@ -2192,23 +1249,15 @@ characters = {
 			country_leader = {
 				ideology = absolute_monarchism
 				traits = {
-					AFG_dethroned_king
+					dethroned_king
 				}
 				expire = "1965.1.1"
 				id = -1
 			}
 			advisor = {
 				cost = 150
-				allowed = {
-					original_tag = AFG
-				}
-				visible = {
-					NOT = {
-						has_global_flag = afg_dlc_focus_tree
-					}
-				}
 				available = {
-					has_country_flag = AFG_amanullah_has_returned
+					has_completed_focus = AFG_return_of_the_king
 					has_government = fascism
 					NOT = {
 						has_country_leader = {
@@ -2220,8 +1269,11 @@ characters = {
 				slot = political_advisor
 				ledger = civilian
 				idea_token = AFG_amanullah_khan
+				allowed = {
+					original_tag = AFG
+				}
 				traits = {
-					AFG_modernizer
+					afghan_modernizer
 				}
 				ai_will_do = {
 					factor = 10
@@ -2236,20 +1288,14 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
-				OR = {
-					has_country_flag = AFG_pardoned_prisoners
-					has_completed_focus = AFG_the_exiled_king
-					has_completed_focus = AFG_return_of_the_king
+				has_country_leader = {
+					character = AFG_amanullah_khan
+					ruling_only = yes
 				}
 			}
 			traits = {
-				staunch_loyalist
+				newspaper_editor
 			}
 			ai_will_do = {
 				base = 1
@@ -2269,22 +1315,17 @@ characters = {
 		}
 		name = AFG_abdul_hadi_dawai
 		portraits = {
-			civilian = {
-				small = "GFX_idea_AFG_advisor_abdul_hadi_dawi_prison"
+			army = {
+				small = "GFX_idea_AFG_advisor_abdul_hadi_dawi"
 			}
 		}
 	}
-	r56_AFG_soraya_tarzi = {
+	AFG_soraya_tarzi = {
 		advisor = {
 			slot = political_advisor
-			idea_token = r56_AFG_soraya_tarzi
+			idea_token = AFG_soraya_tarzi
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_country_leader = {
@@ -2293,7 +1334,7 @@ characters = {
 				}
 			}
 			traits = {
-				AFG_womens_rights_activist_2
+				womens_rights_activist_2
 			}
 			ai_will_do = {
 				base = 0.1
@@ -2327,14 +1368,6 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				NOT = {
 					has_government = fascism
@@ -2344,8 +1377,11 @@ characters = {
 			slot = political_advisor
 			ledger = civilian
 			idea_token = AFG_kamil_rifki_urga
+			allowed = {
+				original_tag = AFG
+			}
 			traits = {
-				AFG_turkish_academic
+				turkish_academic
 			}
 			ai_will_do = {
 				base = 5
@@ -2357,18 +1393,12 @@ characters = {
 			}
 		}
 	}
-	AFG_asadullah_seraj_khan = { # Double
+	AFG_asadullah_seraj_khan = {
 		advisor = {
 			slot = army_chief
 			idea_token = AFG_asadullah_seraj_khan
 			allowed = {
 				original_tag = AFG
-			}
-			available = {
-				has_government = neutrality
-			}
-			visible = {
-				has_government = neutrality
 			}
 			traits = {
 				army_chief_defensive_2
@@ -2392,10 +1422,8 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
+			traits = {
+				air_air_superiority_2
 			}
 			available = {
 				OR = {
@@ -2408,9 +1436,6 @@ characters = {
 					has_country_flag = AFG_german_support_recieved
 					is_in_faction_with = GER
 				}
-			}
-			traits = {
-				air_air_superiority_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -2438,10 +1463,8 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
+			traits = {
+				grand_battle_plan_expert
 			}
 			available = {
 				NOT = {
@@ -2449,9 +1472,6 @@ characters = {
 					has_government = fascism
 					has_government = communism
 				}
-			}
-			traits = {
-				grand_battle_plan_expert
 			}
 			ai_will_do = {
 				factor = 0
@@ -2462,17 +1482,12 @@ characters = {
 			}
 		}
 	}
-	AFG_muhammad_hashim = {
+	AFG_gholam_wali = {
 		advisor = {
 			slot = air_chief
-			idea_token = AFG_muhammad_hashim
+			idea_token = AFG_gholam_wali
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			traits = {
 				air_chief_ground_support_2
@@ -2482,7 +1497,7 @@ characters = {
 				factor = 1
 			}
 		}
-		name = AFG_muhammad_hashim
+		name = AFG_gholam_wali
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_air_arab_3"
@@ -2520,11 +1535,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
 				air_warfare_theorist
 			}
@@ -2536,80 +1546,29 @@ characters = {
 			}
 		}
 	}
-	AFG_muhammad_ihsan_khan = {
+	AFG_ali_muhammed_khan = {
 		advisor = {
 			slot = air_chief
-			idea_token = AFG_muhammad_ihsan_khan
+			idea_token = AFG_ali_muhammed_khan
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			traits = {
-				air_chief_reform_2
+				air_chief_all_weather_2
 			}
 			cost = 100
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		advisor = {
-			slot = high_command
-			idea_token = AFG_muhammad_ihsan_khan_air
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			traits = {
-				air_air_superiority_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		name = AFG_muhammad_ihsan_khan
+		name = AFG_ali_muhammed_khan
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_air_arab_1"
 			}
 		}
 	}
-	AFG_abdul_rasul_khan = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_abdul_rasul_khan
-			available = {
-				has_intelligence_agency = yes
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			allowed = {
-				original_tag = AFG
-				has_dlc = "La Resistance"
-			}
-			traits = {
-				head_of_intelligence 
-			}
-		}
-		name = AFG_abdul_rasul_khan
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ideas/generic/r56_advisors/r56_advisor_generic_middle_east_1.dds"
-			}
-		}
-	}
-	AFG_mohammed_etemadi_khan = { # Double
+	AFG_mohammed_etemadi_khan = {
 		advisor = {
 			slot = navy_chief
 			idea_token = AFG_mohammed_etemadi_khan
@@ -2631,69 +1590,12 @@ characters = {
 			}
 		}
 	}
-	AFG_mohammad_siddiq_choudri = {
-		advisor = {
-			slot = navy_chief
-			idea_token = AFG_mohammad_siddiq_choudri_nc
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			traits = {
-				navy_chief_maneuver_2
-			}
-			available = {
-				has_completed_focus = AFG_first_afghani_navy
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = AFG_mohammad_siddiq_choudri_hc
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-			traits = {
-				navy_screen_2
-			}
-			available = {
-				has_completed_focus = AFG_first_afghani_navy
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		name = AFG_mohammad_siddiq_choudri
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_navy_arab_3"
-			}
-		}
-	}
 	AFG_ali_afzal_khan = {
 		advisor = {
 			slot = army_chief
 			idea_token = AFG_ali_afzal_khan
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			traits = {
 				army_chief_morale_2
@@ -2710,7 +1612,7 @@ characters = {
 			}
 		}
 	}
-	AFG_muhammed_nowroz = { # Double
+	AFG_muhammed_nowroz = {
 		advisor = {
 			slot = political_advisor
 			idea_token = AFG_muhammed_nowroz
@@ -2735,10 +1637,8 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
+			available = {
+				has_completed_focus = AFG_invite_experts
 			}
 			traits = {
 				captain_of_industry
@@ -2776,7 +1676,8 @@ characters = {
 		country_leader = {
 			ideology = islamic_socialism
 			traits = {
-				polyglot nationalist_journalist_alt
+				polyglot
+				revolutionary_poet
 			}
 			expire = "1955.1.1.12"
 			id = -1
@@ -2793,11 +1694,6 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = AFG_fakhri_pasha
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				has_country_flag = AFG_get_fakhri_pasha
 				has_country_leader = {
@@ -2820,9 +1716,6 @@ characters = {
 			visible = {
 				has_government = neutrality
 				has_country_flag = AFG_get_fakhri_pasha
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			skill = 4
 			attack_skill = 2
@@ -2845,11 +1738,6 @@ characters = {
 			idea_token = AFG_vitaly_primakov
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_country_flag = AFG_get_vitaly_primakov
@@ -2877,12 +1765,8 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
+				owns_state = 742
 				has_government = communism
 				NOT = {
 					has_completed_focus = AFG_undermine_moscow
@@ -2907,11 +1791,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				has_government = communism
 				has_completed_focus = AFG_invite_pakistani_military
@@ -2934,11 +1813,6 @@ characters = {
 			idea_token = AFG_nazir_ahmed
 			allowed = {
 				original_tag = AFG
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
 			}
 			available = {
 				has_government = communism
@@ -2963,11 +1837,6 @@ characters = {
 			allowed = {
 				original_tag = AFG
 			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
 			available = {
 				NOT = {
 					has_war_with = USA
@@ -2976,1065 +1845,7 @@ characters = {
 				}
 			}
 			traits = {
-				air_chief_safety_2
-			}
-		}
-	}
-
-	# SCIENTISTS #
-
-	AFG_sayyid_abdullah_shah = {
-		name = AFG_sayyid_abdullah_shah
-		portraits = {
-			army = {
-				large = "GFX_portrait_generic_arabia_male_05"
-			}
-		}
-		scientist = {
-			traits = { scientist_trait_artillery_specialist scientist_trait_r56_old_guard }
-			skills = {
-				specialization_land = 1 
-			}
-			visible = {
-				NOT = {
-					has_global_flag = afg_dlc_focus_tree
-				}
-			}
-		}
-	}
-
-	# GRAVEYARD OF EMPIRES UNIQUES #
-
-	AFG_mohammad_hashim_khan={ # GoE dupliacte of AFG_hashim_khan
-		name = AFG_hashim_khan
-		portraits={
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Mohammad_Hashim_Khan.dds"
-				small = "GFX_idea_AFG_mohammed_hashim_khan"
-			}
-		}
-		country_leader={
-			ideology=oligarchism
-			expire="1965.1.1.1"
-			traits = { IRQ_nationalist }
-			id=-1
-		}
-	}
-	AFG_akram_sattari={
-		#name="Akram Sattari"
-		portraits={
-			civilian={
-				large=GFX_portrait_Akram_Sattari
-			}
-		}
-		country_leader={
-			ideology=socialism
-			traits={ captain_of_industry dealbroker }
-			expire="1955.1.1.12"
-			id=-1
-		}
-	}
-	AFG_yaqub_khan={
-		#name="Yaqub Khan"
-		portraits={
-			civilian={
-				large=GFX_portrait_Yaqub_Khan
-			}
-		}
-		country_leader={
-			ideology=stalinism
-			expire="1944.1.1.12"
-			id=-1
-		}
-	}
-	AFG_mihrdil_shahnawaz={
-		#name="Mihrdil Shahnawaz"
-		portraits={
-			civilian={
-				large=GFX_portrait_Mihrdil_Shahnawaz
-			}
-		}
-		country_leader={
-			ideology=fascism_ideology
-			expire="1949.1.1.12"
-			id=-1
-		}
-	}
-	AFG_hares_muzafar={
-		advisor={
-			slot = high_command
-			idea_token = AFG_hares_muzafar
-			ledger = army
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				army_entrenchment_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
-			}
-		}
-	}
-	AFG_gholam_wali={
-		advisor={
-			slot = air_chief
-			idea_token = AFG_gholam_wali
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				air_chief_ground_support_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
-			}
-		}
-	}
-	AFG_muhammad_amin_bughra={
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = AFG_muhammad_amin_bughra
-			ledger = army
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				military_theorist
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
-			}
-		}
-	}
-	AFG_azam_ataullah={
-		advisor={
-			slot = high_command
-			idea_token = AFG_azam_ataullah
-			ledger = army
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				army_infantry_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
-			}
-		}
-	}
-	AFG_renato_bardolucci={
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = AFG_renato_bardolucci
-			ledger = air
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				air_warfare_theorist
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
-			}
-		}
-	}
-	AFG_ali_muhammed_khan={
-		advisor={
-			slot = air_chief
-			idea_token = AFG_ali_muhammed_khan
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
 				air_chief_reform_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_1"
-			}
-		}
-	}
-	AFG_aalem_daana={
-		advisor={
-			slot = high_command
-			idea_token = AFG_aalem_daana
-			ledger = navy
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				navy_screen_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
-			}
-		}
-	}
-	AFG_wazir_akbar_khan={
-		advisor={
-			slot = army_chief
-			idea_token = AFG_wazir_akbar_khan
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				army_chief_morale_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
-			}
-		}
-	}
-	AFG_mahmud_tarzi={ # This guy died in 1933, idk why PDX added him, especially as he wasnt even in the army?
-		portraits={
-			army={
-				large = GFX_portrait_AFG_mahmud_tarzi
-				small = GFX_portrait_AFG_mahmud_tarzi_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-		}
-	}
-	AFG_generic_army_1={
-		portraits={
-			army = {
-				large = GFX_portrait_AFG_generic_land_1
-				small = GFX_portrait_AFG_generic_land_1_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_general_selected
-			}
-		}
-	}
-	AFG_generic_army_2={
-		portraits={
-			army={
-				large = GFX_portrait_AFG_generic_land_2
-				small = GFX_portrait_AFG_generic_land_2_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_general_selected
-			}
-		}
-	}
-	AFG_generic_army_3={
-		portraits={
-			army={
-				large = GFX_portrait_AFG_generic_land_3
-				small = GFX_portrait_AFG_generic_land_3_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_general_selected
-			}
-		}
-	}
-	AFG_generic_army_4={
-		portraits={
-			army={
-				large = GFX_portrait_AFG_generic_land_4
-				small = GFX_portrait_AFG_generic_land_4_small
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_general_selected
-			}
-		}
-	}
-	AFG_generic_navy_1={
-		portraits={
-			army={
-				large = GFX_portrait_AFG_generic_navy_1
-				small = GFX_portrait_AFG_generic_navy_1_small
-			}
-		}
-		navy_leader={
-			traits = {}
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_admiral_selected
-			}
-		}
-	}
-	AFG_generic_navy_2={
-		portraits={
-			army={
-				large = GFX_portrait_AFG_generic_navy_2
-				small = GFX_portrait_AFG_generic_navy_2_small
-			}
-		}
-		navy_leader={
-			traits = {}
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-				has_character_flag = AFG_random_admiral_selected
-			}
-		}
-	}
-	AFG_mahmud_khan={
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_mahmud_khan
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				prince_of_terror 
-			}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
-			}
-		}
-	}
-	AFG_ghulam_yahya_khan_tarzi={
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_ghulam_yahya_khan_tarzi
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				AFG_director_of_public_health 
-			}
-		}
-		portraits={
-			army={
-				small="GFX_portrait_AFG_ghulam_yahya_khan_tarzi_small"
-			}
-		}
-	}
-	AFG_qiamuddin_khadim={
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_qiamuddin_khadim
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_promote_the_counter_elite
-			}
-			traits = {
-				socialist_journalist 
-			}
-		}
-		portraits={
-			army={
-				small="GFX_portrait_AFG_qiamuddin_khadim_small"
-			}
-		}
-	}
-	AFG_ghulam_muhammad_ghobar={
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_ghulam_muhammad_ghobar
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_retire_the_uncles
-			}
-			traits = {
-				SWI_social_democrat 
-			}
-		}
-		portraits={
-			army={
-				small= GFX_portrait_AFG_ghulam_muhammad_ghobar_small
-			}
-		}
-	}
-	AFG_turbaz_khan={
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_turbaz_khan
-			allowed = {
-				original_tag = AFG
-				has_dlc = "La Resistance"
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				head_of_intelligence 
-			}
-		}
-		portraits = {
-			army = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Turabaz_Khan.dds"
-				small = "GFX_idea_AFG_turabaz_khan"
-			}
-		}
-	}
-	AFG_shah_mahmud_khan = {
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_shah_mahmud_khan
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_secure_dynasty
-				is_country_leader = no
-			}
-			traits = {
-				AFG_safe_hands 
-			}
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Sardar_Shah_Mahmud_Khan.dds"
-				small = "GFX_idea_AFG_shah_mahmud_khan"
-			}
-			army = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Sardar_Shah_Mahmud_Khan_army.dds"
-				small = "GFX_idea_AFG_shah_mahmud_khan_army"
-			}
-		}
-	}
-	AFG_amunullah_khan = {
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Amanullah_Khan.dds"
-				small = "GFX_idea_AFG_advisor_amanullah_khan"
-			}
-		}
-		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	AFG_placeholder_fascist = {
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_placeholder_fascist
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_contact_amanullah_loyalists
-			}
-			traits = {
-				AUS_fascist_writer 
-			}
-			cost = 75
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
-			}
-		}
-	}
-
-	AFG_inyatullah_khan = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_inyatullah_khan
-			allowed  = {
-				original_tag = AFG
-			}
-			visible = {	#56
-				has_global_flag = afg_dlc_focus_tree	#can theoretically be put on the r56 tree as long as they were tweaked appropriately and don't pirate gfx
-			}
-			available = {
-				has_country_leader = {
-					ruling_only = yes
-					character = AFG_amunullah_khan
-				}	
-			}
-			traits  = {
-				AFG_royal_figurehead_trait
-			}
-		}
-
-		name = AFG_inyatullah_khan
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_inayatullah_khan_small
-			}
-		}
-	}
-
-	AFG_nur_muhammad_taraki = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_nur_muhammad_taraki
-			allowed  = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree	#can theoretically be put on the r56 tree as long as they were tweaked appropriately and don't pirate gfx
-				NOT = {
-					has_completed_focus = AFG_against_kabul
-				}
-			}
-			available = {
-				has_completed_focus = AFG_socialist_coup
-			}
-			traits  = {
-				AFG_red_shirt_trait
-			}
-		}
-
-		name = AFG_nur_muhammad_taraki
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_nur_muhammad_taraki
-			}
-		}
-	}
-
-	AFG_sheikh_omar_mojadidi = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_sheikh_omar_mojadidi
-			allowed  = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree	#can theoretically be put on the r56 tree as long as they were tweaked appropriately and don't pirate gfx
-				NOT = {
-					has_completed_focus = AFG_support_king_zahir
-				}
-			}
-			available = {
-				has_completed_focus = AFG_expand_the_madrasas	
-			}
-			traits  = {
-				AFG_influential_spiritual_leader_trait
-			}
-		}
-
-		name = AFG_sheikh_omar_mojadidi
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_sheikh_omar_mojadidi_small
-			}
-		}
-	}
-
-	AFG_generic_american_1 = {
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_generic_american_1
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
-			}
-			traits = {
-				war_industrialist 
-			}
-			cost = 75
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_4"
-			}
-		}
-	}
-	AFG_generic_american_2 = {
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_generic_american_2
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
-			}
-			traits = {
-				economist 
-			}
-			cost = 75
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
-			}
-		}
-	}
-	AFG_generic_american_3 = {
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_generic_american_3
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
-			}
-			traits = {
-				armaments_organizer
-			}
-			cost = 75
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-	}
-	AFG_abdurauf_fitrat = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_abdurauf_fitrat
-			allowed  = {
-				original_tag = AFG
-				has_dlc = "Graveyard of Empires" #r56
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree #r56
-			}
-			available = {
-				has_completed_focus = AFG_gant_refuge_to_jadidists
-			}
-			traits  = {
-				AFG_uzbek_scholar 
-			}
-		}
-
-		name = AFG_abdurauf_fitrat
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_abdurauf_fitrat_small
-			}
-		}
-	}
-
-	AFG_fayzulla_xojayev = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_fayzulla_xojayev
-			allowed  = {
-				original_tag = AFG
-				has_dlc = "Graveyard of Empires" #r56
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree #r56
-			}
-			available = {
-				has_completed_focus = AFG_gant_refuge_to_jadidists
-			}
-			traits  = {
-				AFG_bukharan_jadidist 
-			}
-		}
-
-		name = AFG_fayzulla_xojayev
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_fayzulla_xojayev_small
-			}
-		}
-	}
-
-	AFG_korsirmat = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_korsirmat
-			allowed  = {
-				original_tag = AFG
-				has_dlc = "Graveyard of Empires" #r56
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree #r56
-			}
-			available = {
-				has_completed_focus = AFG_ally_basmachi_remnants
-			}
-			traits  = {
-				 AFG_kokandi_insurrecionist
-			}
-		}
-
-		name = AFG_korsirmat
-
-		portraits = {
-			civilian = {
-				small = GFX_portrait_AFG_korsirmat_small
-			}
-		}
-	}
-
-	AFG_junaid_khan = {
-		advisor = {
-			slot = political_advisor
-			idea_token = AFG_junaid_khan
-			allowed  = {
-				original_tag = AFG
-				has_dlc = "Graveyard of Empires" #r56
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree #r56
-			}
-			available = {
-				has_completed_focus = AFG_ally_basmachi_remnants
-			}
-			traits  = {
-				 AFG_turkmen_khan
-			}
-		}
-
-		name = AFG_junaid_khan
-
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ideas/khi/advisors/r56_idea_advisor_KHI_junaid_khan.dds" #r56
-			}
-		}
-	}
-
-	# GRAVEYARD OF EMPIRES DUPLICATES #
-
-	AFG_mohammed_daoud_khan={ # GoE dupliacte of r56_AFG_mohammed_daoud_khan
-		advisor={
-			slot = high_command
-			idea_token = AFG_mohammed_daoud_khan
-			ledger = army
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				is_country_leader = no
-			}
-			traits = {
-				army_armored_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Daoud_Khan.dds"
-				small = "GFX_idea_AFG_daoud_khan_political"
-			}
-			army = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Daoud_Khan.dds"
-				small = "GFX_idea_AFG_daoud_khan"
-			}
-		}
-	}
-	AFG_abdul_majid_zabuli={ # GoE dupliacte of r56_AFG_abdul_majid_zabuli
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_abdul_majid_zabuli
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			traits = {
-				captain_of_industry 
-			}
-		}
-		portraits = {
-			civilian = {
-				small = "GFX_idea_AFG_abdul_majid_zabuli"
-			}
-		}
-	}
-	AFG_abdul_hai_habibi={ # GoE dupliacte of r56_AFG_abdul_hai_habibi
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_abdul_hai_habibi
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_reform_1
-			}
-			traits = {
-				education_reformer 
-			}
-		}
-		portraits={
-			army={
-				small="GFX_portrait_AFG_abdul_hai_habibi_small"
-			}
-		}
-	}
-	AFG_mohammad_gul_khan_momand = { # GoE dupliacte of r56_AFG_mohammad_gul_khan_momand
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_mohammad_gul_khan_momand
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_concessions_to_pashtuns
-			}
-			traits = {
-				pashtun_nationalist 
-			}
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AFG/r56_portrait_AFG_Mohammad_Gul_Khan_Momand.dds"
-				small = "GFX_idea_AFG_mohammad_gul_khan_momand"
-			}
-			army = {
-				small = "GFX_idea_AFG_mohammad_gul_khan_momand_army"
-			}
-		}
-	}
-	AFG_soraya_tarzi = { # GoE dupliacte of r56_AFG_soraya_tarzi
-		advisor={
-			slot = political_advisor
-			idea_token = AFG_soraya_tarzi
-			allowed = {
-				original_tag = AFG
-			}
-			visible = {
-				has_global_flag = afg_dlc_focus_tree
-			}
-			available = {
-				has_completed_focus = AFG_education_for_women_and_girls
-			}
-			traits = {
-				education_reformer 
-			}
-		}
-		portraits = {
-			army = {
-				small = "GFX_idea_AFG_advisor_soraya_tarzi"
-			}
-		}
-	}
-	AFG_provisional_government = { # GoE dupliacte of r56_AFG_provisional_government
-		portraits={
-			civilian={
-				small = "GFX_portrait_SWE_fallen_riksdag_small"
-				large = GFX_portrait_SWE_fallen_riksdag
-			}
-		}
-	}
-	AFG_muhammad_ibrahim_khan = { # GoE dupliacte of r56_AFG_muhammad_ibrahim_khan
-		portraits={
-			civilian = {
-				large = "gfx/leaders/HAZ/r56_portrait_HAZ_Muhammad_Ibrahim_Khan.dds"
-				small = "GFX_idea_AFG_advisor_muhammad_ibrahim_khan"
-			}
-			army = {
-				large = "gfx/leaders/HAZ/r56_portrait_HAZ_Muhammad_Ibrahim_Khan.dds"
-				small = "GFX_idea_AFG_advisor_muhammad_ibrahim_khan_army"
-			}
-		}
-	}
-
-	AFG_faqir_of_ipi={
-		name = AFG_faqir_of_ipi
-		portraits={
-			army = {
-				large = GFX_portrait_AFG_faqir_of_ipi
-				small = GFX_portrait_AFG_faqir_of_ipi_small
-			}
-		}
-		field_marshal = {
-			traits={ organizer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=-1
-			visible = {
-				has_character_flag = AFG_rural_cw_started
-			}
-		}
-	}
-
-	AFG_mazrak_zadran={
-		name = AFG_mazrak_zadran
-		portraits={
-			army = {
-				large = GFX_portrait_AFG_mazrak_zadran
-				small = GFX_portrait_AFG_mazrak_zadran_small
-			}
-		}
-		corps_commander = {
-			traits={ trickster guerilla_fighter trait_mountaineer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-			visible = {
-				has_character_flag = AFG_rural_cw_started
 			}
 		}
 	}

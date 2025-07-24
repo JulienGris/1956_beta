@@ -235,7 +235,6 @@ focus_tree = {
 						}
 						has_completed_focus = SOV_counter_coup
 						has_completed_focus = SOV_beaten_but_not_defeated
-						has_completed_focus = SOV_counter_coup_old
 					}
 				}
 			}
@@ -441,7 +440,7 @@ focus_tree = {
 	focus = {
 		id = USA_expand_the_intelligence_services
 		text = POR_expand_the_intelligence_services
-		icon = GFX_goal_generic_spy_connection
+		icon = GFX_goal_CAN_CAMP_X
 		cost = 5
 		prerequisite = {
 			focus = USA_communist_secret_police
@@ -718,6 +717,10 @@ focus_tree = {
 			}
 		}
 
+		
+		
+		
+
 		completion_reward = {
 			if = {
 				limit = {
@@ -748,6 +751,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+
+		
+		
+		
+
+		
 
 		completion_reward = {
 			if = {
@@ -2303,22 +2312,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			add_ideas = r56_USA_military_rnd
-			custom_effect_tooltip = generic_skip_one_line_tt
-			if = {
-				limit = { 
-					ROOT = {
-						has_character = USA_vannevar_bush
-					}
-				}
-				ROOT = { #He is the GUY
-					USA_vannevar_bush = {
-						add_scientist_xp = {
-							experience = 250
-							specialization = specialization_air 
-						}
-					}
-				}
-			}
 		}
 	}
 	focus = {
@@ -2424,7 +2417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_black_chamber
-		icon = GFX_goal_generic_spy_connection
+		icon = GFX_goal_CAN_CAMP_X
 		prerequisite = { focus = USA_focus_on_europe focus = USA_focus_on_asia }
 		prerequisite = { focus = USA_office_of_strategic_services }
 		available = { }
@@ -3366,7 +3359,6 @@ focus_tree = {
 				set_country_flag = USA_the_giant_wakes_added_civ_eco
 			}
 			#Only Democratic USA should have the op timed idea
-			custom_effect_tooltip = generic_skip_one_line_tt
 			if = { 
 				limit = {
 					ROOT = {
@@ -3375,9 +3367,8 @@ focus_tree = {
 				}
 				add_timed_idea = {
 					idea = rt56_the_gaint_wakes_idea
-					days = 30
+					days = 35
 				}
-				custom_effect_tooltip = generic_skip_one_line_tt
 			}
 			random_owned_controlled_state = {
 				prioritize = { 360 }
@@ -3448,14 +3439,12 @@ focus_tree = {
 				limit = {
 					has_idea = rt56_naval_funding_favoritism
 				}
-				custom_effect_tooltip = generic_skip_one_line_tt
 				remove_ideas = rt56_naval_funding_favoritism
 			}
 			if = {
 				limit = {
 					has_idea = rt56_naval_first_funding
 				}
-				custom_effect_tooltip = generic_skip_one_line_tt
 				swap_ideas = { 
 					remove_idea = rt56_naval_first_funding
 					add_idea = rt56_naval_funding_favoritism
@@ -3682,6 +3671,7 @@ focus_tree = {
 					free_building_slots = {
 						building = infrastructure
 						size > 2
+						include_locked = yes
 					}
 					OR = {
 						region = 117
@@ -3703,6 +3693,7 @@ focus_tree = {
 					free_building_slots = {
 						building = infrastructure
 						size > 2
+						include_locked = yes
 					}
 					OR = {
 						region = 117
@@ -3767,6 +3758,7 @@ focus_tree = {
 						free_building_slots = {
 							building = infrastructure
 							size > 1
+							include_locked = yes
 						}
 					}
 					add_building_construction = {
@@ -3977,10 +3969,12 @@ focus_tree = {
 
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			add_ideas = USA_manhattan_project_ns 
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
+			add_tech_bonus = {
+				name = USA_manhattan_project
+				bonus = 1.0
+				uses = 2
+				category = nuclear
+			}
 			random_owned_controlled_state = {
 				prioritize = { 368 }
 				limit = {
@@ -3996,22 +3990,6 @@ focus_tree = {
 				add_dynamic_modifier = { modifier = r56_the_project }
 			}
 			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				set_state_flag = USA_manhattan_project
-				add_dynamic_modifier = { modifier = r56_the_project }
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			random_owned_controlled_state = {
 				prioritize = { 376 }
 				limit = {
 					is_core_of = ROOT
@@ -4024,188 +4002,6 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				set_state_flag = USA_manhattan_project
 				add_dynamic_modifier = { modifier = r56_the_project } 
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					NOT = {
-						has_tech = atomic_research
-					}
-				}
-				add_tech_bonus = {
-					name = USA_manhattan_project
-					bonus = 1.0
-					uses = 1
-					category = nuclear
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.5
-				}
-			}
-			ELSE = {
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.8
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = {
-						has_dlc = "Gotterdammerung" 
-						has_government = democratic
-					}
-					ROOT = {
-						scoped_play_song = "apocalyptic_weapons"
-					}
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = USA_rally_the_martians
-		icon = GFX_focus_generic_university_3
-		prerequisite = { focus =  USA_manhattan_project }
-		x = 0
-		y = 1
-
-		relative_position_id =  USA_manhattan_project
-
-		allow_branch = {
-			has_dlc = "Gotterdammerung"
-		}
-		cost = 5
-
-		#ai_will_do = {
-		#	factor = 1
-		#}
-
-		available = {
-			has_government = democratic
-			has_tech = atomic_research
-			custom_trigger_tooltip = {
-				tooltip = USA_rally_the_martians_trigger_tt	
-				all_country_with_original_tag = {
-					original_tag_to_check = HUN
-					OR = {
-						has_completed_focus = wuw_HUN_join_the_comintern
-						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
-						has_completed_focus = wuw_HUN_continue_the_regency
-						has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
-					}
-				}
-			}
-		}
-		
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			if = {
-				limit = {
-					any_country_with_original_tag = {
-						original_tag_to_check = HUN
-						has_character = HUN_edward_teller
-					}
-				}
-				custom_effect_tooltip = {
-					localization_key = available_scientist_one_line_tt
-					CHARACTER = HUN_edward_teller
-				}	
-			}
-			if = {
-				limit = {
-					any_country_with_original_tag = {
-						original_tag_to_check = HUN
-						has_character = HUN_john_von_neumann
-					}
-				}
-				custom_effect_tooltip = {
-					localization_key = available_scientist_one_line_tt
-					CHARACTER = HUN_john_von_neumann
-				}
-			}
-			if = {
-				limit = {
-					any_country_with_original_tag = {
-						original_tag_to_check = HUN
-						has_character = HUN_leo_szilard
-					}
-				}
-				custom_effect_tooltip = {
-					localization_key = available_scientist_one_line_tt
-					CHARACTER = HUN_leo_szilard
-				}
-			}
-			hidden_effect = { #There has to be a better way to do this but I'm to lazy to find it - SpicyAlfredo
-				if = {
-					limit = {
-						any_country_with_original_tag = {
-							original_tag_to_check = HUN
-							has_character = HUN_edward_teller
-						}
-					}
-					random_other_country = {
-						limit = {
-							has_character = HUN_edward_teller
-							original_tag = HUN
-						}
-						set_nationality = {
-							target_country = USA
-							character = HUN_edward_teller
-						}
-					}
-				}
-				if = {
-					limit = {
-						any_country_with_original_tag = {
-							original_tag_to_check = HUN
-							has_character = HUN_john_von_neumann
-						}
-					}
-					random_other_country = {
-						limit = {
-							has_character = HUN_john_von_neumann
-							original_tag = HUN
-						}
-						set_nationality = {
-							target_country = USA
-							character = HUN_john_von_neumann
-						}
-					}
-				}
-				if = {
-					limit = {
-						any_country_with_original_tag = {
-							original_tag_to_check = HUN
-							has_character = HUN_john_von_neumann
-						}
-					}
-					random_other_country = {
-						limit = {
-							has_character = HUN_leo_szilard
-							original_tag = HUN
-						}
-						set_nationality = {
-							target_country = USA
-							character = HUN_leo_szilard
-						}
-					}
-				}
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_tech_bonus = {
-				name = USA_rally_the_martians
-				bonus = 0.25
-				uses = 1
-				category = electronics
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_nuclear
-				value = 0.25
 			}
 		}
 	}
@@ -4223,53 +4019,18 @@ focus_tree = {
 		available = {
 			has_government = democratic
 			has_war_with_major = yes
-			custom_trigger_tooltip = {
-				tooltip = r56_un_trigger_tooltip
-				all_enemy_country = {
-					OR = {
-						is_major = no
-						any_other_country = {
-							is_major = yes
-							has_war_with = PREV
-							NOT = {
-								is_in_faction_with = ROOT
-								has_war_with = ROOT
-							}
+			all_enemy_country = {
+				OR = {
+					is_major = no
+					any_other_country = {
+						is_major = yes
+						has_war_with = PREV
+						NOT = {
+							is_in_faction_with = ROOT
 						}
 					}
 				}
 			}
-		}
-		completion_reward = {
-			custom_effect_tooltip = r56_un_tooltip
-			unlock_decision_category_tooltip = CW_united_nations_security_council
-			set_country_flag = r56_invited_to_un_security_council
-			add_to_array = {
-				global.members_of_un = THIS.id
-			}
-			every_other_country = {
-				limit = {
-					is_major = yes
-					has_war_together_with = PREV
-					NOT = {
-						has_war_with = ROOT
-					}
-					meta_trigger = {
-						text = {
-							NOT = {
-								has_global_flag = r56_[THIS_COUNTRY]_in_yalta
-							}
-						}
-						THIS_COUNTRY = "[THIS.GetTag]"
-					}
-				}
-				set_country_flag = r56_invited_to_un_security_council
-				add_to_array = {
-					global.members_of_un = THIS.id
-				}
-				unlock_decision_category_tooltip = CW_united_nations_security_council
-			}
-			r56_calculate_un_members = yes
 		}
 	}
 
@@ -4310,7 +4071,7 @@ focus_tree = {
 
 	focus = {
 		id = r56_USA_liberty_for_the_pacific
-		icon = GFX_goal_befriend_samoa
+		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = r56_USA_overwatch_the_pacific }
 		available = {
 			has_government = democratic
@@ -4321,22 +4082,14 @@ focus_tree = {
 		bypass = {
 			OR ={
 				country_exists = FSM
-				country_exists = PLU
-				country_exists = MRS
-				country_exists = RAP
-				country_exists = KIR
-				country_exists = NRU
 				country_exists = TAH
 				country_exists = FIJ
 				country_exists = GUM
 				country_exists = SAM
 				country_exists = TON
-				country_exists = NIU
-				country_exists = TUV
-				country_exists = SOL
-				country_exists = VAN
 			}
 		}
+		
 		
 		x = -3
 		y = 1
@@ -4357,7 +4110,7 @@ focus_tree = {
 				effect_tooltip ={
 					release = FSM
 					FSM = {
-						custom_effect_tooltip = create_one_units_tt
+						custom_effect_tooltip = create_two_units_tt
 					}
 				}
 				hidden_effect = {
@@ -4395,10 +4148,22 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
+							}
+						}
+						random_owned_controlled_state = {
+							limit = { PREV = { has_full_control_of_state = PREV } }
+							create_unit = {
+								division = "name = \"Micronesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
+								owner = PREV
 							}
 						}
 						random_owned_controlled_state = {
@@ -4414,40 +4179,40 @@ focus_tree = {
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = FSM }
+					ROOT = {give_guarantee = FSM }
 				}
 				add_stability = 0.02
 				add_political_power = 20
 			}
-			
-			#release Palau as a sovereign nation
+
+			#release Polynesia as a sovereign nation
 			if = {
 				limit = {
 					any_state = {
-						is_core_of = PLU
+						is_core_of = TAH
 						is_owned_by = ROOT
 					}
 				}
 				effect_tooltip ={
-					release = PLU
-					PLU = {
-						custom_effect_tooltip = create_one_units_tt
+					release = TAH
+					TAH = {
+						custom_effect_tooltip = create_two_units_tt
 					}
 				}
 				hidden_effect = {
 					if = {
-						limit = { PLU = { exists = no } }
-						release = PLU
-						PLU = { save_event_target_as = released_nation_target }
+						limit = { TAH = { exists = no } }
+						release = TAH
+						TAH = { save_event_target_as = released_nation_target }
 					}
 					else = {
 						create_dynamic_country = {
-							original_tag = PLU
+							original_tag = TAH
 							
 							save_event_target_as = released_nation_target
 							PREV = {
 								every_owned_state = {
-									limit = { is_core_of = PLU }
+									limit = { is_core_of = TAH }
 									PREV.PREV = { transfer_state = PREV }
 								}
 							}
@@ -4469,59 +4234,71 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
 							}
 						}
 						random_owned_controlled_state = {
 							limit = { PREV = { has_full_control_of_state = PREV } }
 							create_unit = {
-								division = "name = \"Palauan Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
+								division = "name = \"Polynesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
+								owner = PREV
+							}
+						}
+						random_owned_controlled_state = {
+							limit = { PREV = { has_full_control_of_state = PREV } }
+							create_unit = {
+								division = "name = \"Polynesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
 								owner = PREV
 							}
 						}
 					}
 					diplomatic_relation = {
-						country = PLU
+						country = TAH
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = PLU }
+					ROOT = {give_guarantee = TAH }
 				}
 				add_stability = 0.02
 				add_political_power = 20
 			}
-			
-			#release Marshall Islands as a sovereign nation
+
+			#release FIJ as a sovereign nation
 			if = {
 				limit = {
 					any_state = {
-						is_core_of = MRS
+						is_core_of = FIJ
 						is_owned_by = ROOT
 					}
 				}
 				effect_tooltip ={
-					release = MRS
-					MRS = {
-						custom_effect_tooltip = create_one_units_tt
+					release = FIJ
+					FIJ = {
+						custom_effect_tooltip = create_two_units_tt
 					}
 				}
 				hidden_effect = {
 					if = {
-						limit = { MRS = { exists = no } }
-						release = MRS
-						MRS = { save_event_target_as = released_nation_target }
+						limit = { FIJ = { exists = no } }
+						release = FIJ
+						FIJ = { save_event_target_as = released_nation_target }
 					}
 					else = {
 						create_dynamic_country = {
-							original_tag = MRS
+							original_tag = FIJ
 							
 							save_event_target_as = released_nation_target
 							PREV = {
 								every_owned_state = {
-									limit = { is_core_of = MRS }
+									limit = { is_core_of = FIJ }
 									PREV.PREV = { transfer_state = PREV }
 								}
 							}
@@ -4543,31 +4320,43 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
 							}
 						}
 						random_owned_controlled_state = {
 							limit = { PREV = { has_full_control_of_state = PREV } }
 							create_unit = {
-								division = "name = \"Marshallese Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
+								division = "name = \"Fijian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
+								owner = PREV
+							}
+						}
+						random_owned_controlled_state = {
+							limit = { PREV = { has_full_control_of_state = PREV } }
+							create_unit = {
+								division = "name = \"Polynesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
 								owner = PREV
 							}
 						}
 					}
 					diplomatic_relation = {
-						country = MRS
+						country = FIJ
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = MRS }
+					ROOT = {give_guarantee = TAH }
 				}
 				add_stability = 0.02
 				add_political_power = 20
 			}
-			
+
 			#release Guam as a sovereign nation
 			if = {
 				limit = {
@@ -4617,10 +4406,15 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 }
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
 							}
 						}
 						random_owned_controlled_state = {
@@ -4636,398 +4430,7 @@ focus_tree = {
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = GUM }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Kiribati as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = KIR
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = KIR
-					KIR = {
-						custom_effect_tooltip = create_one_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { KIR = { exists = no } }
-						release = KIR
-						KIR = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = KIR
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = KIR }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Abemaman Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = KIR
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = KIR }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Nauru as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = NRU
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = NRU
-					NRU = {
-						custom_effect_tooltip = create_one_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { NRU = { exists = no } }
-						release = NRU
-						NRU = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = NRU
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = NRU }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Nauruan Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = NRU
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = NRU }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-
-			#release Fiji as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = FIJ
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = FIJ
-					FIJ = {
-						custom_effect_tooltip = create_two_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { FIJ = { exists = no } }
-						release = FIJ
-						FIJ = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = FIJ
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = FIJ }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Fijian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Fijian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = FIJ
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = FIJ }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Solomon Islands as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = SOL
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = SOL
-					SOL = {
-						custom_effect_tooltip = create_two_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { SOL = { exists = no } }
-						release = SOL
-						SOL = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = SOL
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = SOL }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Solomon Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Solomon Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = SOL
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = SOL }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Vanuatu Islands as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = VAN
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = VAN
-					VAN = {
-						custom_effect_tooltip = create_two_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { VAN = { exists = no } }
-						release = VAN
-						VAN = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = VAN
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = VAN }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Vanuatu Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Vanuatu Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = VAN
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = VAN }
+					ROOT = {give_guarantee = TAH }
 				}
 				add_stability = 0.02
 				add_political_power = 20
@@ -5082,6 +4485,11 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
 								engineer = { x = 0 y = 0 }
@@ -5101,7 +4509,7 @@ focus_tree = {
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = SAM }
+					ROOT = {give_guarantee = SAM }
 				}
 				add_stability = 0.02
 				add_political_power = 20
@@ -5156,10 +4564,15 @@ focus_tree = {
 					
 								infantry = { x = 2 y = 0 }
 								infantry = { x = 2 y = 1 }
+								infantry = { x = 2 y = 2 }
+
+								infantry = { x = 3 y = 0 }
+								infantry = { x = 3 y = 1 }
+								infantry = { x = 3 y = 2 }
 							}
 							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
+								engineer = { x = 0 y = 0 }
+								artillery = { x = 0 y = 1 }
 							}
 						}
 						random_owned_controlled_state = {
@@ -5175,310 +4588,7 @@ focus_tree = {
 						relation = docking_rights
 						active = yes
 					}
-					ROOT = { give_guarantee = TON }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Niue as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = NIU
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = NIU
-					NIU = {
-						custom_effect_tooltip = create_one_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { NIU = { exists = no } }
-						release = NIU
-						NIU = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = NIU
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = NIU }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								engineer = { x = 0 y = 0 }
-								artillery = { x = 0 y = 1 }
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Niuean Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = NIU
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = NIU }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Tuvalu as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = TUV
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = TUV
-					TUV = {
-						custom_effect_tooltip = create_one_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { TUV = { exists = no } }
-						release = TUV
-						TUV = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = TUV
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = TUV }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Tuvaluan Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = TUV
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = TUV }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release RAPalu as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = RAP
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = RAP
-					RAP = {
-						custom_effect_tooltip = create_one_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { RAP = { exists = no } }
-						release = RAP
-						RAP = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = RAP
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = RAP }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								artillery = { x = 0 y = 1 }
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Rapa Nui Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = RAP
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = { give_guarantee = RAP }
-				}
-				add_stability = 0.02
-				add_political_power = 20
-			}
-			
-			#release Tahiti as a sovereign nation
-			if = {
-				limit = {
-					any_state = {
-						is_core_of = TAH
-						is_owned_by = ROOT
-					}
-				}
-				effect_tooltip ={
-					release = TAH
-					TAH = {
-						custom_effect_tooltip = create_two_units_tt
-					}
-				}
-				hidden_effect = {
-					if = {
-						limit = { TAH = { exists = no } }
-						release = TAH
-						TAH = { save_event_target_as = released_nation_target }
-					}
-					else = {
-						create_dynamic_country = {
-							original_tag = TAH
-							
-							save_event_target_as = released_nation_target
-							PREV = {
-								every_owned_state = {
-									limit = { is_core_of = TAH }
-									PREV.PREV = { transfer_state = PREV }
-								}
-							}
-						}
-					}
-					event_target:released_nation_target = {
-						division_template = {
-							name = "National Guard Division"
-							priority = 1
-							division_names_group = USA_INF_01
-							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
-								infantry = { x = 0 y = 2 }
-					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
-								infantry = { x = 1 y = 2 }
-					
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
-							}
-							support = {
-								#engineer = { x = 0 y = 0 } They dont have it researched
-								#artillery = { x = 0 y = 1 } They dont have it researched
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Polynesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-						random_owned_controlled_state = {
-							limit = { PREV = { has_full_control_of_state = PREV } }
-							create_unit = {
-								division = "name = \"Polynesian Division\" division_template = \"National Guard Division\" start_experience_factor = 0.2" 
-								owner = PREV
-							}
-						}
-					}
-					diplomatic_relation = {
-						country = TAH
-						relation = docking_rights
-						active = yes
-					}
-					ROOT = {give_guarantee = TAH }
+					ROOT = {give_guarantee = TON }
 				}
 				add_stability = 0.02
 				add_political_power = 20
@@ -5508,6 +4618,8 @@ focus_tree = {
 				}
 			}
 		}
+
+		
 		
 		x = -1
 		y = 1
@@ -5520,12 +4632,12 @@ focus_tree = {
 			#release Philippines if they are puppet
 			if = {
 				limit = {
-					PHI = {
+					"PHI" = {
 						is_subject_of = ROOT
 					}
 				}
+				set_autonomy = { target = "PHI" autonomy_state = autonomy_free }
 				add_stability = 0.1
-				set_autonomy = { target = PHI autonomy_state = autonomy_free }
 			}
 			#release Philippines if those don't exist as a sovereign nation
 			if = {
@@ -5543,7 +4655,6 @@ focus_tree = {
 					}
 				}
 				hidden_effect = {
-					add_stability = 0.15
 					if = {
 						limit = { PHI = { exists = no } }
 						release = PHI
@@ -5618,6 +4729,7 @@ focus_tree = {
 					}
 					ROOT = {give_guarantee = PHI }
 				}
+				add_stability = 0.15
 			}
 		}
 		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_STABILITY }	
@@ -5898,13 +5010,7 @@ focus_tree = {
 			PRC = {
 				exists = yes
 				is_puppet = no
-				NOT = {
-					OR = {
-						has_government = democratic
-						is_in_faction_with = USA
-						has_war_with = ROOT
-					}
-				}
+				NOT = { has_government = democratic }
 			}
 		}
 
@@ -5971,7 +5077,7 @@ focus_tree = {
 
 	focus = {
 		id = r56_USA_foundation_of_NATO
-		icon = GFX_goal_generic_befriend_united_states
+		icon = GFX_focus_chi_mission_to_the_us
 		prerequisite = { focus = r56_USA_return_to_europe }
 		x = -5
 		y = 1
@@ -6294,7 +5400,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-            every_other_country = {
+            every_country = {
                 limit = {
                     NOT = {
                         has_war_with =  ROOT
@@ -6312,12 +5418,7 @@ focus_tree = {
                             NOT = {
                                 original_tag = FIN
                                 has_government = fascism #Bad Franco!
-								AND = {
-									is_subject = yes
-									NOT = {
-										is_subject_of = ROOT
-									}
-								}
+                                is_subject = yes
                             }
                         }
                     }
@@ -6451,9 +5552,6 @@ focus_tree = {
 			any_country = {
 				original_tag = SPR
 				exists = yes
-				NOT = {
-					has_war_with = ROOT
-				}
 			}
 			OR = {	#can either invite to faction, or has a valid wargoal target
 				is_faction_leader = yes
@@ -6546,12 +5644,8 @@ focus_tree = {
 				exists = yes
 				has_civil_war = no
 				is_puppet = no
-
 				NOT = {
-					OR = {
-						has_government = democratic
-						has_war_with = ROOT
-					}
+					has_government = democratic
 				}
 			}
 		}
@@ -6948,10 +6042,7 @@ focus_tree = {
 			YUG = {
 				exists = yes
 				NOT = {
-					OR = {
-						is_in_faction_with = USA
-						has_war_with = ROOT
-					}
+					is_in_faction_with = USA
 				}
 			}
 		}
@@ -7151,12 +6242,6 @@ focus_tree = {
 			any_other_country = {
 				is_major = yes
 				has_government = communism
-				NOT = {
-					OR = {
-						is_in_faction_with = USA
-						has_war_with = ROOT
-					}
-				}
 			}
 		}
 
@@ -8518,6 +7603,10 @@ focus_tree = {
 			fascism > 0.4
 		}
 
+		
+		
+		
+
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -8758,6 +7847,10 @@ focus_tree = {
 				}
 			}
 		}
+
+		
+		
+		
 
 		completion_reward = {
 			if = {
@@ -9294,17 +8387,7 @@ focus_tree = {
 			}			
 		}
 
-
-		available = {
-			any_other_country = {
-				original_tag = MEX
-				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
-			}
-		}		
+		
 		
 		
 
@@ -9340,10 +8423,6 @@ focus_tree = {
 			any_other_country = {
 				original_tag = CAN
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
 
@@ -9574,44 +8653,49 @@ focus_tree = {
 				}
 				create_faction = USA_hemisphere_defense_faction
 			}
-			every_country = {
+			if = {
 				limit = {
-					is_in_faction = no
-					#has_government = ROOT
-					not = { has_war_with = ROOT }
-					OR = {
-						original_tag = CUB
-						original_tag = CAN
-						original_tag = MEX
-						original_tag = BRA
-						original_tag = ARG
-						original_tag = URG
-						original_tag = CHL
-						original_tag = PAN
-						original_tag = PAR
-						original_tag = VEN
-						original_tag = PRU
-						original_tag = BOL
-						original_tag = COL
-						original_tag = ECU
-						original_tag = HON
-						original_tag = DOM
-						original_tag = HAI
-						original_tag = GUA
-						original_tag = COS
-						original_tag = ELS
-						original_tag = NIC
-						original_tag = JAM
-						original_tag = BAH
-						original_tag = BLZ
-						original_tag = BAS
-						original_tag = GDL
-						original_tag = PUE
-						original_tag = TRI
-						original_tag = CRC
-					}
+					is_faction_leader = yes
 				}
-				country_event = generic.5
+				every_country = {
+					limit = {
+						is_in_faction = no
+						#has_government = ROOT
+						not = { has_war_with = ROOT }
+						OR = {
+							original_tag = CUB
+							original_tag = CAN
+							original_tag = MEX
+							original_tag = BRA
+							original_tag = ARG
+							original_tag = URG
+							original_tag = CHL
+							original_tag = PAN
+							original_tag = PAR
+							original_tag = VEN
+							original_tag = PRU
+							original_tag = BOL
+							original_tag = COL
+							original_tag = ECU
+							original_tag = HON
+							original_tag = DOM
+							original_tag = HAI
+							original_tag = GUA
+							original_tag = COS
+							original_tag = ELS
+							original_tag = NIC
+							original_tag = JAM
+							original_tag = BAH
+							original_tag = BLZ
+							original_tag = BAS
+							original_tag = GDL
+							original_tag = PUE
+							original_tag = TRI
+							original_tag = CRC
+						}
+					}
+					country_event = generic.5
+				}
 			}
 		}
 	}
@@ -9661,15 +8745,10 @@ focus_tree = {
 			}			
 		}
 
-
 		available = {
 			any_other_country = {
 				original_tag = FRA
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
 
@@ -9706,15 +8785,10 @@ focus_tree = {
 			}
 		}
 	
-
 		available = {
 			any_other_country = {
 				original_tag = ITA
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
 			
@@ -9734,7 +8808,6 @@ focus_tree = {
 		id = USA_war_plan_black
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = USA_intervention_in_europe }
-
 		available = {
 			any_other_country = {
 				OR = {
@@ -9743,13 +8816,11 @@ focus_tree = {
 					original_tag = WGR
 					original_tag = PRE
 				}
+				
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
+
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 
@@ -9894,17 +8965,6 @@ focus_tree = {
 			}
 		}
 
-		available = {
-			any_other_country = {
-				original_tag = SOV
-				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
-			}
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -9925,7 +8985,9 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
-		}		
+		}
+
+		
 		
 		
 
@@ -9959,17 +9021,6 @@ focus_tree = {
 					}
 					has_civil_war = no
 				}				
-			}
-		}
-
-		available = {
-			any_other_country = {
-				original_tag = ENG
-				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
 
@@ -10010,10 +9061,6 @@ focus_tree = {
 			any_other_country = {
 				original_tag = RAJ
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
 
@@ -10048,16 +9095,17 @@ focus_tree = {
 				}				
 			}
 		}
+
 		available = {
 			any_other_country = {
 				original_tag = AST
 				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
 			}
 		}
+
+		
+		
+		
 
 		completion_reward = {
 			unlock_decision_tooltip = { decision = USA_execute_war_plan_scarlet_garnet show_effect_tooltip = yes show_modifiers = yes }
@@ -10110,16 +9158,7 @@ focus_tree = {
 		#ai_will_do = {
 		#	factor = 1
 		#}
-		available = {
-			any_other_country = {
-				original_tag = JAP
-				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
-			}
-		}
+
 
 		completion_reward = {
 			JAP = {
@@ -10151,18 +9190,7 @@ focus_tree = {
 				}				
 			}
 		}
-
-		available = {
-			any_other_country = {
-				original_tag = CHI
-				exists = yes
-				NOT = {
-					is_in_faction_with = ROOT
-					is_subject_of = ROOT
-				}
-			}
-		}
-
+		
 		bypass = {
 			any_other_country = {
 				original_tag = CHI
@@ -10180,7 +9208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_defense_of_the_pacific
-		icon = GFX_focus_GER_sentinels_of_the_pacific
+		icon = GFX_goal_generic_occupy_states_coastal
 		prerequisite = { focus = USA_war_plan_yellow focus = USA_war_plan_orange }
 		available = {
 			JAP = {
@@ -10188,7 +9216,7 @@ focus_tree = {
 				NOT = { has_government = ROOT }
 			}
 		}
-		#will_lead_to_war_with = JAP 	#Not quite sure why this is here exactly but eh
+		will_lead_to_war_with = JAP
 		x = 0
 		y = 2
 		relative_position_id = USA_intervention_in_asia
@@ -10197,144 +9225,79 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			if = {
-				limit = {
-					controls_state = 650
+			650 = {
+				#Fortify naval bases
+				add_building_construction = {
+					type = coastal_bunker
+					province = 13067
+					level = 2
+					instant_build = yes
 				}
-				650 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13067
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13067
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = naval_base
+					province = 13067
+					level = 2
+					instant_build = yes
 				}
 			}
-			if = {
-				limit = {
-					controls_state = 631
+			631 = {
+				#Fortify naval bases
+				add_building_construction = {
+					type = coastal_bunker
+					province = 13052
+					level = 2
+					instant_build = yes
 				}
-				631 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13052
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13052
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = naval_base
+					province = 13052
+					level = 2
+					instant_build = yes
 				}
 			}
-			if = {
-				limit = {
-					controls_state = 630
+			632 = {
+				#Fortify naval bases
+				add_building_construction = {
+					type = coastal_bunker
+					province = 13047
+					level = 2
+					instant_build = yes
 				}
-				630 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13051
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13051
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = naval_base
+					province = 13047
+					level = 2
+					instant_build = yes
 				}
 			}
-			if = {
-				limit = {
-					controls_state = 632
+			638 = {
+				#Fortify naval bases
+				add_building_construction = {
+					type = coastal_bunker
+					province = 12140
+					level = 2
+					instant_build = yes
 				}
-				632 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13047
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13047
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = naval_base
+					province = 12140
+					level = 2
+					instant_build = yes
 				}
 			}
-			if = {
-				limit = {
-					controls_state = 638
+			642 = {
+				#Fortify naval bases
+				add_building_construction = {
+					type = coastal_bunker
+					province = 13050
+					level = 2
+					instant_build = yes
 				}
-				638 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 12140
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 12140
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			if = {
-				limit = {
-					controls_state = 642
-				}
-				642 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13050
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13050
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			if = {
-				limit = {
-					controls_state = 1088
-				}
-				1088 = {
-					#Fortify naval bases
-					add_building_construction = {
-						type = coastal_bunker
-						province = 13080
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						province = 13080
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = naval_base
+					province = 13050
+					level = 2
+					instant_build = yes
 				}
 			}
 		}
@@ -10482,7 +9445,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_mobilize_the_railways
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_CAN_railways
 		x = -14
 		y = 1
 		prerequisite = { focus = USA_war_department }
@@ -10951,25 +9914,12 @@ focus_tree = {
 				category = para_tech
 				category = transport_plane_tech
 			}
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 1
-					category = cat_paratroopers_doctrine
-				}
+			add_tech_bonus = {
+				name = USA_airborne_divisions
+				bonus = 1.0
+				uses = 1
+				category = r56_special_forces_training_tech 
 			}
-			else = {
-				add_tech_bonus = {
-					name = special_forces_bonus
-					bonus = 0.5
-					uses = 1
-					category = r56_special_forces_training_tech 
-				}	
-			}	
-
 			add_ideas = USA_airborne_divisions
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = USA_james_gavin_token		
@@ -11020,7 +9970,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_womens_armed_service_integration_act
-		icon = GFX_goal_womens_rights
+		icon = GFX_goal_womens_rights2
 		x = 0
 		y = 1
 		prerequisite = { focus = USA_army_of_the_united_states }
@@ -11306,7 +10256,7 @@ focus_tree = {
 				}
 				else_if = {
 					limit = {
-						has_tech = cavity_magnatron
+						has_tech = decimetric_radar
 					}
 					create_equipment_variant = {
 						name = "M3 Lee"
@@ -11407,7 +10357,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M4 Sherman"
@@ -11506,7 +10456,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M4 Sherman"
@@ -11602,7 +10552,7 @@ focus_tree = {
 				}
 				else_if = {
 					limit = {
-						has_tech = cavity_magnatron
+						has_tech = decimetric_radar
 					}
 					create_equipment_variant = {
 						name = "M6 Heavy Tank"
@@ -11664,10 +10614,6 @@ focus_tree = {
 						}
 						icon = "gfx/interface/technologies/USA_basic_heavy_tank.dds"
 					}
-				}
-				add_breakthrough_progress = {
-					specialization = specialization_land
-					value = 0.5
 				}
 			}
 		}
@@ -11764,7 +10710,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M10 Wolverine"
@@ -11863,7 +10809,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M10 Wolverine"
@@ -11966,7 +10912,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M18 Hellcat"
@@ -12065,7 +11011,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M18 Hellcat"
@@ -12210,7 +11156,7 @@ focus_tree = {
 				}
 				else_if = {
 					limit = {
-						has_tech = cavity_magnatron
+						has_tech = decimetric_radar
 					}
 					create_equipment_variant = {
 						name = "T20 M27"
@@ -12347,7 +11293,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = cavity_magnatron
+							has_tech = decimetric_radar
 						}
 						create_equipment_variant = {
 							name = "M24 Chaffee"
@@ -12944,16 +11890,16 @@ focus_tree = {
 					category = medium_air
 				}
 				create_equipment_variant = {
-					name = "P-38 Lightning" 
-					type = medium_plane_fighter_airframe_1
-					parent_version = 0
+					name = "P-38 Lightning" # Why not?
+					type = medium_plane_airframe_1
 					modules = {
 						fixed_main_weapon_slot = heavy_mg_4x
 						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
 						engine_type_slot = engine_2_2x
 						special_type_slot_1 = empty
 					}
-					icon = "GFX_USA_heavy_fighter1_medium"
+					obsolete = yes
+					icon = "GFX_USA_CAS1_medium"
 				}
 			}
 			else = {
@@ -12999,13 +11945,6 @@ focus_tree = {
 				uses = 3
 				category = jet_technology
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.75
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = r56_generic_jet_idea
 		}
 	}
 
@@ -13551,11 +12490,7 @@ focus_tree = {
 				bonus = 1.0
 				category = radar_tech
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_naval
-				value = 0.75
-			}
+			
 		}
 	}
 
@@ -13624,14 +12559,10 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_bureau_of_ships }
 		relative_position_id = USA_bureau_of_ships
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			is_special_project_completed = sp:sp_naval_cruiser_submarine
 		}
 
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -13642,21 +12573,12 @@ focus_tree = {
 				uses = 2
 				category = ss_tech
 			}
-
-			add_breakthrough_progress = {
-				specialization = specialization_naval
-				value = 0.25
-			}
-
-			IF = {
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
-				add_ideas = fleet_submarine_specialization_mtg
+				set_technology = { cruiser_submarines = 1 }
 			}
-			ELSE = {
-				add_ideas = fleet_submarine_specialization
-			}	
 		}
 	}
 

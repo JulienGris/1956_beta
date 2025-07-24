@@ -101,4 +101,3 @@ recruit_character = WHY_aerodil
 recruit_character = WHY_macrov
 recruit_character = WHY_skullcrusher
 recruit_character = WHY_admiral_caon
-recruit_character = WHY_great_alfie	#recruited but invisible

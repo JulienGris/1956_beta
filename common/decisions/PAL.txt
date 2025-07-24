@@ -10,7 +10,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
 				controls_state = 676
@@ -122,7 +121,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			controls_state = 554
 			controls_state = 553
 			controls_state = 677
@@ -198,7 +196,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			controls_state = 455
 			controls_state = 1022
 			controls_state = 1021
@@ -257,7 +254,6 @@ PAL_reforming_the_caliphate_category = {
 			original_tag = PAL
 		}
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			controls_state = 854
 			controls_state = 857
 			controls_state = 859
@@ -301,7 +297,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			custom_trigger_tooltip = {
 				tooltip = AFG_control_arabia_state
 				controls_state = 292
@@ -318,8 +313,6 @@ PAL_reforming_the_caliphate_category = {
 				controls_state = 659
 				controls_state = 293
 				controls_state = 294
-				controls_state = 1102
-				controls_state = 1103
 				controls_state = 979
 				controls_state = 765
 				controls_state = 1007
@@ -382,14 +375,6 @@ PAL_reforming_the_caliphate_category = {
 					compliance > 40
 					resistance < 25
 				}
-				1102 = {
-					compliance > 40
-					resistance < 25
-				}
-				1103 = {
-					compliance > 40
-					resistance < 25
-				}
 				979 = {
 					compliance > 40
 					resistance < 25
@@ -440,8 +425,6 @@ PAL_reforming_the_caliphate_category = {
 				state = 659
 				state = 293
 				state = 294
-				state = 1102
-				state = 1103
 				state = 979
 				state = 765
 				state = 1007
@@ -474,8 +457,6 @@ PAL_reforming_the_caliphate_category = {
 						state = 659
 						state = 293
 						state = 294
-						state = 1102
-						state = 1103
 						state = 979
 						state = 765
 						state = 1007
@@ -501,7 +482,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			custom_trigger_tooltip = {
 				tooltip = AFG_controls_egypt_state
 				controls_state = 995
@@ -616,7 +596,6 @@ PAL_reforming_the_caliphate_category = {
 		}
 
 		available = {
-			NOT = { has_idea = generic_recent_political_unification }
 			custom_trigger_tooltip = {
 				tooltip = AFG_controls_libya_state
 				controls_state = 273
@@ -986,8 +965,6 @@ PAL_integration_of_arab_states = {
 				controls_state = 659
 				controls_state = 293
 				controls_state = 294
-				controls_state = 1102
-				controls_state = 1103
 				controls_state = 979
 				controls_state = 765
 				controls_state = 1007
@@ -1050,14 +1027,6 @@ PAL_integration_of_arab_states = {
 					compliance > 40
 					resistance < 25
 				}
-				1102 = {
-					compliance > 40
-					resistance < 25
-				}
-				1103 = {
-					compliance > 40
-					resistance < 25
-				}
 				979 = {
 					compliance > 40
 					resistance < 25
@@ -1108,8 +1077,6 @@ PAL_integration_of_arab_states = {
 				state = 659
 				state = 293
 				state = 294
-				state = 1102
-				state = 1103
 				state = 979
 				state = 765
 				state = 1007
@@ -1142,8 +1109,6 @@ PAL_integration_of_arab_states = {
 						state = 659
 						state = 293
 						state = 294
-						state = 1102
-						state = 1103
 						state = 979
 						state = 765
 						state = 1007
@@ -3908,9 +3873,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_lower_arabia_raids
-			NOT = {
-				controls_state = 659
-			}
 		}
 		days_remove = 30	
 		available = {
@@ -3919,14 +3881,14 @@ PAL_border_conflicts = {
 				has_war_with = 659.controller
 				controls_state = 659
             }
-			controls_state = 678
+			controls_state = 858
 		}
 		
 		fire_only_once = yes
 
 		cost = 50
 		complete_effect = {
-			678 = {
+			858 = {
                 save_event_target_as = MPL_borderwar_attacker
             }
             659 = {
@@ -3942,7 +3904,7 @@ PAL_border_conflicts = {
 		remove_effect = {				 
 			clear_global_event_target = MPL_borderwar_attacker
             clear_global_event_target = MPL_borderwar_defender
-            678 = {
+            858 = {
                 save_global_event_target_as = MPL_borderwar_attacker
             }
             659 = {
@@ -3955,7 +3917,59 @@ PAL_border_conflicts = {
 			factor = 50
 		}
 	}
+	PAL_raid_oman = {
 
+		icon = eng_support_imperialist_coup
+
+		allowed = {
+			original_tag = PAL
+		}
+		visible = {
+			has_country_flag = PAL_lower_arabia_raids
+		}
+		days_remove = 30
+		available = {
+			NOT = {
+                has_global_flag = MPL_no_border_war
+				has_war_with = 294.controller
+				controls_state = 294
+            }
+			controls_state = 678
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+		complete_effect = {
+			678 = {
+                save_event_target_as = MPL_borderwar_attacker
+            }
+            294 = {
+                save_event_target_as = MPL_borderwar_defender
+            }
+            294 = {
+                controller = {
+                    country_event = mandate_palestine.114
+                }
+            }
+			set_global_flag = MPL_no_border_war
+		}
+		remove_effect = {				 
+			clear_global_event_target = MPL_borderwar_attacker
+            clear_global_event_target = MPL_borderwar_defender
+            678 = {
+                save_global_event_target_as = MPL_borderwar_attacker
+            }
+            294 = {
+                save_global_event_target_as = MPL_borderwar_defender
+            }
+            custom_effect_tooltip = MPL_selection_lebanon_event
+            MPL_border_war_states = yes
+		}			
+		ai_will_do = { 
+			factor = 50
+		}
+	}
 	PAL_raid_uae = {
 
 		icon = eng_support_imperialist_coup
@@ -3965,9 +3979,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_lower_arabia_raids
-			NOT = {
-				controls_state = 658
-			}
 		}
 		days_remove = 30
 		available = {
@@ -3976,14 +3987,14 @@ PAL_border_conflicts = {
 				has_war_with = 658.controller
 				controls_state = 658
             }
-			controls_state = 858
+			controls_state = 678
 		}
 		
 		fire_only_once = yes
 
 		cost = 50
 		complete_effect = {
-			858 = {
+			678 = {
                 save_event_target_as = MPL_borderwar_attacker
             }
             658 = {
@@ -3999,7 +4010,7 @@ PAL_border_conflicts = {
 		remove_effect = {				 
 			clear_global_event_target = MPL_borderwar_attacker
             clear_global_event_target = MPL_borderwar_defender
-            858 = {
+            678 = {
                 save_global_event_target_as = MPL_borderwar_attacker
             }
             658 = {
@@ -4021,9 +4032,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_lower_arabia_raids
-			NOT = {
-				controls_state = 765
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4032,14 +4040,14 @@ PAL_border_conflicts = {
 				has_war_with = 765.controller
 				controls_state = 765
             }
-			controls_state = 858
+			controls_state = 859
 		}
 		
 		fire_only_once = yes
 
 		cost = 50
 		complete_effect = {
-			858 = {
+			859 = {
                 save_event_target_as = MPL_borderwar_attacker
             }
             765 = {
@@ -4055,7 +4063,7 @@ PAL_border_conflicts = {
 		remove_effect = {				 
 			clear_global_event_target = MPL_borderwar_attacker
             clear_global_event_target = MPL_borderwar_defender
-            858 = {
+            859 = {
                 save_global_event_target_as = MPL_borderwar_attacker
             }
             765 = {
@@ -4077,9 +4085,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_lower_arabia_raids
-			NOT = {
-				controls_state = 293
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4133,9 +4138,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_lower_arabia_raids
-			NOT = {
-				controls_state = 656
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4215,9 +4217,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_syria_raids
-			NOT = {
-				controls_state = 553
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4271,9 +4270,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_syria_raids
-			NOT = {
-				controls_state = 554
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4327,9 +4323,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_syria_raids
-			NOT = {
-				controls_state = 680
-			}
 		}
 		days_remove = 30
 		available = {
@@ -4383,9 +4376,6 @@ PAL_border_conflicts = {
 		}
 		visible = {
 			has_country_flag = PAL_syria_raids
-			NOT = {
-				controls_state = 677
-			}
 		}
 		days_remove = 30
 		available = {

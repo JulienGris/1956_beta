@@ -66,8 +66,7 @@ characters={
 		name="Alvaro Casali"
 		portraits={
 			civilian={
-				large = GFX_kr_portrait_europe_generic_15
-				small = GFX_kr_portrait_europe_generic_15_small
+				large="gfx/leaders/r56_generic/r56_portrait_generic_europe_augustyn_czartoryski.dds"
 			}
 		}
 		country_leader={
@@ -94,7 +93,7 @@ characters={
 			slot = political_advisor
 			idea_token = SAN_giuseppe_forcellini
 			allowed = {
-				original_tag = SAN
+				original_tag = LIE
 			}
 			available = {
 				if  = {
@@ -126,7 +125,7 @@ characters={
 			slot = political_advisor
 			idea_token = SAN_adriano_reffi
 			allowed = {
-				original_tag = SAN
+				original_tag = LIE
 			}
 			available = {
 				if  = {

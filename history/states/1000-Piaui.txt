@@ -2,7 +2,7 @@
 state={
 	id=1000
 	name="STATE_1000" # Piauí
-	manpower = 618106
+	manpower = 817601
 	
 	state_category = town
 

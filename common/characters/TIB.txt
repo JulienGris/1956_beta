@@ -385,7 +385,7 @@ characters={
 					}
 				}
 			}
-			traits = { AFG_progressive_maoist }
+			traits = { progressive_maoist }
 			ai_will_do = {
 				factor = 0
 			}

@@ -19,11 +19,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -92,11 +93,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -165,11 +167,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -239,11 +242,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -313,11 +317,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -390,11 +395,12 @@ YUG_peasant_uprisings = {
 						has_idea = agitated_peasants
 					}
 				}
-				country_exists = event_target:YUG_communist_coup_target
+				event_target:YUG_communist_coup_target = { exists = yes }
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -456,9 +462,6 @@ YUG_peasant_uprisings = {
 		}
 
 		available = {
-			hidden_trigger = {
-				country_exists = event_target:YUG_communist_coup_target
-			}
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -470,6 +473,7 @@ YUG_peasant_uprisings = {
 		}
 		
 		visible = {
+			original_tag = YUG
 			event_target:YUG_communist_coup_target = {
 				exists = yes
 				NOT = {
@@ -529,9 +533,6 @@ YUG_peasant_uprisings = {
 		}
 
 		available = {
-			hidden_trigger = {
-				country_exists = event_target:YUG_communist_coup_target
-			}
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					OR = {
@@ -544,8 +545,9 @@ YUG_peasant_uprisings = {
 		}
 		
 		visible = {
-			country_exists = event_target:YUG_communist_coup_target
+			original_tag = YUG
 			event_target:YUG_communist_coup_target = {
+				exists = yes
 				NOT = {
 					OR = {
 						has_government = communism
@@ -607,7 +609,6 @@ YUG_peasant_uprisings = {
 		}
 
 		available = {
-			country_exists = event_target:YUG_communist_coup_target
 			NOT = {
 				event_target:YUG_communist_coup_target = {
 					has_government = communism
@@ -619,8 +620,9 @@ YUG_peasant_uprisings = {
 		}
 		
 		visible = {
-			country_exists = event_target:YUG_communist_coup_target
+			original_tag = YUG
 			event_target:YUG_communist_coup_target = {
+				exists = yes
 				OR = {
 					has_idea = armed_communist_militants
 					communism > 0.5
@@ -681,20 +683,19 @@ YUG_peasant_uprisings = {
 		}
 
 		available = {
-			OR = {
-				NOT = { country_exists = event_target:YUG_communist_coup_target }
-				event_target:YUG_communist_coup_target = {
-					OR = {
-						has_government = communism
-						has_war_with = ROOT
-						is_puppet_of = ROOT
-						communism < 0.1
-					}
+			event_target:YUG_communist_coup_target = {
+				OR = {
+					has_government = communism
+					exists = no
+					has_war_with = ROOT
+					is_puppet_of = ROOT
+					communism < 0.1
 				}
 			}
 		}
 		
 		visible = {
+			original_tag = YUG
 			event_target:YUG_communist_coup_target = {
 				OR = {
 					has_government = communism
@@ -711,6 +712,7 @@ YUG_peasant_uprisings = {
 					}
 				}
 			}
+			
 		}
 
 		cost = 0
@@ -739,7 +741,6 @@ YUG_peasant_uprisings = {
 				factor = 0
 			}
 		}
-
 	}
 }
 
@@ -812,9 +813,11 @@ YUG_crush_ustasa = {
 						fascism = 75
 						communism = 10
 					}
-					promote_character = {
-						character = CRO_nikola_mandic
-						ideology = fascism_ideology 
+					create_country_leader = {
+						name = "Nikola Mandic"
+						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+						expire = "1965.1.1"
+						ideology = fascism_ideology
 					}
 					set_temp_variable = { croatia_var = this }
 				}
@@ -892,7 +895,7 @@ YUG_delay_ustasa_uprising = {
 
 	YUG_croat_concessions = {
 
-		icon = concessions
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG
@@ -946,7 +949,7 @@ YUG_delay_ustasa_uprising = {
 	
 	YUG_positive_discrimination_croat = {
 
-		icon = generic_political_address
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG
@@ -1164,7 +1167,7 @@ YUG_progress_crushing_decisions = {
 
 	YUG_raid_croat_villages = {
 
-		icon = generic_police_action
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG
@@ -1222,7 +1225,7 @@ YUG_progress_crushing_decisions = {
 
 	YUG_shut_down_recruitment_centers = {
 
-		icon = generic_secret_service
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG
@@ -1281,7 +1284,7 @@ YUG_progress_crushing_decisions = {
 
 	YUG_arrest_ustasa_leaders = {
 
-		icon = generic_arrest
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG
@@ -1341,7 +1344,7 @@ YUG_progress_crushing_decisions = {
 
 	YUG_croatian_recruitment = {
 
-		icon = r56_decision_soldiers_icon
+		icon = eng_propaganda_campaigns
 
 		allowed = {
 			tag = YUG

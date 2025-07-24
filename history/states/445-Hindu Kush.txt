@@ -1,3 +1,4 @@
+
 state={
 	id=445
 	name="STATE_445" # Quetta
@@ -17,6 +18,7 @@ state={
 			air_base = 4
 		}
 		add_core_of = PAK
+		add_core_of = RAJ
 	}
 
 	provinces={

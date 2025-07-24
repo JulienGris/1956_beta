@@ -3077,7 +3077,7 @@ focus_tree = {
                     region = 132
 				}
                 custom_trigger_tooltip = {
-					tooltip = SWE_russian_leningrad_area_tt
+					tooltip = swe_russian_leningrad_area_tt
                     NOT = { is_controlled_by_ROOT_or_ally = yes }
                 }
             }
@@ -3087,7 +3087,7 @@ focus_tree = {
             all_state = {
                 OR = {
                     NOT = {
-                        custom_trigger_tooltip = { tooltip = SWE_russian_leningrad_area_tt }
+                        custom_trigger_tooltip = { tooltip = swe_russian_leningrad_area_tt }
                     }
                     is_controlled_by_ROOT_or_ally = yes
                 }
@@ -4985,7 +4985,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			is_special_project_completed = sp:sp_air_radar
+			has_tech = radio_detection
 			num_of_controlled_states > 2
 		}
 
@@ -5217,7 +5217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_lottorna
-		icon = GFX_goal_womens_rights
+		icon = GFX_goal_womens_rights2
 		prerequisite = { focus = SWE_rationing_r56 }
 		relative_position_id = SWE_rationing_r56
 		x = -1
@@ -5285,29 +5285,11 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-			IF = {
-				limit = {
-					NOT = {
-						has_tech = atomic_research
-					}
-				}
-				add_tech_bonus = {
-					name = SWE_the_swedish_nuclear_program
-					bonus = 1.0
-					uses = 1
-					category = nuclear
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.5
-				}
-			}
-			ELSE = {
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.8
-				}
+			add_tech_bonus = {
+				name = SWE_the_swedish_nuclear_program
+				bonus = 1
+				uses = 1
+				category = nuclear
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
@@ -6736,7 +6718,7 @@ focus_tree = {
 	}		
 	focus = {
 		id = SWE_modern_command_structure
-		icon = GFX_goal_wargaming
+		icon = GFX_goal_CAN_WCMC
 		prerequisite = { focus = SWE_winter_equipment }
 		relative_position_id = SWE_winter_equipment
 		x = -1
@@ -7093,13 +7075,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			# add_tech_bonus = {
-			# 	name = SWE_the_flying_barrel
-			# 	bonus = 1
-			# 	uses = 1
-			# 	technology  = rocket_engines 	#if I understand correctly, this tech is hidden now its a special project
-			# }
-			custom_effect_tooltip = generic_skip_one_line_tt
+			add_tech_bonus = {
+				name = SWE_the_flying_barrel
+				bonus = 1
+				uses = 1
+				technology  = rocket_engines 
+			}
 			add_tech_bonus = {
 				name = SWE_the_flying_barrel
 				bonus = 1
@@ -7107,15 +7088,7 @@ focus_tree = {
 				ahead_reduction = 1
 				technology  = jet_engines 
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
 			SWE_add_saab_tunnan_templates = yes
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.50
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = r56_generic_jet_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 	}
@@ -7137,18 +7110,17 @@ focus_tree = {
 		
 		completion_reward = {
 			add_tech_bonus = {
-				name = jet_rocket_bonus
+				name = SWE_rocket_propulsion
 				bonus = 1
-				uses = 2
-				category = rocketry
+				uses = 1
+				technology  = experimental_rockets
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.75
+			add_tech_bonus = {
+				name = SWE_rocket_propulsion
+				bonus = 1
+				uses = 1
+				technology  = rocket_engines
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = r56_generic_rocket_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}		

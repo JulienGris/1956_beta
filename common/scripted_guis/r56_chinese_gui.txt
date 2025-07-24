@@ -11,12 +11,10 @@ scripted_gui = {
 			r56_chinese_gui_flag = {
 				image = "[?chi_selected_warlord.GetFlag]"
 			}
-
 			r56_chinese_gui_capital_cpc = {
 				x = global.cpccapitalx
 				y = global.cpccapitaly
 			}
-			
 			r56_chinese_gui_capital_kmt = {
 				x = global.kmtcapitalx
 				y = global.kmtcapitaly

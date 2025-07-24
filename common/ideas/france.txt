@@ -118,7 +118,10 @@ ideas = {
 			picture = SOV_scientist_defect
 
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 
 			modifier = {
@@ -142,7 +145,10 @@ ideas = {
 			picture = SOV_scientist_defect
 
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 			
 			modifier = {
@@ -250,7 +256,10 @@ ideas = {
 			picture = ast_classify_aliens
 
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 				has_government = fascism
 			}
 
@@ -391,7 +400,10 @@ ideas = {
 			picture = generic_communism_drift_bonus
 
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 
 			modifier = {
@@ -644,7 +656,7 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory =  0.15
-				political_power_factor = 0.15
+				political_power_factor = 0.3
 			}
 		}
 		
@@ -656,7 +668,7 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory =  0.12
-				political_power_factor = 0.12
+				political_power_factor = 0.2
 			}
 		}
 		
@@ -667,7 +679,7 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = 0.10
+				industrial_capacity_factory = 0.09
 				political_power_factor = 0.1
 			}
 		}
@@ -679,8 +691,7 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory =  0.05
-				political_power_factor = 0.05
+				industrial_capacity_factory =  0.06
 			}
 		}
 		
@@ -692,7 +703,7 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory =  0.03
-				political_power_factor = 0.03
+				political_power_cost = 0.1
 			}
 		}
 		
@@ -703,8 +714,7 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory =  0.02
-				political_power_factor = 0.02
+				political_power_cost = 0.2
 			}
 		}
 		
@@ -715,8 +725,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory =  0.01
-				political_power_factor = 0.01
+				industrial_capacity_factory =  -0.05
+				political_power_cost = 0.3
 			}
 		}
 		
@@ -727,8 +737,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory =  -0.05
-				political_power_factor = -0.05
+				industrial_capacity_factory =  -0.10
+				political_power_cost = 0.4
 			}
 		}
 		
@@ -739,8 +749,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory =  -0.10
-				political_power_factor = -0.10
+				industrial_capacity_factory = -0.15
+				political_power_cost = 0.5
 			}
 		}
 		
@@ -1106,7 +1116,10 @@ ideas = {
 					}
 				}
 				cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 				modifier = {
 					neutrality_drift = 0.1
@@ -1548,7 +1561,10 @@ ideas = {
 				}
 
 				cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 
 				modifier = {
@@ -1637,7 +1653,10 @@ ideas = {
 					}
 				}
 				cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 				modifier = {
 					fascism_drift = 0.1
@@ -1664,7 +1683,10 @@ ideas = {
 				}
 			}
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 			modifier = {
 				neutrality_drift = 0.1
@@ -1691,8 +1713,11 @@ ideas = {
 				}
 			}
 			cancel = {
+			OR = {
 				is_subject = yes
+				is_puppet = yes
 			}
+		}
 			modifier = {
 				fascism_drift = 0.05
 				political_power_factor = 0.1
@@ -1764,7 +1789,10 @@ ideas = {
 			}
 
 			cancel = {
-				is_subject = yes
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
 			}
 
 			modifier = {
@@ -4076,26 +4104,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}			
-		}
-		FRA_sncf_company = {
-			name = FRA_sncf_company
-			picture = generic_electronics_concern_2
-
-			allowed = {
-				original_tag = FRA
-			}
-
-			available = {
-				has_completed_focus = FRA_sncf
-			}
-
-			research_bonus = {
-				train_tech = 0.2
-			}
-			cost = 150
-			traits = { railway_company }
-
-		}
+		}		
 		
 	}
 	

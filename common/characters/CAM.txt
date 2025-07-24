@@ -3,7 +3,7 @@ characters={
 		name = CAM_tou_samouth
 		portraits={
 			civilian={
-				large = "GFX_portrait_cambodia_tou_samouth"
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 			}
 		}
 		country_leader={
@@ -25,30 +25,16 @@ characters={
 			id=-1
 		}
 	}
-	CAM_poc_khun={
-		name="Poc Khun"
-		portraits={
-			civilian={
-				large = GFX_kr_portrait_asia_generic_land_5
-				small = GFX_kr_portrait_asia_generic_land_5_small
-			}
-		}
-		country_leader={
-			ideology=ultranationalism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	CAM_sisowath_monivong={
-		name="Sisowath Monivong"
+		name = CAM_sisowath_monivong
 		portraits={
 			civilian={
-				large = "GFX_portrait_cambodia_sisowath_monivong"
+				large = "gfx/leaders/CAM/r56_portrait_CAM_Sisowath_Monivong.dds"
 			}
 		}
 		country_leader={
 			ideology=constitutional_monarchy
-			expire="1941.4.24"
+			expire="1965.1.1.1"
 			id=-1
 		}
 		field_marshal = {
@@ -60,25 +46,24 @@ characters={
 			logistics_skill = 1
 		}
 	}
-	CAM_norodom_sihanouk={
-		name="Norodom Sihanouk"
+	CAM_son_ngoc_thanh={
+		name = CAM_son_ngoc_thanh
 		portraits={
 			civilian={
-				large = "GFX_portrait_cambodia_norodom_sihanouk"
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
 		country_leader={
-			ideology=constitutional_monarchy
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
 	CAM_dap_chhuon={
-		name="Dap Chhuon"
+		name = CAM_dap_chhuon
 		portraits={
 			army={
-				large = GFX_kr_portrait_asia_generic_land_5
-				small = GFX_kr_portrait_asia_generic_land_5_small
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 			}
 		}
 		corps_commander = {

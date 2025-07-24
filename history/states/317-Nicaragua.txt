@@ -12,7 +12,9 @@ state={
 			air_base = 1
 			12738 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = NIC
 		victory_points = {
@@ -21,6 +23,7 @@ state={
 		victory_points = {
 			10728 1
 		}
+
 	}
 
 	provinces={

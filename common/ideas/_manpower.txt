@@ -50,58 +50,18 @@ ideas = {
 					}
 					NOT = { has_idea = BHU_no_army }
 				}
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
 					}
 				}
 				if = { 
@@ -128,6 +88,21 @@ ideas = {
 					 	original_tag = CAN
 					 }
 					has_completed_focus = r56_CAN_conscription_crisis
+				}
+				if = {
+					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
 				}
 				#if = { 
 				#	limit = {
@@ -250,61 +225,20 @@ ideas = {
 					}
 				}
 				
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
-
 				if = {
 					limit = {
 						original_tag = ENG
@@ -338,6 +272,20 @@ ideas = {
 					 	original_tag = QBC
 					}
 					has_completed_focus = QBC_a_standing_army
+				if = {
+					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
 				}
 				if = {
 					limit = {
@@ -360,6 +308,7 @@ ideas = {
 					}
 				}
 			}
+		}
 		
 
 
@@ -479,58 +428,18 @@ ideas = {
 						}
 					}
 				}
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
 					}
 				}
 				if = {
@@ -598,6 +507,22 @@ ideas = {
 				}
 				if = {
 					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
+				}
+				
+				if = {
+					limit = {
 						original_tag = MPL
 						has_idea = MPL_mandate
 					}
@@ -624,7 +549,7 @@ ideas = {
 					factor = 0
 					NOT = { tag = CHI }
 					NOT = { tag = SOV }
-					#NOT = { tag = GER }
+					NOT = { tag = GER }
 					manpower_per_military_factory >  3000
 				}
 
@@ -643,10 +568,10 @@ ideas = {
 				}
 
 				modifier = { # germany needs this before russia, badly
-					factor = 50
+					factor = 75
 
 					original_tag = GER
-					has_manpower < 450000
+					has_manpower < 2000000
 				}
 			}
 			
@@ -738,61 +663,20 @@ ideas = {
 					}
 				}
 
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
-
 				if = {
 					limit = {
 						original_tag = ENG
@@ -854,6 +738,20 @@ ideas = {
 					 	original_tag = QBC
 					}
 					has_completed_focus = QBC_a_standing_army
+				if = {
+					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
 				}
 				if = {
 					limit = {
@@ -865,6 +763,7 @@ ideas = {
 					}
 				}
 			}
+		}
 
 
 			ai_will_do = {
@@ -992,62 +891,20 @@ ideas = {
 						}
 					}
 				}
-
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
-
 				if = {
 					limit = {
 						original_tag = SWE
@@ -1110,6 +967,21 @@ ideas = {
 						original_tag = MON
 					}
 					NOT = { has_completed_focus = MON_changes_within }
+				}
+				if = {
+					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
 				}
 				if = {
 					limit = {
@@ -1246,61 +1118,20 @@ ideas = {
 					always = no
 				}
 
-				IF = {
+				if = {
 					limit = {
 						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
 					}
-					IF = {
+					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
-					ELSE = {
+					else = {
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
-				
 				if = {
 					limit = {
 						original_tag = SWE
@@ -1362,6 +1193,21 @@ ideas = {
 						original_tag = MON
 					}
 					NOT = { has_completed_focus = MON_changes_within }
+				}
+				if = {
+					limit = {
+						original_tag = GER
+						OR = {
+							has_idea = GER_treaty_of_versailles
+							has_idea = GER_treaty_of_versailles_2
+							has_idea = GER_treaty_of_versailles_3
+						}
+					}
+					NOT = {
+						has_idea = GER_treaty_of_versailles
+						has_idea = GER_treaty_of_versailles_2
+						has_idea = GER_treaty_of_versailles_3
+					}
 				}
 				if = {
 					limit = {

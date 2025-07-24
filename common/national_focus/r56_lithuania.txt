@@ -334,25 +334,12 @@ focus = {
 			category = r56_paratroops_infantry_tech	
 			category = r56_shock_infantry_tech
 		}
-
-		if = {
-            limit = {
-				has_dlc = "Arms Against Tyranny"
-            }
-            add_doctrine_cost_reduction = {
-				cost_reduction = 0.5
-            	uses = 1
-            	category = special_forces_doctrine
-            }
-        }
-        else = {
-        	add_tech_bonus = {
-            	name = special_forces_bonus
-                bonus = 1.0
-                uses = 1
-            	category = r56_special_forces_training_tech 
-            }
-		}
+		add_tech_bonus = {
+			name = special_forces_bonus
+			bonus = 1.0
+			uses = 1
+			category = r56_special_forces_training_tech 
+		}		
 		hidden_effect = {
 			set_country_flag = cite_an_airborne_unit_flag
 		}
@@ -899,8 +886,11 @@ focus = {
 		}
 
 		available = {
-			has_war = yes
 		}
+
+		
+		
+		
 
 		completion_reward = {
 			add_stability = -0.1
@@ -3161,19 +3151,11 @@ focus = {
 
 	completion_reward = {
 		add_tech_bonus = {
-			name = jet_rocket_bonus 
-			bonus = 0.50
-			uses = 2
+			name = GER_rocketry_focus
+			bonus = 1
+			uses = 1
 			category = rocketry
-			category = jet_technology
 		}
-		custom_effect_tooltip = generic_skip_one_line_tt
-		add_breakthrough_progress = {
-			specialization = specialization_air
-			value = 0.50
-		}
-		custom_effect_tooltip = generic_skip_one_line_tt
-		add_ideas = r56_generic_rocket_idea
 	}
 	search_filters = { FOCUS_FILTER_RESEARCH }
 }
@@ -3472,13 +3454,6 @@ focus = {
 		mutually_exclusive = { focus = LIT_voldemarininkai_coup }
 		mutually_exclusive = { focus = LIT_solicit_ratikiss_support }
 		mutually_exclusive = { focus = LIT_lcp_resurgence }
-		available = {
-			hidden_trigger = {
-				NOT = {
-					has_completed_focus = LIT_voldemarininkai_coup
-				}
-			}
-		}
 		ai_will_do = {
 			factor = 10
 		}
@@ -4161,13 +4136,11 @@ focus = {
 			has_idea = LIT_kazys_skirpa
 		}
 		completion_reward = {
-			add_country_leader_role  = {
-				character = LIT_kazys_skirpa
-			    promote_leader = yes
-			    country_leader = {
-			        ideology = military_junta
-			        expire = "1965.1.1.1"
-			    }
+			create_country_leader = {
+				name = "Kazys Škirpa"
+				picture = "gfx/leaders/LIT/r56_portrait_LIT_Kazys_Skirpa.dds"
+				expire = "1965.1.1"
+				ideology = despotism
 			}
 			set_party_name = { 
 				ideology = neutrality
@@ -4266,9 +4239,9 @@ focus = {
 		id = LIT_form_the_lithuanian_security_police
 		icon = GFX_goal_LIT_intelligence_agency
 		relative_position_id = LIT_reform_the_iron_wolf
-		x = -1
+		x = 0
 		y = 1
-		cost = 8
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = LIT_reform_the_iron_wolf }
 		ai_will_do = {
@@ -4716,7 +4689,7 @@ focus = {
 		completion_reward = { 
 			#add_ideas = LIT_german_lithuanian_credit_agreement_idea
 			add_timed_idea = {
-				idea = URG_axis_loans_idea
+				idea = URG_axis_loans
 				days = 365
 			}
 		}
@@ -4865,7 +4838,7 @@ focus = {
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = LIT_militarise_the_iron_wolf focus = LIT_join_central_powers }
+		prerequisite = { focus = LIT_militarise_the_iron_wolf }
 		ai_will_do = {
 			factor = 1
 		}
@@ -4878,7 +4851,7 @@ focus = {
 	
 	focus = {
 		id = LIT_northern_intervention
-		icon = GFX_focus_GER_subduing_the_baltic_states
+		icon = GFX_goal_generic_anti_communism
 		relative_position_id = LIT_militarise_the_iron_wolf
 		x = -1
 		y = 2
@@ -5501,13 +5474,6 @@ focus = {
 		mutually_exclusive = { focus = LIT_lcp_resurgence }
 		ai_will_do = {
 			factor = 1
-		}
-		available = {
-			hidden_trigger = {
-				NOT = {
-					has_completed_focus = LIT_voldemarininkai_coup
-				}
-			}
 		}
 		completion_reward = {
 			add_ideas = LIT_enforced_martial_law
@@ -6136,7 +6102,7 @@ focus = {
 			custom_trigger_tooltip = {
 				tooltip = LIT_kings_party_sd_tt
 				check_variable = {
-					LIT_sd_seats < 10
+					LIT_cd_seats < 10
 				}
 			}
 		}
@@ -6222,7 +6188,7 @@ focus = {
 		relative_position_id = LIT_roman_recognition
 		x = -2
 		y = 1
-		cost = 8
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = LIT_royal_adress }
 		prerequisite = { focus = LIT_roman_recognition }
@@ -6540,7 +6506,7 @@ focus = {
 		}
 	}
 
-	#Focus for Propose a Baltic Union (Whats the purpose of this)
+	#Focus for Propose a Baltic Union
 	focus = {
 		id = LIT_propose_a_baltic_union
 		icon = GFX_rt56_goal_baltic_union
@@ -7295,7 +7261,7 @@ focus = {
 	#Focus to Join Allies
 	focus = {
 		id = LIT_join_allies
-		icon = GFX_allies
+		icon = GFX_focus_chi_british_cooperation
 		relative_position_id = LIT_draw_closer_to_sweden
 		x = 2
 		y = 1
@@ -7639,15 +7605,10 @@ focus = {
 		mutually_exclusive = { focus = LIT_voldemarininkai_coup }
 		mutually_exclusive = { focus = LIT_force_parties_to_reregister }
 		mutually_exclusive = { focus = LIT_solicit_ratikiss_support }
+		available = {
+		}
 		ai_will_do = {
 			factor = 1
-		}
-		available = {
-			hidden_trigger = {
-				NOT = {
-					has_completed_focus = LIT_voldemarininkai_coup
-				}
-			}
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -7918,6 +7879,7 @@ focus = {
 			factor = 1
 		}
 		available = {
+			has_civil_war = no
 			has_government = communism
 		}
 		completion_reward = {
@@ -7973,27 +7935,19 @@ focus = {
 		relative_position_id = LIT_launch_the_revolution
 		x = 0
 		y = 2
-		cost = 5
+		cost = 10
+		available_if_capitulated = yes
 		prerequisite = { focus = LIT_new_lithuania }
 		prerequisite = { focus = LIT_peoples_army }
 		ai_will_do = {
 			factor = 1
 		}
-		bypass = {
-		    OR = {
-				is_in_faction_with = SOV
-				is_subject_of = SOV
-			}
-		}
 		available = {
-			SOV	= {
-				exists = yes
-				is_faction_leader = yes
+			SOV = {
 				has_government = communism
-				has_capitulated = no
-				NOT = { has_war_with = ROOT }
+				is_in_faction = yes
 			}
-			has_government = communism
+			is_in_faction = no
 		}
 		completion_reward = {
 			SOV = { country_event = { id = generic.2 hours = 6 } }
@@ -8089,6 +8043,28 @@ focus = {
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
+	
+	focus = {
+		id = LIT_reintegrate_lit_minor #Konigsberg 763
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		relative_position_id = LIT_peoples_army
+		x = 0
+		y = 1
+		cost = 7.2
+		available_if_capitulated = yes
+		prerequisite = { focus = LIT_peoples_army } 
+		prerequisite = { focus = LIT_new_lithuania } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			controls_state = 763
+		}
+		completion_reward = {
+			add_state_core = 763
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+	}
 
 	#Spread the Revolution
 	focus = {
@@ -8110,35 +8086,16 @@ focus = {
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 	}
-	
-	focus = {
-		id = LIT_reintegrate_lit_minor
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		relative_position_id = LIT_spread_the_revolution
-		x = 0
-		y = 1
-		cost = 7.2
-		prerequisite = { focus = LIT_spread_the_revolution } 
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			controls_state = 763
-		}
-		completion_reward = {
-			add_state_core = 763
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
 
 	#Volunteers
 	focus = {
 		id = LIT_red_volunteers
 		icon = GFX_focus_GRE_red_victory
 		relative_position_id = LIT_spread_the_revolution
-		x = 4
+		x = 2
 		y = 1
 		cost = 5
+		available_if_capitulated = yes
 		prerequisite = { focus = LIT_spread_the_revolution }
 		ai_will_do = {
 			factor = 1
@@ -8154,26 +8111,19 @@ focus = {
 		id = LIT_red_latvia
 		icon = GFX_goal_generic_attack_latvia
 		relative_position_id = LIT_spread_the_revolution
-		x = -2
+		x = 0
 		y = 1
 		cost = 5
+		available_if_capitulated = yes
 		prerequisite = { focus = LIT_spread_the_revolution }
 		ai_will_do = {
 			factor = 1
 		}
 		bypass = {
 			owns_state = 190
-			owns_state = 809
-			owns_state = 808
-			owns_state = 810
 			owns_state = 12
 		}
 		completion_reward = {
-		    add_state_claim = 190
-			add_state_claim = 809
-			add_state_claim = 808
-			add_state_claim = 810
-			add_state_claim = 12
 			create_wargoal = {
 				type = annex_everything
 				target = LAT
@@ -8187,27 +8137,19 @@ focus = {
 		id = LIT_red_estonia
 		icon = GFX_goal_generic_attack_estonia
 		relative_position_id = LIT_spread_the_revolution
-		x = 2
-		y = 1
+		x = 0
+		y = 2
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = LIT_spread_the_revolution }
+		prerequisite = { focus = LIT_red_latvia }
 		ai_will_do = {
 			factor = 1
 		}
 		bypass = {
-			owns_state = 812
 			owns_state = 13
-			owns_state = 813
 			owns_state = 191
-			owns_state = 811
 		}
 		completion_reward = {
-			add_state_claim = 812
-			add_state_claim = 13
-			add_state_claim = 813
-			add_state_claim = 191
-			add_state_claim = 811
 			create_wargoal = {
 				type = annex_everything
 				target = EST
@@ -8220,11 +8162,10 @@ focus = {
 		id = LIT_unify_baltics_communist
 		icon = GFX_goal_LIT_communist_baltic_union
 		relative_position_id = LIT_red_estonia
-		x = -2
+		x = 0
 		y = 1
 		cost = 10
 		prerequisite = { focus = LIT_red_estonia }
-		prerequisite = { focus = LIT_red_latvia }
 		ai_will_do = {
 			factor = 1
 		}

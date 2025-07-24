@@ -1,4 +1,5 @@
 ARG_intervenciones_federales_decisions = {
+	
 	ARG_federal_intervention_in_state = {
 
 		icon = GFX_decision_eng_trade_unions_demand

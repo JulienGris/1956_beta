@@ -3,8 +3,7 @@ characters={
 		name="Nanayakkarapathirage Martin Perera"
 		portraits={
 			civilian={
-				large = GFX_kr_portrait_india_generic_3
-				small = GFX_kr_portrait_india_generic_3_small
+				large="gfx/leaders/kr_generic/Portrait_India_Generic_new_3.dds"
 			}
 		}
 	#	country_leader={
@@ -65,8 +64,7 @@ characters={
 		name="Charles Alwis Hewavitharana"
 		portraits={
 			civilian={
-				large = GFX_kr_portrait_india_generic_4
-				small = GFX_kr_portrait_india_generic_4_small
+				large="gfx/leaders/kr_generic/Portrait_India_Generic_new_4.dds"
 			}
 		}
 		country_leader={
@@ -99,8 +97,7 @@ characters={
 		name="Anton Muttukumaru"
 		portraits={
 			civilian={
-				large = GFX_kr_portrait_india_generic_land_4
-				small = GFX_kr_portrait_india_generic_land_4_small
+				large="gfx/leaders/kr_generic/Portrait_India_Generic_land_new_4.dds"
 			}
 		}
 		field_marshal = { #colonel
@@ -138,7 +135,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/SRL/r56_portrait_SRL_John_Kotelawala.dds"
-				small="GFX_idea_generic_army_europe_3"
+				small="gfx/interface/ideas/idea_europe_generic_army_3.dds"
 			}
 		}
 		corps_commander = {

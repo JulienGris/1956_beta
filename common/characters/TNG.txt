@@ -340,6 +340,9 @@ characters={
 		#	legacy_id=-1
 		#}				
 	}
+
+
+
 	TNG_khoja_niyaz={ #
 		name="Khoja Niyaz"
 		portraits={
@@ -354,17 +357,18 @@ characters={
 			id=-1
 		}
 	}
-	TNG_ehmetjan_qasim={
-		name="Ehmetjan Qasim"
+	#Abdulkerim Abbas
+	TNG_elihan_tore={
+		name="Elihan Tore"
 		portraits={
 			civilian={
-				large="gfx/leaders/TNG/r56_TNG_Ehmetjan_Qasim.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		country_leader={
 			ideology=stalinism
-			traits={ stalins_puppet AUS_communist_revolutionary }
-			expire="1949.8.27.12"
+			traits={ smooth_talking_charmer }
+			expire="1956.1.1.12"
 			id=-1
 		}
 	}

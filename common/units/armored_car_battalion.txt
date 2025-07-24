@@ -18,7 +18,6 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_army
-			category_mobile_and_mobile_combat_sup
 		}
 
 
@@ -28,15 +27,15 @@ sub_units = {
 			armored_car_equipment = 60
 		}
 		manpower = 500
-		max_organisation = 20
+		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
-		max_strength = 5
+		max_strength = 2
 		weight = 0.8
 		supply_consumption = 0.14
 
 		#WE GOOD AT SUPPRESS 
-		suppression = 3.2 #kept higher r56 value
+		suppression = 3.2
 
 		forest = {
 		    attack = -0.2

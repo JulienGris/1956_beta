@@ -28,12 +28,11 @@ characters={
 			id=-1
 		}
 	}
-	LIE_otto_von_habsburg = { #close copy of Hungary's - he can come to Liechtenstein through event
-		name = HUN_otto_von_habsburg
-		portraits = {
-			civilian = {
-				large = GFX_Portrait_hungary_otto_von_hapsburg
-				small = GFX_Portrait_hungary_otto_von_hapsburg_small
+	LIE_otto_von_habsburg={ #close copy of Hungary's - he can come to Liechtenstein through event
+		name=HUN_otto_von_habsburg
+		portraits={
+			civilian={
+				small="GFX_idea_AUS_otto_von_habsburg"
 			}
 		}
 		advisor={
@@ -686,7 +685,7 @@ characters={
 		name="Ferdinand Risch"
 		portraits={
 			civilian={
-				small="GFX_idea_LIE_advisor_ferdinand_risch"
+				small="GFX_idea_generic_political_advisor_europe_1"
 			}
 		}
 		advisor={
@@ -782,9 +781,6 @@ characters={
 			idea_token = LIE_alois_vogt 
 			allowed = {
 				original_tag = LIE
-				has_dlc = "La Resistance"
-			}
-			visible = {
 			}
 			available = {
 				has_intelligence_agency = yes
@@ -838,8 +834,8 @@ characters={
 		name="Boris Smyslovsky"
 		portraits={
 			army={
-				large="gfx/leaders/SOV/r56_portrait_SOV_Boris_Smyslovsky.dds"
-				small="GFX_idea_SOV_boris_smyslovsky"
+				large="gfx/leaders/SOV/r56_portrait_SOV_Peter_Pisarev.dds"
+				small="GFX_idea_SOV_Peter_Pisarev"
 			}
 		}
 		advisor={ # White Russian exile in Liechtenstein
@@ -853,11 +849,15 @@ characters={
 				NOT = {
 					has_government = communism
 				}
-				SOV = {
-					NOT = { 
-						has_completed_focus = SOV_beaten_but_not_defeated 
-						has_completed_focus = SOV_form_a_fifth_column
-						has_completed_focus = SOV_counter_coup_old 
+				if = {
+					limit = { has_dlc = "No Step Back" }
+					NOT = {
+						SOV = { has_completed_focus = SOV_beaten_but_not_defeated }
+					}
+				}
+				else = {
+					NOT = {
+						SOV = { has_completed_focus = SOV_form_a_fifth_column }
 					}
 				}
 			}
@@ -866,22 +866,14 @@ characters={
 					has_government = communism
 				}
 				if = {
-					limit = { has_global_flag = SOV_old_focus_tree }
+					limit = { has_dlc = "No Step Back" }
 					NOT = {
-						SOV = { has_completed_focus = SOV_counter_coup_old }
+						SOV = { has_completed_focus = SOV_beaten_but_not_defeated }
 					}
 				}
 				else = {
-					if = {
-						limit = { has_dlc = "No Step Back" }
-						NOT = {
-							SOV = { has_completed_focus = SOV_beaten_but_not_defeated }
-						}
-					}
-					else = {
-						NOT = {
-							SOV = { has_completed_focus = SOV_form_a_fifth_column }
-						}
+					NOT = {
+						SOV = { has_completed_focus = SOV_form_a_fifth_column }
 					}
 				}
 			}

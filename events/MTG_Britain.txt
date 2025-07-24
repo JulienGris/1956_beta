@@ -5433,18 +5433,7 @@ country_event = {
 						infantry = { x = 1 y = 2 }
 					}
 				}
-				# West Sindh
-				1093 = {
-					create_unit = {
-						division = "name = \"1. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
-						owner = PAK
-					}
-					create_unit = {
-						division = "name = \"1. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
-						owner = PAK
-					}
-				}
-				# East Sindh
+				# Sind
 				443 = {
 					create_unit = {
 						division = "name = \"1. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
@@ -5504,6 +5493,10 @@ country_event = {
 				444 = {
 					create_unit = {
 						division = "name = \"12. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
+						owner = PAK
+					}
+					create_unit = {
+						division = "name = \"13. Pakistani Liberation Army\" division_template = \"Pakistani Liberation Army\" start_experience_factor = 0.5" 
 						owner = PAK
 					}
 				}
@@ -6301,12 +6294,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.8
-				SOV = {
-					OR = {
-						has_completed_focus = SOV_middle_east_diplomacy
-						has_completed_focus = SOV_middle_east_diplomacy_old 
-					} 
-				}
+				SOV = { has_completed_focus = SOV_middle_east_diplomacy }
 			}
 			modifier = {
 				factor = 0
@@ -6314,10 +6302,6 @@ country_event = {
 					SOV = {
 						focus_progress = { focus = SOV_the_southern_thrust progress > 0 }
 						has_completed_focus = SOV_the_southern_thrust
-					}
-					SOV = {
-						focus_progress = { focus = SOV_southern_thrust progress > 0 }
-						has_completed_focus = SOV_southern_thrust
 					}
 					has_war_with = SOV
 				}

@@ -883,7 +883,7 @@ NOR_democratic_preparation_decisions_category = {
 			}
 		}
 
-		cost = 30
+		cost = 60
 		
 		days_remove = NOR_prep_his_remove_days
 	 

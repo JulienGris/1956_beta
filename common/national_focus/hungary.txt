@@ -4326,7 +4326,6 @@ focus_tree = {
 					SOV = {
 						NOT = {
 							has_completed_focus = SOV_the_anti_soviet_trotskyist_center
-							has_completed_focus = SOV_great_purge
 						}
 					}
 				}
@@ -4397,8 +4396,6 @@ focus_tree = {
 						OR = {
 							has_completed_focus = SOV_the_right_opposition
 							has_completed_focus = SOV_beaten_but_not_defeated
-							has_completed_focus = SOV_form_a_fifth_column
-							has_completed_focus = SOV_counter_coup_old
 						}
 					}
 				}
@@ -7334,7 +7331,7 @@ focus_tree = {
 				mio:HUN_magyar_honvedseg_haditechnikai_intezete_organization = {
 					add_mio_funds = 500
 				}
-				mio:HUN_mavag_assault_guns_organization = {
+				mio:mavag_tank_organization = {
 					add_mio_funds = 500
 				}
 				mio:mw_tank_organization = {
@@ -7373,7 +7370,7 @@ focus_tree = {
 				mio:HUN_magyar_honvedseg_haditechnikai_intezete_organization = {
 					add_mio_funds = 500
 				}
-				mio:HUN_mavag_assault_guns_organization = {
+				mio:mavag_tank_organization = {
 					add_mio_funds = 500
 				}
 				mio:mw_tank_organization = {
@@ -7713,24 +7710,12 @@ focus_tree = {
 				uses = 1
 				category = para_tech
 			}
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 2
-					category = special_forces_doctrine
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = HUN_form_parachute_battalions
-					bonus = 0.5
-					uses = 2
-					category = r56_special_forces_training_tech 
-				}	
-			}
+			add_tech_bonus = {
+				name = HUN_form_parachute_battalions
+				bonus = 1.0
+				uses = 2
+				category = r56_special_forces_training_tech 
+			}	
             hidden_effect = {
                 set_country_flag = cite_an_airborne_unit_flag
             }

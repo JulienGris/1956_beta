@@ -8,7 +8,6 @@ characters={
 		}
 		country_leader={
 			ideology=absolute_monarchism
-			traits = { stout_defender } #I like fort
 			expire="1965.1.1.1"
 			id=-1
 		}
