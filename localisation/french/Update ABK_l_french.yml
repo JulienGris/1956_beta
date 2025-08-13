@@ -1,0 +1,7 @@
+l_french:
+ # characters
+ ABK_kirilli_bechvaya:0 "Kirill Bechvaya"
+ ABK_aleksandr_sharvashidze:0 "Aleksandr Sharvashidze"
+ ABK_dmitry_gulia:0 "Dmitry Gulia"
+ # était « ABK generic fascist leader » dans le jeu ; le nom ci-dessous provient d’un générateur aléatoire.
+ ABK_generic_fascist_leader:0 "Praskoviya Kiseleva"
