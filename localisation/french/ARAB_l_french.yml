@@ -1,0 +1,28 @@
+l_french:
+
+ARAB_tribal_warrior_traditions:0 "Traditions des Guerriers Tribaux"
+ARAB_tribal_warrior_traditions_desc:0 "Au fil des ans, nos guerriers ont montré leur force face à nos ennemis, nous leur montrerons notre esprit combatif."
+ARAB_rely_on_tribal_levies:0 "S'appuyer sur les Levées Tribales"
+ARAB_rely_on_tribal_levies_desc:0 "Nous devons recruter des levées loyales à notre cause."
+ARAB_warm_climate_training_desc:0 "Nous devrions utiliser notre climat natif à notre avantage."
+ARAB_the_holy_war:0 "La Guerre Sainte"
+ARAB_the_holy_war_desc:0 "Suite à l'échec des Arabes palestiniens face aux forces sionistes, nous sommes forcés d'intervenir pour les détruire une bonne fois pour toutes."
+ARAB_war_infrastructure:0 "Infrastructure Militaire"
+ARAB_war_infrastructure_desc:0 "Notre pays a longtemps été négligé. Pour mener une guerre moderne, nous devons moderniser notre infrastructure."
+ARAB_arms_shipments:0 "Livraisons d'Armes"
+ARAB_arms_shipments_desc:0 "Nous devons nous approvisionner en armes sur les marchés étrangers pour renforcer notre armée."
+ARAB_army_assessments:0 "Évaluer notre Armée"
+ARAB_army_assessments_desc:0 "Notre armée est gangrenée par le népotisme et la corruption, ce qui est dangereux pour nos capacités de combat. Nous devons décider comment gérer cela."
+ARAB_get_rid_of_nepotism:0 "Lutter contre le Népotisme Militaire"
+ARAB_get_rid_of_nepotism_desc:0 "Pour mener une guerre moderne, nous devons éliminer le népotisme au sein de notre armée."
+ARAB_keep_nepotism:0 "Exploiter le Népotisme Militaire"
+ARAB_keep_nepotism_desc:0 "Nous pouvons utiliser le népotisme dans notre armée pour accroître notre influence."
+
+ARAB_keep_after_war:0 "Cet esprit persistera après la guerre contre Israël."
+
+ISR_ARAB_army_nepotism_1:0 "Népotisme Militaire Galopant"
+ISR_ARAB_army_nepotism_1_desc:0 "La guerre actuelle avec [ISR.GetNameDef] a rendu le horrible népotisme de notre armée incroyablement évident. Pour pouvoir mener une autre guerre, nous devons soit résoudre ces problèmes, soit les exploiter..."
+ISR_ARAB_army_nepotism_2:0 "Népotisme Militaire Maîtrisé"
+ISR_ARAB_army_nepotism_3:0 "Népotisme Militaire Galopant"
+
+r56_arab_focus:0 "Arbre de prioritée nationale Générique Arabe Mineur"
