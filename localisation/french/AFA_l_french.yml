@@ -1,0 +1,12 @@
+L_French:
+ # personnages
+ AFA_sultan_mohamed_yayyo_of_aussa:0 « Mohamed Yayyo »
+ AFA_alimirah_hanfare:0 « Alimirah Hanfare »
+ AFA_yayyo_hammadu:0 « Yayyo Hammadu »
+ AFA_dubno_marto:0 « Dubno Marto »
+ AFA_rohe_hunde:0 « Rohé Hundé »
+ 
+#  bba_AFA_skilled_desert_warriors:0 « Guerriers habiles dans la guerre du désert » # identique à la version originale
+#  bba_AFA_skilled_desert_warriors_desc:0 « Les guerriers [ROOT.GetAdjective] ont toujours été connus pour leur grande habileté dans les combats dans le désert, et c'est grâce à cela et au climat rigoureux auquel ils sont confrontés dans le désert que [ROOT.GetNameDef] a réussi à éviter si longtemps l'assujettissement par des puissances étrangères. » # déplacé pour remplacer
+
+Traduit avec DeepL.com (version gratuite)
