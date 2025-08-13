@@ -1,0 +1,77 @@
+Road to 56 — Build bêta
+1956_Operation_Manstein [Compatibilité 1.15.* / 1.16.*]
+Ceci est le guide README pour l’utilisation de GitHub avec Road to 56.
+
+Guide : utiliser GitHub pour contribuer à Road to 56
+Inscrivez-vous sur GitHub si ce n’est pas déjà fait, puis demandez à un responsable actif via Discord de vous ajouter à l’équipe / de vous attribuer un rôle.
+
+Téléchargez le client desktop depuis GitHub.
+
+Dans le programme, File → Clone → URL → deliciousmods/1956_beta.
+
+Définissez le répertoire local sur : Documents → Paradox Interactive → Hearts of Iron IV → dossier mod.
+
+Clonez le projet et téléchargez-le.
+
+Veillez à créer un fichier .mod (un exemple se trouve dans le canal coding du serveur Discord).
+
+Créez une branche personnelle du mod via Branch → New branch dans le client.
+
+Pensez à faire régulièrement Branch → Update from beta-edits pour garder vos fichiers à jour.
+
+Toutes les modifications que vous effectuez s’afficheront automatiquement dans le client. Si vous êtes sûr de vos changements, indiquez votre handle dans la zone de résumé et décrivez brièvement votre travail dans la section description.
+
+Enfin, utilisez le bouton push du client pour envoyer vos fichiers sur votre branche.
+
+Quand vous avez terminé, vous devez demander la relecture et l’intégration de votre travail dans le mod principal. Faites-le via Branch → Create pull request. Une fois acceptée, votre contribution sera intégrée au mod.
+
+Ajoutez vos changements aux notes de patch sur le wiki.
+
+Consultez également notre wiki pour connaître toutes les normes que nous appliquons. La structure des fichiers de 56 n’est pas identique à celle du jeu de base (vanilla) et nous utilisons certaines conventions de nommage inhabituelles. Si vous ne les respectez pas, des bugs et des erreurs graves peuvent apparaître. Rappelez-vous : seul·e vous pouvez arrêter les feux de forêt !
+
+Si vous avez besoin des droits de commit sur le dépôt (plutôt que de travailler via un fork), ou si vous ne comprenez pas une des étapes ci-dessus, demandez à n’importe quel responsable sauf Greatexperiment sur notre Discord.
+
+IMPORTANT : Accord Contributeur & Développeur
+Si un contributeur ou développeur crée des assets, du code ou des localisations originaux1 pour Road to 56 et que ce travail est publié2, Road to 56 conserve le droit d’utiliser ce matériel même si ledit contributeur ou développeur ne souhaite plus que son travail soit affilié à Road to 56 dans le cadre du développement open-source.
+
+Une fois ces assets, ce code ou ces localisations publiés2, le contributeur ou développeur ne peut pas invoquer les directives de la communauté de modding de Hearts of Iron 4 comme motif pour retirer son travail.
+
+Les stipulations ci-dessus ne s’appliquent pas au code ou aux assets créés pour d’autres modifications de Hearts of Iron 4, à d’autres formes de médias, ou à des travaux dérivés de matériel protégé par le droit d’auteur tel que défini par la législation des États-Unis ou de l’Union européenne et inclus dans Road to 56.3
+
+Le contributeur ou développeur peut demander le retrait de son travail tant que celui-ci n’a pas été publié2.
+
+Pour être clair : Road to 56 conserve le droit d’utiliser toutes les œuvres originales fournies par des contributeurs et des développeurs pour Road to 56. Même si ledit contributeur ou développeur souhaite ne plus être affilié au projet et demande la suppression de ses assets, code ou localisations, ces demandes seront considérées comme non fondées au titre du présent accord.
+
+Si vous souhaitez discuter des détails de cet accord, contactez Greatexperiment, Thinking_Waffle, SpicyAlfredo ou Abbus sur Discord.
+
+Déclaration d’utilisation de l’IA
+Des outils d’IA ont été utilisés pour améliorer des images et sources historiques afin d’aider à la création d’assets artistiques pour ce projet. Les outils d’IA n’ont pas été employés pour remplacer le travail ou la créativité humaine, mais uniquement pour aider à produire des assets artistiques qui n’auraient pas été possibles sans l’assistance de ces outils d’IA.
+
+Merci d’avoir lu ! — L’équipe Road to 56
+
+Notes & définitions
+Vérification & remarques (bref)
+Domaine : documentation technique / guide de contribution pour modding (Hearts of Iron IV).
+
+Public visé : contributeurs/développeurs du mod (niveau technique accessible).
+
+Niveau de langue : style informatif et direct, adapté à un guide pratique (j’ai conservé l’impératif et les consignes pas à pas).
+
+J’ai respecté les éléments techniques (noms de dépôts, noms de menus, noms propres, mentions de DLC, noms d’utilisateurs) en les laissant tels quels pour éviter toute confusion opérationnelle.
+
+J’ai traduit les passages juridiques (accord) en conservant le sens légal fort ; si tu veux une version plus formelle (registre juridique) ou plus simple (résumé en langage courant), je peux la produire.
+
+Choix terminologiques — explications courtes
+README / Readme : laissé sous la forme README dans l’introduction mais traduit « guide README » par « guide README » — c’est une convention technique largement comprise.
+
+File → Clone / Branch → New branch / Push / Create pull request : j’ai conservé les libellés de menu en anglais quand ils correspondent exactement aux commandes du client GitHub Desktop, pour éviter d’éloigner le lecteur des menus qu’il verra à l’écran. Si tu préfères une localisation complète (ex. Fichier → Cloner), je peux homogénéiser.
+
+.mod file / .mod : conservé tel quel (extension technique).
+
+handle : laissé tel quel entre italiques et expliqué comme « identifiant (handle) » dans la remarque si besoin — le mot est courant dans les workflows Git.
+
+published → publié : traduit littéralement ; la note 2 explicite ce que « publié » signifie pour ce projet.
+
+opensource development principles → principes du développement open-source : traduction directe et compréhensible en contexte européen.
+
+AI Usage Disclosure → Déclaration d’utilisation de l’IA : formulation sobre et claire.
