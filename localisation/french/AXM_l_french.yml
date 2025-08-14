@@ -1,0 +1,193 @@
+l_french:
+##Ajouter dans l'arbre des focus le conflit entre la garde Hlinka influencée par l'Allemagne et plus radicale, de plus en plus imitatrice de la SS et du Parti populaire slovaque (toujours fasciste)
+maintenance_company_tech:0 "Compagnies de maintenance"
+
+axis_minors_balance_event_tooltip:0 "Cet événement accorde du PP en fonction de l'année en cours pour compenser partiellement le pouvoir politique non obtenu lorsque le pays n'existait pas.\n"
+
+##Ajouter dans l'arbre des focus le conflit entre la garde Hlinka influencée par l'Allemagne et plus radicale, de plus en plus imitatrice de la SS et du Parti populaire slovaque (toujours fasciste)
+aftermath_of_the_munich_agreement:0 "Conséquences de la dissolution de la Tchécoslovaquie"
+aftermath_of_the_munich_agreement_desc:0 "La désintégration de la Tchécoslovaquie a entraîné de multiples événements et opportunités politiques presque impensables quelques années auparavant."
+RUT_puppet_yourself_to_survive:0 "Chercher un compromis avec [GER.GetNameDef]"
+SLO_seek_support_from_german_slovaks:0 "Chercher le soutien des Volkdeutsche slovaques"
+volkdeutsch_support:0 "Bénéficie du soutien §YVolkdeutsche§!"
+RUT_provide_autonomy_to_ruthenia:0 "Accorder l'autonomie à la Ruthénie des Carpates"
+RUT_award_ruthenia_to_hungary:0 "Attribuer la Ruthénie subcarpatique à [HUN.GetNameDef]"
+
+#Ruthénie
+
+axis_minors_ruthenia.1.t:0 "La Ruthénie subcarpatique se déclare région autonome"
+axis_minors_ruthenia.1.desc:0 "En raison de l'affaiblissement du gouvernement central tchécoslovaque, la région de la Ruthénie subcarpatique, principalement habitée par des Rusyns (Ruthènes), un sous-groupe ukrainien, s'est déclarée région autonome. Elle bénéficiera désormais de tous les droits promis lors de l'indépendance du pays mais limités par le gouvernement de Prague."
+axis_minors_ruthenia.1.a:0 "C'est leur droit."
+axis_minors_ruthenia.1.b:0 "(Jouer en tant que Ruthénie subcarpatique) Nous avons enfin récupéré un certain niveau d'autonomie."
+axis_minors_ruthenia.1.c:0 "Laissez-les faire."
+axis_minors_ruthenia.1.d:0 "(Jouer en tant que Ruthénie indépendante) Qu'ils embrassent leur destin."
+
+axis_minors_ruthenia.2.t:0 "La menace [HUN.GetAdjective]"
+axis_minors_ruthenia.2.desc:0 "Avec la destruction de la Tchécoslovaquie, le risque d'invasion grandit chaque jour. Peut-être pourrions-nous survivre aux changements rapides secouant la région en proposant de rejoindre [HUN.GetNameDef] tout en conservant un maximum d'autonomie."
+axis_minors_ruthenia.2.a:0 "Envoyer des envoyés à [HUN.Capital.GetName]."
+axis_minors_ruthenia.2.b:0 "Qu'ils viennent."
+axis_minors_ruthenia.2.c:0 "(Reporter l'attaque) Ils ne sont pas prêts à attaquer maintenant."
+
+axis_minors_ruthenia.3.t:0 "[RUT.GetNameDefCap] cherche protection"
+axis_minors_ruthenia.3.desc:0 "Une délégation du soi-disant '[RUT.GetName]' est arrivée aujourd'hui et a proposé un accord inattendu. Conscients des risques d'invasion et de nos revendications sur leur territoire, ils sont prêts à abandonner leur nouvelle indépendance en échange d'une autonomie au sein de [HUN.GetNameDef]. Accepter limiterait notre influence sur cette petite région, ne restaurant que partiellement les frontières de la Hongrie historique, tandis qu'envahir le territoire pourrait impliquer des puissances rivales."
+axis_minors_ruthenia.3.a:0 "Intégrer comme région autonome."
+axis_minors_ruthenia.3.b:0 "La Subcarpatie fait partie de la Hongrie historique, envahir."
+
+axis_minors_ruthenia.4.t:0 "Intervenir en [RUT.GetNameDef] ?"
+axis_minors_ruthenia.4.desc:0 "La [RUT.GetName] autoproclamée est nouvelle et isolée. En tant que partie de la Hongrie historique, elle devrait être sous le gouvernement [HUN.GetAdjective]. Avec la désintégration de la Tchécoslovaquie, cette petite région est maintenant prête à revenir à ses propriétaires légitimes."
+axis_minors_ruthenia.4.a:0 "Ne rien faire."
+axis_minors_ruthenia.4.b:0 "Lancer le plan d'invasion."
+
+axis_minors_ruthenia.5.t:0 "Une société libre"
+axis_minors_ruthenia.5.desc:0 "Avec le changement de la direction politique, les libertés fondamentales sont de nouveau garanties à travers le pays. Par conséquent, des associations se forment et les idées démocratiques se propagent."
+axis_minors_ruthenia.5.a:0 "Nous devons chérir le retour de la liberté."
+
+axis_minors_ruthenia.6.t:0 "[RUT.GetNameDefCap] demande compromis"
+axis_minors_ruthenia.6.desc:0 "Avec la disparition de la Tchécoslovaquie, les [RUT.GetAdjective] des montagnes vivant dans le territoire le plus extrême ont demandé à conserver un certain niveau d'autonomie."
+axis_minors_ruthenia.6.a:0 "Accorder l'autonomie."
+axis_minors_ruthenia.6.b:0 "Les placer sous influence [SLO.GetAdjective]."
+axis_minors_ruthenia.6.c:0 "Les attaquer."
+
+axis_minors_ruthenia.7.t:0 "[RUT.GetNameDefCap] demande unification"
+axis_minors_ruthenia.7.desc:0 "[RUT.GetLeader], le dirigeant du territoire le plus extrême de la Tchécoslovaquie, a demandé que la région de [RUT.GetNameDef] soit incorporée à l'Ukraine."
+axis_minors_ruthenia.7.a:0 "Nous unirons tous les Ukrainiens."
+axis_minors_ruthenia.7.b:0 "Ce n'est pas pour nous."
+
+#Croatie
+
+axis_minors_croatia.1.t:0 "Réunion avec [YUG.GetNameDef]"
+axis_minors_croatia.1.desc:0 "Maintenant que [YUG.GetLeader] dirige nos gouvernements, il est temps de s'unir avec [YUG.GetNameDef]."
+axis_minors_croatia.1.a:0 "Vive [YUG.GetNameDef] !"
+
+axis_minors_croatia.2.t:0 "Les communistes croates veulent nous rejoindre"
+axis_minors_croatia.2.desc:0 "Les communistes croates veulent rejoindre notre glorieuse union des Slaves du Sud."
+axis_minors_croatia.2.a:0 "Bienvenue à nouveau !"
+
+axis_minors_croatia.3.t:0 "Revendiquer la Grande Croatie"
+axis_minors_croatia.3.desc:0 "La Bosnie faisait historiquement partie de la Croatie. Pour marcher sur les traces de Tomislav, nous devons restaurer nos frontières historiques."
+axis_minors_croatia.3.a:0 "C'est aussi notre terre de droit !"
+
+axis_minors_croatia.4.t:0 "Le futur de l'atelier Elektra réglé"
+axis_minors_croatia.4.desc:0 "Pour honorer la mémoire du héros populaire, ingénieur électricien et militant communiste Rade Končar, l'usine de composants électroniques Elektra sera renommée Končar Elektroindustrija."
+axis_minors_croatia.4.a:0 "Il était un vrai martyr de notre cause !"
+
+axis_minors_croatia.5.t:0 "La fin de la tyrannie communiste"
+axis_minors_croatia.5.desc:0 "La terreur rouge est terminée ! Les communistes ont été évincés du pouvoir et leur système économique dystopique est désormais démantelé."
+axis_minors_croatia.5.a:0 "Le règne du bolchevisme est terminé."
+
+axis_minors_croatia.6.t:0 "La fin de la tyrannie fasciste"
+axis_minors_croatia.6.desc:0 "La terreur noire est terminée ! Les fascistes ont été évincés du pouvoir et leur régime dystopique est désormais démantelé."
+axis_minors_croatia.6.a:0 "L'ère de l'ultranationalisme et du racisme est terminée."
+
+axis_minors_croatia.7.t:0 "La fin du régime parlementaire !"
+axis_minors_croatia.7.desc:0 "Avec la prise de contrôle par des éléments radicaux de la société, le pluralisme politique appartient au passé tandis que les révolutionnaires forment un gouvernement et établissent leur dictature."
+axis_minors_croatia.7.a:0 "Des temps sombres nous attendent."
+axis_minors_slovakia.1.t:0 "Notre frontière avec la Slovaquie est insatisfaisante"
+axis_minors_slovakia.1.desc:0 "Nous avons pris le contrôle de Košice et incorporé la Ruthénie subcarpathique, mais même avec ces conquêtes, la conquête de la Ruthénie subcarpathique reste incomplète. De nombreux villages habités par des Ruthènes hongrois légitimes sont encore sous contrôle slovaque. Comme la frontière avec la Slovaquie est encore récente, des actions doivent être entreprises maintenant pour la redessiner à notre avantage avant qu'elle ne devienne définitive et reconnue."
+axis_minors_slovakia.1.a:0 "Mener une offensive à petite échelle pour prendre la région contestée."
+axis_minors_slovakia.1.b:0 "Seule la diplomatie nous permettra de récupérer nos terres légitimes."
+
+axis_minors_slovakia.2.t:0 "Nous avons perdu la petite guerre"
+axis_minors_slovakia.2.desc:0 "Malgré le courage de nos troupes, nous n'avons pas pu arrêter l'avance des forces [HUN.GetAdjective]. [GER.GetNameDefCap] a imposé un cessez-le-feu entre nos nations et a statué en faveur de [HUN.GetNameDef]. Nous avons donc été contraints de céder 78 communes sur un territoire de 1 697 km², peuplé de 69 930 personnes."
+axis_minors_slovakia.2.a:0 "[GER.GetNameDefCap] avait promis de nous aider !"
+
+axis_minors_slovakia.3.t:0 "Triomphe en Carpatija !"
+axis_minors_slovakia.3.desc:0 "Après nos opérations réussies dans l'est de la Slovaquie, [GER.GetNameDef] a négocié une trêve et redessiné la frontière à notre avantage ! Nous contrôlons désormais toute la Carpatija et avons même libéré quelques villages hongrois. Les soldats chantent pour célébrer cette étape glorieuse dans notre chemin vers la restauration de Nagy-Magyarország / Grande Hongrie."
+axis_minors_slovakia.3.a:0 "Nous sommes tous des soldats de [HUN.GetLeader]."
+
+axis_minors_slovakia.4.t:0 "Notre armée a échoué face à [SLO.GetNameDef]"
+axis_minors_slovakia.4.desc:0 "Il semble que nous ayons sous-estimé l'armée [SLO.GetAdjective]. Elle a fortement répondu à notre offensive qui a duré toute la semaine. Bien que nous ayons progressé, [GER.GetNameDef] est intervenu et a imposé une trêve favorable à [SLO.GetNameDef]."
+axis_minors_slovakia.4.a:0 "C'est un petit faux pas."
+
+axis_minors_slovakia.5.t:0 "Nous avons repoussé les vils Magyars"
+axis_minors_slovakia.5.desc:0 "Après une semaine entière de résistance héroïque, nos forces ont repoussé les forces armées [HUN.GetAdjective] qui nous avaient attaqués traîtreusement. L'intervention de notre protecteur, [GER.GetLeader], a mis fin au conflit, reconnu notre victoire et statué en notre faveur."
+axis_minors_slovakia.5.a:0 "Nous ne voulons que ce qui nous revient de droit."
+
+axis_minors_slovakia.6.t:0 "[HUN.GetNameDefCap] nous attaque !"
+axis_minors_slovakia.6.desc:0 "Après leur conquête de la Ruthénie subcarpathique, [HUN.GetNameDef] a affirmé que la frontière avait été mal tracée. Ils ont lancé une offensive à petite échelle pour faire valoir ces revendications limitées. Nous avons appelé [GER.GetNameDef] à l'aide, mais ils ne souhaitent pas intervenir pour le moment, ne voulant pas risquer leurs relations avec [HUN.GetNameDef]."
+axis_minors_slovakia.6.a:0 "Nous devons défendre la patrie."
+
+axis_minors_slovakia.7.t:0 "[GER.GetNameDefCap] veut mettre fin aux hostilités"
+axis_minors_slovakia.7.desc:0 "La guerre dure depuis une semaine, et les [GER.GetAdjective] commencent à perdre patience concernant le conflit [HUN.GetAdjective]-[SLO.GetAdjective]. [GER.GetNameDefCap] ne voulait pas déplaire à [HUN.GetNameDef] et est resté initialement en dehors du conflit. Cependant, maintenant que les opérations militaires ont montré un vainqueur, il est temps de mettre fin à ce conflit entre alliés et de voir si la carte de l'Europe doit à nouveau être corrigée."
+axis_minors_slovakia.7.a:0 "Ils nous favoriseront sûrement."
+
+axis_minors_slovakia.8.t:0 "Notre conquête de Carpatija est incomplète"
+axis_minors_slovakia.8.desc:0 "Bien que nous ayons accompli un immense succès avec notre conquête de Carpatija, cette conquête reste néanmoins incomplète. L'autre côté de la frontière, la partie la plus orientale de la Slovaquie, est peuplée de [RUT.GetAdjective] qui méritent de rejoindre notre pays, même s'ils ne sont pas ethniquement slovaques."
+axis_minors_slovakia.8.a:0 "Nous devons nous assurer du soutien [GER.GetAdjective]."
+
+axis_minors_slovakia.9.t:0 "Intervention [SLO.GetAdjective] à Košice"
+axis_minors_slovakia.9.desc:0 "Après l'annonce qu'un État fantoche tchèque serait établi dans le sud de la Tchécoslovaquie, la population slovaque a pris les armes. Avec l'intervention de l'armée slovaque, le territoire est désormais solidement entre les mains des Slovaques."
+axis_minors_slovakia.9.a:0 "Nous ne revendiquons que ce qui nous revient de droit."
+
+axis_minors_slovakia.10.t:0 "L'héritage du passé"
+axis_minors_slovakia.10.desc:0 "Alors que notre nation commence une nouvelle ère, nos connaissances actuelles se basent sur ce qui a été appris dans le passé."
+axis_minors_slovakia.10.a:0 "En route vers un avenir radieux !"
+
+axis_minors_vichy_france.2.t:0 "Félix Éboué rejoint les Forces Françaises Libres"
+axis_minors_vichy_france.2.desc:0 "Félix Éboué, gouverneur de l'Afrique équatoriale française, a annoncé qu'il continuerait la lutte contre [GER.GetNameDef], emmenant avec lui l'Afrique équatoriale française. Ce territoire servira désormais de base pour préparer la libération de la France."
+axis_minors_vichy_france.2.a:0 "La France libre continuera le combat sur terre, dans les airs et sur mer."
+
+axis_minors_vichy_france.3.t:0 "Une France légitime"
+axis_minors_vichy_france.3.desc:0 "Avec la défaite des maréchalistes, notre gouvernement peut exercer son autorité sur la France et son empire. Bien que certains collaborateurs soient encore en exil, la répression des partisans de Pétain par les 'Forces françaises de l'intérieur' (FFI) a entraîné des arrestations et des exécutions massives. De plus, les femmes ayant eu des liaisons avec l'ennemi étaient souvent tondues et marquées de l'infamie pendant des mois."
+axis_minors_vichy_france.3.a:0 "Vive la France !"
+
+axis_minors_vichy_france.4.t:0 "Le général Juin rejoint les Forces Françaises Libres"
+axis_minors_vichy_france.4.desc:0 "Le général Alphonse Juin, qui servait dans l'armée de l'armistice vichyste, a décidé de continuer à lutter contre la tyrannie du fascisme."
+axis_minors_vichy_france.4.a:0 "La France doit être libérée !"
+
+axis_minors_vichy_france.5.t:0 "Le général Juin rejoint les Forces Françaises Libres"
+axis_minors_vichy_france.5.desc:0 "Le général Alphonse Juin nous a trahis et a rejoint les soi-disant 'Forces Françaises Libres'. Il est désormais notre ennemi, comme tous ces traîtres qui cherchent à détruire la révolution nationale et à nier à la France sa place dans le nouvel ordre européen en servant les intérêts de [Root.GetFactionName]."
+axis_minors_vichy_france.5.a:0 "Les traîtres seront exécutés !"
+
+axis_minors_vichy_france.6.t:0 "Le général de Lattre de Tassigny critique la collaboration"
+axis_minors_vichy_france.6.desc:0 "Un de nos officiers les plus renommés, le talentueux général Jean de Lattre de Tassigny, a critiqué notre politique de collaboration avec [GER.GetNameDef]. C'est une grave menace car il pourrait rejoindre les Forces Françaises Libres du général de Gaulle ou semer la confusion dans ce qu'il reste de nos forces militaires."
+axis_minors_vichy_france.6.a:0 "Arrêtez-le !"
+axis_minors_vichy_france.6.b:0 "Laissez-le libre."
+
+axis_minors_vichy_france.7.t:0 "Le général de Lattre de Tassigny a tenté de s'évader de prison"
+axis_minors_vichy_france.7.desc:0 "Le général de Lattre de Tassigny, emprisonné après avoir critiqué nos relations avec [GER.GetNameDef], a tenté de s'évader la nuit dernière."
+axis_minors_vichy_france.7.a:0 "Il doit être attrapé !"
+
+axis_minors_vichy_france.8.t:0 "De Lattre s'est échappé !"
+axis_minors_vichy_france.8.desc:0 "Le général de Lattre de Tassigny s'est échappé en voiture la nuit. Nous avons désormais confirmation qu'il a rejoint les Forces Françaises Libres."
+axis_minors_vichy_france.8.a:0 "Ah, le traître !"
+
+axis_minors_vichy_france.9.t:0 "Le général de Lattre de Tassigny rejoint notre camp !"
+axis_minors_vichy_france.9.desc:0 "Après une évasion réussie, le général de Lattre de Tassigny a rejoint avec succès les Forces Françaises Libres. Il est maintenant prêt à lutter pour la libération de la France."
+axis_minors_vichy_france.9.a:0 "Un pas de plus vers la libération de la France."
+
+axis_minors_vichy_france.10.t:0 "Le général de Lattre de Tassigny est mort en tentant de s'évader de prison"
+axis_minors_vichy_france.10.desc:0 "Lorsqu'une évasion complexe a été tentée par un groupe terroriste soutenu par les forces anti-françaises judéo-[ENG.GetAdjective], le courage de la police française a permis de contrecarrer le complot. Malheureusement, le général de Lattre de Tassigny est mort dans le processus."
+axis_minors_vichy_france.10.a:0 "C'était de toute façon un traître."
+
+axis_minors_vichy_france.11.t:0 "Le général de Lattre de Tassigny est mort en tentant de s'évader de prison"
+axis_minors_vichy_france.11.desc:0 "Lorsqu'une évasion complexe a été tentée par un groupe terroriste soutenu par les forces anti-françaises judéo-britanniques, le courage de la police française a permis de contrecarrer le complot. Malheureusement, le général de Lattre de Tassigny est mort dans le processus."
+axis_minors_vichy_france.11.a:0 "Un martyr de la libération."
+
+axis_minors_vichy_france.12.t:0 "Officier talentueux promu"
+axis_minors_vichy_france.12.desc:0 "Alors que la guerre continue, de nouveaux talents sont autorisés à montrer leurs capacités de commandement sur le champ de bataille. L'un de ces officiers talentueux a récemment été promu au rang de général. Ses idées audacieuses sont rejetées par certains de l'ancienne génération, mais il semble comprendre que l'utilisation appropriée des armes modernes peut éviter les pertes massives de la Grande Guerre."
+axis_minors_vichy_france.12.a:0 "Vive la classe !"
+
+axis_minors_vichy_france.17.t:0 "Confirmation de la zone d'occupation française"
+axis_minors_vichy_france.17.desc:0 "Selon l'article II de la convention d'armistice entre l'État français et [GER.GetNameDef] : « Pour sauvegarder les intérêts de [GER.GetNameDef], le territoire de l'État français au nord et à l'ouest de la ligne tracée sur la carte jointe sera occupé par les troupes [GER.GetAdjective]. Dans la mesure où les parties à occuper ne sont pas encore sous le contrôle des troupes [GER.GetAdjective], cette occupation sera effectuée immédiatement après la conclusion du traité. »\n\nPar conséquent, tout territoire illégalement sous le contrôle du gouvernement français doit être remis au contrôle du Militärbefehlshaber en Frankreich."
+axis_minors_vichy_france.17.a:0 "L'armistice doit être respecté."
+
+axis_minors_vichy_france.18.t:0 "Cacher du matériel militaire"
+axis_minors_vichy_france.18.desc:0 "Après l'armistice, certains éléments de l'armée ont prévu de créer des caches pour protéger une partie du contenu des arsenaux militaires afin de disposer d'équipement en réserve."
+axis_minors_vichy_france.18.a:0 "Préparer les caches."
+axis_minors_vichy_france.18.b:0 "L'armistice doit être respecté."
+
+axis_minors_vichy_france.20.t:0 "[GER.GetNameDefCap] est sur le point d'envahir la zone libre !"
+axis_minors_vichy_france.20.desc:0 "Avec la perte de notre empire colonial, la présence ennemie en Méditerranée inquiète l'état-major [GER.GetAdjective] que les alliés débarquent dans le sud de la France. Ils se préparent désormais à envahir notre territoire tandis que nous sommes sans défense, et la majorité du gouvernement souhaite continuer la collaboration."
+axis_minors_vichy_france.20.a:0 "Interdire aux officiers de riposter ; ils sont là pour nous protéger."
+axis_minors_vichy_france.20.b:0 "C'est une trahison ; nous devons résister ! Aux armes !"
+axis_minors_vichy_france.20.c:0 "Prendre un avion pour l'Afrique et rejoindre de Gaulle."
+axis_minors_vichy_france.20.d:0 "Persuader [GER.GetLeader] de continuer la collaboration."
+
+axis_minors_vichy_france.21.t:0 "Les concours de danse des Zazous perturbent l'ordre public !"
+axis_minors_vichy_france.21.desc:0 "Récemment, des groupes de zazous créent de plus en plus de problèmes. Bien qu'ils soient simplement des jeunes étrangement vêtus en apparence, ils constituent une force perturbatrice. En portant des vêtements longs alors que l'accès au tissu est restreint, en suivant l'amour [USA.GetAdjective] pour le zoot suit, ou en cousant une étoile jaune sur leur veste avec 'Swing' ou 'Goi' écrit dessus, ils défient ouvertement l'autorité. Ces amateurs de jazz ont récemment organisé des concours de danse attirant encore plus de jeunes sur cette voie de débauche."
+axis_minors_vichy_france.21.a:0 "Ces personnes sont corrompues physiquement et moralement."
+
+axis_minors_vichy_france.22.t:0 "Un nouvel espoir pour l'Afrique"
+axis_minors_vichy_france.22.desc:0 "Avec la signature de l'armistice, la majeure partie de la France est désormais occupée ou 'neutre'. Mais une poignée d'officiers s'est rassemblée derrière le général de Gaulle pour continuer le combat. Leur première réussite a été d'obtenir la loyauté de Félix Éboué, gouverneur colonial de l'Afrique équatoriale française. Un gouvernement français libre a été établi sous le nom de 'Comité pour la défense de l'Empire', résolu à combattre le nazisme et à libérer la France de l'occupation étrangère."
+axis_minors_vichy_france.22.a:0 "Nous devons continuer le combat ; la France doit être libérée !"
