@@ -1,0 +1,13 @@
+l_french:
+ # personnages
+ BAN_moni_singh:0 "Moni Singh"
+ BAN_abul_hamid_khan_bhasani:0 "Abul Hamid Khan Bhasani"
+ BAN_abul_kasem_fazlul_huq:0 "Abul Kasem Fazlul Huq"
+
+ # partis
+ BAN_democratic_party:0 "KSP"
+ BAN_democratic_party_long:0 "Parti Krishak Sramik"
+ BAN_communism_party:0 "CPB"
+ BAN_communism_party_long:0 "Parti communiste du Bangladesh"
+ #PUE_fascism_party:0 "PNPR"
+ #PUE_fascism_party_long:0 "Parti nationaliste de Porto Rico"
