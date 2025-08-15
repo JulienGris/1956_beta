@@ -1,0 +1,298 @@
+l_french:
+colombian_focus:0 "Arbre de priorités national colombien"
+
+# Nouveautés
+COL_jose_maria_melo:0 "José María Melo"
+COL_jose_padilla:0 "José Padilla"
+COL_prudencio_padilla:0 "Prudencio Padilla"
+COL_ambrosio_pombo:0 "Ambrosio Pombo"
+COL_gerinaldo_marquez:0 "Gerinaldo Márquez"
+COL_ignacio_torres_giraldo:0 "Ignacio Torres Giraldo"
+COL_elisei_arango_ramos:0 "Elíseo Arango Ramos"
+COL_rafael_baquero:0 "Rafael Baquero"
+COL_eutiquio_timote:0 "Eutiquio Timoté"
+COL_silvio_villegas:0 "Silvio Villegas"
+COL_jose_gonzalo_sanchez:0 "José Gonzalo Sánchez"
+COL_gabriel_turbay:0 "Gabriel Turbay"
+COL_julio_enrique_botero_mejia:0 "Julio Enrique Botero Mejía"
+COL_dario_echandia:0 "Darío Echandía"
+COL_antonio_rocha:0 "Antonio Rocha"
+COL_carlos_j_echavarria:0 "Carlos J. Echavarría"
+COL_esteban_jaramillo:0 "Esteban Jaramillo"
+COL_alfonso_araujo_gaviria:0 "Alfonso Araújo Gaviria"
+COL_juan_jose_angel_correa:0 "Juan José Ángel Correa"
+
+COL_Grupo_Argos:0 "Grupo Argos"
+COL_emcali:0 "Emcali"
+COL_tropical_oil_company:0 "Tropical Oil Company"
+COL_brc:0 "Banco de la República"
+
+COL_spanish_civil_war_involvement:0 "Implication dans la guerre civile espagnole"
+COL_spanish_civil_war_involvement_desc:0 "Nous ne pouvons pas laisser nos frères espagnols combattre sans nous impliquer d’une manière ou d’une autre."
+r56_COL_spanish_civil_war_involvement:0 "Implication dans la guerre civile espagnole"
+r56_ECU_COL_counter_faction:0 "Pacte de défense de Guayaquil"
+
+COL_affirm_state_role_in_the_economy:0 "Réaffirmer le rôle économique de l’État"
+COL_affirm_state_role_in_the_economy_desc:0 "De nombreux économistes, notamment John Maynard Keynes, soutiennent la théorie selon laquelle l’État doit intervenir dans l’économie pour garantir qu’elle reste équitable envers la population."
+COL_continue_constitutional_reforms:0 "Poursuivre les réformes constitutionnelles"
+COL_continue_constitutional_reforms_desc:0 "La réforme constitutionnelle a établi la définition de la propriété par sa fonction sociale. L’un des effets les plus notoires de cette nouvelle règle est le droit de l’État d’exproprier des terres, selon le principe d’utilité publique, notamment dans les vastes territoires inexploités des grands propriétaires."
+COL_workers_protection:0 "Renforcer les droits des travailleurs"
+COL_workers_protection_desc:0 "Pour garantir la protection des travailleurs, nous devons défendre le droit de grève et encourager les ouvriers à s’organiser en syndicats."
+COL_educational_reform:0 "Réforme de l’éducation"
+COL_educational_reform_desc:0 "Principalement lancées par l’écrivain Jorge Zalamea, ministre de l’Éducation, de nombreuses réformes ont été mises en place pour améliorer l’accès à l’instruction."
+COL_join_the_allies:0 "Rejoindre les Alliés"
+COL_join_the_allies_desc:0 "Notre place est aux côtés de [ENG.GetNameDef], le gardien du libéralisme, de la démocratie et de la liberté en ces temps troublés."
+COL_liberty_ethos:0 "La Révolution en marche"
+COL_liberty_ethos_desc:0 "Alfonso López Pumarejo a lancé de nombreuses réformes économiques et sociales, surnommées la Revolución en Marcha, ou Révolution en marche."
+
+COL_agrarian_economy:0 "Économie agraire"
+COL_agrarian_economy_desc:0 "L’économie colombienne repose profondément sur l’agriculture, les plantations de café dominant nos exportations et fournissant des devises indispensables. Cependant, cette dépendance à une seule culture nous rend vulnérables aux fluctuations des prix mondiaux, et la richesse reste concentrée entre les mains des élites rurales. Bien que les hautes terres fertiles soient en plein essor, le manque d’infrastructures industrielles freine notre modernisation. L’investissement dans la production manufacturière nationale reste limité, la majeure partie de la main-d’œuvre étant liée aux champs. Pour sécuriser notre avenir, nous devons décider : renforcer nos atouts agricoles ou emprunter la voie difficile de l’industrialisation ?"
+COL_coffee_dependent_economy:0 "Économie dépendante du café"
+COL_coffee_dependent_economy_desc:0 "L’économie colombienne repose profondément sur l’agriculture, les plantations de café dominant nos exportations et fournissant des devises indispensables. Cependant, cette dépendance à une seule culture nous rend vulnérables aux fluctuations des prix mondiaux, et la richesse reste concentrée entre les mains des élites rurales. Bien que les hautes terres fertiles soient en plein essor, le manque d’infrastructures industrielles freine notre modernisation. L’investissement dans la production manufacturière nationale reste limité, la majeure partie de la main-d’œuvre étant liée aux champs. Pour sécuriser notre avenir, nous devons décider : renforcer nos atouts agricoles ou emprunter la voie difficile de l’industrialisation ?"
+COL_coffee_dependent_economy_2:0 "Économie dépendante du café"
+COL_coffee_dependent_economy_2_desc:0 "L’économie colombienne repose profondément sur l’agriculture, les plantations de café dominant nos exportations et fournissant des devises indispensables. Cependant, cette dépendance à une seule culture nous rend vulnérables aux fluctuations des prix mondiaux, et la richesse reste concentrée entre les mains des élites rurales. Bien que les hautes terres fertiles soient en plein essor, le manque d’infrastructures industrielles freine notre modernisation. L’investissement dans la production manufacturière nationale reste limité, la majeure partie de la main-d’œuvre étant liée aux champs. Pour sécuriser notre avenir, nous devons décider : renforcer nos atouts agricoles ou emprunter la voie difficile de l’industrialisation ?"
+COL_coffee_dependent_economy_3:0 "Économie semi-autarcique"
+
+COL_workers_protection_idea:0 "Protection des travailleurs"
+COL_revolution_on_the_march:0 "Révolution en marche"
+COL_revolution_on_the_march_desc:0 "Les vents du changement soufflent fortement sur la Colombie tandis que la « Révolution en marche » du président Alfonso López Pumarejo anime les esprits de la nation. Des éléments radicalisés de la société exigent des changements profonds, motivés par la justice sociale, les droits des travailleurs et les réformes économiques. Mais sous la vision de Pumarejo, ces idéaux promettent aussi de nouvelles opportunités : redistribution des terres pour améliorer la vie des communautés rurales, accès élargi à l’éducation et voix renforcée pour la classe ouvrière colombienne. À mesure que les tensions augmentent, l’espoir grandit, créant une époque à la fois pleine de risques et de potentiels immenses."
+COL_political_correctness_idea:0 "Industrie nationalisée"
+COL_militarism_idea:0 "Militarisme d’État"
+COL_paramilitarism_idea:0 "La Juventud Leopardo"
+COL_growing_political_resistance:0 "Opposition politique croissante"
+COL_growing_political_resistance_desc:0 "Après des décennies de domination conservatrice, le nouveau gouvernement libéral colombien fait face à une opposition grandissante dans sa tentative de réformer une société divisée entre élites puissantes et ouvriers appauvris. Les réformes agraires, les droits des travailleurs et les initiatives éducatives défient le statu quo, suscitant la colère des propriétaires, du clergé et des rivaux politiques. Des grèves éclatent à la campagne comme dans les villes, et les mouvements de gauche gagnent du terrain parmi les désillusionnés."
+COL_raspar_olla:0 "Lobbyiste extractiviste"
+COL_tupac_amaru:0 "Ethnocacérisme accompli"
+COL_yarumos_idea:0 "Yarumos"
+COL_yarumos_idea_desc:0 "En utilisant les cendres de l’arbre Yarumo, notre pays peut mieux résister aux environnements hostiles."
+COL_support_focus:0 "Soutenir la production"
+COL_support_focus_desc:0 "Du soutien pour tout le monde."
+COL_simacota_idea:0 "Vengeance accomplie"
+COL_simacota_idea_desc:0 "Maintenant que nous avons repris ce qui nous appartient, il est temps de le défendre."
+COL_CAS_focus:0 "Production de CAS"
+COL_CAS_focus_desc:0 "Des CAS pour tous."
+COL_NAV_focus:0 "Production de bombardiers navals"
+COL_NAV_focus_desc:0 "Des bombardiers navals pour tous."
+COL_submarines_focus:0 "Production de sous-marins"
+COL_submarines_focus_desc:0 "Des sous-marins pour tous."
+COL_cruisers_focus:0 "Production de croiseurs"
+COL_cruisers_focus_desc:0 "Des croiseurs pour tous !"
+
+raspar_olla:0 "Bonus d’extraction"
+observadores_nature:0 "Bonus de reconnaissance et survie"
+sa_indumil:0 "InduMil SA"
+art_indumil:0 "InduMil ART"
+COL_pdr:0 "Acerías Paz del Río"
+COL_telecom:0 "Telecom"
+
+colombia.1.t:0 "Entraînement dans la jungle"
+colombia.1.d:0 "Le climat équatorial chaud des forêts amazoniennes au sud du pays, ainsi que les zones boisées des provinces côtières à l’ouest de Carthagène, créent des conditions difficiles pour la population et constituent un obstacle sérieux pour nos troupes, en particulier en matière d’entraînement et de performance militaire.\n\nQuelques réductions budgétaires nous permettent d’étendre nos infrastructures d’entraînement en zones de jungle et de nommer les nouveaux commandants issus de l’académie militaire à leurs postes respectifs, pour lesquels ils ont été spécifiquement formés. Les jungles de [COL.GetNameDef] deviendront notre terrain de combat, où notre armée, aux côtés des guérilleros, pourra repousser un ennemi supérieur."
+colombia.1.a:0 "Mettons en place ces camps d’entraînement."
+
+colombia.2.t:0 "La reformation de la Grande Colombie !"
+colombia.2.d:0 "Les récents changements dans la structure gouvernementale de [COL.GetNameDef] ont suscité de nombreuses interrogations sur leurs intentions parmi nos officiels à Caracas et nos ambassadeurs à Bogota.\n\nCe matin, le gouvernement de [VEN.GetLeader] a reçu une demande officielle pour la reformation de l’alliance [VEN.GetAdjective]-[COL.GetAdjective] sous la direction de cette dernière, dans le but de restaurer l’héritage perdu de la Grande Colombie.\n\nLes officiels [COL.GetAdjective] déclarent que si l’accord est accepté, le gouvernement [VEN.GetAdjective] sera intégré efficacement à l’appareil d’État avec une représentation appropriée au parlement. En cas de refus, les diplomates [COL.GetAdjective] menacent de franchir notre frontière avec leur armée."
+colombia.2.a:0 "Unissons-nous pour le bien commun."
+colombia.2.b:0 "Nous voulons préserver notre indépendance."
+
+colombia.3.t:0 "Hermano Bolivariano"
+colombia.3.d:0 "La demande d’intégration arrivait à expiration à 18 h aujourd’hui. Heureusement, nous avons reçu une réponse officielle du gouvernement de [VEN.GetLeader] dix heures avant la fin de l’ultimatum.\n\nLe télégramme de [VEN.GetNameDef] stipulait : « L’influence croissante de [USA.GetNameDef] en Amérique du Sud inquiète également le gouvernement et les officiels [VEN.GetAdjective]. Seul un État unifié et puissant tel que la Grande Colombie peut rivaliser avec le géant endormi du Nord. »\n\nAprès un siècle, nos frères [VEN.GetAdjective] ont accepté avec joie de redevenir partie intégrante de la Grande Colombie."
+colombia.3.a:0 "Hermanos, bienvenue en Grande Colombie !"
+
+colombia.4.t:0 "L’invasion de [VEN.GetNameDef]"
+colombia.4.d:0 "La demande d’intégration arrivait à expiration à 18 h aujourd’hui. N’ayant reçu aucune réponse officielle des autorités [VEN.GetAdjective], nous pouvons supposer que leur faible gouvernement tente de gagner du temps pour mobiliser davantage de forces.\n\nNos éclaireurs signalent une activité accrue des troupes [VEN.GetAdjective] à notre frontière. Ils préparent leurs défenses et mobilisent leurs réserves. Même si toutes nos forces ne sont pas encore en place, nous devons frapper maintenant, alors que l’ennemi s’y attend le moins.\n\nAux armes, peuple de [COL.GetNameDef] ! L’heure est venue de reprendre les territoires perdus de la Grande Colombie !"
+colombia.4.a:0 "En avant !"
+
+colombia.6.t:0 "Le Panama reconquis"
+colombia.6.d:0 "Nous sommes le pays que nous savons être"
+colombia.6.a:0 "Juste à temps"
+
+colombia.11.t:0 "Nouvelle unité amphibie créée"
+colombia.11.d:0 "Les récentes recherches et développements d’équipements de soutien ont inspiré notre équipe scientifique à une idée brillante : lever des fonds pour établir une unité militaire moderne composée de bataillons d’infanterie amphibie soutenus par de l’artillerie, des ingénieurs, des éclaireurs et des équipes hospitalières de campagne.\n\nL’entraînement d’une telle unité spécialisée demandera beaucoup plus de temps et d’efforts qu’un régiment d’infanterie standard. Cependant, elle devrait offrir d’excellentes performances lors des opérations amphibies et dans les environnements humides."
+colombia.11.a:0 "Ajoutez la proposition documentée au registre de nos forces armées."
+colombia11_tt:0 "Nous recevrons un modèle d’élite de marines appelé §YInfantes de Marina§!."
+
+colombia.12.t:0 "Les généraux soutiennent la création d’une unité de parachutistes"
+colombia.12.d:0 "La coopération étroite entre notre département R&D et l’état-major a abouti à une proposition visant à établir une unité spéciale capable de débarquer par les airs derrière les lignes ennemies et d’opérer dans leurs zones arrière. La technologie des parachutistes pourrait devenir un atout décisif si nous obtenons la supériorité aérienne dans la région.\n\nDes améliorations supplémentaires incluent la formation spécialisée d’ingénieurs, des canons aéroportés et un régiment radio léger supplémentaire capable d’utiliser les fréquences ennemies pour les communications de nos troupes sans être détecté."
+colombia.12.a:0 "Ajoutez le dossier de cette unité pour utilisation par nos forces armées."
+colombia12_tt:0 "Nous recevrons un modèle de parachutistes §YUnidad Condor§! avec cinq régiments de parachutistes et plusieurs compagnies de soutien."
+
+colombia.13.t:0 "Proposition concernant la police militaire"
+colombia.13.d:0 "Toute rébellion ouverte ou action de protestation menée par l’opposition radicale et les combattants terroristes ne peut rester impunie. L’emprise du gouvernement sur le pays restera incontestée tant qu’elle suivra la volonté du peuple.\n\nSi nous voulons réprimer plus efficacement les guérillas et les partisans, nos experts militaires suggèrent de former un nouveau régiment de police militaire dont l’unique objectif sera d’assurer l’ordre et la stabilité dans nos zones sensibles.\n\nCette unité sera composée de cinq unités de cavalerie avec des instructeurs spécialisés, formés spécifiquement pour lutter contre la résistance."
+colombia.13.a:0 "Nous devons commencer à former le personnel immédiatement !"
+colombia13_tt:0 "Le modèle de police militaire §YPolicía Militar§! avec cinq unités de cavalerie et un soutien de police militaire est désormais disponible."
+
+colombia.1001.t:0 "Nouveau pacte de défense formé"
+colombia.1001.d:0 "Constatant les ambitions croissantes de Grande Colombie du gouvernement [COL.GetAdjective], des responsables inquiets de [ECU.GetNameDef] et [PAN.GetNameDef] ont entamé de vives négociations visant à former un pacte défensif contre la résurgence de l’État plus que défunt de la Grande Colombie.\n\nLes deux pays massent des troupes aux frontières, prêts à se battre jusqu’au dernier homme pour leur indépendance."
+colombia.1001.a:0 "Cela assurera la sécurité de nos États pour un certain temps !"
+
+guacamaya:0 "GuaCamaya"
+ararauna:0 "AraNautica"
+titi:0 "Tití"
+mico_titi_designer:0 "Concepteur de chars légers"
+ara_aircraft_manufacturer:0 "Bombardier naval agile"
+COL_create_garisson:0 "Créer §Y2 divisions Guarnición de la Costa§! dans §Y[THIS.GetName]§!."
+COL_alberto_narino_cheyne:0 "Alberto Nariño Cheyne"
+COL_luis_acevedo_torres:0 "Luis Acevedo Torres"
+COL_jose_piedrahita_escobar:0 "José Piedrahita Escobar"
+COL_luis_arturo_rodriguez:0 "Luis Arturo Rodríguez"
+
+# Priorités
+COL_embrace_our_catholic_heritage:0 "Adopter notre héritage catholique"
+COL_embrace_our_catholic_heritage_desc:0 "Nous devons embrasser notre héritage catholique et maintenir de bonnes relations avec l’Église."
+
+COL_legalize_the_pcc:0 "Légaliser le PCC"
+COL_legalize_the_pcc_desc:0 "Afin que la voix des travailleurs soit entendue, nous devons légaliser le PCC."
+
+COL_hermano_bolivariano:0 "Los Hermanos Bolivarianos"
+COL_hermano_bolivariano_desc:0 "Notre passé bolivarien nous appelle à devenir une nation nouvelle et forte !"
+
+COL_industrial_effort:0 "Renforcer l’industrie"
+COL_industrial_effort_desc:0 "Concentrons tous nos efforts politiques sur le développement de l’industrie civile dans un grand bond en avant."
+
+COL_acerias_pdr:0 "Moderniser les Acerías Paz del Río"
+COL_acerias_pdr_desc:0 "Nous avons à la fois du charbon et du fer. Avec des investissements étrangers, nous pouvons produire plus d’acier."
+
+COL_puerto_buenaventura:0 "Axe Buenaventura-Cali"
+COL_puerto_buenaventura_desc:0 "Il est temps de relier les plaines fertiles du Valle del Cauca au port en eau profonde de Buenaventura."
+
+COL_indumil:0 "Industria Militar de Colombia"
+COL_indumil_desc:0 "La création d’une entreprise publique chargée de la fabrication de munitions, fusils et explosifs permettra de mieux équiper notre armée."
+
+COL_infrastructure_caribe:0 "Relier l’Atlántico"
+COL_infrastructure_caribe_desc:0 "De nombreux efforts peuvent être entrepris pour relier le fleuve Magdalena à Carthagène, améliorer le port de Barranquilla et soutenir l’industrie croissante de Medellín."
+
+COL_indumil_2:0 "Étendre l’Industria Militar"
+COL_indumil_2_desc:0 "La situation actuelle exige l’expansion de nos capacités de production d’armes pour répondre aux besoins croissants de notre armée."
+
+COL_fortify_caribe:0 "Fortifier la côte caraïbe"
+COL_fortify_caribe_desc:0 "La côte caraïbe est l’endroit où nous sommes le plus vulnérables, notamment face aux invasions navales. L’installation de fortifications côtières nous permettra de réduire ces risques."
+
+COL_fortify_caribe_aa:0 "Protéger le ciel du nord"
+COL_fortify_caribe_aa_desc:0 "Notre côte est également vulnérable à d’éventuelles attaques aériennes. Nous devrions installer des batteries anti-aériennes pour garantir une protection supplémentaire."
+
+COL_infrastructure_harsh:0 "Améliorer les infrastructures nationales"
+COL_infrastructure_harsh_desc:0 "De nombreuses régions de [COL.GetNameDef] restent mal reliées. Des travaux importants et une extension des infrastructures permettront d’exploiter leur potentiel économique."
+
+COL_industry_effort_2:0 "Acquérir des machines modernes"
+COL_industry_effort_2_desc:0 "De nouvelles techniques industrielles ont émergé ces dernières années. La modernisation de nos équipements permettra d’améliorer notre potentiel économique."
+
+COL_war_with_andeans:0 "Guerre contre les Andins"
+COL_war_with_andeans_desc:0 "Il est temps de convaincre [PRU.GetNameDef] de rejoindre notre grande cause. Les Andes sont difficiles à conquérir, mais notre nouvelle division de parachutistes Condor aidera à cette campagne."
+
+COL_etnocacerismo:0 "Suivre les ethnocacéristes"
+COL_etnocacerismo_desc:0 "Notre reconquête de la Grande Colombie est désormais une véritable croisade pour unir les peuples des Andes !"
+
+COL_etnocacerismo_2:0 "Ethnocacérisme accompli"
+COL_etnocacerismo_2_desc:0 "Nous sommes désormais proches de devenir une immense nation indivisible."
+COL_etnocacerismo_2_tt:0 "§YEthnocacérisme§!"
+
+COL_altillanura_ress:0 "Explorer l’Orénoquie"
+COL_altillanura_ress_desc:0 "Il est temps d’investir dans la région de l’Orénoquie, d’améliorer la production de caoutchouc et d’exploiter les gisements de bauxite."
+
+COL_gran_colombia:0 "Revendiquer la Grande Colombie"
+COL_gran_colombia_desc:0 "Seule une grande nation est garantie de survivre aux menaces du monde."
+
+COL_nuclear_effort:0 "Programme nucléaire"
+COL_nuclear_effort_desc:0 "À l’aube d’une découverte qui changera le monde, nous ne pouvons laisser d’autres allumer le feu qui pourrait un jour consumer la Terre."
+
+COL_extra_tech_slot:0 "Financer les universités"
+COL_extra_tech_slot_desc:0 "Notre expansion industrielle et nos récents progrès nous permettent de mener davantage de recherches en parallèle."
+
+COL_extra_tech_slot_2:0 "Subventions à la recherche"
+COL_extra_tech_slot_2_desc:0 "L’industrialisation rapide de notre nation a ouvert de nouvelles opportunités de recherche que nous devons exploiter."
+
+COL_technology_sharing:0 "Partage technologique"
+COL_technology_sharing_desc:0 "En partageant nos avancées technologiques avec nos alliés, toute notre faction mènera plus efficacement ses recherches en temps de guerre."
+
+COL_secret_weapons:0 "Armes secrètes"
+COL_secret_weapons_desc:0 "Il serait tentant de consacrer toutes nos ressources supplémentaires au développement de chars et d’avions, mais le secret pour gagner les guerres réside dans de nouveaux domaines scientifiques : électronique, fusées et recherche nucléaire."
+
+COL_political_effort:0 "Congrès de Colombie"
+COL_political_effort_desc:0 "Pour changer le monde, nous devons commencer par changer notre pays. Renforcer notre position politique doit être la priorité."
+
+COL_collectivist_ethos:0 "S’opposer aux réformes de López"
+COL_collectivist_ethos_desc:0 "Nos ennemis peuvent diviser et conquérir les nations les plus faibles, mais notre peuple restera uni – tous pour un et un pour tous."
+
+COL_militarism:0 "Militariser l’État"
+COL_militarism_desc:0 "Ceux qui considèrent l’armée comme un mal nécessaire sont condamnés à hésiter face à la guerre. Nous ancrerons le militarisme dans notre culture pour devenir un peuple de soldats."
+
+COL_political_correctness:0 "Nationaliser l’industrie"
+COL_political_correctness_desc:0 "Pour libérer les travailleurs des chaînes capitalistes, nous devons commencer par prendre le contrôle des moyens de production."
+
+COL_neutrality_focus:0 "Priorité à la neutralité"
+COL_neutrality_focus_desc:0 "Certains prétendent qu’il faut du courage et de la sagesse pour prendre parti dans un conflit mondial ; nous savons qu’il en faut encore plus pour refuser."
+
+COL_interventionism_focus:0 "Priorité à l’interventionnisme"
+COL_interventionism_focus_desc:0 "Nous valorisons la liberté de tous les peuples, pas seulement celle de nos citoyens. Si empêcher la tyrannie signifie la guerre, qu’il en soit ainsi."
+
+COL_military_youth:0 "Jeunesse militaire"
+COL_military_youth_desc:0 "Des organisations destinées à promouvoir la discipline et l’éducation politique des jeunes de notre nation encourageront la loyauté et l’esprit de sacrifice dès le plus jeune âge."
+
+COL_deterrence:0 "Dissuasion"
+COL_deterrence_desc:0 "Isolés, nous tirons rarement profit de la guerre. Heureusement, nous savons que la meilleure défense est celle qui est si connue qu’il n’est jamais nécessaire de l’utiliser."
+
+COL_volunteer_corps:0 "Corps de volontaires"
+COL_volunteer_corps_desc:0 "Forcer notre peuple à mourir pour des idéaux de liberté serait un comble, mais offrir à ceux qui le souhaitent les moyens d’aider les peuples à l’étranger ne l’est pas."
+
+COL_paramilitarism:0 "Fonder la Juventud Leopardo"
+COL_paramilitarism_desc:0 "Les principes militaires trouvent des applications au-delà de l’armée. Si nous développons des unités semi-militarisées pour compléter nos forces armées, davantage de citoyens recevront une formation militaire."
+
+COL_join_the_comintern:0 "Rejoindre le Komintern"
+COL_join_the_comintern_desc:0 "Nous devons aider nos camarades socialistes du monde entier à vaincre le capitalisme. [SOV.GetNameDefCap] est la force motrice de ce combat ; nous devons donc nous tenir à ses côtés."
+
+COL_soviet_technological_cooperation:0 "Coopération technologique [SOV.GetAdjective]"
+COL_soviet_technological_cooperation_desc:0 "[SOV.GetNameDefCap] a réalisé de grands progrès scientifiques. Maintenant que nous combattons côte à côte, nous pouvons profiter de leur expertise."
+
+COL_indoctrination_focus:0 "Introduire les commissaires politiques"
+COL_indoctrination_focus_desc:0 "L’introduction de commissaires politiques dans les rangs de l’armée nous permettra de rappeler à nos troupes la noble cause pour laquelle elles se battent."
+
+COL_foreign_expeditions:0 "Expéditions à l’étranger"
+COL_foreign_expeditions_desc:0 "Puisque nos ennemis sont prêts à intervenir dans des conflits lointains au nom de leurs idéaux, nous devons être prêts à faire de même pour les nôtres."
+
+COL_why_we_fight:0 "Pourquoi nous combattons"
+COL_why_we_fight_desc:0 "Le monde devient de plus en plus dangereux. Notre peuple doit voir les atrocités commises par ceux qui convoitent le pouvoir. Nous rallierons la nation à notre cause et veillerons à ce que chacun soit prêt à se battre pour notre liberté."
+
+COL_political_commissars:0 "Commissaires politiques"
+COL_political_commissars_desc:0 "Pour garantir l’application de nos politiques dans la pratique militaire, nous introduirons des responsables nommés politiquement dans les rangs de l’armée."
+
+COL_internationalism_focus:0 "La Revolución Popular"
+COL_internationalism_focus_desc:0 "L’idéologie ne connaît pas de frontières. Une autre nation peut se dire souveraine, mais nos convictions priment sur de telles prétentions."
+
+COL_nationalism_focus:0 "Coup d’État des Leopardos"
+COL_nationalism_focus_desc:0 "Notre nation est unique, et nos réussites politiques n’auraient pu se produire ailleurs. Nous devons la défendre à tout prix."
+
+COL_ideological_fanaticism:0 "Fanatisme idéologique"
+COL_ideological_fanaticism_desc:0 "Nos valeurs et objectifs politiques établis valent autant la peine de mourir que n’importe quelle foi ancienne. Tout fidèle doit être prêt à affronter la mort, et ceux qui s’en écartent doivent aussi s’y préparer."
+
+COL_mosquitos:0 "Légitimer la Grande Colombie"
+COL_mosquitos_desc:0 "Avec le Panama, l’Équateur et le Venezuela sous notre contrôle, nous devons commencer à intégrer leur administration à la Grande Colombie."
+
+COL_axis_leanings_focus:0 "Se lier d’amitié avec les Allemands"
+COL_axis_leanings_focus_desc:0 "L’Axe offre certains avantages technologiques."
+
+COL_axis_leanings_focus_2:0 "Échange de ressources [GER.GetAdjective]"
+COL_axis_leanings_focus_2_desc:0 "Plus de technologies, au prix de quelques exportations."
+
+COL_axis_leanings_focus_3:0 "Rejoindre l’Axe"
+COL_axis_leanings_focus_3_desc:0 "Si les ambitions de la Colombie sont gravées dans la pierre, nous devons nous aligner sur l’Axe et en finir avec nos ennemis !"
+
+COL_montana_effort:0 "Effort Alta Montaña"
+COL_montana_effort_desc:0 "Il est temps de nous préparer à la guerre dans les Andes."
+
+COL_intensify_exports:0 "Intensifier nos exportations"
+COL_intensify_exports_desc:0 "Notre économie repose fortement sur l’exportation de biens, et nous avons décidé que c’était la meilleure voie vers la réussite économique. Nous devons donc intensifier encore davantage notre commerce et nos exportations."
+
+COL_explore_amazonia:0 "Exploiter l’Amazonie"
+COL_explore_amazonia_desc:0 "L’État ne contrôle pas pleinement la production de caoutchouc à Guaviare. Il est temps que notre État légitime en prenne la charge. Par ailleurs, nos troupes peuvent y apprendre quelques notions de survie en jungle."
+
+COL_minning:0 "Exploitation minière à grande échelle"
+COL_minning_desc:0 "Les premières prospections de notre territoire indiquent qu’il contient une quantité importante de minerai, prête à être extraite. Nous devons construire les infrastructures pour faciliter cette exploitation."
+
+COL_hidroelectrics:0 "Développer l’hydroélectricité"
+COL_hidroelectrics_desc:0 "La géographie montagneuse se prête parfaitement à la construction de barrages. Nos besoins en énergie augmentant, le moment est venu d’en profiter."
+
+COL_coffe_growth:0 "Maintenir la dépendance au café"
+COL_coffe_growth_desc:0 "Le café est l’une de nos principales exportations. Nous veillerons à en vendre toujours plus en négociant de nouveaux accords commerciaux."
+
+# Menaces
+COL_war_with_andean_threat:0 "Ambitions bolivariennes dans les Andes"
