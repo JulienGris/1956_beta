@@ -1,0 +1,325 @@
+l_french:
+ estonian_focus:0 "Arbre national estonien"
+
+ # Décisions
+ EST_a_tale_of_leningrad:0 "Un conte de Leningrad"
+ EST_a_tale_of_leningrad_desc:0 "Après la victoire éclatante de nos forces estoniennes, comme l’Histoire n’en avait jamais vu, il est temps de détruire les derniers vestiges de l’héritage bolchevique en Europe. Le berceau septentrional du communisme doit être effacé !"
+
+ EST_support_estonian_latvian_brotherhood:0 "Soutenir la fraternité [EST.getAdjective]-[LAT.getAdjective]"
+ EST_support_estonian_latvian_brotherhood_desc:0 "Nous avons conquis l’ensemble de l’ancien territoire letton et faisons face à une occasion unique d’étendre encore notre empire ! En suivant la voie de nos ancêtres, il nous serait possible d’unir toutes les anciennes terres de l’Ordre livonien sous notre bannière !"
+
+ est.11.t:0 "[From.GetName] demande la participation [Root.GetAdjective] à l’Entente baltique"
+ est.11.d:0 "Avec la signature d’un traité d’amitié entre nos nations, [From.GetName] a demandé que [Root.GetName] les rejoigne dans leur [From.GetFactionName], afin de s’unir contre les menaces croissantes qui nous entourent. Qu’elles soient communistes ou fascistes, [From.GetName] promet de défendre les intérêts [Root.GetAdjective]."
+ est.11.a:0 "[Root.GetName] se tient aux côtés de ses frères."
+ est.11.b:0 "[Root.GetName] ne peut survivre que seul."
+ est.12.t:0 "[From.GetName] rejoint la [Root.GetFactionName] !"
+ est.12.d:0 "Reconnaissant la nécessité de l’unité face aux menaces qui encerclent nos pays, [From.GetLeader] a annoncé aujourd’hui au monde que [From.GetName] a conclu un traité avec [Root.GetName] pour notre sécurité mutuelle."
+ est.12.a:0 "[Root.GetName] et [From.GetName] sont désormais frères d’armes."
+ est.13.t:0 "[From.GetName] refuse de rejoindre la [Root.GetFactionName]"
+ est.13.d:0 "Dans un acte insensé de pseudo-préservation, [From.GetLeader] a annoncé que [From.GetName] s’abstiendrait de toute action diplomatique pouvant sembler menaçante aux yeux de leurs puissants voisins. Ils ont donc décliné notre demande d’adhésion à la [Root.GetFactionName]."
+ est.13.a:0 "La seule sécurité réside dans l’union."
+ est.14.t:0 "Élection de l’Assemblée nationale de 1936"
+ est.14.d:0 "Un référendum constitutionnel se tient actuellement, motivé par le caractère trop autoritaire de la constitution précédente. Tous les partis ont été interdits, à l’exception de la Ligue patriotique, scellant pratiquement le sort de la nouvelle constitution."
+ est.14.a:0 "L’Estonie a besoin d’un chef fort en ces temps difficiles."
+ est.15.t:0 "Traité d’assistance mutuelle soviéto-estonien"
+ est.15.d:0 "Le gouvernement estonien nous a proposé l’accès à ses bases militaires si nous leur garantissons une protection contre toute invasion ou menace. Accepter pourrait nous être bénéfique en les plaçant davantage dans notre sphère."
+ est.15.a:0 "Cela nous sera très profitable."
+ est.15.b:0 "C’est une perte de temps et de ressources."
+ est.16.t:0 "Les Soviétiques acceptent la proposition"
+ est.16.d:0 "Les troupes soviétiques ont commencé à s’installer dans nos bases. Les autorités affirment avoir accepté notre proposition et garantissent de nous protéger des menaces étrangères."
+ est.16.a:0 "C’est pour le mieux."
+ est.17.t:0 "Les Soviétiques rejettent la proposition"
+ est.17.d:0 "Le régime soviétique a ignoré nos tentatives de contact et a refusé toute négociation avec nos diplomates."
+ est.17.a:0 "Un revers regrettable."
+ est.18.t:0 "Les partis légalisés se présentent aux élections"
+ est.18.d:0 "Avec le boycott massif des élections par les citoyens, Konstantin Päts a été contraint de faire des concessions. Beaucoup réclament le retour de la démocratie, tandis que les électeurs plus radicaux souhaitent se rapprocher de l’Allemagne ou de l’Union soviétique. Ces élections peuvent basculer dans n’importe quelle direction."
+ est.18.a:0 "Un retour à la démocratie est notre meilleur espoir."
+ est.18.b:0 "Des liens étroits avec l’Allemagne sont la meilleure option."
+ est.18.c:0 "L’Union ouvrière du peuple estonien nous guidera."
+# Focus
+ EST_the_four_year_plan:0 "Le plan quadriennal"
+ EST_the_four_year_plan_desc:0 "Notre industrie et notre agriculture sont à la traîne par rapport au niveau de production que nous avions avant la Grande Dépression. Mettons-les à niveau en lançant un plan quadriennal."
+
+ EST_tallinn_tartu_highways:0 "Autoroutes Tallinn-Tartu"
+ EST_tallinn_tartu_highways_desc:0 "Les infrastructures sont essentielles aux déplacements. Elles permettent à nos troupes de se mouvoir plus vite et de transporter davantage d’équipement. Suivons l’exemple allemand et construisons notre propre Autobahn."
+
+ EST_develop_our_railroads:0 "Développer notre réseau ferroviaire"
+ EST_develop_our_railroads_desc:0 "Notre réseau ferré est encore très sous-développé — nos troupes ne peuvent se permettre d’être ralenties en transit. Nous devons réparer et prolonger nos anciennes lignes."
+
+ EST_build_better_capital:0 "Moderniser la capitale"
+ EST_build_better_capital_desc:0 "Notre capitale, Tallinn, regorge encore de vieilles maisons en bois délabrées. La vieille ville a beaucoup changé au fil des siècles et mérite une véritable restauration."
+
+ EST_invest_in_the_military:0 "Investir dans l’armée"
+ EST_invest_in_the_military_desc:0 "Adapter des usines civiles pour produire de l’équipement militaire est inefficace. Nous devons désormais préparer une production spécifiquement militaire."
+
+ EST_more_civilian_factories:0 "Exporter les produits laitiers"
+ EST_more_civilian_factories_desc:0 "Nous pouvons utiliser nos ressources en viande, poisson et produits laitiers pour renforcer nos accords commerciaux."
+
+ EST_start_central_industrial_region:0 "Lancer la région industrielle centrale"
+ EST_start_central_industrial_region_desc:0 "Posons les fondations d’une industrie centralisée de l’armement."
+
+ EST_the_bombe:0 "La Bombe"
+ EST_the_bombe_desc:0 "Nos ingénieurs ont mis au point une machine brillante qu’ils appellent la « Bombe cryptologique », capable de briser les codes ennemis. Nous avons les moyens de la développer davantage dans notre centre de Tartu Park."
+
+ EST_protect_against_the_red_army:0 "Se protéger de l’Armée rouge"
+ EST_protect_against_the_red_army_desc:0 "En fortifiant les zones stratégiques, nous serons moins vulnérables si la guerre devait à nouveau frapper nos côtes et nos frontières."
+
+ EST_tartu_university_studies:0 "Études de l’université de Tartu"
+ EST_tartu_university_studies_desc:0 "Nos scientifiques réalisent de grands progrès, ouvrant de nouvelles perspectives en R&D que nous devons exploiter. Avec une université technique avancée au cœur du pays, nous pouvons mener plus de recherches."
+
+ EST_additional_research_slot:0 "Institut technique de Tallinn"
+ EST_additional_research_slot_desc:0 "Des siècles d’occupation ont freiné notre développement, mais maintenant que nous sommes libres, nous pouvons rattraper notre retard technologique."
+
+ EST_foreign_cooperation:0 "Coopération étrangère"
+ EST_foreign_cooperation_desc:0 "L’Estonie dépend largement des pays prêts à l’aider dans sa lutte contre [SOV.getNameDef]."
+
+ EST_expand_port_paldiski:0 "Agrandir le port de Paldiski"
+ EST_expand_port_paldiski_desc:0 "Paldiski est notre principal accès à la mer Baltique, proche de notre capitale et du golfe de Finlande. Si nous voulons garantir un flux régulier de ressources maritimes, nous devons améliorer ce port."
+
+ EST_prepare_for_war:0 "Se préparer à la guerre"
+ EST_prepare_for_war_desc:0 "La grande guerre d’indépendance n’était peut-être que la première. Nous devons nous préparer à un champ de bataille en constante évolution."
+
+ EST_foundation_of_kumu:0 "Fondation du Kumu"
+ EST_foundation_of_kumu_desc:0 "Le Kumu est un musée estonien fondé en 1938. Créons ce lieu pour que nos petits-enfants puissent admirer les hauts faits de leurs aïeux."
+
+ EST_invest_in_the_military_II:0 "Convertir les usines de bicyclettes"
+ EST_invest_in_the_military_II_desc:0 "Nos généraux affirment que nous disposons de beaucoup d’espace pour de nouvelles usines d’armement, notamment à partir d’anciens ateliers de vélos. Des investisseurs semblent intéressés. Élargissons notre capacité militaro-industrielle."
+
+ EST_more_civilian_factories_II:0 "Reconversion des industries artisanales"
+ EST_more_civilian_factories_II_desc:0 "En recentrant nos ateliers, nous accélérerons la production de biens destinés au commerce et aux futurs chantiers."
+
+ EST_heavy_industry:0 "Industrie lourde"
+ EST_heavy_industry_desc:0 "Nos usines ne doivent pas dépendre de matières premières étrangères. En développant notre production de métaux, nous pourrons nous libérer des importations."
+
+ EST_standardization_of_equipment:0 "Uniformiser l’équipement"
+ EST_standardization_of_equipment_desc:0 "En standardisant l’armement de nos soldats, nous posons les bases d’un système logistique moderne."
+
+ EST_escort_effort:0 "Effort d’escorte"
+ EST_escort_effort_desc:0 "Les sous-marins menacent nos convois marchands. Le développement de nouveaux modèles de destroyers nous permettra de mener efficacement la guerre anti-sous-marine."
+
+ EST_navy_tactics:0 "Tactiques navales"
+ EST_navy_tactics_desc:0 "En perfectionnant les contre-tactiques pour contrer nos ennemis les plus probables, nous garderons l’avantage en mer."
+
+ EST_destroyer_focus:0 "Accent sur les destroyers"
+ EST_destroyer_focus_desc:0 "Les cuirassés modernes sont des merveilles, mais nous ne devons pas négliger le rôle crucial des destroyers dans la protection de nos convois."
+
+ EST_army_modernisation:0 "Modernisation de l’armée"
+ EST_army_modernisation_desc:0 "Des armes modernes pour des hommes modernes !"
+
+ EST_strengthen_the_government:0 "Renforcer le gouvernement"
+ EST_strengthen_the_government_desc:0 "Nous ne pouvons nous permettre la division. Notre capacité à agir dépend directement de notre unité, au Sénat comme au gouvernement."
+
+ EST_nobody_expects:0 "Personne ne s’y attend"
+ EST_nobody_expects_desc:0 "Nous ne devons pas manquer l’occasion d’être les premiers à maîtriser le feu primordial de la fission."
+
+ EST_create_our_own_faction:0 "Créer notre propre faction"
+ EST_create_our_own_faction_desc:0 "Bien que l’Allemagne soit actuellement la principale force du fascisme, l’Estonie peut s’affirmer seule. Nous n’avons pas besoin de rejoindre leur bloc et d’être sous leurs ordres. Forgeons notre propre destin !"
+
+ EST_study_foreign_tanks:0 "Étudier les chars étrangers"
+ EST_study_foreign_tanks_desc:0 "Ces « chars » seront au cœur des conflits modernes. Nous devons nous assurer de rester au niveau de nos voisins, par tous les moyens nécessaires."
+
+ EST_invite_german_experts:0 "Inviter des experts allemands"
+ EST_invite_german_experts_desc:0 "Nous n’avons pas eu beaucoup de temps pour concevoir nos propres blindés. Invitons des ingénieurs à travailler sur des modèles étrangers, afin d’en analyser les forces et faiblesses et d’en créer de meilleurs encore."
+
+ EST_build_paldiski_port:0 "Construire le port de Paldiski"
+ EST_build_paldiski_port_desc:0 "L’expansion de notre marine doit être une priorité. Mobilisons toutes les ressources disponibles pour agrandir les chantiers navals de notre base de Paldiski."
+
+ EST_finish_central_industrial_region:0 "Achever la région industrielle centrale"
+ EST_finish_central_industrial_region_desc:0 "Terminons notre industrie centralisée de l’armement."
+
+ EST_planned_expansion:0 "Expansion planifiée"
+  EST_planned_expansion_desc:0 "Pour stimuler notre marché de la construction et intensifier nos efforts industriels, nous pouvons laisser l’État investir dans des entreprises publiques du bâtiment."
+
+ EST_start_fundraising:0 "Augmenter les collectes de fonds"
+ EST_start_fundraising_desc:0 "Les enfants estoniens souffrent de malnutrition alors que notre capacité industrielle est mobilisée pour soutenir la guerre. Nos alliés, à l’arrière, ne connaissent pas ce problème. Nous devons leur demander de partager une partie de leurs ressources afin que notre peuple puisse véritablement tenir."
+
+ EST_gender_equality:0 "Égalité des sexes"
+ EST_gender_equality_desc:0 "Nos statistiques montrent que les hommes, à travail égal, sont mieux payés et ont de meilleures opportunités que les femmes. C’est une absurdité qu’il faut abolir. Les femmes doivent bénéficier des mêmes droits !"
+
+ EST_motorized_focus:0 "Accent sur la motorisation"
+ EST_motorized_focus_desc:0 "Si nous voulons lancer des opérations offensives, il nous faut une armée motorisée, ne serait-ce que partiellement."
+
+ EST_Livonian_bridgehead_strategy:0 "Tête de pont livonienne"
+ EST_Livonian_bridgehead_strategy_desc:0 "Si les combats devaient tourner à notre désavantage, nous devons disposer de plans pour nous regrouper et contre-attaquer efficacement aux côtés de nos alliés."
+
+ EST_kohta_jarve_oil_sources:0 "Sources pétrolières de Kohtla-Järve"
+ EST_kohta_jarve_oil_sources_desc:0 "Nous venons de découvrir les premières traces de gisements exploitables à Kohtla-Järve. Nos scientifiques affirment qu’ils sont assez vastes pour alimenter notre industrie pendant des siècles ! Il est temps de forer."
+
+ EST_artillery_modernisation:0 "Modernisation de l’artillerie"
+ EST_artillery_modernisation_desc:0 "Nous ne devons pas négliger l’amélioration et la modernisation du soutien indispensable à nos soldats pour un déploiement efficace."
+
+ EST_anti_tank_guns:0 "Canons antichars"
+ EST_anti_tank_guns_desc:0 "Nos ennemis utiliseront certainement des chars contre nous, surtout les Soviétiques. Préparons-leur l’accueil qu’ils méritent."
+
+ EST_air_base_expansion:0 "Extension des bases aériennes"
+ EST_air_base_expansion_desc:0 "Les bases aériennes sont aussi essentielles au soutien aérien que l’aviation l’est à la guerre moderne."
+
+ EST_fighter_modernisation:0 "Modernisation des chasseurs"
+ EST_fighter_modernisation_desc:0 "Épine dorsale de toute armée de l’air, nos chasseurs ne doivent pas devenir obsolètes. À mesure que le reste de notre aviation progresse, eux aussi doivent évoluer."
+
+ EST_air_innovations:0 "Innovations aériennes"
+ EST_air_innovations_desc:0 "Il reste encore beaucoup à faire dans le domaine de la stratégie et des tactiques aériennes."
+
+ EST_heavy_fighter_concept:0 "Concept de chasseur lourd"
+ EST_heavy_fighter_concept_desc:0 "Si nous devons passer à l’offensive, nous aurons besoin d’un nouveau type de chasseur capable d’opérer longtemps en territoire ennemi."
+
+ EST_naval_bomber_experiments:0 "Expérimentations de bombardiers navals"
+ EST_naval_bomber_experiments_desc:0 "La suprématie aérienne est aussi cruciale en mer que sur terre. Développer des avions spécialisés pour la guerre navale est un moyen d’atteindre cet objectif."
+
+ EST_medium_bomber_focus:0 "Accent sur les bombardiers moyens"
+ EST_medium_bomber_focus_desc:0 "Un prolongement de la philosophie du bombardement de précision, adapté à une plus longue portée pour des rôles de soutien."
+
+ EST_light_bomber_focus:0 "Accent sur les bombardiers légers"
+ EST_light_bomber_focus_desc:0 "L’efficacité des bombardiers en piqué pour l’appui rapproché ne doit pas être sous-estimée."
+
+ EST_air_modernisations_programme:0 "Programme de modernisation aérienne"
+ EST_air_modernisations_programme_desc:0 "La théorie aéronautique est aussi importante que la technologie. De nouvelles tactiques attendent encore d’être découvertes par nos pilotes."
+
+ EST_special_marine_forces:0 "Forces marines spéciales"
+ EST_special_marine_forces_desc:0 "Toute opération offensive dans la Baltique nécessitera une force amphibie. Nous devons rétablir le Meredessantpataljon."
+
+ EST_protect_our_borders:0 "Protéger nos frontières"
+ EST_protect_our_borders_desc:0 "En construisant des fortifications terrestres, nous montrerons aux Soviétiques que nous sommes déterminés à nous défendre contre toute menace extérieure, pas seulement la leur."
+
+ EST_deterrence:0 "Dissuasion"
+ EST_deterrence_desc:0 "La montée des menaces fascistes en Europe montre que de simples déclarations de neutralité ne suffisent pas. Nous devons nous armer pour défendre notre statut."
+
+ EST_reform_government:0 "Réformer le gouvernement"
+ EST_reform_government_desc:0 "En travaillant ensemble, nous pourrons surmonter les temps difficiles qui nous attendent. Mais pour réussir, il faut purger le gouvernement des idéologies fascistes et communistes et interdire ces partis."
+
+ POL_rocket_development_x:0 "Développement des fusées"
+ POL_rocket_development_x_desc:0 "Concentrons nos efforts sur le développement de notre propre technologie de fusées. Avec la capacité de frapper sans prévenir, nos forces deviendront redoutables !"
+
+ EST_national_assembly_election:0 "Élection de l’Assemblée nationale"
+ EST_national_assembly_election_desc:0 "Un référendum constitutionnel est en cours, l’ancienne constitution étant jugée trop autoritaire. Tous les partis ont été interdits, à l’exception de la Ligue patriotique, scellant presque le sort du texte."
+
+ EST_adopt_the_third_constiution:0 "Adopter la troisième constitution"
+ EST_adopt_the_third_constiution_desc:0 "Adopter la nouvelle constitution mettra fin aux troubles civils liés à l’ancienne et à ses pouvoirs excessifs."
+
+ EST_bypass_the_riigikogu:0 "Contourner le Riigikogu"
+ EST_bypass_the_riigikogu_desc:0 "Le Riigikogu n’est plus qu’un obstacle aux réformes. L’écarter pour imposer nos lois est la meilleure façon d’atteindre nos objectifs."
+
+ EST_disband_student_councils:0 "Dissoudre les mouvements étudiants"
+ EST_disband_student_councils_desc:0 "Les protestations étudiantes pour les libertés civiles ont pris une ampleur excessive. Elles doivent être interdites immédiatement."
+
+ EST_amnesty_for_opponents:0 "Amnistie pour les opposants politiques"
+ EST_amnesty_for_opponents_desc:0 "Avec l’opposition vaincue, nous pouvons accorder une amnistie pour stabiliser la nation."
+
+ EST_economic_stimulous:0 "Programmes de développement"
+ EST_economic_stimulous_desc:0 "L’économie estonienne n’est peut-être pas la plus forte, mais grâce à des programmes adaptés, nous pouvons la hisser à un nouveau niveau."
+
+ EST_under_representation:0 "Sous-représenter l’opposition"
+ EST_under_representation_desc:0 "Le peuple n’a pas besoin d’entendre les mensonges des réformateurs radicaux. Ils ne méritent pas non plus de sièger au gouvernement."
+
+ EST_appoint_fredrich_karl_akel:0 "Nommer des ministres étrangers allemands"
+ EST_appoint_fredrich_karl_akel_desc:0 "Nous devrions tenter d’apaiser les deux géants qui nous entourent, même si cela implique de leur offrir une place au sein de notre gouvernement."
+
+ EST_soviet_estonian_treaty:0 "Traité d’assistance mutuelle soviéto-estonien"
+ EST_soviet_estonian_treaty_desc:0 "L’Estonie et toute la Baltique restent entourées d’ennemis supérieurs. Si nous coopérons ne serait-ce qu’avec l’un d’entre eux, nous aurons une chance de survie."
+
+ EST_election_boycotts:0 "Encourager les boycotts électoraux"
+ EST_election_boycotts_desc:0 "Les élections ne sont qu’un simulacre permettant à Konstantin Päts d’imposer son programme. Nous pouvons forcer des concessions pour organiser un véritable scrutin libre."
+
+ EST_jaan_tonison:0 "Un retour au républicanisme"
+ EST_jaan_tonison_desc:0 "Jaan Tõnisson réclame depuis longtemps un système plus démocratique. Avec sa victoire électorale, nous pouvons enfin appliquer les réformes nécessaires."
+
+ EST_remove_soviet_sympathizers:0 "Expulser les sympathisants soviétiques"
+ EST_remove_soviet_sympathizers_desc:0 "Les communistes et collaborateurs soviétiques ne doivent avoir aucune influence sur notre pays. Nous devons les écarter avant qu’ils ne deviennent trop puissants."
+
+ EST_agriculture_coopoeratives:0 "Développer les coopératives agricoles"
+ EST_agriculture_coopoeratives_desc:0 "Les coopératives agricoles permettront à notre industrie de se réorienter vers un niveau plus industriel."
+
+ EST_estonianization:0 "Estonisation"
+ EST_estonianization_desc:0 "L’Estonie ne doit céder à aucune influence étrangère. Le reconnaître pourrait renforcer le moral de notre peuple."
+
+ EST_baltic_entente:0 "Renforcer l’Entente baltique"
+ EST_baltic_entente_desc:0 "L’Estonie seule ne pourrait se protéger face aux menaces. Nous devons trouver des alliés pour préserver notre liberté."
+
+ EST_protect_trade:0 "Séparer le commerce de la diplomatie"
+ EST_protect_trade_desc:0 "Nous devrions limiter l’influence de nos actions diplomatiques sur le commerce, afin de favoriser la croissance de notre économie."
+
+ EST_constitutional_referendumm:0 "Organiser un référendum constitutionnel"
+ EST_constitutional_referendumm_desc:0 "Mettre en place un régime qui donne plus de pouvoir aux industriels et coopère avec le Reich allemand est le meilleur choix pour l’avenir."
+
+ EST_land_ownership:0 "Renforcer les propriétaires terriens"
+ EST_land_ownership_desc:0 "Les propriétaires terriens sont la force motrice de notre économie. Leur donner plus de pouvoir au sein du gouvernement ne peut qu’être bénéfique."
+
+ EST_departmentalization:0 "Départementalisation"
+ EST_departmentalization_desc:0 "Décentraliser notre administration est un moyen simple d’assurer davantage de productivité et d’efficacité."
+
+ EST_german_admiration:0 "Briser la sphère soviétique"
+ EST_german_admiration_desc:0 "Beaucoup considèrent que l’Estonie appartient à la sphère d’influence russe. En nous alliant aux ennemis de Moscou, nous pouvons affirmer notre indépendance."
+
+ EST_military_assistance:0 "Manœuvres germano-estoniennes"
+EST_military_assistance_desc:0 "L’armée allemande nous fournit un modèle sur lequel former nos propres forces armées."
+
+EST_estonian_volunteer_regiment:0 "Le régiment de volontaires estoniens"
+EST_estonian_volunteer_regiment_desc:0 "Nous pourrions envoyer quelques divisions soutenir nos alliés sans nous impliquer directement. Cela ne ferait qu’accroître notre expérience."
+
+EST_communist_victory:0 "Le triomphe du Front uni"
+EST_communist_victory_desc:0 "De grandes réformes sociales doivent être entreprises pour assurer la modernisation de l’Estonie."
+
+EST_free_education:0 "Instaurer l’éducation gratuite"
+EST_free_education_desc:0 "L’éducation est un droit fondamental, indispensable à toute nation véritablement développée."
+
+EST_social_security:0 "Prioriser la sécurité sociale"
+EST_social_security_desc:0 "De nombreux pays prospères ont instauré une sécurité sociale avec grand succès. Suivons leur exemple."
+
+EST_combat_unemployment:0 "Lancer des programmes pour l’emploi"
+EST_combat_unemployment_desc:0 "Le chômage reste un problème majeur. Il est temps d’y remédier une bonne fois pour toutes."
+
+EST_salary_raise:0 "Augmenter les salaires de base"
+EST_salary_raise_desc:0 "Une hausse des salaires permettrait d’améliorer les conditions de vie de nombreux travailleurs."
+
+EST_reorganize_taxation:0 "Réorganiser la fiscalité"
+EST_reorganize_taxation_desc:0 "Une plus grande part de nos impôts doit être consacrée à la relance économique et au développement routier."
+
+EST_democratization_of_the_army:0 "Démocratiser l’armée"
+EST_democratization_of_the_army_desc:0 "Toute nation modernisée dispose d’une armée adaptée. De nouvelles tactiques et une réorganisation pourraient s’avérer décisives sur le champ de bataille."
+
+EST_demmand_friendship:0 "Demander l’allégeance à l’Union soviétique"
+EST_demmand_friendship_desc:0 "L’Union soviétique est la seule puissance capable de nous aider à défendre nos idéaux. Renforcer nos liens avec elle ne doit même pas être remis en question."
+
+# Idées
+EST_student_protests:0 "Protestations étudiantes"
+EST_student_protests_desc:0 "Une vague de manifestations menées par des étudiants a récemment éclaté, réclamant davantage de libertés civiles et dénonçant le régime de Konstantin Päts."
+
+EST_adopt_the_third_constiution_2:0 "Adopter la troisième constitution"
+EST_friedrich_akel:0 "Friedrich Akel"
+EST_social_security_2:0 "Prioriser la sécurité sociale"
+EST_social_security_3:0 "Prioriser la sécurité sociale"
+
+EST_outdated_military:0 "Procédés militaires obsolètes"
+industrial_councils:0 "Conseils industriels"
+EST_rapid_expansion:0 "Expansion rapide"
+
+EST_artillery_production:0 "Production d’artillerie"
+EST_fortification_studies:0 "Études de fortifications"
+aero_idea:0 "Idée aéronautique"
+
+EST_tallinn_radiotehas:0 "Tallinna Raadiotehas"
+EST_eesti_kivioli:0 "AS Eesti Kiviõli"
+EST_as_kunda_nordic:0 "AS Kunda Nordic"
+
+NK:0 "Noored Kotkad"
+NK_desc:0 "Les organisations affiliées à la Ligue de Défense regroupent plus de 21 000 volontaires, dont le corps féminin Naiskodukaitse, le corps des garçons Noored Kotkad et le corps des filles Kodutütred."
+
+riigihoidja:0 "Riigihoidja"
+
+EST_generic_light_aircraft_manufacturer:0 "Aviotöökoda"
+
+## MIO
+EST_generic_general_aircraft_organization:0 "Aviotöökoda"
+EST_generic_train_organization_r56_NSB:0 "AS Franz Krull"
+EST_as_eesti_dvigatel_organization:0 "AS Eesti Dvigatel"
+EST_eesti_raudtee:0 "Eesti Raudtee"
+
+EST_election_tt:0 "Nous organiserons des élections libres"
+EST_sare_tt:0 "Ce focus sera validé après la victoire électorale de Karl Säre"
+EST_mae_tt:0 "Ce focus sera validé après la victoire électorale de Hajlmar Mäe"
+EST_jaan_tt:0 "Ce focus sera validé après la victoire électorale de Jaan Tõnisson"
+EST_rigged_tt:0 "Ce focus sera validé après les élections"
+EST_election_rigged_flag:0 "Konstantin Päts a remporté les élections de §Yjanvier 1937§!."
+EST_jaan_flag:0 "Jaan Tõnisson a remporté les élections"
+EST_mae_flag:0 "Hajlmar Mäe a remporté les élections"
+EST_sare_flag:0 "Karl Säre a remporté les élections"
