@@ -1,0 +1,51 @@
+﻿l_french:
+ r56_ecuadorian_focus:0 "Arbre de Priorités Équatorien"
+
+ #characters - vérifier la validité des personnages plus tard - Fantom
+ ECU_luis_rodrigues:0 "Luis Alfonso Rodríguez"
+ ECU_octavio_ochoa:0 "Octavio Alberto Ochoa"
+ ECU_rafael_moran_valverde:0 "Rafael Morán Valverde"
+ ECU_cesar_edmundo_gonzalez:0 "César Edmundo González"
+ ECU_julio_tobar_donoso:0 "Julio Tobar Donoso"
+ ECU_pio_jaramillo_alvarado:0 "Pio Jaramillo Alvarado"
+ ECU_abelardo_montalvo:0 "Abelardo Montalvo"
+ ECU_carlos_cordovez_borja:0 "Carlos Cordovez Borja"
+ ECU_carlos_cueva_tamariz:0 "Carlos Cueva Tamariz"
+ ECU_digno_amador_nunez:0 "Digno Amador Núñez"
+ ECU_alfonso_gomezjurado:0 "Alfonso Gomezjurado"
+
+ ECU_moderate_dictator:0 "Dictateur Modéré"
+
+ #focus
+ ECU_Alert_in_the_front:0 "L’Ennemi à Nos Portes"
+ ECU_Alert_in_the_front_desc:0 ""
+
+ ECU_desperate_mobilization:0 "Mobilisation Désespérée"
+ ECU_desperate_mobilization_desc:0 ""
+
+ ECU_gallos_plan:0 "Le Plan de Gallo"
+ ECU_gallos_plan_desc:0 ""
+
+ ECU_focus_on_defending_quito:0 "Se Concentrer sur la Défense de Quito"
+ ECU_focus_on_defending_quito_desc:0 ""
+
+ ECU_industralize_the_amazon:0 "Industrialiser l’Amazonie"
+ ECU_industralize_the_amazon_desc:0 ""
+
+ ECU_our_true_borders:0 "Nos Vraies Frontières"
+ ECU_our_true_borders_desc:0 ""
+
+ ECU_adquire_usa_planes:0 "Acquérir des Avions Américains"
+ ECU_adquire_usa_planes_desc:0 ""
+
+ ECU_annex_the_north_of_Peru:0 "Intégrer le Loreto"
+ ECU_annex_the_north_of_Peru_desc:0 ""
+
+ ECU_mobilize_the_whole_country:0 "Mobilisation Rapide"
+ ECU_mobilize_the_whole_country_desc:0 ""
+
+ ECU_defense_of_quito:0 "Défense de Quito"
+ ECU_defense_of_quito_desc:0 ""
+
+ ECU_plan_of_gallo:0 "Plan de Gallo"
+ ECU_plan_of_gallo_desc:0 ""
