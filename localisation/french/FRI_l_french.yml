@@ -1,0 +1,452 @@
+l_french:
+ FrenchIndochina:0 "Arbre de priorités de l’Indochine française"
+
+ #Nouveautés
+ r56_FRI_nationist_uprising_2:0 "Soulèvement vietnamien"
+ r56_FRI_nationist_uprising_2_desc:0 "Depuis la mutinerie de Yên Bái, les mouvements indépendantistes vietnamiens sont devenus plus militants et combatifs. Il semble qu’un second soulèvement ne soit plus qu’une question de « quand » et non de « si »."
+ r56_FRI_strikes:0 "Grèves imminentes"
+ r56_FRI_strikes_happened:0 "§WLes§! §Y« Grèves de 1936 »§! §Wont eu lieu.§!"
+ FRI_the_second_yen_bai_mutiny_2_tt:0 "§WSupprime§! §Yles jours restants§! §Wde la mission§! §YSoulèvement vietnamien§!"
+
+ FRI_fascism_party:0 "Faction de Cuong De"
+ FRI_democratic_party:0 "VNQDD"
+ FRI_neutrality_party:0 "Gouvernorat général"
+
+ FRI_forest_training:0 "Entraînement forestier"
+
+ groupe_michelin:0 "Groupe Michelin"
+ FRI_societe_d_exploitation_des_etains_et_wolfram_du_pia_ouac:0 "Société d’Exploitation des Étains et Wolfram du Pia-Ouac" 
+ gteo:0 "GTEO"
+ sicrem:0 "SICREM"
+ fcm_indochina:0 "FCM"
+ ciy:0 "CIY"
+
+ FRI_take_control_of_the_japanese_mining_concessions:0 "Prendre le contrôle des concessions minières japonaises"
+ FRI_take_control_of_the_japanese_mining_concessions_desc:0 "La demande croissante en minerai de fer a conduit à la création de concessions minières financées par des capitaux japonais. La poursuite de ces accords est désormais clairement impossible et contraire à nos intérêts."
+
+ agricultural_modernizer:0 "Modernisateur agricole"
+ banking_magnate:0 "Magnat bancaire"
+ colonial_economist:0 "Économiste colonial"
+
+ FRI_henri_maux:0 "Henri Maux"
+ FRI_edmond_giscard_d_estain:0 "Edmond Giscard d’Estaing"
+ FRI_andre_homberg:0 "André Homberg"
+ FRI_jean_de_beaumont:0 "Jean de Beaumont"
+ FRI_ernest_outrey:0 "Ernest Outrey"
+ FRI_pierre_andre_michel_pages:0 "Pierre André Michel Pagès"
+ FRI_raoul_salan:0 "Raoul Salan"
+ FRI_raoul_salan_theorist:0 "Raoul Salan"
+ FRI_jules_antoine_buhrer:0 "Jules-Antoine Buhrer"
+ FRI_jean_decoux_navy:0 "Jean Decoux"
+ FRI_georges_thierry_dargenlieu:0 "Georges Thierry d’Argenlieu"
+ FRI_frederic_geille:0 "Frédéric Geille"
+ FRI_frederic_geille_theorist:0 "Frédéric Geille"
+ FRI_henry_martin:0 "Henry Martin"
+ FRI_aime_le_tacon:0 "Aimé Le Tacon"
+ FRI_gabriel_sabattier:0 "Gabriel Sabattier"
+ FRI_eugene_mordant:0 "Eugène Mordant"
+ FRI_marcel_alessandri:0 "Marcel Alessandri"
+ FRI_le_huu_canh:0 "Lê Hữu Cảnh"
+ FRI_truong_chinh:0 "Trường Chinh"
+ FRI_tran_trong_kim:0 "Trần Trọng Kim"
+
+ FRI_colonial_army:0 "Armée coloniale"
+ FRI_growing_vietnamese_nationalism_tt:0 "§RLa crainte de soulèvements parmi les autorités coloniales nous empêche de dissoudre notre armée initiale.§!"
+ FRI_colonial_army_desc:0 "En dépit de la conscription de quelques indigènes, notamment au sein des Tirailleurs indochinois, [FRI.GetNameDef] reste largement dépendante de [FRA.GetNameDef] pour sa défense. La conscription locale est relativement faible en raison du caractère colonial de l’administration et du faible potentiel de mobilisation, une grande partie de la population étant composée de paysans."
+ FRI_illiteracy:0 "Analphabétisme"
+ FRI_illiteracy_desc:0 "Depuis le début de la présence française en Indochine, des efforts importants ont été réalisés pour améliorer l’accès à l’éducation. En 1907, l’université de Hanoï fut fondée et, à partir de 1917, le français fut enseigné dans toutes les écoles franco-indigènes. Malgré cela, plus de 80 % de la population reste analphabète, surtout au Laos et au Cambodge, où les efforts éducatifs furent moindres et où il n’existe aucun établissement secondaire."
+ FRI_unequal_economic_developement:0 "Développement économique inégal"
+ FRI_unequal_economic_developement_desc:0 "Malgré son surnom de « Perle de l’Empire », seule la partie vietnamienne de l’Indochine est véritablement rentable. Le Laos et le Cambodge sont très en retard en infrastructures et en entreprises, principalement en raison de la nature beaucoup plus hostile de leur environnement ou de leur faible population. Cela pourrait s’avérer dangereux en raison de la montée des mouvements nationalistes vietnamiens, beaucoup moins présents dans nos deux autres régions."
+ FRI_vietnamese_domined_economy:0 "Économie dominée par les Vietnamiens"
+ FRI_growing_vietnamese_nationalism:0 "Nationalisme vietnamien croissant"
+ FRI_growing_vietnamese_nationalism_desc:0 "Depuis notre arrivée en Cochinchine jusqu’à aujourd’hui, les mouvements indépendantistes vietnamiens n’ont jamais cessé de lutter contre l’administration française. Le cas le plus récent fut la mutinerie de Yên Bái en 1930, organisée par le VNQDD."
+ FRI_calmed_vietnamese_nationalism:0 "Nationalisme vietnamien apaisé"
+ FRI_surete_generale_indochinoise:0 "Sûreté générale indochinoise"
+ FRI_surete_generale_indochinoise_desc:0 "La « Sûreté générale indochinoise » est un appareil répressif mis en place en 1917 par le gouverneur général Albert Sarraut. Sa mission était de combattre le nationalisme vietnamien. Malgré un effectif relativement réduit de quelques centaines d’hommes, principalement vietnamiens, la qualité de son organisation lui a permis de réprimer efficacement les opposants au colonialisme français dans la région. Son « Service central de Renseignements et de Sûreté générale » (SRSG) dispose de fichiers d’identité couvrant toute l’Indochine."
+ FRI_profits_from_opium:0 "Profits tirés de l’opium"
+ FRI_illiteracy_2:0 "Analphabétisme"
+ FRI_illiteracy_2_desc:0 "Depuis le début de la présence française en Indochine, des efforts importants ont été réalisés pour améliorer l’accès à l’éducation. En 1907, l’université de Hanoï fut fondée et, à partir de 1917, le français fut enseigné dans toutes les écoles franco-indigènes. Malgré cela, plus de 80 % de la population reste analphabète, surtout au Laos et au Cambodge, où les efforts éducatifs furent moindres et où il n’existe aucun établissement secondaire."
+ FRI_tin_profits:0 "Profits de l’étain"
+ FRI_the_indochinese_merchant_marine2:0 "La marine marchande indochinoise"
+ FRI_strikes:0 "Grèves"
+ FRI_surete_generale_indochinoise2:0 "Sûreté générale indochinoise"
+ FRI_surete_generale_indochinoise2_desc:0 "La « Sûreté générale indochinoise » est un appareil répressif mis en place en 1917 par le gouverneur général Albert Sarraut. Sa mission était de combattre le nationalisme vietnamien. Malgré un effectif relativement réduit de quelques centaines d’hommes, principalement vietnamiens, la qualité de son organisation lui a permis de réprimer efficacement les opposants au colonialisme français dans la région. Son « Service central de Renseignements et de Sûreté générale » (SRSG) dispose de fichiers d’identité couvrant toute l’Indochine."
+ FRI_politique_du_paysannat_idea:0 "Politique du paysannat"
+ FRI_armee_d_indochine:0 "Armée d’Indochine"
+
+ # DRAPEAUX
+ FRI_jules_brevie_gouverneur_flag:0 "Jules Brévié a été nommé Gouverneur général"
+ FRI_support_vichy:0 "Soutien à la France de Vichy"
+
+ # DÉCISIONS SUR LA GUERRE D’INDÉPENDANCE
+ VIN_independence_war:0 "La guerre d’indépendance"
+ VIN_independence_war_desc:0 "Le temps est enfin venu de chasser les colonisateurs [FRA.GetAdjective] qui n’ont cessé d’exploiter notre beau pays. Dans une lutte aussi décisive, toutes les forces indépendantistes ont accepté de coopérer pour mobiliser la population.\nCependant, la plupart des soldats constatent que les conflits internes entre les différentes factions persistent. Si nous ne pouvons les résoudre sur le champ de bataille, ils devront l’être en coulisses.\n\nQuatre factions se disputent le futur contrôle du Vietnam indépendant. Les §YViet Minh§!, rassemblés sous la direction de Hô Chi Minh, cherchent à instaurer un système proche de l’Union soviétique stalinienne ; §YLa Lutte§!, une association de trotskistes visant à mettre en pratique la théorie politique imaginée par le transfuge soviétique ; le §YVNQDD§!, qui cherche à établir une forme de socialisme démocratique et est beaucoup plus enclin à un système démocratique classique ; et enfin les partisans de §YCuong De§!, membre de la famille royale qui aurait dû hériter du trône vietnamien, également soutenu par le culte caodaïste.\n\nL’influence des §YViet Minh§! est [Root.GetVietMinhInfluence]\n\nL’influence de §YLa Lutte§! est [Root.GetLaLutteInfluence]\n\nL’influence du §YVNQDD§! est [Root.GetVNQDDInfluence]\n\nL’influence de §YCuong De§! est [Root.GetCuongDeInfluence]"
+
+ # NIVEAUX D’INFLUENCE
+ INDOCHINA_NON_EXISTENT_KEY:0 "§gInexistant§!"
+ INDOCHINA_LOW_KEY:0 "§RFaible§!"
+ INDOCHINA_MODERATE_KEY:0 "§HModéré§!"
+ INDOCHINA_HIGH_KEY:0 "§GÉlevé§!"
+ INDOCHINA_VERY_HIGH_KEY:0 "§RTrès élevé§!"
+ INDOCHINA_ERROR_KEY:0 "ERREUR"
+
+
+
+viet_minh_gain_influence_tt:0 "L’influence des §YViet Minh§! va §Gaugmenter§!\n"
+la_lutte_gain_influence_tt:0 "L’influence de §YLa Lutte§! va §Gaugmenter§!\n"
+vnqdd_gain_influence_tt:0 "L’influence du §YVNQDD§! va §Gaugmenter§!\n"
+cuong_de_gain_influence_tt:0 "L’influence de §YCuong De§! va §Gaugmenter§!\n"
+
+viet_minh_decrease_influence_tt:0 "L’influence des §YViet Minh§! va §Rdiminuer§!\n"
+la_lutte_decrease_influence_tt:0 "L’influence de §YLa Lutte§! va §Rdiminuer§!\n"
+vnqdd_decrease_influence_tt:0 "L’influence du §YVNQDD§! va §Rdiminuer§!\n"
+
+viet_minh_lose_influence_tt:0 "L’influence des §YViet Minh§! va §Rdiminuer§!\n"
+la_lutte_lose_influence_tt:0 "L’influence de §YLa Lutte§! va §Rdiminuer§!\n"
+
+VIN_only_one_action_independence_war_tt:0 "Vous ne pouvez entreprendre qu’une action politique à la fois pendant la guerre d’indépendance"
+
+secretly_execute_ho_chi_minh:0 "Exécuter Hô Chi Minh en secret"
+secretly_execute_nguyen_tuong_tam:0 "Exécuter Nguyen Tuong Tam en secret"
+secretly_execute_ta_thu_thau:0 "Exécuter Ta Thu Thau en secret"
+secretly_execute_cuong_de:0 "Exécuter Cuong De en secret"
+
+distribute_foundations_of_leninism:0 "Diffuser les Fondements du léninisme"
+distribute_foundations_of_leninism_desc:0 "« Les Fondements du léninisme » est un ouvrage écrit par Iossif Staline en 1924. L’ouvrage reprend neuf cours donnés par Staline à l’université Sverdlov en 1924 et publiés par le journal soviétique Pravda. Diffuser les idéaux staliniens dans le cœur de notre peuple nous permettra de leur montrer la voie du marxisme-léninisme."
+
+distribute_lessons_of_october:0 "Diffuser les Leçons d’Octobre"
+distribute_lessons_of_october_desc:0 "« Les Leçons d’Octobre » est un essai controversé publié par Lev Trotski en 1924, très critique envers les successeurs de Lénine. Des contacts trotskistes étrangers nous ont fourni des exemplaires de l’ouvrage et du matériel pour l’imprimer en masse. Diffuser les idées de Trotski par l’éducation est le meilleur moyen d’assurer le soutien populaire à la révolution permanente."
+
+arm_caodaists_militias:0 "Armer les milices caodaïstes"
+arm_caodaists_militias_desc:0 "Le caodaïsme est une religion née en Cochinchine en 1926, mêlant croyances occidentales et asiatiques et comptant plusieurs centaines de milliers de fidèles à travers le Vietnam. Très vite, elle s’est tournée vers l’indépendance et la lutte contre [FRA.GetNameDef], poussant les autorités à la réprimer. En mobilisant les bataillons caodaïstes les plus fanatiques, nous pourrions garnir nos rangs de soldats dont la dévotion à la cause de l’indépendance ne fait aucun doute."
+arm_caodaists_militias_tt:0 "§YDeux divisions de milices apparaîtront près de Saïgon§!\n"
+
+form_the_vnqdd_youth_league:0 "Former la Ligue de jeunesse du VNQDD"
+
+assassinate_communists_officers:0 "Assassiner des officiers communistes"
+
+black_ocean_society_support:0 "Soutien de la Société de l’Océan Noir"
+
+promote_ngo_dinh_diem_as_general:0 "Nommer Ngo Dinh Diem général"
+ngo_dinh_diem_tooltip:0 "§YNgo Dinh Diem§! devient général."
+
+invite_phan_boi_chau_to_the_government:0 "Inviter Phan Boi Chau au gouvernement"
+
+FRI_inevitable_uprising_3:0 "La fin inévitable"
+FRI_inevitable_uprising_3_desc:0 "Après la mutinerie de Yên Bái, il devint évident pour tout fonctionnaire français raisonnable que le contrôle de [FRI.GetNameDef] finirait par s’effondrer. Que cette fin survienne la semaine prochaine ou dans une décennie dépend des aléas de la politique interne de la colonie. Notre tâche est de maintenir la stabilité et de garder la région sous contrôle [FRA.GetAdjective] pour le moment."
+
+# ÉVÉNEMENTS
+frenchindochina.1.t:0 "Jules Brévié nommé Gouverneur général"
+frenchindochina.1.d:0 "Jules Brévié, ancien gouverneur de l’Afrique-Occidentale française, a été nommé par le gouvernement [FRA.GetRulingParty] Gouverneur général de l’Indochine, en remplacement de René Robin.\nHumaniste et libéral, Brévié est très attaché à une approche de la colonisation qu’il qualifie de « scientifique », fondée sur une étude approfondie des cultures indigènes et l’amélioration de leurs conditions de vie. Il avait déjà mis en œuvre de nombreuses réformes sociales durant la Grande Dépression en Afrique française, subventionnant les travailleurs sénégalais et lançant des programmes pour accroître la production alimentaire.\nLa victoire du Front populaire aux élections [FRA.GetAdjective] a suscité de grands espoirs, notamment chez les Vietnamiens, avec la nomination de Marius Moutet, ancien opposant à la répression qui suivit la mutinerie de Yên Bái, au poste de ministre des Colonies, ainsi que Léon Blum à la tête du gouvernement, lui aussi fermement opposé à la répression coloniale.\nBrévié prévoit la mise en œuvre de réformes sociales similaires à celles qu’il a instaurées en Afrique et à celles appliquées en métropole."
+frenchindochina.1.a:0 "Voyons ce que son approche scientifique apportera."
+french_indochina_jules_brevie_governor_event_tt:0 "Débloque l’§Yarbre politique§!."
+
+frenchindochina.2.t:0 "Les grèves de 1936"
+frenchindochina.2.d:0 "En juin a débuté un important mouvement de grève en [FRI.GetNameDef], provoqué par une hausse des prix combinée à la baisse des salaires que les ouvriers subissent depuis plusieurs années. Plus de 300 mouvements ont été recensés, impliquant des centaines de milliers de personnes jusque dans les campagnes, où les plantations sont paralysées par les paysans mobilisés contre les impôts. Résultat : une économie soudainement à l’arrêt, et des mouvements séparatistes qui en profitent pour gagner en popularité et répandre des idées indépendantistes parmi la population."
+frenchindochina.2.a:0 "Il faut trouver une solution, et vite !"
+
+r56.news_event.15.t:0 "Soulèvement vietnamien en [FRI.GetNameDef]"
+r56.news_event.15.d:0 "Alors que les grèves avaient déjà paralysé [FRI.GetNameDef] depuis plusieurs mois, l’inaction du gouvernement a contribué à une forte montée du sentiment indépendantiste. Le point de rupture a été atteint lorsque des soldats de la Garde indigène se sont mutinés à Yên Bái.\n\nIl n’a fallu que quelques heures pour que la mutinerie se transforme en insurrection générale couvrant toute la région du Viêt Nam.\nLes multiples forces indépendantistes ont consolidé leur contrôle dans le nord du pays, tandis qu’au sud, le gouvernement colonial se prépare à contre-attaquer contre la plus importante rébellion anticoloniale que [FRI.GetNameDef] ait jamais connue."
+r56.news_event.15.a:0 "Une attaque féroce contre le colonialisme."
+r56.news_event.15.b:0 "Nous rétablirons l’ordre en [FRI.GetNameDef]."
+r56.news_event.15.c:0 "Nous chasserons les impérialistes !"
+
+frenchindochina.4.t:0 "Le dilemme de [FRI.GetAdjective]"
+frenchindochina.4.d:0 "Alors que les troupes [GER.GetAdjective] occupaient Paris, un nouveau gouvernement, dirigé par le maréchal Pétain, s’est proclamé gouvernement légitime de la France et a adopté une politique de collaboration avec [GER.GetNameDef].\nCependant, depuis Londres, le général de Gaulle a appelé à la résistance et à la poursuite du combat contre [GER.GetNameDef], considérant le gouvernement de Vichy comme une trahison.\nAlors que certaines colonies se sont déjà ralliées à de Gaulle, [FRI.GetNameDef] reste nominalement sous le contrôle du gouvernement de la métropole. Mais compte tenu de la question de légitimité, nous pourrions parfaitement nous ranger aux côtés des troupes du général et jouer un rôle décisif en matière de ressources pour les Forces françaises libres."
+frenchindochina.4.a:0 "Se ranger du côté de Vichy et nommer Jean Decoux Gouverneur."
+FRI_fascist_gouvernorat_general_party_long:0 "Gouvernorat général"
+frenchindochina.4.b:0 "Se ranger du côté de la France libre et nommer Thierry d’Argenlieu Gouverneur."
+
+frenchindochina.5.t:0 "[FRI.GetNameDefCap] demande plus de troupes"
+frenchindochina.5.d:0 "Voyant l’évolution de la guerre et craignant pour la sécurité de la colonie, le Gouverneur général de l’Indochine a envoyé un message au gouvernement pour demander des troupes et du matériel supplémentaires afin d’assurer la sécurité de la colonie.\nUn tel investissement matériel n’est pas à prendre à la légère. Néanmoins, nous ne devons pas oublier que [FRI.GetNameDef] est l’une des colonies les plus précieuses et les plus riches en ressources de [FRA.GetNameDef]. Nous devons donc décider si réduire nos effectifs en Europe vaut ce coût."
+frenchindochina.5.a:0 "Nous devons renforcer la protection de [FRI.GetNameDef] !"
+frenchindochina.5.b:0 "Nous ne pouvons pas nous permettre de leur envoyer plus de troupes."
+
+frenchindochina.6.t:0 "[FRA.GetNameDefCap] nous envoie des troupes et du matériel"
+frenchindochina.6.d:0 "Le gouvernement [FRA.GetAdjective] a accepté de nous envoyer des troupes et du matériel pour renforcer la défense de [FRI.GetNameDef].\nIls viennent d’arriver par les ports de Hanoï et Saïgon et sont désormais sous commandement local."
+frenchindochina.6.a:0 "Excellent !"
+
+frenchindochina.7.t:0 "[FRA.GetNameDefCap] refuse d’envoyer des troupes"
+frenchindochina.7.d:0 "Invoquant la situation de la métropole et affirmant que le maximum de troupes doit rester sous son commandement, le gouvernement de Paris a refusé d’envoyer le nombre de troupes demandées."
+frenchindochina.7.a:0 "Il faudra faire avec ce que nous avons."
+
+frenchindochina.8.t:0 "Soulèvement vietnamien"
+frenchindochina.8.d:0 "Alors que les grèves avaient déjà paralysé [FRI.GetNameDef] depuis plusieurs mois, l’inaction du gouvernement a contribué à une forte montée du sentiment indépendantiste. Le point de rupture a été atteint lorsque des soldats de la Garde indigène se sont mutinés à Yên Bái.\n\nIl n’a fallu que quelques heures pour que la mutinerie se transforme en insurrection générale couvrant toute la région du Viêt Nam.\nLes multiples forces indépendantistes ont consolidé leur contrôle dans le nord du pays, tandis qu’au sud, le gouvernement colonial se prépare à contre-attaquer contre la plus grande rébellion anti-française que l’Indochine ait jamais connue."
+frenchindochina.8.a:0 "Nous triompherons !"
+
+
+
+
+FRI_expand_the_michelin_plantations:0 "Étendre les plantations Michelin"
+FRI_expand_the_michelin_plantations_desc:0 "La politique de concessions agricoles mise en place par l’ancien Gouverneur général Jean-Marie de Lanessan a permis le développement de plus de 400 000 hectares. Elle a attiré plusieurs groupes industriels, dont le groupe Michelin, qui acquit ses trois premières plantations d’hévéas en 1928. Depuis, il figure parmi les plus grands propriétaires fonciers d’Indochine."
+
+FRI_finish_the_transindochinois:0 "Achever le Transindochinois"
+FRI_finish_the_transindochinois_desc:0 "Le Transindochinois est un projet ferroviaire reliant Hanoï à Saïgon. Commencé en 1905, il fut inauguré par tronçons successifs. Il est temps de terminer les derniers kilomètres et de relier enfin tout le Vietnam par une seule ligne de chemin de fer."
+
+FRI_open_the_lycee_sisowath:0 "Ouvrir le lycée Sisowath"
+FRI_open_the_lycee_sisowath_desc:0 "La diffusion de l’éducation fut bien plus lente au Cambodge et au Laos qu’au Vietnam. Le premier établissement secondaire cambodgien, le « Collège du Protectorat », ouvrit en 1893. Toutefois, aucun enseignement secondaire n’était encore proposé au lycée français de Saïgon. Développer l’enseignement secondaire nous permettra d’accroître l’efficacité de l’administration indigène."
+
+FRI_continue_the_politique_politique_du_paysannat:0 "Poursuivre la Politique du Paysannat"
+FRI_continue_the_politique_politique_du_paysannat_desc:0 "La Politique du Paysannat vise à relancer l’économie agricole de [FRI.GetNameDef]. Elle consiste à aider les propriétaires fonciers, à encourager le déplacement des paysans du nord, jugé surpeuplé, vers le delta du Mékong, et enfin à mettre en place un important programme hydraulique destiné à développer les deltas et systématiser la double récolte."
+
+FRI_hlm_construction_program:0 "Programme de construction de HLM"
+FRI_hlm_construction_program_desc:0 "Les ouvriers urbains doivent souvent se contenter de logements rudimentaires, voire précaires, dans des huttes de paille ou sur leur lieu de travail, ce qui engendre une situation sanitaire déplorable. Pour y remédier, les autorités ont lancé un projet de logements à bas coût afin d’améliorer la qualité de vie dans des villes comme le Tonkin."
+
+FRI_link_laos_to_annam:0 "Relier le Laos à l’Annam"
+FRI_link_laos_to_annam_desc:0 "En matière d’infrastructures, le Laos est la région la plus négligée, avec seulement une dizaine de kilomètres de routes asphaltées. Nous construirons une route reliant le pays à la côte annamite en traversant le Mékong, afin d’améliorer son intégration avec le reste des colonies."
+
+FRI_tonkin_cement_factories:0 "Cimenteries du Tonkin"
+FRI_tonkin_cement_factories_desc:0 "La Cochinchine et le Tonkin sont les régions les plus dynamiques économiquement de [FRI.getNameDef]. Outre ses nombreuses mines, le Tonkin est réputé pour sa production de ciment. Une aide financière aux entreprises productrices nous permettrait d’accroître nos exportations de ce produit."
+FRI_explore_the_laotian_underground:0 "Explorer le sous-sol laotien"
+FRI_explore_the_laotian_underground_desc:0 "Le Laos est encore relativement peu développé économiquement, mais nous pourrions exploiter ses gisements d’étain grâce à l’expansion de ses infrastructures."
+
+FRI_expand_the_laotian_distilleries:0 "Développer les distilleries laotiennes"
+FRI_expand_the_laotian_distilleries_desc:0 "Un excellent moyen de développer l’économie laotienne serait d’augmenter le nombre de distilleries, afin de produire des alcools de riz que nous pourrions ensuite vendre sur le marché asiatique."
+
+FRI_balanced_economic_developement:0 "Développement économique équilibré"
+FRI_balanced_economic_development_desc:0 "Le poids excessif des régions vietnamiennes dans l’économie globale de [FRI.GetNameDef] peut s’avérer dangereux face à la montée des mouvements nationalistes. Faire du Laos et du Cambodge – beaucoup plus loyaux à [FRA.GetNameDef] – des régions d’égale importance économique est la clé."
+
+PRI_continue_the_focus_on_vietnam:0 "Poursuivre l’accent mis sur le Vietnam"
+PRI_continue_the_focus_on_vietnam_desc:0 "Le Vietnam reste la région la plus prospère de [FRI.GetNameDef], grâce à ses terres facilement cultivables. La région possède déjà de nombreuses petites entreprises ; il ne serait pas difficile d’y développer une industrie plus lourde."
+
+FRI_move_vietnamese_workers_to_laos:0 "Déplacer les travailleurs vietnamiens vers le Laos"
+FRI_move_vietnamese_workers_to_laos_desc:0 "Les Vietnamiens constituent déjà les échelons supérieurs et intermédiaires de la bureaucratie au Laos. En encourageant les travailleurs vietnamiens à s’installer dans des villes comme Vientiane ou Thakhek, nous augmenterons la main-d’œuvre qualifiée disponible pour exploiter économiquement cette région."
+
+FRI_expand_the_opium_trade:0 "Étendre le commerce de l’opium"
+FRI_expand_the_opium_trade_desc:0 "Bien qu’illégal en France métropolitaine, la culture et l’échange de l’opium ont toujours été très profitables à l’économie indochinoise. Nous pourrions sans doute tirer parti du chaos en Chine pour accroître nos exportations de cette plante."
+
+FRI_increase_the_taxes:0 "Augmenter les impôts"
+FRI_increase_the_taxes_desc:0 "Notre projet de développement des régions aussi arriérées que le Cambodge et le Laos nécessite un budget conséquent, dont les bénéfices ne seront visibles qu’à long terme. Le premier moyen de lever les fonds nécessaires serait d’augmenter les impôts de la population locale."
+
+FRI_vietnamese_private_armament_business:0 "Industrie privée vietnamienne de l’armement"
+FRI_vietnamese_private_armament_business_desc:0 "Au fil des années, les petites et moyennes entreprises privées vietnamiennes ont continué de croître. L’industrie de l’armement s’est révélée être un secteur particulièrement florissant, et un soutien financier de l’administration à ces entreprises pourrait s’avérer très lucratif."
+
+FRI_open_the_university_of_phnom_penh:0 "Ouvrir l’université de Phnom Penh"
+
+FRI_open_the_university_of_vientiane:0 "Ouvrir l’Université française de Vientiane"
+FRI_open_the_university_of_vientiane_desc:0 "Comme au Cambodge voisin, l’éducation est relativement sous-développée au Laos, avec plus de 80 % d’analphabétisme. Cela entraîne une pénurie de personnel qualifié pour des postes comme l’administration. L’ouverture d’un établissement d’enseignement supérieur permettra d’augmenter le nombre de diplômés aptes à occuper ces fonctions."
+
+FRI_build_the_phnom_penh_arsenal:0 "Construire l’arsenal de Phnom Penh"
+FRI_build_the_phnom_penh_arsenal_desc:0 "La production d’armes à feu est relativement faible en [FRI.GetNameDef], en raison des approvisionnements venus de la Métropole. Toutefois, le développement d’un complexe militaro-industriel pourrait s’avérer très lucratif dans la région sous-développée du Cambodge, qui verrait son potentiel économique considérablement accru, avec la possibilité d’exporter ces armes sur les mêmes marchés où nous vendons déjà notre riz."
+
+FRI_expand_the_tungsten_mines:0 "Étendre les mines de tungstène"
+FRI_expand_the_tungsten_mines_desc:0 "Le sous-sol vietnamien regorge de minerais, dont le tungstène. L’augmentation des besoins mondiaux en armements rend cette ressource de plus en plus prisée sur les marchés ; il serait donc dans notre intérêt d’entreprendre des travaux pour agrandir les mines que nous possédons déjà."
+
+FRI_invite_investors_to_kouang_tcheou_wan:0 "Inviter des investisseurs à Kouang-Tchéou-Wan"
+FRI_invite_investors_to_kouang_tcheou_wan_desc:0 "L’économie de Kouang-Tchéou-Wan est encore relativement sous-développée, et la population vit principalement de l’agriculture. Cependant, la tranquillité de la ville a attiré de nombreux investisseurs chinois, et nous espérons en faire un nouveau Hong Kong si nous y consacrons suffisamment de fonds."
+
+FRI_the_indochinese_merchant_marine:0 "La marine marchande [FRI.GetAdjective]"
+FRI_the_indochinese_merchant_marine_desc:0 "Notre flotte est principalement composée de navires commerciaux à travers l’Asie. Développer nos capacités de production de ces navires nous permettrait d’accélérer le transport de nos marchandises."
+
+FRI_expand_the_fort_bayard_infrastructures:0 "Développer les infrastructures de Fort-Bayard"
+FRI_expand_the_fort_bayard_infrastructures_desc:0 "Le trafic de Fort-Bayard est bien inférieur à nos attentes. Cela tient en partie à sa localisation, trop éloignée des grands flux du commerce maritime. Nous pourrions stimuler l’économie de la ville en développant ses infrastructures afin de compenser ce manque et de la relier davantage au sud de la Chine."
+
+FRI_the_french_hong_kong:0 "Le Hong Kong [FRA.GetAdjective]"
+FRI_the_french_hong_kong_desc:0 "[FRA.GetNameDefCap] a longtemps espéré faire de Kouang-Tchéou-Wan un Hong Kong [FRA.GetAdjective]. Il est temps de relancer ces projets et de développer la capacité commerciale de ce territoire."
+
+FRI_focus_on_the_vietnamese_ports:0 "Se concentrer sur les ports vietnamiens"
+FRI_focus_on_the_vietnamese_ports_desc:0 "Kouang-Tchéou-Wan s’avère être une perte de temps et de ressources en raison de sa situation géographique très contraignante. Nous devrions concentrer nos efforts sur le développement des ports de Haïphong et de Saïgon, qui contribuent déjà largement au dynamisme économique de [FRI.GetNameDef]."
+
+FRI_trade_protection_doctrine:0 "Doctrine de protection du commerce"
+FRI_trade_protection_doctrine_desc:0 "Le risque d’une invasion [JAP.GetAdjective] est important. Cependant, leur faiblesse réside dans leur dépendance à l’importation d’une grande partie de leurs ressources. Nous affamerons leur marine en ciblant la destruction des convois et la perturbation globale du commerce."
+
+FRI_trade_disturbtion_doctrine:0 "Doctrine de perturbation du commerce"
+FRI_trade_disturbtion_doctrine_desc:0 "Le risque d’une invasion [JAP.GetAdjective] est important. Cependant, leur faiblesse réside dans leur dépendance à l’importation d’une grande partie de leurs ressources. Nous affamerons leur marine en ciblant la destruction des convois et la perturbation globale du commerce."
+
+FRI_invite_fcm_to_fort_bayard:0 "Inviter les FCM à Fort-Bayard"
+FRI_invite_fcm_to_fort_bayard_desc:0 "Les Forges et Chantiers de la Méditerranée sont réputés pour leurs chantiers navals méditerranéens. Nous pourrions les inviter à construire de nouveaux docks à Fort-Bayard, transformant cette ville commerciale en un centre industriel pour notre marine."
+FRI_invite_fcm_to_fort_bayard_tt:0 "Débloque §YFCM§! comme concepteur naval"
+FRI_submarines_effort:0 "Effort sur les sous-marins"
+FRI_submarines_effort_desc:0 "Un excellent moyen de perturber le commerce serait d’utiliser des sous-marins, idéaux pour éliminer les convois. De plus, nous pouvons tirer parti de leur discrétion face aux grands navires, très présents dans la flotte [JAP.GetAdjective]."
+
+FRI_expand_the_garde_indigene:0 "Renforcer la Garde indigène"
+FRI_expand_the_garde_indigene_desc:0 "La « Garde indigène » désigne les régiments de tirailleurs recrutés en [FRI.GetNameDef], encadrés par des officiers et sous-officiers [FRA.GetAdjective]. Leurs effectifs n’ont cessé d’augmenter depuis leur création en 1886. Face à la montée du nationalisme en [FRI.GetNameDef], nous devrions encore accroître leur nombre pour soutenir l’administration coloniale."
+
+FRI_adopt_the_mas_36:0 "Adopter le MAS-36"
+FRI_adopt_the_mas_36_desc:0 "Le MAS-36 commence progressivement à équiper l’armée [FRA.GetAdjective]. Nous demanderons que certains de ces fusils et leurs plans soient envoyés en [FRI.GetNameDef], afin de pouvoir les produire localement à terme."
+FRI_adopt_the_mas_36_tt:0 "Ajoute la technologie : §YMAS-36§!\nSi nous l’avons déjà : §Y1x §!§G100%§! de bonus de recherche pour : §YArmes d’infanterie§!\n"
+
+FRI_improve_communications:0 "Améliorer les communications"
+FRI_improve_communications_desc:0 "En raison de la nature très hostile des jungles de [FRI.GetNameDef], la communication entre les troupes peut s’avérer très complexe. Le développement de la radio pour nos soldats permettrait d’atténuer ce problème."
+
+FRI_establish_the_armee_d_indochine:0 "Fonder l’Armée d’Indochine"
+FRI_establish_the_armee_d_indochine_desc:0 "Nous ne pouvons pas simplement compter sur l’Armée de terre pour défendre [FRI.GetNameDef], surtout si nous sommes engagés sur les fronts européen et asiatique. Nous établirons une véritable armée [FRI.GetAdjective] pour protéger la colonie nous-mêmes."
+
+FRI_maintain_reliance_on_the_armee_de_terre:0 "Maintenir la dépendance envers l’Armée de terre"
+FRI_maintain_reliance_on_the_armee_de_terre_desc:0 "L’Armée de terre est suffisante pour défendre [FRI.GetNameDef]. Nous devrions concentrer nos efforts sur le développement de nos fortifications et installations militaires."
+
+FRI_allow_indigenous_officers:0 "Autoriser des officiers indigènes"
+FRI_allow_indigenous_officers_desc:0 "Notre nouvelle armée sera principalement composée de troupes indigènes, et nous devrions donc employer des officiers d’origine [FRI.GetAdjective] pour les encadrer."
+
+FRI_indochinese_military_service:0 "Service militaire [FRI.GetAdjective]"
+FRI_indochinese_military_service_desc:0 "Comme en [FRA.GetNameDef], nous mettrons en place un service militaire obligatoire dans tout [FRI.GetNameDef], afin de disposer d’une réserve suffisante de soldats conscrits."
+
+FRI_ecole_militaire_de_hanoi:0 "École militaire de Hanoï"
+FRI_ecole_militaire_de_hanoi_desc:0 "En prenant pour modèle la célèbre école de Saint-Cyr, nous créerons une école militaire destinée à former la nouvelle génération d’officiers [FRI.GetAdjective]."
+
+VIN_build_the_ligne_sarrault:0 "Construire la ligne Sarraut"
+VIN_build_the_ligne_sarrault_desc:0 "La construction d’une ligne de fortifications dans le nord du pays, à la frontière chinoise, nous protégerait de toute tentative d’invasion terrestre de la part de la Chine ou de [JAP.GetNameDef]."
+
+FRI_create_coastal_fortifications:0 "Créer des fortifications côtières"
+FRI_create_coastal_fortifications_desc:0 "La construction de fortifications navales pour protéger nos précieux ports vietnamiens et chinois limiterait les possibilités d’invasion par la mer."
+FRI_create_coastal_fortifications_tt:0 "Crée des §Yforts de niveau 2§! dans nos ports."
+
+FRI_expand_the_northern_air_bases:0 "Agrandir les bases aériennes du Nord"
+FRI_expand_the_northern_air_bases_desc:0 "Nos capacités d’accueil pour les avions [FRA.GetAdjective] sont relativement faibles, avec seulement de petits aérodromes. Si nous voulons garantir que [FRA.GetNameDef] puisse protéger nos cieux, nous devons agrandir nos installations aériennes."
+
+FRI_gouverneur_jules_brevie:0 "Nommer Jules Brévié"
+FRI_gouverneur_jules_brevie_desc:0 "La victoire du [FRA.GetRulingParty] a signifié un changement pour [FRI.GetNameDef], et surtout le remplacement de René Robin par Jules Brévié au poste de Gouverneur général de l’Indochine. Brévié, socialiste, prône une approche scientifique de la colonisation et espère mettre en place de nombreuses réformes pour améliorer la qualité de vie en [FRI.GetNameDef]."
+FRI_gouverneur_jules_brevie_tt:0 "§BJules Brévié deviendra Gouverneur général en septembre 1936§!\n"
+
+FRI_concessions_to_the_strikers:0 "Concessions aux ouvriers"
+FRI_concessions_to_the_strikers_desc:0 "La reprise économique de 1936 a entraîné une flambée des prix en Indochine, alors que les ouvriers souffraient déjà depuis des années d’une baisse de leurs salaires. Si nous ne voulons pas voir l’administration coloniale s’effondrer, nous accélérerons les réformes prévues par [FRI.GetLeader]."
+
+FRI_expansion_of_the_strikes:0 "Expansion des grèves"
+FRI_expansion_of_the_strikes_desc:0 "Avec la crise économique qui continue de frapper notre économie en ces temps difficiles, nous ne pouvons nous permettre aucune concession à la population locale. Espérons que les grèves s’éteignent d’elles-mêmes."
+FRI_expansion_of_the_strikes_tt:0 "Pas encore terminé"
+
+FRI_amnesty_law:0 "Amnistie pour les indépendantistes"
+FRI_amnesty_law_desc:0 "Le premier pas vers la réconciliation avec les combattants indépendantistes serait de montrer notre bonne volonté en les libérant. Une loi d’amnistie, censée libérer plus de 90 % d’entre eux, sera promulguée."
+
+FRI_decret_moutet:0 "Décret Moutet"
+FRI_decret_moutet_desc:0 "Le ministre des Colonies, Marius Moutet, a fait signer un décret équivalant à un code du travail [FRI.GetAdjective], similaire aux nombreuses lois sociales promulguées en métropole sous le Front populaire. Nous réduirons la durée journalière du travail, et le travail de nuit pour les femmes et les enfants sera interdit."
+
+FRI_freedom_of_speech_and_association:0 "Liberté d’expression et d’association"
+FRI_freedom_of_speech_and_association_desc:0 "En effet, certains groupes intellectuels ont toujours subi une certaine répression en [FRI.GetNameDef]. Mais il est temps de changer les choses en autorisant la liberté totale d’expression et d’association, permettant par exemple la formation de syndicats."
+
+FRI_gain_support_from_the_kuomintang:0 "Obtenir le soutien du Kuomintang"
+FRI_gain_support_from_the_kuomintang_desc:0 "Le Kuomintang a longtemps été un allié du VNQDD, le Parti nationaliste vietnamien. Le chemin de fer du Yunnan nous permettrait d’acquérir un soutien matériel et politique, en permettant à des exilés de revenir du nord pour nous aider à former l’insurrection."
+
+FRI_gain_support_from_the_soviet_union:0 "Obtenir le soutien de [SOV.GetNameDef]"
+FRI_gain_support_from_the_soviet_union_desc:0 "La stratégie des fronts populaires prônée par [SOV.GetNameDef] a conduit le Parti communiste indochinois à se rapprocher des autres éléments du mouvement indépendantiste. Des leaders comme Nguyên Ai Quoc nous seront d’une grande aide, compte tenu de la forte progression de la popularité des mouvements communistes au Vietnam, surtout en Cochinchine."
+
+FRI_the_second_yen_bai_mutiny:0 "La Seconde mutinerie de Yên Bái"
+FRI_the_second_yen_bai_mutiny_desc:0 "Une mutinerie des différents régiments de tirailleurs [FRI.GetAdjective] sera le point de départ de notre guerre d’indépendance. Une mutinerie similaire eut lieu en 1930 mais n’obtint pas le soutien espéré. Aujourd’hui, avec l’appui de millions de grévistes dans toutes les régions, nous devrions avoir beaucoup moins de difficultés à chasser la présence française."
+FRI_the_second_yen_bai_mutiny_tt:0 "Vous passerez à §YVietnam§! et §Rdéclarerez la guerre§! à §[FRI.GetNameDef]§!.\nSi vous parvenez à prendre le contrôle de [FRI.GetNameDef] ou à tenir plus d’un an en contrôlant l’intégralité de votre territoire, une §Gpaix blanche§! aura lieu et vous serez libres.\nDurant la guerre d’indépendance, une §Rlutte de pouvoir§! opposera quatre §Yfactions§!, ce qui déterminera l’idéologie du §YVietnam§! une fois la guerre terminée.\nSi vous prenez le contrôle du §YLaos§! et du §YCambodge§!, ils seront également libérés après la guerre.\n"
+
+FRI_allow_political_parties:0 "Autoriser les partis politiques"
+FRI_allow_political_parties_desc:0 "La formation de partis politiques modérés sera autorisée. Deux ont émergé et visent principalement à représenter la bourgeoisie [FRI.GetAdjective] : le Parti Constitutionnaliste et le Parti Démocrate. Ces derniers n’aspirent qu’à une certaine autonomie pour [FRI.GetNameDef], semblable à celle des dominions britanniques."
+
+FRI_bring_back_stability:0 "Rétablir la stabilité"
+
+FRI_expand_the_surete_generale_indochinoise:0 "Renforcer la Sûreté générale indochinoise"
+FRI_expand_the_surete_generale_indochinoise_desc:0 "La Sûreté générale indochinoise est un appareil répressif actif en Indochine depuis 1917 et dédié à contrer la montée du nationalisme vietnamien. En accroître les effectifs empêchera les grèves de paralyser une nouvelle fois l’administration coloniale."
+
+FRI_crackdown_on_communist_organisations:0 "Répression révolutionnaire"
+FRI_crackdown_on_communists_organisations:0 "Répression révolutionnaire"
+FRI_crackdown_on_communists_organisations_desc:0 "Les mouvements communistes vietnamiens, bien que prohibés, continuent de gagner en popularité, notamment parmi les ouvriers urbains. Une arrestation massive de leurs dirigeants en [FRI.GetNameDef] devrait stopper leur progression."
+
+FRI_fuelling_the_metropole:0 "Approvisionner la Métropole"
+FRI_fuelling_the_metropole_desc:0 "Notre rôle est avant tout de soutenir la Métropole sur le plan économique. La guerre venant d’éclater, nous devons consacrer toutes nos ressources à l’effort de guerre, qu’il s’agisse de matières premières comme le caoutchouc ou de produits agricoles comme le riz ou le thé."
+FRI_fuelling_the_metropole_tt:0 "Si nous ne sommes pas déjà en §YÉconomie de guerre§! ou en §YMobilisation totale§!, modifie la loi économique en §YÉconomie de guerre§!\n"
+
+FRI_plan_mandel:0 "Plan Mandel"
+FRI_plan_mandel_desc:0 "Le plan Mandel, du nom du ministre des Colonies ayant remplacé Moutet, consiste à mobiliser plus de 300 000 travailleurs coloniaux, dont 100 000 [FRI.GetAdjective], pour être envoyés en Métropole afin de soutenir l’économie de guerre [FRA.GetAdjective] et en particulier ses usines."
+
+FRI_vientiane_phnom_penh_railroad:0 "Chemin de fer Vientiane-Phnom Penh"
+
+FRI_expand_the_transindochinois:0 "Étendre le Transindochinois"
+FRI_expand_the_transindochinois_desc:0 "Relier Phnom Penh et Vientiane au Transindochinois nous permettrait de disposer d’une ligne ferroviaire unique traversant toute l’Indochine. Cela faciliterait l’exploitation des ressources laotiennes et cambodgiennes."
+
+FRI_mimic_the_marine_nationale:0 "S’inspirer de la Marine nationale"
+FRI_mimic_the_marine_nationale_desc:0 "Le développement d’une force navale armée contrôlée par le gouvernement colonial [FRI.GetAdjective], plutôt que par [FRA.GetNameDef] lui-même, nous permettrait de bâtir une marine bien plus adaptée aux eaux d’Asie du Sud-Est. Mais nous ne devons pas oublier nos racines : nous prendrons pour modèle la marine [FRA.GetAdjective]."
+
+FRI_fleet_in_being_doctrine:0 "Doctrine de flotte en puissance"
+FRI_fleet_in_being_doctrine_desc:0 "Avant tout, nous devons garantir que nos navires marchands atteignent les ports. Pour cela, nous devrions privilégier la construction de navires moyens et lourds, et en particulier de destroyers, afin de contrer les attaques de sous-marins qui, bien que peu utilisés par l’armée [JAP.GetAdjective], pourraient se révéler redoutables même en petit nombre."
+
+FRI_destroyers_modernisation:0 "Modernisation des destroyers"
+FRI_destroyers_modernisation_desc:0 "Pour appliquer nos plans de défense contre les sous-marins, nous devons moderniser les destroyers de notre marine afin qu’aucun sous-marin n’atteigne nos convois."
+
+FRI_the_return_of_cuong_de:0 "Le retour de Cuong De"
+FRI_the_return_of_cuong_de_desc:0 "Selon la loi de primogéniture, Cuong De, membre de la dynastie Nguyên, aurait dû hériter du trône vietnamien. Il a passé plus de vingt ans à voyager en Asie pour obtenir un soutien à l’indépendance vietnamienne et entretient de nombreux liens avec les ultranationalistes [JAP.GetAdjective]. Ayant entendu parler de rumeurs d’insurrection, il se prépare à retourner sur sa terre natale."
+
+FRI_politique_du_paysannat:0 "Politique du paysannat"
+
+FRI_tirailleurs_indochinois:0 "Mobiliser les Tirailleurs indochinois"
+FRI_tirailleurs_indochinois_desc:0 "Recrutés à travers toute l’Indochine, les Tirailleurs indochinois furent créés en 1880 lors de l’expédition du Tonkin. Ils ont permis à [FRA.GetNameDef] de maintenir son autorité sur la colonie [FRI.GetAdjective] et d’écraser toutes les rébellions nationalistes."
+FRI_tirailleurs_indochinois_tt:0 "Obtient §Y2§! divisions d’infanterie près de Hanoï"
+
+VIN_request_the_mortier_modele_27_31:0 "Demander le Mortier modèle 27/31"
+VIN_request_the_mortier_modele_27_31_desc:0 "Le mortier modèle 27/31, conçu et fabriqué par les établissements Brandt, est déjà en service en France depuis plusieurs années. Simple d’utilisation mais redoutable sur le terrain, l’équiper à nos forces coloniales permettrait une bien meilleure défense des villes comme Saïgon ou Hanoï en cas d’invasion terrestre, ces dernières étant situées sur des terrains relativement plats."
+
+FRI_the_mortier_modele_27_31:0 "Le Mortier modèle 27/31"
+FRI_the_mortier_modele_27_31_desc:0 "Le mortier modèle 27/31, conçu et fabriqué par les établissements Brandt, est déjà en service en France depuis plusieurs années. Simple d’utilisation mais redoutable sur le terrain, l’équiper à nos forces coloniales permettrait une bien meilleure défense des villes comme Saïgon ou Hanoï en cas d’invasion terrestre, ces dernières étant situées sur des terrains relativement plats."
+
+FRI_tame_the_forests:0 "Domestiquer les forêts"
+FRI_tame_the_forests_desc:0 "De nombreuses forêts parsèment [FRI.GetNameDef], rendant les combats bien plus difficiles, surtout pour une armée qui ne connaît pas la région. Nous pouvons utiliser cela à notre avantage, en préparant mieux nos défenses grâce à notre connaissance approfondie de l’environnement."
+FRI_tame_the_forests_tt:0 "Débloque §HEntraînement en forêt§!\n§HInfanterie\n    Forêt§!\n      Attaque : §G+5%§!\n      Mouvement : §G+10%§!\n"
+
+VIN_genie_indochinois:0 "S’inspirer du Génie"
+VIN_genie_indochinois_desc:0 "De par la nature du terrain [FRI.GetAdjective], l’ajout d’unités du génie à nos divisions maximiserait nos défenses dans les zones où la guerre de tranchées reste viable."
+
+FRI_learn_from_the_genie:0 "S’inspirer du Génie"
+FRI_learn_from_the_genie_desc:0 "De par la nature du terrain [FRI.GetAdjective], l’ajout d’unités du génie à nos divisions maximiserait nos défenses dans les zones où la guerre de tranchées reste viable."
+
+FRI_the_war_arrives_to_indochina:0 "La guerre arrive en Indochine"
+FRI_the_war_arrives_to_indochina_desc:0 "La guerre a finalement atteint notre paisible colonie. Il est temps de restructurer en urgence l’armée pour répondre aux besoins de [FRA.GetNameDef] et assurer la défense de [FRI.GetNameDef]."
+FRI_the_war_arrives_to_indochina_tt:0 "Obtient §Y3§! divisions de troupes coloniales en Cochinchine\n"
+
+FRI_fortify_the_chinese_border:0 "Fortifier la frontière chinoise"
+FRI_fortify_the_chinese_border_desc:0 "La construction d’une ligne de fortifications dans le nord du pays, à la frontière chinoise, nous protégerait de toute tentative d’invasion terrestre de la Chine ou de [JAP.GetNameDef]."
+FRI_fortify_the_chinese_border_tt:0 "Obtient §YNiveau 2 de forts§! le long de la frontière nord"
+
+FRI_parachutistes_coloniaux:0 "Parachutistes coloniaux"
+FRI_parachutistes_coloniaux_desc:0 "En dépit de tous nos efforts, le combat en forêt restera toujours compliqué, avec le risque d’embuscades. Mais si nous attaquons avec des parachutistes, nous serons ceux qui bénéficieront de l’effet de surprise."
+FRI_parachutistes_coloniaux_tt:0 "Obtient §Y2§! divisions de parachutistes"
+
+FRI_intensify_native_recruitment:0 "Intensifier le recrutement indigène"
+FRI_intensify_native_recruitment_desc:0 "[FRA.GetNameDefCap] a besoin du plus grand nombre possible de soldats. Durant la Grande Guerre, les colonies se sont révélées être l’endroit idéal pour recruter de futurs combattants."
+
+FRI_independent_command_structure:0 "Structure de commandement indépendante"
+FRI_independent_command_structure_desc:0 "Tout en maintenant l’allégeance et l’affiliation à l’Armée de terre, l’armée [FRI.GetAdjective] doit être indépendante dans ses stratégies et dans les décisions de ses généraux et officiers."
+
+FRI_from_militias_to_an_army:0 "Des milices à une armée"
+FRI_from_militias_to_an_army_desc:0 "La Garde indigène ressemble davantage à une milice contrôlée par le gouvernement qu’à une véritable armée. Il est temps de la réorganiser en divisions régulières pour que l’armée d’Indochine soit suffisamment structurée."
+
+# FOCUS DU GOUVERNEMENT COLONIAL LORSQUE LE VIÊT NAM SE RÉVOLTE
+FRI_keep_the_civilian_government:0 "Maintenir le gouvernement civil"
+FRI_keep_the_civilian_government_desc:0 " "
+
+FRI_appoint_catroux_as_gouverneur:0 "Nommer Catroux gouverneur général"
+FRI_appoint_catroux_as_gouverneur_desc:0 " "
+
+FRI_bao_dai_speech:0 "Discours de Bao Daï"
+FRI_bao_dai_speech_desc:0 " "
+
+FRI_request_guns_from_the_metropole:0 "Demander des armes à la Métropole"
+FRI_request_guns_from_the_metropole_desc:0 " "
+
+FRI_support_from_loyal_mandarins:0 "Soutien des mandarins loyaux"
+FRI_support_from_loyal_mandarins_desc:0 " "
+
+FRI_end_the_rebellion:0 "Mettre fin à la rébellion"
+FRI_end_the_rebellion_desc:0 " "
+
+FRI_a_stronger_hand:0 "Un pouvoir renforcé"
+FRI_a_stronger_hand_desc:0 " "
+
+FRI_rethink_the_administration:0 "Repenser l’administration"
+FRI_rethink_the_administration_desc:0 " "
+
+FRI_mass_executions:0 "FRI_mass_executions"
+
+FRI_anti_independentist_terror:0 "Terreur anti-indépendantiste"
+FRI_anti_independentist_terror_desc:0 " "
+
+FRI_reward_the_loyalists:0 "Récompenser les loyalistes"
+FRI_reward_the_loyalists_desc:0 " "
+
+FRI_entrench_the_status_quo:0 "Consolider le statu quo"
+FRI_entrench_the_status_quo_desc:0 " "
+
+FRI_a_common_constitution:0 "Une constitution commune"
+FRI_a_common_constitution_desc:0 " "
+
+FRI_universal_suffrage:0 "Suffrage universel"
+FRI_universal_suffrage_desc:0 " "
+
+FRI_the_indochinese_federation:0 "Une véritable fédération"
+FRI_the_indochinese_federation_desc:0 " "
+
+FRI_a_true_federation:0 "Une véritable fédération"
+FRI_a_true_federation_desc:0 " "
