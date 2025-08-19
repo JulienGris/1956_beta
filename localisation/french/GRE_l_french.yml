@@ -1,0 +1,1153 @@
+l_french:
+
+greek_focus:0 "Arbre de priorités grecques"
+
+# Missions
+GRE_legislative_elections:0 "Élections législatives"
+GRE_demertzis_illing_health:0 "La santé déclinante de Demertzis"
+GRE_communist_insurrection:0 "Grèves syndicales imminentes"
+GRE_communist_insurrection_desc:0 "La faiblesse actuelle du gouvernement a aggravé les conditions de travail, ce qui risque de provoquer des grèves, voire pire : une guerre civile. Si la situation politique n’est pas réglée, nous devons envisager le pire scénario.\n\n§RSoutenir les grévistes déclenchera une guerre civile.§!"
+
+# Politique
+GRE_despotism_desc:0 "Le §YMetaxisme§! est une idéologie nationaliste totalitaire associée à l’homme politique grec §WIoannis Metaxas§!. Elle prône la §Yrégénération§! de la nation grecque et l’établissement d’une §HGrecce moderne, culturellement homogène§!. Le metaxisme dénigre le libéralisme et subordonne les intérêts individuels à ceux de la nation, cherchant à mobiliser le peuple grec comme une masse disciplinée au service de la création d’une §Bnouvelle Grèce§!."
+GRE_absolute_monarchism_desc:0 "La §YMaison de Schleswig-Holstein-Sonderburg-Glücksburg§! est une branche dano-allemande de la maison d’Oldenbourg. Elle monta sur le trône de Grèce en 1863 lorsque Georges Ier devint §BRoi des Hellènes§!."
+
+# Priorités
+GRE_economic_recovery:0 "Redressement économique"
+GRE_economic_recovery_desc:0 "En tant que petite nation, [GRE.GetNameDef] doit se préparer à affronter n’importe quelle tempête. Stabiliser notre économie servira cet objectif."
+
+GRE_industrial_effort:0 "Expansion industrielle"
+GRE_industrial_effort_desc:0 "Nous allons commencer à subventionner et approuver des projets visant à développer notre industrie civile, ce qui nous permettra d’employer une large partie de notre population tout en industrialisant notre pays."
+
+GRE_industrial_effort_2:0 "Établir un complexe militaro-industriel"
+GRE_industrial_effort_2_desc:0 "Pour faciliter l’approvisionnement et l’innovation rapide dans l’industrie de l’armement dont notre armée aura besoin, nous devons cimenter une alliance entre nos forces armées et leurs fournisseurs. Cela nous permettra d’être prêts pour un conflit imminent et l’état de notre armée en portera le reflet."
+
+GRE_infrastructure_effort:0 "Modernisation du réseau ferroviaire"
+GRE_infrastructure_effort_desc:0 "Si nos réseaux ferroviaires suffisent aux besoins économiques, ils ne répondent pas encore aux standards militaires. Nous devons moderniser et standardiser nos rails, établir des horaires pour éviter les blocages entre locomotives et élaborer des stratégies pour le transport des troupes en cas de guerre."
+
+GRE_extra_tech_slot:0 "Enrayer la fuite des cerveaux"
+GRE_extra_tech_slot_desc:0 "Notre élite intellectuelle se tourne actuellement vers d’autres nations qui leur offrent de meilleures perspectives. Nous allons instaurer des bourses pour ceux qui restent au pays et créer davantage d’instituts et de laboratoires pour les employer dans la patrie [GRE.GetAdjective]."
+
+GRE_further_development:0 "Stimuler la croissance industrielle"
+GRE_further_development_desc:0 "Grâce à des travaux publics et des subventions supplémentaires aux entreprises qui s’agrandissent en [GRE.GetNameDef], nous allons continuer à bâtir une base industrielle sur laquelle notre économie pourra prospérer."
+
+GRE_jobs_for_the_people:0 "Subventionner le secteur industriel"
+GRE_jobs_for_the_people_desc:0 "Réduire le chômage endémique en [GRE.GetNameDef] nécessitera une intervention accrue de l’État. En recourant aux subventions, prêts à faible taux et renflouements des entreprises en difficulté, nous pourrons relancer notre économie."
+
+GRE_bullet_factories:0 "Développer le secteur de l’armement"
+GRE_bullet_factories_desc:0 "Notre gouvernement accordera des subventions aux entreprises d’armement de [GRE.GetNameDef], les incitant à étendre leurs activités et à construire davantage d’usines dans le pays."
+
+GRE_jet_engines:0 "Moteurs à réaction"
+GRE_jet_engines_desc:0 "Les hélices appartiennent au passé, et si nous voulons dominer les cieux, nous devons embrasser l’avenir."
+
+GRE_fight_depression:0 "Combattre la Grande Dépression"
+GRE_fight_depression_desc:0 "La Grande Dépression a durement frappé le peuple grec. Chômage, perte d’économies et dettes écrasantes ne sont que quelques-uns des problèmes quotidiens de nos citoyens. Le gouvernement doit agir rapidement avant que la situation ne se détériore davantage. En augmentant le déficit national et en encourageant la dépense, nous pourrons remettre le pays sur la voie du redressement."
+
+GRE_end_the_depression:0 "Mettre fin à la Grande Dépression"
+GRE_end_the_depression_desc:0 "Bien que le pire de la Grande Dépression soit passé, les cicatrices qu’elle a laissées subsistent. Nous devons prendre des mesures préventives pour rassurer notre population : les années de misère sont derrière nous, et notre nation agit pour mieux protéger ses citoyens d’une future récession ou dépression."
+
+GRE_naval_construction:0 "Industrialisation navale"
+GRE_naval_construction_desc:0 "Pour construire une marine [GRE.GetAdjective] plus grande et moderne, nous devons d’abord agrandir et moderniser nos chantiers navals."
+
+GRE_light_ship_effort:0 "Moderniser l’« Elli »"
+GRE_light_ship_effort_desc:0 "La dure réalité est que l’économie [GRE.GetAdjective] ne peut guère financer la construction massive de cuirassés, croiseurs de bataille ou porte-avions. Si nous voulons étendre et moderniser notre marine, ce sera par des navires plus petits et plus agiles."
+
+GRE_submarine_effort:0 "Les loups de l’Égée"
+GRE_submarine_effort_desc:0 "Les innovations de la guerre sous-marine ont montré leur efficacité. La capacité de frapper sans être repéré et de cibler directement les transports maritimes sera un atout décisif lors d’un futur conflit."
+
+GRE_naval_air_effort:0 "Les aigles de l’Égée"
+GRE_naval_air_effort_desc:0 "Bien que coûteuse, la construction de navires capables d’accueillir et d’utiliser des avions permettra à notre marine d’atteindre un nouveau sommet. La suprématie aérienne a déjà fait ses preuves, et la combiner à la puissance navale nous permettra de neutraliser même les plus redoutables marines du monde."
+GRE_naval_way:0 "Mégà to tís Thálassis Krátos"
+GRE_naval_way_desc:0 "Notre gouvernement mettra en place et propagera un « New Deal » en faveur de notre marine. Des subventions massives et une augmentation de budget nous permettront de construire et de déployer une flotte bien plus imposante."
+
+GRE_carrier_focus:0 "Priorité aux porte-avions"
+GRE_carrier_focus_desc:0 "Notre amirauté a reconnu l’importance stratégique des porte-avions et souhaite poursuivre leur modernisation. Nous leur fournirons les moyens nécessaires pour le faire."
+
+GRE_battleship_focus:0 "Priorité aux cuirassés"
+GRE_naval_artillery:0 "Artillerie navale"
+GRE_naval_artillery_desc:0 "Notre pays n’a jusqu’ici produit que des obus de croiseur. Nous devons développer des obus de plus gros calibre si nous voulons équiper nos navires de tourelles plus puissantes."
+GRE_battleship_focus_desc:0 "Notre amirauté considère que l’utilisation de porte-avions serait redondante. La présence de plus de cinq mille îles dans notre nation offre déjà suffisamment de bases à notre aviation. Nous nous concentrerons donc sur la modernisation et la construction de cuirassés, afin d’affronter les plus grands bâtiments des autres marines."
+
+GRE_bigger_navy:0 "Mégà to tís Thálassis Krátos"
+GRE_bigger_navy_desc:0 "Nos ancêtres athéniens dominaient les mers grâce à leurs navires de guerre. Nous devons suivre leurs traces en construisant une marine capable de vaincre quiconque oserait nous défier."
+
+GRE_better_navy:0 "Domination navale"
+GRE_better_navy_desc:0 "Les Perses surpassaient largement en nombre nos ancêtres helléniques lors de la bataille navale de Salamine, mais leur ingéniosité et leurs stratégies audacieuses leur apportèrent la victoire. Nous devons encourager ce même esprit d’innovation au sein de notre amirauté et suivre l’exemple de nos ancêtres."
+
+GRE_aviation_effort:0 "Aien Hypsikratein"
+GRE_aviation_effort_desc:0 "Bien que la Grèce soit relativement nouvelle dans le domaine de la guerre aérienne, nous devons nous assurer d’adopter les innovations dans tous les aspects de la guerre."
+
+GRE_fighter_focus:0 "Priorité aux chasseurs"
+GRE_fighter_focus_desc:0 "Il est clair pour le haut commandement que les chasseurs sont la clé de la guerre aérienne. Nous devons immédiatement encourager la recherche et la production de modèles modernes."
+
+GRE_bomber_focus:0 "Priorité aux bombardiers"
+GRE_bomber_focus_desc:0 "L’état-major a reconnu l’importance de vastes flottes aériennes composées de bombardiers. Leur capacité à frapper les infrastructures ennemies, les lignes d’approvisionnement et les usines est d’une valeur inestimable pour nous."
+
+GRE_further_air_plans:0 "Plans aériens supplémentaires"
+GRE_further_air_plans_desc:0 "Notre haut commandement et nos chercheurs doivent travailler main dans la main avec les pilotes et les équipages si nous voulons continuer à innover et moderniser notre armée de l’air."
+
+GRE_heavy_cruiser_effort:0 "Moderniser l’« Averof »"
+GRE_heavy_cruiser_effort_desc:0 "Avant même d’envisager la construction de cuirassés ou de porte-avions, nous devons améliorer l’épine dorsale de notre flotte. Le croiseur cuirassé nous a bien servi, et en l’améliorant, nous fournirons une base solide à notre puissance navale."
+
+GRE_base_strike:0 "Attaque de bases"
+GRE_base_strike_desc:0 "L’utilisation d’avions dans la guerre navale sera la clé de la victoire. Nous devons adopter une doctrine qui correspond à cette philosophie."
+
+GRE_fleet_in_being:0 "Flotte en puissance"
+GRE_fleet_in_being_desc:0 "La doctrine de la « Flotte en puissance » a bien servi notre nation par le passé. Sans tomber dans la complaisance, nous en conserverons les principes fondamentaux."
+
+GRE_fund_the_navy:0 "Financer la marine"
+GRE_fund_the_navy_desc:0 "Ignorer la marine [GRE.GetAdjective] serait une insulte à nos ancêtres. Nous devons nous assurer d’être prêts à repousser tout envahisseur qui oserait franchir nos eaux."
+
+GRE_final_plans:0 "Préparatifs finaux"
+GRE_final_plans_desc:0 "Notre flotte est construite, nos tactiques affinées. Nous allons entamer les préparatifs finaux pour consolider notre domination navale sur l’Égée."
+
+GRE_open_different_plans:0 "Favoriser l’innovation militaire"
+GRE_open_different_plans_desc:0 "Notre gouvernement est prêt à développer et réformer notre armée. Nous pouvons désormais encourager l’innovation à la fois dans notre armée de l’air et dans notre doctrine terrestre."
+
+GRE_divided_naval_industry:0 "Industrie navale divisée"
+GRE_divided_naval_industry_desc:0 "La production navale en [GRE.GetNameDef] est partagée entre notre arsenal militaire et les chantiers navals civils. Le gouvernement ne peut rester passif : il doit choisir un camp à soutenir si nous voulons poursuivre nos projets maritimes."
+
+GRE_focus_on_trade:0 "Encourager le commerce et les contrats civils"
+GRE_focus_on_trade_desc:0 "Nous devons soutenir les chantiers navals civils et mettre en place des programmes pour favoriser le commerce et moderniser nos ports."
+
+GRE_further_arsenal_plans:0 "Subventions à l’arsenal naval"
+GRE_further_arsenal_plans_desc:0 "Nous devons soutenir notre arsenal naval et lui accorder des subventions supplémentaires afin de construire et agrandir davantage de chantiers."
+
+GRE_collect_from_trade:0 "Récolter les bénéfices"
+GRE_collect_from_trade_desc:0 "Après avoir investi dans nos chantiers civils et favorisé le commerce, nous pouvons enfin profiter des retombées de notre investissement."
+
+GRE_cas_focus:0 "Priorité à l’appui aérien rapproché"
+GRE_cas_focus_desc:0 "Notre aviation sera utilisée au mieux en coopération avec nos forces terrestres. Favoriser la production et la doctrine de l’appui aérien rapproché nous sera très utile."
+
+GRE_army_reform:0 "Réformer l’armée"
+GRE_army_reform_desc:0 "Notre corps des officiers et l’état général de l’armée sont médiocres depuis la guerre de 1922. Nous devons abandonner les vieilles pratiques et tactiques obsolètes pour amener nos forces armées à un standard bien plus élevé."
+
+GRE_support_equipment_modernization:0 "Développer les équipements de soutien"
+GRE_support_equipment_modernization_desc:0 "Une armée n’est rien sans son soutien : médecins, cuisiniers, ingénieurs et services divers. Nous devons reconnaître leur importance et encourager leur développement."
+
+GRE_support_artillery:0 "Soutien d’artillerie divisionnaire"
+GRE_support_artillery_desc:0 "La Grande Guerre a démontré le rôle décisif de l’artillerie. Nous devons permettre à chaque division de disposer de batteries d’artillerie pour fournir un appui-feu immédiat."
+
+GRE_new_plans:0 "Réformer le corps des officiers"
+GRE_new_plans_desc:0 "Notre corps des officiers compte encore trop de lâches, d’incompétents et d’individus complaisants. Nous devons les écarter et les remplacer si nous voulons mener une réforme militaire sérieuse."
+
+GRE_land_doctrine_1:0 "Innovation doctrinale"
+GRE_land_doctrine_1_desc:0 "Nous ne devons pas rester complaisants ni nous reposer sur d’anciennes stratégies. Nous devons continuer à développer et améliorer nos tactiques pour rester victorieux sur le champ de bataille."
+
+GRE_motorization_effort:0 "Motorisation de l’armée"
+GRE_motorization_effort_desc:0 "Certains au sein de l’état-major suggèrent de motoriser notre armée, afin de donner à davantage de troupes un accès direct à des moyens de transport rapides."
+
+GRE_mechanization_effort:0 "Efforts de mécanisation"
+GRE_mechanization_effort_desc:0 "La motorisation améliorera certes la mobilité de nos troupes, mais pas leur protection. Nous devons développer des véhicules blindés capables de les protéger tout en leur fournissant une puissance de feu accrue."
+
+GRE_armor_effort:0 "Développer un corps blindé"
+GRE_armor_effort_desc:0 "Même si le relief de notre pays n’est pas idéal pour la guerre blindée, nous ne pouvons ignorer l’utilité tactique de ces machines. Nous devons concevoir des véhicules capables de manœuvrer sur notre terrain et former une branche blindée au sein de nos forces terrestres."
+GRE_med_armor_effort:0 "Chars moyens"
+GRE_med_armor_effort_desc:0 "Après avoir compilé les statistiques et données du champ de bataille, il est clair pour notre état-major que la voie à suivre consiste à concevoir et déployer des véhicules blindés plus grands et dotés d’un armement plus puissant."
+
+GRE_special_forces:0 "Forces spéciales"
+GRE_special_forces_desc:0 "Nos forces spéciales doivent continuer à innover, développer leur doctrine et élargir le champ de leurs opérations. Nous devons leur allouer les fonds, la main-d’œuvre et le matériel nécessaires pour atteindre cet objectif."
+
+GRE_political_awakening:0 "Réveil politique"
+GRE_political_awakening_desc:0 "Un sombre voile s’est abattu sur une grande partie du monde. Plus que jamais, [GRE.GetNameDef] doit choisir ses alliés avec soin et surveiller ses ennemis potentiels."
+
+GRE_divided_nation:0 "Réunifier une nation divisée"
+GRE_divided_nation_desc:0 "Le régime de Metaxas a pu contrôler la scène politique de [GRE.GetNameDef] pendant un certain temps. Cependant, un changement important de soutien pourrait faire basculer l’équilibre des pouvoirs. Rien ne garantit que le régime de Metaxas pourra résister alors que l’Europe devient de plus en plus instable."
+
+GRE_autarky_effort:0 "Abandonner la démocratie"
+GRE_autarky_effort_desc:0 "Nos ancêtres ont un jour embrassé l’idée de démocratie directe, à leur détriment. Nous ne pouvons faire confiance à des acteurs politiques comme Tsaldaris ou les communistes en cette période de troubles internes. Nous devons rétablir l’ordre !"
+
+GRE_national_union:0 "Union nationale"
+GRE_national_union_desc:0 "L’Union nationale prône un retour à la rhétorique et aux valeurs qui ont fait la grandeur de nos ancêtres. Nous devons suivre leur exemple si nous voulons retrouver notre gloire passée."
+
+GRE_glorify_race:0 "Glorifier la culture hellénique"
+GRE_glorify_race_desc:0 "Le peuple hellénique a été béni tout au long de l’histoire et choisi pour guider le monde vers une nouvelle ère. Héritiers des cités antiques d’Athènes, de Sparte et de Corinthe, nous avons inspiré une grande partie de la civilisation occidentale en matière de culture, de philosophie et de politique. Le grec est parlé dans toute la région malgré les siècles de domination étrangère. Notre peuple doit être réuni et sa souveraineté restaurée !"
+
+GRE_recruitment_focus:0 "Agences de recrutement"
+GRE_recruitment_focus_desc:0 "Chaque homme doit se battre pour la gloire de notre pays. Nous ne pourrons retrouver nos anciennes grandeurs qu’à travers la conquête et l’action militaire."
+
+GRE_strategic_interests:0 "Intérêts stratégiques"
+GRE_strategic_interests_desc:0 "Il est temps d’ouvrir de nouveaux fronts et de reprendre ce qui nous appartient de droit. Le peuple grec est divisé dans la région : nous devons unir tous les Grecs au sein d’une nation glorieuse."
+
+GRE_alliances:0 "Alliances"
+GRE_alliances_desc:0 "Hélas, [GRE.GetNameDef] n’est pas en mesure d’atteindre seule ses objectifs. Si nous voulons regagner ce que nous avons perdu et véritablement nous imposer sur la scène internationale, nous devons forger des alliances. Mais nous devrons choisir avec soin."
+
+GRE_befriend_italy:0 "Pacte de non-agression avec [ITA.GetNameDef]"
+GRE_befriend_italy_desc:0 "Si notre histoire récente avec l’Italie a été marquée par les conflits et les tensions, nous devons aujourd’hui rappeler notre héritage et notre culture communs pour rebâtir des liens qui se sont distendus. Avec leur soutien, nous pourrons prospérer."
+
+GRE_dodecanese_for_membership:0 "Le Dodécanèse contre l’adhésion"
+GRE_dodecanese_for_membership_desc:0 "Nous devrions proposer aux [ITA.GetAdjective]s de rejoindre leur alliance en échange du Dodécanèse. Ainsi, le drapeau [GRE.GetAdjective] flottera enfin sur Rhodes sans avoir à recourir à la guerre."
+
+GRE_befriend_germany:0 "Pacte de non-agression avec [GER.GetNameDef]"
+GRE_befriend_germany_desc:0 "La machine de guerre [GER.GetAdjective] est une force irrésistible, et nous allier à une nation de ce calibre permettrait d’éviter d’éventuels conflits avec [ENG.GetNameDef] ou [FRA.GetNameDef]."
+
+GRE_join_the_axis:0 "Adhésion à l’Axe"
+GRE_join_the_axis_desc:0 "Le moment est venu d’officialiser notre entrée dans les puissances de l’Axe. Nos valeurs sont alignées avec celles de [GER.GetNameDef], et nous montrerons ouvertement notre soutien en rejoignant cette alliance."
+
+GRE_expansionism:0 "Expansionnisme"
+GRE_expansionism_desc:0 "Le moment est venu de redessiner les frontières de la région. Nous allons étendre notre territoire et reprendre ce qui nous revient de droit, par la diplomatie ou par la force si nécessaire."
+
+GRE_reclaim_dodecanese:0 "Reprendre le Dodécanèse"
+GRE_reclaim_dodecanese_desc:0 "Le moment est venu de réunir les Grecs du Dodécanèse avec leurs frères. Nous rejetterons le joug des oppresseurs [ITA.GetAdjective]s. Après tout, qui peut nier que les îles du Dodécanèse sont grecques ?"
+
+GRE_rival_britain:0 "Ennemi [ENG.GetAdjective]"
+GRE_rival_britain_desc:0 "La possession britannique de l’île de Chypre est depuis longtemps une source de discorde au sein de notre gouvernement. Les Chypriotes attendent leur indépendance, et l’Enosis réunira enfin Grecs et Chypriotes en frères !"
+
+GRE_enosis:0 "Enosis"
+GRE_enosis_desc:0 "Les préparatifs et plans d’invasion de Chypre sont prêts. Nous enverrons un ultimatum aux [ENG.GetAdjective]. S’ils refusent de céder l’île et de libérer nos frères chypriotes de leur domination, nous les affronterons avec toute la puissance militaire [GRE.GetAdjective]."
+
+GRE_megali_idea:0 "Megali Idea"
+GRE_megali_idea_desc:0 "En mai 1453, Constantinople, la grande capitale de l’Empire byzantin, tomba aux mains de l’armée ottomane menée par Mehmet le Conquérant. La minorité grecque continua de vivre sous la suzeraineté ottomane jusqu’en 1922, lorsqu’elle fut forcée d’abandonner ses foyers. Il est temps de reprendre ces terres et de réaliser pleinement la Megali Idea."
+
+GRE_reinforce_4th_of_august_regime:0 "Renforcer le régime du 4 août"
+GRE_reinforce_4th_of_august_regime_desc:0 "Metaxas a prouvé au peuple [GRE.GetAdjective] qu’il était un dirigeant capable et avisé. Son souhait de garantir la neutralité, de renforcer nos forces armées et de relancer notre économie nous conduira vers un avenir radieux. Nous devons consolider son régime politiquement et éliminer toute menace potentielle à sa stabilité."
+
+GRE_begin_reconstruction:0 "Corporatisme"
+GRE_begin_reconstruction_desc:0 "Metaxas sait qu’il doit sortir le peuple [GRE.GetAdjective] de la profonde dépression économique qu’il traverse. Le mouvement communiste se cache dans l’ombre, exploitant le mécontentement populaire. Pour déraciner cette menace, nous devons prendre soin de notre peuple."
+
+GRE_improve_roads:0 "Grands travaux publics"
+GRE_improve_roads_desc:0 "Une armée n’est rien si elle n’est pas mobile. Nous devons améliorer nos routes, nos lignes ferroviaires et nos autres moyens de transport pour assurer un déploiement rapide et efficace de nos forces en cas de guerre."
+
+GRE_metaxas_industry:0 "Réduire le chômage"
+GRE_metaxas_industry_desc:0 "Metaxas envisage un avenir sans pauvreté ni chômage de masse pour le peuple [GRE.GetAdjective]. Il a élaboré un plan pour créer des emplois et injecter des fonds indispensables dans notre économie. Il ne reste plus qu’à appliquer ces réformes et signer les contrats."
+
+GRE_metaxas_bullet_industry:0 "Aligner la PYRKAL"
+GRE_metaxas_bullet_industry_desc:0 "Metaxas comprend que notre peuple doit être uni et lié à nos forces armées pour créer une cohésion indestructible entre civils et soldats. Pour cela, nous devons développer notre industrie militaire afin de soutenir une base de production plus large pour nos armées grandissantes."
+
+GRE_embrace_metaxism:0 "Adopter le métaxisme"
+GRE_embrace_metaxism_desc:0 "Ioannis Metaxas prône depuis longtemps une idéologie nationaliste autoritaire fondée sur la monarchie, l’anticommunisme et l’anti-impérialisme. Il a montré son dévouement envers le peuple [GRE.GetAdjective], et nous devons lui témoigner notre gratitude en adoptant l’idéologie qu’il nous a transmise."
+
+GRE_create_EON:0 "Fonder l’E.O.N."
+GRE_create_EON_desc:0 "L’Organisation nationale de la jeunesse, également connue sous le nom d’E.O.N., a été fondée par le régime de Metaxas. Elle appelait à la régénération de la nation [GRE.GetAdjective] et à l’établissement d’un [GRE.GetName] moderne et culturellement homogène."
+
+GRE_metaxa_militarism:0 "Eleutheron to Eupsychon"
+GRE_metaxa_militarism_desc:0 "Ioannis Metaxas a servi comme général durant l’entre-deux-guerres et pendant la campagne d’Anatolie, où chacune de ses décisions s’est révélée juste. Fort de son expérience passée, à la fois sur le champ de bataille et désormais en politique, il est plus que capable de mener des réformes militaires qui assureront la victoire de nos forces."
+
+GRE_military_teachings:0 "Traditions militaires helléniques"
+GRE_military_teachings_desc:0 "L’avenir de notre nation reposera inévitablement sur les épaules de notre jeunesse. Nous devons encourager des cours et enseignements qui promeuvent l’esprit combatif du peuple hellénique et l’importance de la force par l’unité. Ainsi, nous éroderons progressivement les fondations des communistes et anarchistes qui veulent nuire à notre nation."
+
+GRE_create_the_IKA:0 "Mesures économiques populaires"
+GRE_create_the_IKA_desc:0 ""
+
+GRE_political_opposition:0 "Asphaleia"
+GRE_political_opposition_desc:0 "Même si notre assise politique est solide et stable, l’opposition continue d’observer dans l’ombre et de comploter notre chute. Pour poursuivre notre juste chemin, nous devons réduire ces éléments au silence, par la force si nécessaire."
+
+GRE_dominant_ideology:0 "Créer la YPE"
+GRE_dominant_ideology_desc:0 "Ioannis Metaxas est le sauveur de [GRE.GetNameDef], de son peuple et de la culture hellénique. Nous consacrerons ses accomplissements, et les forces d’opposition auront bien du mal à forger un récit crédible face à celui que nous défendons."
+
+GRE_metaxas_line:0 "Construire la ligne Metaxas"
+GRE_metaxas_line_desc:0 "Notre frontière nord est la plus exposée en ces temps troublés. Metaxas a conçu et approuvé un plan pour renforcer et fortifier cette frontière, bien que certains jugent l’entreprise trop coûteuse."
+
+GRE_world_stage:0 "Vision métaxiste"
+GRE_world_stage_desc:0 "Dans le passé, les divisions entre les sentiments pro-allemands et pro-britanniques menaçaient de plonger notre nation dans une guerre civile. Cependant, nous ne pouvons rester inactifs et devons choisir un camp."
+
+GRE_national_schism:0 "Les deux visages de l’Europe"
+GRE_national_schism_desc:0 "Le moment est venu de choisir notre camp. Quelle que soit la voie empruntée, nous devons comprendre qu’aucune demi-mesure n’est possible et que cette décision aura des répercussions pendant des années, voire des décennies."
+
+GRE_favoring_britain:0 "S’allier à [ENG.GetNameDef]"
+GRE_favoring_britain_desc:0 "Ioannis Metaxas a déclaré que, si une guerre devait éclater, le vainqueur serait celui qui contrôlerait les mers. Bien que nos relations avec les [ENG.GetAdjective] aient été houleuses, nous devons envisager l’avenir et nous aligner sur eux pour assurer notre domination navale."
+
+GRE_favoring_germany:0 "S’allier à [GER.GetNameDef]"
+GRE_favoring_germany_desc:0 "Les [GER.GetAdjective] ne cessent d’innover, de croître et de se développer à une vitesse rarement vue ces dernières années. Les nations voisines tremblent de peur, et la machine de guerre [GER.GetAdjective] sera le facteur décisif du prochain conflit. Nous devons nous allier à eux et consolider notre place à leurs côtés."
+
+GRE_different_approach:0 "Rompre avec l’Autarcie"
+GRE_different_approach_desc:0 "Nous en avons assez de l’Autarcie et de ses politiques dictatoriales. Le peuple grec est menacé par le spectre d’une guerre civile. Pour sauver notre nation de l’autodestruction, nous devons changer de gouvernement !"
+
+GRE_democratic_approach:0 "La démocratie triomphe"
+GRE_democratic_approach_desc:0 "Demertzis fut un grand dirigeant pour la Grèce. Ses idées d’unité, de liberté d’expression et de politiques économiques libérales ont permis à notre nation de se libérer du fardeau de la dépression économique. Nous devons poursuivre son projet pour un pays libre, dans la lignée de nos ancêtres athéniens !"
+
+GRE_internal_affairs:0 "Affaires intérieures"
+GRE_internal_affairs_desc:0 "Notre nation fait face à de nombreux problèmes internes, tels que la crise économique, les réfugiés et bien d’autres encore. Si nous voulons gouverner le pays et gagner la confiance du peuple, nous devons entreprendre des réformes !"
+
+GRE_denounce_metaxism:0 "Éradiquer l’extrémisme"
+GRE_denounce_metaxism_desc:0 "Nous sommes une nation moderne et démocratique tournée vers l’avenir. Le métaxisme incarne des idées autocratiques dépassées qui sapent les fondements mêmes de la démocratie. Nous devons éliminer les dernières traces de Metaxas et les souillures laissées par son ancien régime."
+
+GRE_ensure_stability:0 "Réformes administratives"
+GRE_ensure_stability_desc:0 "Les réformes ont porté leurs fruits et nous ont permis de gagner la confiance du peuple. Nous devons désormais atteindre les objectifs de notre gouvernement pour bâtir une Grèce plus forte."
+
+GRE_democratic_economic_policy:0 "Libéralisation économique"
+GRE_democratic_economic_policy_desc:0 "Il est temps de transformer nos vieilles politiques économiques en mesures modernes et libérales. [GRE.GetNameDefCap] peut devenir un partenaire commercial attractif pour n’importe quel pays européen. Nous devons exploiter cet atout."
+
+GRE_welfare_state:0 "État-providence"
+GRE_welfare_state_desc:0 "En soutenant économiquement notre population et en améliorant notre système de santé, nous pourrons gagner une grande confiance de la part de notre peuple."
+
+GRE_diplomatic_actions:0 "Diplomatie active"
+GRE_diplomatic_actions_desc:0 "De nombreux pays à l’étranger sont disposés à coopérer avec nous. Nous devons améliorer nos relations internationales et assurer des alliances pour stimuler notre croissance économique et nous protéger de potentielles menaces."
+
+GRE_befriend_france:0 "S’allier à [FRA.GetNameDef]"
+GRE_befriend_france_desc:0 "[FRA.GetNameDefCap] est le phare de la démocratie. Ses idées démocratiques nous inspirent depuis les premiers jours de la République grecque indépendante. Nous avons combattu côte à côte durant la Grande Guerre, et nous devrions à nouveau les soutenir si un nouveau conflit éclate."
+
+GRE_french_innovations:0 "Investissements [FRA.GetAdjective]"
+GRE_french_innovations_desc:0 "En autorisant les entreprises [FRA.GetAdjective] à investir dans notre pays, nous pourrions considérablement stimuler notre économie et créer de nouveaux emplois pour notre peuple."
+
+GRE_befriend_britain:0 "S’allier à [ENG.GetAdjective]"
+GRE_befriend_britain_desc:0 "La marine [ENG.GetAdjective] est la plus puissante que le monde ait jamais connue ; nous ne pourrions jamais la défier. Ils ont aidé la Grèce lors de la guerre d’Indépendance, et nous les avons soutenus durant la Grande Guerre. [ENG.GetNameDefCap] est un véritable allié de [GRE.GetNameDef]."
+
+GRE_british_innovetions:0 "Investissements [ENG.GetAdjective]"
+GRE_british_innovetions_desc:0 "En autorisant les entreprises [ENG.GetAdjective] à investir dans notre pays, nous pourrions considérablement stimuler notre économie et créer de nouveaux emplois pour notre peuple."
+
+GRE_rival_germany:0 "Préparatifs de défense nationale"
+GRE_rival_germany_desc:0 "La machine de guerre [GER.GetAdjective] se renforce chaque jour, menaçant la paix en Europe. Tous devraient respecter le traité de Versailles. Dénoncer leurs actions dégradera nos relations avec eux, mais nous permettra d’informer des puissances comme [ENG.GetNameDef] et [FRA.GetNameDef] de notre soutien."
+
+GRE_rival_italy:0 "Plan de défense anti-[ITA.GetAdjective]"
+GRE_rival_italy_desc:0 "Les [ITA.GetAdjective] continuent de revendiquer le Dodécanèse comme leur possession et refusent toute présence [GRE.GetAdjective] dans la région. Nous devons dénoncer leurs prétentions sur les Balkans et assurer [ENG.GetNameDef] et [FRA.GetNameDef] de notre soutien face à l’agression [ITA.GetAdjective]."
+
+GRE_allied_membership:0 "Adhésion aux Alliés"
+GRE_allied_membership_desc:0 "Nous avons décidé que, pour protéger notre souveraineté et notre indépendance, nous devons rejoindre la faction alliée et assurer les [ENG.GetAdjective] que nous les soutiendrons si une guerre éclate."
+
+GRE_military_reforms:0 "Réformes militaires"
+GRE_military_reforms_desc:0 "Notre armée n’est pas assez efficace et manque de commandement compétent. Nous devons élargir notre état-major et proposer à nos généraux des plans pour une Grèce plus grande."
+
+GRE_city_defenses:0 "Défenses urbaines"
+GRE_city_defenses_desc:0 "Notre capitale et notre co-capitale, ainsi que leurs régions environnantes, sont les villes les plus importantes du pays, et nous devons les défendre jusqu’au dernier homme ! Mobilisons la population pour participer à la construction, et nous aurons des défenses urbaines en un rien de temps !"
+
+GRE_surprise_attack_italy:0 "Opération Diagoras"
+GRE_surprise_attack_italy_desc:0 "Les [ITA.GetAdjective] refusent toujours de restituer les îles du Dodécanèse à notre nation. En les attaquant par surprise, nous aurons plus de chances de les vaincre et de les contraindre à accepter nos conditions. Une guerre éclair est la meilleure option."
+
+GRE_demand_the_coasts:0 "Revendiquer la côte"
+GRE_demand_the_coasts_desc:0 "Les [TUR.GetAdjective] occupent nos régions de cœur en Anatolie occidentale. Malgré les échanges de population et les massacres, une présence hellénique subsiste encore en Anatolie. Nous pourrions utiliser cet argument pour provoquer un conflit dans la région et obtenir les terres que nous désirons, avec un soutien extérieur."
+
+GRE_ask_for_cyprus:0 "Demander Chypre"
+GRE_ask_for_cyprus_desc:0 "Maintenant que nous avons scellé une alliance avec les [ENG.GetAdjective], il est temps de leur demander s’ils nous céderont Chypre. Il est très probable qu’ils acceptent, mais une base militaire d’une telle importance ne se brade pas."
+
+GRE_aftermath_of_the_victory_of_the_people:0 "Conséquences de la victoire du peuple"
+GRE_aftermath_of_the_victory_of_the_people_desc:0 "Les fascistes ont échoué à détruire le rêve d’une utopie communiste [GRE.GetAdjective] ! Désormais, les travailleurs ne seront plus jamais tourmentés par les capitalistes ! En avant, camarades, vers un avenir rouge !"
+
+GRE_restaff_the_army_command:0 "Réorganiser le commandement de l’armée"
+GRE_restaff_the_army_command_desc:0 "Après la guerre civile, tous les généraux sont passés du côté adverse, craignant la force du prolétariat. Cela nous a laissés avec trop peu d’officiers pour diriger l’armée du peuple. Nous devons donc promouvoir de nouveaux officiers pour prendre la tête."
+GRE_restaff_the_army_command_tt:0 "§YOuvre l’accès à de nouveaux commandants militaires\n§!"
+
+GRE_deal_with_klaras:0 "Gérer le cas Klaras"
+GRE_deal_with_klaras_desc:0 "En acceptant l’offre d’Athanasios Klaras durant la guerre civile, nous l’avons nommé commandant suprême de notre armée. Cette décision a engendré certains problèmes, auxquels nous devons désormais trouver une solution."
+
+GRE_international_socialist_volunteers:0 "Volontaires socialistes internationaux"
+GRE_international_socialist_volunteers_desc:0 "Partout dans le monde, le prolétariat est opprimé, mais bientôt il se lèvera contre ses chaînes capitalistes. Et lorsque ce jour viendra, nous devrons l’aider dans sa lutte pour la liberté."
+
+GRE_create_the_civil_guard:0 "Créer la Garde civile"
+GRE_create_the_civil_guard_desc:0 "Pour éviter que les fascistes ou d’autres ennemis ne cherchent à s’emparer du pouvoir en Grèce, nous devons être prêts. Nous créerons donc une garde civile où hommes et femmes serviront la Mère Patrie."
+
+GRE_found_opla:0 "Fonder l’O.P.L.A."
+GRE_found_opla_desc:0 "La lutte du peuple compte de nombreux ennemis, à l’intérieur comme à l’extérieur de notre parti. Une force de sécurité paramilitaire est indispensable pour protéger la révolution. Ses méthodes seront peut-être brutales, mais qui oserait remettre en cause leur nécessité ?"
+
+GRE_befriend_sov:0 "Se rapprocher des [SOV.GetAdjective]"
+GRE_befriend_sov_desc:0 "Les [SOV.GetAdjective] représentent le foyer de la révolution. Si nous nous tenons à l’écart d’eux, nous ne valons pas mieux que les fascistes."
+
+GRE_buy_sov_guns:0 "Acheter des armes [SOV.GetAdjective]"
+GRE_buy_sov_guns_desc:0 "Nous pouvons acheter des armes [SOV.GetAdjective] pour renforcer notre armée. Après tout, il n’y a jamais trop de fusils dans nos réserves."
+
+GRE_form_new_government:0 "Former un nouveau gouvernement"
+GRE_form_new_government_desc:0 "Le dirigeant soviétique Iossif Staline a développé sa propre pensée politique, le « stalinisme », qui place le développement industriel au cœur de sa vision. Depuis son arrivée au pouvoir dans les années 1920, l’industrie soviétique a explosé. Nous devrions adopter ce système nous aussi."
+
+GRE_join_comintern:0 "Rejoindre le Komintern"
+GRE_join_comintern_desc:0 "Nous devons rejoindre le Komintern afin de renforcer notre place dans le monde."
+
+GRE_ally_the_balkans:0 "Unifier les Balkans"
+GRE_ally_the_balkans_desc:0 "Nous sommes le premier pays balkanique où le prolétariat a pris le pouvoir et instauré une utopie socialiste. Mais il reste encore des peuples à libérer ! Nous devons former une nouvelle alliance et répandre le communisme dans les Balkans."
+
+GRE_join_the_balkanic_revolution:0 "Rejoindre la révolution balkanique"
+GRE_join_the_balkanic_revolution_desc:0 "La révolution socialiste est déjà en préparation dans les pays voisins des Balkans. Joignons-nous à eux et transformons la région en rempart contre les forces bourgeoises réactionnaires et fascistes."
+
+GRE_invite_bulgaria:0 "Soutenir Georgi Dimitrov"
+GRE_invite_bulgaria_desc:0 "Le PCB (Parti communiste bulgare), dirigé par Georgi Dimitrov, est le parti communiste le plus puissant de [BUL.GetNameDef]. Nous devrions chercher à nous allier à eux."
+
+GRE_invite_albania:0 "Renverser Zog"
+GRE_invite_albania_desc:0 "Le roi Zog, tyran de [ALB.GetNameDef], doit être renversé au plus vite."
+
+GRE_invite_yugoslavia:0 "Soutenir Tito"
+GRE_invite_yugoslavia_desc:0 "Tito est à la tête du Parti communiste de Yougoslavie. Il s’efforce de rallier les travailleurs, mais ses efforts ont échoué jusqu’à présent. Nous devons faire de notre mieux pour le soutenir."
+
+GRE_reform_agricultural_economy:0 "Réformer l’économie agricole"
+GRE_reform_agricultural_economy_desc:0 "Nos premières réformes économiques doivent être agraires, car une grande partie des Grecs sont encore des paysans vivant dans les campagnes."
+
+GRE_control_the_stocks:0 "Contrôler l’industrie"
+GRE_control_the_stocks_desc:0 "Pour garantir que l’industrie atteigne ses quotas, nous devons contrôler directement sa gestion."
+
+GRE_enforce_nationalization:0 "Imposer la nationalisation"
+GRE_enforce_nationalization_desc:0 "La nationalisation est nécessaire pour s’assurer que les capitalistes ne contrôlent pas l’industrie ni les ressources."
+
+GRE_begin_internal_reforms:0 "Commencer les réformes politiques"
+GRE_begin_internal_reforms_desc:0 "Il est temps de lancer nos réformes, et quoi de mieux pour débuter que de diffuser notre idéologie en interne."
+
+GRE_create_a_new_economic_plan:0 "Élaborer un nouveau plan économique"
+GRE_create_a_new_economic_plan_desc:0 "Nous devons mettre en place une nouvelle politique économique fondée sur des mesures comme la nationalisation. Pour cela, nous devons planifier les étapes de cette réforme et les appliquer avec soin."
+
+GRE_protect_northern_minorities:0 "Protéger les minorités du Nord"
+GRE_protect_northern_minorities_desc:0 "De nombreuses minorités, comme les Albanais et les Bulgares, sont opprimées dans le nord de la Grèce. Comment cela a-t-il pu durer aussi longtemps ? Cela doit changer immédiatement."
+
+GRE_fate_of_the_royal_family:0 "Le sort de la famille royale"
+GRE_fate_of_the_royal_family_desc:0 "La monarchie grecque, créée au début du XIXe siècle, a toujours servi l’inégalité, soutenu les classes supérieures et condamné les travailleurs. Nous devons décider comment punir la famille royale pour cela."
+
+GRE_look_outwards:0 "Regarder au-delà de nos frontières"
+GRE_look_outwards_desc:0 "Le monde entier est peuplé de travailleurs qui attendent la révolution. Nous devons trouver un moyen de les soutenir."
+
+GRE_a_new_police_force:0 "Une nouvelle police"
+GRE_a_new_police_force_desc:0 "L’ancienne police était corrompue et incompétente. Nous devons en créer une nouvelle pour remplir son rôle."
+
+GRE_peasants_debt_reform:0 "Réforme des dettes paysannes"
+GRE_peasants_debt_reform_desc:0 "Les dettes des paysans ont ruiné des exploitations et jeté des fermiers à la rue depuis l’Antiquité. Nous devons trouver un moyen d’y remédier."
+
+GRE_utopian_paradise:0 "Un paradis balkanique"
+GRE_utopian_paradise_desc:0 "La Grèce est passée d’un État bourgeois à une utopie socialiste fondée sur l’égalité."
+
+GRE_olive_export:0 "Exporter des olives"
+GRE_olive_export_desc:0 "La Grèce est réputée pour ses olives. Nous devrions lancer une campagne commerciale afin d’en tirer profit."
+
+GRE_greater_greece:0 "Grande Grèce"
+GRE_greater_greece_desc:0 "-"
+
+GRE_reinforce_royal_dictatorship:0 "Étendre les pouvoirs royaux"
+GRE_reinforce_royal_dictatorship_desc:0 "Pour que le roi conserve son rôle de souverain unique de la nation, nous devons élargir ses pouvoirs afin d’empêcher la révolution communiste."
+
+GRE_establish_the_royal_armory:0 "Établir l’arsenal royal"
+GRE_establish_the_royal_armory_desc:0 "Pour protéger sa souveraineté, le royaume a besoin d’une industrie militaire forte. Non seulement souhaitable, elle est indispensable."
+
+GRE_royal_roads:0 "Routes militaires"
+GRE_royal_roads_desc:0 "La guerre approchant, nous devons répondre au besoin de déplacement rapide de nos troupes vers le front."
+
+GRE_prepare_expansion:0 "Préparer l’expansion de l’État"
+GRE_prepare_expansion_desc:0 "De grandes populations grecques vivent encore hors de nos frontières, persécutées et attendant toujours leur libération et leur union avec la mère patrie. Nous avons trop attendu : il est temps d’agir pour leur rendre la liberté."
+
+GRE_devout_to_the_monarchy:0 "Dévouement à la monarchie"
+GRE_devout_to_the_monarchy_desc:0 "Nous devons renforcer la monarchie, institution sacrée, et inculquer des valeurs et croyances royalistes à notre peuple. Il doit être prêt à se battre pour le roi !"
+
+GRE_king_general:0 "Prendre le commandement direct"
+GRE_king_general_desc:0 "Le roi Georges II possède les qualifications et l’autorité nécessaires pour devenir commandant suprême des forces armées. Comme son père, il agrandira le royaume et deviendra un véritable roi-soldat."
+
+GRE_demand_dodecanese:0 "Revendiquer le Dodécanèse"
+GRE_demand_dodecanese_desc:0 "Les îles du Dodécanèse sont toujours sous contrôle [ITA.GetAdjective]. Cette occupation étrangère a assez duré."
+
+GRE_demand_east_thrace:0 "Revendiquer la Thrace orientale"
+GRE_demand_east_thrace_desc:0 "Constantinople fut autrefois la capitale de notre nation. Avec les grandes puissances occupées ailleurs, nous pouvons désormais nous concentrer sur la reconquête de ce qui nous appartient de droit et venger l’humiliation de notre dernière guerre."
+
+GRE_purge_republicans:0 "Purger les républicains"
+GRE_purge_republicans_desc:0 "La faction républicaine reste puissante et sape nos efforts pour bâtir une Grèce forte. Nous ne pouvons tolérer la poursuite de ce terrible schisme national. Une purge est nécessaire pour affermir la monarchie."
+
+GRE_reclaim_cyprus:0 "Revendiquer Chypre"
+GRE_reclaim_cyprus_desc:0 "Depuis trop longtemps, l’île souffre sous la domination coloniale britannique. L’Enosis, l’union avec la Grèce, doit être exigée maintenant que les [ENG.GetAdjective] sont occupés par les [GER.GetAdjective]."
+
+GRE_purchase_cyprus:0 "Acheter Chypre"
+GRE_purchase_cyprus_desc:0 "[ENG.GetNameDefCap] contrôle la Méditerranée et pourrait rapidement devenir notre pire ennemi. Mieux vaut ne pas les provoquer et engager des négociations pour acquérir pacifiquement l’île par le commerce."
+
+GRE_share_power:0 "Partager le pouvoir avec le parlement"
+GRE_share_power_desc:0 "Notre nation a inventé la démocratie. Nous devons donc honorer nos ancêtres en partageant le pouvoir avec le parlement, sous la supervision avisée de notre roi. Cela apportera la stabilité dont nous avons tant besoin."
+
+GRE_absolute_monarchy:0 "Monarchie absolue"
+GRE_absolute_monarchy_desc:0 "Le système parlementaire corrompu a échoué et nous a menés à la situation actuelle. En suspendant la constitution, nous pouvons réduire au silence tous nos opposants. Après tout, le roi est oint de Dieu, et lui seul sait ce qui est bon pour notre nation."
+
+GRE_a_strong_kingdom:0 "Un royaume modèle européen"
+GRE_a_strong_kingdom_desc:0 "Sous la direction de notre roi, [GRE.GetNameDef] est devenu un royaume modèle et un bastion de monarchie en Europe. Sa guidance divine a renforcé notre État et notre armée. L’économie prospère, et le peuple est de nouveau fier de son pays. Les problèmes internes comme externes ont été résolus avec succès. Vive le royaume !"
+
+GRE_polymer_effort:0 "Recherche sur les polymères"
+GRE_polymer_effort_desc:0 "La recherche sur les polymères réduira nos pénuries de pétrole et notre dépendance aux importations."
+
+GRE_industrial_innovations:0 "Innovations industrielles"
+GRE_industrial_innovations_desc:0 "Nous sommes une puissance d’innovation industrielle ! Nos efforts de recherche doivent en témoigner."
+
+GRE_establish_a_general_staff:0 "Créer un état-major"
+GRE_establish_a_general_staff_desc:0 "La dernière étape de notre réforme militaire est la création d’un état-major moderne qui supervisera nos forces armées."
+
+GRE_no_allignment:0 "Non-alignement"
+GRE_no_allignment_desc:0 "Comme lors de la Grande Guerre, la Grèce doit rechercher la neutralité et suivre une politique de non-alignement. Le ministre Metaxás est le principal défenseur de cette idée ; nous ne pouvons ignorer si facilement les appels des vieux généraux."
+
+GRE_king_george_line:0 "Ligne du roi Georges"
+GRE_king_george_line_desc:0 "Nos voisins du nord convoitent tous une partie de notre nation. Nous ne pouvons le tolérer : il nous faut bâtir une ligne de fortifications afin de dissuader toute avancée ennemie sur notre sol."
+
+GRE_british_allignment:0 "Alignement [ENG.GetAdjective]"
+GRE_british_allignment_desc:0 "En tant que nation maritime, il serait dans notre plus grand intérêt de nous ranger du côté de la Grande-Bretagne. Grâce à leur flotte, nous pourrons dominer l’Égée et défendre nos lignes de ravitaillement."
+
+GRE_royal_guards:0 "Fonder l’Organisation X"
+GRE_royal_guards_desc:0 "Nous devons exploiter les sentiments monarchistes présents dans l’armée, chez le peuple et dans la gendarmerie, et accepter la proposition du général Grivas de créer une organisation royaliste destinée à protéger notre régime de la menace communiste. Par décret royal, nous établirons cette Organisation X, baptisée d’après le monogramme du roi Georges."
+
+GRE_spartan_spirit:0 "Esprit spartiate"
+GRE_spartan_spirit_2:0 "Esprit spartiate"
+
+GRE_continue_the_fight:0 "Continuer le combat"
+GRE_continue_the_fight_desc:0 "Nous avons capitulé, mais nous pouvons encore lutter et reconquérir notre patrie !"
+
+GRE_Cyprus_for_war:0 "Chypre pour la guerre"
+GRE_Cyprus_for_war_desc:0 ""
+
+GRE_monarchist_fervour:0 "Culte monarchique"
+GRE_monarchist_fervour_desc:0 ""
+
+GRE_metaxas_unions:0 "Institutionnaliser les syndicats contrôlés par l’État"
+GRE_metaxas_unions_desc:0 ""
+
+GRE_ancient_macedon_influence:0 "Influence de la Macédoine antique"
+GRE_ancient_macedon_influence_desc:0 ""
+
+GRE_italian_war:0 "Dia Tis Lonhis"
+GRE_italian_war_desc:0 ""
+
+GRE_metaxas_line_expanded:0 "Élargir la ligne Metaxás"
+GRE_metaxas_line_expanded_desc:0 ""
+
+GRE_purge_remaining_fascist_remnants:0 "Éliminer les derniers fascistes"
+GRE_purge_remaining_fascist_remnants_desc:0 ""
+
+GRE_Reinforce_the_hierarchy:0 "Renforcer la Hiérarchie"
+GRE_Reinforce_the_hierarchy_desc:0 ""
+
+GRE_subjugate_bulgaria:0 "Soumettre [BUL.GetNameDef]"
+GRE_subjugate_bulgaria_desc:0 ""
+
+GRE_subjugate_albania:0 "Soumettre [ALB.GetNameDef]"
+GRE_subjugate_albania_desc:0 ""
+
+GRE_subjugate_yugoslavia:0 "Soumettre [YUG.GetNameDef]"
+GRE_subjugate_yugoslavia_desc:0 ""
+
+GRE_strike_the_head_of_the_fascist_serpent:0 "Frapper la tête du serpent fasciste"
+GRE_strike_the_head_of_the_fascist_serpent_desc:0 ""
+
+GRE_topple_the_marxist_traitors:0 "Renverser les traîtres marxistes"
+GRE_topple_the_marxist_traitors_desc:0 ""
+
+GRE_marxs_dream:0 "Le rêve de Marx"
+
+GRE_liberate_the_straits:0 "Libérer les détroits"
+
+GRE_aid_the_pcr:0 "Aider le P.C.R."
+
+GRE_joint_economic_cooperation_with_the_ussr:0 "Coopération technologique conjointe avec [SOV.GetNonIdeologyName]"
+
+GRE_national_security_concerns:0 "Questions de sécurité nationale"
+
+GRE_crush_kke:0 "Écraser le danger communiste"
+
+GRE_agrarian_protests:0 "Écraser les syndicats indépendants"
+
+GRE_promote_peace_in_the_balkans:0 "Promouvoir le partenariat balkanique"
+
+GRE_protect_albania:0 "Accroître l’influence [ALB.GetAdjective]"
+
+GRE_abandon_the_west:0 "Abandonner [ENG.GetNameDef]"
+
+GRE_dont_tread_the_empire:0 "Ne défiez pas l’Empire"
+
+GRE_join_balkan_entente:0 "Rejoindre les [ROM.GetAdjective]"
+GRE_join_balkan_entente_desc:0 "La Roumanie prend la tête des Balkans à travers la [ROM.getFactionName]. Il est essentiel de promouvoir la coopération balkanique et de la rejoindre."
+
+#Custom Tooltips
+GRE_org_x_divisions_tt:0 "Obtenir quatre unités avec §Y6 bataillons d’infanterie§!.\n"
+GRE_civil_guard_divisions_tt:0 "Obtenir huit unités avec §Y4 bataillons d’infanterie§!.\n"
+GRE_1:0 "§YOuvre la voie fasciste§!\n"
+GRE_2:0 "§YOuvre la voie communiste§!\n"
+GRE_3:0 "§YLe pays sera invité à notre alliance une fois devenu communiste. S’il l’est déjà, il sera automatiquement invité.§!\n"
+GRE_4:0 "§YOuvre la voie métaxiste§!\n"
+GRE_5:0 "§YOuvre la voie royaliste§!\n"
+GRE_6:0 "§YOuvre la voie démocratique§!\n"
+GRE_7:0 "§YOuvre la voie communiste§!\n"
+GRE_8:0 "§R S’ils acceptent, cela risque de provoquer la colère de [ITA.GetNameDef], qui pourrait alors nous déclarer la guerre.§!\n"
+
+pmd_over:0 "Le Premier ministre Demertzis est décédé."
+depression_over:0 "La Grande Dépression a été surmontée."
+GRE_royal_dictatorship:0 "Le roi a pris le pouvoir."
+GRE_metaxas_in_power:0 "Metaxás a pris le contrôle du pays."
+GRE_4th_aug_red_reinforced:0 "§RLe régime du 4 août s’est consolidé.§!"
+GRE_gg_fascism:0 "Grande Union Souveraine de Grèce"
+GRE_transition_government_flag:0 "Un gouvernement de transition est en place."
+GRE_commie_victory:0 "Les communistes ont remporté la guerre civile."
+GRE_fascist_path:0 "Les fascistes dirigent le pays."
+GRE_communist_gov_communism:0 "République socialiste de Grèce"
+GRE_civil_war_will_start:0 "Une guerre civile va éclater."
+GRE_cw_over:0 "La guerre civile est terminée."
+GRE_democratic_no_cw:0 "Le gouvernement démocratique a résisté."
+GRE_klaras_recruited:0 "Klaras a été recruté."
+GRE_ventiris_recalled:0 "Ventiris est rappelé."
+GRE_zervas_recalled:0 "Zervas est rappelé."
+GRE_capitulated:0 "A capitulé et s’est exilé."
+GRE_balkan_friends:0 "§GUne approche plus diplomatique§!"
+GRE_balkan_enemies:0 "§GUne approche plus agressive§!"
+Communist_orchestrated_purge:0 "Purge orchestrée par les communistes"
+GRE_metaxas_pm:0 "Metaxás a été nommé Premier ministre."
+GRE_democratic_party_appointed:0 "Panagis Tsaldaris a été nommé Premier ministre."
+GRE_divided_nation_tt:0 "§WDébloque une§! §Yoption d’événement§! §Wpermettant d’éviter que les§! §Rgrèves ouvrières§! §Wne dégénèrent en§! §Yguerre civile.§!"
+GRE_divided_no_commie_cw_tt:0 "§WLors de la sélection du focus :§! §Rsupprime§! §Wl’§! §Yoption d’événement§! §Wpermettant aux§! §Rgrèves ouvrières§! §Wde dégénérer en§! §Yguerre civile.§!"
+
+#Décisions
+GRE_divided_nation_category:0 "Nation en crise"
+GRE_divided_nation_category_desc:0 "Notre nation est au bord de l’effondrement ; beaucoup craignent une guerre civile imminente, d’autres tentent d’abandonner le pays pour une vie meilleure à l’étranger. Pour nous relever, nous devrons prendre des décisions difficiles."
+
+GRE_work_on_stability:0 "Rassurer la nation"
+GRE_work_on_stability_desc:0 "Nous devons nous assurer que le peuple reste à nos côtés durant cette épreuve."
+
+GRE_work_on_economy:0 "Accélérer notre redressement"
+GRE_work_on_economy_desc:0 "Nous pouvons raccourcir notre période de reprise en adoptant de nouvelles lois, en négociant de meilleurs accords commerciaux et en attirant les investissements étrangers."
+
+GRE_work_on_government:0 "Rétablir la confiance dans le gouvernement"
+GRE_work_on_government_desc:0 "Nous peinons à sortir de cette situation car nos ministres sont faibles et inexpérimentés, incapables de gérer une telle crise."
+
+GRE_honor_byzantium:0 "Honorer Byzance"
+GRE_honor_byzantium_desc:0 "L’Empire byzantin est une fierté pour nous, Grecs. Même si nous ne pouvons le restaurer dans toute sa grandeur, nous pouvons l’honorer afin qu’il ne soit pas oublié."
+
+GRE_honor_byzantium_category:0 "Honorer les Byzantins"
+GRE_honor_byzantium_category_desc:0 "L’Empire byzantin est une fierté pour nous, Grecs. Même si nous ne pouvons le restaurer dans toute sa grandeur, nous pouvons l’honorer afin qu’il ne soit pas oublié."
+
+GRE_constantinople_capital:0 "Déplacer la capitale à Constantinople"
+GRE_repurpose_the_hagia_sophia:0 "Réaffecter Sainte-Sophie"
+
+GRE_recall_napoleon_zervas:0 "Rappeler Napoléon Zervas"
+napoleon_zervas_decision_cost:0 "§H25§!£command_power §H25§!£pol_power"
+napoleon_zervas_decision_cost_blocked:0 "§R25§!£command_power §R25§!£pol_power"
+napoleon_zervas_decision_cost_tooltip:0 "Coûte 25£command_power et 25£pol_power pour être sélectionné."
+
+GRE_recall_konstantinos_ventiris:0 "Rappeler Konstantinos Ventiris"
+konstantinos_ventiris_decision_cost:0 "§H25§!£command_power §H25§!£pol_power"
+konstantinos_ventiris_decision_cost_blocked:0 "§R25§!£command_power §R25§!£pol_power"
+konstantinos_ventiris_decision_cost_tooltip:0 "Coûte 25£command_power et 25£pol_power pour être sélectionné."
+
+GRE_army_reform_category:0 "Réformer l’armée"
+GRE_promote_promising_officers:0 "Promouvoir des officiers prometteurs"
+GRE_start_military_exercises:0 "Lancer des exercices militaires"
+GRE_seize_armories:0 "Saisir les arsenaux"
+GRE_prohibit_sale_of_ships:0 "Interdire la vente de navires civils"
+
+GRE_integrate_north_epirus:0 "Intégrer l’Épire du Nord"
+GRE_integrate_north_epirus_desc:0 "Depuis 1914, l’Albanie occupe illégitimement nos terres légitimes au nord de l’Épire. Mais désormais, nous avons enfin ramené notre peuple chez lui ! Cependant, nous devons encore faire face aux soi-disant « Gjirokastrites », qui prétendent que l’Épire du Nord est partie intégrante de l’État albanais."
+
+GRE_enosis_of_cyprus:0 "Énosis de Chypre"
+#Événements
+greece.5.t:0 "Mort de Demertzis"
+greece.5.d:0 "Notre Premier ministre Konstantinos Demertzis est décédé d’une crise cardiaque. Durant son mandat, il a contribué à la croissance économique du pays et jouissait d’une grande popularité. Son remplaçant est le vieux général Ioánnis Metaxás, chargé de poursuivre son héritage et de préserver la Grèce en ces temps troublés.\n\n(Pour aller vers le §Rcommunisme§!, choisissez n’importe quel Premier ministre, mais n’avancez pas dans ses priorités. Attendez plutôt que les grèves éclatent.)"
+greece.5.a:0 "Metaxás est nommé Premier ministre."
+greece.5.b:0 "Le roi s’empare du pouvoir."
+greece.5.c:0 "Il nous faut un leadership plus radical."
+greece.5.e:0 "Le Parti populaire dirigera le nouveau gouvernement."
+
+greece.6.t:0 "[FROM.GetNameDefCap] refuse"
+greece.6.d:0 "Les [FROM.GetAdjective] ont rejeté nos revendications sur le Dodécanèse et les ont qualifiées d’outrageuses. Nous faisons face à deux choix : déclarer la guerre à [FROM.GetLeader] ou reculer."
+greece.6.a:0 "Les îles du Dodécanèse sont [GRE.GetAdjective] !"
+greece.6.b:0 "Nous ne pouvons pas nous permettre une guerre avec [FROM.GetNameDef]. Reculons."
+
+greece.7.t:0 "[ENG.GetNameDefCap] refuse"
+greece.7.d:0 "Les représentants [ENG.GetAdjective] ont refusé notre ultimatum et exigé que Chypre reste une base militaire d’importance majeure. Ils ont qualifié notre démarche de « geste insensé »."
+greece.7.a:0 "Frappons fort !"
+greece.7.b:0 "Arrêtez ! Nous ne pouvons pas affronter la Royal Navy [ENG.GetAdjective]."
+
+greece.10.t:0 "[TUR.GetNameDefCap] refuse"
+greece.10.d:0 "Le Premier ministre [TUR.GetAdjective] a qualifié nos revendications de « grotesques » et indignes de son attention. C’est une insulte à notre nation, et une guerre imminente entre nos pays semble inévitable. Nous avons déjà tenté de réaliser la « Megali Idea » suivant les plans expansionnistes de Venizélos et de reprendre la véritable ville grecque de Constantinople. La campagne se solda par un désastre, mené par des dirigeants et des généraux incompétents. Mais aujourd’hui, nous avons rassemblé l’esprit grec et nous vengerons 1453 !"
+greece.10.a:0 "Ce n’était qu’une trêve temporaire."
+
+greece.8.t:0 "Offres [TUR.GetAdjective]"
+greece.8.d:0 "Nos ennemis veulent un compromis : ils proposent Constantinople et un paiement, mais rien de plus. Ensuite, nous serons forcés d’accepter un pacte de non-agression avec eux, garantissant la paix dans la région."
+greece.8.a:0 "Soit."
+greece.8.b:0 "Jamais nous ne commettrons une telle folie !"
+
+greece.11.t:0 "[ENG.GetNameDefCap] refuse"
+greece.11.d:0 "Le Premier ministre britannique a refusé de nous donner une place dans leur alliance. Nous ne pensions pas que cela finirait ainsi."
+greece.11.a:0 "Quoi !?"
+
+greece.12.t:0 "[ENG.GetNameDefCap] refuse"
+greece.12.d:0 "Il semble que nos alliés ne soient pas disposés à nous rendre Chypre, malgré l’alliance conclue."
+greece.12.a:0 "Et maintenant ?"
+
+greece.13.t:0 "Refus des [SOV.GetAdjective]"
+greece.13.d:0 "Malgré notre offre généreuse, les [SOV.GetAdjective] ont refusé et déclaré qu’ils ne souhaitaient pas « provoquer de différends avec [ITA.GetNameDef] »."
+greece.13.a:0 "Sérieusement !?"
+
+greece.14.t:0 "Coup d’État militaire !"
+greece.14.d:0 "Tôt ce matin, de nombreux soldats et une cinquantaine de chars ont pris d’assaut la maison de Metaxás ainsi que l’ancien parlement hellénique, exigeant la reddition du gouvernement [GRE.GetAdjective] et proclamant leur autorité sur le pays ! La nation tout entière est stupéfaite d’apprendre que l’état-major militaire, autrefois digne de confiance, s’est emparé du pouvoir et a renversé Metaxás. La question est désormais : où se dirige [GRE.GetNameDef] ? Beaucoup craignent le pire."
+greece.14.a:0 "Comment cela va-t-il finir ?"
+
+greece.9.t:0 "Traité d’Athènes"
+greece.9.d:0 "Le traité d’Athènes vise à régler le différend qui nous oppose à [TUR.GetNameDef] au sujet de nos revendications légitimes en Anatolie. Ce traité stipule que [TUR.GetNameDef] cédera la région de Smyrne à [GRE.GetNameDef], que l’administration [GRE.GetAdjective] traitera toute la population comme égale, que [TUR.GetNameDefCap] reconnaîtra la domination hellénique sur Smyrne et que Constantinople et la Thrace orientale seront démilitarisées."
+greece.9.a:0 "Magnifique !"
+greece.15.t:0 "Scandale féminin au Mont Athos"
+greece.15.d:0 "Aujourd’hui, une jeune femme nommée Zoé Saradopoulou a tenté d’entrer dans la région autonome du Mont Athos. Cette région abrite vingt monastères sous la juridiction directe du Patriarche œcuménique de Constantinople. L’une des règles les plus strictes de ce lieu est que les femmes n’y sont jamais admises, la tradition affirmant que la dernière à avoir foulé ce sol fut la Théotokos (Marie, mère de Jésus) elle-même. Zoé a déclaré que nous vivons dans une société moderne et égalitaire, et que les femmes devraient pouvoir y accéder sans restriction."
+greece.15.a:0 "Cela a provoqué des remous."
+
+greece.16.t:0 "Opération Restauration"
+greece.16.d:0 "Avec le soutien du haut commandement militaire, notre gouvernement a décidé de pousser plus loin en Anatolie et de reconquérir des terres perdues comme Nicomédie et la ville de nos cœurs, Constantinople. Bien que cela accroisse considérablement les tensions mondiales, c’est notre seule chance de réaliser notre rêve. Nous pourrions demander de l’aide à [ENG.GetNameDef] et [FRA.GetNameDef], mais il ne faut pas en attendre trop : cela pourrait même se retourner contre nous."
+greece.16.a:0 "Il vaudrait mieux demander de l’aide d’abord."
+greece.16.b:0 "Ne les impliquons pas."
+
+greece.17.t:0 "[GRE.GetNameDefCap] demande une intervention"
+greece.17.d:0 "Aujourd’hui, alors que les forces helléniques se préparent à attaquer la frontière [TUR.GetAdjective], l’ambassadeur [GRE.GetAdjective] dans notre capitale a suggéré que nous intervenions dans la guerre imminente entre eux et [TUR.GetNameDef]. Cela provoquerait une vive inquiétude chez nos voisins et nuirait à notre réputation."
+greece.17.a:0 "Oui, honorons notre alliance avec les [GRE.GetAdjective]."
+greece.17.b:0 "Ce n’est pas ce que prévoyait le traité d’Athènes !"
+
+greece.18.t:0 "Intervention rejetée !"
+greece.18.d:0 "En dépit des efforts de notre ambassadeur, nous n’avons pu parvenir à un accord. Ils ne nous aideront certainement pas, et ont même refusé de protéger notre pays contre de futurs ennemis possibles, au motif que nous n’avions pas respecté le traité d’Athènes."
+greece.18.a:0 "Merde alors !"
+
+greece.19.t:0 "Traité de Rome"
+greece.19.d:0 "Les [ITA.GetAdjective] ont accepté de nous soutenir dans le nouveau différend qui a éclaté entre nous et la Turquie, en échange de territoires pour les [ITA.GetAdjective]. C’est le seul moyen d’obtenir leur aide, et même ainsi, ils y ont longuement hésité."
+greece.19.a:0 "Bravo Il Duce !"
+
+greece.20.t:0 "[GRE.GetNameDefCap] demande une intervention [ITA.GetAdjective]"
+greece.20.d:0 "L’ambassadeur [GRE.GetAdjective] à Rome a appelé à un soutien total de la campagne anatolienne [GRE.GetAdjective]. Cela semble périlleux, mais c’est peut-être notre seule chance de relancer la campagne d’Anatolie !"
+greece.20.a:0 "Oui, c’est notre chance !"
+greece.20.b:0 "Quoi ? Certainement pas."
+
+greece.21.t:0 "Constantinople reconquise !"
+greece.21.d:0 "Enfin ! Constantinople est à nouveau à nous ! La région est enfin libérée de l’oppression [TUR.GetAdjective], et nous avons le droit de lui rendre son véritable nom."
+greece.21.a:0 "Enfin !"
+
+greece.22.t:0 "Smyrne reconquise !"
+greece.22.d:0 "Après notre dernière campagne en Anatolie, une reconquête de Smyrne par les forces helléniques semblait hautement improbable. Et pourtant, nous avons accompli notre rêve : rebaptiser « Izmir » en Smyrne, comme il se doit, et établir une administration hellénique solide."
+greece.22.a:0 "Fantastique !"
+
+greece.23.t:0 "Prousa reconquise !"
+greece.23.d:0 "Après toutes ces années, nous avons enfin repris Prousa et y avons instauré une nouvelle administration hellénique. Notre rêve de restaurer l’empire est enfin à portée de main !"
+greece.23.a:0 "Merveilleux."
+
+greece.24.t:0 "Nicomédie reconquise !"
+greece.24.d:0 "Les forces [GRE.GetAdjective] ont capturé « Düzce », et nous exerçons désormais un contrôle quasi total sur la région. Nous pouvons lui rendre ses noms d’origine."
+greece.24.a:0 "J’y louerais bien une maison un jour."
+
+greece.28.t:0 "[GRE.GetAdjective] veut rejoindre l’Axe"
+greece.28.d:0 "Aujourd’hui, le ministre des Affaires étrangères [GRE.GetAdjective] a rencontré nos représentants et proposé d’intégrer l’Axe. Cela pourrait nuire à nos relations avec [ITA.GetNameDef] si nous acceptons, mais nous pourrions exploiter leurs bases aériennes pour de futures campagnes en Afrique du Nord et menacer la Royal Navy [ENG.GetAdjective]."
+greece.28.a:0 "Oui, qu’ils nous rejoignent."
+greece.28.b:0 "Non, ne risquons pas de froisser [ITA.GetLeader]."
+
+greece.31.t:0 "[GRE.GetNameDefCap] revendique le Dodécanèse"
+greece.31.d:0 "Aujourd’hui, le ministre des Affaires étrangères [GRE.GetAdjective] a exigé que Rhodes ainsi que les autres îles du Dodécanèse, « légitimement [GRE.GetAdjective] » selon lui, soient immédiatement restituées. Bien entendu, céder une base aussi vitale serait une folie."
+greece.31.a:0 "Oui, qu’ils les reprennent."
+greece.31.b:0 "Non, le Dodécanèse restera nôtre !"
+
+greece.25.t:0 "[GRE.GetNameDefCap] revendique Chypre"
+greece.25.d:0 "Aujourd’hui, le ministre des Affaires étrangères [GRE.GetAdjective] a rencontré nos représentants pour discuter d’un grave différend qui affecte profondément nos relations avec [GRE.GetNameDef]. Le ministre [GRE.GetAdjective] a exigé que l’île de Chypre soit immédiatement restituée à [GRE.GetNameDef]. Perdre une base d’une telle importance stratégique serait de la pure folie, mais ils pourraient bénéficier du soutien des [GER.GetAdjective]."
+greece.25.a:0 "Oui, nous ne voulons pas d’affrontement militaire avec [GRE.GetNameDef]."
+greece.25.b:0 "Quoi ? Non, Chypre doit être défendue !"
+
+greece.26.t:0 "[GRE.GetNameDefCap] cherche à rejoindre les Alliés"
+greece.26.d:0 "Aujourd’hui, l’ambassadeur [GRE.GetAdjective] à Londres a rencontré notre Premier ministre pour lui exprimer l’admiration du peuple [GRE.GetAdjective] envers [ENG.GetNameDef] et proposer une alliance entre nos deux nations. Cela pourrait nous être utile, puisque la Crète servirait de base navale majeure en Méditerranée et réduirait l’influence [ITA.GetAdjective] dans les Balkans."
+greece.26.a:0 "Oui, qu’ils nous rejoignent."
+greece.26.b:0 "Mieux vaut éviter."
+
+greece.27.t:0 "[GRE.GetNameDefCap] réclame Chypre"
+greece.27.d:0 "Les [GRE.GetAdjective] n’ont pas oublié la promesse que nous leur avions faite de céder Chypre s’ils rejoignaient la Grande Guerre, et insistent pour que nous la leur donnions. C’est une base d’une importance militaire capitale, mais nous pourrions toujours l’utiliser même s’ils sont dans notre faction. Faut-il vraiment la leur céder ?"
+greece.27.a:0 "Nous tenons nos promesses."
+greece.27.b:0 "Je ne me souviens d’aucune promesse."
+
+greece.29.t:0 "Ultimatum [GRE.GetAdjective]"
+greece.29.d:0 "Le ministre des Affaires étrangères [GRE.GetAdjective] a rencontré notre président pour exiger un traité stipulant que plusieurs régions, telles qu’Izmir, Izmit, Istanbul et d’autres, soient cédées à leur « propriétaire légitime ». Nous ne pouvons pas les prendre au sérieux. De telles revendications insensées ne valent pas notre temps. Mais peut-être pourrions-nous trouver un compromis en échange de fonds."
+greece.29.a:0 "Jamais !"
+greece.29.b:0 "Offrons-leur « Constantinople », mais rien de plus !"
+
+greece.30.t:0 "Les [GRE.GetAdjective] proposent de rejoindre notre faction"
+greece.30.d:0 "Aujourd’hui, le représentant [GRE.GetAdjective] à Moscou a rencontré notre ministre des Affaires étrangères et proposé de rejoindre notre faction pour nous aider. Mais cela pourrait provoquer un conflit avec [ITA.GetLeader] ou [GER.GetLeader], qui cherchent à étendre leur influence dans les Balkans. Soit nous sécurisons le sud des Balkans, soit nous l’abandonnons."
+greece.30.a:0 "Oui, qu’ils nous rejoignent."
+greece.30.b:0 "Non, inutile de prendre ce risque."
+greece.32.t:0 "La Troisième Civilisation hellénique"
+greece.32.d:0 "Aujourd’hui, Metaxas et ses hommes politiques se sont rassemblés au centre d’Athènes, devant le Parlement, pour proclamer la Troisième Civilisation hellénique. C’était son objectif principal depuis le début de son règne : moderniser et renforcer la nation grecque. La proclamation fut suivie par les acclamations de la foule et les chants de « Doxa ston Metaxa ! » (Gloire à Metaxas !)."
+greece.32.a:0 "Doxa ston Metaxa !"
+
+greece.33.t:0 "Qui dirigera les fascistes ?"
+greece.33.d:0 "Geórgios Merkouris est actuellement à la tête du Parti fasciste. Toutefois, nous pourrions le remplacer par un autre candidat. Konstantínos Logothetópoulos a prouvé sa valeur et sa ruse ; cela ne met pas Merkouris hors-jeu pour autant, mais il s’est montré aussi habile que Logothetópoulos."
+greece.33.a:0 "Merkouris doit diriger le Parti fasciste !"
+greece.33.b:0 "Rállis prend la tête du Parti fasciste."
+greece.33.c:0 "Logothetópoulos pour le fascisme !"
+
+greece.34.t:0 "La Grande Grèce"
+greece.34.d:0 "Ensemble, nous nous sommes levés et avons conquis les terres légitimement [GRE.GetAdjective]. Nous allons instaurer une nouvelle fête nationale, car c’est un accomplissement véritablement historique. Cela aura un retentissement mondial. Peut-être serons-nous considérés comme une grande puissance, mais nous, [GRE.GetAdjective], resterons toujours unis et prêts à tout."
+greece.34.a:0 "Pour la gloire de l’Hellás !"
+
+greece.35.t:0 "[GRE.GetNameDefCap] exige Istanbul"
+greece.35.d:0 "Le roi Georges II de Grèce a récemment exigé de notre gouvernement la restitution des terres « légitimement [GRE.GetAdjective] » en Thrace orientale, incluant des villes comme Edirne et l’ancienne capitale, Istanbul. Comment devons-nous répondre à cet ultimatum ?"
+greece.35.a:0 "Cédons aux exigences [GRE.GetAdjective]."
+greece.35.b:0 "Ils pensent vraiment que nous allons céder aussi facilement ?"
+
+greece.37.t:0 "Réponse [TUR.GetAdjective]"
+greece.37.d:0 "Les [TUR.GetAdjective] ont cédé à nos exigences et accepté le retour de la Thrace orientale. Cela va renforcer le nationalisme et améliorer notre efficacité industrielle grâce à l’importance économique de la région."
+greece.37.a:0 "Constantinople est à nous, encore une fois !"
+
+greece.36.t:0 "Réponse [TUR.GetAdjective]"
+greece.36.d:0 "Les [TUR.GetAdjective] ont rejeté nos exigences concernant la restitution de la Thrace orientale. Le ministre des Affaires étrangères [TUR.GetAdjective] a déclaré qu’ils n’accepteraient jamais une telle demande et que la Thrace orientale resterait [TUR.GetAdjective]."
+greece.36.a:0 "Ils nous sous-estiment."
+
+greece.38.t:0 "Les [GRE.GetAdjective] veulent acheter Chypre"
+greece.38.d:0 "[GRE.GetNameDefCap] nous a proposé une aide financière considérable pour l’achat de Chypre. Cette fois, [GRE.GetNameDef] a clairement fait comprendre qu’ils n’oseraient pas nous attaquer si nous refusons. Quelle doit être notre réponse ?"
+greece.38.a:0 "Acceptons !"
+greece.38.b:0 "À quoi pensent-ils ? Bien sûr que nous refusons !"
+
+greece.39.t:0 "Transaction réussie !"
+greece.39.d:0 "Les [ENG.GetAdjective] ont accepté notre offre ; Énosis, enfin !"
+greece.39.a:0 "Unis à jamais !"
+
+greece.40.t:0 "Rejet [ENG.GetAdjective]"
+greece.40.d:0 "Les [ENG.GetAdjective] ont rejeté notre offre exceptionnellement généreuse. Cette réponse outrageante aura des conséquences, même sans notre intervention directe."
+greece.40.a:0 "Malediction !"
+
+greece.41.t:0 "Mort de Panagis Tsaldaris"
+greece.41.d:0 "Panagis Tsaldaris nous a malheureusement quittés aujourd’hui. Son leadership populaire durant les jours de la Seconde République hellénique va cruellement manquer. Mais au-delà du deuil, sa disparition a ouvert un vide politique : la direction du Parti populaire conservateur passe à son neveu, Konstantínos Tsaldaris."
+greece.41.a:0 "Peut-être que du sang neuf est ce qu’il fallait aux conservateurs."
+
+greece.42.t:0 "Mort de Ioánnis Metaxás"
+greece.42.d:0 "La mort a encore frappé notre nation : cette fois, c’est notre dirigeant Ioánnis Metaxás qui s’est éteint. Le pays est silencieux ; nul n’attendait que ce jour vienne si tôt. Sa succession est cependant plus simple qu’on ne l’imaginait, puisqu’il avait préparé son successeur bien avant sa disparition. Le nouveau Premier ministre, Aléxandros Koryzis, fut l’un des premiers informés de son décès. Il a déjà formé son gouvernement et se dit prêt à diriger [GRE.GetNameDef] dans la continuité de son prédécesseur."
+greece.42.a:0 "[GRE.GetNameDefCap] est en deuil."
+
+greece.43.t:0 "Élections législatives de 1936"
+greece.43.d:0 "Les élections prévues aujourd’hui ont vu Demertzis et son cabinet affronter les partis Populaire et Libéral, chacun récoltant une part des voix. Cependant, il est prévu que Demertzis poursuive son mandat, puisque le roi Georges le soutient."
+greece.43.a:0 "Demertzis et son cabinet restent en place."
+greece.43.b:0 "Le Parti populaire l’emporte."
+
+greece.46.t:0 "Guerre civile !"
+greece.46.d:0 "Après la mort de Panagis Tsaldaris, figure influente de la Seconde République hellénique et chef du court gouvernement de transition après le défunt Premier ministre Konstantínos Demertzis, des groupes fascistes et communistes se sont soulevés dans toute la Grèce, chacun cherchant à prendre le pouvoir. Toutefois, Geórgios Merkouris est parvenu à unir la plupart des groupes d’extrême-droite contre les communistes. La victoire est probable, mais elle ne viendra pas sans effusion de sang."
+greece.46.a:0 "En avant, patriotes !"
+
+greece.47.t:0 "Fin de la guerre civile"
+greece.47.d:0 "La guerre civile qui ravageait notre pays est enfin terminée. Nous espérons un avenir meilleur avec notre nouveau gouvernement établi."
+greece.47.a:0 "Dieu soit loué."
+
+greece.48.t:0 "L’offre de Klaras"
+greece.48.d:0 "Athanasios Klaras, également connu sous le nom d’« Aris Véloukhiótis », nous a contactés pour proposer de prendre le commandement de notre armée. Vu le manque d’état-major, son offre est tentante."
+greece.48.a:0 "Ce n’est pas le moment de faire les difficiles !"
+greece.48.b:0 "Il ne causera que des problèmes."
+
+greece.49.t:0 "Fin de la guerre civile"
+greece.49.d:0 "La guerre civile qui ravageait notre pays est enfin terminée. Nous espérons un avenir meilleur avec notre nouveau gouvernement établi."
+greece.49.a:0 "Dieu soit loué."
+
+greece.50.t:0 "Mort du roi"
+greece.50.d:0 "Aujourd’hui, le roi Georges II est mort d’artériosclérose. Au départ, beaucoup ont cru à une farce du 1er avril, mais lorsque la vérité fut révélée, le peuple a pleuré l’ancien roi. Il guida le pays dans des temps difficiles et ne songea jamais à abdiquer."
+greece.50.a:0 "Le trône a un nouvel occupant !"
+
+greece.51.t:0 "Victoire socialiste éclatante"
+greece.51.d:0 "Les fascistes ont échoué à briser le rêve d’une utopie communiste [GRE.GetAdjective] ! Jamais plus les travailleurs ne seront torturés par les capitalistes. En avant, camarades, vers un avenir rouge !"
+greece.51.a:0 "Ce n’est que le commencement !"
+
+greece.52.t:0 "Que faire de Klaras ?"
+greece.52.d:0 "Lorsque nous avons accepté l’offre d’Athanasios Klaras durant la guerre civile, il est devenu commandant suprême de notre armée. Cela pose aujourd’hui quelques problèmes : nous devons décider comment gérer cette situation."
+greece.52.a:0 "Légitimons son contrôle."
+greece.52.b:0 "Réprimons-le."
+
+greece.53.t:0 "[GRE.GetNameDefCap] cherche à se rapprocher"
+greece.53.d:0 "La toute nouvelle République socialiste de Grèce nous a proposé un rapprochement diplomatique. Devons-nous accepter ?"
+greece.53.a:0 "Vers un monde communiste !"
+greece.53.b:0 "Non, ils valent à peine mieux que les fascistes."
+
+greece.54.t:0 "Un nouvel ami"
+greece.54.d:0 "Les [SOV.GetAdjective] ont accepté notre offre. Cela ne peut qu’apporter des avantages."
+greece.54.a:0 "Parfait."
+
+greece.55.t:0 "Ils ont refusé"
+greece.55.d:0 "Les [SOV.GetAdjective] ont décliné notre proposition de rapprochement."
+greece.55.a:0 "Avait-il seulement une raison ?"
+
+greece.56.t:0 "Former un gouvernement stalinien"
+greece.56.d:0 "Le dirigeant soviétique Iossif Staline a développé sa doctrine politique, le « stalinisme », dont l’un des principaux piliers est le développement industriel. Depuis son arrivée au pouvoir dans les années 1920, l’industrie soviétique a littéralement explosé. Il est préférable que nous adoptions nous aussi ce système."
+greece.56.a:0 "[GRE.GetNameDefCap] n’aura plus jamais de problème économique !"
+
+greece.57.t:0 "[GRE.GetNameDefCap] veut rejoindre le Komintern"
+greece.57.d:0 "[GRE.GetNameDefCap] a demandé à rejoindre l’alliance du Komintern. Devons-nous accepter ?"
+greece.57.a:0 "Bienvenue dans le Komintern."
+greece.57.b:0 "Cela ne ferait que nous affaiblir."
+greece.58.t:0 "Les [SOV.GetAdjective] acceptent"
+greece.58.d:0 "Les [SOV.GetAdjective] ont accepté ; nous faisons officiellement partie du Komintern."
+greece.58.a:0 "Excellent !"
+
+greece.59.t:0 "Les [SOV.GetAdjective] refusent"
+greece.59.d:0 "Les [SOV.GetAdjective] ont refusé ; nous ne rejoignons donc pas le Komintern."
+greece.59.a:0 "Peu importe."
+
+greece.60.t:0 "[GRE.GetNameDefCap] nous invite dans son alliance"
+greece.60.d:0 "[GRE.GetNameDefCap] nous a envoyé une invitation à sa nouvelle faction visant à unir les Balkans sous le socialisme. Devons-nous accepter ?"
+greece.60.a:0 "Bien sûr !"
+greece.60.b:0 "Encore une ruse fasciste."
+
+greece.61.t:0 "Ils ont accepté"
+greece.61.d:0 "L’un des nouveaux régimes communistes a accepté notre invitation à rejoindre notre alliance."
+greece.61.a:0 "Les fascistes vont trembler."
+
+greece.62.t:0 "Ils ont refusé"
+greece.62.d:0 "Le nouvel État communiste balkanique a refusé notre invitation à rejoindre notre faction."
+greece.62.a:0 "Nous survivrons sans eux."
+
+greece.63.t:0 "[GRE.GetNameDefCap] nous invite dans son alliance"
+greece.63.d:0 "[GRE.GetNameDefCap] nous a envoyé une invitation à sa nouvelle faction visant à unir les Balkans sous le socialisme. Devons-nous accepter ?"
+greece.63.a:0 "Bien sûr !"
+greece.63.b:0 "Encore une ruse fasciste."
+
+greece.64.t:0 "Nommer un nouveau chef de l’armée"
+greece.64.d:0 "Depuis l’aube de ce nouveau jour, nous travaillons à recruter et promouvoir des officiers pour diriger l’armée. Nous avons presque achevé cette tâche, mais il reste à désigner un nouveau chef d’état-major de l’armée. Nous avons rassemblé plusieurs candidats."
+greece.64.a:0 "L’expert en attaque, Athanasios Klaras"
+greece.64.b:0 "L’expert en défense, Stéfanos Sarafis"
+
+greece.65.t:0 "Sort de la famille royale"
+greece.65.d:0 "La monarchie grecque, créée au début du XIXe siècle, a toujours œuvré pour l’inégalité et favorisé les classes supérieures tout en condamnant les travailleurs. Nous devons décider comment la punir pour tout cela."
+greece.65.a:0 "Exécutez-les !"
+greece.65.b:0 "Exilez-les !"
+
+greece.66.t:0 "Nous avons capitulé"
+greece.66.d:0 "Nous avons été chassés de notre patrie, mais la lutte continue depuis les territoires insulaires restants !"
+greece.66.a:0 "Nous ne capitulerons jamais."
+
+greece.69.t:0 "Révolte crétoise !"
+greece.69.d:0 "Le mouvement vénizéliste est né en Crète à la fin du XIXe siècle lorsqu’ils tentèrent de libérer l’île et de l’unir au premier royaume de Grèce dirigé par le roi Georges Ier. Aujourd’hui, certains officiers vénizélistes et politiciens locaux tentent de renverser notre gouvernement et de rétablir un régime vénizéliste. Nous ne pouvons évidemment pas laisser faire."
+greece.69.a:0 "Envoyez l’armée les écraser."
+
+greece.70.t:0 "Les rebelles écrasés"
+greece.70.d:0 "Il y a quelques semaines, les vénizélistes crétois ont tenté un coup d’État en Crète. Nous avons envoyé l’armée contre eux et ils ont été écrasés."
+greece.70.a:0 "Justice est faite."
+
+greece.71.t:0 "Piller les arsenaux ennemis"
+greece.71.d:0 "Nos armées manquent d’équipement et notre industrie est insuffisante pour y remédier. Mais l’ennemi, qui contrôle les zones industrielles, en possède. Nous allons envoyer des milices de guérilla tenter de piller les dépôts et ainsi rééquiper nos troupes."
+greece.71.a:0 "Allez-y."
+
+greece.72.t:0 "Raid réussi"
+greece.72.d:0 "Nos guérillas ont réussi à piller les réserves ennemies et à saisir de nombreux fusils. Cela nous aidera énormément."
+greece.72.a:0 "C’est déjà ça de gagné."
+
+greece.73.t:0 "Raid raté"
+greece.73.d:0 "Nos guérillas ont échoué dans leur tentative de pillage des dépôts ennemis."
+greece.73.a:0 "Malediction."
+
+greece.74.t:0 "Nommer un nouveau chef de l’armée"
+greece.74.d:0 "Depuis l’aube de ce nouveau jour, nous travaillons à recruter et promouvoir des officiers pour diriger l’armée. Nous avons presque achevé cette tâche, mais il reste à désigner un nouveau chef d’état-major de l’armée. Nous avons rassemblé plusieurs candidats."
+greece.74.a:0 "Le spécialiste de l’offensive, Manólis Mantakás"
+greece.74.b:0 "L’expert en défense, Stéfanos Sarafis"
+
+gre_news.1.t:0 "Guerre civile en Grèce !"
+gre_news.1.d:0 "Bien que ce conflit couvait depuis des mois, la mort du Premier ministre provisoire fut l’élément déclencheur. Personne ne sait combien de temps durera cette guerre, mais tous espèrent qu’elle prendra fin rapidement."
+gre_news.1.a:0 "Et la dette, alors ?"
+gre_news.1.b:0 "Que ça finisse vite."
+
+gre_news.2.t:0 "La guerre civile grecque est terminée !"
+gre_news.2.d:0 "La Grèce vient d’être ravagée par une sanglante guerre civile qui a déchiré le pays. Les hostilités ont cessé avec l’établissement d’un nouveau gouvernement et le désarmement des dernières milices d’opposition. Si le calme semble revenu, la tension reste forte et le peuple grec espère que les combats ne reprendront pas."
+gre_news.2.a:0 "Et la dette, toujours ?"
+gre_news.2.b:0 "Enfin !"
+
+gre_news.3.t:0 "La Grèce rejoint le [ITA.GetFactionName]"
+gre_news.3.desc:0 "Dans un communiqué conjoint, [ITA.GetLeader] et [GRE.GetLeader] ont annoncé que leurs gouvernements étaient parvenus à un accord pour régler leur différend frontalier et cimenter une alliance perpétuelle. Tandis que [GRE.GetNameDef] rejoindra le [ITA.GetFactionName], le gouvernement [ITA.GetAdjective] cédera les îles du Dodécanèse à [GRE.GetNameDef]."
+gre_news.3.a:0 "Intéressant."
+gre_news.3.b:0 "Nous sommes plus forts ensemble."
+
+greece.75.t:0 "Chypre contre la guerre !"
+greece.75.d:0 "À présent que les [ENG.GetAdjective] sont en guerre avec les [GER.GetAdjective], une opportunité s’offre à nous. Nos troupes ont fait preuve de bravoure et d’habileté, et Chypre, longtemps sous contrôle [ENG.GetAdjective], n’attend que de nous rejoindre. Nous pouvons demander à [ENG.GetNameDef] de nous restituer l’île en échange de notre loyauté garantie envers les Alliés."
+greece.75.a:0 "Envoyons la proposition."
+greece.75.b:0 "Mieux vaut rester en dehors de tout ça."
+
+greece.76.t:0 "Une offre du gouvernement [GRE.GetAdjective]"
+greece.76.d:0 "L’île de Chypre a toujours été difficile à maintenir. Sa proximité avec les membres de l’Axe complique sa logistique. Mais une solution se présente : le gouvernement [GRE.GetAdjective] propose de reprendre Chypre en échange de sa fidélité à notre alliance et de son engagement militaire contre [GER.GetNameDef]. Accepter, c’est une charge en moins pour le Haut Commandement, mais perdre un avant-poste stratégique. Il faut trancher."
+greece.76.a:0 "Un échange acceptable."
+greece.76.b:0 "Nous n’avons pas besoin de leur aide."
+
+greece.77.t:0 "Les [ENG.GetAdjective] acceptent"
+greece.77.d:0 "Enfin, nous sommes réunis ! Nos généreux alliés [ENG.GetAdjective] nous ont rendu Chypre ! Mais il nous faut préparer nos hommes, car nous sommes désormais en guerre contre l’Axe. Pour la Grèce !"
+greece.77.a:0 "Magnifique."
+
+greece.78.t:0 "Les [ENG.GetAdjective] refusent"
+greece.78.d:0 "Les [ENG.GetAdjective] ont rejeté notre proposition ! Malgré notre offre généreuse, ils refusent de restituer Chypre. C’est un coup dur pour les relations [GRE.GetAdjective]-[ENG.GetAdjective]."
+greece.78.a:0 "Quel dommage."
+
+greece.79.t:0 "Notre orientation dans les Balkans"
+greece.79.d:0 "Le moment est venu de choisir notre voie pour répandre le communisme chez nos voisins : soit adopter une approche plus lente mais moins coûteuse, soit les envahir et libérer nos frères et sœurs balkaniques."
+greece.79.a:0 "Nous contacterons les groupes communistes voisins."
+greece.79.b:0 "Préparez les plans d’invasion, nous partons en guerre."
+
+greece.80.t:0 "Dictature proclamée !"
+greece.80.d:0 "Après les récentes grèves agricoles et industrielles dans le nord, le Premier ministre Ioánnis Metaxás a décidé de suspendre le Parlement et certaines parties de la Constitution. Dans un discours radiophonique, il a déclaré une dictature antidémocratique : tous les pouvoirs sont désormais concentrés entre ses mains."
+greece.80.a:0 "Plus de retour en arrière possible."
+
+greece.81.t:0 "Mai sanglant"
+greece.81.d:0 "Le KKE a mobilisé des travailleurs dans les villes du nord du pays pour protester contre les récents développements politiques."
+greece.81.a:0 "Réprimons les grévistes. Nous devons rester unis."
+greece.81.b:0 "Soutenons les grévistes. Il est temps que le prolétariat s’unisse !"
+
+greece.82.t:0 "[GRE.GetNameDefCap] propose sa protection"
+greece.82.d:0 "Les [ITA.GetAdjective] représentent aujourd’hui la plus grande menace pour notre indépendance, et les [GRE.GetAdjective] semblent partager cette inquiétude : leur Premier ministre nous offre leur protection contre [ITA.GetNameDef], en échange d’une influence accrue dans notre pays. Quelle doit être notre réponse ?"
+greece.82.a:0 "C’est notre dernière chance."
+greece.82.b:0 "Hors de question."
+
+greece.83.t:0 "[ALB.GetNameDefCap] se soumet"
+greece.83.d:0 "[ALB.GetNameDefCap] a accepté notre offre de protection."
+greece.83.a:0 "Parfait !"
+
+greece.84.t:0 "[ALB.GetNameDefCap] reste indépendant"
+greece.84.d:0 "Bien que nous leur ayons généreusement offert notre protection, les entêtés [ALB.GetAdjective] ont refusé. Devons-nous imposer par la force la question de l’Épire du Nord ?"
+greece.84.a:0 "La paix pour notre temps !"
+greece.84.b:0 "Ils ont eu leur chance. À nous de jouer."
+
+greece.85.t:0 "[GRE.GetNameDefCap] propose un pacte de non-agression"
+greece.85.d:0 "Le gouvernement [GRE.GetAdjective] a proposé de signer un pacte de non-agression. Bien que ce traité n’apporte guère d’avantages à [ITA.GetNameDef], il pourrait ouvrir la voie à une influence grandissante par la diplomatie plutôt que par la force."
+greece.85.a:0 "Recevons leur ambassadeur."
+greece.85.b:0 "Ignorons la demande."
+greece.86.t:0 "[ITA.GetNameDefCap] accepte"
+greece.86.d:0 "Le gouvernement [ITA.GetAdjective] a accepté notre demande, et [ITA.GetLeader] a reçu notre ambassadeur pour confirmer qu’un traité d’amitié éternelle entre nos deux pays est essentiel afin de garantir la paix en Méditerranée et dans les Balkans."
+greece.86.a:0 "Excellent !"
+
+greece.87.t:0 "[ITA.GetLeader] rejette notre proposition"
+greece.87.d:0 "Le gouvernement [ITA.GetAdjective] a même refusé d’envisager notre proposition de pacte, ce qui a provoqué la colère de notre ambassadeur."
+greece.87.a:0 "Quel dommage."
+
+greece.88.t:0 "[GRE.GetNameDefCap] propose une alliance"
+greece.88.d:0 "Dans une longue lettre envoyée par l’ambassadeur [GRE.GetAdjective], [GRE.GetLeader] a suggéré que [GRE.GetNameDef] rejoigne le [ITA.GetFactionName] si notre gouvernement acceptait d’abandonner le Dodécanèse. Ils nous assurent toutefois que nous pourrions conserver des droits de port dans les îles et qu’ils garantiraient les droits des colons locaux pour faciliter la transition.\n\nLa lettre précise aussi que les investissements économiques [ITA.GetAdjective] dans le pays pourraient renforcer un tel traité."
+greece.88.a:0 "De nouveaux alliés sont toujours les bienvenus."
+greece.88.b:0 "Quelle folie."
+
+greece.89.t:0 "[ITA.GetLeader] nous accueille dans le [ITA.GetFactionName]"
+greece.89.d:0 "Le gouvernement [ITA.GetAdjective] a accepté notre proposition d’échange et nous a accueillis au sein du [ITA.GetFactionName]. Dans le même temps, nous avons hissé le drapeau [GRE.GetAdjective] à Rhodes, sous les acclamations de la population."
+greece.89.a:0 "Un territoire de plus récupéré !"
+
+greece.90.t:0 "[ITA.GetLeader] rejette notre proposition"
+greece.90.d:0 "Le gouvernement [ITA.GetAdjective] a même refusé d’envisager notre proposition de pacte, ce qui a provoqué la colère de notre ambassadeur."
+greece.90.a:0 "C’est insensé."
+
+# Idées
+GRE_engineering_push:0 "Effort industriel"
+
+GRE_depression_1:0 "« Megali Ifesi »"
+GRE_depression_1_desc:0 "Megali Ifesi signifie Grande Dépression en grec. La République hellénique a été durement frappée après l’échec de la campagne militaire en Anatolie, entraînant une catastrophe économique et une crise migratoire colossale. Le gouvernement doit déployer d’énormes efforts pour remettre l’économie sur pied."
+
+GRE_depression:0 "« Megali Ifesi »"
+GRE_depression_desc:0 "Megali Ifesi signifie Grande Dépression en grec. La République hellénique a été durement frappée après l’échec de la campagne militaire en Anatolie, entraînant une catastrophe économique et une crise migratoire colossale. Le gouvernement doit déployer d’énormes efforts pour remettre l’économie sur pied."
+
+GRE_depression_recovery:0 "Relance après la dépression"
+RE_depression_recovery_desc:0 "Le gouvernement s’efforce de mettre fin à notre crise économique."
+
+GRE_naval_arsenal:0 "Arsenal naval amélioré"
+GRE_naval_arsenal_desc:0 "Pour doubler la taille de notre marine, nous avons choisi d’améliorer notre arsenal naval plutôt que de soutenir les chantiers civils. Cela nous aidera à nous préparer à une éventuelle invasion maritime."
+
+GRE_civilian_shipbuilders:0 "Chantiers civils satisfaits"
+GRE_civilian_shipbuilders_desc:0 "Compter sur notre marine civile fut l’une des meilleures décisions que nous ayons jamais prises. Nous en tirerons de grands bénéfices, tant économiques que diplomatiques."
+
+GRE_collecting_from_trade:0 "Bénéfices du commerce"
+GRE_collecting_from_trade_desc:0 "Nous pouvons désormais récolter les fruits de nos investissements et récupérer ce qui nous revient de droit."
+
+GRE_motorized_effort:0 "Une armée motorisée"
+GRE_motorized_effort_desc:0 "Notre armée dispose désormais de camions et d’équipements motorisés, ce qui permet de renforcer plus rapidement nos lignes de front et de tenir le terrain."
+
+GRE_infantry_weapons:0 "Production de fusils"
+GRE_infantry_weapons_desc:0 "Des entreprises étrangères nous ont fourni de meilleures méthodes de production d’armes d’infanterie, nous permettant de fabriquer plus d’armes en moins de temps."
+
+GRE_autarky_focus:0 "Abandon de la démocratie"
+GRE_autarky_focus_desc:0 "Le pays est au bord de l’effondrement. Nous devons rétablir l’ordre immédiatement !"
+
+GRE_recruitment_effort:0 "Agences de recrutement"
+GRE_recruitment_effort_desc:0 "Chaque homme doit se battre pour la gloire de notre pays. Nous ne pourrons retrouver nos anciennes gloires que par la conquête et l’action militaire."
+
+GRE_national_youth_organisation:0 "Organisation nationale de la jeunesse"
+
+GRE_IKA:0 "Mesures économiques"
+
+GRE_national_split:0 "Schisme national"
+
+GRE_democratic_support:0 "Soutien démocratique"
+
+GRE_foreign_investments:0 "Investissements étrangers"
+GRE_foreign_investments_desc:0 "Le gouvernement a décidé d’autoriser davantage d’entreprises étrangères à investir dans le pays pour stimuler l’économie."
+
+GRE_low_stability:0 "Instabilité nationale"
+GRE_low_stability_desc:0 "Le peuple a perdu confiance dans notre gouvernement. Il faut agir !"
+
+GRE_economic_downfall:0 "Effondrement économique"
+GRE_economic_downfall_desc:0 "Des taux d’intérêt colossaux et des exportations faibles ont plongé notre ministère des Finances dans le chaos. Nous devons négocier de nouveaux accords économiques avant de sombrer complètement dans la faillite !"
+
+GRE_government_crisis:0 "Gouvernement faible"
+GRE_government_crisis_desc:0 "Notre nouveau leadership doit affronter des taux d’intérêt élevés et une récession. La Grande Dépression de 1929 a également eu un impact majeur sur notre économie. La population accuse nos dirigeants d’avoir mal géré la crise."
+
+GRE_patriarch_support:0 "Soutien du patriarche"
+
+GRE_metaxas_plan:0 "Corporatisme"
+
+GRE_third_hellenic_civ:0 "Troisième civilisation hellénique"
+GRE_third_hellenic_civ_desc:0 "Le peuple s’est levé et a fait de la Grèce une nouvelle puissance. La Troisième civilisation hellénique durera de nombreuses années !"
+
+GRE_greater_greece_idea:0 "Grande Grèce proclamée"
+
+GRE_greek_payments:0 "Paiements [GRE.GetAdjective]"
+
+GRE_british_exchange:0 "Échanges [ENG.GetAdjective]"
+
+GRE_semi_constitutional_monarchy:0 "Monarchie semi-constitutionnelle"
+
+GRE_strong_kingdom:0 "Monarchie renforcée"
+
+GRE_naval_industry_rivalary:0 "Industrie navale divisée"
+GRE_naval_industry_rivalary_desc:0 "Notre industrie navale est divisée entre deux factions principales : l’arsenal militaire et les chantiers civils. Nous devons satisfaire le secteur civil si nous voulons bâtir une puissante marine."
+GRE_divided_nation_1:0 "Nation divisée"
+GRE_divided_nation_1_desc:0 "Le pays est divisé entre de nombreuses factions idéologiques ! Nous devons agir vite !"
+GRE_shadow_of_1921:0 "Ombre de 1922"
+GRE_shadow_of_1921_desc:0 "Après la campagne d’Anatolie, nos nouveaux officiers manquent d’expérience et de volonté de combattre. De nouveaux plans et réformes sont nécessaires pour protéger notre nation des menaces extérieures, à l’est comme au nord."
+GRE_general_staff:0 "État-major général"
+GRE_idea_transition_government:0 "Gouvernement de transition"
+GRE_klaras_army_grip:0 "Mainmise de Klaras sur l’armée"
+GRE_civil_war_exhaustion:0 "Destruction due à la guerre civile"
+GRE_securing_the_government:0 "Consolider le nouveau régime"
+GRE_securing_the_government_fascism:0 "Consolider le nouveau régime"
+GRE_victory_of_the_people:0 "Victoire du peuple"
+GRE_strengthened_klaras:0 "Klaras renforcé"
+GRE_politophylaki:0 "Politophylaki"
+GRE_volunteer_corps:0 "Corps de volontaires [GRE.GetAdjective]"
+GRE_opla:0 "O.P.L.A"
+GRE_restaffed_army:0 "Armée réorganisée"
+GRE_reformed_agrarian_economy:0 "Réformes économiques communistes"
+GRE_controlled_stocks:0 "Réformes économiques communistes"
+GRE_enforced_nationalization:0 "Réformes économiques communistes"
+GRE_com_support:0 "Soutien communiste [GRE.GetAdjective]"
+GRE_renewed_economic_plan:0 "Réformes économiques communistes"
+GRE_protected_northern_minorities:0 "Minorités du Nord protégées"
+GRE_utopia:0 "Utopie ouvrière"
+GRE_resist_the_occupiers:0 "Résistance"
+GRE_metaxism:0 "Métaxisme"
+GRE_asphaleia:0 "Asphaleia"
+GRE_yre:0 "La YPE"
+GRE_Metaxas_unions:0 "Corporatisme"
+GRE_george_ii:0 "Georges II"
+GRE_popular_economic_measures:0 "Nouvelles mesures économiques"
+GRE_soviet_tech:0 "Coopération technologique avec [SOV.GetNameDef]"
+GRE_soviet_tech2:0 "Coopération technologique avec [GRE.GetNameDef]"
+GRE_no_fash:0 "Fascistes purgés"
+GRE_strikes:0 "Grèves"
+GRE_strikes_2:0 "Grèves"
+GRE_strikes_3:0 "Grèves"
+GRE_metaxism_r56:0 "Métaxisme"
+GRE_metaxism_2_r56:0 "Métaxisme"
+GRE_george_ii_r56:0 "Georges II"
+
+# Conseillers
+GRE_georgios_grivas:0 "Georgios Grivas"
+GRE_theologos_nicoloudis:0 "Theologos Nicoloudis"
+GRE_konstantinos_maniadakis:0 "Konstantinos Maniadakis"
+GRE_prodomos_bodosakis_athanasiadis:0 "Prodromos Bodosakis-Athanasiadis"
+GRE_kyriakos_varvaresos:0 "Kyriakos Varvaresos"
+GRE_christodoulos_tsigantes:0 "Christodoulos Tsigantes"
+GRE_stefanos_sarafis:0 "Stefanos Sarafis"
+GRE_markos_vafiadis:0 "Markos Vafiadis"
+GRE_andreas_antoniou:0 "Andreas Antoniou"
+GRE_marinos_mitralexis:0 "Marinos Mitralexis"
+GRE_manolis_mantakas:0 "Manolis Mantakas"
+GRE_Andreas_Tzimas:0 "Andreas Tzimas"
+GRE_Charilaos_Florakis:0 "Charilaos Florakis"
+GRE_Alexandros_Svolos:0 "Alexandros Svolos"
+GRE_haralambos_katsimitros:0 "Haralambos Katsimitros"
+GRE_panagiotis_gazis_theorist:0 "Panagiotis Gazis"
+GRE_ioannis_toumbas:0 "Ioannis Toumbas"
+GRE_ioannis_metaxas:0 "Ioannis Metaxas"
+GRE_themistoklis_sofoulis:0 "Themistoklis Sofoulis"
+GRE_nikos_Zachariadis:0 "Nikos Zachariadis"
+GRE_ioannis_rallis:0 "Ioannis Rallis"
+GRE_tsalakoglou:0 "Georgios Tsolakoglou"
+GRE_thrasyvolos_tsakalotos:0 "Thrasyvoulos Tsakalotos"
+GRE_georgios_stanotas:0 "Georgios Stanotas"
+GRE_dimitrios_oikonomou:0 "Dimitrios Oikonomou"
+GRE_neokosmos_grigoriadis:0 "Neokosmos Grigoriadis"
+GRE_nikos_belogiannis:0 "Nikos Belogiannis"
+GRE_georgios_merkouris:0 "Georgios Merkouris"
+GRE_emmanouil_tsouderos:0 "Emmanouil Tsouderos"
+GRE_kostas_kotzias:0 "Kostas Kotzias"
+
+# Entreprises
+spap:0 "SPAP"
+pyrkal:0 "Pyrkal"
+tangalakis_temax:0 "Tangalakis-Temax"
+aekkea_raab:0 "AEKKEA-RAAB"
+kea:0 "KEA"
+oasa:0 "OASA"
+ntua:0 "NTUA"
+chropei:0 "Chropei"
+Biamax:0 "Viamax"
+Viohalco:0 "Viohalco S.A."
+Neorion:0 "Neorion"
+GRE_sidirodromi_ellinikou_kratous:0 "Sidirodromi Ellinikou Kratous"
+
+# Divers
+gre_support:0 "Relations étroites"
+communist_balkan_faction:0 "Union socialiste balkanique"
+emphasizer_of_macedon:0 "Partisan de la Macédoine"
+Archigos:0 "Archigos"
+unifier_of_the_balkans:0 "Unificateur des Balkans"
+
+GRE_north_epirus:0 "Épire du Nord réintégrée"
