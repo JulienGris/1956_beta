@@ -1,0 +1,19 @@
+l_french:
+ fate_of_georgia_category:0 "Le sort de la Géorgie"
+ fate_of_georgia_category_desc:0 "La Géorgie, ancien royaume au riche passé remontant au Moyen Âge, s’est brièvement libérée du joug russe après la Grande Guerre. Avec les bolcheviks est venue une autre forme de domination russe. Grâce à des volontaires venus de l’intérieur du pays et aux membres de l’ancienne élite vivant en exil, nous pourrions restaurer la liberté de la terre de Tamara."
+ GEO_liberators:0 "Libérateur de la Géorgie"
+
+ GEO_form_georgian_national_council:0 "Former un Conseil national géorgien"
+ GEO_establish_georgian_legion:0 "Recruter une Légion géorgienne"
+ GEO_establish_georgian_legion_cost:0 "£army_experience §H10§! £pol_power §H25§! £command_power §H25§!"
+ GEO_establish_georgian_legion_cost_blocked:0 "£army_experience §R10§! £pol_power §R25§! £command_power §R25§!"
+ GEO_establish_georgian_legion_cost_tooltip:0 "Coûte £army_experience 10, £pol_power 25 et £command_power 25 pour sélectionner cette option."
+ GEO_establish_national_georgian_government:0 "Établir un gouvernement national géorgien"
+
+ GEO_event.1.t:0 "Les volontaires veulent rentrer chez eux !"
+ GEO_event.1.desc:0 "Les unités de volontaires ont été formées pour combattre [SOV.GetName] et libérer la Géorgie. Avec la défaite de l’État [SOV.GetAdjective], ces volontaires estiment que leur mission est accomplie et veulent être renvoyés chez eux."
+ GEO_event.1.a:0 "Les convaincre de rester un peu plus longtemps"
+ GEO_event.1.b:0 "Dissoudre leur unité."
+
+ GEO_generic_light_aircraft_manufacturer:0 "Association d’État de l’aviation de Tbilissi"
+ GEO_artillery_manufacturer:0 "Bureau de conception d’Aleksandr Nadiradze"
