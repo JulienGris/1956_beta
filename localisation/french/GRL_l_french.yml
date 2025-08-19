@@ -1,0 +1,26 @@
+l_french:
+
+# Dirigeants
+GRL_eske_brun:0 "Eske Brun"
+GRL_aksel_svane:0 "Aksel Svane"
+GRL_greenland_worker_councils:0 "Conseils ouvriers du Groenland"
+
+# Événements
+grl.1:0 "L’accord Hull-Kauffmann"
+grl.1.t:0 "L’accord Hull-Kauffmann"
+grl.1.d:0 "Le gouvernement [DEN.GetAdjective] est récemment tombé face aux armées fascistes, mais le territoire colonial du Groenland reste libre de toute ingérence fasciste. Par chance, un diplomate [DEN.GetAdjective] du nom de Henrik Kauffmann nous a récemment approchés au sujet de la situation au Groenland. Il agit « au nom du Roi » et avec l’autorité du gouvernement [DEN.GetAdjective] récemment exilé.\n\nLes autorités de Nuuk ont contacté Kauffmann avec cette requête, préférant une occupation [USA.GetAdjective] plutôt qu’une occupation possible par [ENG.GetNameDef] ou [CAN.GetNameDef]. Ou pire encore, une puissance fasciste. Cet accord est peut-être juridiquement douteux en termes de droit international… mais nous avons la responsabilité de protéger toutes les terres et les peuples du Nouveau Monde contre les menaces fascistes ; cela inclut le Groenland.\n\nQuelle voie devons-nous suivre ?"
+grl.1.a:0 "Placer immédiatement le Groenland sous notre contrôle direct."
+grl.1.b:0 "Laisser le gouvernement local de Nuuk prendre le contrôle. Mais nous devons garantir leur sécurité."
+grl.1.c:0 "Ne nous impliquons pas."
+
+# Partis
+GRL_communism_party_long:0 "Inuit Ataqatigiit / Folkets Samfund"
+GRL_communism_party:0 "IA"
+GRL_democratic_party_long:0 "Siumut / Frem"
+GRL_democratic_party:0 "Siumut"
+GRL_fascism_party:0 "Kalaallit Katersat" # (Mouvement groenlandais)
+GRL_neutrality_party:0 "Inspection du Groenland"
+
+# Idée spéciale (humoristique / Easter egg ?)
+GRL_the_carrier_which_came_in_from_the_cold:0 "Le porte-avions venu du froid"
+GRL_the_carrier_which_came_in_from_the_cold_desc:0 "Notre position géographique nous permet de développer un immense porte-avions à base de glace. Il nous permettrait de dominer partout où brillent les aurores boréales et de soutenir des débarquements jusque dans les cuisines où certains restent cachés."
