@@ -1,0 +1,199 @@
+﻿l_french:
+
+is_AH_tt:0 "Est §YAutriche-Hongrie§!"
+
+HUN_moderate_restoration:0 "Restauration modérée"
+HUN_moderate_restoration_desc:0 "Face à la cruauté et à la souffrance engendrées par le nationalisme radical comme par le communisme, le roi et empereur Otto a décidé de ne pas revendiquer de territoires étrangers afin d’épargner à l’Europe une nouvelle catastrophe."
+
+HUN_fortification_cooperation:0 "Coopération pour les fortifications"
+HUN_fortification_cooperation_desc:0 "Nos ressources communes pourraient nous permettre d’éviter le pire."
+
+HUN_papal_blessing:0 "Bénédiction papale"
+HUN_papal_blessing_desc:0 "Les Habsbourg ont soutenu l’Église une, sainte, catholique et apostolique durant des siècles."
+
+HUN_invite_croatia:0 "Inviter la Croatie"
+HUN_invite_croatia_desc:0 "Les Croates sont liés à nous depuis longtemps. Ils pourraient devenir des alliés fiables."
+
+HUN_alliance_with_the_kaiserreich:0 "Alliance avec le Kaiserreich"
+HUN_alliance_with_the_kaiserreich_desc:0 "L’influence industrielle des [GER.GetAdjective] sur notre pays rend une alliance diplomatique presque inévitable."
+
+HUN_form_the_mdp:0 "Former le MDP"
+HUN_form_the_mdp_desc:0 "Nous devons réorganiser les partis politiques en créant un front uni et en incluant les nombreux partis de gauche, avec le Parti communiste à leur tête."
+
+HUN_turn_the_adriatic_red:0 "Rougir l’Adriatique"
+HUN_turn_the_adriatic_red_desc:0 "Le corrompu [YUG.GetName] a trop longtemps opprimé les mouvements ouvriers balkaniques. Notre devoir premier est de libérer le prolétariat et de lui montrer les valeurs du communisme !"
+
+HUN_liberate_the_austrians:0 "Libérer les [AUS.GetAdjective]"
+HUN_liberate_the_austrians_desc:0 "Le Parti communiste d’Autriche, le KPÖ, a été contraint à la clandestinité par le décret d’urgence du gouvernement austrofasciste en 1933. Sans soutien extérieur, le parti ne peut pas guider le peuple [AUS.GetAdjective] vers la prospérité qu’il mérite. Nous allons changer cela pour toujours !"
+
+HUN_expand_the_levente:0 "Développer la Levente"
+HUN_expand_the_levente_desc:0 "Les associations Levente sont une organisation paramilitaire existant depuis 1921, créée initialement pour l’entraînement physique et sanitaire, mais militarisée par la suite afin de contourner les restrictions du traité de Trianon."
+
+HUN_demand_the_coastline:0 "[ROOT.GetHUNdemandthecoastline]"
+HUN_demand_the_coastline_desc:0 "L’héritage du royaume de Hongrie comprend les territoires côtiers de Dalmatie, perdus face aux Ottomans il y a cinq siècles. Si nous voulons retrouver notre gloire d’antan, nous devrons exiger ou conquérir ces territoires !"
+GetHUNdemandthecoastlinenormal_KEY:0 "Revendiquer le littoral"
+GetHUNdemandthecoastlineitaly_KEY:0 "Négocier le littoral"
+
+HUN_integrate_southern_slovakia:0 "Intégrer la Slovaquie méridionale"
+
+HUN_gyor_program_investment:0 "Investissements du programme de Győr"
+HUN_gyor_program_decision_category:0 "Le programme de Győr"
+HUN_gyor_program_decision_category_desc:0 "Le programme de Győr est un plan qui doit permettre au pays d’augmenter sa production d’armement et de rééquiper l’armée [ROOT.getAdjective]."
+HUN_support_manufacturers_coordination:0 "Soutenir la coordination des fabricants"
+
+HUN_idea_support_armament_manufacturers:0 "Coordination des fabricants d’armement"
+
+HUN_acquire_skoda_naval_artillery_experience:0 "Acquérir l’expérience navale de Skoda"
+HUN_acquire_skoda_naval_artillery_experience_desc:0 "Skoda a conçu les canons de la marine austro-hongroise ; il est temps de mettre à nouveau cette expertise à profit."
+HUN_experiment_with_torpedoes:0 "Expérimenter les torpilles"
+HUN_experiment_with_torpedoes_desc:0 "Nous devons rattraper notre retard sur les autres nations concernant nos modèles de torpilles, afin de frapper en silence."
+
+HUN_invest_in_north_transylvanian_mining:0 "Investir dans les mines de Transylvanie du Nord"
+HUN_invest_in_north_transylvanian_mining_desc:0 "La Transylvanie a une longue tradition minière remontant à plusieurs siècles. Même si ces minerais ne sont pas directement utiles aux usines de guerre, leur exploitation contribuera grandement à l’économie."
+
+HUN_odon_trunkwalter:0 "Ődőn Trunkwalter"
+HUN_dezso_winkler:0 "Dezső Winkler"
+# HUN_john_von_neumann:0 "János Lajos Neumann" # déplacé
+HUN_paul_erdos:0 "Paul Erdős"
+
+horthy_died:0 "Horthy est mort"
+
+HUN_carrier:0 "Recherche sur les porte-avions"
+HUN_carrier_desc:0 "L’aviation navale est la prochaine grande étape de la guerre en mer."
+
+mavag_tank:0 "MÁVAG"
+mw_tank:0 "Manfred Weiss"
+digep:0 "Digep"
+raba:0 "Rába"
+maort:0 "Magyar-Amerikai Olajipari"
+haesz:0 "HAESZ"
+
+HUN_generic_medium_aircraft_manufacturer:0 "Repülő Müszaki Intézet"
+HUN_generic_heavy_aircraft_manufacturer:0 "Repülő Müszaki Intézet"
+HUN_diosgyor_iron_and_steelworks:0 "Forges de fer et d’acier de Diósgyőr"
+HUN_generic_naval_aircraft_manufacturer:0 "AVIS"
+HUN_ikarus:0 "Uhri Testvérek Autókarosszéria és Járműgyár"
+
+HUN_amphibious_tank_equipment_1:0 "Straussler V–4"
+
+formed_austria_hungary:0 "A formé l’Autriche-Hongrie"
+SZK_become_hungary:0 "Devenir la Hongrie"
+
+# Easter egg
+HUN_impose_admiralty_government_GER:0 "Imposer un gouvernement dirigé par l’Amirauté en Allemagne"
+HUN_impose_admiralty_government_FRA:0 "Imposer un gouvernement dirigé par l’Amirauté en France"
+HUN_try_to_reconcile_with_horthy_loyalists:0 "Tenter de se réconcilier avec les loyalistes de Horthy"
+
+HUN_organize_workers_collectives:0 "Organiser les collectifs ouvriers"
+HUN_organize_workers_collectives_desc:0 "En organisant des collectifs ouvriers, nous pourrons prendre le contrôle de l’économie et enfin sceller le sort du capitalisme."
+
+HUN_new_invasion_of_slovakia:0 "Nouvelle invasion de la Slovaquie"
+HUN_new_invasion_of_slovakia_desc:0 "Soumettons les Slovaques une bonne fois pour toutes et vengeons notre échec de 1919."
+
+HUN_oil_refining_infrastructure:0 "Infrastructures de raffinage du pétrole"
+HUN_oil_refining_infrastructure_desc:0 "Pour exploiter nos gisements pétroliers, nous devons équiper le pays de raffineries et de silos à carburant."
+
+HUN_ally_yugoslavia:0 "S’allier à [YUG.GetNameDef]"
+HUN_ally_yugoslavia_desc:0 "[YUG.GetNameDefCap] doit être soutenu et devenir notre allié dans notre lutte pour la libération des travailleurs du monde entier !"
+
+HUN_ally_greece:0 "S’allier à [GRE.GetNameDef]"
+HUN_ally_greece_desc:0 "[GRE.GetNameDefCap] doit être soutenu et devenir notre allié dans notre lutte pour la libération des travailleurs du monde entier !"
+
+HUN_ally_bulgaria:0 "S’allier à [BUL.GetNameDef]"
+HUN_ally_bulgaria_desc:0 "[BUL.GetNameDefCap] doit être soutenu et devenir notre allié dans notre lutte pour la libération des travailleurs du monde entier !"
+
+HUN_ally_austria:0 "S’allier à [AUS.GetNameDef]"
+HUN_ally_austria_desc:0 "[AUS.GetNameDefCap] doit être soutenu et devenir notre allié dans notre lutte pour la libération des travailleurs du monde entier !"
+
+
+HUN_revolt_of_the_arrow_crosses:0 "Révolte des Croix fléchées"
+HUN_revolt_of_the_arrow_crosses_desc:0 "Le soi-disant régent a trahi la mère patrie et son armée pendant des années en accaparant le pouvoir pour lui-même tout en se montrant complaisant envers les oppresseurs étrangers."
+
+HUN_favor_the_army:0 "Favoriser l’armée"
+HUN_favor_the_army_desc:0 "Nous devons favoriser l’armée afin de redonner à la Hongrie ses frontières historiques. Nous devons donc tout faire pour servir les intérêts des officiers et apaiser les divisions causées par la destitution de Horthy le traître."
+
+HUN_foreign_aeronautical_assistance:0 "Aide aéronautique étrangère"
+HUN_foreign_aeronautical_assistance_desc:0 "Nos alliés peuvent nous aider à produire davantage d’avions."
+HUN_foreign_aeronautical_assistance_idea:0 "Aide aéronautique étrangère"
+
+
+HUN_invite_yugoslavia:0 "Inviter [YUG.GetNameDef]"
+HUN_invite_yugoslavia_desc:0 "Le soutien de [YUG.GetNameDef] est essentiel pour l’avenir d’une coalition balkanique durable."
+
+HUN_invite_czechoslovakia:0 "Inviter [CZE.GetNameDef]"
+HUN_invite_czechoslovakia_desc:0 "Le soutien de [CZE.GetNameDef] est essentiel pour l’avenir d’une coalition balkanique durable."
+
+HUN_invite_greece:0 "Inviter [GRE.GetNameDef]"
+HUN_invite_greece_desc:0 "Le soutien de [GRE.GetNameDef] est essentiel pour l’avenir d’une coalition balkanique durable."
+
+HUN_protect_ruthenia:0 "Protéger la Ruthénie"
+HUN_protect_ruthenia_desc:0 "Il est dans notre intérêt, comme dans celui des Magyars et des Ruthènes, de protéger la Ruthénie et de garantir que leurs communautés vivent en paix les unes avec les autres. Ces temps sont déjà assez troublés, nous n’avons pas besoin d’ennemis intérieurs."
+
+HUN_join_the_little_entente:0 "Rejoindre la Petite Entente"
+HUN_join_the_little_entente_desc:0 "Nos efforts diplomatiques ont enfin convaincu les [FRA.GetAdjective] que nous ne constituons pas une menace et que nous pouvons régler pacifiquement la question des Magyars vivant hors des frontières [HUN.GetAdjective]. La présence de tyrans menaçant la paix est une préoccupation bien plus grande, contre laquelle les nations libres doivent s’unir."
+
+HUN_join_the_cordon_sanitaire:0 "Rejoindre le cordon sanitaire"
+HUN_join_the_cordon_sanitaire_desc:0 "L’alliance [POL.GetAdjective]-[ROM.GetAdjective] est le rempart de l’Europe de l’Est contre la tyrannie ; c’est servir la cause de la liberté que de les rejoindre."
+
+HUN_hungarian_minorities_recruitment_agreement:0 "Accord de recrutement des minorités hongroises"
+HUN_hungarian_minorities_recruitment_agreement_desc:0 "Faisons pression sur nos alliés pour qu’ils autorisent leurs citoyens d’origine hongroise à servir dans l’armée [HUN.GetAdjective]."
+
+HUN_rearmament_refused:0 "§YLes membres de la Petite Entente ont refusé le réarmement§!"
+
+
+HUN_bernadotte_dynastic_ties_decision_category:0 "Liens dynastiques Bernadotte"
+HUN_bernadotte_dynastic_ties_decision_category_desc:0 "Le nouveau roi de notre nation est né et a grandi en Suède, où il conserve de solides attaches avec le pays de sa jeunesse."
+
+HUN_hungarian_minorities_recruitment_decision_category:0 "Recrutement des minorités hongroises"
+HUN_hungarian_minorities_recruitment_decision_category_desc:0 "Plutôt que de nous lamenter sur le démantèlement de la Grande Hongrie, trouvons un réconfort dans la coopération internationale avec nos voisins. Certains Hongrois vivant à l’étranger pourraient être plus motivés à servir sous le drapeau [HUN.GetAdjective], ce qui permet d’éviter les barrières linguistiques. Nos voisins alliés ont été consciencieusement sollicités et convaincus que c’était pour le bien de la cause commune, et la gravité de notre époque ouvre la porte à des solutions inédites."
+
+HUN_form_swedish_democratic_government_in_exile:0 "Former un gouvernement démocratique [SWE.GetAdjective] en exil"
+HUN_recruit_magyars_in_carpathian_ruthenia:0 "Recruter des Magyars en Ruthénie carpathique"
+HUN_recruit_magyars_in_vojvodina:0 "Recruter des Magyars en Voïvodine"
+HUN_recruit_magyars_in_southern_transylvania:0 "Recruter des Magyars en Transylvanie méridionale"
+HUN_recruit_magyars_in_northern_transylvania:0 "Recruter des Magyars en Transylvanie septentrionale"
+HUN_recruit_magyars_in_southern_slovakia:0 "Recruter des Magyars en Slovaquie méridionale"
+HUN_support_swedish_democratic_government:0 "Soutenir le gouvernement démocratique [SWE.GetAdjective]"
+HUN_restore_swedish_democracy:0 "Restaurer la démocratie [SWE.GetAdjective]"
+
+r56_hungary_6.t:0 "Rejoindre Charles Bernadotte"
+r56_hungary_6.desc:0 "Rejoindre Charles Bernadotte"
+r56_hungary_6.a:0 "À la victoire !"
+r56_hungary_6.b:0 "Durr durr, la mort vaut mieux."
+
+HUN_balkan_pact_preparation:0 "Préparatifs militaires de [HUN.getfactionname]"
+
+HUN_claim_south_tyrol:0 "Revendiquer le Tyrol du Sud"
+
+
+r56_hungary_coastline.1.t:0 "La Hongrie revendique les possessions de la Grande Hongrie"
+r56_hungary_coastline.1.d:0 "Le [HUN.GetName] a utilisé l’héritage du royaume de Hongrie comme casus belli pour revendiquer les possessions de la Grande Hongrie."
+r56_hungary_coastline.1.a:0 "Donnez-les-leur."
+r56_hungary_coastline.1.b:0 "Qui croient-ils être, à nier la Grande Italie ?!"
+
+r56_hungary_coastline.2.t:0 "Les [ITA.GetName] acceptent !"
+r56_hungary_coastline.2.d:0 "Les [ITA.GetName] ont cédé à nos exigences concernant la Grande Hongrie !"
+r56_hungary_coastline.2.a:0 "Excellent."
+
+r56_hungary_coastline.3.t:0 "Les [ITA.GetName] refusent notre demande"
+r56_hungary_coastline.3.d:0 "Les [ITA.GetName] ont rejeté notre revendication, sachant parfaitement quelle en est l’alternative."
+r56_hungary_coastline.3.a:0 "Alors c’est la guerre."
+
+r56_hungary_7.t:0 "[ITA.GetLeader] invite [YUG.GetNameDef] à rejoindre le [HUN.getfactionname]"
+r56_hungary_7.desc:0 "Avec son habituel panache diplomatique, [ITA.GetLeader] a décidé d’agir seul et d’inviter [YUG.GetLeader] à signer un traité d’alliance, les liant au [HUN.getfactionname]. Bien qu’il soit agréable d’avoir de nouveaux alliés, cela pourrait entraver la restauration de la Hongrie historique."
+r56_hungary_7.a:0 "Mieux vaut ça que d’être entouré d’ennemis."
+
+
+WW_hungary.90.c:0 "Pal Esterhazy, ce sera lui !"
+
+ROM_agrarian_reform:0 "Réforme agraire" # utilisé uniquement dans l’arbre HUN du DLC malgré le nom de l’idée
+
+# Déplacé ici depuis WUW_decisions_l_english puisqu’on ne l’écrase plus
+HUN_establish_szerbiai_magyarok_academy_of_sciences_decision:0 "Fonder l’Académie des sciences des Magyars de Serbie"
+HUN_establish_szlovakiai_magyarok_academy_of_sciences_decision:0 "Fonder l’Académie des sciences des Magyars de Slovaquie"
+HUN_szerbiai_magyarok_science_academy_flag:0 "A fondé l’Académie des sciences des Magyars de Serbie"
+HUN_szlovakiai_magyarok_science_academy_flag:0 "A fondé l’Académie des sciences des Magyars de Slovaquie"
+
+HUN_reintigrate_kvarner:0 "Réintégrer [103.GetName]"
+HUN_reintigrate_srem:0 "Réintégrer [952.GetName]"
+HUN_reintigrate_prekmurje:0 "Réintégrer [956.GetName]"
