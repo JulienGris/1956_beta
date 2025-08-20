@@ -1,0 +1,285 @@
+﻿l_french:
+korea_focus:0 "Arbre de Priorités Nationales Coréen"
+#Country Stuff
+KOR_neutrality_party_independence_long:0 "Parti de l’Indépendance Coréenne"
+KOR_neutrality_party_independence:0 "PIC"
+
+#Descriptions des priorités pour la Corée
+
+### Branche industrielle ###
+KOR_Industrial_Boom:0 "Boom Industriel"
+KOR_Industrial_Boom_desc:0 "Nos récents investissements et décisions politiques concernant la croissance industrielle en Corée ont porté leurs fruits. Les économistes prédisent que nous approchons d’un boom économique, nous devons donc utiliser l’afflux d’investissements privés pour alimenter davantage notre croissance."
+KOR_Industrial_Expansion:0 "Expansion Industrielle"
+KOR_Industrial_Expansion_desc:0 "Après l’afflux d’investissements industriels supplémentaires durant le boom, nous pouvons nous lancer dans des projets plus ambitieux."
+KOR_modern_electronics:0 "Électronique Moderne"
+KOR_modern_electronics_desc:0 "Notre pays est peut-être jeune, mais il ne doit en aucun cas être technologiquement en retard. Nous allons développer l’électronique la plus avancée du monde !"
+KOR_expanded_research_programs:0 "Programmes de Recherche Étendus"
+KOR_expanded_research_programs_desc:0 "L’expansion de nos capacités nous permet désormais de financer encore plus de programmes de recherche en parallèle."
+
+### Branche administrative ###
+KOR_return_of_the_government_in_exile:0 "Retour du Gouvernement en Exil"
+KOR_return_of_the_government_in_exile_desc:0 "Le rêve des républicains est enfin accompli. Après des années d’exil, une nouvelle ère s’ouvre pour la Corée, sous un gouvernement qui lui est propre."
+KOR_reorganize_the_administration:0 "Réorganiser l’Administration"
+KOR_reorganize_the_administration_desc:0 "Avec le départ des Japonais, l’administration doit être réorganisée pour devenir une véritable structure coréenne."
+KOR_repeal_colonial_restrictions:0 "Abolir les Restrictions Coloniales"
+KOR_repeal_colonial_restrictions_desc:0 "La domination japonaise a imposé un certain nombre d’interdictions, restreignant l’expression de la culture coréenne, comme celle des vêtements traditionnels."
+
+KOR_rise_of_the_chaebols:0 "Montée des Chaebols"
+KOR_rise_of_the_chaebols_desc:0 "De grands conglomérats familiaux sont capables de centraliser le pouvoir industriel, au risque toutefois de devenir l’équivalent des Zaibatsu japonais."
+KOR_develop_gold_mining_near_unsan:0 "Développer les Mines d’Or près d’Ŭnsan"
+KOR_develop_gold_mining_near_unsan_desc:0 "Concédée à l’origine par l’empereur coréen à un homme d’affaires américain en 1893, la mine près d’Ŭnsan s’est révélée être une source fiable de métaux précieux. Elle doit être exploitée à son plein potentiel."
+
+KOR_seoul_busan_infrastructure:0 "Plan d’Infrastructure Séoul-Busan"
+KOR_seoul_busan_infrastructure_desc:0 "Développer l’infrastructure dans les villes de Séoul et Busan est le moyen le plus rapide et le plus rentable de stimuler la croissance et d’encourager le développement de notre secteur industriel."
+KOR_hyundai_engineering:0 "Hyundai Engineering"
+KOR_hyundai_engineering_desc:0 "Le pays ne dispose peut-être pas de ressources ni de terres abondantes, mais il compense avec des hommes de conviction comme Chung Ju-yung. Nous sécuriserons des contrats avec sa société, Hyundai Engineering, afin de développer le potentiel économique de la Corée."
+KOR_hyundai_vehicles:0 "Véhicules Hyundai"
+KOR_hyundai_vehicles_desc:0 "Ce que nous manquons en effectifs, nous pouvons le compenser en équipant nos troupes avec un meilleur matériel et des véhicules. Une filiale de Hyundai Industries peut être chargée de produire ces véhicules, améliorant ainsi la mobilité stratégique des troupes."
+
+KOR_modernize_mining_industry:0 "Moderniser l’Industrie Minière"
+KOR_modernize_mining_industry_desc:0 "Creuser, creuser, creuser... et faire des profits !"
+KOR_expand_jinsen_arsenal:0 "Étendre l’Arsenal de Jinsen"
+KOR_expand_jinsen_arsenal_desc:0 "Sous la domination japonaise, l’arsenal de Jinsen approvisionnait les troupes japonaises en Chine et en Corée. Désormais sous notre contrôle, il peut devenir le centre de production d’armes coréen et constituer une excellente base pour l’augmenter davantage."
+KOR_daelim_petrochemicals:0 "Daelim Pétrochimie"
+KOR_daelim_petrochemicals_desc:0 "Nous ne disposons pas de source naturelle de pétrole, il est donc essentiel de développer la fabrication de pétrole synthétique pour notre industrie et nos forces armées. Nous confierons cette tâche à une filiale de confiance de nos Chaebols."
+
+KOR_military_industrial_cooperation:0 "Coopération Militaro-Industrielle"
+KOR_military_industrial_cooperation_desc:0 "L’armée ne peut exister sans ingénieurs et sans ouvriers pour concevoir des armes modernes. Les Chaebols doivent aussi contribuer à la défense nationale."
+
+### Branche navale ###
+KOR_hanjin_heavy_industries:0 "Hanjin Heavy Industries"
+KOR_hanjin_heavy_industries_desc:0 "Nous possédons une importante société de construction navale en Corée. Il est nécessaire d’agrandir les chantiers et capacités de production de Hanjin Industries pour lancer la production de masse de navires pour la marine coréenne."
+KOR_peoples_fleet:0 "La Flotte du Peuple"
+KOR_peoples_fleet_desc:0 "Nous ne reculerons devant aucune dépense pour bâtir la Marine Populaire de Corée !"
+
+KOR_national_admiralty:0 "Amirauté Nationale"
+KOR_national_admiralty_desc:0 "La marine coréenne défendait autrefois nos côtes. Nous devons reprendre ces traditions navales, même si cela signifie reconstruire notre flotte de zéro. Notre marine aura besoin d’officiers et d’amiraux compétents pour commander cette nouvelle force."
+KOR_destroyer_focus:0 "Destroyers Modernes"
+KOR_destroyer_focus_desc:0 "Le développement de nouveaux modèles de destroyers et de navires d’escorte servira de colonne vertébrale à notre marine."
+KOR_cruiser_focus:0 "Croiseurs Modernes"
+KOR_cruiser_focus_desc:0 "Des croiseurs polyvalents, capables de remplir de nombreux rôles, seront un atout utile pour la marine coréenne."
+
+KOR_increase_naval_production:0 "Accroître la Production Navale"
+KOR_increase_naval_production_desc:0 "L’expansion de nos chantiers navals est nécessaire. Nous devons produire davantage de navires pour patrouiller nos mers et nous défendre contre les attaques amphibies."
+KOR_a_s_warfare:0 "Guerre ASM"
+KOR_a_s_warfare_desc:0 "Le sous-marin est le chasseur silencieux des mers. Équiper nos destroyers d’outils pour les traquer et les détruire transformera le chasseur en proie."
+KOR_naval_mine_warfare:0 "Guerre des Mines Navales"
+KOR_naval_mine_warfare_desc:0 "Les mines marines sont peut-être le moyen le moins cher et le plus efficace de défendre nos côtes contre les navires ennemis."
+
+KOR_the_old_japanese_model:0 "Navires Japonais"
+KOR_the_old_japanese_model_desc:0 "Les constructeurs navals japonais étaient talentueux. Nous devrions les imiter, en plaçant les cuirassés au centre de notre marine."
+KOR_battleship_focus:0 "Priorité aux Cuirassés"
+KOR_battleship_focus_desc:0 "De gros canons pour de gros navires. Avec quatre tourelles triples, deux à l’avant et deux à l’arrière."
+KOR_the_biggest_battleship:0 "Le Plus Grand Cuirassé"
+KOR_the_biggest_battleship_desc:0 "Pourquoi imiter les cuirassés des autres puissances si nous pouvons en construire un encore plus grand ?"
+
+KOR_the_blocade_doctrine:0 "Doctrine du Blocus"
+KOR_the_blocade_doctrine_desc:0 "Si nous coulons suffisamment de convois ennemis, nous pourrons paralyser leur économie et leurs ravitaillements."
+KOR_silent_service:0 "Service Silencieux"
+KOR_silent_service_desc:0 "Des sous-marins modernes sont indispensables pour la réussite de nos plans de guerre de convois."
+KOR_stealth_upgrades:0 "Améliorations de Furtivité"
+KOR_stealth_upgrades_desc:0 "Des sous-marins plus furtifs seront plus efficaces pour approcher les convois ennemis sans défense."
+
+KOR_carrier_strikes:0 "Attaques de Porte-Avions"
+KOR_carrier_strikes_desc:0 "Nous avons vu des puissances étrangères utiliser ces immenses bases aériennes flottantes pour mener des opérations offensives en mer. Peut-être devrions-nous tenter cette tactique ?"
+KOR_naval_air_groups:0 "Groupes Aériens Navals"
+KOR_naval_air_groups_desc:0 "Nous avons le savoir-faire, il est temps de développer l’art des attaques aéronavales."
+KOR_lessons_for_the_air_force:0 "Leçons pour l’Armée de l’Air"
+KOR_lessons_for_the_air_force_desc:0 "Nos forces aéronavales ont acquis une solide expérience des opérations sur porte-avions. Nous devons appliquer ces enseignements à notre aviation."
+
+## Sous-arbres neutres et démocratiques ##
+KOR_defense_mobilization:0 "Mobilisation Défensive"
+KOR_defense_mobilization_desc:0 "La Corée ne doit plus jamais tomber sous le contrôle étranger. Le peuple coréen se lèvera et se battra pour son pays !"
+
+KOR_embrace_peoples_tutelage:0 "Adopter le Système de Tutelle du Peuple"
+KOR_embrace_peoples_tutelage_desc:0 "Le KMT a clairement identifié que le peuple chinois ne pouvait progresser démocratiquement sans être éduqué à ses droits politiques et civiques. Nous pouvons copier cela, en instruisant les masses coréennes pour les préparer au nouvel État et à sa constitution."
+KOR_keep_ties_with_the_KMT:0 "Maintenir les Liens avec le KMT"
+KOR_keep_ties_with_the_KMT_desc:0 "Le KMT s’est avéré être le pilier de stabilité en Asie. Une alliance avec eux sera utile pour maintenir la paix et la stabilité dans notre région."
+KOR_experience_of_the_korean_liberation_army:0 "Expérience de l’Armée de Libération Coréenne"
+KOR_experience_of_the_korean_liberation_army_desc:0 "Les troupes ont combattu durement pour notre indépendance. Nous aurons besoin de leur expérience du combat pour bâtir les forces armées coréennes."
+
+KOR_apply_democratic_program:0 "Appliquer le Programme Démocratique"
+KOR_apply_democratic_program_desc:0 "La force de l’État coréen vient de son peuple. Nous devons encourager les idéaux démocratiques : liberté individuelle, droits civiques et droit de jouir des fruits de ses efforts."
+KOR_semi_isolation:0 "Semi-Isolation"
+KOR_semi_isolation_desc:0 "Les alliances et accords passés se sont révélés fatals à la Corée. Désormais, nous devons seulement défendre nos terres et ne pas participer à des guerres lointaines qui ne nous concernent pas."
+KOR_search_allies:0 "Rejoindre les Alliés"
+KOR_search_allies_desc:0 "Les pays du monde libre sont les gardiens ultimes des droits des peuples. Nous devrions nous allier avec eux pour protéger les libertés individuelles dans une région où elles sont souvent réprimées au profit du pouvoir de l’État."
+KOR_defensive_preparation:0 "Préparatifs Défensifs"
+KOR_defensive_preparation_desc:0 "Même si nous aspirons à la paix, il est prudent de fortifier la défense de notre pays afin de rendre toute tentative d’invasion extrêmement coûteuse."
+
+### Corée communiste ###
+KOR_peoples_committee_of_korea:0 "Comité Populaire de Corée"
+KOR_peoples_committee_of_korea_desc:0 "Nous établirons un gouvernement provisoire qui dirigera notre nation selon les principes du communisme. La Corée prospérera à nouveau !"
+
+KOR_conventional_warfare:0 "Guerre Conventionnelle"
+KOR_conventional_warfare_desc:0 "Mener la guerre avec des méthodes éprouvées par d’autres nations garantira notre succès sur les champs de bataille."
+KOR_guerilla_experience:0 "Expérience de la Guerrilla"
+KOR_guerilla_experience_desc:0 "Notre nation ne peut soutenir un conflit long comme d’autres. Une nouvelle méthode de guerre, menée par des forces irrégulières et des tactiques de guérilla, sera pratiquée dans notre pays glorieux."
+
+KOR_encourage_collectivism:0 "Encourager le Collectivisme"
+KOR_encourage_collectivism_desc:0 "Chaque individu est une pièce de la communauté, et chacun a un rôle à jouer. Tous travailleront pour le bien de l’État."
+KOR_industrial_modernization_plan:0 "Plan de Modernisation Industrielle"
+KOR_industrial_modernization_plan_desc:0 "Notre base industrielle actuelle est insuffisante comparée aux autres nations. Nous devons obtenir l’aide d’experts et planifier des investissements appropriés pour la mettre à niveau."
+
+KOR_complete_collectivization:0 "Collectivisation Totale"
+KOR_complete_collectivization_desc:0 "Notre récente croissance économique peut être attribuée à notre collectivisation réussie. Nous devons poursuivre cette tendance prometteuse."
+KOR_prosperity_propaganda:0 "Propagande de Prospérité"
+KOR_prosperity_propaganda_desc:0 "La Corée dispose désormais de ressources et d’une société productive et efficace. Nous annoncerons au peuple et au monde le succès du collectivisme coréen."
+
+KOR_metallurgy:0 "Métallurgie"
+KOR_metallurgy_desc:0 "L’expansion de nos industries nécessite une source de matières premières transformées. Nous construirons les installations nécessaires pour répondre à nos besoins."
+KOR_state_heavy_industry:0 "Industrie Lourde d’État"
+KOR_state_heavy_industry_desc:0 "Pour stimuler davantage la croissance, nous investirons dans les grandes entreprises d’État qui produiront tout ce dont notre industrie a besoin."
+KOR_leader_technical_university:0 "Université Technique de [KOR.GetLeader]"
+KOR_leader_technical_university_desc:0 "Notre industrie améliorée nécessite une base compétente de travailleurs et de personnels formés. La création d’un institut de recherche et d’une université remplira un double objectif : former cette future main-d’œuvre et développer ainsi que tester de nouvelles technologies."
+
+KOR_war_industry:0 "Industrie de Guerre"
+KOR_war_industry_desc:0 "Développer notre capacité de production militaire nous servira à défendre notre petite nation contre ceux qui cherchent à lui nuire."
+
+KOR_sideline_cho_man_sik:0 "Écarter les Opposants Politiques"
+KOR_sideline_cho_man_sik_desc:0 "Certains individus au sein de notre collectif nourrissent des pensées et idéologies séditieuses. Nous devons les rééduquer sur la réalité de l’État en Corée."
+KOR_supreme_leader:0 "Dirigeant Suprême"
+KOR_supreme_leader_desc:0 "Il n’y a qu’une seule personne dans ce pays qui sait ce qui est le mieux pour lui. Nous le vénérerons, consignerons ses paroles et l’immortaliserons dans les annales de notre nation."
+
+KOR_great_banner_of_songun:0 "Grand Drapeau du Songun"
+KOR_great_banner_of_songun_desc:0 "En Corée, grand soldat. Numéro un. Main ferme. Un jour, le Dirigeant Suprême a besoin d’un nouvel ami. Je fais une opération. Mais, erreur ! Ami mort ! Dirigeant Suprême heureux ! Maintenant j’ai maison, nourriture et jolie femme."
+KOR_loyalty_to_moscow:0 "Loyauté envers Moscou"
+KOR_loyalty_to_moscow_desc:0 "Seule la patrie du communisme peut nous protéger dans ce monde rempli de capitalistes. Nous devrions nous allier avec le [SOV.GetName] pour garantir notre succès et notre prospérité."
+KOR_adopt_maoism:0 "Adopter le Maoïsme"
+KOR_adopt_maoism_desc:0 "Notre voisin communiste le plus proche, le [PRC.GetName], pratique une forme unique de communisme plus adaptée à la Corée. Nous devrions les rejoindre dans la lutte glorieuse pour répandre l’évangile du communisme."
+KOR_join_the_asian_communist_solidarity:0 "Rejoindre la Solidarité Communiste Asiatique"
+KOR_join_the_asian_communist_solidarity_desc:0 "Nous ne pouvons faire confiance à aucune autre nation, sauf celles qui, comme nous, pratiquent le communisme. Nous devons former une alliance avec les nations communistes d’Asie afin de protéger notre existence unique."
+
+## Sous-arbre Réformes de l’Armée ##
+
+KOR_army_reform:0 "Réforme de l’Armée"
+KOR_army_reform_desc:0 "L’armée coréenne est dans un état déplorable. Nous devons commencer à moderniser nos forces armées si nous voulons survivre à tout conflit."
+
+KOR_equipment_effort:0 "Modernisation de l’Équipement"
+KOR_equipment_effort_desc:0 "Le développement de nouvelles armes d’infanterie et d’artillerie lourde rendra nos troupes redoutées sur le champ de bataille. Nous en ferons une priorité."
+KOR_equipment_effort_2:0 "Poursuivre la Réforme de l’Équipement"
+KOR_equipment_effort_2_desc:0 "Encore de meilleures armes pour les troupes. L’armée coréenne sera invincible à chaque bataille."
+KOR_equipment_effort_3:0 "Modernisation de l’Artillerie"
+KOR_equipment_effort_3_desc:0 "Nous équiperons nos troupes uniquement avec les armes d’infanterie les plus avancées. Alors seulement, nos ennemis réfléchiront à deux fois avant de lancer une attaque."
+KOR_special_forces:0 "Forces Spéciales Coréennes"
+KOR_special_forces_desc:0 "Ils approchent comme des fantômes, frappent comme le tonnerre et disparaissent comme la fumée."
+
+KOR_supervize_equipment_production:0 "Superviser la Production d’Équipement"
+KOR_supervize_equipment_production_desc:0 "Notre propre complexe militaro-industriel produira suffisamment de munitions pour réduire nos ennemis en poussière."
+KOR_establish_a_military_academy:0 "Académie Militaire Nationale"
+KOR_establish_a_military_academy_desc:0 "L’armée sera composée des meilleurs officiers et généraux pour planifier et diriger toutes les offensives."
+
+KOR_army_modernization:0 "Modernisation de l’Armée"
+KOR_army_modernization_desc:0 "Nos plans en cours pour la modernisation de l’armée coréenne ne s’arrêteront pas."
+KOR_motorization_effort:0 "Motorisation"
+KOR_motorization_effort_desc:0 "L’ajout de véhicules motorisés à notre infanterie améliorera grandement la mobilité stratégique de nos troupes, leur permettant de se déplacer rapidement dans nos zones urbaines."
+KOR_establish_a_armor_corp:0 "Créer une Unité Blindée"
+KOR_establish_a_armor_corp_desc:0 "Le char d’assaut peut soutenir l’infanterie dans ses percées contre les formations hostiles. Nous construirons une telle unité pour renforcer nos forces armées."
+KOR_signal_companies:0 "Compagnies de Transmission"
+KOR_signal_companies_desc:0 "Des communications fiables sont obligatoires dans toute formation de combat. La création de compagnies de transmission augmentera considérablement la capacité de nos forces à réagir rapidement aux évolutions du champ de bataille."
+KOR_mechanization_effort:0 "Mécanisation de l’Armée"
+KOR_mechanization_effort_desc:0 "Le transport de troupes blindé peut protéger notre infanterie avant de l’acheminer sur le champ de bataille, et aider à escorter les formations blindées. Nous devons développer cette capacité pour prendre l’avantage sur nos ennemis."
+KOR_field_hospitals:0 "Hôpitaux de Campagne Améliorés"
+KOR_field_hospitals_desc:0 "Notre petite nation ne peut se permettre de lourdes pertes au combat. En intégrant des hôpitaux de campagne à l’armée, nous pouvons réduire le nombre de morts causés par la guerre."
+KOR_modern_logistics:0 "Logistique Moderne"
+KOR_modern_logistics_desc:0 "La survie de toute force de combat dépend de sa chaîne d’approvisionnement. L’ajout de méthodes modernes de ravitaillement améliorera l’endurance de nos troupes lors des opérations."
+
+## Arbre commun de l’Armée de l’Air ##
+
+KOR_take_over_air_bases:0 "S’emparer des Bases Aériennes Coloniales"
+KOR_take_over_air_bases_desc:0 "Nos anciens occupants ont laissé derrière eux un nombre important de bases aériennes en Corée. Nous devrions les utiliser pour développer notre armée de l’air."
+KOR_pyeongtaek_airplane_workshop:0 "Atelier Aéronautique de Pyeongtaek"
+KOR_pyeongtaek_airplane_workshop_desc:0 "Le développement de notre force aérienne nécessite des ateliers spécialisés capables de produire des pièces détachées pour avions, ainsi que l’expertise pour les fabriquer."
+KOR_fighter:0 "Développer des Chasseurs"
+KOR_fighter_desc:0 "Le développement de chasseurs légers indigènes pour notre propre armée de l’air doit être poursuivi sans délai."
+KOR_bomber:0 "Cellules de Bombardiers"
+KOR_bomber_desc:0 "La production de cellules capables de délivrer des bombes explosives à l’ennemi est un rôle essentiel de toute force aérienne. Nous concevrons un modèle polyvalent capable de remplir plusieurs rôles."
+KOR_naval_bomber:0 "Modèles de Bombardiers Navals"
+KOR_naval_bomber_desc:0 "Notre littoral est très vulnérable aux invasions. Le sécuriser par les airs contrecarrera toute tentative d’invasion maritime."
+KOR_modernized_air_force:0 "Armée de l’Air Modernisée"
+KOR_modernized_air_force_desc:0 "Nous avons développé une force aérienne importante, mais le travail n’est pas terminé. La modernisation des tactiques et de l’organisation aérienne est essentielle pour maintenir l’efficacité de ces magnifiques machines volantes."
+
+### Collaboration avec le Japon ###
+KOR_collaboration_with_overlord:0 "Collaboration avec notre Suzerain"
+KOR_collaboration_with_overlord_desc:0 "Il semble qu’une fois de plus, nous soyons plus ou moins sous la botte d’un nouveau maître."
+
+KOR_collaboration_with_japan:0 "Collaboration avec le Japon"
+KOR_collaboration_with_japan_desc:0 "Bien que nous ayons gagné notre indépendance théorique, nous restons dépendants du Japon en matière de défense. Même si cela nous répugne, nous devons coopérer militairement avec le Japon pour assurer notre indépendance."
+KOR_new_korean_army:0 "Nouvelle Armée Coréenne"
+KOR_new_korean_army_desc:0 "Une nation n’est rien sans son armée. La nôtre est petite, relativement non testée et inexpérimentée. Une coopération avec l’armée japonaise est nécessaire pour améliorer les capacités de nos forces armées."
+
+## Arbre : Rompre et Former son propre État Coréen Extrême ##
+
+KOR_integrate_socialist_aligned_guerillas:0 "Intégrer les Guérillas Socialistes"
+KOR_integrate_socialist_aligned_guerillas_desc:0 "Certains de nos officiers les plus atypiques défendent également des idéaux de gauche. Peut-être pourrions-nous introduire progressivement leurs vues en Corée ?"
+KOR_amnesty_for_ex_japanese_army_officers:0 "Amnistie pour les Officiers de l’Armée Japonaise"
+KOR_amnesty_for_ex_japanese_army_officers_desc:0 "Certains de nos officiers les plus expérimentés sont d’anciens membres de l’armée japonaise. Nous avons besoin de leur expertise pour développer nos forces."
+
+KOR_internationalism_focus:0 "Montée du Communisme"
+KOR_internationalism_focus_desc:0 "Nous avons été opprimés bien trop longtemps ! Levez-vous, ouvriers de Corée, et reprenez la terre de vos ancêtres !"
+KOR_nationalism_focus:0 "Nationalisme"
+KOR_nationalism_focus_desc:0 "La Corée est un pays à part entière, avec sa propre histoire riche et son identité. Le peuple coréen verra la renaissance de notre glorieuse patrie !"
+KOR_restore_imperial_power:0 "Restaurer le Pouvoir Impérial"
+KOR_restore_imperial_power_desc:0 "Le trône impérial est le seul chemin pour garantir la prospérité et l’existence continue de la Corée. Le rétablissement de cette institution est essentiel, plus que jamais."
+
+KOR_militarism:0 "Militarisme"
+KOR_militarism_desc:0 "Notre peuple doit être prêt à donner sa vie pour que la Corée prospère à nouveau."
+KOR_devotion_to_the_emperor:0 "Dévotion à l’Empereur"
+KOR_devotion_to_the_emperor_desc:0 "Seule la loyauté envers notre Empereur peut nous mener à la victoire finale !"
+
+KOR_youth_units:0 "Radicaliser la Jeunesse"
+KOR_youth_units_desc:0 "La jeunesse coréenne est la ressource humaine la plus pure qui alimentera l’essor d’une Grande Corée !"
+
+KOR_invade_soviet_union:0 "Contester l’Hégémonie [SOV.getAdjective]"
+KOR_invade_soviet_union_desc:0 "[SOV.getnameDefcap] exerce une pression sur l’Asie depuis des décennies, ils doivent recevoir une leçon."
+KOR_invade_manchuria:0 "Envahir la Mandchourie"
+KOR_invade_manchuria_desc:0 "Le gouvernement mandchou opprime les Coréens vivant au nord de l’Amnok depuis bien trop longtemps. Mort aux Qing !"
+
+KOR_cement_monarchic_rule:0 "Consolider la Règle Monarchique"
+KOR_cement_monarchic_rule_desc:0 "C’est le droit de l’Empereur de régner. Ses loyaux sujets ne sont là que pour obéir à ses commandements célestes."
+
+#OOB
+KOR_Korean_army_tt:0 "L’armée coréenne sera formée"
+
+#Custom Tooltips
+#Flags
+#Ideas
+#Events
+#Decisions
+r56_KOR_decision_kim_il_sung_takes_command:0 "Kim Il Sung prend le commandement de l’armée"
+
+#Advisors
+#Companies
+KOR_generic_infantry_equipment_manufacturer:0 "Arsenal de Jinsen"
+KOR_hyundai_construction:0 "Hyundai Ingénierie & Construction"
+KOR_west_pyongyang:0 "Usine Ferroviaire de Pyongyang-Ouest"
+KOR_hanjin_heavy_industries_company:0 "Hanjin Industries Lourdes"
+KOR_daelim_petrochemicals_concern:0 "Daelim Pétrochimie"
+KOR_korea_aerospace_industries:0 "Industries Aérospatiales Coréennes"
+KOR_taechon:0 "Usine Aéronautique de Taechon"
+KOR_hanjin_air:0 "Hanjin"
+KOR_air_koryo:0 "Air Koryo"
+KOR_hanwha_aerospace:0 "Hanwha Aérospatial"
+KOR_hanwha_defense:0 "Hanwha Défense"
+KOR_hyundai_ship:0 "Hyundai Industries Navales"
+KOR_bong_dao_bo:0 "Chantiers Navals Bong Dao Bo"
+KOR_first:0 "Premier Bureau de l’Industrie Mécanique"
+KOR_second:0 "Deuxième Bureau de l’Industrie Mécanique"
+KOR_third:0 "Troisième Bureau de l’Industrie Mécanique"
+KOR_fifth:0 "Cinquième Bureau de l’Industrie Mécanique"
+KOR_sixth:0 "Sixième Bureau de l’Industrie Mécanique"
+KOR_seventh:0 "Septième Bureau de l’Industrie Mécanique"
+KOR_samsung:0 "Samsung"
+KOR_hyundai_motor:0 "Hyundai Motor Company"
+KOR_hyundai_steel:0 "Hyundai Steel"
+KOR_sungri:0 "Usine Automobile Sungri"
+KOR_ryu_kong_su:0 "Usine de Chars Ryu Kyong-su"
+KOR_tokhyon:0 "Usine de Munitions de Tokhyon"
+#Daelim refining concern
+#Traits
+#Misc
+
+KOR_tutelage_neutrality:0 "République de Corée"
+KOR_tutelage_neutrality_def:0 "République de Corée"
+
+KOR_1936:0 "Armée Coréenne Réformée"
