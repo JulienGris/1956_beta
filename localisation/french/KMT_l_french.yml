@@ -1,0 +1,2474 @@
+l_french:
+ # personnages
+ CHI_chiang_kai_shek:0 "Chiang Kai-Shek"
+ CHI_hu_shih:0 "Hu Shih"
+ CHI_huang_qixiang:0 "Huang Qixiang"
+ CHI_carsun_chang:0 "Carsun Chang"
+ CHI_deng_wenyi:0 "Deng Wenyi"
+ CHI_yu_hung_chun:0 "Yu Hung-Chun"
+ CHI_zhang_qun:0 "Zhang Qun"
+ CHI_kung_hsiang_si:0 "Kung Hsiang-Hsi"
+ CHI_chang_kia_ngau:0 "Chang Kia-Ngau"
+ CHI_quo_taichi:0 "Quo Taichi"
+ CHI_du_yuesheng:0 "Du Yuesheng"
+ CHI_chen_lifu:0 "Chen Lifu"
+ CHI_tu_yu_ming:0 "Tu Yu-Ming"
+ CHI_mao_bangchu:0 "Mao Bangchu"
+ CHI_sun_lijen:0 "Sun Li-jen"
+ CHI_zhang_zizhong:0 "Zhang Zizhong"
+ CHI_tai_an_lan:0 "Tai An-lan"
+ CHI_wang_yao_wu:0 "Wang Yao-wu"
+ CHI_chan_chak:0 "Chan Chak"
+ CHI_li_fu_lee:0 "Li Fu Lee"
+
+ CHI_HK:0 "Ville de Hong Kong"
+ CHI_HK_UK:0 "Ville de Hong Kong"
+ CHI_MAC:0 "Ville de Macao"
+ CHI_MAC_POR:0 "Gouvernorat de Macao"
+ CHI_become_china:0 "Devenir la Chine"
+
+ warlords:0 "Seigneur de guerre"
+ autonomy_warlords:0 "Seigneur de guerre"
+
+ CKS_regime:0 "Kuomintang"
+ 
+ KMT_CPWDP:0 "CPWDP"
+ KMT_CPWDP_long:0 "Parti démocratique paysans et ouvriers chinois"
+ PRC_kang_ri_jiu_wang:0 "Mouvement de Résistance à l’Invasion"
+
+ ######################### CONCEPTEURS #######################
+ KMT_chongqing_steel:0 "Le 29e Arsenal"
+ KMT_central_wireless:0 "Société centrale d’équipements radio"
+ CHI_taiyuan_arsenal:0 "Arsenal de Taiyuan"
+ CHI_taiyuan_arsenal_desc:0 "Producteur d’armes lourdes de la région du Shanxi, dans la plaine centrale."
+ CHI_automobile_manufacture_company:0 "Compagnie chinoise de fabrication automobile"
+ camco_light:0 "CAMCO"
+ KMT_ig_faben:0 "IG Farben"
+ KMT_krupp:0 "Krupp"
+ KMT_rheinmetall:0 "Rheinmetall"
+ CHI_hanyang_arsenal:0 "Arsenal de Hanyang"
+ KMT_mauser:0 "Mauser"
+ CHI_army_ordnance_department:0 "Département de l’armement de l’armée américaine"
+ CHI_hanyang_arsenal_tank:0 "Arsenal de Hanyang"
+ CHI_hanyang_arsenal_tank_organization:0 "Arsenal de Hanyang"
+ taiyuan_artillery:0 "Artilleries de Taiyuan"
+ hanyang_rifles:0 "Fusils Hanyang"
+
+ GXC_generic_industrial_concern:0 "Société des entreprises du Guangxi"
+
+ ######################### THÉORICIENS #########################
+ KMT_chennault_air_chief:0 "Claire Lee Chennault"
+ falkenhausen:0 "Alexander von Falkenhausen"
+ KMT_zhu_de:0 "Zhu De"
+
+ ######## TRAITS ###########
+ national_defence_expert:0 "Expert en défense nationale"
+ criminal_connexions:0 "Connexions criminelles"
+ minister_of_railways:0 "Ministre des chemins de fer"
+ german_training:0 "Conseiller allemand"
+ rommel_of_the_east:0 "Le Rommel de l’Est"
+ r56_the_big_rear:0 "L’Arrière principal"
+ r56_the_rear:0 "L’Arrière"
+ r56_lure_them_in:0 "Les attirer à l’intérieur"
+
+ ###################### DÉCISIONS ###########################
+ CHI_improve_the_army_situation:0 "Améliorer la situation de l’armée"
+ CHI_improve_the_army_situation_desc:0 "L’Armée nationale révolutionnaire est dans un état déplorable à cause de la corruption endémique et de l’entraînement très insuffisant des soldats, ce qui la rend très inefficace.\n\nSi nous ne voulons pas que la Chine soit réduite en poussière, il sera nécessaire de mettre en œuvre des réformes pour faire de la NRA une véritable force entraînée et correctement commandée."
+ CHI_improve_the_NRA:0 "Améliorer la NRA"
+ chi_improve_the_nra_decision:0 "§H100§!£army_experience"
+ chi_improve_the_nra_decision_blocked:0 "§R100§!£army_experience"
+
+ CHI_war_of_resistance:0 "Guerre de résistance"
+ CHI_war_of_resistance_desc:0 "La guerre fait de nouveau rage dans notre patrie, et la plaine centrale n’est plus sûre pour le peuple. L’agression [JAP.getAdjective] pourrait engloutir toute l’Asie de l’Est si nous ne stoppons pas ces impérialistes bellicistes et avides de pouvoir !\n\nSi nous voulons protéger le cher Zhongguo, nous devons être prêts à tout pour assurer sa sécurité."
+
+ CHI_Huayuankou_embankment_breach_incident:0 "Provoquer l’incident de la brèche de la digue de Huayuankou"
+ CHI_Huayuankou_embankment_breach_incident_desc:0 "L’ennemi est désormais très proche de Zhengzhou ; peut-être pourrions-nous ouvrir les digues du fleuve Jaune et utiliser l’inondation pour décourager nos ennemis."
+
+ CHI_scorched_earth_policy_map:0 "Ces États sont actuellement disponibles pour la politique de §HTerre brûlée§!."
+ CHI_scorched_earth_policy:0 "Tactiques de terre brûlée à [FROM.getName]"
+ CHI_scorched_earth_policy_desc:0 "Les envahisseurs progressent et occupent nos villes et villages, forçant nos armées à battre en retraite pour préserver leurs forces. Cependant, nous pouvons leur ordonner de détruire les infrastructures locales avant de quitter [FROM.getName], ralentissant ainsi les progrès de nos ennemis."
+
+ CHI_redirect_investments_for_burma_road:0 "Rediriger les investissements pour la route de Birmanie"
+ CHI_redirect_investments_for_burma_road_desc:0 "Certains experts conseillent que nous pourrions détourner des ressources pour construire une série de forts dans le sud du Yunnan, ce qui permettrait de repousser efficacement nos ennemis s’ils décidaient de nous envahir par le sud."
+
+ CHI_prioritize_external_threat:0 "Donner priorité à la menace extérieure"
+ CHI_prioritize_external_threat_desc:0 "Les Japonais ont lancé une offensive alors que nous luttons encore contre la menace intérieure ! Devons-nous baisser nos armes contre nos compatriotes pour les tourner contre les envahisseurs impérialistes ?"
+CHI_prepare_provisional_capital:0 "Préparer une capitale provisoire"
+CHI_prepare_provisional_capital_desc:0 "L’ennemi avance rapidement sur Nankin ! Il ne peut pas capturer notre direction. Nous devons établir une base pour une capitale provisoire au cœur de l’intérieur du pays afin de gouverner la nation en ces temps difficiles ; cependant, ce ne sera pas chose facile."
+
+CHI_join_united_front:0 "Rejoindre le Front uni"
+CHI_join_united_front_desc:0 "[JAP.getNameDefCap] a lancé son offensive et décidé d’anéantir la nation chinoise de la surface de la Terre. Nous devons soutenir le Front uni par tous les moyens nécessaires afin d’assurer la sécurité de la Chine proprement dite !"
+
+CHI_strife_for_survival:0 "Lutter pour la survie !"
+CHI_strife_for_survival_desc:0 "De plus en plus de nos soldats et de nos généraux comprennent qu’ils ne peuvent remporter la guerre actuelle qu’en s’y consacrant entièrement ; cela a globalement amélioré les performances de notre armée sur le terrain."
+
+CHI_most_desperate_hours:0 "Les heures les plus désespérées !"
+CHI_most_desperate_hours_desc:0 "Notre nation est au bord de l’effondrement sous l’assaut de l’ennemi envahisseur ! La survie de la civilisation [CHI.getAdjective] dépend de notre peuple courageux !"
+
+CHI_united_front_strategy:0 "Stratégie du Front uni"
+CHI_united_front_strategy_desc:0 "Comme un chat, le Japon a avancé et pris la Corée. Il a cherché à nous humilier avec ses vingt-et-une demandes, il a occupé la Mandchourie, et maintenant il avance encore. Assez ! La Chine se battra jusqu’au bout pour être libre. Dans un discours au peuple, [Root.GetLeader] appellera tous les [Root.GetAdjective] à s’unir, ou à affronter seuls une mort certaine."
+
+CHI_unequal_treaties:0 "Les traités inégaux"
+CHI_unequal_treaties_desc:0 "Vestiges de l’humiliation infligée aux Qing sur la scène internationale, les ports de traité symbolisent les ambitions des impérialistes européens et japonais en Chine, cherchant à exploiter et à asservir le peuple [ROOT.getAdjective] dans un moment de faiblesse.\n\nEn tirant parti de la situation, nous pouvons resserrer nos liens avec ceux qui partagent nos valeurs et renverser les régimes illégitimes occupant nos terres légitimes !"
+CHI_dealing_with_trade_port_decision:0 "[FROM.getName]"
+
+CHI_success_chance_depends_on_stability_tt:0 "Une §Hstabilité plus élevée§! garantit de meilleures chances pour un §Gcoup d’État réussi§!!"
+hk_returned_tp:0 "Port de traité restitué"
+
+CHI_liberation_of_asia:0 "Libération de l’Asie"
+CHI_liberation_of_asia_desc:0 "De nombreuses nations d’Asie du Sud et du Sud-Est souffrent actuellement sous la domination oppressive des colonialistes européens.\nBien que nous ayons réussi à préserver notre indépendance et à consolider notre domination sur la plaine centrale, nous n’avons pas oublié la lutte de nos frères et sœurs d’armes ! Aux armes, camarades, votre libération vous attend !"
+CHI_liberate_country:0 "Libérer [FROM.getNameDef]"
+CHI_raises_three_miltiia_divisions_tt:0 "Lève trois divisions de §Y5 bataillons de milice§!."
+CHI_raises_five_miltiia_divisions_tt:0 "Lève cinq divisions de §Y5 bataillons de milice§!."
+CHI_raises_ten_miltiia_divisions_tt:0 "Lève dix divisions de §Y5 bataillons de milice§!."
+CHI_liberation_of_asia_here_tt:0 "La libération de ces territoires serait possible"
+
+CHI_asia_decolonized:0 "Asie décolonisée"
+CHI_asia_decolonized_desc:0 "Nos victoires militaires et idéologiques ont conduit à une situation précaire où nous ne pouvons atteindre les métropoles européennes et américaines. Pourtant, nos ennemis sont également incapables de reprendre leurs colonies.\nMaintenant que nous avons enfin atteint notre objectif de libérer l’Asie, quelle sera la décision de [ROOT.getLeader] ? Devons-nous chercher la paix avec ces importuns colonisateurs ?"
+
+CHI_expand_industrial_capabilities:0 "Développer les capacités industrielles"
+CHI_expand_industrial_capabilities_desc:0 "Le potentiel économique des vastes terres de la Chine proprement dite a longtemps été négligé par les autorités. Les récents progrès technologiques et économiques nous offrent une occasion unique de renforcer la puissance industrielle de notre nation et d’atténuer les effets de la stagnation économique de ces dernières années."
+
+CHI_weapons_purchases_category:1 "Acheter des armes [USA.GetAdjective]"
+CHI_weapons_purchases_category_desc:0 "Notre industrie étant encore à la traîne, se tourner vers l’étranger pour obtenir des armes modernes pourrait être le seul moyen de mettre nos forces armées au niveau des standards actuels."
+CHI_order_weapons_in_USA:0 "Commander des armes légères"
+CHI_order_support_equipment_in_USA:0 "Commander de l’équipement de soutien"
+CHI_order_artillery_in_USA:0 "Commander de l’artillerie"
+CHI_order_tanks_in_USA:0 "Commander des chars"
+CHI_order_fighters_in_USA:0 "Commander des chasseurs"
+CHI_order_bombers_in_USA:0 "Commander des bombardiers"
+
+############################ FLAGS #########################
+baihua_completed:0 "La campagne est terminée"
+CHI_warred_with_JAP:0 "La guerre avec le Japon est terminée"
+#  PRC_civil_war_started:0 "The civil war with Communist China has broken out" # keeping the one in PRC_l_english.yml since it's generic and works for both sides
+PRC_refuse_yangtze_partisan:0 "Partition du Yangtsé refusée"
+jap_support_chi_pro_jap:0 "Le Japon nous soutient"
+jap_civil_war_sf:0 "La guerre civile japonaise a éclaté"
+KMT_any_state_chi_core_jap_own_tt:0 "Un cœur chinois est contrôlé par le Japon ou une marionnette japonaise"
+KMT_pro_japanese:0 "A soutenu la faction pro-japonaise en Chine"
+liangguang_incident:0 "Incident de Liangguang en cours"
+jyut_generals_defected:0 "Généraux passés au KMT"
+huhanwen_dead:0 "Hu Hanmin est décédé"
+chen_jitang_join_gxc:0 "Chen Jitang nous a rejoints"
+yut_sumitted:0 "La clique du Yue s’est soumise"
+xsm_sumitted:0 "Le Xi Bei San Ma s’est soumis"
+gxc_sumitted:0 "La clique du Guangxi s’est soumise"
+yun_sumitted:0 "Le Yunnan s’est soumis"
+shx_sumitted:0 "Le Shanxi s’est soumis"
+kmt_cjt_flag:0 "Chen Jitang a rejoint notre armée"
+kmt_lzr_flag:0 "Li Zongren a rejoint notre armée"
+kmt_mbf_flag:0 "Ma Bufang a rejoint notre armée"
+kmt_yxs_flag:0 "Yan Xishan a rejoint notre armée"
+kmt_ly_flag:0 "Long Yun a rejoint notre armée"
+kmt_yhm_flag:0 "Yu Hanmou a rejoint notre armée"
+#KMT_cjt_tt:0 "Chen Jitang is the leader of Yue Clique"
+#KMT_yhm_tt:0 "Yu Hanmou is the leader of Yue Clique"
+KMT_zhu_de_joined:0 "Zhu De nous a rejoints"
+
+CHI_unite:0 "Le Front uni a été formé."
+CHI_no_national_front_flag:0 "La Chine a refusé de négocier lors de l’incident de Xi’an."
+
+########################## TOOLTIPS #######################
+KMT_prep_tt:0 "Ajoute 1 §YInfrastructure§! dans tous les états voisins du PRC"
+
+KMT_r56_big_rear_tt_1:0 "§WTous les§! §Yétats centraux entièrement possédés§! §Wà l’ouest de§! §Y[750.GETNAME]§! §Wet à l’est de§! §Y[601.GETNAME]§!"
+
+KMT_r56_the_rear_tt_2:0 "§WTous les§! §Yétats centraux entièrement possédés§! §Wà l’est de§! §Y[750.GETNAME]§!, §Wà l’ouest de§! §Y[600.GETNAME]§! §Wet au sud de§! §Y[607.GETNAME]§!"
+
+KMT_r56_lure_them_in_tt_1:0 "§WTous les§! §Yétats centraux entièrement possédés§! §Wcontrôlés au 1er janvier 1936 situés à l’est de§! §Y[620.GETNAME]§! §Wet au sud de§! §Y[608.GETNAME]§!"
+
+KMT_civil_war_tt:0 "Si vous décidez de contacter §Y[PRC.GetNameDef]§! lors de l’incident de Xi’an pour des négociations de paix et qu’ils les §Gacceptent§!, cet objectif sera §Rbypassé§!!"
+
+KMT_alone_or_peace_faction_tt:0 "n’est pas dans une faction, ou est dans une faction en paix avec [CHI.GetNameDef]."
+
+KMT_redraw_mcmahon_tt:0 "Soit §Y[CHI.GetNameDef]§! soit §Y[TIB.GetNameDef]§! est propriétaire de §YXikang§! et §YTibet§!."
+
+KMT_redraw_mcmahon_cancel_tt:0 "ni §Y[CHI.GetNameDef]§! ni §Y[TIB.GetNameDef]§! n’est propriétaire de §YXikang§! et §YTibet§!."
+
+KMT_north_plan_effect_tt:0 "Obtient un but de guerre contre le propriétaire étranger de ces états."
+
+kmt_neutral_tp_mc:0 "§YMacao§! n’est pas contrôlé par la Chine et son propriétaire est en paix avec la Chine"
+kmt_neutral_tp_gzw:0 "§YGuangzhouwan§! n’est pas contrôlé par la Chine et son propriétaire est en paix avec la Chine"
+kmt_neutral_tp_hk:0 "§YHong Kong§! n’est pas contrôlé par la Chine et son propriétaire est en paix avec la Chine"
+
+kmt_demo_tp_mc:0 "§YLe Portugal§! possède §YMacao§!, n’est pas en guerre civile et est en paix avec la Chine"
+kmt_demo_tp_gzw:0 "§YLa France§! possède §YGuangzhouwan§!, n’est pas en guerre civile et est en paix avec la Chine"
+kmt_demo_tp_hk:0 "§YLa Grande-Bretagne§! possède §YHong Kong§!, n’est pas en guerre civile et est en paix avec la Chine"
+
+kmt_scale_with_excav_tech:0 "L’effet de cet objectif dépend des §Ytechnologies d’excavation§!.\n"
+
+kmt_mbf_go_lead_xsm:0 "Ma Bufang va désormais quitter votre armée et diriger les Ma\n"
+
+kmt_nw_insurgence_tt:0 "Soit vous, §YXi Bei San Ma§! soit §YPRC§! contrôlez §YGansu§!, §YNingxia§! et §YQinghai§!."
+
+kmt_yangtze_partition:0 "§RSi le PRC accepte :§!\n  Vous deviendrez propriétaire de la Chine au sud du Yangtsé, et le PRC prendra la partie au nord."
+
+kmt_taiwan_bastion_tt:0 "Ajoute 12 §Yforts côtiers§! à §YTaïwan§!."
+
+kmt_forts_in_shanghai_tt:0 "Ajoute 3 §Yforts terrestres§! à §YShanghai§! et §YNankin§!.\n"
+
+kmt_no_remove_warlord_army_tt:0 "L’esprit national §YArmées de seigneurs de guerre§! ne sera plus supprimé à l’avenir."
+
+KMT_jap_navy_indus_assist_tt:0 "Ajoute §Y2 chantiers navals§! dans deux états possédés et contrôlés aléatoires.\n"
+
+KMT_oust_colonisers_available_tt:0 "N’importe quel état central de :\n        §YVietnam§!\n        §YCambodge§!\n        §YLaos§!\n        §YMalaisie§!\n        §YIndonésie§!\n        §YInde§!\n    N’est pas contrôlé par son propriétaire respectif.\n    Ou bien ce sont des marionnettes de nations non asiatiques."
+KMT_oust_the_colonizers_tt:0 "Obtient un but de guerre contre tous les colonisateurs en Asie.\n\n§YVous aurez le choix de libérer chacune des nations asiatiques ci-dessus lorsque vous contrôlerez leur état central.§!"
+
+kmt_harsh_takover_oob_tt:0 "Assemble 3 divisions d’infanterie de §Y8 régiments d’infanterie§! à §YNankin§! et dans §Ychaque état contrôlé adjacent§!."
+kmt_xsm_militia_rising_up_tt:0 "Lève 5 escadrons de milice de §Y2 régiments de milice§!.\n"
+
+KMT_receive_lendlease_tt:0 "§YL’effet suivant se produira tous les 30 jours.§!\n\n"
+
+kmt_no_incompetent_tt:0 "Ne possède pas l’esprit national §YIndustrie incompétente§!"
+
+kmt_no_incompetent_navy_tt:0 "Ne possède pas l’esprit national §YIndustrie navale incompétente§!"
+
+KMT_fortify_land_tt:0 "Ajoute §Y16 forts terrestres§! le long de la frontière nord.\n"
+
+kmt_dtdc_tt:0 "Débloque les §HCorps Dare-To-Die§!.\nToute l’infanterie à pied : \n    Attaque antichar : §G+5%§!\n    Pénétration : §G+5%§!\n    Percée : §G+5%§!"
+
+KMT_lure_them_in_effect_tt:0 "§GLorsque sélectionné :§!\n"
+
+KMT_prep_2_tt:0 "Ajoute 1 §YInfrastructure§! et 1 §YBase aérienne§! dans tous les états voisins du PRC"
+
+KMT_enables_united_front_tt:0 "\n§GActive le Front uni§!\n§RDésactive l’incident de Lianguang et l’incident de Xi’an§!\n"
+
+KMT_no_united_front_unless_xian_incident_agreed_tt:0 "\n§RLe Front uni ne sera pas formé§!\n"
+
+KMT_take_SEA_tt:0 "§YCrée des buts de guerre contre les propriétaires des états de la zone Asie du Sud-Est.§!"
+
+KMT_take_pacific_tt:0 "§YCrée des buts de guerre contre les propriétaires des états de la zone Pacifique.§!"
+
+################################## OPINION MODIFIERS ##########################
+KMT_SHX_refused:0 "Offre rejetée"
+PRC_SHX_refused:0 "Arrière protégé"
+SHX_SHX_refused:0 "Annexion diplomatique tentée"
+no_collaboration_with_CHI_COM:0 "Lutte contre la menace communiste"
+chi_tib_diplomatic_focus:0 "Accent diplomatique sino-tibétain"
+CHI_join_britain_rejected:0 "Adhésion à la faction rejetée"
+false_document_trusted:0 "Faux document jugé fiable"
+never_like_them_anyway:0 "De toute façon, jamais aimés"
+recognition:0 "Reconnaissance"
+tolerance:0 "Tolérance"
+wtever:0 "Magie !"
+SOV_CHI_join_comintern_reject:0 "Rejet de l’adhésion de la Chine au Komintern"
+KMT_commie_banned:0 "Communisme interdit"
+boycott_comitern:0 "Boycott du Komintern"
+gzw_kept:0 "Guangzhouwan conservé"
+hk_kept:0 "Hong Kong conservé"
+macau_kept:0 "Macao conservé"
+no_interv_in_tp:0 "Intervention refusée"
+jap_friendship_trade:0 "Accent diplomatique avec le Japon"
+jap_friendship:0 "Accent diplomatique avec le Japon"
+jap_no_return_terri:0 "Refus de restituer les territoires"
+still_border_dispute:0 "Conflit frontalier"
+sov_better_trade:0 "Seriez-vous intéressés par un accord commercial avec le Sovetskiy Soyuz ?"
+aggresion:0 "Agression"
+hanjian:0 "Hanjian"
+ohne_ehre:0 "OHNE EHRE !"
+flying_tigers:0 "Volontaires Flying Tigers"
+revisionist_pig:0 "Cochons révisionnistes"
+war_against_communist_china:0 "Guerre contre la Chine communiste"
+liberator_of_korea:0 "Libérateur de la Corée"
+ignore_claim:0 "Nos revendications sur l’Indochine ignorées"
+sino_german_cooperation:0 "Coopération sino-allemande"
+more_sino_german_coop:0 "Renforcement de la coopération sino-allemande"
+GER_CHI_join_germany_reject:0 "Rejet de l’adhésion de la Chine à l’Axe"
+KMT_closer_to_britain:0 "Accent diplomatique de la Chine"
+KMT_trans_pacific_friendship:0 "Accent diplomatique de la Chine"
+KMT_sino_japanes_friendship:0 "Amitié sino-japonaise"
+pro_jap_traitor:0 "Traître pro-japonais"
+KMT_doolittle_pilots_help_arrest:0 "Pilote américain livré"
+KMT_doolittle_pilots_given_to_JAP:0 "Pilote remis au Japon"
+KMT_doolittle_pilots_help_JAP_reaction:0 "Pilote américain aidé"
+KMT_doolittle_pilots_detained_SOV:0 "Pilote détenu"
+KMT_doolittle_pilots_detained:0 "Pilote détenu"
+KMT_doolittle_pilots_help:0 "Pilotes aidés"
+KMT_assist_in_war:0 "Raid Doolittle"
+KMT_discontent:0 "Mécontentement"
+KMT_disobedience:0 "Désobéissance"
+KMT_xian_incident_sov_pos:0 "Incident de Xi’an"
+KMT_xian_incident_sov_pos_trade:0 "Incident de Xi’an"
+KMT_xian_incident_sov_neg:0 "Incident de Xi’an"
+KMT_xian_incident_sov_neg_trade:0 "Incident de Xi’an"
+KMT_closer_to_britain_ENG:0 "Accent diplomatique de la Chine"
+CHI_KR_fd:0 "Accent diplomatique de la Chine"
+
+#################################### IDEAS #################################
+KMT_into_fascism:0 "Le Mouvement de la nouvelle vie"
+KMT_into_fascism_desc:0 "Un mouvement civique dirigé par le gouvernement pour contrer la propagande communiste dans tout le pays."
+
+kmt_military_youth:0 "Jeunesse militaire"
+kmt_military_youth_desc:0 "Les jeunes sont encouragés à former des organisations nationalistes et des groupes paramilitaires."
+
+KMT_communism_banned:0 "Nouvelle Terreur blanche"
+KMT_communism_banned_desc:0 "Nous éradiquerons toute pensée communiste de l’esprit du peuple."
+
+KMT_powerful_blueshirts:0 "Les Chemises bleues puissantes"
+KMT_powerful_blueshirts_desc:0 "Le BIS est une agence de renseignement dépendant des Chemises bleues, qui a joué un rôle essentiel dans l’ascension du régime actuel. Maintenant que le dirigeant leur a accordé davantage de contrôle, nul ne peut leur échapper."
+
+KMT_empire_plan:0 "Le plan impérial"
+KMT_empire_plan_desc:0 "Nous reconstruirons la gloire de la Chine à partir des cendres de nos ennemis !"
+
+KMT_framed_mongolia:0 "Étranger peu fiable"
+KMT_framed_mongolia_desc:0 "Notre ancien chef de faction a fait confiance à des documents d’origine inconnue, et nous voilà seuls. Les citoyens indignés ont formé une force hostile envers les étrangers."
+
+KMT_infiltrated_mongol:0 "Politique étrangère fermée"
+KMT_infiltrated_mongol_desc:0 "Nous devons nous battre par nous-mêmes ; nous ne pouvons compter sur personne d’autre !"
+
+KMT_militarism:0 "Endoctrinement militaire national"
+KMT_militarism_desc:0 "Obéis aux ordres et combats l’ennemi déshumanisé pour la gloire de l’État – tel est ton seul but, soldat !"
+
+KMT_war_propaganda_idea:0 "Propagande de guerre"
+KMT_war_propaganda_idea_desc:0 "L’ennemi craindra notre puissance et notre vaillance !"
+
+KMT_war_propaganda_idea_2:0 "Propagande de guerre"
+KMT_war_propaganda_idea_2_desc:0 "L’ennemi craindra notre force et notre courage !"
+
+KMT_military_first_idea:0 "L’armée d’abord"
+KMT_military_first_idea_desc:0 "Tout pour nos soldats, nos défenseurs, nos sauveurs. Tout pour le front !"
+
+KMT_war_fanaticism_idea:0 "Fanatisme guerrier"
+KMT_war_fanaticism_idea_desc:0 "[CHI.GetLeader]… [CHI.GetNameDef]… vivent dix mille ans… vivent dix mille dix mille ans !"
+
+KMT_jap_military_advisors:0 "Conseillers militaires japonais"
+KMT_jap_military_advisors_desc:0 "Nos généraux ont beaucoup à apprendre de nos nouveaux alliés [JAP.GetAdjective].\n\n§YDébloque la charge Banzaï§!"
+
+KMT_into_democracy:0 "Le principe de Mínquán"
+KMT_into_democracy_desc:0 "Seule la démocratie, comme l’a enseignée Sun Yat-sen, sauvera [CHI.GetNameDef] de l’effondrement."
+
+KMT_parliament:0 "Mouvement de reconstruction rurale"
+KMT_parliament_desc:0 "Les normes de santé et les conditions de vie s’améliorent progressivement sous la direction du gouvernement actuel."
+
+KMT_universal_sufferage_ns:0 "Les Trois Principes du Peuple"
+KMT_universal_sufferage_ns_desc:0 "Nationalisme, démocratie et bien-être du peuple !"
+
+KMT_people_knowledge:0 "Éducation civique"
+KMT_people_knowledge_desc:0 "Nous devons éradiquer l’analphabétisme aussi vite que possible."
+
+KMT_westernization_ns:0 "Occidentalisation"
+KMT_westernization_ns_desc:0 "L’échange culturel et technologique avec l’Occident profite grandement à notre pays."
+
+KMT_firm_belief:0 "Croyance inébranlable"
+KMT_firm_belief_desc:0 "La base unique de la démocratie [Root.GetAdjective] ne peut être ni pliée ni brisée."
+
+KMT_stay_non_aligned:0 "La tutelle du peuple"
+KMT_stay_non_aligned_desc:0 "Le [CHI.GetRulingParty] dirigera l’État et instruira le peuple sur la façon de bâtir un véritable État démocratique."
+
+KMT_central_power:0 "Pouvoir centralisé"
+KMT_central_power_desc:0 "Si tout le pouvoir avait été consolidé en un seul lieu et non dispersé dans tout le pays, la guerre civile chinoise n’aurait peut-être jamais eu lieu."
+
+KMT_despotism:0 "Despotisme"
+KMT_despotism_desc:0 "[CHI.GetLeader] détient tout le pouvoir nécessaire pour diriger et guider [CHI.GetNameDef] vers sa gloire promise."
+
+KMT_propaganda:0 "Propagande de défense nationale"
+KMT_propaganda_desc:0 "Avec les Japonais menaçant notre existence, tout le peuple chinois doit s’unir contre eux."
+
+KMT_propaganda_busted:0 "Propagande de défense nationale discréditée"
+KMT_propaganda_busted_desc:0 "Notre peuple se sent trahi. Certains soldats ont refusé de se battre, affirmant qu’ils avaient rejoint l’armée pour défendre la Chine, et non pour lancer une guerre d’agression contre d’autres Chinois."
+
+taiwan_returned:0 "Taïwan restitué"
+taiwan_returned_desc:0 "Nous avons irrité de nombreux politiciens et officiers nationalistes en restituant Taïwan aux Chinois. Notre population exige des explications et nous considère comme des traîtres."
+
+KMT_united_front:0 "Front uni"
+KMT_united_front_desc:0 "Le Second Front uni défendra le peuple chinois contre les forces envahissantes de [JAP.GetNameDef].\n\n§RSi vous êtes l’un des seigneurs de guerre, vous serez automatiquement annexé par [CHI.GetNameDef] ou [PRC.GetNameDef] lorsque vous capitulerez.§!"
+
+KMT_rear:0 "Plan de l’Arrière"
+KMT_rear_desc:0 "Notre industrie est en lieu sûr, et les envahisseurs [JAP.GetAdjective] ne l’atteindront jamais !\n\n§RCet esprit national disparaîtra une fois la guerre avec le Japon terminée.§!"
+
+KMT_lure_them_in:0 "Stratégie de l’Appât"
+KMT_lure_them_in_desc:0 "Attirez-les, séparez l’ennemi de sa source de force !\n\n§RCet esprit national disparaîtra une fois la guerre avec le Japon terminée.§!"
+
+KMT_lure_them_in_1:0 "Stratégie de l’Appât"
+
+kmt_dare_to_die_corps_idea:0 "Corps Dare-To-Die"
+kmt_dare_to_die_corps_idea_desc:0 "Nos braves soldats sont prêts à sacrifier leur vie pour la sécurité de notre pays !"
+
+kmt_national_treasure_ransacked:0 "Perte des trésors nationaux"
+
+kmt_defend_the_treasures:0 "Défendre les trésors nationaux !"
+
+kmt_planning_the_civil_war:0 "Préparer la guerre civile"
+kmt_planning_the_civil_war_desc:0 "[PRC.getNameDefCap] ne veut que personne ne profite de la prochaine guerre civile entre Chinois ; c’est une affaire chinoise."
+
+KMT_chinese_matter:0 "Affaire chinoise"
+
+KMT_harsh_takeover:0 "Prise de contrôle brutale"
+KMT_harsh_takeover_desc:0 "La guerre a laissé l’industrie de notre pays en ruines, la science en désordre et le peuple épuisé. Nous sommes exposés à l’influence étrangère comme jamais auparavant."
+
+KMT_jinyuanquan_inflation:0 "Hyperinflation"
+KMT_jinyuanquan_inflation_desc:0 "Notre méthode consistant à imprimer davantage de Yuan-or pour payer les communistes sans contrepartie en or a provoqué une grave inflation dans notre économie ! Et les citoyens et soldats mécontents désertent maintenant vers les communistes !"
+
+KMT_corrupted_kmt:0 "Volonté renforcée"
+KMT_corrupted_kmt_desc:0 "Les fonctionnaires corrompus de notre ennemi ont renforcé la volonté de nos camarades de renverser leur structure pourrie !"
+
+KMT_aid_to_xsm:0 "Aide de la Chine"
+KMT_aid_to_xsm_desc:0 "Dans notre lutte contre la menace communiste, nous sommes unis !"
+
+KMT_retreat_to_taiwan_idea:0 "Retraite à Taïwan !"
+
+KMT_warlord_cliques_pre_war:0 "Cliques de seigneurs de guerre"
+KMT_warlord_cliques_pre_war_desc:0 "Plusieurs cliques de seigneurs de guerre dispersées à travers la Chine ont affaibli le gouvernement central."
+
+KMT_warlord_cliques_war:0 "Armées de seigneurs de guerre"
+KMT_warlord_cliques_war_desc:0 "Bien que les armées des seigneurs de guerre aient été intégrées aux nôtres, elles restent uniquement loyales à leur maître."
+
+KMT_effective_integration:0 "Intégration efficace"
+KMT_effective_integration_desc:0 "L’intégration fluide et efficace des forces des seigneurs de guerre nous donne plus de contrôle sur l’armée et une prise de décision plus rapide."
+
+KMT_focus_on_own_army:0 "Concentrer sur l’armée centrale"
+KMT_focus_on_own_army_desc:0 "Les forces des seigneurs de guerre sont trop mal équipées et indisciplinées ; nous devrions davantage compter sur notre Armée centrale que sur la leur, afin de ne pas gaspiller des fonds essentiels."
+
+KMT_sino_german_joint_research:0 "Recherche militaire conjointe sino-allemande"
+
+KMT_science_funding:0 "Academia Sinica"
+KMT_science_funding_desc:0 "Le premier institut de recherche parrainé par le gouvernement, directement responsable devant l’Exécutif Yuan."
+
+public_iliteracy:0 "Analphabétisme public"
+public_iliteracy_desc:0 "Après des années de troubles et de guerre civile, le système éducatif chinois est en ruines."
+
+KMT_national_institute_ns:0 "Asile pour les Juifs"
+KMT_national_institute_ns_desc:0 "De nombreux réfugiés juifs aident notre industrie et notre recherche en signe de gratitude pour leur sauvetage."
+
+incompetent_industry_real:0 "Industrie incompétente"
+incompetent_industry_real_desc:0 "La jeune industrie [ROOT.getAdjective], inexpérimentée, n’est pas préparée à la tempête qui s’annonce.\n\n§YUtilisez des décisions pour améliorer les capacités industrielles de la nation.§!"
+
+incompetent_industry_real_navy:0 "Industrie navale incompétente"
+incompetent_industry_real_navy_desc:0 "[ROOT.GetNameDefCap] a toujours été une puissance terrestre. Une marine hauturière n’est encore qu’un rêve.\n\n§YUtilisez des décisions pour améliorer les capacités industrielles de la nation.§!"
+
+KMT_weak_army:0 "Armée incompétente"
+KMT_weak_army_desc:0 "L’Armée nationale révolutionnaire est composée de soldats sous-entraînés et de commandants incompétents.\n\n§YUtilisez des décisions pour remédier au manque d’organisation de l’ANR§!"
+
+KMT_chennault:0 "Conseiller aérien américain"
+KMT_chennault_desc:0 "Avec l’aviateur retraité de l’USAAC Claire Lee Chennault comme conseiller aérien, notre force aérienne sera plus performante sur le terrain."
+
+KMT_the_flying_tigers_idea:0 "Les Tigres volants"
+KMT_the_flying_tigers_idea_desc:0 "Les pilotes [USA.GetAdjective] soutiennent notre cause et combattent aux côtés de nos aviateurs."
+
+KMT_sichuan_famine_no_aid:0 "Famine au Sichuan"
+KMT_sichuan_famine_no_aid_desc:0 "Le peuple perd confiance dans le gouvernement en raison de son ignorance de leurs problèmes."
+
+KMT_sichuan_famine_aid:0 "Lutter contre la famine"
+KMT_sichuan_famine_aid_desc:0 "Les fonds réaffectés pour combattre la faim ont amélioré l’image du gouvernement."
+
+KMT_corrupted_government:0 "Économie corrompue"
+
+KMT_continue_the_national_revolution:0 "Poursuivre la Révolution nationale"
+
+KMT_fight_for_survival:0 "Lutter pour survivre"
+
+KMT_sino_german_joint_research_ger_adv:0 "Recherche militaire conjointe sino-allemande"
+
+KMT_aggresion:0 "Agression"
+
+navy_air_est:0 "Établissement aéronaval"
+
+cg_warlords:0 "Est un seigneur de guerre"
+
+KMT_student_soldiers:0 "Conscription forcée"
+
+KMT_treasure_abroad_idea:0 "Artefacts envoyés à l’étranger"
+
+KMT_wai_chingkuo:0 "Chiang Ching-kuo"
+
+#Correction d’un bug du jeu de base, arbre WTT Warlord sans DoD ni TfV
+CHI_technological_cooperation_idea:0 "Coopération technologique"
+CHI_technological_cooperation_idea_desc:0 "Nous avons beaucoup à apprendre de nos frères d’armes."
+
+############################ FOCUS ##################################
+KMT_internal_stability:0 "Donner la priorité à la stabilité interne"
+KMT_internal_stability_desc:0 "Si les Japonais sont une maladie de la peau, les bandits communistes sont une maladie du cœur. Pour sauver la Chine, nous devons d’abord l’épurer de tous ses traîtres."
+
+KMT_SHX_offer:0 "L’offre du Shanxi"
+KMT_SHX_offer_desc:0 "Le fief de Yan nous refuse l’accès militaire. Si nous le forçons à se soumettre, nous pourrons encercler les communistes et les écraser une bonne fois pour toutes."
+
+KMT_preparation:0 "Construction anticommuniste"
+KMT_preparation_desc:0 "Après leur quasi-destruction durant la Longue Marche, les bandits communistes se cachent dans la région du Shaanxi. Nous devons attaquer avant qu’ils ne se rétablissent !"
+
+KMT_strike_PRC:0 "Frapper les bandits communistes"
+KMT_strike_PRC_desc:0 "Les bandits se remettent encore de la Longue Marche. Nous devons frapper lorsqu’ils sont faibles !"
+
+KMT_warlord:0 "Unifier la Chine"
+KMT_warlord_desc:0 "Maintenant que nous avons détruit les bandits communistes, il est temps de faire goûter l’épée aux seigneurs de guerre. Ils pillent le peuple depuis trop longtemps. Nous devons achever la Révolution nationale !"
+
+KMT_deal_with_SIK:0 "La question du Sinkiang"
+KMT_deal_with_SIK_desc:0 "Le Sinkiang est une partie inaliénable de la Chine ; le gouverneur local s’y est révélé séparatiste. Nous exigeons leur soumission rapide et immédiate ; si cet ultimatum échoue, notre armée devrait suffire à les faire capituler."
+
+KMT_external_defense:0 "Donner la priorité à la menace extérieure"
+KMT_external_defense_desc:0 "Bien que les communistes soient une menace sérieuse, le Japon peut anéantir la nation chinoise toute entière. Ils ne se contenteront pas de la Mandchourie. Un jour, ils tenteront aussi de prendre le reste de la Chine. Nous devons tout faire pour nous préparer à la tempête."
+
+KMT_fortify_land:0 "Construire la ligne Sun Yat-sen"
+KMT_fortify_land_desc:0 "Avec les Japonais sondant les environs de Pékin, leurs intentions deviennent claires. Nous devons fortifier nos frontières. Nous ne céderons pas un pouce de sol chinois sacré !"
+
+KMT_fortify_coast:0 "Fortifications centrales"
+KMT_fortify_coast_desc:0 "Étant donné le contrôle japonais des mers, ils lanceront inévitablement des invasions côtières en cas de guerre. Nous devons nous préparer tant que nous le pouvons. Nous ne céderons pas le Paris de l’Orient sans combattre !"
+
+KMT_national_def_propaganda:0 "Propagande de défense nationale"
+KMT_national_def_propaganda_desc:0 "Pour nous défendre de la menace japonaise, nous devons unir le peuple chinois. Bien que nous haïssions autant les bandits communistes que les seigneurs de guerre, chaque homme, femme et enfant doit être prêt à se battre et à mourir ensemble pour la défense de la Chine."
+
+KMT_tibet_march:0 "Exiger le Tibet"
+KMT_tibet_march_desc:0 "Le Tibet est essentiel à la défense et à l’expansion future de la Chine. Cependant, la région est indépendante de la domination chinoise depuis la Révolution de 1911. Nous devons corriger cette erreur."
+
+KMT_tibet_friend:0 "Se lier d’amitié avec le Tibet"
+KMT_tibet_friend_desc:0 "Le Tibet est essentiel pour la défense et l’expansion future de la Chine. Mais il a gagné son indépendance après la Révolution de 1911. Nous devons nous allier au Dalaï Lama et sécuriser nos flancs."
+
+KMT_redraw_mcmahon:0 "Redessiner la ligne McMahon"
+KMT_redraw_mcmahon_desc:0 "Le Tibet a accepté le honteux accord de Simla, qui a redessiné sa frontière avec l’Inde. Nous devons nous assurer que cette ligne soit redessinée en notre faveur."
+
+KMT_industrial_effort:0 "Investir dans l’industrie"
+KMT_industrial_effort_desc:0 "L’industrie chinoise a toujours été en retard par rapport à celle de l’Occident et du Japon. Pour maintenir notre indépendance, nous devons augmenter notre production industrielle. Nous pouvons également autoriser les entreprises étrangères à investir dans notre industrie."
+
+KMT_armament_effort:0 "Refonder l’arsenal de Jiangnan"
+KMT_armament_effort_desc:0 "L’arsenal de Jiangnan fournissait à la dynastie Qing des équipements modernes. Nous devrions reprendre ce nom pour un complexe militaro-industriel qui pourra servir de noyau à notre industrie d’armement en expansion."
+
+KMT_gain_control_of_the_sea:0 "Élargir la marine"
+KMT_gain_control_of_the_sea_desc:0 "Nous avons perdu depuis longtemps notre supériorité navale, brisée lors de la bataille du fleuve Yalou. Avec la marine japonaise menaçant notre commerce, nous devons tenter de défendre nos navires marchands sur les hautes mers."
+
+KMT_the_big_rear_concept:0 "Le plan de l’Arrière"
+KMT_the_big_rear_concept_desc:0 "Alors que la guerre fait rage à l’est de la Chine, notre ouest reste relativement sûr. Nous devons développer ces régions reculées pour qu’elles puissent aussi contribuer à la lutte de la Chine."
+
+KMT_increase_funding_of_german_weaponary:0 "Adopter l’équipement de style allemand"
+KMT_increase_funding_of_german_weaponary_desc:0 "Bien que nous ayons le soutien de conseillers allemands comme von Falkenhausen et quelques équipements importés, nos modèles produits localement sont de qualité médiocre. Utiliser les équipements allemands comme modèles dans notre production peut multiplier notre qualité par huit !"
+
+KMT_lure_them_in_strategy:0 "Stratégie de l’Appât"
+KMT_lure_them_in_strategy_desc:0 "Avec l’immensité de notre territoire et son terrain accidenté, nous pouvons nous permettre de battre en retraite et d’attirer les envahisseurs sur nos champs de bataille choisis. Que les impérialistes essaient de nous poursuivre ! Ils tomberont dans une embuscade à chaque coin de rue et sur un piège à chaque pas !"
+
+KMT_air_base_expansion:0 "Expansion des bases aériennes"
+KMT_air_base_expansion_desc:0 "Nous avons besoin de bases aériennes pour que nos avions puissent décoller et atterrir ; sinon, ils ne seront qu’une collection d’exemplaires dans un hangar."
+
+KMT_national_resources_commission:0 "Commission nationale des ressources"
+KMT_national_resources_commission_desc:0 "La Commission nationale des ressources (NRC) est un institut chargé de prospecter et d’extraire les ressources en Chine. Sa création renforcera considérablement nos efforts pour obtenir des ressources naturelles."
+
+KMT_national_defense_council:0 "Conseil de défense nationale"
+KMT_national_defense_council_desc:0 "Avec les Japonais et les bandits communistes nuisant à notre nation, nous devons trouver un moyen d’organiser notre défense contre eux. Nous devrions aussi essayer d’importer des équipements modernes de l’étranger."
+
+KMT_revive_jiangnan_shipyard:0 "Développer le chantier naval de Jiangnan"
+KMT_revive_jiangnan_shipyard_desc:0 "Nous devrions étendre les capacités de l’arsenal de Jiangnan à construire des navires ; cela nous donnera une meilleure marine pour affronter les menaces futures."
+
+KMT_revive_hanyang_armory:0 "Relancer l’arsenal de Hanyang"
+KMT_revive_hanyang_armory_desc:0 "L’arsenal de Hanyang fut l’un des plus importants et prospères durant le Mouvement d’auto-renforcement initié par les officiels Qing. Nous pouvons le revitaliser afin de produire des équipements conformes pour notre armée."
+
+KMT_air_effort:0 "Réorganiser la ROCAF"
+KMT_air_effort_desc:0 "Nous avons toujours négligé notre force aérienne. Si nous voulons être capables de lutter dans les airs, cette branche doit recevoir une réforme sérieuse."
+
+KMT_air_reform:0 "Les Tigres volants"
+KMT_air_reform_desc:0 "Conscients de la justice de notre cause, un groupe de pilotes américains s’est porté volontaire pour rejoindre massivement notre force aérienne. Nous devrions utiliser ces hommes bien entraînés comme noyau d’élite d’une nouvelle armée de l’air revitalisée."
+
+KMT_study_foreign_ship:0 "Étudier la conception de navires étrangers"
+KMT_study_foreign_ship_desc:0 "Nous sommes en retard par rapport aux autres nations en matière de conception navale. Pour construire un jour une marine de premier rang, nous devons comprendre ce qui rend leurs navires supérieurs."
+
+KMT_demand_taiwan:0 "Exiger Taïwan"
+KMT_demand_taiwan_desc:0 "Le peuple de Taïwan doit être libéré de son dirigeant actuel et nous être rendu. Longtemps divisée, la nation doit s’unir."
+
+KMT_taiwan_fleet_hub:0 "Pôle naval de Taïwan"
+KMT_taiwan_fleet_hub_desc:0 "Les étrangers ont laissé derrière eux une quantité considérable d’infrastructures à Taïwan. Nous devrions développer cette base afin de transformer toute l’île en base navale et centre manufacturier."
+
+KMT_pacific_fleet:0 "Briser la première chaîne d’îles"
+KMT_pacific_fleet_desc:0 "Si la Chine veut atteindre son plein potentiel, nous ne devons pas nous contenter de ce côté du Pacifique. Nous devons bâtir une flotte capable de naviguer au-delà de Taïwan et du Japon."
+
+KMT_sea_fleet:0 "Tracer la ligne en neuf traits"
+KMT_sea_fleet_desc:0 "La mer de Chine méridionale contient de nombreuses routes commerciales essentielles. Si nous revendiquons ce passage, nous pourrons avancer vers la domination de l’Asie du Sud-Est. Mais nous devons disposer d’une flotte capable de soutenir nos revendications et de précipiter tout commerce hostile vers une tombe aquatique."
+
+KMT_naval_equipment:0 "Équipement naval"
+KMT_naval_equipment_desc:0 "Une marine moderne a besoin d’équipements modernes."
+
+KMT_pacific_expansion:0 "Briser la deuxième chaîne d’îles"
+KMT_pacific_expansion_desc:0 "Maintenant que nous avons une flotte capable de porter le combat au-delà du Japon, nous devons construire une flotte qui puisse faire ressentir la colère de la Chine à toute nation du Pacifique. Nous rendrons Zheng He fier."
+
+KMT_sea_expansion:0 "Faire respecter la ligne en neuf traits"
+KMT_sea_expansion_desc:0 "Il semble que déclarer nos revendications en mer de Chine méridionale n’ait pas suffi. Nous devons poursuivre l’expansion de notre marine afin de contraindre les impérialistes à reconnaître par la force la justesse de notre cause !"
+
+KMT_modernize_army:0 "Moderniser l’armée"
+KMT_modernize_army_desc:0 "L’esprit et la compétence ne suffisent pas pour gagner une guerre. Nous avons aussi besoin d’équipements modernes."
+
+KMT_north_plan:0 "Reprendre la Mandchourie"
+KMT_north_plan_desc:0 "Le Dongbei, appelé Mandchourie par les Occidentaux, est tombé entre les mains des Japonais et de leurs marionnettes il y a seulement quelques années. Nous devons le reprendre !"
+
+KMT_pioneering_the_north_east:0 "Fonder l’Agence de développement du Nord-Est"
+KMT_pioneering_the_north_east_desc:0 "Bien que les Japonais aient développé certaines parties de la Mandchourie, d’immenses territoires restent intacts. Nous devons lancer un vaste effort pour intégrer ces terres autrefois barbares dans le monde moderne."
+
+KMT_science_effort:0 "Academia Sinica"
+KMT_science_effort_desc:0 "Fondée en 1928, l’Academia Sinica supervise et coordonne la recherche scientifique, sociale et humaniste dans tous les instituts et universités sponsorisés par l’État de la République de Chine. Contrairement à d’autres instituts financés par le gouvernement, l’Academia Sinica répond directement au président."
+
+KMT_extra_research_slot:0 "Développer l’Université de Pékin"
+KMT_extra_research_slot_desc:0 "L’Université de Pékin est une institution de renommée mondiale. Nous devrions lui accorder davantage de financement et fournir des bourses aux jeunes talents afin de former une génération de scientifiques et de dirigeants compétents."
+
+KMT_national_institute:0 "Asile pour les Juifs"
+KMT_national_institute_desc:0 "De nombreux Juifs ont commencé à s’installer à Shanghai après les persécutions et massacres en Europe. Nous devrions ouvrir nos frontières à tous les réfugiés juifs afin que nous puissions, en retour, profiter de leur expertise. Déjà, des ingénieurs juifs nous ont apporté des conceptions d’armes polonaises et allemandes. Que peuvent-ils encore faire pour leurs nouveaux protecteurs ?"
+
+KMT_military_science:0 "Science militaire"
+KMT_military_science_desc:0 "La science civile et la science militaire sont toutes deux essentielles à la force d'une nation. Un financement raisonnable de ces domaines rendra notre armée plus redoutable."
+
+KMT_ballistic_weapon:0 "Le système de roquettes Guandi"
+KMT_ballistic_weapon_desc:0 "L’ère des roquettes dans la guerre est arrivée. Nous devons adopter ce nouveau système d’armement si nos armées veulent survivre sur le champ de bataille moderne. Que nos ennemis ressentent la rage du dieu de la guerre !"
+
+KMT_electronics_research:0 "Nationaliser la compagnie d’électronique"
+KMT_electronics_research_desc:0 "Alors que l’électricité n’est pas encore arrivée dans les campagnes, nos scientifiques produisent déjà des produits électroniques locaux pour les marchés de Shanghai et Hong Kong. Nous devrions prendre le contrôle de Ch’eng-kung et l’utiliser pour la recherche d’État."
+
+KMT_extra_research_slot_2:0 "Éducation pour la nation"
+KMT_extra_research_slot_2_desc:0 "Il ne suffit pas de permettre aux seuls riches d’accéder à l’université. Nous devons nationaliser toutes les universités chinoises et fonder l’admission sur le mérite, et non sur la richesse."
+
+KMT_bold_hypothesis:0 "Science courageuse"
+KMT_bold_hypothesis_desc:0 "Nos scientifiques souffrent d’un complexe d’infériorité, croyant qu’ils ne dépasseront jamais l’Occident quoi qu’ils fassent. Nous devons lancer un programme de propagande pour restaurer leur moral."
+
+KMT_nuclear_physics:0 "Physique nucléaire"
+KMT_nuclear_physics_desc:0 "Si les théories d’Einstein sont correctes, alors fendre l’atome pourrait produire une arme d’une puissance incommensurable. Nous devons approfondir cette possibilité."
+
+KMT_jet:0 "Le turboréacteur Tianlong"
+KMT_jet_desc:0 "Le développement de la technologie des réacteurs nous assurerait la suprématie aérienne. Les jours où le fantassin chinois était vulnérable aux attaques venues du ciel seraient enfin terminés. Notre force s’élèverait comme un dragon en vol."
+
+KMT_fighter_focus:0 "Accent sur les chasseurs"
+KMT_fighter_focus_desc:0 "La supériorité aérienne est notre première priorité dans les combats aériens, et ce sont les chasseurs qui accomplissent cette tâche."
+
+KMT_bomber_focus:0 "Accent sur les bombardiers"
+KMT_bomber_focus_desc:0 "Détruire les lignes de ravitaillement et les usines ennemies est la meilleure option dans la guerre aérienne. Nous devons donc miser sur les bombardiers."
+
+KMT_cas_effort:0 "Effort d’appui aérien rapproché"
+KMT_cas_effort_desc:0 "L’appui aérien rapproché est extrêmement bénéfique pour l’avancée de notre armée au sol. Ces avions d’appui rapproché gagneront la guerre pour nous."
+
+KMT_nav_effort:0 "Effort naval"
+KMT_nav_effort_desc:0 "Les bombardiers navals excellent dans la destruction des navires et ports ennemis ; ils sont une composante indispensable de la guerre navale."
+
+KMT_political_effort:0 "Réforme nationale"
+KMT_political_effort_desc:0 "Le peuple aime peu notre gouvernement ; nous devons commencer à éradiquer la corruption si nous voulons survivre."
+
+KMT_government_reform:0 "Repenser la République"
+KMT_government_reform_desc:0 "Notre type actuel de gouvernement est indésirable ; nous devons chercher une autre voie."
+
+KMT_strengthen_the_republic:0 "Renforcer la République"
+KMT_strengthen_the_republic_desc:0 "Nos citoyens sont satisfaits de la République. Nous devons rester fermement ancrés dans la pensée de Sun Yat-sen afin de renforcer leur confiance."
+
+KMT_democratic_republic:0 "Mettre fin à la tutelle du peuple"
+KMT_democratic_republic_desc:0 "Nos citoyens sont désormais prêts pour la démocratie. Par la volonté de Sun Yat-sen, nous mettrons fin à l’ère du parti unique et organiserons des élections dès que possible."
+
+KMT_unitary_semi_presidential_republic:0 "Poursuivre la tutelle du peuple"
+KMT_unitary_semi_presidential_republic_desc:0 "Bien que nous ayons fait des progrès considérables, le peuple n’est pas encore prêt pour la démocratie. La direction du KMT doit continuer."
+
+KMT_promote_nationalism:0 "Raviver le Mouvement de la Vie Nouvelle"
+KMT_promote_nationalism_desc:0 "Notre nation a longtemps été moquée pour sa faiblesse et son incapacité. Nous devons poursuivre nos efforts pour créer une citoyenneté nationaliste et rendre la Chine grande à nouveau."
+
+KMT_centralizing_power:0 "Centralisation du pouvoir"
+KMT_centralizing_power_desc:0 "La phase de tutelle du peuple nous permet peu à peu de centraliser tous les pouvoirs, locaux comme régionaux, entre les mains du gouvernement central. Nous ne répéterons pas les erreurs de 1912 et 1916. Il ne peut y avoir de fédéralisme dans une Chine unie."
+
+KMT_into_despotism:0 "Déclarer la loi martiale"
+KMT_into_despotism_desc:0 "Par décret de Chiang, la Chine ne suivra ni la démocratie, ni le fascisme, ni le communisme. Elle suivra le KMT qui guidera l’Empire du Milieu vers l’avenir. Nos ennemis appellent cela du despotisme. Nous appelons cela du progrès."
+
+KMT_social_experiment:0 "Étendre le laboratoire d’État"
+KMT_social_experiment_desc:0 "Pour accroître notre capacité technologique, nous devons agrandir notre laboratoire d’État et recruter davantage de scientifiques."
+
+KMT_voting_rights:0 "Une nouvelle constitution"
+KMT_voting_rights_desc:0 "La constitution actuelle est insuffisante pour prévenir la tyrannie et la corruption. Pour passer pleinement à une république démocratique, nous devons rédiger une nouvelle constitution incluant le droit de vote, le droit à la liberté et un système de contre-pouvoirs. La Chine doit devenir un État de droit et non un État d’hommes."
+
+KMT_implement_parliamentary_system:0 "Mouvement de reconstruction rurale"
+KMT_implement_parliamentary_system_desc:0 "Les communistes tirent leur force de la paysannerie mécontente. Pour que la démocratie survive en Chine, nous devons détruire cette base en améliorant la vie des paysans : redistribuer les terres, introduire de nouvelles techniques agricoles, construire des écoles et offrir des soins médicaux. Il est temps que la Chine prenne soin de son peuple."
+
+KMT_universal_sufferage:0 "Les Trois Principes du Peuple"
+KMT_universal_sufferage_desc:0 "Au cœur de la pensée de Sun Yat-sen se trouvent les trois principes : démocratie, nationalisme et bien-être du peuple. Si nous n’avions atteint que le nationalisme dans le passé, nous marchons désormais vers la réalisation complète du rêve de Sun."
+
+KMT_european_friend:0 "Rejoindre les Alliés"
+KMT_european_friend_desc:0 "La démocratie est bien plus établie en Occident qu’en Chine. Nous devrions rejoindre le bloc des démocraties occidentales pour apprendre de leur exemple et renforcer la coalition des peuples libres."
+
+KMT_alone_in_the_east:0 "La première démocratie d’Asie"
+KMT_alone_in_the_east_desc:0 "Les démocraties occidentales sont plongées dans le chaos. Les rejoindre maintenant détruirait notre nouvelle et fragile république. Nous devons rester seuls en Asie, en phare de liberté à l’Est."
+
+KMT_knowledge_of_the_citizens:0 "Éduquer à la citoyenneté"
+KMT_knowledge_of_the_citizens_desc:0 "Dans le passé, l’éducation n’était pas accessible à beaucoup. Nous allons étendre le système scolaire national avec un programme visant à créer des citoyens, et non des sujets."
+
+KMT_westernization:0 "Occidentalisation"
+KMT_westernization_desc:0 "Le savoir du monde occidental dépasse notre imagination ; l’adopter nécessitera une campagne entière."
+
+KMT_fascism_focus:0 "Pouvoir aux Chemises bleues"
+KMT_fascism_focus_desc:0 "La force démontrée par le Reich allemand est très intrigante. Notre nation doit suivre sa voie vers la gloire. Nous devons soutenir ceux qui montrent une grande passion pour notre pays."
+
+KMT_militarism_focus:0 "Endoctrinement militaire national"
+KMT_militarism_focus_desc:0 "On dit : « N’utilisez pas du bon fer pour en faire des clous, n’utilisez pas de bons hommes pour en faire des soldats. » Un tel mépris pour l’armée est inacceptable. Nous devons rehausser son prestige aux yeux du peuple."
+
+KMT_ban_communism:0 "Raviver la Terreur blanche"
+KMT_ban_communism_desc:0 "Nous ne pouvons pas risquer que des cellules communistes infiltrent notre territoire pour déclencher une insurrection. Nous devons relancer les purges civiles et militaires afin qu’aucune trace de communisme ne subsiste sous notre contrôle."
+
+KMT_planning_our_empire:0 "Reconstruire l’Empire"
+KMT_planning_our_empire_desc:0 "La Chine a été la nation la plus puissante de la planète durant la majeure partie de l’histoire. Nous devons reprendre notre place au soleil."
+
+KMT_isolation_tactic:0 "Tactiques d’isolement antisoviétiques"
+KMT_isolation_tactic_desc:0 "Avec l’expansion du Komintern en Asie centrale, la menace rouge nous encercle peu à peu. Nous devons semer la méfiance dans leur système d’alliances pour rétablir nos anciennes frontières."
+
+KMT_war_propaganda:0 "Propagande de guerre"
+KMT_war_propaganda_desc:0 "Endoctriner notre peuple sur les bienfaits de la guerre et de la victoire est un excellent moyen de l’unir et de créer une armée forte."
+
+KMT_military_first:0 "L’armée d’abord"
+KMT_military_first_desc:0 "En « informant » notre peuple des bénéfices de la guerre et de l’expansion, nous assurerons notre capacité à abattre des monstres à l’étranger."
+
+KMT_war_fanaticism:0 "Fanatisme guerrier"
+KMT_war_fanaticism_desc:0 "Il ne suffit pas de se battre et de mourir. Nous devons nous battre et gagner à tout prix. Que notre sang fasse de la Chine à nouveau le centre du monde ! Zhongguo Wansui !"
+
+KMT_claim_territory:0 "Revendiquer le système tributaire"
+KMT_claim_territory_desc:0 "Nous avons perdu à la fois nos terres et nos tributaires au profit des impérialistes. Puisque les tributaires devenaient formellement vassaux du trône, nous pouvons revendiquer de nombreux territoires en Asie de l’Est."
+
+KMT_demand_soviet_puppets:0 "Revendiquer la steppe centrale et le Sinkiang"
+KMT_demand_soviet_puppets_desc:0 "Les différends territoriaux ne doivent pas nécessairement finir en guerres sanglantes ; des méthodes diplomatiques sont envisageables si l’autre partie accepte de compromis."
+
+KMT_demand_indochina:0 "Revendiquer l’Indochine"
+KMT_demand_indochina_desc:0 "Les différends territoriaux ne doivent pas nécessairement finir en guerres sanglantes ; des méthodes diplomatiques sont envisageables si l’autre partie accepte de compromis."
+
+KMT_special_force_training:0 "SACO"
+KMT_special_force_training_desc:0 "L’Organisation sino-américaine coopérative vise à fournir un soutien en renseignement à notre armée et à former des forces spéciales."
+
+KMT_improve_burma_road:0 "Améliorer la route de Birmanie"
+KMT_improve_burma_road_desc:0 "Bien que les Britanniques aient construit la route de Birmanie pour lutter contre les Japonais, elle reste inefficace ; nous devrions l’améliorer."
+
+KMT_trade_port_neutral:0 "Renverser les traités inégaux"
+KMT_trade_port_neutral_desc:0 "Avec les nombreux traités inégaux signés par la dynastie Qing avec les nations occidentales, certaines de nos terres restent injustement occupées. Nous devons unir notre peuple sous une seule bannière !"
+
+KMT_trade_port_demo:0 "Ports commerciaux contre assistance"
+KMT_trade_port_demo_desc:0 "Puisque les nations occidentales comme la nôtre pratiquent la démocratie, nous devons nous entraider dans les moments de besoin. Toutefois, une telle aide doit avoir un prix pour l’humiliation qu’ils nous ont infligée quand nous étions faibles."
+
+KMT_trade_port_fascism:0 "Les ports chinois"
+KMT_trade_port_fascism_desc:0 "La cession des ports commerciaux dans les traités inégaux est une humiliation pour les Chinois, car les Occidentaux contraignent notre commerce et divisent nos terres. Nous devons reprendre ces ports et rendre sa grandeur à la Chine !"
+
+KMT_industrialization_NW:0 "Industrialisation locale : Nord-Ouest"
+KMT_industrialization_NW_desc:0 "Le Nord-Ouest peut sembler une terre stérile… pour l’instant. Bientôt, il deviendra l’une des régions les plus industrialisées."
+
+KMT_excavation_NW:0 "Prospection au Nord-Ouest"
+KMT_excavation_NW_desc:0 "Nous devons rechercher davantage de ressources sur notre sol pour devenir indépendants des importations."
+
+KMT_industrialization_S:0 "Industrialisation locale : Sud"
+KMT_industrialization_S_desc:0 "Le Sud est peut-être déjà l’une des régions les plus industrialisées, mais il peut l’être bien davantage."
+
+KMT_excavation_S:0 "Plantation de caoutchouc"
+KMT_excavation_S_desc:0 "Le climat du Sud est très propice aux plantations de caoutchouc ; nous devons en tirer parti."
+
+KMT_excavation_NE:0 "Prospection au Nord-Est"
+KMT_excavation_NE_desc:0 "Les Japonais ont laissé de nombreux outils dans la région ; nous pouvons les utiliser pour découvrir de nouvelles ressources."
+
+KMT_ledo_road:0 "Route de Ledo"
+KMT_ledo_road_desc:0 "Les envahisseurs ont coupé la route de Birmanie ; nous devons construire une nouvelle route depuis l’Inde pour nos approvisionnements."
+
+KMT_dare_to_die_corps:0 "Corps des Braves jusqu’à la mort"
+KMT_dare_to_die_corps_desc:0 "Si nous voulons gagner la guerre contre les envahisseurs, notre peuple doit être assez courageux pour ne pas craindre la mort, prêt à tout pour défendre notre nation."
+
+KMT_reuse_captured_weaponary:0 "Réutiliser les armes capturées"
+KMT_reuse_captured_weaponary_desc:0 "Pour soutenir une longue guerre d’usure, il est vital d’utiliser pleinement l’équipement capturé sur le champ de bataille afin de maintenir la force de notre armée."
+
+KMT_cbis:0 "Étendre le CBIS"
+KMT_cbis_desc:0 "Le Bureau central d’investigation et de statistiques est l’unité de renseignement du Kuomintang. Nous l’avons récemment réorganisé et devons maintenant l’élargir afin de nous assurer que les éléments perturbateurs internes chinois ne mettent pas le régime en danger."
+
+KMT_zhonghua_minzu:0 "Zhonghua Minzu"
+KMT_zhonghua_minzu_desc:0 "Notre principe des « Cinq races sous une même union » représente les Hans et toutes les minorités de Chine. Ils sont tous les descendants du même peuple fondateur. Ensemble, nous pouvons restaurer la grandeur de notre nation et honorer nos ancêtres."
+
+KMT_cement_control_on_the_economy:0 "Consolider le contrôle de l’économie"
+KMT_cement_control_on_the_economy_desc:0 "Nous pouvons nous opposer aux communistes, mais cela ne signifie pas plier le genou face aux capitalistes. Nous devons nous assurer que l’économie et ceux qui la dirigent restent loyaux au gouvernement du Kuomintang, en nous concentrant principalement sur les entreprises d’État."
+
+KMT_georgist_tax_reform:0 "Réforme fiscale georgiste"
+KMT_georgist_tax_reform_desc:0 "Le géorgisme est à la base d’une grande partie de la pensée économique de Sun Yat-sen. L’un de ses aspects principaux est l’instauration d’un impôt sur la propriété foncière, qu’il considérait comme « le seul moyen de soutenir le gouvernement de manière infiniment juste, raisonnable et équitable, et sur lequel nous fonderons notre nouveau système »."
+
+KMT_monetary_reform:0 "Réforme monétaire"
+KMT_monetary_reform_desc:0 "L’hyperinflation ruine notre économie. Nous devons ramener la situation sous contrôle immédiatement."
+
+KMT_preemptive_preparation:0 "Préparer la guerre civile"
+KMT_preemptive_preparation_desc:0 "Il est nécessaire de se préparer contre les communistes, car eux aussi pourraient se préparer contre nous."
+
+KMT_warlord_after_civil_war:0 "Unifier la Chine"
+KMT_warlord_after_civil_war_desc:0 "Maintenant que nous avons détruit les bandits communistes, il est temps que les seigneurs de guerre goûtent à l’épée."
+
+KMT_the_yangtze_partition:0 "Proposer le partage du Yangtze"
+KMT_the_yangtze_partition_desc:0 "La guerre tourne à notre désavantage et nous la perdons lourdement. Incapables de franchir nos lignes défensives sur le Yangtze, les [PRC.getAdjective] pourraient accepter une solution diplomatique à cette guerre civile si nous voulons survivre et épargner nos troupes épuisées."
+
+KMT_taiwan_bastion:0 "Bastion de Taïwan"
+KMT_taiwan_bastion_desc:0 "Il est possible que nous perdions cette guerre. Pour nous préparer à cette éventualité, nous devons transformer Taïwan en bastion national afin d’y attendre et de préparer la reconquête du continent."
+
+KMT_placate_former_puppet_government:0 "Collaborer avec les collaborateurs"
+KMT_placate_former_puppet_government_desc:0 "Les anciens marionnettes japonaises sont des traîtres, tout le monde le sait. Mais avec les Japonais partis, ils peuvent servir de nouveaux maîtres."
+
+KMT_harsh_takeover_focus:0 "Saisir les Hanjian"
+KMT_harsh_takeover_focus_desc:0 "Il n’y a aucune raison d’être poli avec les traîtres. Nous les arrêterons tous et mettrons leurs ressources à notre service."
+
+KMT_development_of_taiwan:0 "Développer Taïwan"
+KMT_development_of_taiwan_desc:0 "Taïwan a reçu beaucoup d’attention de la part des Japonais. Étant donné que sa base économique est bien plus élevée que celle du reste de la Chine, il serait sage de la développer davantage afin qu’elle serve de modèle à la compétence de notre gouvernance."
+
+KMT_incorporate_warlord_forces:0 "Intégrer les forces des seigneurs de guerre"
+KMT_incorporate_warlord_forces_desc:0 "Notre armée actuelle est composée à la fois de l’armée centrale et des forces des seigneurs de guerre. Cependant, ces dernières obéissent peu à nos ordres. Si nous gagnons leur confiance, notre armée sera bien plus efficace."
+
+KMT_focus_on_our_own_army:0 "Se concentrer sur l’armée centrale"
+KMT_focus_on_our_own_army_desc:0 "Les forces indisciplinées des seigneurs de guerre ne méritent pas notre attention. Leur seule utilité est de servir de chair à canon et d’appât pendant que notre armée centrale porte le coup décisif."
+
+KMT_increase_sino_german_cooperation:0 "Accroître la coopération sino-allemande"
+KMT_increase_sino_german_cooperation_desc:0 "Nous devrions coopérer davantage avec l’Allemagne. De cette façon, nous aurons une meilleure avance sur nos ennemis."
+
+KMT_support_pro_japanese_faction:0 "Soutenir la faction pro-japonaise"
+KMT_support_pro_japanese_faction_desc:0 "Peut-être qu’au lieu d’antagoniser les Japonais, nous pouvons trouver une solution plus pacifique ?" #愤青别打我
+
+KMT_re_elaborate_hakko_ichiu:0 "Proposer une alliance sino-japonaise"
+KMT_re_elaborate_hakko_ichiu_desc:0 "Pour créer une véritable « sphère de coprospérité asiatique », nous devons rechercher une alliance avec les Japonais. Leur puissance industrielle avancée nous donnera sûrement un avantage sur nos ennemis."
+
+KMT_introduce_shipbuilding_technology:0 "Introduire la technologie navale"
+KMT_introduce_shipbuilding_technology_desc:0 "Grâce à la puissance de l’industrie navale de nos alliés, nous pouvons leur demander assistance pour développer la nôtre."
+
+KMT_introduce_shipbuilding_technology_usa:0 "Introduire la technologie navale"
+KMT_introduce_shipbuilding_technology_usa_desc:0 "Grâce à la puissance de l’industrie navale de nos alliés, nous pouvons leur demander assistance pour développer la nôtre."
+
+KMT_force_japan_to_accept_peace:0 "Demander l’intervention [GER.GetAdjective]"
+KMT_force_japan_to_accept_peace_desc:0 "Grâce à notre relation actuelle avec l’Allemagne, nous pouvons demander son intervention dans notre guerre contre les Japonais."
+
+KMT_force_japan_to_cede_land:0 "Redemander une intervention [GER.GetAdjective]"
+KMT_force_japan_to_cede_land_desc:0 "Malgré les accords de paix, les Japonais refusent encore de nous rendre certaines terres. Peut-être est-il temps de solliciter à nouveau une intervention allemande."
+
+KMT_pincer_soviet:0 "Prendre les [SOV.GetAdjective] en tenaille"
+KMT_pincer_soviet_desc:0 "Avec les [SOV.GetAdjective] actuellement occupés, nous pouvons les frapper là où ils s’y attendent le moins."
+
+KMT_japanese_advisors:0 "Conseillers japonais"
+KMT_japanese_advisors_desc:0 "Nous pouvons demander à nos amis [JAP.GetAdjective] de nous envoyer des conseillers pour aider notre armée."
+
+KMT_draw_closer_to_the_empire:0 "Améliorer les relations avec [ENG.GetNameDef]"
+KMT_draw_closer_to_the_empire_desc:0 "Avec notre histoire commune avec les Britanniques, nous pouvons œuvrer à améliorer nos relations, voire à former une alliance."
+
+KMT_trans_pacific_friendship_focus:0 "Amitié transpacifique"
+KMT_trans_pacific_friendship_focus_desc:0 "Avec notre transition actuelle vers la démocratie, nous pouvons renforcer nos liens avec les États-Unis de l’autre côté du Pacifique."
+
+KMT_oust_the_colonizers:0 "Chasser les colonisateurs"
+KMT_oust_the_colonizers_desc:0 "Le colonialisme est encore plus pervers que l’impérialisme ; pour cette raison, nous libérerons nos frères asiatiques des griffes des colonisateurs occidentaux."
+
+KMT_pursuade_britain:0 "Convaincre [ENG.GetNameDef]"
+KMT_pursuade_britain_desc:0 "Avec l’appétit [JAP.GetAdjective] pour les ressources afin d’alimenter leur machine de guerre, ils attaqueront inévitablement les colonies britanniques et néerlandaises en Asie. Sachant cela, nous pouvons persuader la Grande-Bretagne de frapper la première. Si nous réussissons, nous gagnerons un allié puissant."
+
+KMT_join_the_axis:0 "Rejoindre l’Axe"
+KMT_join_the_axis_desc:0 "Il est temps de renforcer nos liens avec nos amis allemands."
+
+############# CONTINUOUS FOCUSES ##################
+KMT_continuous_naval_production:0 "Production navale"
+KMT_continuous_naval_production_desc:0 "En concentrant nos ressources sur les chantiers navals et en exemptant les constructeurs de navires qualifiés du service militaire, nous pouvons réduire considérablement le temps de production des navires."
+
+KMT_continuous_air_production:0 "Production aéronautique"
+KMT_continuous_air_production_desc:0 "Nous pouvons réorganiser notre industrie aéronautique pour éliminer le gaspillage et rationaliser la production."
+
+KMT_continuous_non_factory_construct:0 "Génie civil"
+KMT_continuous_non_factory_construct_desc:0 "Il existe encore beaucoup de lenteurs dans notre industrie de la construction. En nous y concentrant, nous pouvons améliorer considérablement la vitesse de construction. Malheureusement, la production de machines-outils constitue un goulot d’étranglement majeur dans l’expansion de notre industrie lourde, qui ne bénéficiera donc pas de ces efforts."
+
+KMT_continuous_reduce_training_time:0 "Entraînement de l’armée"
+KMT_continuous_reduce_training_time_desc:0 "En créant des unités spécialisées d’entraînement avancé au sein de chaque division, nous pouvons déployer plus rapidement au front des divisions qui auraient auparavant été retenues pour finir leur formation."
+
+KMT_continuous_suppression:0 "Répression de la résistance"
+KMT_continuous_suppression_desc:0 "En infiltrant les principaux groupes de résistance dans les territoires occupés et en retournant leurs chefs, nous pouvons réduire considérablement les dégâts qu’ils peuvent causer."
+
+KMT_continuous_repair:0 "Réparations"
+KMT_continuous_repair_desc:0 "Nous formerons des équipes spécialisées de réparation composées d’ouvriers d’usine et du bâtiment, et contrôlerons centralement leur déploiement pour améliorer la reconstruction des infrastructures endommagées."
+
+KMT_continuous_tech_share:0 "Partage technologique"
+KMT_continuous_tech_share_desc:0 "Nous encouragerons nos instituts de recherche et universités à collaborer avec leurs homologues des pays alliés, ce qui nous donnera un bonus de partage technologique."
+
+KMT_continuous_boost_freedom:0 "Augmenter l’autonomie"
+KMT_continuous_boost_freedom_desc:0 "En réorganisant notre administration coloniale et en recrutant des administrateurs locaux, nous pourrons, avec le temps, prendre nous-mêmes en charge nos affaires."
+
+KMT_continuous_restrict_freedom:0 "Réprimer les sujets"
+KMT_continuous_restrict_freedom_desc:0 "Nos sujets coloniaux se sont mis en tête des idées absurdes comme « l’autodétermination » ou « l’indépendance nationale ». Il est temps de les débarrasser de ces illusions."
+
+KMT_continuous_request_lendlease:0 "Demander un prêt-bail"
+KMT_continuous_request_lendlease_desc:0 "Notre production industrielle ne permet pas de remplacer assez vite l’équipement perdu sur le champ de bataille. Dans de telles circonstances, l’aide étrangère est vitale pour notre effort de guerre."
+
+KMT_develop_the_rear:0 "Achever le Grand Plan de l’arrière"
+KMT_develop_the_rear_desc:0 "Plus nous perdons de terres, plus nous devons nous engager à terminer le grand plan de l’arrière."
+
+########################### EVENTS ########################
+kmt.1.t:0 "L’Offre au Shanxi"
+kmt.1.d:0 "Le gouvernement chinois exige notre soumission. Ils disent que si nous résistons, il y aura un bain de sang."
+kmt.1.a:0 "Pas de seconde chance ! Soumettons-nous avant qu’il ne soit trop tard."
+kmt.1.b:0 "Être une marionnette vaut mieux qu’une annexion totale."
+kmt.1.c:0 "Jamais !"
+
+kmt.2.t:0 "Shanxi annexé"
+kmt.2.d:0 "Le seigneur de guerre du Shanxi a accepté notre offre. Les bandits sont les prochains."
+kmt.2.a:0 "Avec leur arrière exposé, il sera plus facile d’écraser les bandits."
+
+kmt.3.t:0 "Proposition de vassalisation du Shanxi"
+kmt.3.d:0 "Bien qu’ils aient accepté de se soumettre, ils demandent une autonomie."
+kmt.3.a:0 "Une demande acceptable ; qu’ils deviennent nos vassaux."
+kmt.3.b:0 "Inacceptable ! Nous devons avoir un contrôle total !"
+
+kmt.4.t:0 "Shanxi a refusé"
+kmt.4.d:0 "Le seigneur de guerre du Shanxi a refusé de coopérer. [Root.GetLeader] ne peut tolérer cette humiliation pour le gouvernement central. Nous devons régler son cas."
+kmt.4.a:0 "Ils regretteront leur décision."
+
+kmt.5.t:0 "Vassalisation rejetée"
+kmt.5.d:0 "Le gouvernement chinois a rejeté notre contre-proposition. Ils exigent le contrôle complet de la région. Si nous n’obtempérons pas, ils pourraient lancer une offensive."
+kmt.5.a:0 "Nous n’avons pas assez de forces pour les affronter. Nous devons nous soumettre."
+kmt.5.b:0 "Nous ne nous soumettrons pas !"
+
+kmt.6.t:0 "Propagande discréditée"
+kmt.6.d:0 "Notre propagande de défense nationale a été discréditée. Notre peuple nous prend pour des menteurs alors que nous attaquons d’autres Chinois."
+kmt.6.a:0 "Ce sont des idiots qui ne voient pas la situation d’ensemble."
+
+kmt.8.t:0 "[FROM.GetNameDefCap] exige notre soumission"
+kmt.8.d:0 "[FROM.GetNameDefCap] considère le Tibet comme son territoire. Ils exigent notre annexion totale et immédiate."
+kmt.8.a:0 "Ils sont trop puissants pour que nous résistions."
+kmt.8.b:0 "Le Dalaï Lama ne se soumettra jamais !"
+
+kmt.9.t:0 "Compromis avec le Tibet"
+kmt.9.d:0 "Le Dalaï Lama a accepté nos conditions. Le Tibet est désormais à nous."
+kmt.9.a:0 "Le Tibet est à nous de droit !"
+
+kmt.10.t:0 "Le Tibet a refusé"
+kmt.10.d:0 "Le dirigeant tibétain a rejeté notre offre généreuse. Il affirme qu’il ne se soumettra jamais à notre « tyrannie »."
+kmt.10.a:0 "Nous verrons bien."
+
+kmt.11.t:0 "[FROM.GetNameDefCap] exige de redessiner la ligne McMahon"
+kmt.11.d:0 "Maintenant que le Tibet est sous contrôle [FROM.GetAdjective], ils exigent de redessiner la ligne McMahon en leur faveur."
+kmt.11.a:0 "Des terres inutiles pour un peuple inutile."
+kmt.11.b:0 "Transférons l’affaire à [ENG.GetNameDef]."
+kmt.11.c:0 "Nous ne céderons pas un pouce !"
+kmt.11.c_tt:0 "§RPeut mener à une guerre avec [FROM.GetNameDef]§!"
+
+kmt.12.t:0 "Ligne McMahon redessinée"
+kmt.12.d_1:0 "[RAJ.GetNameDefCap] a accepté de redessiner la ligne McMahon en notre faveur. Nous nous étendons désormais vers l’ouest."
+kmt.12.d_2:0 "[ENG.GetNameDefCap] a accepté de redessiner la ligne McMahon en notre faveur. Nous nous étendons désormais vers l’ouest."
+kmt.12.a:0 "Un jour merveilleux pour le peuple [ROOT.GetAdjective]."
+
+kmt.13.t:0 "[CHI.GetNameDefCap] exige de redessiner la ligne McMahon"
+kmt.13.d:0 "Maintenant que le Tibet est sous contrôle [CHI.GetAdjective], ils exigent de redessiner la ligne McMahon en leur faveur."
+kmt.13.a:0 "Compromettons-nous… pour l’instant."
+kmt.13.b:0 "Nous devons protéger nos intérêts !"
+kmt.13.b_tt:0 "§RPeut mener à une guerre avec [CHI.GetNameDef]§!"
+
+kmt.14.t:0 "Redessin refusé"
+kmt.14.d_1:0 "[RAJ.GetNameDefCap] a rejeté notre proposition de redessiner la ligne McMahon. Ils insistent pour que la ligne reste inchangée."
+kmt.14.d_2:0 "[ENG.GetNameDefCap] a rejeté notre proposition de redessiner la ligne McMahon. Ils insistent pour que la ligne reste inchangée."
+kmt.14.a:0 "Nous ne voulons pas d’une autre guerre pour l’instant."
+kmt.14.b:0 "Ces barbares goûteront à notre fureur ! La Chine s’agrandira."
+
+kmt.15.t:0 "[CHI.GetNameDefCap] exige Taïwan"
+kmt.15.d_2:0 "Taïwan faisait autrefois partie de la Chine, et [CHI.GetNameDef] exige qu’elle soit « rendue » à son autorité."
+kmt.15.d_1:0 "Bien que nous ayons été parmi les premiers à gouverner Taïwan, la Chine exige qu’on la lui restitue. Que devons-nous faire ?"
+kmt.15.a_1:0 "Nous voulons maintenir la paix entre nous."
+kmt.15.a_2:0 "Ils peuvent avoir cet enfer humide s’ils le veulent tant."
+kmt.15.b_1:0 "Comment ces barbares osent-ils exiger cela ? Taïwan est à nous par droit de conquête !"
+
+kmt.16.t:0 "Taïwan restitué"
+kmt.16.d:0 "Taïwan a été restitué au peuple chinois. Nos citoyens célèbrent son retour."
+kmt.16.a:0 "Le meilleur résultat que nous pouvions espérer."
+
+kmt.17.t:0 "Taïwan reste asservi"
+kmt.17.d:0 "Ils ont refusé de nous restituer ce qui nous appartient légitimement ; leur tyrannie est évidente."
+kmt.17.a:0 "Nous les abattrons !"
+
+kmt.21.t:0 "La Chine veut rejoindre les Alliés"
+kmt.21.d:0 "Les forces démocratiques de [CHI.GetNameDef] ont pris le contrôle. Elles veulent rejoindre les Alliés pour symboliser leur confiance et leur amitié."
+kmt.21.a:0 "Un allié en Orient ? Pourquoi pas."
+kmt.21.b:0 "Pas pour le moment."
+
+kmt.22.t:0 "[ENG.GetNameDefCap] a accepté"
+kmt.22.d:0 "[ENG.GetNameDefCap] nous a permis de rejoindre les Alliés. Nous sommes maintenant unis dans la cause de la liberté."
+kmt.22.a:0 "Le monde démocratique est maintenant plus fort."
+
+kmt.23.t:0 "[ENG.GetNameDefCap] a rejeté"
+kmt.23.d:0 "Ils ne nous ont pas donné la raison du rejet, mais il semble qu’ils aient déjà beaucoup à gérer."
+kmt.23.a:0 "Fous arrogants ! Peut-être verront-ils plus tard l’erreur de leurs choix."
+
+kmt.25.t:0 "Documents secrets reçus"
+kmt.25.d:0 "Nous avons reçu des documents secrets d’origine inconnue. Ils révèlent que [MON.GetNameDef] est mécontent que nous soyons le chef de notre faction. Ils souhaitent nous renverser !"
+kmt.25.a:0 "[MON.GetNameDefCap] est un allié de confiance. Ces documents doivent être un misérable stratagème de nos ennemis."
+kmt.25.b:0 "Nous allons donc les purger de notre faction."
+kmt.25.c:0 "Nous ne tolérerons pas cet acte d’usurpation."
+
+kmt.26.t:0 "Exclus de la faction"
+kmt.26.d_1:0 "Notre ancien chef de faction a décidé de nous expulser sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.26.d_2:0 "Notre ancien chef de faction a décidé de nous expulser et de nous déclarer la guerre sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.26.a:0 "Nous devons désormais compter sur nous-mêmes."
+
+kmt.27.t:0 "Politique étrangère neutre"
+kmt.27.d:0 "Nos responsables gouvernementaux prônent une politique de neutralité. Nous resterons à l’écart de la toile d’alliances futiles du monde. Que les nations inférieures s’entretuent dans des guerres inutiles."
+kmt.27.a:0 "Un plan incertain dans un monde incertain."
+
+kmt.28.t:0 "Documents secrets reçus"
+kmt.28.d:0 "Nous avons reçu des documents secrets d’origine inconnue. Ils révèlent que [SIK.GetNameDef] est mécontent que nous soyons le chef de notre faction. Ils souhaitent nous renverser !"
+kmt.28.a:0 "[SIK.GetNameDefCap] est un allié de confiance. Ces documents doivent être un misérable stratagème de nos ennemis."
+kmt.28.b:0 "Nous allons donc les purger de notre faction."
+kmt.28.c:0 "Nous ne tolérerons pas cet acte d’usurpation."
+
+kmt.29.t:0 "Exclus de la faction"
+kmt.29.d_1:0 "Notre ancien chef de faction a décidé de nous expulser sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.29.d_2:0 "Notre ancien chef de faction a décidé de nous expulser et de nous déclarer la guerre sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.29.a:0 "Nous devons désormais compter sur nous-mêmes."
+
+kmt.30.t:0 "Documents secrets reçus"
+kmt.30.d:0 "Nous avons reçu des documents secrets d’origine inconnue. Ils révèlent que [TAN.GetNameDef] est mécontent que nous soyons le chef de notre faction. Ils souhaitent nous renverser !"
+kmt.30.a:0 "[TAN.GetNameDefCap] est un allié de confiance. Ces documents doivent être un misérable stratagème de nos ennemis."
+kmt.30.b:0 "Nous allons donc les purger de notre faction."
+kmt.30.c:0 "Nous ne tolérerons pas cet acte d’usurpation."
+
+kmt.31.t:0 "Exclus de la faction"
+kmt.31.d_1:0 "Notre ancien chef de faction a décidé de nous expulser sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.31.d_2:0 "Notre ancien chef de faction a décidé de nous expulser et de nous déclarer la guerre sur la base de documents secrets. Il semble que nos ennemis aient réussi à nous isoler."
+kmt.31.a:0 "Nous devons désormais compter sur nous-mêmes."
+
+kmt.49.t:0 "[FROM.getNameDefCap] veut rejoindre le Komintern"
+kmt.49.d:0 "Nos camarades du PCC ont réalisé des progrès considérables. Ils sont désormais vraiment prêts à rejoindre la révolution mondiale."
+kmt.49.a:0 "Un ajout bienvenu."
+kmt.49.b:0 "Non ! Mao est un opportuniste gauchiste !"
+
+kmt.52.t:0 "[FROM.getNameDefCap] exige un territoire"
+kmt.52.d:0 "Après avoir revendiqué ces terres, [FROM.GetNameDef] exige maintenant qu’elles leur soient remises sans condition."
+kmt.52.a:0 "Nous n’aurons aucune chance face à toute leur puissance."
+kmt.52.b:0 "Vils [FROM.getAdjective] cupides ! Ils n’auront pas un pouce !"
+
+kmt.53.t:0 "Cœurs restitués"
+kmt.53.d:0 "Nos territoires légitimes nous sont rendus !"
+kmt.53.a:0 "Nous devons désormais planifier de nouvelles expansions."
+
+kmt.54.t:0 "Exigence rejetée"
+kmt.54.d:0 "Ces barbares ont rejeté nos demandes pacifiques et nous ont forcés à employer la violence pour régler la situation."
+kmt.54.a:0 "Les barbares doivent être purgés !"
+
+kmt.56.t:0 "[FROM.getNameDefCap] exige un territoire"
+kmt.56.d:0 "Après avoir revendiqué ces terres, [FROM.GetNameDef] exige maintenant qu’elles leur soient remises sans condition."
+kmt.56.a:0 "Nous n’aurons aucune chance face à toute leur puissance."
+kmt.56.b:0 "Vils [FROM.getAdjective] cupides ! Ils n’auront pas un pouce !"
+
+kmt.57.t:0 "Cœurs restitués"
+kmt.57.d:0 "Nos territoires légitimes nous sont rendus !"
+kmt.57.a:0 "Nous devons désormais planifier de nouvelles expansions."
+
+kmt.58.t:0 "Exigence rejetée"
+kmt.58.d:0 "Ces barbares ont rejeté nos demandes pacifiques et nous ont forcés à employer la violence pour régler la situation."
+kmt.58.a:0 "Les barbares doivent être purgés !"
+
+kmt.62.t:0 "Accord franco-chinois"
+kmt.62.d:0 "Après la guerre, des responsables chinois nous contactent pour discuter du sort de Guangzhouwan."
+kmt.62.a:0 "Ils ont tant sacrifié durant la guerre ; considérons cela comme une compensation."
+kmt.62.b:0 "La France en est le propriétaire !"
+
+kmt.63.t:0 "La France refuse de rendre Guangzhouwan"
+kmt.63.d:0 "Les Français ont insisté pour que Guangzhouwan reste une concession française."
+kmt.63.a:0 "Sales porcs !"
+
+kmt.64.t:0 "L’inarrêtable armée chinoise"
+kmt.64.d:0 "Toutes nos terres en Asie sont tombées entre les mains des Chinois durant la guerre actuelle ; nous devrions envisager de leur céder toutes nos possessions asiatiques en guise d’offre de paix avant qu’ils ne débarquent sur notre sol natal !"
+kmt.64.a:0 "Hissons le drapeau blanc..."
+kmt.64.b:0 "La France se battra jusqu’au dernier !"
+
+kmt.65.t:0 "La France propose la paix"
+kmt.65.d:0 "Craignant que nous mettions le pied sur leur sol national, les officiels français nous ont proposé une offre de paix, abandonnant toutes leurs possessions en Asie."
+kmt.65.a:0 "Ne soyons pas gourmands ; acceptons l’offre."
+kmt.65.b:0 "Leur nation doit être anéantie !"
+
+kmt.66.t:0 "Offre rejetée"
+kmt.66.d:0 "Les Chinois ont rejeté notre offre de paix ; désormais, nous devons nous battre jusqu’au bout."
+kmt.66.a:0 "Merde."
+
+kmt.67.t:0 "Déclaration conjointe sino-britannique"
+kmt.67.d:0 "Notre domination sur Hong Kong a pris fin ; il est temps de restituer Hong Kong aux Chinois."
+kmt.67.a:0 "Un accord est un accord."
+kmt.67.b:0 "Hong Kong restera dans l’Empire !"
+
+kmt.68.t:0 "Les Britanniques rompent leur promesse"
+kmt.68.d:0 "Les Britanniques ont refusé de restituer Hong Kong après leurs 99 ans de domination conformément au traité de Nankin. Cette humiliation ne sera pas oubliée !"
+kmt.68.a:0 "Sales porcs !"
+
+kmt.69.t:0 "Le retour de Macao ?"
+kmt.69.d:0 "Bien que nous ayons redéfini Macao comme un « territoire chinois sous administration portugaise (temporaire) » en 1974, les Chinois vont bientôt le reprendre. Certains de nos officiels affirment que Macao devrait rester un territoire portugais quoi qu’il arrive."
+kmt.69.a:0 "Ces officiels sont fous."
+kmt.69.b:0 "Le Portugal est fort ! Macao redeviendra une terre portugaise légitime !"
+
+kmt.70.t:0 "Le Portugal refuse de rendre Macao"
+kmt.70.d:0 "Le gouvernement portugais a refusé de restituer Macao !"
+kmt.70.a:0 "Nous leur montrerons les conséquences."
+
+kmt.71.t:0 "Guangzhouwan restitué"
+kmt.71.d:0 "Guangzhouwan est revenu à son légitime propriétaire !"
+kmt.71.a:0 "Hourra !"
+
+kmt.72.t:0 "Hong Kong restitué"
+kmt.72.d:0 "Hong Kong est revenu à son légitime propriétaire !"
+kmt.72.a:0 "Hourra !"
+
+kmt.73.t:0 "Macao restitué"
+kmt.73.d:0 "Macao est revenu à son légitime propriétaire !"
+kmt.73.a:0 "Hourra !"
+
+kmt.74.t:0 "[FROM.GetNameDefCap] exige la soumission"
+kmt.74.d:0 "[FROM.GetNameDefCap] a envoyé un ultimatum à tous les seigneurs de guerre pour exiger une soumission immédiate. [Root.GetLeader] a tenu une réunion à huis clos avec ses officiers de confiance pendant des heures depuis qu’il a reçu l’injonction.\n\nQuelle sera la conclusion de la réunion ?"
+kmt.74.a:0 "Pour éviter un bain de sang, nous accepterons leur demande. Nous capitulerons."
+kmt.74.b:0 "Les tyrans ne prévaudront pas !"
+
+kmt.75.t:0 "Ultimatum – Le seigneur de guerre plie"
+kmt.75.d:0 "[From.GetLeader] a reconnu que nous résister ne mènerait à rien ; il s’est soumis pacifiquement."
+kmt.75.a:0 "Un pas vers l’unification !"
+
+kmt.752.t:0 "Ultimatum – Le seigneur de guerre refuse"
+kmt.752.d:0 "[From.GetLeader] a refusé de se soumettre. Il ose même prétendre que nous sommes les véritables « tyrans » !"
+kmt.752.a:0 "Comment osent-ils !"
+
+kmt_lzr_join:0 "Li Zongren rejoindra notre armée"
+kmt_yxs_join:0 "Yan Xishan rejoindra notre armée"
+kmt_ly_join:0 "Long Yun rejoindra notre armée"
+
+kmt.93.t:0 "Pression chinoise"
+kmt.93.d:0 "Les Chinois nous mettent une forte pression ces derniers temps ; nous devons choisir entre nous tourner vers la démocratie ou la destruction de notre nation !"
+kmt.93.a:0 "Nous devons préserver l’existence de notre nation !"
+kmt.93.b:0 "La démocratie n’est qu’une autre forme de tyrannie !"
+
+kmt.94.t:0 "Le Sinkiang adopte la démocratie"
+kmt.94.d:0 "Sous notre pression récente, le Sinkiang a enfin compris l’avenir radieux qui l’attend sous la démocratie. Et nous serons ceux qui leur tendront la main."
+kmt.94.a:0 "Potentia democratia !"  #Latin
+kmt.94.b:0 "Comme il se doit."
+
+kmt.95.t:0 "Le Sinkiang refuse de devenir démocratique"
+kmt.95.d:0 "Malgré la pression exercée, le gouvernement du Sinkiang refuse toujours de voir les bienfaits de la démocratie et rejette notre généreuse offre."
+kmt.95.a:0 "Il est temps d’opter pour la manière forte."
+
+kmt.96.t:0 "Ultimatum de [CHI.GetLeader]"
+kmt.96.d:0 "[CHI.GetLeader] a exigé notre soumission immédiate. Il dit que si nous résistons, il y aura du sang versé. Après de longues heures de réunion à huis clos avec ses plus hauts responsables, [SIK.GetLeader] annonce que le peuple du Sinkiang sera protégé de..."
+kmt.96.a:0 "La guerre"
+kmt.96.b:0 "La tyrannie"
+
+kmt.97.t:0 "Le Sinkiang se soumet"
+kmt.97.d:0 "Après des décennies, [ROOT.GetNameDef] a enfin repris le contrôle du Sinkiang !"
+kmt.97.a:0 "La Chine s’agrandit !"
+
+kmt.98.t:0 "Ultimatum rejeté"
+kmt.98.d:0 "Le Sinkiang a refusé de se soumettre ; nous devons maintenant reprendre ce qui nous appartient par la force !"
+kmt.98.a:0 "Nous allons purger ces rebelles !"
+
+kmt.100.t:0 "Ultimatum de Chiang"
+kmt.100.t_2:0 "Exigence de la Chine"
+kmt.100.d:0 "Le gouvernement chinois nous a envoyé un ultimatum exigeant que nous restituions Guangzhouwan. Une action militaire est attendue si nous n’accédons pas à cette demande."
+kmt.100.a:0 "La paix est toujours la meilleure option."
+kmt.100.b:0 "Ils ne font pas le poids face à nous !"
+
+kmt.101.t:0 "Guangzhouwan restitué"
+kmt.101.d:0 "Guangzhouwan nous a été rendu ; les occidentaux ont eu raison de craindre notre puissance !"
+kmt.101.a:0 "Une décision sage."
+
+kmt.102.t:0 "Ultimatum rejeté"
+kmt.102.d:0 "Ces vils barbares occidentaux ont refusé de coopérer pacifiquement ! Le peuple de Guangzhouwan devra attendre encore un peu."
+kmt.102.a:0 "Leur arrogance causera leur perte !"
+
+kmt.103.d:0 "Le gouvernement chinois nous a envoyé un ultimatum exigeant la restitution de Macao. Une action militaire est attendue si nous n’accédons pas à cette demande."
+
+kmt.104.t:0 "Macao restitué"
+kmt.104.d:0 "Macao nous a été rendu ; les occidentaux ont eu raison de craindre notre puissance !"
+
+kmt.105.d:0 "Ces vils barbares occidentaux ont refusé de coopérer pacifiquement ! Le peuple de Macao devra attendre encore un peu."
+
+kmt.106.d:0 "Le gouvernement chinois nous a envoyé un ultimatum exigeant la restitution de Hong Kong. Une action militaire est attendue si nous n’accédons pas à cette demande."
+
+kmt.107.t:0 "Hong Kong restitué"
+kmt.107.d:0 "Hong Kong nous a été rendu ; les occidentaux ont eu raison de craindre notre puissance !"
+
+kmt.108.d:0 "Ces vils barbares occidentaux ont refusé de coopérer pacifiquement ! Le peuple de Hong Kong devra attendre encore un peu."
+
+kmt.109.t:0 "Offre de la Chine"
+kmt.109.d:0 "La Chine nous a proposé une aide en échange de la restitution du port de commerce que nous détenons à Guangzhouwan."
+kmt.109.a:0 "On n’a jamais trop d’aide."
+kmt.109.b:0 "Cela n’en vaut pas la peine."
+
+kmt.110.t:0 "Guangzhouwan restitué"
+kmt.110.d:0 "[From.GetNameDefCap] a accepté l’offre, et nous avons conclu un accord ; Guangzhouwan est désormais officiellement un territoire chinois, et ils reçoivent l’aide promise."
+kmt.110.a:0 "Le monde démocratique doit rester uni !"
+
+kmt.111.t:0 "[From.GetNameDefCap] a refusé"
+kmt.111.d:0 "Malgré notre générosité, le gouvernement [From.GetAdjective] a refusé notre offre et a décidé de se passer de notre aide."
+kmt.111.a:0 "Une grande déception."
+
+kmt.112.d:0 "La Chine nous a proposé une aide en échange de la restitution du port de commerce que nous détenons à Macao."
+
+kmt.113.t:0 "Macao restitué"
+kmt.113.d:0 "[From.GetNameDefCap] a accepté l’offre, et nous avons conclu un accord ; Macao est désormais officiellement un territoire chinois, et ils reçoivent l’aide promise."
+
+kmt.115.d:0 "La Chine nous a proposé une aide en échange de la restitution du port de commerce que nous détenons à Hong Kong."
+
+kmt.116.t:0 "Hong Kong restitué"
+kmt.116.d:0 "[From.GetNameDefCap] a accepté l’offre, et nous avons conclu un accord ; Hong Kong est désormais officiellement un territoire chinois, et ils reçoivent l’aide promise."
+
+kmt.122.t:0 "La Chine cherche un lien plus étroit avec nous"
+kmt.122.d:0 "Comme nous possédons maintenant Guangzhouwan, la Chine souhaite l’utiliser comme gage d’amitié et demande si nous pourrions le restituer afin d’approfondir la relation entre nos nations."
+kmt.122.a:0 "Un allié fort est toujours bienvenu."
+kmt.122.b:0 "Nous n’avons pas besoin d’eux ! Nous nous débrouillons très bien seuls."
+
+kmt.123.t:0 "La Chine exige Guangzhouwan"
+kmt.123.d:0 "La Chine affirme que Guangzhouwan est un espace vital nécessaire au peuple chinois, et doit donc être restitué."
+kmt.123.a:0 "Nous ne pouvons pas nous permettre une guerre avec eux."
+kmt.123.b:0 "Quelle absurdité."
+
+kmt.124.t:0 "La Chine occupe Guangzhouwan"
+kmt.124.d:0 "La Chine a envoyé des troupes à Guangzhouwan et l’a occupé peu après, déclarant ensuite qu’il était officiellement revenu sous domination chinoise. Cet acte d’agression a déclenché de vifs débats dans la nation."
+kmt.124.a:0 "Malgré l’humiliation, nous devons céder cette fois."
+kmt.124.b:0 "C’est clairement une invasion ! Nous devons préparer nos hommes à la guerre !"
+
+kmt.125.t:0 "Relation plus étroite avec [From.GetNameDef]"
+kmt.125.d:0 "Puisque le gouvernement [From.GetAdjective] a décidé de nous rendre Guangzhouwan, nous pouvons désormais améliorer nos relations."
+kmt.125.a:0 "Tout pour la gloire de la Mère Patrie !"
+
+kmt.126.t:0 "[From.GetNameDefCap] a refusé"
+kmt.126.d:0 "Le gouvernement [From.GetAdjective] a refusé de rendre Guangzhouwan malgré notre généreuse offre ; désormais, ils goûteront au « breuvage de punition »..."
+kmt.126.a:0 "Nul ne s’opposera à la Mère Patrie !"
+
+kmt.127.t:0 "[From.GetNameDefCap] a accepté"
+kmt.127.d:0 "[From.GetNameDefCap] a accepté notre demande de restitution de Guangzhouwan !"
+kmt.127.a:0 "La Mère Patrie accueille ses enfants !"
+
+kmt.128.t:0 "[From.GetNameDefCap] a refusé"
+kmt.128.d:0 "[From.GetNameDefCap] a rejeté notre demande de restitution de Guangzhouwan !"
+kmt.128.a:0 "La Mère Patrie le reprendra d’une façon ou d’une autre !"
+
+kmt.130.t:0 "La dénonciation de [From.GetNameDefCap]"
+kmt.130.d:0 "[From.GetNameDefCap] a trouvé des preuves que nous étions derrière le récent coup d’État raté à Guangzhouwan, et ils nous ont publiquement dénoncés !"
+kmt.130.a:0 "Nous leur rendrons la pareille ; cessons de commercer avec eux !"
+kmt.130.b:0 "Une nouvelle occasion pour nous d’annexer Guangzhouwan !"
+kmt.130.c:0 "Ignorons simplement cela."
+
+kmt.135.t:0 "La Chine cherche un lien plus étroit avec nous"
+kmt.135.d:0 "Comme nous possédons maintenant Macao, la Chine souhaite l’utiliser comme gage d’amitié et demande si nous pourrions le restituer afin d’approfondir la relation entre nos nations."
+kmt.135.a:0 "Un allié fort est toujours bienvenu."
+kmt.135.b:0 "Nous n’avons pas besoin d’eux ! Nous nous débrouillons très bien seuls."
+
+kmt.136.t:0 "La Chine exige Macao"
+kmt.136.d:0 "La Chine affirme que Macao est un espace vital nécessaire au peuple chinois, et doit donc être restitué."
+kmt.136.a:0 "Nous ne pouvons pas nous permettre une guerre avec eux."
+kmt.136.b:0 "Quelle absurdité."
+
+kmt.137.t:0 "La Chine occupe Macao"
+kmt.137.d:0 "La Chine a envoyé des troupes à Macao et l’a occupé peu après, déclarant ensuite qu’il était officiellement revenu sous domination chinoise. Cet acte d’agression a déclenché de vifs débats dans la nation."
+kmt.137.a:0 "Malgré l’humiliation, nous devons céder cette fois."
+kmt.137.b:0 "C’est clairement une invasion ! Nous devons préparer nos hommes à la guerre !"
+
+kmt.138.t:0 "Relation plus étroite avec [From.GetName]"
+kmt.138.d:0 "Puisque le gouvernement [From.GetAdjective] a décidé de nous rendre Macao, nous pouvons désormais améliorer nos relations."
+kmt.138.a:0 "Tout pour la gloire de la Mère Patrie !"
+
+kmt.139.t:0 "[From.GetName] a refusé"
+kmt.139.d:0 "Le gouvernement [From.GetAdjective] a refusé de rendre Macao malgré notre généreuse offre ; désormais, ils goûteront au « breuvage de punition »..."
+kmt.139.a:0 "Nul ne s’opposera à la Mère Patrie !"
+
+kmt.140.t:0 "[From.GetName] a accepté"
+kmt.140.d:0 "[From.GetName] a accepté notre exigence de retour de Macao !"
+kmt.140.a:0 "La Mère Patrie accueille ses enfants !"
+
+kmt.141.t:0 "[From.GetName] a refusé"
+kmt.141.d:0 "[From.GetName] a rejeté notre exigence de retour de Macao !"
+kmt.141.a:0 "La Mère Patrie le reprendra d’une manière ou d’une autre !"
+
+kmt.143.t:0 "La dénonciation de [From.GetName]"
+kmt.143.d:0 "[From.GetName] a découvert des preuves que nous sommes derrière le récent coup d’État manqué à Macao, et ils nous ont publiquement dénoncés !"
+kmt.143.a:0 "Nous rendrons la pareille, nous cesserons de commercer avec eux !"
+kmt.143.b:0 "Une nouvelle opportunité pour reprendre Macao !"
+kmt.143.c:0 "Ignorons simplement…"
+
+kmt.146.t:0 "Coup d’État réussi à [FROM.getName]"
+kmt.146.d_1:0 "Un récent coup d’État a renversé notre gouvernement local à [FROM.getName], un référendum a ensuite décidé du retour sous domination chinoise. Cependant, nos services de renseignement indiquent que ce coup a été orchestré par le gouvernement chinois.\n\nComment devons-nous réagir ?"
+kmt.146.d_2:0 "Notre coup d’État à [FROM.getName] a réussi. Le référendum organisé après l’installation d’un gouvernement pro-chinois a abouti au retour de Guangzhouwan. Pas de temps pour célébrer, les barbares doivent sûrement préparer des représailles."
+kmt.146.a:0 "Nous détruirons cette nation insolente immédiatement !"
+kmt.146.b:0 "L’apaisement apportera la paix pour nous deux…"
+kmt.146.c:0 "Restons sur nos gardes."
+
+kmt.147.t:0 "Coup d’État écrasé"
+kmt.147.d_1:0 "Un coup d’État a récemment été écrasé dans l’un de nos ports sous traité et ses environs. Bien qu’il n’ait pas causé de dégâts majeurs, certains pensent que le gouvernement [FROM.getAdjective] est derrière cette tentative pour reprendre la zone."
+kmt.147.d_2:0 "Notre coup d’État a lamentablement échoué. Nous devons effacer toute preuve qui pourrait nous relier à cette tentative et garder cela secret du public."
+kmt.147.a:0 "Nous devons dénoncer les [FROM.getAdjective] pour un acte aussi ignoble !"
+kmt.147.b:0 "Nous avons des affaires bien plus importantes qui requièrent notre attention."
+kmt.147.c:0 "Oh, pourquoi…"
+
+kmt.148.t:0 "[FROM.getNameDefCap] cherche des liens plus étroits avec nous"
+kmt.148.d:0 "Comme nous contrôlons un port vital sous traité, [FROM.getNameDefCap] veut l’utiliser comme gage d’amitié et demande si nous pourrions le restituer afin d’améliorer les relations entre nos nations."
+kmt.148.a:0 "Un allié puissant est toujours bienvenu"
+kmt.148.b:0 "Nous n’avons pas besoin d’eux ! Nous pouvons nous débrouiller seuls."
+
+kmt.149.t:0 "La Chine réclame Hong Kong"
+kmt.149.d:0 "La Chine affirme que Hong Kong est un espace vital nécessaire pour le peuple chinois, il doit donc être restitué."
+kmt.149.a:0 "Nous ne pouvons pas nous permettre une guerre contre eux"
+kmt.149.b:0 "Quelle absurdité."
+
+kmt.150.t:0 "La Chine occupe Hong Kong"
+kmt.150.d:0 "La Chine a envoyé des troupes à Hong Kong et l’a occupé peu après, déclarant ensuite son retour officiel sous domination chinoise. Cet acte d’agression a suscité de vifs débats dans la nation."
+kmt.150.a:0 "Malgré l’humiliation, nous devons céder cette fois."
+kmt.150.b:0 "C’est clairement une invasion ! Nous devons préparer nos hommes à la guerre !"
+
+kmt.151.t:0 "Relations renforcées avec [From.GetName]"
+kmt.151.d:0 "Maintenant que le gouvernement [From.GetAdjective] a décidé de nous rendre Hong Kong, nous pouvons avancer vers une amélioration de nos relations."
+kmt.151.a:0 "Tout pour la gloire de la Mère Patrie !"
+
+kmt.152.t:0 "[From.GetName] a refusé"
+kmt.152.d:0 "Le gouvernement [From.GetAdjective] a refusé de nous rendre Hong Kong malgré notre offre généreuse, ils devront désormais goûter à la « liqueur de punition »..."
+kmt.152.a:0 "Nul ne doit se dresser contre la Mère Patrie !"
+
+kmt.153.t:0 "[From.GetName] a accepté"
+kmt.153.d:0 "[From.GetName] a accepté notre exigence de retour de Hong Kong !"
+kmt.153.a:0 "La Mère Patrie accueille ses enfants !"
+
+kmt.154.t:0 "[From.GetName] a refusé"
+kmt.154.d:0 "[From.GetName] a rejeté notre exigence de retour de Hong Kong !"
+kmt.154.a:0 "La Mère Patrie le reprendra d’une manière ou d’une autre !"
+
+kmt.156.t:0 "La dénonciation de [From.GetName]"
+kmt.156.d:0 "[From.GetName] a découvert des preuves que nous sommes derrière le récent coup d’État manqué à Hong Kong, et ils nous ont publiquement dénoncés !"
+kmt.156.a:0 "Nous rendrons la pareille, nous cesserons de commercer avec eux !"
+kmt.156.b:0 "Une nouvelle opportunité pour reprendre Hong Kong !"
+kmt.156.c:0 "Ignorons simplement…"
+
+kmt.179.t:0 "Industrie améliorée"
+kmt.179.d:0 "Avec l’augmentation du nombre d’usines, la qualité des produits s’est également améliorée."
+kmt_incompetent_indus_tt:0 "Réduit la pénalité de l’§Yindustrie incompétente§!\nAjoute des emplacements de construction libres dans chaque État possédé."
+kmt.179.a:0 "Bientôt, notre puissance industrielle sera l’une des plus fortes !"
+kmt_incompetent_indus_remove_tt:0 "Supprime l’esprit national §YIndustrie incompétente§!\nAjoute 1 emplacement de construction libre dans chaque État possédé."
+
+kmt.186.t:0 "Le Kuomintang cherche la paix"
+kmt.186.d:0 "Avec l’invasion japonaise, [From.GetLeader] a décidé d’appeler [Root.GetLeader] à une négociation de paix afin qu’ils puissent se concentrer sur l’envahisseur japonais."
+kmt.186.a:0 "Il y aura la paix entre nous, mais nous ne rejoindrons pas leur guerre."
+kmt.186.b:0 "Après tout, nous sommes tous Chinois..."
+kmt.186.c:0 "Il n’y aura aucune paix entre nous !"
+kmt.186.e:0 "Nous pouvons nous allier aux Japonais !"
+
+kmt.187.t:0 "Paix !"
+kmt.187.d_1:0 "[From.GetLeader] a accepté une paix blanche, nous pouvons désormais nous concentrer sur les envahisseurs japonais."
+kmt.187.d_2:0 "[From.GetLeader] a accepté une paix blanche et nous a rejoints pour repousser les envahisseurs japonais !"
+kmt.187.a:0 "Nous pourrons toujours régler nos comptes plus tard."
+
+kmt.188.t:0 "[From.GetName] refuse la paix"
+kmt.188.d:0 "[From.GetLeader] a refusé la paix entre nous, [Root.GetLeader] est outré."
+kmt.188.a:0 "Ils seront effacés !"
+
+kmt.189.t:0 "[From.GetName] veut se battre à nos côtés"
+kmt.189.d:0 "[From.GetLeader], outré par les actions de [CHI.GetLeader], a décidé de lui donner une leçon à nos côtés."
+kmt.189.a:0 "La Sphère de coprospérité de la Grande Asie de l’Est s’agrandit !"
+kmt.189.b:0 "Ceux qui trahissent leur nation n’ont aucun honneur !"
+
+kmt.190.t:0 "[JAP.GetName] a accepté"
+kmt.190.d:0 "[JAP.GetName] a accepté notre offre, et nous allons désormais renverser [CHI.GetName] de son trône !"
+kmt.190.a:0 "Mort à [CHI.GetLeader] !"
+
+kmt.191.t:0 "[JAP.GetName] a refusé"
+kmt.191.d:0 "[JAP.GetName] a rejeté notre proposition et condamné notre action, déclarant que [Root.GetLeader] n’a aucun honneur."
+kmt.191.a:0 "Nous avons probablement irrité deux géants..."
+
+kmt.192.t:0 "[From.GetName] rejoint l’agression japonaise"
+kmt.192.d:0 "[From.GetLeader] a rejoint les Japonais dans l’invasion du territoire chinois !"
+kmt.192.a:0 "Hanjian ! Zougou !"  
+
+kmt.193.t:0 "Échec de la tentative de [From.GetName] de rejoindre le Japon"
+kmt.193.d:0 "Les renseignements indiquent que [From.GetLeader] a tenté de contacter les Japonais pour une action commune contre nous, mais a été repoussé et condamné par eux comme dépourvu d’honneur."
+kmt.193.a:0 "Les traîtres à la nation ne finiront pas bien."
+
+kmt_fascism_tp_728_coup_tt:0 "Un coup d’État sera lancé, plus de chances de succès si l’unité nationale est élevée."
+kmt_manpower_transfer_tt:0 "Transfert de 20 000 de main-d’œuvre"
+kmt_fascism_tp_728_inc_tt:0 "Guangzhouwan passera sous l’occupation de nos forces, ce qui pourrait déclencher une guerre."
+kmt_fascism_tp_729_inc_tt:0 "Macao passera sous l’occupation de nos forces, ce qui pourrait déclencher une guerre."
+kmt_fascism_tp_326_inc_tt:0 "Hong Kong passera sous l’occupation de nos forces, ce qui pourrait déclencher une guerre."
+
+kmt.197.t:0 "[FROM.GetName] améliore nos relations"
+kmt.197.d:0 "[FROM.GetLeader] tente d’améliorer nos relations en renonçant à ses revendications sur le Tibet. Nos officiels mettent en garde contre une ruse, mais la décision revient finalement à [TIB.GetLeader]."
+kmt.197.a:0 "Traite bien les autres, et les autres te traiteront bien."
+kmt.197.b:0 "[FROM.GetRulingParty] nous mènera à la grandeur !"
+kmt.197.c:0 "Nous ne tomberons pas dans un piège aussi naïf !"
+
+kmt.198.t:0 "[TIB.GetName] rejoint notre faction"
+kmt.198.d:0 "[TIB.GetLeader] a décidé que nous travaillerons ensemble pour un avenir meilleur."
+kmt.198.a:0 "Personne ne veut d’effusion de sang"
+
+kmt.199.t:0 "[TIB.GetName] devient notre marionnette"
+kmt.199.d:0 "[TIB.GetLeader] a décidé que [Root.GetRulingParty] les mènerait à la grandeur et a donc remis leurs affaires politiques entre nos mains."
+kmt.199.a:0 "Nous ne les décevrons pas"
+
+kmt.201.t:0 "[TIB.GetName] rejette notre bienveillance"
+kmt.201.d:0 "[TIB.GetLeader] considère notre geste d’amitié comme une pathétique ruse et a refusé toute discussion supplémentaire sur le sujet."
+kmt.201.a:0 "Pourquoi refusent-ils de voir la raison !"
+
+kmt.203.t:0 "L’ennemi approche de [KMT_treasure_state.GetName]"
+kmt.203.d:0 "Notre ennemi se rapproche dangereusement de [KMT_treasure_state.GetName], où sont conservés nos trésors nationaux. S’ils les découvrent, ils pourraient leur causer des dommages irréparables. Nous devons les préserver et les envoyer dans un endroit plus sûr !"
+kmt.203.a:0 "Cela peut être utilisé pour renforcer le moral de nos soldats."
+kmt.203.b:0 "Nous devons préserver ces artefacts !"
+
+kmt.204.t:0 "Artefacts pillés"
+kmt.204.d:0 "Notre incapacité à transférer immédiatement les artefacts a entraîné leur pillage par l’ennemi. On raconte que certains ont été brisés en morceaux plus petits pour un transport plus facile. Ces nouvelles ont porté un coup terrible à notre nation et au moral du peuple."
+kmt.204.a:0 "Comment ont-ils pu !"
+KMT_will_be_destination_tt:0 "Deviendra le nouvel emplacement des artefacts\n"
+
+kmt.208.t:0 "Solde pour l’armée communiste"
+kmt.208.d:0 "L’Armée de la Huitième Route et la Nouvelle Quatrième Armée ont largement contribué à notre guerre contre les Japonais. Cependant, nous n’avons pas assez d’argent pour leur verser toute la solde qu’ils méritent."
+kmt.208.a:0 "Nous imprimerons plus de Yuan-or pour calmer la situation."
+kmt.208.b:0 "C’EST notre armée qui a tout fait, les cocos ne méritent pas d’être payés !"
+kmt_probable_inflation:0 "§RCela entraînera une grave inflation car nous n’avons pas d’or supplémentaire en garantie !§!"
+
+kmt.209.t:0 "L’inflation frappe"
+kmt.209.d:0 "Notre assouplissement monétaire a provoqué une grave inflation. Nous perdons désormais le soutien des citoyens, surtout de la classe moyenne. Certains de nos soldats désertent même pour rejoindre les communistes !"
+kmt.209.a:0 "On aurait dû mieux prévoir…"
+
+kmt.210.t:0 "[CHI.GetRulingParty] refuse de verser la solde"
+kmt.210.d:0 "[CHI.GetRulingParty] affirme que nos soldats n’ont rien fait durant la guerre pour mériter leur solde."
+kmt.210.a:0 "C’est scandaleux !"
+
+kmt.212.t:0 "La partition du Yangzi"
+kmt.212.d:0 "L’armée du [CHI.GetRulingParty] est au bord de la défaite, mais nous avons des difficultés à traverser le Yangzi. [CHI.GetRulingParty] profite de cette situation et propose une partition de la Chine, le fleuve servant de frontière."
+kmt.212.a:0 "Leur défaite n’est qu’une question de temps, nous pouvons attendre."
+kmt.212.b:0 "Ils sont à l’agonie, nous ne devons pas leur laisser le temps de se relever !"
+
+kmt.213.t:0 "[PRC.GetName] accepte la partition"
+kmt.213.d:0 "[PRC.GetName] a accepté notre proposition de partition de la Chine en utilisant le Yangzi comme frontière."
+kmt.213.a:0 "Une paix factice..."
+kmt_yangtze_partition_tt_prc:0 "Nous prendrons les États chinois au nord du Yangzi, et ils prendront ceux au sud."
+
+kmt.214.t:0 "[PRC.GetName] rejette la partition"
+kmt.214.d:0 "[PRC.GetName] a rejeté notre proposition de partition de la Chine le long du Yangzi."
+kmt.214.a:0 "Nous devons chercher un autre moyen d’assurer notre survie !"
+
+kmt.217.t:0 "Statu quo"
+kmt.217.d:0 "Le statu quo dans la guerre actuelle a créé une trêve illusoire entre nous et les communistes."
+kmt.217.a:0 "Nous ne devons pas baisser notre garde !"
+
+kmt.218.t:0 "Désaccord sur l’endroit à fortifier"
+kmt.218.d:0 "Certains de nos généraux et von Falkenhausen ont des opinions différentes sur l’endroit où concentrer nos efforts de fortification. Tous s’accordent à dire que Shanghai doit être la priorité, mais divergent sur l’invasion japonaise venant du nord. Certains généraux suggèrent de tenir Pékin jusqu’au dernier homme, tandis que von Falkenhausen estime que les plaines du nord donneront un énorme avantage aux troupes mécanisées japonaises. Il recommande donc de fortifier le long du fleuve Jaune.\n\nQui devons-nous écouter ?"
+kmt.218.a:0 "Pékin ne doit pas tomber !"
+kmt.218.b:0 "Alexander a raison, nous pouvons utiliser le fleuve Jaune comme barrière naturelle."
+KMT_fortify_land_hn_tt:0 "Ajoute §Y9 fortifications terrestres§! le long du fleuve Jaune dans le §YHenan§!\n"
+KMT_fortify_land_sd_tt:0 "Ajoute §Y9 fortifications terrestres§! le long du fleuve Jaune dans le §YShandong§!\n"
+
+kmt.220.t:0 "Montée d’une faction pro-japonaise en [CHI.GetName]"
+kmt.220.d:0 "Récemment, des officiels pro-japonais ont gagné du terrain dans le gouvernement [CHI.GetRulingParty] de [CHI.GetName]. Si nous leur apportons notre soutien, nous pourrions avoir la Chine comme alliée sans guerre et accéder à ses ressources."
+kmt.220.a:0 "Cela nous épargnera des balles et des vies."
+kmt.220.b:0 "Ils ne font que préserver indirectement leur pathétique nation."
+
+kmt.221.t:0 "Un diplomate de [CHI.GetName]"
+kmt.221.d_1:0 "Un diplomate de [CHI.GetName] est arrivé à notre cour et a longuement présenté l’idéologie du pan-asianisme. Après son exposé, les vestiges du Kodoha ont regagné un soutien public. Cela met la Toseiha dans une situation difficile."
+kmt.221.d_2:0 "Un diplomate de [CHI.GetName] est arrivé à notre cour et a présenté l’idéologie du pan-asianisme. Après son exposé, les membres du Kodoha ont rédigé une proposition d’alliance sino-japonaise."
+kmt.221.a:0 "Adoptons cette nouvelle idée et suivons nos frères chinois."
+kmt.221.b:0 "Nous conduirons l’Asie à la gloire."
+kmt.221.c:0 "Cette nouvelle idée doit être arrêtée !"
+
+kmt.222.t:0 "[JAP.GetName] rejette la nouvelle idée"
+kmt.222.d:0 "[JAP.GetLeader] a rejeté la nouvelle idée du pan-asianisme et éliminé les Kodoha qui la soutenaient. Nos efforts pour former une alliance sino-japonaise ont échoué."
+kmt.222.a:0 "Si seulement je vivais à une époque plus éclairée…"
+
+kmt.224.t:0 "[From.GetName] demande de l’aide pour l’industrie navale"
+kmt.224.d:0 "Nos frères chinois nous demandent de partager certaines de nos techniques de construction navale, afin qu’ils puissent produire une meilleure flotte."
+kmt.224.a:0 "Les Asiatiques doivent s’entraider"
+kmt.224.b:0 "Les technologies [Root.GetAdjective] nous appartiennent, pas à eux !"
+
+kmt.225.t:0 "[From.GetName] accorde son aide"
+kmt.225.d:0 "[From.GetName] nous a accordé son aide pour notre industrie navale."
+kmt.225.a:0 "Construisons des navires !"
+
+kmt.226.t:0 "[From.GetName] refuse son aide"
+kmt.226.d:0 "[From.GetName] a refusé de nous aider dans notre industrie navale."
+kmt.226.a:0 "Maudits soient-ils !"
+
+kmt.233.t:0 "[CHI.GetName] demande notre intervention"
+kmt.233.d:0 "Étant donné nos bonnes relations avec [CHI.GetName] et [JAP.GetName] dans notre faction, [CHI.GetLeader] a demandé que nous intervenions dans leur conflit actuel et que nous calmions l’agression de [JAP.GetName]."
+kmt.233.a:0 "Comme stipulé dans l’amitié sino-allemande."
+kmt.233.b:0 "Nous sommes trop occupés pour le moment, les Chinois sont seuls."
+
+kmt.234.t:0 "Intervention [GER.GetAdjective]"
+kmt.234.d:0 "[GER.GetLeader] a envoyé une lettre officielle à [Root.GetLeader] déclarant que nous devons immédiatement arrêter notre agression envers [CHI.GetName]."
+kmt.234.a:0 "En y repensant, envahir la Chine n’est peut-être pas aussi bénéfique que prévu."
+kmt.234.b:0 "Au diable ces Allemands."
+
+kmt.235.t:0 "[GER.GetName] a refusé d’intervenir"
+kmt.235.d:0 "Ayant trop à gérer en ce moment, [Ger.GetLeader] a refusé d’intervenir dans notre conflit actuel avec les Japonais."
+kmt.235.a:0 "Quel dommage."
+
+kmt.236.t:0 "Paix avec [JAP.GetName]"
+kmt.236.d:0 "Après l’intervention allemande, les troupes japonaises se retirent désormais des régions occupées. Cependant, elles refusent toujours de nous rendre la Mandchourie."
+kmt.236.a:0 "Ils verront bien."
+kmt.236.b:0 "De vrais artisans de la paix, voilà ce que nous sommes !"
+
+kmt.237.t:0 "Paix entre [CHI.GetName] et [JAP.GetName]"
+kmt.237.d:0 "Après l’intervention allemande, les troupes japonaises se retirent désormais des régions occupées. Cependant, elles refusent toujours de nous rendre la Mandchourie."
+kmt.237.d_2:0 "Après notre intervention, les troupes japonaises se retirent désormais des régions occupées."
+kmt.237.a:0 "Ils verront bien."
+kmt.237.b:0 "Une décision sage."
+
+kmt.238.t:0 "[JAP.GetName] refuse de se calmer"
+kmt.238.d:0 "Malgré l’intervention, le gouvernement japonais refuse toujours de déposer les armes."
+kmt.238.a:0 "C’est leur choix."
+kmt.238.b:0 "Nous ne tolérerons pas cette humiliation."
+
+kmt.240.t:0 "[CHI.GetName] demande encore notre intervention"
+kmt.240.d:0 "Après notre dernière intervention entre les Japonais et les Chinois, il reste encore beaucoup de frictions, notamment sur la question de la Mandchourie et de Taïwan. Pour cela, [CHI.GetLeader] a de nouveau envoyé une lettre officielle à [GER.GetLeader] demandant une nouvelle intervention."
+kmt.240.a:0 "Espérons que ce sera la dernière fois."
+
+kmt.241.t:0 "[GER.GetName] intervient de nouveau"
+kmt.241.d:0 "[GER.GetLeader] a de nouveau envoyé une lettre officielle à [Root.GetLeader], déclarant que nous devons rendre Taïwan et la Mandchourie à [CHI.GetName]."
+kmt.241.a:0 "Pour une paix durable en Asie."
+
+kmt.243.t:0 "[JAP.GetName] a fait des compromis"
+kmt.243.d:0 "Après mûre réflexion, [JAP.GetLeader] a décidé de rendre la Mandchourie et Taïwan à [CHI.GetName], et de dissoudre les gouvernements fantoches établis dans la région."
+
+kmt.245.t:0 "[JAP.GetName] refuse de rendre les territoires"
+kmt.245.d:0 "Malgré l’intervention, le gouvernement japonais refuse toujours de rendre les territoires occupés."
+
+kmt.247.t:0 "La Chine veut rejoindre notre faction"
+kmt.247.d:0 "Les dirigeants forts du RNGROC ont fait de grands progrès et proposent de rejoindre notre cause. La nation chinoise est prête à se battre pour le Reich."
+kmt.247.a:0 "Ein Verbündeter aus dem Osten"
+kmt.247.b:0 "Nein !"
+
+kmt.248.t:0 "Nos colonies en Asie se révoltent !"
+kmt.248.d:0 "Des révolutionnaires communistes dans nos colonies se sont soulevés et ont renversé le gouvernement colonial avant même que nous puissions réagir. Ils contrôlent désormais totalement la région et ont déclaré leur indépendance !"
+kmt.248.a:0 "Nous devons corriger cette erreur !"
+kmt.248.b:0 "Nous n’avons pas le temps pour ça…"
+
+kmt.249.t:0 "La persuasion de [CHI.GetLeader]"
+kmt.249.d:0 "[CHI.GetLeader] est venu rencontrer [Root.GetLeader] personnellement dans l’espoir que [Root.GetName] rejoigne leur guerre contre les Japonais."
+kmt.249.a:0 "Nous nous dresserons ensemble contre le fascisme !"
+kmt.249.b:0 "Nous ne voulons pas en faire partie."
+
+kmt.250.t:0 "[ENG.GetName] refuse"
+kmt.250.d:0 "[ENG.GetName] a refusé de rejoindre notre guerre contre les Japonais."
+kmt.250.a:0 "Si nous tombons, ils suivront bientôt."
+
+kmt.251.t:0 "Le nouvel agenda de [CHI.GetName]"
+kmt.251.d:0 "Après avoir pris connaissance du dernier agenda du gouvernement chinois, certains de nos officiels pensent que nous devrions abandonner nos colonies en Asie afin d’éviter d’être écrasés par les Chinois."
+kmt.251.a:0 "Nous devrions abandonner nos colonies."
+kmt.251.b:0 "Bah, n’ont-ils pas oublié comment nous avons repris Macao à l’époque ?"
+
+kmt.263.t:0 "Les Vietnamiens libérés"
+kmt.263.d:0 "La population vietnamienne des régions récemment conquises a été libérée et a rejoint leur nation."
+kmt.263.a:0 "L’Asie sera à nouveau grande !"
+
+kmt.264.t:0 "Les Malaisiens libérés"
+kmt.264.d:0 "La population malaisienne des régions récemment conquises a été libérée et a rejoint leur nation."
+
+kmt.265.t:0 "Les Indonésiens libérés"
+kmt.265.d:0 "La population indonésienne des régions récemment conquises a été libérée et a rejoint leur nation."
+
+kmt.266.t:0 "Offre d’outre-mer"
+kmt.266.d:0 "Avec la plupart des nations d’Asie libérées des colonisateurs occidentaux, des officiers chinois nous ont proposé de mettre fin à cette guerre sanglante une bonne fois pour toutes."
+kmt.266.a:0 "La guerre ? À quoi ça sert ?"
+kmt.266.b:0 "Pour qui nous prennent-ils ?"
+
+kmt.267.t:0 "Soutien japonais"
+kmt.267.d:0 "Nos efforts actuels pour soutenir une faction pro-japonaise dans notre gouvernement ont été aidés par le gouvernement japonais. Nos relations se sont améliorées."
+kmt.267.a:0 "Ensemble, nous mènerons l’Asie à la gloire !"
+
+kmt.268.t:0 "Le Japon montre de l’hostilité"
+kmt.268.d:0 "Nos efforts actuels pour soutenir une faction pro-japonaise dans notre gouvernement ont entraîné une réponse hostile du Japon. Ils affirment que nous essayons seulement d’éviter la guerre plutôt que de vouloir réellement collaborer avec eux, et que nous n’avons aucun honneur."
+kmt.268.a:0 "Ils sont trop étroits d’esprit."
+
+kmt.269.t:0 "Libérer la Malaisie ?"
+kmt.269.d:0 "Maintenant que le gouvernement colonial britannique en Malaisie a capitulé, nous pouvons libérer le peuple malaisien de ses oppresseurs britanniques."
+kmt.269.a:0 "Les Malaisiens dirigeront désormais leur propre nation et ne seront plus opprimés par les Britanniques !"
+
+kmt.270.t:0 "Libérer l’Indonésie ?"
+kmt.270.d:0 "Maintenant que le gouvernement colonial néerlandais en Indonésie a capitulé, nous pouvons libérer le peuple indonésien de ses oppresseurs néerlandais."
+kmt.270.a:0 "Les Indonésiens dirigeront désormais leur propre nation et ne seront plus opprimés par les Néerlandais !"
+
+kmt.275.t:0 "Le retour du monarchisme"
+kmt.275.d:0 "Après avoir déclaré leur indépendance de [JAP.GetName], [MAN.GetLeader] a proclamé le retour de [MAN.GetNameDef].\n\nAyant déjà libéré la Chine du monarchisme, comment devons-nous traiter ce soi-disant « [MAN.GetNameDef] » ?"
+kmt.275.a:0 "Mort aux oppresseurs !"
+kmt.275.b:0 "Peut-être pouvons-nous coexister après tout."
+kmt.275.c:0 "Nos priorités sont ailleurs."
+
+kmt.276.t:0 "[From.GetName] cherche un pacte de non-agression"
+kmt.276.d:0 "Un diplomate de [From.GetName] a apporté des documents pour un pacte de non-agression entre notre empire et leur nation."
+kmt.276.a:0 "Cela signifie que notre force est reconnue par les autres."
+kmt.276.b:0 "L’empire les dominera tous !"
+
+kmt.277.t:0 "Pacte signé"
+kmt.277.d:0 "[From.GetName] a signé le pacte de non-agression."
+kmt.277.a:0 "Cela apportera-t-il vraiment la paix ?"
+
+kmt.278.t:0 "Pacte rejeté"
+kmt.278.d:0 "[From.GetName] a refusé de signer le pacte de non-agression."
+kmt.278.a:0 "Nous devons préparer nos hommes !"
+
+kmt.272.t:0 "La guerre !"
+kmt.272.d:0 "Notre gouvernement a jugé que la guerre en cours est la question la plus importante. Avec l’attention des officiels portée sur la guerre, la corruption est devenue moins sévère."
+kmt.272.a:0 "Nous devrions trouver un moyen d’éradiquer complètement la corruption."
+
+kmt.273.t:0 "Retour de la corruption au niveau d’avant-guerre"
+kmt.273.d:0 "Avec la fin de la guerre, les officiels ont recommencé à exploiter le peuple."
+
+kmt.279.t:0 "Élections"
+kmt.279.d:0 "Nos premières élections ont lieu, et la majorité du peuple a voté pour un changement de gouvernement. Cependant, certains souhaitent que le Kuomintang reste au pouvoir au lieu de la Ligue Démocratique de Chine."
+kmt.279.a:0 "L’orientation du Kuomintang fera de la Chine une grande nation."
+kmt.279.b:0 "La corruption du Kuomintang est bien connue, nous n’avons pas besoin d’une telle « orientation »."
+
+kmt.78.d:0 "Long Yun est tombé prisonnier après la destruction de sa clique. Nous devons maintenant décider de son sort. Certains disent qu’il pourrait être une recrue bienvenue dans nos rangs, d’autres qu’il devrait être exécuté pour servir d’exemple."
+kmt.77.d:0 "L’ancien dirigeant de la clique du Guangxi, Li Zongren, est tombé prisonnier après la destruction de sa clique. Nous devons maintenant décider de son sort. Certains disent qu’il pourrait être une recrue bienvenue dans nos rangs, d’autres qu’il devrait être exécuté pour servir d’exemple."
+kmt.76.d:0 "L’ancien « roi du Shanxi » est tombé prisonnier après la destruction de sa clique. Nous devons maintenant décider de son sort. Certains disent qu’il pourrait être une recrue bienvenue dans nos rangs, d’autres qu’il devrait être exécuté pour servir d’exemple."
+
+kmt.284.t:0 "Les failles de notre armée"
+kmt.284.d:0 "En continuant d’observer les performances de nos armées sur le terrain, il est devenu clair que leurs faiblesses apparaissent de plus en plus évidentes pour l’ennemi. Si nous continuons à les ignorer, la survie de notre nation dans les tempêtes à venir est très incertaine."
+kmt.284.a:0 "Nous devons agir."
+
+kmt.285.t:0 "Armée améliorée"
+kmt.285.d:0 "Les réformes récentes de notre armée portent leurs fruits, elle est désormais améliorée."
+kmt.285.a:0 "C’est bon de voir des progrès."
+
+kmt.286.t:0 "Les Chemises bleues"
+kmt.286.d:0 "Les Chemises bleues et leur agence subordonnée, le BIS (Bureau of Investigation and Statistic), ont joué un rôle important dans notre ascension au pouvoir. Il serait naturel de leur donner plus de pouvoir en récompense de leurs efforts. Cependant, inquiet de leur capacité à se retourner contre lui, [Root.GetLeader] semble avoir un autre plan en tête…"
+kmt.286.a:0 "On peut leur faire confiance"
+kmt.286.b:0 "Dissoudre les Chemises bleues !"
+
+kmt.287.t:0 "Plan de raid aérien"
+kmt.287.d:0 "[Root.GetLeader] a exprimé son souhait de mener un raid aérien sur les îles japonaises lors d’une réunion récente avec l’état-major interarmées à la Maison Blanche. Si le raid réussit, il pourrait grandement remonter le moral de notre armée et venger les morts de Pearl Harbor."
+kmt.287.a:0 "Préparez-vous."
+kmt.287.b:0 "Trop risqué"
+
+kmt.288.t:0 "Raid aérien réussi"
+kmt.288.d:0 "Le raid dirigé par James H. Doolittle s’est révélé être un succès, bien que la plupart des B-25 se soient écrasés ou aient été abandonnés en Chine. Certaines usines japonaises ont été lourdement bombardées. Cela a considérablement remonté le moral de nos soldats."
+kmt.288.a:0 "Super !"
+
+kmt.289.t:0 "Échec"
+kmt.289.d:0 "Le raid aérien sur Tokyo a été désastreux : notre porte-avions a été détecté par le radar ennemi, ce qui a alerté l’adversaire. Nos bombardiers ont essuyé de lourds tirs antiaériens et beaucoup ont été abattus. James H. Doolittle a été confirmé KIA."
+kmt.289.a:0 "Ce n’est pas bon."
+
+kmt.290.t:0 "Raid aérien [From.GetAdjective]"
+kmt.290.d:0 "Un raid aérien mené par les [From.GetAdjective] a semé le chaos dans la région de [Root.Capital.GetName]. Des usines ont été détruites et des civils blessés."
+kmt.290.a:0 "Bakayarou !"
+
+kmt.291.t:0 "Pilotes [From.GetAdjective] atterris"
+kmt.291.d:0 "Certains pilotes [From.GetAdjective] ont atterri dans nos territoires après un raid aérien sur le Japon. Nos troupes les ont trouvés sur le terrain et les officiels discutent de la manière de gérer la situation."
+kmt.291.a:0 "Les aider à retourner à [From.GetName]"
+kmt.291.b:0 "Détenez ces porcs blancs !"
+
+kmt.292.t:0 "Atterrissage [From.GetAdjective] à Vladivostok"
+kmt.292.d:0 "Un pilote de [From.GetNameDef] a atterri à Vladivostok après un raid aérien sur les îles japonaises. La milice locale l’a placé en détention. Si nous renvoyons le pilote à [From.GetNameDef], cela pourrait détériorer nos relations avec le Japon. Comment devons-nous gérer ce problème ?"
+kmt.292.a:0 "Garder le pilote en détention"
+kmt.292.b:0 "Aider le pilote à retourner à [From.GetName]"
+kmt.292.c:0 "Remettre le pilote au Japon"
+
+kmt.293.t:0 "Raid aérien [From.GetAdjective]"
+kmt.293.d:0 "Aujourd’hui, un raid aérien dirigé par les [From.GetAdjective] a semé une certaine panique dans la population. Cependant, leurs efforts furent vains : nos troupes bien préparées ont abattu leurs avions avec facilité. Nous avons subi peu ou pas de pertes. Cette opération pathétique est une preuve claire que nous gagnerons la guerre contre ces porcs barbares !"
+kmt.293.a:0 "Muda muda muda !"
+
+kmt.294.t:0 "[From.GetAdjective] aide nos pilotes"
+kmt.294.d:0 "Le gouvernement [From.GetAdjective] a offert son aide à nos pilotes atterris dans leur territoire, et ils rentreront bientôt chez eux. Leur action améliorera sûrement les relations entre nos deux nations."
+kmt.294.a:0 "Ils sont trop gentils."
+
+kmt.295.t:0 "[From.GetName] détient nos pilotes"
+kmt.295.d:0 "Nos pilotes atterris dans le territoire [From.GetAdjective] ont été détenus par [From.GetName]. Ils refusent également toute négociation."
+kmt.295.a:0 "Que Dieu soit avec eux."
+
+kmt.296.t:0 "[From.GetName] aide les pilotes [USA.GetAdjective]"
+kmt.296.d:0 "[From.GetName] a aidé les pilotes [USA.GetAdjective] atterris à Vladivostok à retourner aux [USA.GetName], ce qui a détérioré nos relations."
+kmt.296.a:0 "Je savais que les barbares aident les barbares !"
+
+kmt.297.t:0 "[From.GetName] remet notre pilote au Japon"
+kmt.297.d:0 "Notre pilote qui avait atterri à Vladivostok a été remis à [JAP.GetName] par [From.GetName], ce qui a détérioré les relations entre nos deux nations."
+kmt.297.a:0 "Espérons qu’ils savent qu’ils aident le diable."
+
+kmt.298.t:0 "Pilote [USA.GetAdjective] de [From.GetName]"
+kmt.298.d:0 "[From.GetName] a décidé de nous remettre le pilote [USA.GetAdjective] qui avait atterri à Vladivostok. Cela doit être vu comme une preuve de confiance entre nos deux nations."
+kmt.298.a:0 "Accueillons notre « ami »."
+
+kmt.299.t:0 "Problèmes au Sichuan"
+kmt.299.d:0 "Des rapports de famine et de sécheresse au Sichuan commencent à apparaître dans les journaux. Certaines organisations collectent des fonds pour aider les victimes. Si nous aidons le peuple du Sichuan, cela pourrait nous donner un pouvoir politique supplémentaire dans la région."
+kmt.299.a:0 "Je m’en fiche complètement."
+kmt.299.b:0 "Envoyer de l’aide."
+
+kmt.300.t:0 "Chute de [From.GetName]"
+kmt.300.d:0 "Avec la capitulation de [From.GetName] dans la guerre en cours, nous pouvons encore centraliser notre pouvoir dans la région de Chine en « incorporant » leurs forces restantes aux nôtres..."
+kmt.300.a:0 "Ils devraient être reconnaissants que nous leur offrions des postes dans notre armée !"
+
+kmt.301.t:0 "La Seconde Guerre civile chinoise"
+kmt.301.d_1:0 "La Seconde Guerre civile chinoise entre [PRC.GetRulingParty] et [CHI.GetRulingParty] a éclaté. Devons-nous aider [PRC.GetRulingParty] à vaincre la tyrannie du [CHI.GetRulingParty] ?"
+kmt.301.d_2:0 "La Seconde Guerre civile chinoise entre [CHI.GetRulingParty] et [PRC.GetRulingParty] a éclaté. Devons-nous aider [CHI.GetRulingParty] à vaincre les bandits communistes ?"
+kmt.301.a:0 "Bien sûr que nous devons !"
+kmt.301.b:0 "Je préfère jouer le rôle du pêcheur dans ce conflit."
+
+kmt.302.t:0 "[From.GetName] rejoint notre cause"
+kmt.302.d_1:0 "[From.GetName] a décidé de rejoindre notre camp pour vaincre les bandits communistes !"
+kmt.302.d_2:0 "[From.GetName] a décidé de rejoindre notre camp pour libérer les paysans chinois de la tyrannie du [CHI.GetRulingParty] !"
+kmt.302.a:0 "Mort aux cocos !"
+kmt.302.b:0 "Debout ! Vous qui refusez d’être esclaves !"
+
+kmt.303.t:0 "Le sort de Puyi"
+kmt.303.d:0 "Aisin Gioro Puyi a été retrouvé dans une gare alors qu’il attendait le train prévu pour sa fuite. Après que ses gardes du corps japonais aient été tués, il s’est rendu à notre armée. Que devons-nous faire de ce « dernier empereur » ?"
+kmt.303.a:0 "Épargnez-le, ce n’est qu’un pion."
+kmt.303.b:0 "Meurs, traître !"
+
+kmt.320.t:0 "Soutien [SOV.GetAdjective]"
+kmt.320.d:0 "[SOV.GetName] nous a envoyé plus d’équipement pour nous aider à combattre notre ennemi !"
+kmt.320.a:0 "Oura !"
+
+kmt.323.t:0 "Préparer Chongqing"
+kmt.323.a:0 "Nous allons maintenant prendre Chongqing"
+kmt.323.d:0 "Nankin est tombée aux mains de notre ennemi, nous devons trouver un autre lieu pour servir de quartier général. Chongqing sera préparée pour cette tâche.\n\nNous avons également appris que le général Liu Xiang est décédé de la maladie dont il souffrait."
+
+kmt.324.t:0 "Industrie relocalisée"
+kmt.324.d:0 "Suite à l’invasion japonaise, certaines machines et usines proches du front ont été transférées au Sichuan."
+kmt.324.a:0 "Elles devraient être en sécurité ici."
+KMT_will_die_if_nanking_fall_tt:0 "§RSi Nankin tombe, vous serez annexé par [CHI.GetName] sans condition.§!"
+
+kmt.325.t:0 "[KMT_central_gov_tag.GetName] attaqué !"
+kmt.325.d:0 "[KMT_central_gov_tag.GetName] a été attaqué par des envahisseurs étrangers, nous devrions leur prêter main forte !"
+kmt.325.a:0 "Nous les chasserons du sol chinois !"
+kmt.325.b:0 "Je pense qu’ils s’en sortiront sans nous."
+
+kmt.326.t:0 "[From.GetName] nous rejoint"
+kmt.326.d:0 "[From.GetName] nous a rejoints dans notre guerre contre les envahisseurs japonais !"
+
+kmt.330.t:0 "L’Allemagne rappelle sa mission militaire"
+kmt.330.d:0 "[GER.GetNameDef] a décidé de cesser son assistance militaire et de rappeler ses conseillers militaires. Comme nous ne pouvons pas les forcer à rester, nous sommes contraints de les voir partir et de perdre un précieux soutien."
+kmt.330.a:0 "L’armée poursuivra de toute façon sa reconstruction."
+
+kmt.331.d:0 "Nos conseillers militaires ont été rappelés de Chine et rentreront bientôt au pays."
+kmt.331.a:0 "Préparez-vous à les accueillir."
+
+kmt.332.t:0 "La Chine demande l’extension de notre mission militaire"
+kmt.332.d:0 "L’ambassadeur chinois nous a envoyé un communiqué demandant une implication plus importante de nos conseillers dans l’entraînement de l’Armée nationale chinoise. Nos conseillers militaires sont présents dans le pays depuis 1926. Accepter leur demande améliorerait grandement nos relations avec le gouvernement nationaliste chinois."
+kmt.332.a:0 "Envoyons plus de conseillers militaires."
+kmt.332.b:0 "Nous ne pouvons pas nous le permettre."
+
+kmt.333.t:0 "L’Allemagne élargit sa mission militaire"
+kmt.333.d:0 "Par décision directe de [GER.GetLeader], le gouvernement [GER.GetAdjective] a accepté d’augmenter le nombre de ses conseillers militaires. Une excellente nouvelle qui aidera à la restructuration de nos forces armées et rapprochera nos nations."
+kmt.333.a:0 "Envoyez-les aux QG de division."
+
+kmt.334.t:0 "L’Allemagne refuse d’élargir sa mission militaire"
+kmt.334.d:0 "Nous avons reçu un message laconique de notre ambassadeur en Allemagne indiquant que les [GER.GetAdjective] n’enverront pas plus de conseillers militaires."
+kmt.334.a:0 "Quelle déception."
+
+KMT_burma_rd_forts_tt:0 "§YAu lieu d’une usine civile, des fortifications sont construites le long de la frontière sud de l’État du Yunnan.§!"
+
+kmt.336.t:0 "Rencontre avec les communistes ?"
+kmt.336.d:0 "Avec la fin de la guerre contre les Japonais, nos objectifs ne sont plus alignés avec ceux des bandits communistes. Cependant, lancer immédiatement une offensive directe dans la situation actuelle pourrait nuire à notre réputation. Nous pourrions aussi bien organiser une rencontre avec [PRC.GetLeader] et attendre."
+kmt.336.a:0 "Envoyez quelqu’un à la réunion."
+kmt.336.b:0 "Nous les prendrons en embuscade à leur arrivée."
+kmt.336.c:0 "Nous coexisterons."
+kmt.336.e:0 "Qui se soucie d’ordures comme la « réputation » ?"
+
+kmt.337.t:0 "Une invitation"
+kmt.337.d:0 "[Root.GetLeader] a reçu une invitation du [From.GetRulingParty] pour une réunion. Il est dit que la rencontre portera sur l’avenir de la Chine et cherchera une solution plus pacifique à nos relations actuellement tendues. Cependant, certains pensent qu’il s’agit d’un piège destiné à éliminer [Root.GetLeader]."
+kmt.337.a:0 "Il n’y a rien à craindre."
+kmt.337.b:0 "Nous prendrons l’initiative et les attaquerons en embuscade."
+kmt.337.c:0 "Frappons-les maintenant, ils ne s’y attendront jamais !"
+
+kmt.339.t:0 "Embuscade !"
+kmt.339.d_rep_killed:0 "Les immondes ordures du [From.GetRulingParty] nous ont tendu une embuscade ! Ils avaient posté des gardes partout et ont ouvert le feu sur nos hommes dès notre entrée dans la salle de réunion. Heureusement, [Root.GetLeader] a survécu à l’embuscade avec de légères blessures causées par des balles perdues. [Root.GetLeader] est parvenu à embarquer dans un avion et à rentrer à [Root.Capital.GetName]. Le feu de la guerre civile s’est rallumé."
+kmt.339.d_fight:0 "Les ordures du [From.GetRulingParty] avaient eu la même idée que nous et avaient apporté des troupes armées sur place ! La salle de réunion et ses alentours sont devenus un champ de bataille lorsque les deux camps ont révélé leur véritable intention de s’éliminer mutuellement sur place. Le feu de la guerre civile s’est rallumé."
+kmt.339.a:0 "Mort à [From.GetLeader] !"
+
+kmt.340.d_rep_killed:0 "Notre embuscade a réussi et a éliminé de nombreux ennemis de l’État sur place. Cependant, leur dirigeant n’a subi que de légères blessures et a réussi à fuir en sécurité."
+kmt.340.d_fight:0 "Notre ennemi tentait aussi de nous tendre une embuscade ! Nos forces ont affronté les leurs et des combats ont éclaté dans la région. Nous devons organiser nos hommes et nous préparer à de nouvelles actions."
+kmt.340.a:0 "Peu importe, nous triompherons à la fin."
+
+kmt.341.t:0 "[From.GetName] accepte"
+kmt.341.d:0 "[From.GetLeader] a accepté notre invitation et nous a confirmé sa présence."
+kmt.341.a:0 "Nous verrons bien..."
+
+kmt.342.t:0 "[From.GetName] nous déclare la guerre"
+kmt.342.d_p:0 "[From.GetName] nous a déclaré la guerre ! Il semble qu’ils aient cessé de coopérer avec nous et veuillent nous éliminer une bonne fois pour toutes !"
+kmt.342.d_k:0 "[From.GetName] nous a déclaré la guerre ! Ces misérables bandits ont refusé la raison et révélé leur nature barbare !"
+kmt.342.a:0 "Nous le savions !"
+
+kmt.343.t:0 "La rencontre"
+kmt.343.d:0 "Des représentants des deux camps sont arrivés sur place. Que doivent faire nos représentants ?"
+kmt.343.a:0 "Gagner du temps pour nous préparer."
+kmt.343.b:0 "Chercher la collaboration"
+kmt.343.c:0 "Alors nous gagnerons aussi du temps..."
+
+kmt.344.d_stall:0 "Les gens soupçonnent désormais que les représentants du [From.GetRulingParty] cherchent en réalité à gagner du temps pour se préparer. Si tel est vraiment le cas, nous devons agir pour nous protéger."
+kmt.344.d_c:0 "Le [From.GetRulingParty] a exprimé son souhait d’établir un gouvernement conjoint. Devons-nous accepter leur offre et gouverner la Chine ensemble ?"
+kmt.344.a:0 "Prenons l’initiative et attaquons-les en premier !"
+kmt.344.b:0 "Un gouvernement conjoint semble une bonne idée."
+
+kmt.345.d:0 "[From.GetName] a lancé l’offensive et commence à nous attaquer !"
+
+kmt.346.t:0 "[From.GetName] a accepté"
+kmt.346.d:0 "[From.GetName] a accepté la mise en place d’un gouvernement conjoint."
+kmt.346.a:0 "C’est bon pour tout le monde"
+KMT_united_chinese_gov:0 "Gouvernement conjoint chinois"
+
+kmt.347.t:0 "Retraite à Taïwan ?"
+kmt.347.d:0 "La guerre actuelle ne se passe pas très bien pour nous, certains suggèrent que nous devrions nous replier sur Taïwan et préparer une contre-attaque à partir de là."
+kmt.347.a:0 "Ce n’est qu’une retraite tactique..."
+kmt.347.b:0 "Jamais !"
+
+kmt.348.t:0 "Partition du Yangtsé"
+kmt.348.d:0 "La guerre actuelle ne se passe pas bien pour nous, certains suggèrent que nous devrions offrir aux communistes une paix et diviser la Chine. Nous pourrions utiliser ce temps pour nous regrouper et les éliminer une fois notre armée prête à nouveau."
+kmt.348.a:0 "Ça me paraît bien."
+
+kmt.349.t:0 "[From.GetName] nous a abandonnés"
+kmt.349.d:0 "[From.GetLeader] a décidé de céder aux exigences [JAP.GetAdjective] et de nous abandonner."
+kmt.349.a:0 "Nous ne pouvons pas faire face à un mal aussi grand..."
+kmt.349.b:0 "Nous préférons mourir plutôt que devenir les pions d’un grand mal !"
+
+kmt.350.t:0 "La défiance de [From.GetName]"
+kmt.350.d:0 "[From.GetName] a décidé de rejeter notre occupation de leur territoire malgré la permission accordée par [CHI.GetLeader]."
+kmt.350.d_2:0 "[From.GetName] a choisi l’option sage de devenir notre pantin."
+kmt.350.a:0 "Bakamono ga ! Nihon no pawā wa sekaiichi !"  # Phrase volontairement laissée en japonais
+
+kmt.351.t:0 "[From.GetName] veut construire des fortifications dans nos territoires"
+kmt.351.d:0 "[From.GetName] tente d’envoyer des soldats et des ingénieurs militaires dans nos territoires afin de bâtir des fortifications pour repousser d’éventuels envahisseurs et empêcher qu’ils ne s’emparent de points stratégiques. Bien que cela puisse renforcer nos capacités locales de défense, leur permettre d’entrer sur notre domaine mettrait la position de [Root.GetLeader] en grand danger."
+kmt.351.a:0 "NON ! Ils peuvent construire leurs forts ailleurs !"
+kmt.351.b:0 "Pour le bien supérieur de la nation chinoise..."
+
+kmt.352.t:0 "Le conseil de [From.GetLeader]"
+kmt.352.d:0 "[From.GetLeader] a déclaré que [From.Capital.GetName] est actuellement dans un état très instable et a « recommandé » que nos hommes n’y aillent pas. [From.GetLeader] a aussi affirmé qu’ils construiraient les fortifications eux-mêmes. Cependant, nous savons tous pourquoi il veut garder nos hommes à la porte..."
+kmt.352.a:0 "Il met la nation entière en danger, nous devons nous en débarrasser !"
+kmt.352.b:0 "Nous ne devons pas pointer nos armes sur nos frères en ce temps de crise..."
+
+kmt.353.t:0 "Fortifications construites"
+kmt.353.d:0 "[From.GetLeader] a accueilli nos hommes lorsqu’ils sont entrés dans la province du Shandong pour construire les fortifications nécessaires à la survie de notre nation."
+kmt.353.a:0 "Bonne nouvelle."
+KMT_CQ_stall_time_tt:0 "§RIl n’y aura pas d’événements de suivi§!\n"
+PRC_stall_time_tt:0 "A choisi de gagner du temps lors d’une réunion d’après-guerre avec le [CHI.GetRulingParty]"
+
+kmt.355.t:0 "Conscription forcée"
+kmt.355.d:0 "Certains officiels ont eu l’idée de forcer les hommes, y compris les étudiants, à servir dans l’armée."
+kmt.355.a:0 "Un diamant brut ne brille pas."
+kmt.355.b:0 "Cela semble horrible."
+
+kmt.356.t:0 "Rencontre avec notre voisin"
+kmt.356.d:0 "Après certains événements récents, de nouveaux voisins ont émergé autour de nous. Nous pourrions bâtir une bonne relation avec eux et renforcer notre influence dans la région."
+kmt.356.a:0 "Ça me paraît bien."
+kmt.356.b:0 "Nous ferons mieux seuls."
+
+kmt.357.t:0 "Délégation [From.GetAdjective]"
+kmt.357.d:0 "[From.GetName] a envoyé une délégation pour rechercher une relation plus étroite avec nous."
+kmt.357.a:0 "Nous travaillerons ensemble"
+kmt.357.b:0 "Mieux vaut chercher protection sous l’ombre du géant."
+kmt.357.c:0 "Nous ne laisserons pas l’influence du diable s’étendre davantage !"
+
+kmt.358.t:0 "Plus forts ensemble"
+kmt.358.d:0 "[From.GetName] a accepté de coopérer avec nous."
+kmt.358.d_p:0 "[From.GetName] a décidé de chercher protection auprès de nous et a cédé une partie de son autonomie."
+kmt.358.a:0 "Une décision sage."
+
+kmt.359.t:0 "[From.GetName] a refusé"
+kmt.359.d:0 "[From.GetName] a décidé de décliner notre offre."
+kmt.359.a:0 "Nous devons sécuriser nos intérêts dans la région, même par la force !"
+
+##################################### NEWS EVENTS #############################3
+kns.1.t:0 "Guerre civile japonaise"
+kns.1.d:0 "Avec l’échec de la conquête de la Chine, le peuple japonais s’est soulevé. Ce revers majeur a donné l’occasion aux démocrates d’organiser une révolution pour renverser le gouvernement fasciste en place. Avec la guerre perdue et la dissidence grandissante, le rêve d’Hirohito n’est plus qu’une bulle éclatée.\n\nCertains alliés du Japon l’ont abandonné à son sort, car ils ne peuvent plus compter sur lui."
+kns.1.a:0 "C’est une défaite totale pour ces salauds de fascistes !"
+kns.1.b:0 "Développement intéressant."
+kns.1.c:0 "Notre allié est tombé, nous ne pouvons plus compter sur lui."
+
+kns.2.t:0 "Fin de la guerre civile japonaise"
+kns.2.d_f:0 "Malgré de nombreuses actions de guérilla et un large soutien populaire, les partisans démocrates ont été vaincus dans la guerre civile japonaise. Tous les suspects ont été arrêtés ou exécutés. Pour stabiliser la situation, l’empereur Hirohito a prononcé un discours devant le peuple japonais affirmant que la guerre était leur unique destin. Cependant, la réaction de la foule a montré tout le contraire."
+kns.2.d_d:0 "Après des heures d’assaut contre le bunker de l’empereur, le régime fasciste s’est rendu aux partisans démocrates. Ayant remporté la guerre civile, le gouvernement démocratique tente désormais de panser les blessures laissées par l’ancien régime fasciste. « Nous n’espérons pas être pardonnés, mais nous ferons néanmoins notre part », a déclaré l’un des révolutionnaires démocrates japonais."
+kns.2.a:0 "Espérons que les Japonais savent ce qu’ils font..."
+
+kns.5.t:0 "[CHI.GetNameDefCap] rompt la trêve avec [JAP.GetNameDef]"
+kns.5.d:0 "\n[CHI.GetName] a rompu la trêve avec [JAP.GetName] et leur a déclaré la guerre. Les deux nations replongent donc dans le conflit, bien que [CHI.GetName] prenne l’initiative de l’offensive cette fois. Cet acte de trahison de [CHI.GetName] suscite des inquiétudes dans le monde entier."
+kns.5.a:0 "Mort aux chiens impérialistes !"
+kns.5.b:0 "Leur bellicisme plongera le monde dans un nouvel Âge sombre !"
+
+kns.6.t:0 "La [From.GetFactionName]"
+kns.6.d:0 "La politique asiatique a été bouleversée aujourd’hui, lorsque des diplomates chinois et japonais ont annoncé un pacte militaire entre [CHI.GetName] et [JAP.GetName]. Ils ont déclaré que trop de sang avait déjà été versé, alors que d’autres menaces pèsent sur eux.\n\n[JAP.GetName] a exhorté tout le monde à réfléchir à ce que cela signifie : plutôt que de s’affaiblir mutuellement, les anciens ennemis deviendront plus forts ensemble."
+kns.6.a:0 "Rien ne peut menacer la [From.GetFactionName] !"
+kns.6.b:0 "Un bouleversement inattendu dans la diplomatie asiatique."
+
+kns.7.t:0 "[CHI.GetName] rejoint la [From.GetFactionName] !"
+kns.7.d:0 "Des diplomates chinois et allemands ont récemment signé un pacte militaire à [GER.Capital.GetName], renforçant le lien entre les deux nations.\n\nCertains suggèrent que l’objectif d’une telle alliance est de prendre [SOV.GetName] en tenaille, mais les représentants de [CHI.GetName] et [GER.GetName] n’ont ni confirmé ni démenti."
+kns.7.c:0 "Une grande puissance émerge."
+
+kns.8.t:0 "[GER.GetName] rejette l’alliance chinoise !"
+kns.8.d:0 "Repoussant les avances diplomatiques [CHI.GetAdjective], [From.GetLeader] a publiquement annoncé que [From.GetName] ne chercherait pas à conclure un pacte militaire avec [CHI.GetName]."
+kns.8.b:0 "Und doch habe ich alein..."  
+
+## lure-them-in events ##
+lti.1.t:0 "Stratégie « Attirez-les »"
+lti.1.d:0 "Nos soldats commencent désormais à suivre les instructions de notre nouvelle stratégie « Attirez-les ». Si tout se passe bien, cela devrait bientôt changer le cours de la guerre."
+lti.1.a:0 "Espérons le meilleur."
+
+lti.2.d:0 "Notre nouvelle stratégie s’est révélée assez efficace. Nos soldats sont désormais plus performants pour défendre contre nos ennemis."
+lti.2.a:0 "Un bon signe."
+
+lti.6.t:0 "Partisans ennemis"
+lti.6.d:0 "Des activités sporadiques de partisans ennemis derrière nos lignes de front ont été signalées récemment. Bien que ce ne soit pas une menace sérieuse pour l’instant, certains responsables suggèrent que nous devrions écraser notre ennemi avant que leurs partisans ne menacent notre ligne de ravitaillement."
+lti.6.a:0 "On verra bien..."
+
+lti.7.d:0 "De plus en plus d’activités de partisans ont été signalées, la situation empire !"
+lti.7.a:0 "Merde !"
+
+lti.11.t:0 "Commandement de la ligne de front défaillant"
+lti.11.d:0 "Les failles dans notre commandement de la ligne de front n’ont jamais été aussi évidentes pour [From.GetName]. Leurs forces profitent maintenant de cette occasion pour contre-attaquer."
+lti.11.a:0 "Ces généraux incompétents devraient se faire seppuku !"
+
+## central government events ##
+#claim_central.1.t:0 "La position du gouvernement central"
+#claim_central.1.d:0 "Bien que [KMT_central_gov_tag.GetName] proclame être le seul gouvernement légitime en Chine, peu de soutien existe pour une telle revendication arrogante. Avec la bureaucratie corrompue et le manque de soutien populaire, il est clair qu’ils ne sont plus aptes à gouverner la Chine. Nous allons désormais vaincre ce tyran et libérer le peuple chinois."
+#claim_central.1.a:0 "En avant vers [KMT_central_gov_tag.Capital.GetName] !"
+#KMT_can_claim_central_government_tt:0 "Prends [KMT_central_gov_tag.Capital.GetName] et tu pourras revendiquer la position de gouvernement central."
+#claim_central.2.t:0 "Nous sommes le gouvernement central !"
+#claim_central.2.d:0 "Avec la défaite de [KMT_central_gov_tag.GetName], leur légitimité est désormais inexistante. Nous pouvons maintenant prendre leur place et nous proclamer gouvernement central et seul gouvernement légitime de Chine."
+#claim_central.2.a:0 "Un jour glorieux !"
+#claim_central.3.t:0 "Usurpation !"
+#claim_central.3.d:0 "Les rebelles traîtres de [KMT_central_gov_tag.GetName] ont décidé de renverser notre gouvernement et d’installer le leur pour gouverner la Chine."
+#claim_central.3.a:0 "Comment osent-ils !"
+#KMT_central_gov_core_tt:0 "Obtiens des cœurs sur la région de Chine"
+#claim_central.2.b:0 "Déplacer notre capitale à Nankin."
+#claim_central.0.t:0 "Test"
+#claim_central.0.d:0 "Le gouvernement central actuel est [KMT_central_gov_tag.GetName]"
+### 25/4/2017 ##
+#claim_central.4.t:0 "Légitimité faible"
+#claim_central.4.d:0 "Nous avons perdu le contrôle de la plupart de nos provinces et notre prétention à être le gouvernement central s’est considérablement affaiblie."
+#claim_central.4.a:0 "Dommage."
+#claim_central.5.t:0 "Légitimité accrue"
+#claim_central.5.d:0 "Avec l’augmentation du nombre d’états sous notre contrôle, notre revendication en tant que gouvernement central est désormais soutenue par le peuple."
+#claim_central.5.a:0 "Parfait."
+#claim_central.6.t:0 "Gouvernement central vaincu"
+#claim_central.6.d:0 "Avec la défaite du gouvernement central par des puissances étrangères, nous ne pourrons pas revendiquer la position pour nous-mêmes."
+#claim_central.7.t:0 "Triomphe dans la guerre civile"
+#claim_central.7.d:0 "Avec notre récente victoire dans la guerre civile, nous avons revendiqué avec succès la position de gouvernement central."
+#claim_central.8.t:0 "Changement de gouvernement central"
+#claim_central.8.d:0 "[KMT_central_gov_tag.GetName] a triomphé lors de la récente guerre civile et a revendiqué la position de gouvernement central."
+#claim_central.8.a:0 "Nous avons encore nos chances."
+## 8/5/2017 ##
+KMT_diable_central_government_tt:0 "§RDésactive la mécanique du gouvernement central§!"
+low_l:0 "Légitimité faible"
+
+## Cairo Conference ##
+cairoC.1.t:0 "Organiser une conférence avec [CHI.GetName] et [ENG.GetName] ?"
+cairoC.1.d:0 "Avec notre guerre en cours contre [JAP.GetName], il est logique que nous nous unissions pour faire face à la menace [JAP.GetAdjective]. Pour ce faire, nous devrions discuter avec leurs dirigeants et chercher une collaboration plus étroite."
+cairoC.1.a:0 "Envoyer le message."
+cairoC.1.b:0 "Inutile."
+cairoC.2.t:0 "Message de [From.GetName]"
+cairoC.2.d:0 "[From.GetLeader] a envoyé un message à [Root.GetLeader] exprimant son désir d’une collaboration plus étroite entre ceux capables de freiner les ambitions de [JAP.GetName]. [CHI.GetLeader] est également invité."
+cairoC.2.d_2:0 "[From.GetLeader] a envoyé un message à [Root.GetLeader] exprimant son désir d’une collaboration plus étroite entre ceux capables de freiner les ambitions de [JAP.GetName]. [ENG.GetLeader] est également invité."
+cairoC.2.a:0 "Nous pourrions en tirer profit."
+cairoC.2.b:0 "Nous pouvons vaincre [JAP.GetName] sans eux."
+cairoC.3.t:0 "[From.GetName] accepte"
+cairoC.3.d:0 "[From.GetLeader] a répondu à [Root.GetLeader] et a confirmé sa participation à la conférence."
+cairoC.3.a:0 "Nous sommes plus forts ensemble."
+cairoC.4.t:0 "[From.GetLeader] refuse"
+cairoC.4.d:0 "[From.GetLeader] a refusé notre invitation et déclaré que notre collaboration n’était même pas nécessaire."
+cairoC.4.a:0 "Quelle déception."
+cairoC.5.t:0 "Les conditions"
+cairoC.5.d:0 "Avec tous les participants présents et tout prêt, les discussions commencent. Les termes suivants ont été présentés et attendent une approbation."
+cairoC.5.a:0 "Cela semble acceptable."
+cairoC.5.b:0 "Est-ce une arnaque !?"
+cairoC.6.t:0 "Conférence de [CairoC_venue.GetName]"
+cairoC.6.d_fail:0 "Malgré la tentative de [USA.GetLeader] d’obtenir une collaboration plus étroite entre ceux capables d’arrêter les ambitions de [JAP.GetName], l’idée a complètement échoué. La discussion n’a jamais abouti et certains pensent que cela pourrait mener à de futurs conflits après la défaite de [JAP.GetName]."
+cairoC.6.d_noUS:0 "Bien que ce soit l’idée de [USA.GetLeader], la conférence s’est terminée sans sa participation. [CHI.GetLeader] et [ENG.GetLeader] ont trouvé un accord que [USA.GetLeader] n’a pas pu accepter. Cependant, [ENG.GetLeader] semble écœuré par le fait que [CHI.GetName] puisse tirer un avantage politique des termes.\n\nCertains experts disent que cette conférence pourrait rapidement détériorer les relations entre [ENG.GetName] et [USA.GetName] et même provoquer des divisions dans le monde démocratique."
+cairoC.6.d_noBR:0 "[CHI.GetLeader] et [USA.GetLeader] ont trouvé un accord pour lutter contre la menace [JAP.GetAdjective]. Cependant, [ENG.GetLeader], également invité, a quitté la conférence avant de signer pour des raisons inconnues.\n\nOn soupçonne que [ENG.GetLeader] est parti car les termes discutés nuisaient à ses intérêts coloniaux dans la région et profitaient largement à [CHI.GetName]."
+cairoC.6.d_noCN:0 "Après un débat houleux, [CHI.GetLeader] a quitté la conférence, mécontent, jugeant les termes « inacceptables ». De retour à [CairoC_venue.GetName], [ENG.GetLeader] et [USA.GetLeader] ont signé un accord qui contribuera à l’effort de guerre contre [JAP.GetName]."
+cairoC.6.d_suc:0 "Tous les dirigeants invités ont trouvé un accord pour une collaboration plus étroite contre la menace [JAP.GetAdjective]. Certains experts disent que cette conférence marquera la chute de [JAP.GetName] dans un futur proche, car trois des nations les plus puissantes du monde se sont unies contre lui."
+cairoC.6.a:0 "À bas les chiens [JAP.GetAdjective] !"
+cairoC.6.b:0 "Des enfantillages..."
+cairoC.6.c:0 "Un développement intéressant..."
+cairoC.8.d:0 "Les termes suivants ont été approuvés et nous allons maintenant lutter ensemble contre la menace [JAP.GetAdjective] !"
+KMT_no_seperate_peace_with_JAP:0 "Ne pourra pas signer de paix séparée avec [JAP.GetName]\n"
+
+#are those even used?#
+kmt_western_volunteers:0 "Volontaires chinois"
+kmt_chinese_support:0 "Groupes de soutien chinois"
+incompetent_government:0 "Gouvernement incompétent"
+
+KMT_resist_the_reds:0 "Résister au communisme"
+KMT_resist_the_reds_desc:0 "§YObtiendra un bonus en cas de guerre contre un gouvernement communiste.§!"
+KMT_anti_communism_sentiment:0 "Sentiment anticommuniste"
+KMT_anti_communism_sentiment_desc:0 "§RSera supprimé si non en guerre contre des communistes.§!"
+JAP_kodoha_idea:0 "Kodoha au pouvoir"
+JAP_toseiha_idea:0 "Toseiha au pouvoir"
+
+GXC_huang_xuchu:0 "Huang Xuchu" #黃旭初
+GXC_huang_shaohong_pa:0 "Huang Shaohong" #黃紹竑
+KMT_doolittle_failed:0 "Raid aérien repoussé"
+KMT_doolittle_raid:0 "Raid Doolittle"
+KMT_central_government_idea:0 "Gouvernement central"
+KMT_central_government_idea_desc:0 "Cette nation est proclamée comme le seul gouvernement légitime en Chine."
+KMT_central_government_lost:0 "Position de gouvernement central perdue"
+KMT_central_government_lost_desc:0 "Cette nation a perdu sa position de gouvernement central, ce qui a un effet néfaste sur elle."
+
+### misc ###
+kmt_tibet_add_to_faction_if_any:0 "§YTibet§! rejoint la faction si §Y[Root.GetName]§! est dans une faction et en est le chef.\n"
+kmt_coastal_bunker_sd_tt:0 "Ajoute §Y2 fortifications côtières§! à §YWeihaiwei§! et §YQingdao§!\n"
+kmt_coastal_bunker_zhej_tt:0 "Ajoute §Y2 fortifications côtières§! à §YHangzhou§!, §YNingbo§! et §YWenzhou§!\n"
+kmt_coastal_bunker_sh_tt:0 "Ajoute §Y4 fortifications côtières§! à §YShanghai§!\n"
+kmt_coastal_bunker_fj_tt:0 "Ajoute §Y2 fortifications côtières§! à §YXiamen§! et §YFuzhou§!\n"
+kmt_coastal_bunker_tj_tt:0 "Ajoute §Y2 fortifications côtières§! à §YTianjin§!\n "
+political.9.d_nl:0 "Certains diront qu’ils l’avaient vu venir. Ceux qui mettaient en garde contre les dangers du fascisme comme ceux qui l’encensaient comme le sauveur de [Root.GetName] voient aujourd’hui leurs prophéties réalisées, alors que [Root.GetLeader] à [Root.Capital.GetName] a annoncé que [CHI.GetName] suivra la voie fasciste. Toute opposition est réduite au silence en quelques heures.\n\n[Root.GetLeader] n’a pas l’intention de laisser la résistance s’organiser. La loi martiale a été déclarée et, avec les changements en cours, il est peu probable que ce qui suivra soit très différent."
+political.18.d_nl:1 "Le mouvement fasciste [Root.GetAdjective], en pleine croissance, n’a jamais affirmé avoir besoin d’un soutien majoritaire avant de saisir le pouvoir. Cependant, il semble que leur popularité ait fortement augmenté. [Root.GetLeader] appelle désormais à une transition vers le fascisme.\n\nL’appel à un référendum a été rejeté par certains membres du [Root.GetRulingParty] comme une tentative de perturber le système, mais cela a fortement irrité [Root.GetLeader]. Si nous n’agissons pas maintenant, [Root.GetLeader] pourrait choisir la lutte violente comme voie d’accès au pouvoir."
+political.10.d_nl:1 "Alors que les tentatives du mouvement fasciste de raviver le sentiment nationaliste ont rencontré un certain succès, la résistance à ces idées reste forte. [Root.GetLeader] est déçu du manque de confiance que la population [Root.GetAdjective] semble avoir dans le [Root.GetRulingParty].\n\n[Root.GetLeader] reste convaincu que le peuple retrouvera finalement sa fierté, mais hésite sur la marche à suivre. Certains partisans réclament un coup d’État maintenant, avant que les ennemis de [Root.GetName] n’agissent. Cependant, agir alors que le soutien populaire est limité plongerait la nation dans une guerre civile."
+
+true_marxist_lennenist:0 "Vrai marxiste-léniniste" #nom de faction
+KMT_trick_war:0 "La Chine déclare une guerre surprise au Japon"
+JAP_toseiha_trait:0 "Toseiha au pouvoir"
+JAP_toseiha_trait_chi_ally:0 "Toseiha au pouvoir"
+JAP_kodoha_trait:0 "Kodoha au pouvoir"
+JAP_kodoha_trait_chi_ally:0 "Kodoha au pouvoir"
+JAP_kodoha:0 "Kodoha"
+JAP_toseiha:0 "Toseiha"
+JAP_taiseiyokusankai:0 "Taisei Yokusankai"
+ya_zhou_lian_meng:0 "Da Dong Ya Gong Rong Quan"
+
+### misc ###
+chi_jap_alliance_threat:0 "Alliance sino-japonaise"
+############################# UNUSED ###########################################33
+ ### Événements jyutgwai ###
+ #jyutgwai.1.t:0 "Mort de Hu Hanmin"
+ #jyutgwai.1.d:0 "Hu Hanmin, l’un des premiers dirigeants conservateurs de droite du Kuomintang durant la Chine révolutionnaire, est malheureusement décédé. Ses funérailles sont prévues dans 5 jours. De nombreuses figures importantes devraient y assister, dont Chiang."
+ #jyutgwai.1.a:0 "Ses actions ne seront pas oubliées."
+
+ #jyutgwai.2.t:0 "Funérailles de Hu Hanmin"
+ #jyutgwai.2.d:0 "Avec la mort de Hu Hanmin, ses funérailles auront lieu quelques jours plus tard. Chiang a prévu de rencontrer [YUT.GetLeader] là-bas et de solliciter son aide pour détruire la Nouvelle Clique du Guangxi ainsi que ses rivaux politiques, Li Zongren."
+ #jyutgwai.2.a:0 "Un plan judicieux."
+ #jyutgwai.2.b:0 "Pas besoin de cette approche, notre armée fera le travail."
+ #jyutgwai.2.c:0 "Nous devrions plutôt nous concentrer sur la menace japonaise."
+
+ #jyutgwai.3.t:0 "Proposition de Chiang"
+ #jyutgwai.3.d:0 "Après avoir rencontré [CHI.GetLeader] durant les funérailles de Hu Hanmin, [Root.GetLeader] a reçu une proposition – ou un ultimatum, comme certains l’appelleraient – de sa part. Le détail est de solliciter notre aide pour détruire la clique de [GXC.GetLeader]. [Root.GetLeader] craint que si la Nouvelle Clique du Guangxi est détruite, sa propre clique subira le même sort."
+ #jyutgwai.3.a:0 "Contacter [GXC.GetLeader] pour un front uni !"
+ #jyutgwai.3.b:0 "Nous prendrons Nankin et renverserons le régime de [CHI.GetLeader] !"
+ #jyutgwai.3.c:0 "Se soumettre avant qu’il ne soit trop tard !"
+
+ #jyutgwai.4.t:0 "Proposition de [YUT.GetLeader]"
+ #jyutgwai.4.d:0 "[YUT.GetLeader] a révélé le plan de [CHI.GetLeader] visant à détruire notre clique. Cependant, craignant de connaître le même sort si nous étions détruits, il cherche maintenant une alliance avec nous au lieu d’aider le [CHI.GetRulingParty]."
+ #jyutgwai.4.a:0 "Nous lutterons ensemble contre une telle tyrannie."
+ #jyutgwai.4.b:0 "Ils ne font que nous mener en bateau."
+
+ #jyutgwai.5.t:0 "Alliance acceptée"
+ #jyutgwai.5.d:0 "[GXC.GetLeader] a accepté notre proposition d’alliance et prépare désormais ses troupes !"
+ #jyutgwai.5.a:0 "Mort à [CHI.GetLeader] !"
+
+ #jyutgwai.6.t:0 "Alliance rejetée"
+ #jyutgwai.6.d:0 "[GXC.GetLeader] a rejeté notre proposition d’alliance !"
+ #jyutgwai.6.a:0 "Comment osent-ils !"
+
+ #jyutgwai.7.t:0 "[YUT.GetName] refuse de se soumettre"
+ #jyutgwai.7.d:0 "[YUT.GetLeader] a refusé de nous aider à détruire la clique de [GXC.GetLeader] !"
+ #jyutgwai.7.a:0 "Essayons de soudoyer certains de leurs hommes."
+ #jyutgwai.7.b:0 "En y repensant, nous devrions peut-être arrêter cela."
+
+ #jyutgwai.8.t:0 "Yu Hanmou"
+ #jyutgwai.8.d:0 "Certains de nos hommes ont été soudoyés par [From.GetLeader] et ont fait défection vers l’ennemi. Le gouvernement central a également relevé Chen Jitang de ses fonctions. Désormais, Yu Hanmou, partisan de Chiang, a accédé à son poste. Un ultimatum est envoyé à Chen Jitang pour qu’il renonce à son pouvoir sur l’armée et se soumette au gouvernement central."
+ #jyutgwai.8.a:0 "Aider Chen Jitang à fuir à Hong Kong !"
+ #jyutgwai.8.b:0 "Convaincre Chen Jitang de rejoindre la Nouvelle Clique du Guangxi !"
+ #jyutgwai.8.c:0 "Ce salaud de traître !"
+
+ #jyutgwai.9.t:0 "La Nouvelle Clique du Guangxi"
+ #jyutgwai.9.d:0 "Avec Chen Jitang et son comportement rebelle écartés, seuls [GXC.GetLeader] et ses hommes s’opposent à nous. Nos tentatives de corruption se sont révélées infructueuses. Il semble que nous devions trouver une autre voie."
+ #jyutgwai.9.a:0 "Essayons de les soudoyer."
+ #jyutgwai.9.b:0 "Nous devrions concentrer nos efforts sur les Japonais."
+
+ #jyutgwai.10.t:0 "Recrutement d’urgence"
+ #jyutgwai.10.d:0 "Le [CHI.GetRulingParty] a entrepris certaines actions, leurs pots-de-vin ont semé la dissension au sein de la Clique du Yue. Nous devrions préparer nos hommes au cas où une guerre éclaterait !"
+ #jyutgwai.10.a:0 "Nous devons envoyer des représentants à Nankin pour une solution plus pacifique."
+ #jyutgwai.10.b:0 "Jaak3 si2 laa1, zoeng2 gaai3 sek6"
+
+ #jyutgwai.11.t:0 "Pression des médias"
+ #jyutgwai.11.d:0 "Avec les tensions persistantes entre nous et [GXC.GetLeader], la majorité des médias soutiennent [GXC.GetLeader] plutôt que nous. Cela est dû en grande partie à notre politique actuelle de priorité à la stabilité interne plutôt qu’à la menace japonaise."
+ #jyutgwai.11.a:0 "Nous devons d’abord éliminer la maladie du cœur !"
+ #jyutgwai.11.b:0 "Si nous continuons ainsi, nous risquons de perdre encore plus de soutien populaire."
+
+ #jyutgwai.12.t:0 "Incident résolu"
+ #jyutgwai.12.d:0 "Après de longues discussions entre les représentants des deux parties, un consensus a été trouvé. Le soi-disant « incident du Liangguang » est désormais réglé."
+ #jyutgwai.12.a:0 "C’est pour le bien du peuple chinois."
+
+ #jyutgwai.13.t:0 "[From.GetName] envoie des représentants"
+ #jyutgwai.13.d:0 "Des représentants de [From.GetName] sont arrivés à [Root.Capital.GetName]. Ils ont déclaré que leur mission ici est de trouver une solution pacifique à la situation actuelle."
+ #jyutgwai.13.a:0 "Voyons ce qu’ils ont à offrir."
+ #jyutgwai.13.b:0 "Arrêtez ces conspirateurs !"
+
+ #jyutgwai.14.t:0 "Hostilité de [From.GetLeader]"
+ #jyutgwai.14.d:0 "[From.GetLeader] a décidé de résoudre la situation actuelle par la force."
+ #jyutgwai.14.a:0 "Très bien alors."
+
+ #jyutgwai.15.t:0 "Chen Jitang se soumet"
+ #jyutgwai.15.d:0 "Chen Jitang a décidé de se soumettre au gouvernement central."
+ #jyutgwai.15.a:0 "Une sage décision."
+ #jyutgwai.15.b:0 "Nous reprendrons bientôt le contrôle de la plaine centrale."
+ #KMT_may_war:0 "§RCela mènera très probablement à la guerre§!\n"
+ #GXC_reject_1_tt:0 "§YNous prendrons le contrôle du Guangdong s’ils acceptent cette contre-proposition§!"
+ #CHI_reject_1_tt:0 "§YIls deviendront nos marionnettes s’ils acceptent cette contre-proposition§!"
+
+ #jyutgwai.16.t:0 "Une opportunité ?"
+ #jyutgwai.16.d:0 "Avec la guerre en cours entre le [CHI.GetRulingParty] de [CHI.GetLeader] et le [GXC.GetRulingParty] de [GXC.GetLeader], le gouvernement central ne prête pas attention à nous. Nous pourrions saisir cette occasion pour lancer une offensive et tenter de renverser leur régime à [CHI.Capital.GetName]."
+ #jyutgwai.16.a:0 "Prochaine étape, [CHI.Capital.GetName] !"
+ #jyutgwai.16.b:0 "Où est mon oolong déjà ?"
+
+ #jyutgwai.17.t:0 "[From.GetLeader] accepte de négocier"
+ #jyutgwai.17.d:0 "Après mûre réflexion, [From.GetLeader] a accepté d’organiser une réunion avec nos représentants afin de discuter d’une solution plus pacifique pour régler la situation actuelle."
+ #jyutgwai.17.a:0 "Nous devons être prêts à tout."
+ #negotiate_in_20:0 "§YUn événement se déclenchera dans environ 35 jours.§!\n\n"
+
+ #jyutgwai.18.t:0 "Représentants arrêtés"
+ #jyutgwai.18.d:0 "Nos représentants envoyés pour négocier avec le [CHI.GetRulingParty] ont été arrêtés. Il semble que [CHI.GetLeader] veuille régler cela sur le champ de bataille."
+ #jyutgwai.18.a:0 "Très bien, nos hommes se battront jusqu’au dernier souffle !"
+
+ #jyutgwai.19.t:0 "[From.GetName] lance une offensive"
+ #jyutgwai.19.d:0 "Pensant que nous sommes distraits par notre conflit actuel avec le [GXC.GetRulingParty] de [GXC.GetLeader], [From.GetLeader] a décidé de nous attaquer !"
+ #jyutgwai.19.a:0 "Traître !"
+
+ #jyutgwai.20.t:0 "Exigences des deux camps"
+ #jyutgwai.20.d:0 "Après un long débat, les représentants des deux parties ont trouvé un consensus.\n\nRésultat de la discussion :\n\n[CHI.GetName] et [GXC.GetName] retireront leurs troupes.\nLe gouvernement central n’interviendra pas dans les affaires du Liangguang.\n[GXC.GetName] devra obéir absolument aux ordres du gouvernement central une fois la guerre déclenchée.\n\nCependant, [CHI.GetLeader] et [GXC.GetLeader] devront tous deux accepter ces termes pour qu’ils prennent effet."
+ #jyutgwai.20.a:0 "Acceptable"
+ #jyutgwai.20.b:0 "Humiliant !"
+
+ #jyutgwai.22.t:0 "Contre-proposition de [CHI.GetName]"
+ #jyutgwai.22.d:0 "Considérant les termes comme inégaux et humiliants, [CHI.GetLeader] a ordonné une contre-proposition exigeant que notre clique se place directement sous son contrôle."
+ #jyutgwai.22.a:0 "Finissons-en simplement."
+ #jyutgwai.22.b:0 "Fang shen me gou pi !"
+
+ #jyutgwai.23.t:0 "Contre-proposition de [GXC.GetName]"
+ #jyutgwai.23.d:0 "Considérant les termes comme inégaux et humiliants, [GXC.GetLeader] a ordonné une contre-proposition exigeant que la région du Liangguang passe sous leur contrôle direct comme compensation."
+
+ #jyutgwai.24.t:0 "Contre-proposition rejetée"
+ #jyutgwai.24.d:0 "Notre contre-proposition a été rejetée, il ne semble rester qu’une seule option."
+ #jyutgwai.24.a:0 "Préparez-vous !"
+
+ #jyutgwai.25.t:0 "Contre-proposition acceptée"
+ #jyutgwai.25.d:0 "À notre surprise, notre contre-proposition a été acceptée."
+ #jyutgwai.25.a:0 "Au moins nous évitons la guerre."
+
+ #jyutgwai.26.t:0 "Échec de la négociation"
+ #jyutgwai.26.d:0 "Les deux camps ont rejeté les termes. Une autre négociation semble impossible, les deux parties ont commencé à mobiliser leurs troupes."
+ #jyutgwai.26.a:0 "Nous le savions !"
+
+ #jyutgwai.27.t:0 "Situation résolue"
+ #jyutgwai.27.d:0 "Les deux camps ont retiré leurs troupes, la tension est désormais apaisée."
+ #jyutgwai.27.a:0 "Bon pour tout le monde."
+
+ #jyutgwai.29.t:0 "[From.GetRulingParty] décide de nous laisser tranquilles"
+ #jyutgwai.29.d:0 "D’une manière ou d’une autre, les responsables de [From.GetRulingParty] ont décidé de nous laisser partir et de ne pas agir davantage contre nous."
+ #jyutgwai.29.a:0 "Heu... quoi ? Sont-ils sérieux ?"
+
+ #jyutgwai.30.t:0 "Tentative de corruption échouée"
+ #jyutgwai.30.d:0 "Malgré notre générosité, les généraux et soldats de [From.GetName] ne semblent pas vouloir abandonner leur maître. Notre tentative de corruption a échoué."
+ #jyutgwai.30.a:0 "Alors, recourons à la violence."
+ #jyutgwai.30.b:0 "Nous les écraserons par la force !"
+ #jyutgwai.30.c:0 "Attendons de voir comment les choses évolueront."
+
+ #jyutgwai.31.t:0 "Corruption acceptée"
+ #jyutgwai.31.d:0 "Notre pot-de-vin a été bien accueilli par la plupart des généraux de [From.GetName] et beaucoup ont fait défection à notre camp."
+ #jyutgwai.31.a:0 "Cela prouve simplement leur faiblesse."
+
+ #jyutgwai.32.t:0 "Nos hommes ont résisté à la corruption"
+ #jyutgwai.32.d:0 "Nos hommes ont résisté aux pots-de-vin de [From.GetLeader]. Nous sommes maintenant plus unis que jamais !"
+ #jyutgwai.32.a:0 "La justice triomphera !"
+
+ #jyutgwai.33.t:0 "Incident du Liangguang"
+ #jyutgwai.33.d:0 "Avec l’incident du Liangguang en cours, [CHI.GetLeader] est désormais occupé à gérer les problèmes dans le sud. C’est l’occasion pour nous d’agir : nous pouvons d’abord chercher la paix avec les communistes pour préserver nos hommes."
+ #jyutgwai.33.a:0 "Appeler à une trêve."
+ #jyutgwai.33.b:0 "Non, le communisme est un fléau pour le peuple chinois."
+
+ #jyutgwai.34.t:0 "[From.GetLeader] veut une trêve"
+ #jyutgwai.34.d:0 "[From.GetLeader] a envoyé un représentant pour appeler à une trêve entre nos troupes. Avec [CHI.GetLeader] occupé au sud, nous pouvons profiter de cette occasion pour récupérer."
+ #jyutgwai.34.a:0 "Très bien"
+ #jyutgwai.34.b:0 "C’est sûrement un piège !"
+
+ #jyutgwai.35.t:0 "[From.GetName] accepte"
+ #jyutgwai.35.d:0 "[From.GetName] a accepté une trêve, nous pouvons désormais nous remettre et avancer dans nos plans."
+ #jyutgwai.35.a:0 "Brillant !"
+
+ #jyutgwai.36.t:0 "[From.GetLeader] refuse"
+ #jyutgwai.36.d:0 "[From.GetName] a refusé l’accord de trêve, nous devons continuer à nous battre."
+ #jyutgwai.36.a:0 "Ce n’est pas bon."
+
+ #jyutgwai.37.t:0 "Zhang Xueliang cesse d’attaquer"
+ #jyutgwai.37.d:0 "Nous avons appris que Zhang Xueliang a cessé d’attaquer les communistes. Il doit penser que nous sommes trop occupés par les seigneurs de guerre du sud pour lui prêter attention, et il tente sans doute une manigance."
+ #jyutgwai.37.a:0 "Nous nous occuperons d’eux plus tard…"
+
+ #jyutgwai.38.t:0 "Un dilemme"
+ #jyutgwai.38.d:0 "Avec les forces de [CHI.GetLeader] approchant de notre frontière et le représentant de [GXC.GetLeader] tentant de persuader [Root.GetLeader], nous sommes désormais dans un dilemme entre le [CHI.GetRulingParty] et le [GXC.GetRulingParty]. Si nous nous allions à l’un d’eux, l’autre sera mécontent. Et la neutralité nous est interdite."
+ #jyutgwai.38.a:0 "Essayons de duper [CHI.GetLeader] en plaçant ses forces en première ligne."
+ #jyutgwai.38.b:0 "S’allier au [CHI.GetRulingParty]"
+ #jyutgwai.38.c:0 "S’allier au [GXC.GetRulingParty]"
+
+ #jyutgwai.39.t:0 "Proposition de [From.GetLeader]"
+ #jyutgwai.39.d:0 "Pris dans une situation de dilemme, [From.GetLeader] a tenté de s’allier à nous et a envoyé une proposition stipulant que les forces de [Root.GetLeader] devraient être placées en première ligne pour une frappe efficace dans l’offensive à venir."
+ #jyutgwai.39.b:0 "C’est clairement un plan pour affaiblir nos forces !"
+ #jyutgwai.39.a:0 "Ça semble bien."
+
+ #jyutgwai.40.t:0 "Proposition acceptée"
+ #jyutgwai.40.d:0 "[From.GetLeader] a approuvé notre proposition et placé ses forces en première ligne."
+ #jyutgwai.40.a:0 "Quelle chance pour nous."
+
+ #jyutgwai.41.t:0 "Proposition rejetée"
+ #jyutgwai.41.d:0 "[From.GetLeader] a vu clair dans la ruse de He Jian et est désormais furieux. He Jian a été relevé de ses fonctions."
+ #jyutgwai.41.a:0 "Tant pis…"
+
+ #jyutgwai.42.t:0 "[From.GetName] nous rejoint"
+ #jyutgwai.42.d:0 "Sous pression des deux côtés, [From.GetLeader] a décidé de nous rejoindre !"
+ #jyutgwai.42.a:0 "Bien."
+
+ #jyutgwai.43.t:0 "[From.GetName] rejoint notre ennemi"
+ #jyutgwai.43.d:0 "Sous pression des deux côtés, [From.GetLeader] a décidé de rejoindre notre ennemi !"
+ #jyutgwai.43.a:0 "Comment osent-ils !"
+
+ #jyutgwai.44.t:0 "Nos hommes ont été soudoyés"
+ #jyutgwai.44.d:0 "Nos hommes ont été soudoyés par [CHI.GetLeader], et un nouveau dirigeant pro-[CHI.GetLeader] a été nommé."
+ #jyutgwai.44.a:0 "Comment cela a-t-il pu arriver !"
+
+ #jyutgwai.45.t:0 "[From.GetName] nous déclare la guerre"
+ #jyutgwai.45.d:0 "[From.GetName] a décidé de résoudre nos problèmes actuels sur le champ de bataille."
+ #jyutgwai.45.a:0 "Qu’il en soit ainsi."
+
+ #jyutgwai.46.t:0 "Préserver nos forces"
+ #jyutgwai.46.d:0 "Bien que nous nous soyons alliés au [CHI.GetRulingParty], [Root.GetLeader] ne veut pas vraiment s’impliquer dans le différend de [CHI.GetLeader] avec [GXC.GetLeader]. Il a maintenant élaboré un plan pour préserver nos forces et affaiblir celles de [CHI.GetLeader] en cas de guerre."
+ #jyutgwai.46.a:0 "Envoyer la proposition."
+ #jyutgwai.46.b:0 "Nous aurions des ennuis s’ils découvraient nos intentions !"
+
+## NOT IN USE YET ##
+ chi_jap.1.t:0 "Trahison de [CHI.GetLeader]"
+ chi_jap.1.d:0 "[CHI.GetLeader] a trahi sa nation et son peuple en s’alliant avec les vils Japonais ! Nous devons agir avant qu’il ne soit trop tard !"
+ chi_jap.1.a:0 "Nous devons travailler avec les seigneurs de guerre !"
+ chi_jap.1.b:0 "Nous agirons seuls."
+
+ chi_jap.2.t:0 "Message de [From.GetName]"                             #這個nation指民族(das Volk)
+ chi_jap.2.d:0 "Concernant la récente trahison de [CHI.GetName] envers la nation chinoise, [From.GetLeader] a envoyé un message demandant notre collaboration pour former un front uni contre cette menace."
+ chi_jap.2.a:0 "Debout, vous qui refusez d’être esclaves !"
+ chi_jap.2.b:0 "Nous aurons peut-être un avenir meilleur en collaborant avec le Soleil."
+ chi_jap.2.c:0 "Jamais !"
+
+ chi_jap.3.t:0 "Seigneur de guerre chinois - [From.GetLeader]"
+ chi_jap.3.d:0 "[From.GetLeader] a envoyé un message exprimant son désir de rejoindre la Sphère de coprospérité."
+ chi_jap.3.a:0 "Ils savent sûrement de quel côté souffle le vent."
+ chi_jap.3.b:0 "Ils ne méritent pas une place dans la Sphère de coprospérité."
+
+ chi_jap.4.t:0 "Demande acceptée"
+ chi_jap.4.d:0 "[From.GetName] nous a accordé une place dans la Sphère de coprospérité !"
+ chi_jap.4.a:0 "La Sphère de coprospérité s’agrandit !"
+
+ chi_jap.5.t:0 "Demande refusée"
+ chi_jap.5.d:0 "Notre demande de rejoindre le [From.GetFactionName] a été refusée !"
+ chi_jap.5.a:0 "Nous nous sommes mis dans une impasse..."
+
+ chi_jap.6.t:0 "[From.GetName] nous rejoint dans notre cause"
+ chi_jap.6.d:0 "[From.GetLeader] a également vu la menace que représentent le traître [CHI.GetLeader] et les Japonais, et nous a rejoints dans notre effort pour les éliminer."
+ chi_jap.6.a:0 "Les Chinois doivent rester unis !"
+
+ chi_jap.7.t:0 "[From.GetName] refuse de nous rejoindre"
+ chi_jap.7.d:0 "[From.GetLeader] a refusé de nous rejoindre dans notre effort pour sauver la nation !"
+ chi_jap.7.a:0 "C’est juste une autre forme de trahison !"
+
+ PRC_kang_ri_jiu_wang_manpower:0 "Résistance nationale et salut"
+ PRC_kang_ri_jiu_wang_economy:0 "Résistance nationale et salut"
+ CHIJAP_kang_ri_jiu_wang_idea:0 "Résistance nationale et salut"
+
+ #KMT_will_stop_civil_war_tt:0 "Mettra fin à la guerre civile et créera un front uni contre l’envahisseur japonais.\n"
+ #KMT_will_release_chiang_tt:0 "Chiang Kai-shek sera libéré.\n"
+ #accept_all_demand:0 "Accepter"
+ #KMT_chiang_return_tt:0 "Chiang Kai-shek sera libéré."
+ #demand.t:0 "Liste des exigences"
+ #demand.d:0 "Les exigences formulées par les deux parties sont les suivantes : "
+ #reject_all_demand_and_war:0 "Tout rejeter et déclarer la guerre."
+ #demand_rejected_war.t:0 "GUERRE !"
+ #demand_rejected_war.d:0 "[From.GetName] a perdu toute patience et a décidé de recourir à la guerre pour résoudre la situation actuelle. Ils ont lancé l’offensive et nous devons maintenant préparer nos hommes !"
+ #demand_rejected_war.a:0 "Barbares incivilisés !"
+ #KMT_chi_stop_civil_war_demand_rejected_tt:0 "[From.GetName] a rejeté notre exigence de mettre fin à la guerre civile et de créer un front uni.\n"
+ #KMT_chi_demand_submission_tt:0 "[From.GetName] a exigé notre soumission.\n"
+ #KMT_will_submit_to_chiang_tt:0 "Se soumettra à [CHI.GetName].\n"
+ #KMT_chi_demand_submission_rejected_tt:0 "[From.GetName] a rejeté notre exigence de soumission.\n"
+ #resolved.t:0 "Incident résolu"
+ #resolved.d:0 "Les deux parties sont tombées d’accord sur tous les termes, le problème est résolu.\n\nLes termes sont les suivants : "
+ #xian.1.t:0 "Zhang Xueliang"
+ #xian.1.d:0 "Comme Zhang Xueliang a cessé d’attaquer les bandits communistes sans l’accord du gouvernement central, la progression de l’élimination des communistes a ralenti. [Root.GetLeader] a décidé de rendre visite à Zhang à Xi’an."
+ #xian.1.a:0 "Cela leur montrera qui commande."
+ #xian.1.b:0 "Ce n’est pas important."
+
+ #xian.2.t:0 "Arrivée de [CHI.GetLeader]"
+ #xian.2.d:0 "[CHI.GetLeader] est arrivé à Xi’an pour rencontrer [Root.GetLeader]. [CHI.GetLeader] a déclaré que nous devons détruire tous les communistes dans les trois mois, sinon ils prendront le relais."
+ #xian.2.a:0 "Détenons [CHI.GetLeader] en otage et exigeons l’arrêt de la guerre civile !"
+ #xian.2.b:0 "Nous ne pouvons rien y faire."
+ #KMT_will_Die_tt:0 "§RVous serez annexé si vous échouez à éliminer les communistes dans les trois mois.§!\n"
+
+ #xian.3.t:0 "Chiang Kai-shek pris en otage"
+ #xian.3.d:0 "Zhang Xueliang a lancé une attaque là où Chiang séjournait à Xi’an et l’a capturé. Désormais, Zhang exige que nous mettions fin à la guerre civile et que nous nous concentrions sur les Japonais. Si nous acceptons ces termes, ils libéreront Chiang."
+ #xian.3.a:0 "Envoyons quelqu’un négocier avec eux !"
+ #xian.3.b:0 "Nous reprendrons Chiang par la force !"
+
+ #xian.4.t:0 "[From.GetRulingParty] envoie un représentant"
+ #xian.4.d:0 "Un représentant de [CHI.GetRulingParty] est arrivé pour discuter de la situation actuelle.\n\nNous formulerons ces exigences : "
+ #xian.4.a:0 "Très bien"
+
+ #xian.5.t:0 "[CHI.GetRulingParty] lance une offensive !"
+ #xian.5.d:0 "[CHI.GetRulingParty] a décidé de reprendre Chiang par la force !"
+ #xian.5.a:0 "Préparez nos hommes !"
+
+ #xian.6.t:0 "Incident de Xi’an"
+ #xian.6.d:0 "Zhang Xueliang a pris Chiang Kai-shek en otage dans l’espoir qu’il se concentre sur les Japonais plutôt que sur les communistes de [PRC.GetLeader]."
+ #xian.6.a:0 "Ce n’est pas ce que nous voulons voir."
+ #xian.6.b:0 "Nous devrions encourager l’effort de Zhang."
+
+ #xian.7.d:0 "Zhang Xueliang a pris Chiang Kai-shek en otage dans l’espoir qu’il se concentre sur les Japonais plutôt que sur nous."
+ #xian.7.a:0 "Nous espérons qu’il réussira."
+
+ #xian.8.t:0 "[SOV.GetName] mécontent"
+ #xian.8.d:0 "[SOV.GetName] n’est pas très content de notre action de retenir Chiang en otage et nous a demandé de le libérer immédiatement."
+ #xian.8.a:0 "Nous ne devons pas céder !"
+
+ #xian.9.t:0 "Message de [SOV.GetName]"
+ #xian.9.d:0 "[SOV.GetName] semble être très satisfait de notre initiative visant à instaurer un front uni et nous encourage à ne pas reculer."
+ #xian.9.a:0 "Ils ont notre gratitude."
+
+ #xian.10.t:0 "[CHI.GetRulingParty] prend le relais"
+ #xian.10.d:0 "Nous avons échoué à éliminer les communistes en trois mois, [CHI.GetRulingParty] a désormais pris le relais."
+ #xian.10.a:0 "..."
+
+ #xian.11.t:0 "Nous avons pris le relais"
+ #xian.11.d:0 "Nous avons pris le contrôle de l’armée du Nord-Est car elle a échoué à éliminer les communistes dans les trois mois impartis."
+ #xian.11.a:0 "Nous mettrons fin aux communistes."
+
+ #xian.100.a:0 "Nous ne collaborerons pas avec les communistes !"
+ #xian.100.b:0 "Nous exigerons leur soumission !"
+ #xian.100.c:0 "Nous ne nous soumettrons jamais !"
+ #KMT_ROOT_NAME_TT:0 "[Root.GetName] : \n"
+
+ #xian.12.t:0 "Arrêter Zhang ?"
+ #xian.12.d:0 "Zhang Xueliang a suivi Chiang à Nankin, mais ses actions n’ont pas encore été pardonnées. Chiang prévoit maintenant de le mettre en résidence surveillée afin de le contrôler."
+ #xian.12.a:0 "Il doit bien savoir que cela finirait par lui arriver."
+ #xian.12.b:0 "Ce n’est pas nécessaire."
+
+ #KMT_chi_stop_civil_war_demand_again_tt:0 "Ils insistent pour que la guerre civile cesse.\n"
+
+ #xian.100.d:0 "Nous exigeons un front uni !"
+ #KMT_chiang_returns_tt:0 "Chiang Kai-shek disponible comme maréchal de camp"
+
+ #xian.13.t:0 "Chiang Kai-shek libéré"
+ #xian.13.d:0 "Après la destruction des forces de Zhang, nos soldats ont retrouvé Chiang et l’ont libéré."
+ #xian.13.a:0 "Ils n’ont jamais eu une chance contre nous."
+
+ #xian.1.d_2:0 "La progression de l’élimination des communistes a été lente. [CHI.GetLeader] a décidé de rendre visite à [ZXL.GetLeader] et de le presser d’en finir rapidement avec les communistes."
+############## UNUSED THEORISTS/ADVISORS ##################
+#YUT_chen_jitang:0 "Chen Jitang"
+#XIA_zhao_hengti:0 "Zhao Hengti" 趙恆惕
+#XIA_he_jian:0 "He Jian" 何鍵
+#XIA_zhang_zhizhong:0 "Zhang Zhizhong" 張治中
+#XIA_chen_mingren:0 "Chen Mingren" 陳明仁
+#XIA_tang_shengzhi:0 "Tang Shengzhi" 唐生智
+#XIA_liu_jianxu:0 "Liu Jianxu" 劉建緒
+#XIA_cheng_qian:0 "Cheng Qian" 程潛
+#XIA_tao_guang:0 "Tao Guang" 陶廣
+#XIA_li_jue:0 "Li Jue" 李覺
+#XIA_zhou_lan:0 "Zhou Lan" 周孄
+#XIA_liu_xing:0 "Liu Xing" 劉興
+#XIA_liu_fei:0 "Liu Fei" 劉斐
+#SCC_generic_communist_revolutionary:0 "Pan Wenhua" 潘文華
+#SCC_deng_hanxiang:0 "Deng Hanxiang" 鄧漢祥
+#SCC_liu_hangshen:0 "Liu Hangshen" 劉航深
+#SCC_gan_jieyong:0 "Gan Jiyong" 甘績鏞
+#SCC_zhong_tiqian:0 "Zhong Tiqian" 鐘體乾
+#SCC_fu_chang:0 "Fu Chang" 傅常
+#SCC_li_jiayu:0 "Li Jiayu" 李家鈺
+#SCC_yang_sen:0 "Yang Sen" 楊森
+#SCC_liu_wenhui:0 "Liu Wenhui" 劉文輝
+#SCC_sun_zhen:0 "Sun Zhen" 孫震
+#SCC_tang_shizun:0 "Tang Shizun" 唐式遵
+#SCC_wang_zuanxu:0 "Wang Zuanxu" 王纘緒
+#SCC_deng_xihou:0 "Deng Xihou" 鄧錫侯
+#SCC_tian_song_yao:0 "Tian Songyao" 田頌堯
+#SCC_liu_xiang:0 "Liu Xiang" 劉湘
+#QIA_he_zhizhong:0 "He Zhizhong" 何知重
+#QIA_bo_huizhang:0 "Bo Huizhang" 柏輝章
+#QIA_hou_zhidan:0 "Hou Zhidan" 候之擔
+#QIA_you_guocai:0 "You Guocai" 猶國才
+#QIA_jiang_zaizhen:0 "Jiang Zaizhen" 蔣在珍
+#QIA_wang_jialie:0 "Wang Jialie" 王家烈
+#SDC_liang_shuming:0 "Liang Shuming" 梁漱溟
+#ZXL_li_bo_hai:0 "Li Bohai" 李渤海
+#YUT_hu_hanwen:0 "Hu Hanmin" 胡漢文
+#YUT_li_jishen:0 "Li Jishen" 李濟深
+#YUT_yu_hanmou:0 "Yu Hanmou" 余漢謀
+#YUT_huang_zhenqiu:0 "Huang Zhenqiu" 黃鎮球
+#YUT_ye_zhao:0 "Ye Zhao" 葉肇
+#YUT_deng_shizeng:0 "Deng Shizeng" 鄧世增
+#YUT_lin_yizhong:0 "Lin Yizhong" 林翼中
+#YUT_feng_zhuwan:0 "Feng Zhuwan" 馮祝萬
+#YUT_zhang_fakui:0 "Zhang Fakui" 張發奎
+#YUT_cai_tingkai:0 "Cai Tingkai" 蔡廷鍇
+#YUT_chen_ce:0 "Chen Ce" 陳策
+#YUT_huang_guangrui:0 "Huang Guangrui" 黃光銳
+#YUT_feng_qicong:0 "Feng Qicong" 馮啟聰
+#YUT_liu_guangkai:0 "Liu Guangkai" 劉廣凱
+#YUT_xu_heng:0 "Xu Heng" 徐亨
+#YUT_zhou_baoheng:0 "Zhou Baoheng" 周寶衡
+
+############## UNUSED FOCUSES ##################
+#KMT_science_effort:0 "Diffuser la culture Haipai"
+#KMT_science_effort_desc:0 "La culture Haipai de Shanghai, bien que décadente à l’extrême, a également produit de nombreux scientifiques, écrivains et intellectuels grâce à son accent sur le progrès. Nous devrions essayer d’étendre les bons aspects de ce mouvement au reste de la Chine afin de générer une population plus instruite."
+
+#KMT_become_communism:0 "Vers le communisme"
+#KMT_become_communism_desc:0 "Après un long débat entre les officiels, nous avons décidé que le communisme est la voie de l’avenir. Nous devons unir nos forces avec le camarade Mao."
+
+#KMT_neutrality_focus:0 "Retour à l’isolement"
+#KMT_neutrality_focus_desc:0 "Alors que d’autres affirment qu’il faut du courage et de la sagesse pour prendre parti dans un conflit mondial, nous savons qu’il en faut davantage pour refuser."
+
+#KMT_interventionism_focus:0 "Exporter la révolution nationale"
+#KMT_interventionism_focus_desc:0 "Nous valorisons la liberté de tous les peuples, pas seulement de nos citoyens. Si empêcher la tyrannie signifie la guerre, qu’il en soit ainsi."
+
+#KMT_deterrence:0 "Dissuasion"
+#KMT_deterrence_desc:0 "Seuls, nous tirons rarement profit de la guerre. Heureusement, nous savons que la meilleure défense est si bien connue qu’il n’est jamais nécessaire de l’utiliser."
+
+#KMT_volunteer_corps:0 "Les Brigades Sun Yat-sen"
+#KMT_volunteer_corps_desc:0 "Forcer notre peuple à mourir pour les idéaux de liberté serait un exercice d’ironie, mais établir des moyens pour ceux qui souhaitent aider à l’étranger ne l’est pas."
+
+#KMT_foreign_expeditions:0 "Le Corps expéditionnaire national de l’amitié"
+#KMT_foreign_expeditions_desc:0 "Avec nos ennemis prêts à intervenir dans des conflits lointains au nom de leurs idéaux, nous devons être prêts à faire de même pour les nôtres."
+
+#KMT_recognize_maos_government:0 "Reconnaître le gouvernement de Mao"
+#KMT_recognize_maos_government_desc:0 "Reconnaître leur gouvernement est un excellent moyen d’améliorer nos relations et d’apaiser les tensions."
+
+#KMT_privilege_to_proletarians:0 "Des privilèges pour les prolétaires"
+#KMT_privilege_to_proletarians_desc:0 "Les travailleurs ont été exploités trop longtemps. Il est temps de les libérer et de leur donner tous les privilèges qu’ils méritent."
+
+#KMT_integration_of_government:0 "Intégration du gouvernement"
+#KMT_integration_of_government_desc:0 "Avec les deux nations sous la direction de Mao, deux gouvernements ne feront plus qu’un."
+
+#KMT_join_comintern:0 "Rejoindre le Komintern"
+#KMT_join_comintern_desc:0 "Entourés d’ennemis, il est sage de trouver une sécurité dans les rangs de nos camarades d’autres nations. En rejoignant le Komintern, nous pouvons sécuriser notre position et faire progresser la cause du communisme à l’échelle mondiale."
+
+#kmt_integrate_mao_tt:0 "Définir le parti au pouvoir comme communiste"
+
+#KMT_socialist_science:0 "Science socialiste"
+#KMT_socialist_science_desc:0 "Le monde, comme l’esprit, est en mouvement constant. La nature est en progrès perpétuel, en révolution même. Les principes du matérialisme dialectique peuvent s’appliquer aux sciences naturelles aussi bien qu’aux sciences sociales..."
+
+#KMT_boycott_the_comitern:0 "Boycotter le Komintern"
+#KMT_boycott_the_comitern_desc:0 "Le Komintern est un enfer puant rempli de cochons révisionnistes. Nous créerons notre propre faction et suivrons la véritable voie du marxisme-léninisme."
+
+#KMT_sinkiang_integration:0 "Le sort du Sinkiang"
+#KMT_sinkiang_integration_desc:0 "Le Sinkiang est une terre chinoise légitime. Maintenant que nous sommes tous deux sous la direction de la grande Union soviétique, nous pouvons saisir l’occasion de demander le retour du Sinkiang à la Chine."
+
+#KMT_invite_sik:0 "Inviter le Sinkiang"
+#KMT_invite_sik_desc:0 "Si nous devons suivre la véritable voie du marxisme-léninisme, nous devons chercher des alliés pour nous opposer aux cochons révisionnistes du Komintern."
+
+#KMT_war_with_sik:0 "Guerre contre le Sinkiang"
+#KMT_war_with_sik_desc:0 "Le Sinkiang n’est sans aucun doute qu’une autre nation infectée par des cochons révisionnistes. Nous devons l’éliminer !"
+
+#KMT_trade_port_commie_comintern:0 "Demander une présence soviétique"
+#KMT_trade_port_commie_comintern_desc:0 "Si le monde occidental ne fait pas de compromis sur la question des ports commerciaux, nous devons demander la présence de l’Union soviétique pour renforcer nos chances."
+
+#KMT_trade_port_commie_own:0 "Revendiquer les ports commerciaux"
+#KMT_trade_port_commie_own_desc:0 "Nous devons reprendre les ports commerciaux au monde occidental, car ils nous appartiennent de droit."
+
+#KMT_yangtze_partition:0 "Partition du Yangtze"
+#KMT_yangtze_partition_desc:0 "La guerre contre les communistes ne se déroule pas en notre faveur, mais le fleuve Yangtze nous fait gagner du temps. Nous pouvons l’utiliser pour proposer une trêve et partager la Chine en l’utilisant comme frontière. Cela nous donnera un temps précieux pour nous rétablir et préparer une contre-offensive."
+
+#KMT_retreat_to_taiwan:0 "Retraite à Taïwan"
+#KMT_retreat_to_taiwan_desc:0 "Nous avons perdu cette guerre ! Nous devons ordonner une retraite générale à Taïwan et nous y réorganiser !"
+
+#KMT_retake_the_mainland:0 "Reprendre le continent"
+#KMT_retake_the_mainland_desc:0 "Le continent est à nous ! Débarrassons-nous des parasites communistes !"
+
+#KMT_resisist:0 "Résister au communisme"
+#KMT_resisist_desc:0 "Si nous laissons le communisme s’implanter dans notre société, le rêve de Sun ne sera jamais accompli et il n’y aura jamais de véritable démocratie pour la Chine !"
+
+#KMT_sov_advisors:0 "Conseillers soviétiques"
+#KMT_sov_advisors_desc:0 "Nous pouvons demander l’aide de quelques conseillers à nos amis bolcheviks pour soutenir notre armée."
+
+#KMT_spread_the_revolution:0 "Propager la révolution"
+#KMT_spread_the_revolution_desc:0 "Alors que nos frères asiatiques sont opprimés par les colonisateurs occidentaux diaboliques, nous devons leur enseigner la voie du communisme et chasser le démon venu de l’ouest !"
+
+#KMTwarlords_continuous_naval_production:0 "Production navale"
+#KMTwarlords_continuous_naval_production_desc:0 "En concentrant les ressources sur nos chantiers navals et en exemptant les constructeurs de navires qualifiés du service militaire, nous pouvons réduire considérablement le temps de production des navires."
+
+#KMTwarlords_continuous_air_production:0 "Production aéronautique"
+#KMTwarlords_continuous_air_production_desc:0 "Nous pouvons réorganiser notre industrie aéronautique afin d’éliminer le gaspillage et de rationaliser la production."
+
+#KMTwarlords_continuous_non_factory_construct:0 "Génie civil"
+#KMTwarlords_continuous_non_factory_construct_desc:0 "Il reste encore beaucoup de marge dans notre industrie de la construction. En nous y concentrant, nous pouvons obtenir une amélioration significative de la vitesse de construction. Malheureusement, la production d’outils mécaniques constitue un goulet d’étranglement majeur pour l’expansion de notre industrie lourde, de sorte qu’ils ne bénéficieront pas de ces efforts."
+
+#KMTwarlords_continuous_reduce_training_time:0 "Entraînement de l’armée"
+#KMTwarlords_continuous_reduce_training_time_desc:0 "En créant des unités d’entraînement spécialisées et avancées au sein de chaque division, nous pouvons déployer au front des divisions qui auraient auparavant dû attendre la fin de leur entraînement."
+
+#KMTwarlords_continuous_suppression:0 "Répression de la résistance"
+#KMTwarlords_continuous_suppression_desc:0 "En infiltrant les principaux groupes de résistance dans les territoires occupés et en retournant leurs dirigeants, nous pouvons réduire considérablement les dégâts qu’ils peuvent causer."
+
+#KMTwarlords_continuous_repair:0 "Réparation des infrastructures"
+#KMTwarlords_continuous_repair_desc:0 "Nous formerons des équipes spécialisées de réparation à partir des ouvriers des usines et du bâtiment et contrôlerons centralement leur déploiement afin d’améliorer la reconstruction des infrastructures endommagées."
+
+#KMTwarlords_continuous_tech_share:0 "Partage technologique"
+#KMTwarlords_continuous_tech_share_desc:0 "Nous encouragerons nos instituts de recherche et nos universités à entrer en contact avec leurs homologues des pays alliés. Cela nous procurera un bonus de partage technologique."
+
+#KMTwarlords_continuous_boost_freedom:0 "Accroître l’autonomie"
+#KMTwarlords_continuous_boost_freedom_desc:0 "En réorganisant notre bureaucratie coloniale et en recrutant des administrateurs locaux, nous pourrons, avec le temps, prendre en main nos propres affaires."
+
+#KMTwarlords_continuous_restrict_freedom:0 "Réprimer les sujets"
+#KMTwarlords_continuous_restrict_freedom_desc:0 "Nos sujets coloniaux ont pris de bien étranges idées comme « autodétermination » ou « indépendance nationale ». Il est temps de les détromper."
+
+#KMTwarlords_claim_central_government_con_focus:0 "Revendiquer la position de gouvernement central"
+#KMTwarlords_claim_central_government_con_focus_desc:0 "La Chine doit passer sous notre autorité !"
+
+#KMT_claim_central_government_con_focus:0 "Revendiquer la position de gouvernement central"
+#KMT_claim_central_government_con_focus_desc:0 "La Chine doit passer sous notre autorité !"
+#KMT_own_central_gov_capital_tt:0 "Contrôler la capitale actuelle du gouvernement central : §Y[KMT_central_gov_tag.Capital.GetName]§!\n"
