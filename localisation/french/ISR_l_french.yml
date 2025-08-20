@@ -1,0 +1,1757 @@
+l_french:
+
+ ################################
+ #MISC
+ ################################
+
+ #ISR_david_ben_gurion:0 "David Ben-Gourion" #localisé dans le fichier goe que nous ne remplaçons pas
+ ISR_DBG_DESCRIPTION:0 "David Josef Gruen a toujours cru qu’il serait celui qui succéderait à Herzl comme chef de la cause sioniste. Beaucoup le traitaient de fou ou de rêveur, mais il fit sienne la maxime de Herzl : « Si vous le voulez, ce n’est pas un rêve. »\n\nNé en 1886 à Plock dans une famille de paysans pauvres et illettrés, Gruen s’intéressa très tôt au sionisme. Après le pogrom de Kichinev, il rejoignit Poale Sion et devint un haut responsable du parti, rencontrant à plusieurs reprises des dirigeants juifs tels que Ber Borochov.\n\nAprès le départ de Borochov pour l’Amérique, Gruen s’installa en Palestine, où il fut recruté par Yisrael Shochat dans la branche palestinienne de Poale Sion. Shochat pensait que Gruen serait un outil utile, mais en réalité, Gruen saisissait chaque occasion de gagner du pouvoir dans le parti. Pour contrebalancer cela, Shochat recruta le nouvel arrivant Yitzhak Ben-Zvi. Gruen et Ben-Zvi devinrent de bons amis, mais Gruen perdit progressivement de l’influence face à Ben-Zvi et Shochat. Écœuré, il démissionna et s’installa à Sejera, où il adopta enfin un nom hébreu : Ben-Gourion.\n\nÀ l’éclatement de la Grande Guerre, Ben-Gourion rejoignit Ben-Zvi au sein de Poale Sion pour rallier du soutien à l’Empire ottoman, espérant gagner la faveur du gouvernement impérial. Mais les autorités rejetèrent cette démarche, déclarant Poale Sion organisation anti-turque, et en expulsèrent tous les membres vers l’Égypte, où ils passèrent le reste de la guerre, certains rejoignant même les Britanniques pour combattre les Ottomans.\n\nAvec le nouveau mandat sous contrôle britannique, Ben-Gourion fonda un nouveau parti : le Mapai, ainsi que sa force paramilitaire, la Haganah. Ce parti allait dominer la direction du Yishouv, et quand vint le temps de se soulever contre les Britanniques, ce fut la Haganah qui frappa la première.\n\nAujourd’hui, avec l’espoir de deux mille ans enfin à portée de main, c’est à nul autre que Ben-Gourion de franchir la ligne d’arrivée."
+
+ ISR_poali_zion_veteran:0 "Vétéran de Poale Sion"
+ ISR_kibbutznik:0 "Kibboutznik"
+ ISR_liberal_nationalist:0 "Nationaliste libéral"
+ ISR_militia_veteran:0 "Vétéran de l’Irgoun"
+
+ ISR_taas_organization:0 "Ta’as Ma’arakhot"
+ ISR_mada_organization:0 "Heil HaMada"
+ ISR_haargaz_organization:0 "Ha’Argaz"
+ ISR_railways_organization:0 "Rakevet Yisrael"
+
+
+ ################################
+ #TOOLTIPS
+ ################################
+ ISR_ARAB_volunteers_EGY:0 "Nous prendrons §Gle contrôle§! des unités du sud de §Y[PAL.GetNameDef]§!."
+ ISR_ARAB_volunteers_JOR:0 "Nous prendrons §Gle contrôle§! du reste des unités de §Y[PAL.GetNameDef]§!."
+ MPL_trigger_collapse_PAL:0 " §RCela a commencé.§!"
+ MPL_trigger_collapse_ISR:0 " §RCela a commencé.§!"
+ ISR_coup_after_war:0 "Nous renverserons le gouvernement une fois la guerre terminée."
+ ISR_negev_remove_tt:0 "Ce modificateur sera retiré si l’infrastructure de cet État atteint au moins §Y60%§!."
+ ISR_minority_government_start:0 "£political_power_texticon Gain de pouvoir politique §R-30%§!\n£manpower_texticon Facteur de population mobilisable §R-10%§!"
+ ISR_minority_government_communists_1:0 "Modifie §YGouvernement minoritaire§! :\nSoutien quotidien au communisme §G+0.02§!"
+ ISR_minority_government_communists_2:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\nSoutien quotidien au fascisme §R-0.05§!"
+ ISR_minority_government_communists_3:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\n£construction_speed_texticon Vitesse de construction §G+7.50%§!\nProduction des usines §G+7.50%§!"
+ ISR_minority_government_communists_4:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+15%§!\nSoutien quotidien au communisme §G+0.03§!\nFacteur de population mobilisable §G+10%§!"
+ ISR_minority_government_hashomer_1:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\nSoutien quotidien à la démocratie §G+0.02§!"
+ ISR_minority_government_hashomer_2:0 "Modifie §YGouvernement minoritaire§! :\n£research_speed_texticon Vitesse de recherche §G+7.50%§!"
+ ISR_minority_government_hashomer_3:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\n£manpower_texticon Facteur de population mobilisable §G+15%§!"
+ ISR_minority_government_hashomer_4:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+20%§!\n£consumer_goods_texticon Usines de biens de consommation §Y-5.00%§!"
+ ISR_minority_government_religious_1:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\nSoutien quotidien à l’autoritarisme §G+0.02§!"
+ ISR_minority_government_religious_2:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\n£consumer_goods_texticon Usines de biens de consommation §Y+2.00%§!"
+ ISR_minority_government_religious_3:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+15%§!"
+ ISR_minority_government_hardliners_1:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\nSoutien quotidien au fascisme §G+0.05§!"
+ ISR_minority_government_hardliners_2:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\nSoutien quotidien au communisme §R-0.05§!"
+ ISR_minority_government_hardliners_3:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §G+10%§!\n£consumer_goods_texticon Usines de biens de consommation §Y-5.00%§!"
+ ISR_minority_government_hardliners_4:0 "Modifie §YGouvernement minoritaire§! :\n£political_power_texticon Gain de pouvoir politique §R-5%§!\nSoutien quotidien au communisme §R-0.05§!\nSoutien quotidien à la démocratie §R-0.05§!"
+ ISR_land_reclamation_unlocked:0 "Débloque les décisions de §YReprise de terres§!, permettant d’obtenir plus d’emplacements de construction."
+ ISR_if_has_jewish_militarism:0 "Si vous avez l’esprit national §YDiplomatie du Mur de fer§! :"
+ ISR_if_not_has_jewish_militarism:0 "Si vous n’avez pas l’esprit national §YDiplomatie du Mur de fer§! :"
+ ISR_armageddon:0 "§RL’Armageddon est arrivé§!"
+ ISR_coalition_will_be_updated:0 "§GCe focus sera automatiquement validé dès qu’une coalition sera formée, si les conditions sont remplies§!."
+ MPL_arab_declaring_war:0 "A rejoint la guerre arabo-[ISR.GetAdjective]."
+ ISR_walk_once_more:0 "Mais qu’advient-il d’un rêve différé ?"
+
+ ISR_war_israel_maybe:0 "§OCela pourrait mener à une guerre avec [ISR.GetNameDef]!§!"
+ ISR_suez_blocked:0 "§ONos navires ne pourront pas passer par le canal de Suez !§!"
+ ISR_suez_tooltip:0 "Nous aurons l’option de demander la paix si nous parvenons à saisir la rive est du canal de Suez."
+ ISR_tiran_opened:0 "Les §Ydétroits de Tiran§! seront §Gouverts§! à notre navigation !"
+ ISR_egypt_blockaded_suez:0 "§R[EGY.GetNameDefCap] a bloqué notre accès au canal de Suez !§!"
+ ISR_egypt_blockaded_tiran:0 "§R[EGY.GetNameDefCap] a bloqué notre accès aux détroits de Tiran !§!"
+ ISR_suez_contested:0 "§RLe canal de Suez est contesté entre [ISR.GetNameDef] et [EGY.GetNameDef]!§!"
+ ISR_not_two_state:0 "Pas : solution à deux États"
+ ISR_appeal_west_tt:0 "Une §Yusine civile§! sera ajoutée pour chacun des pays suivants qui est §3démocratique§! et qui a une opinion de §YIsraël§! supérieure à §G80§! : §Y[ENG.GetNameDef]§!, §Y[FRA.GetNameDef]§! et §Y[USA.GetNameDef]§!."
+ ISR_ben_gurion_resigned:0 "Ben Gourion s’est retiré de la politique"
+ ISR_ben_gurion_stayed:0 "Ben Gourion a décidé de rester en politique"
+ ISR_jabotinsky_died:0 "Ze’ev Jabotinsky est décédé"
+ ISR_dov_hoz_dead:0 "Dov Hoz a péri dans un accident de voiture"
+ ISR_sided_loyalists:0 "S’est rangé du côté des loyalistes"
+ ISR_sided_lehi:0 "S’est rangé du côté de Stern"
+ ISR_constitution_effect_tt:0 "Effet immédiat au lancement du focus :\nDéclenche l’événement « §YRédaction d’une constitution§! »."
+ ISR_jabotinsky_worked_tt:0 "§OTrop travailler accélérera la dégradation de sa santé !§!"
+ ISR_herzl_body_denied:0 "[4.controller.GetNameDefCap] n’a pas accepté notre demande de rapatriement du corps de Herzl."
+
+ ISR_EGY_negotiating:0 "Nous sommes en train de négocier la question du canal"
+ ISR_negotiations_collapsed:0 "Les négociations ont échoué"
+
+
+ ISR_crush_lehi_cost:0 "£GFX_manpower_texticon  §Y1000§! £infantry_equipment_text_icon  §Y100§!"
+ ISR_crush_lehi_cost_blocked:0 "£GFX_manpower_texticon  §R1000§! £infantry_equipment_text_icon  §R100§!"
+
+ ISR_lehi_up_5:0 "La force du Lehi §Raugmentera§! de §R5%§!."
+ ISR_lehi_up_10:0 "La force du Lehi §Raugmentera§! de §R10%§!."
+ ISR_lehi_up_15:0 "La force du Lehi §Raugmentera§! de §R15%§!."
+ ISR_lehi_up_20:0 "La force du Lehi §Raugmentera§! de §R20%§!."
+
+ ISR_lehi_down_5:0 "La force du Lehi §Gdiminuera§! de §G5%§!."
+ ISR_lehi_down_10:0 "La force du Lehi §Gdiminuera§! de §G10%§!."
+ ISR_lehi_down_15:0 "La force du Lehi §Gdiminuera§! de §G15%§!."
+ ISR_lehi_down_20:0 "La force du Lehi §Gdiminuera§! de §G20%§!."
+
+ ISR_lehi_strength_under_10:0 "La force du Lehi est inférieure à §Y10%§!"
+
+ ISR_raid_better_small:0 "La probabilité de réussir un raid augmentera légèrement §G§!."
+ ISR_raid_better:0 "La probabilité de réussir un raid augmentera modérément §G§!."
+ ISR_raid_better_alot:0 "La probabilité de réussir un raid augmentera fortement §G§!."
+
+ ISR_lehi_crushed:0 "L’insurrection du Lehi a été écrasée"
+
+ ISR_preparedness_up_5:0 "La préparation au coup d’État §Gaugmentera§! de §G5%§!."
+ ISR_preparedness_up_10:0 "La préparation au coup d’État §Gaugmentera§! de §G10%§!."
+ ISR_preparedness_up_15:0 "La préparation au coup d’État §Gaugmentera§! de §G15%§!."
+ ISR_preparedness_up_20:0 "La préparation au coup d’État §Gaugmentera§! de §G20%§!."
+
+ ISR_preparedness_down_5:0 "La préparation au coup d’État §Rdiminuera§! de §R5%§!."
+ ISR_preparedness_down_10:0 "La préparation au coup d’État §Rdiminuera§! de §R10%§!."
+ ISR_preparedness_down_15:0 "La préparation au coup d’État §Rdiminuera§! de §R15%§!."
+ ISR_preparedness_down_20:0 "La préparation au coup d’État §Rdiminuera§! de §R20%§!."
+
+ISR_preparedness_above_90:0 "La préparation du coup d’État est supérieure à §Y90 %§!"
+
+ISR_lehi_succeeded:0 "Le soulèvement du Lehi a réussi"
+
+ISR_build_third_temple_tt:0 "§REn raison de la présence de la mosquée Al-Aqsa sur le Mont du Temple, une telle décision serait absolument catastrophique !§!"
+ISR_no_muslim_faction:0 "Nous ne faisons partie d’aucune faction avec un État musulman indépendant."
+
+################################
+# DÉCISIONS
+################################
+ISR_sinai_war_category:0 "Opération Focus"
+ISR_sinai_war_category_desc:0 "Après la nationalisation du canal de Suez par l’Égypte, nous avons été contraints d’intervenir pour garantir notre accès à ses voies maritimes. Cependant, nous ne pouvons pas nous permettre d’envahir toute l’Égypte : nous devons donc saisir la rive orientale du canal et la tenir."
+ISR_defeat_egypt_mission:0 "Tenir la rive orientale"
+ISR_push_for_negotiations:0 "Pousser pour des négociations"
+
+ISR_land_reclamation_category:0 "Projets de mise en valeur des terres"
+ISR_land_reclamation_category_desc:0 "Notre pays est petit, et nous devons utiliser chaque dunam de terre pour assurer la réussite de notre État. De nombreuses zones de notre territoire sont trop arides ou trop humides pour accueillir des centres de population et des pôles industriels. Nous devons concentrer nos efforts pour les rendre habitables."
+ISR_drain_hula:0 "Assécher les marais de Hula"
+ISR_northern_aforestation:0 "Reboisement du Nord"
+ISR_southern_aforestation:0 "Reboisement du Sud"
+ISR_fertilize_the_negev:0 "Fertiliser le Néguev"
+
+ISR_jabotinsky_category:0 "Santé déclinante de Jabotinsky"
+ISR_jabotinsky_category_desc:0 "Le père du sionisme révisionniste décline. Après de nombreux incidents médicaux, il semble que ses jours soient comptés. S’il continue à travailler à ce rythme, son état ne fera qu’empirer. Nous devons nous assurer que la situation ne devienne pas incontrôlable."
+ISR_jabotinsky_dying_mission:0 "Santé de Jabotinsky en aggravation"
+
+ISR_crush_lehi_category:0 "Écraser le soulèvement du Lehi"
+ISR_crush_lehi_category_desc:0 "Une bataille décisive pour l’avenir de notre nation est en cours. Partout dans le pays, des traîtres fascistes dirigés par [ISR.GetFascismLeader] se sont soulevés contre notre gouvernement, menaçant l’existence même de notre État. Ce soulèvement doit être écrasé.\n\nForce actuelle du Lehi : §Y[?ISR_lehi_strength]%§!."
+ISR_impending_uprising:0 "Écraser le soulèvement du Lehi"
+ISR_launch_raid:0 "Fouiller un repaire suspect du Lehi"
+ISR_track_lehi_messengers:0 "Pister les messagers du Lehi"
+ISR_sway_former_haganah:0 "Rallier d’anciens soldats de la Haganah"
+ISR_accept_lehi_defectors:0 "Accepter les déserteurs du Lehi"
+ISR_raid_lehi_convoys:0 "Attaquer les convois du Lehi"
+
+ISR_lehi_uprising_category:0 "Le soulèvement du Lehi"
+ISR_lehi_uprising_category_desc:0 "Après la mort de Jabotinsky, Menachem Begin a prouvé qu’il ne pouvait pas être digne de confiance pour diriger la nation, et nous avons lancé une révolte contre lui. Notre Lehi est bien plus réduit que l’Irgun ; nous devons donc planifier soigneusement nos tactiques et utiliser efficacement nos maigres ressources.\n\nPréparation actuelle au coup d’État : §Y[?ISR_preparedness]%§!."
+
+ISR_window_of_oppertunity:0 "Fenêtre d’opportunité"
+ISR_window_of_oppertunity_desc:0 "Notre fenêtre d’opportunité est maintenant ! Nous devons frapper avant qu’il ne soit trop tard."
+ISR_irgun_crackdowns:0 "Répressions contre l’Irgun"
+ISR_attack_irgun_officer:0 "Attaquer un officier de l’Irgun"
+ISR_bomb_irgun_infrastructure:0 "Saboter les infrastructures de l’Irgun"
+ISR_sneak_foreign_support:0 "Demander l’aide de [FROM.GetNameDef]"
+
+ISR_request_herzl_body:0 "Demander le rapatriement du corps de Theodor Herzl"
+JOR_core_west_bank:0 "Proclamer le royaume hachémite de Jordanie"
+JOR_core_west_bank_desc:0 "Après avoir pris la rive ouest du Jourdain, nous pouvons enfin unir notre peuple en une seule nation."
+JOR_core_west_bank_tt:0 "Nous donnerons un cœur à tous les États palestiniens que nous contrôlons."
+
+
+################################
+# ÉVÉNEMENTS
+################################
+israel.1.t:0 "Coup d’État de l’Irgun !"
+israel.1.d:0 "Contraints de coopérer pendant la guerre, la Haganah et l’Irgun ont combattu côte à côte, à contrecœur, pour assurer l’indépendance du pays. Mais maintenant, alors que les tensions atteignent un niveau sans précédent, l’armée désorganisée s’est de nouveau fragmentée, et un affrontement entre soldats de la Haganah et de l’Irgun à Tel-Aviv a dégénéré en coup d’État national, l’Irgun prenant finalement le contrôle."
+israel.1.a:0 "[ISR.GetNeutralLeader] nous mènera à la gloire !"
+
+israel.2.t:0 "Mort de Ze’ev Jabotinsky"
+israel.2.d:0 "Ce matin, Ze’ev Jabotinsky a succombé à une crise cardiaque fatale. Des foules en deuil venues de tout le pays se sont réunies pour ses funérailles au cimetière du mont Herzl, certains membres du Mapai ayant même fait le déplacement. Son successeur, Menahem Begin, a juré de poursuivre son héritage en tant que dirigeant de Hatzohar."
+israel.2.a:0 "La fin d’une ère."
+
+israel.3.t:0 "La question de la capitale"
+israel.3.d:0 "Après avoir déplacé la capitale pendant la guerre d’indépendance, il est temps de trancher une bonne fois pour toutes où se trouvera la capitale du nouvel État juif. Beaucoup de groupes laïques estiment qu’elle doit rester à Tel-Aviv, centre moderne et séculier, tandis que les communautés religieuses plaident pour un retour dans la ville sainte de Jérusalem. Que devons-nous choisir ?"
+israel.3.a:0 "La capitale restera à Tel-Aviv."
+israel.3.b:0 "La capitale sera déplacée à Jérusalem."
+
+israel.4.t:0 "La sixième Aliyah"
+israel.4.d:0 "Avec l’indépendance du nouvel État, des réfugiés juifs du monde entier affluent vers notre pays en quête d’asile, fuyant les horreurs grandissantes du fascisme et de l’antisémitisme en Europe et ailleurs. Cela a créé une crise migratoire d’une ampleur massive, mais nous ne pouvons nous permettre de refuser qui que ce soit, car notre nation profiterait immensément d’un afflux de population."
+israel.4.a:0 "Comme entre des murs qui s’effondrent, le peuple chanta."
+
+israel.5.t:0 "Les élections provisoires"
+israel.5.d:0 "Avec la fin de la guerre, l’heure est venue d’organiser nos premières élections. Après un recensement national, pour lequel tout le pays a été placé sous couvre-feu pendant cinq heures, nous sommes enfin prêts.\n\nLes citoyens se pressent aux urnes pour voter pour leurs partis, et la course est serrée. Le temps dira qui sortira vainqueur."
+israel.5.a:0 "Le peuple d’Israël vit à nouveau."
+
+israel.6.t:0 "Les durs gagnent en influence"
+israel.6.d:0 "Des rapports récents indiquent que la faction des Durs tente d’accroître son influence politique. Certains disent qu’ils cherchent à nous renverser, d’autres affirment qu’ils sont nos alliés et qu’on peut leur faire confiance. Que devons-nous faire ?"
+israel.6.a:0 "Balivernes. Ce sont nos alliés."
+israel.6.b:0 "Les purger immédiatement. Cela ne sera pas toléré."
+
+israel.7.t:0 "Prise de pouvoir des durs"
+israel.7.d:0 "Aujourd’hui, les Durs ont pris d’assaut le bâtiment de la Knesset et se sont emparés du gouvernement. [ISR.GetNeutralLeader] a été abattu durant les affrontements, tout comme d’autres membres de Hatzohar. [ISR.GetFascistLeader] a proclamé aujourd’hui la naissance d’un nouvel État israélien, destiné à restaurer notre gloire perdue."
+israel.7.a:0 "Ils étaient fous de nous faire confiance."
+
+israel.8.t:0 "[ISR.GetNameDefCap] exige la Jordanie"
+israel.8.d:0 "Aujourd’hui, [ISR.GetLeader] a officiellement exigé que nous cédions les territoires de Jordanie à leur Grand Israël. Ils affirment que la patrie ancestrale du peuple juif se situe sur les deux rives du Jourdain, et que ce territoire leur revient de droit."
+israel.8.a:0 "Ils sont peut-être fous, mais nous ne pouvons pas risquer une guerre."
+israel.8.b:0 "C’est absurde. Ont-ils perdu la tête ?"
+
+israel.9.t:0 "La Jordanie cédée"
+israel.9.d:0 "[455.controller.GetNameDefCap] nous a cédé le contrôle de la Jordanie suite à nos exigences. Notre Grand Israël est enfin uni."
+israel.9.a:0 "Rak kakh. (Seulement ainsi.)"
+
+israel.10.t:0 "[455.controller.GetNameDefCap] rejette nos exigences"
+israel.10.d:0 "Aujourd’hui, [455.controller.GetLeader] nous a adressé un message moqueur à propos de notre demande de Jordanie. Ils affirment que nous avons perdu la raison en osant de telles exigences."
+israel.10.a:0 "Peut-être un jour."
+israel.10.b:0 "Nous n’avons pas le choix."
+
+israel.11.t:0 "Défaite dans la guerre du Sinaï"
+israel.11.d:0 "Hélas, en raison de notre incompétence et de notre incapacité à reprendre le Sinaï à Israël, on nous demande maintenant de concéder et de signer un traité de paix. Poursuivre la guerre risquerait d’être désastreux pour la stabilité de notre nation."
+israel.11.a:0 "C’est ce qu’il y a de mieux pour le peuple égyptien, nous devons accepter."
+israel.11.b:0 "Non ! Nous ne subirons pas cette humiliation !"
+
+israel.12.t:0 "Victoire contre Israël"
+israel.12.d:0 "Après l’audacieuse invasion du Sinaï par les forces israéliennes, ils nous proposent un accord de paix, leur opération n’ayant pas permis de pénétrer en territoire égyptien, ni de sécuriser le Sinaï. Vraiment, Dieu est de notre côté."
+israel.12.a:0 "Nous sommes victorieux !"
+israel.12.b:0 "Non ! Nous devons aller plus loin !"
+
+israel.15.t:0 "Yom Ha’Atsmaout"
+israel.15.d:0 "Yom Ha’Atsmaout – le jour de l’indépendance. Le rêve de 2000 ans de notre peuple, être enfin libre sur notre propre terre, s’est accompli. Des célébrations éclatent à travers tout le pays alors que l’armistice est signé, et le peuple croit enfin que tous ses efforts ont porté leurs fruits.\n\nMais ce n’est pas la fin. À présent, il est temps de se rassembler et de reconstruire, Juifs et Arabes ensemble. Nous avons gagné notre place sur la scène internationale, il faut désormais la conserver."
+israel.15.a:0 "Am Yisrael Haï !"
+
+israel.16.t:0 "Les difficultés de l’Aliyah s’atténuent"
+israel.16.d:0 "Au cours des dernières années depuis notre indépendance, l’infrastructure de notre nation a été mise à rude épreuve par la vague d’immigration de l’Aliyah. Cependant, avec l’expansion de notre industrie et la légitimité politique croissante de notre État, les effets paralysants de cette immigration s’atténuent peu à peu."
+israel.16.a:0 "Comme entre des murs qui s’effondrent, le peuple chanta."
+
+israel.20.t:0 "Choix du président d’Israël"
+israel.20.d:0 "Avec la Knesset réunie, nous devons désigner une figure de proue pour diriger notre nation en tant que président. Plusieurs noms circulent, mais trois ressortent principalement : Chaim Weizmann, représentant du Yishouv au traité de Sèvres ; Yitshak Ben-Zvi, sioniste travailliste de longue date et ami de David Ben-Gourion ; et Albert Einstein, figure juive mondialement reconnue.\n\nLa Knesset est divisée : beaucoup estiment qu’Einstein est le meilleur choix, mais d’autres affirment que ses chances d’accepter sont faibles et qu’il manque d’expérience politique, ce qui fait de Weizmann ou Ben-Zvi des options plus réalistes."
+israel.20.a:0 "Chaim Weizmann a été une figure de proue depuis les débuts du sionisme. C’est le choix évident."
+israel.20.b:0 "Yitshak Ben-Zvi a prouvé sa dévotion. Nous devons le choisir."
+israel.20.c:0 "Il nous faut une pensée scientifique pour propulser notre nation. Einstein est le bon choix."
+
+israel.21.t:0 "Einstein démissionne"
+israel.21.d.a:0 "Le président Einstein a déclaré aujourd’hui qu’en raison de la dépendance du gouvernement actuel vis-à-vis des partis religieux, il ne pouvait plus continuer à servir en tant que président de la nation en raison de conflits d’intérêts. L’ancien candidat Chaim Weizmann a été désigné pour lui succéder."
+israel.21.d.b:0 "Le président Einstein a déclaré aujourd’hui qu’en raison des politiques autoritaires du gouvernement actuel, il ne pouvait plus continuer à servir en tant que président de la nation en raison de conflits d’intérêts. L’ancien candidat Chaim Weizmann a été désigné pour lui succéder."
+israel.21.a:0 "Il n’était pas fait pour cette fonction de toute façon."
+
+israel.22.t:0 "Pourparlers d’armistice de Jérusalem"
+israel.22.d.a:0 "À la suite de l’invasion jordanienne de la Cisjordanie, nous sommes contraints de négocier une ligne d’armistice officielle pour Jérusalem avec [JOR.GetNameDef]. La ville sera divisée entre nos nations afin d’apaiser les tensions."
+israel.22.d.b:0 "À la suite de notre invasion de la Cisjordanie, nous sommes contraints de négocier une ligne d’armistice officielle pour Jérusalem avec [ISR.GetNameDef]. La ville sera divisée entre nos nations afin d’apaiser les tensions."
+israel.22.a:0 "Nous accepterons à contrecœur un compromis."
+
+israel.23.t:0 "Ramener le corps d’Herzl"
+israel.23.d:0 "Le grand visionnaire sioniste Théodore Herzl, fondateur de l’idée même d’un État juif moderne, repose actuellement dans sa ville natale de Vienne. Pourtant, dans son testament, le père du sionisme a demandé que ses restes et ceux de sa famille soient transférés en Terre d’Israël lorsque le peuple juif aurait gagné sa liberté. Ce moment est arrivé.\n\nCependant, il nous faut obtenir l’accord de [4.controller.GetNameDef], qui contrôle actuellement son lieu de repos. Devons-nous tenter de négocier avec eux ?"
+israel.23.a:0 "Le père du sionisme doit être inhumé en Israël."
+israel.23.b:0 "Il restera là où il est."
+
+israel.24.t:0 "[ISR.GetNameDefCap] demande le retour du corps d’Herzl"
+israel.24.d:0 "[ISR.GetNameDefCap] a récemment approché notre gouvernement afin de rapatrier les restes de Théodore Herzl, leader et visionnaire du sionisme, de Vienne en Israël. Nous devons décider si nous accédons à cette demande."
+israel.24.a:0 "Ils peuvent récupérer son corps."
+israel.24.b:0 "Il restera ici."
+
+israel.25.t:0 "Le corps d’Herzl rapatrié"
+israel.25.d.a:0 "[4.controller.GetNameDefCap] a accepté de nous rendre le corps d’Herzl. Un cimetière dédié aux grands leaders sionistes est en cours de création à Jérusalem, et il y sera inhumé."
+israel.25.d.b:0 "[4.controller.GetNameDefCap] a accepté de nous rendre le corps d’Herzl. Un cimetière dédié aux grands leaders sionistes est en cours de création à Tel-Aviv, et il y sera inhumé."
+israel.25.a:0 "Si vous le voulez, ce n’est pas un rêve."
+
+israel.26.t:0 "[4.controller.GetNameDefCap] refuse de rendre le corps d’Herzl"
+israel.26.d:0 "Notre demande de rapatriement du corps d’Herzl a été rejetée par [4.controller.GetNameDef]. Il restera là-bas pour le moment."
+israel.26.a:0 "Cela ne sera pas oublié."
+
+israel.27.t:0 "Les civils arabes fuient"
+israel.27.d:0 "À mesure que notre victoire devient une réalité indéniable, de nombreux civils arabes fuient nos territoires vers les pays voisins. Nous devons décider comment gérer cette situation."
+israel.27.a:0 "Prévisible."
+
+israel.30.t:0 "Élections en Cisjordanie"
+israel.30.d:0 "Alors que nous nous préparons à organiser nos premières élections, une question demeure : doivent-elles avoir lieu en Cisjordanie ? Si elles se tiennent, l’importante majorité arabe de la région influencera fortement le résultat en faveur des partis de gauche. Nous devons trancher."
+israel.30.a:0 "Ce sont des citoyens comme les autres. Elles auront lieu."
+israel.30.b:0 "Nous ne pouvons pas encore leur faire confiance."
+
+israel.31.t:0 "Le père vieillissant"
+israel.31.d:0 "Le Premier ministre Ben-Gourion a exprimé à plusieurs reprises son désir de se retirer de la politique pour fonder un kibboutz dans le Néguev. Beaucoup estiment qu’il mérite un repos bien mérité, mais d’autres pensent que nous avons besoin de son leadership en ces temps troublés. Si jamais il démissionnait, le ministre des Affaires étrangères Moshe Sharett prendrait sa place.\n\nQue doit-on faire ?"
+israel.31.a:0 "Aucun homme n’a sacrifié davantage. Qu’il se repose."
+israel.31.b:0 "Nous avons besoin de son leadership."
+
+israel.32.t:0 "Rédaction d’une constitution"
+israel.32.d:0 "Le rêve d’une nation juive indépendante est accompli, et les sceptiques sont réduits au silence. Mais nos problèmes ne sont pas finis. Notre État n’a pas de constitution définissant les fonctions du gouvernement et de la société, et cela pourrait poser de graves problèmes si nous n’y remédions pas. Cependant, de nombreuses questions controversées doivent être abordées, ce qui rendra difficile l’adoption d’un texte consensuel.\n\n§RPour faire adopter la constitution, il faut une majorité à la Knesset, mais elle ne doit pas être trop vague et doit trancher certaines questions, même si cela mécontente certaines factions.§!"
+israel.32.a:0 "Que les négociations commencent."
+
+israel.33.t:0 "La question de la conscription"
+israel.33.d:0 "Le premier dilemme des négociations constitutionnelles concerne la conscription. Actuellement, de nombreuses communautés religieuses en Israël bénéficient d’exemptions spéciales du service militaire pour des raisons religieuses, ce qui indigne la majorité laïque.\n\nDoivent-elles être contraintes de servir ?"
+israel.33.a:0 "Elles doivent servir comme tout le monde."
+israel.33.b:0 "Elles ont une raison valable de ne pas le faire."
+
+israel.34.t:0 "La question du Chabbat"
+israel.34.d:0 "Le deuxième dilemme des négociations constitutionnelles concerne le rôle du Chabbat dans notre nation. Certains exigent que tous les services et commerces soient fermés le Chabbat, tandis que d’autres considèrent cela comme inacceptable et estiment que la religion ne doit pas être imposée à la population.\n\nQue devons-nous décider ?"
+israel.34.a:0 "On ne peut pas imposer la religion à un peuple."
+israel.34.b:0 "Si nous perdons nos traditions, sommes-nous encore juifs ?"
+
+israel.35.t:0 "La question de la Cour suprême"
+israel.35.d:0 "Le troisième dilemme des négociations constitutionnelles concerne la Cour suprême. Certains estiment qu’il faut un pouvoir judiciaire indépendant de la Knesset, afin de jouer un rôle de contrepoids, tandis que d’autres considèrent que ce serait antidémocratique qu’une telle institution puisse intervenir."
+israel.35.a:0 "Permettre à une institution non élue d’influencer la politique serait antidémocratique."
+israel.35.b:0 "Laisser un gouvernement majoritaire voter toutes les lois qu’il souhaite serait une tyrannie."
+
+israel.36.t:0 "La question de l’État-nation"
+israel.36.d:0 "Le quatrième dilemme des négociations constitutionnelles concerne l’identité même de la nation. Certains souhaitent proclamer officiellement Israël comme étant l’État du peuple juif pour le peuple juif, tandis que d’autres pensent qu’il vaut mieux laisser cette question dans le flou pour éviter les tensions."
+israel.36.a:0 "Nous devons proclamer officiellement ce qui est évident."
+israel.36.b:0 "Restons vagues."
+
+israel.37.t:0 "La question de l’emploi"
+israel.37.d:0 "Le cinquième et dernier dilemme des négociations constitutionnelles concerne l’emploi et l’État. Beaucoup estiment que les syndicats doivent être responsables de l’emploi, car ils protègeront les droits des travailleurs. D’autres pensent que ce serait une ingérence excessive, bureaucratique et nuisible aux libertés individuelles."
+israel.37.a:0 "Nous devons protéger les droits des travailleurs."
+israel.37.b:0 "Nous ne devons pas restreindre les libertés individuelles."
+
+israel.38.t:0 "La constitution [ISR.GetAdjective]"
+israel.38.d:0 "Aujourd’hui, la constitution [ISR.GetAdjective] a été adoptée par la Knesset, avec [?ISR_constitution_votes] voix sur 120. Les partis favorables parlent d’un triomphe de la démocratie [ISR.GetAdjective], tandis que les partis opposés dénoncent une tyrannie de la majorité. Quoi qu’il en soit, il s’agit d’une avancée majeure vers la stabilité du pays."
+israel.38.a:0 "Am Yisrael Haï !"
+
+israel.39.t:0 "Échec des négociations constitutionnelles"
+israel.39.d.a:0 "Faute d’avoir conservé une majorité à la Knesset en faveur du projet de constitution, les négociations ont échoué.\n\nIl ne nous reste qu’un ensemble restreint de « Lois fondamentales » ambiguës, servant de pseudo-constitution. Mais celles-ci sont trop faciles à modifier et leur fragilité risque de causer de graves problèmes à l’avenir si nous n’y remédions pas."
+israel.39.d.b:0 "Faute d’avoir abordé de nombreuses questions essentielles dans le projet de constitution, les négociations ont échoué.\n\nIl ne nous reste qu’un ensemble restreint de « Lois fondamentales » ambiguës, servant de pseudo-constitution. Mais celles-ci sont trop faciles à modifier et leur fragilité risque de causer de graves problèmes à l’avenir si nous n’y remédions pas."
+israel.39.a:0 "Espérons seulement qu’aucun problème majeur n’éclatera."
+
+israel.40.t:0 "Accès [ISR.GetAdjective] au canal de Suez ?"
+israel.40.d:0 "Avec notre récente nationalisation du canal de Suez, une question demeure : devons-nous autoriser le passage des navires [ISR.GetAdjective] ? Nous pourrions ainsi gravement nuire à leur accès à l’Orient, ce qui les affaiblirait considérablement.\n\nCependant, nous risquons d’être envahis, car cela pourrait être perçu comme un acte de guerre."
+israel.40.a:0 "Bloquez leur passage."
+israel.40.b:0 "C’est trop risqué."
+
+israel.41.t:0 "[EGY.GetNameDefCap] bloque notre accès au canal de Suez !"
+israel.41.d:0 "Après leur récente nationalisation du canal de Suez, [EGY.GetNameDef] a bloqué notre accès. C’est une catastrophe pour notre commerce vers l’hémisphère oriental, car notre port méridional d’Eilat est extrêmement sous-développé et non relié au reste du pays par chemin de fer. La crainte d’un effondrement économique plane."
+israel.41.a:0 "Nous devons envisager une riposte."
+
+israel.42.t:0 "La guerre du Sinaï"
+israel.42.d:0 "Peu de temps après la nationalisation du canal de Suez par [EGY.GetNameDef], des rapports sur des navires [ISR.GetAdjective] refoulés du canal se sont répandus dans le monde entier.\n\n[ISR.GetLeader] a déclaré qu’il s’agissait d’un acte lâche de guerre de la part de [EGY.GetLeader] et qu’en raison du blocus antérieur des détroits de Tiran par [EGY.GetNameDef], [ISR.GetNameDef] n’a pas d’autre choix que d’envahir pour ne pas être coupé du monde oriental.\n\nDes affrontements à la frontière ont déjà commencé, et la guerre semble inévitable."
+israel.42.a:0 "Frappez tant que le fer est chaud."
+
+israel.43.t:0 "Un bouquetin de Nubie aperçu"
+israel.43.d:0 "Avec les investissements croissants dans le Néguev, beaucoup affluent pour admirer la faune locale, notamment ce bouquetin de Nubie dont la photographie a été largement diffusée."
+israel.43.a:0 "Assurément, la nouvelle la plus passionnante."
+
+israel.45.t:0 "La santé de Ze’ev Jabotinsky se dégrade"
+israel.45.d.b:0 "Lors d’une réunion avec des membres de l’Irgun hier, Jabotinsky s’est soudainement effondré et a été évacué par des équipes médicales. Ce nouvel incident accrédite la thèse d’une maladie cardiaque. Beaucoup s’inquiètent pour sa santé et pour l’avenir de la nation s’il venait à disparaître, le pressant de ne pas se surmener."
+israel.45.d.a:0 "Lors d’une réunion avec des membres de Tsahal hier, Jabotinsky s’est soudainement effondré et a été évacué par des équipes médicales. Ce nouvel incident accrédite la thèse d’une maladie cardiaque. Beaucoup s’inquiètent pour sa santé et pour l’avenir de la nation s’il venait à disparaître, le pressant de ne pas se surmener."
+israel.45.a:0 "Inquiétant."
+
+israel.46.t:0 "Cache d’armes disparue"
+israel.46.d:0 "Peu après la mort de Jabotinsky, des rapports signalent la disparition de caches d’armes, ce qui inquiète le haut commandement de l’Irgun. Beaucoup de ces disparitions semblent survenir dans des zones où le soutien au groupe Stern est élevé, ce qui suscite la méfiance."
+israel.46.a:0 "Enquêter là-dessus."
+
+israel.47.t:0 "Pannes radio dans des bases clés"
+israel.47.d:0 "Aujourd’hui, un grand nombre de bases stratégiques du pays ont signalé des pannes radio généralisées, les empêchant de communiquer entre elles. Le problème a été résolu, mais après les caches d’armes disparues, beaucoup restent en alerte."
+israel.47.a:0 "Quelque chose cloche."
+
+israel.48.t:0 "La garnison de Haïfa ne répond plus"
+israel.48.d:0 "Après les signalements de caches d’armes disparues, voilà que la garnison entière de Haïfa est devenue silencieuse. Les tentatives de contact par radio ont échoué et les plus hauts responsables craignent un coup d’État à grande échelle."
+israel.48.a:0 "Mauvais signe."
+
+israel.49.t:0 "La scission révisionniste"
+israel.49.d:0 "Aujourd’hui à 10h00, Avraham Stern a annoncé à la radio qu’après la mort du grand fondateur révisionniste Ze’ev Jabotinsky, il se voyait contraint d’intervenir dans le nouveau gouvernement et de prendre le pouvoir, traitant Menachem Begin de lâche et de traître à l’héritage de Jabotinsky.\n\nEn réponse, Begin a dénoncé Stern, le qualifiant de fasciste servile, affirmant que cette trahison serait écrasée.\n\nBeaucoup redoutent la possibilité d’une véritable guerre civile."
+israel.49.a:0 "Nous écraserons les traîtres !"
+israel.49.b:0 "Seul Stern peut nous diriger !"
+
+israel.50.t:0 "Chaos en Israël"
+israel.50.d:0 "À la suite de la mort du dirigeant [ISR.GetAdjective] Ze’ev Jabotinsky, le pays s’est plongé dans le chaos. Incapable de gérer les rebelles fascistes, le gouvernement a laissé éclater une guerre civile. C’est notre chance de frapper et de les détruire une fois pour toutes !"
+israel.50.a:0 "Ils sont faibles ! Attaquons maintenant !"
+israel.50.b:0 "Laissons-les s’entre-déchirer."
+
+israel.51.t:0 "Raid réussi"
+israel.51.d:0 "Aujourd’hui, nos soldats ont réussi à prendre d’assaut une planque du Lehi. Nous avons subi peu de pertes et les combattants du Lehi se sont rapidement rendus. La cache contenait de petites armes et des renseignements sur l’emplacement de Stern."
+israel.51.a:0 "Nous le retrouverons !"
+
+israel.52.t:0 "Raid pris en embuscade"
+israel.52.d:0 "Hélas, en raison de renseignements erronés, notre raid contre une cache du Lehi est tombé dans une embuscade et nous avons dû battre en retraite avec de lourdes pertes. Cela affaiblira le moral de nos troupes et donnera à Stern plus de temps pour se déplacer."
+israel.52.a:0 "Nous devrons être mieux préparés la prochaine fois."
+
+israel.53.t:0 "Avraham Stern capturé"
+israel.53.d:0 "Alors que les dernières cellules de résistance du Lehi étaient détruites, Avraham Stern a été capturé par une escouade de l’Irgun alors qu’il tentait de fuir. Il est désormais entre nos mains et nous devons décider de son sort."
+israel.53.a:0 "Mort au traître !"
+
+israel.54.t:0 "Double chute"
+israel.54.d:0 "« Avraham Stern, vous avez été reconnu coupable de haute trahison, d’usage de tactiques terroristes et de collaboration avec les ennemis de l’État d’Israël. La peine pour ces crimes est la mort. Avez-vous des mots à dire pour votre défense ? »\n\nLe silence emplit la pièce.\n\n« Niez-vous avoir sollicité le soutien du parti nazi en Allemagne ? »\n\n« J’ai fait ce qui devait être fait. »\n\nAlors que la douille vide toucha le sol, Begin se demanda si tout cela n’était pas en partie de sa faute."
+israel.54.a:0 "Pour que le mal triomphe, il suffit que les gens de bien ne fassent rien."
+
+israel.55.t:0 "Garnison attaquée par l’Irgun !"
+israel.55.d:0 "Aujourd’hui, l’une de nos garnisons a été attaquée par l’Irgun. Nous avons réussi à les repousser et à nous replier, mais nos efforts ont été légèrement entravés."
+israel.55.a:0 "Retraite et regroupement."
+
+israel.56.t:0 "Convoi attaqué par l’Irgun !"
+israel.56.d:0 "Aujourd’hui, un de nos convois a été attaqué par des membres de l’Irgun, entraînant la perte du matériel transporté. Cela ralentira nos efforts."
+israel.56.a:0 "Il faudra être plus prudents la prochaine fois."
+
+israel.57.t:0 "Planque attaquée par l’Irgun !"
+israel.57.d:0 "Aujourd’hui, l’une de nos planques a été attaquée par une compagnie de l’Irgun. Ils l’ont prise d’assaut et seuls quelques-uns ont pu s’échapper. Cela portera un coup sévère à nos efforts."
+israel.57.a:0 "Découvrez comment ils nous ont trouvés."
+
+israel.58.t:0 "Lehi demande notre soutien"
+israel.58.d:0 "Face à l’insurrection en cours contre le gouvernement de l’Irgun en [ISR.GetNameDef], le groupe ultranationaliste Lehi est venu solliciter notre aide pour renverser Menachem Begin. Les soutenir pourrait entraîner la montée d’un gouvernement ultranationaliste en Israël, ce qui pourrait jouer en notre faveur."
+israel.58.a:0 "Envoyons-leur de l’aide."
+israel.58.b:0 "Ils ont complètement perdu la tête."
+
+israel.59.t:0 "[FROM.GetNameDefCap] nous envoie de l’aide !"
+israel.59.d:0 "Notre récente mission auprès de [FROM.GetNameDef] a été un succès : [FROM.GetLeader] a accepté de nous envoyer de l’aide dans notre lutte."
+israel.59.a:0 "Nous leur en sommes reconnaissants."
+
+israel.60.t:0 "[FROM.GetNameDefCap] refuse de nous aider !"
+israel.60.d:0 "Notre mission auprès de [FROM.GetNameDef] a tourné au désastre : nos représentants ont été refoulés sans même pouvoir rencontrer [FROM.GetLeader]."
+israel.60.a:0 "Chiens !"
+
+israel.61.t:0 "[ISR.GetNameDefCap] projette de bâtir le Troisième Temple !"
+israel.61.d:0 "Aujourd’hui, à Jérusalem, [ISR.GetLeader] a proclamé que, le peuple juif contrôlant désormais le Mont du Temple, [ISR.GetNameDef] allait commencer immédiatement la construction du Troisième Temple. Cela impliquerait presque à coup sûr la destruction de la mosquée Al-Aqsa, ce que nous ne pouvons tolérer. Nous devons intervenir."
+israel.61.a:0 "Ils ont complètement perdu la raison !"
+israel.61.b:0 "Peu importe."
+
+israel.62.t:0 "La guerre du Troisième Temple"
+israel.62.d:0 "Il y a quelques jours, à Jérusalem, [ISR.GetLeader] a proclamé que, le peuple juif contrôlant désormais le Mont du Temple, [ISR.GetNameDef] allait immédiatement commencer la construction du Troisième Temple. Cela a déclenché une immense colère dans tout le monde musulman, qui a conduit presque toutes les nations musulmanes à déclarer la guerre à Israël pour empêcher la destruction d’Al-Aqsa.\n\nLes experts du monde entier s’étonnent que [ISR.GetNameDef] ait pu tenter une telle folie."
+israel.62.a:0 "La réalité dépasse vraiment la fiction."
+
+israel.70.t:0 "Dov Hoz meurt dans un accident de voiture"
+israel.70.d:0 "Dov Hoz, pionnier de l’aviation juive et conseiller du gouvernement, a péri aujourd’hui dans un tragique accident de voiture sur la route 4, lorsque son véhicule a percuté un mur de béton. Avec lui se trouvaient son épouse et sa fille, qui ont également trouvé la mort."
+israel.70.a:0 "Une perte véritable pour l’aviation."
+
+israel.71.t:0 "Dov Hoz survit à un accident de voiture"
+israel.71.d:0 "Dov Hoz, pionnier de l’aviation juive et conseiller du gouvernement, a survécu aujourd’hui à un accident de voiture sur la route 4, lorsque son véhicule a fini dans un fossé. Il a toutefois réussi à reprendre le contrôle, évitant de justesse un mur de béton. Lui, sa femme et sa fille, qui étaient dans la voiture, ne souffrent que de blessures mineures."
+israel.71.a:0 "Un désastre évité."
+
+israel.72.t.a:0 "Rébellion maronite !"
+israel.72.d.a:0 "Depuis notre indépendance, de nombreuses tensions ethniques pèsent sur notre pays. Aujourd’hui, ces tensions ont culminé en une tentative de coup d’État par les Maronites, que certains soupçonnent d’être secrètement financés par [ISR.GetNameDef]. Après plusieurs heures de combats à travers le pays, les insurgés…"
+israel.72.t.b:0 "Rébellion maronite au Liban !"
+israel.72.d.b:0 "Notre occupation du Liban n’a jamais été très populaire, mais aujourd’hui les tensions ont atteint leur paroxysme. Dans tout le pays, des milices maronites affrontent nos troupes, avec le soupçon d’un soutien de [ISR.GetNameDef]. Certains estiment que ce combat ne vaut pas la peine, et qu’il faudrait se retirer.\n\nQue devons-nous faire ?"
+israel.72.a:0 "Laissons-les, nous avons plus important à gérer."
+israel.72.b:0 "Ils seront écrasés !"
+israel.72.c:0 "Ils nous ont repoussés et détruits !"
+israel.72.d:0 "Nous avons pris le contrôle avec succès !"
+
+israel.73.t:0 "Rébellion maronite au Liban !"
+israel.73.d.a:0 "Grâce à notre financement des forces maronites au Liban, celles-ci se sont révoltées et ont pris le contrôle du pays. Nous pourrions exercer notre influence pour prendre les rênes de leur gouvernement, mais il serait peut-être préférable de ne pas trop nous impliquer."
+israel.73.d.b:0 "Grâce à notre financement des forces maronites au Liban, celles-ci se sont révoltées et ont pris le contrôle du pays. Désormais, nous pouvons exercer notre influence pour diriger leur gouvernement."
+israel.73.a:0 "Très bien."
+israel.73.b:0 "Mieux vaut ne pas trop s’impliquer."
+
+israel.74.t:0 "[ISR.GetNameDefCap] propose de partager la Syrie"
+israel.74.d:0 "[ISR.GetLeader] est venu à notre gouvernement avec une proposition visant à partager la Syrie entre nos deux nations. Nous revendiquons ce territoire depuis la chute de l’Empire ottoman, et peut-être est-ce l’occasion de récupérer nos terres perdues."
+israel.74.a:0 "Nous acceptons."
+israel.74.b:0 "Nous avons d’autres priorités."
+
+israel.75.t:0 "[TUR.GetNameDefCap] accepte notre proposition"
+israel.75.d:0 "Les dirigeants [TUR.GetAdjective] ont accepté notre proposition de partager la Syrie. Il est temps d’agir."
+israel.75.a:0 "À la guerre !"
+
+israel.76.t:0 "[TUR.GetNameDefCap] refuse notre proposition"
+israel.76.d:0 "[TUR.GetLeader] a refusé notre offre de partager la Syrie, affirmant que [TUR.GetNameDef] a des préoccupations plus importantes."
+israel.76.a:0 "Nous attaquerons quand même !"
+israel.76.b:0 "Mieux vaut annuler l’attaque."
+
+israel.80.t:0 "Fermeture du canal de Suez"
+israel.80.d:0 "À la suite de la victoire [ISR.GetAdjective] contre [EGY.GetNameDef] lors de la guerre du Sinaï, l’incapacité des deux gouvernements à trouver un accord concernant le canal de Suez a entraîné sa fermeture temporaire.\n\nTous les navires approchant de la zone du canal doivent désormais contourner le cap de Bonne-Espérance, et de nombreuses puissances mondiales envisagent déjà de faire pression sur [ISR.GetNameDef] et [EGY.GetNameDef] pour parvenir à un compromis, faute de quoi des sanctions pourraient tomber."
+israel.80.a:0 "Ce n’est pas notre problème."
+israel.80.b:0 "Nous devons leur mettre la pression !"
+israel.80.c:0 "Mieux vaut trouver un accord avant que la situation ne dégénère."
+
+israel.81.t:0 "[FROM.GetNameDefCap] nous pousse à négocier !"
+israel.81.d:0 "Après la fermeture du canal de Suez, [FROM.GetLeader] a présenté à notre gouvernement des exigences en vue de négociations pour sa réouverture."
+israel.81.a:0 "Il faudrait songer à un plan."
+
+israel.82.t:0 "[ISR.GetNameDefCap] propose des négociations de paix"
+israel.82.d:0 "Plus tôt dans la journée, l’envoyé diplomatique de [ISR.GetNameDef] est venu nous proposer des négociations de paix concernant le canal. Comme nous sommes tous deux soumis à une forte pression diplomatique pour rouvrir le canal rapidement, nous devrions envisager d’accepter cette offre. Peut-être pourrions-nous même en tirer avantage."
+israel.82.a:0 "Nous accepterons."
+israel.82.b:0 "Aucune négociation !"
+
+israel.83.t:0 "[EGY.GetNameDefCap] rejette les négociations"
+israel.83.d:0 "L’envoyé [EGY.GetAdjective] a rejeté catégoriquement notre offre de négociations, affirmant qu’ils ne négocieront jamais avec l’entité sioniste."
+israel.83.a:0 "Notre main a été repoussée au visage."
+
+israel.84.t:0 "[EGY.GetNameDefCap] prêt à négocier"
+israel.84.d:0 "L’envoyé [EGY.GetAdjective] a exprimé sa volonté de négocier sur le sort du canal. Il est probablement dans notre intérêt de commencer les négociations rapidement, alors que la pression diplomatique s’accentue."
+israel.84.a:0 "Commençons."
+israel.84.b:0 "Jamais nous ne négocierons avec eux."
+
+israel.85.t:0 "[ISR.GetNameDefCap] refuse les négociations"
+israel.85.d:0 "Le gouvernement [ISR.GetAdjective] a refusé nos tentatives de négociations, affirmant qu’ils ne céderont pas de territoires pouvant servir à les attaquer."
+israel.85.a:0 "Notre main a été repoussée au visage."
+
+israel.86.t:0 "Choisir notre offre"
+israel.86.d:0 "Puisque nous négocions en position de force, nous pouvons choisir ce que sera notre offre. Certains membres du gouvernement refusent de restituer de larges territoires, affirmant que les Égyptiens s’en serviraient tôt ou tard pour nous attaquer. D’autres sont plus optimistes et sont prêts à céder davantage de terres pour augmenter les chances de parvenir à un accord de paix. \n\nLa décision nous appartient."
+israel.86.a:0 "Nous offrirons le retour du canal et rien de plus."
+israel.86.b:0 "Nous pouvons leur rendre tout le Sinaï, tant qu’il est démilitarisé."
+israel.86.c:0 "Nous sommes prêts à leur restituer l’intégralité du Sinaï, en échange d’une paix permanente."
+
+israel.87.t:0 "[EGY.GetNameDefCap] rejette notre offre !"
+israel.87.desc:0 "Les diplomates [EGY.GetAdjective] ont refusé notre offre, affirmant qu’elle est insuffisante. Nous pouvons choisir de faire une nouvelle concession plus généreuse, ou de mettre fin aux négociations."
+israel.87.a:0 "Nous offrirons le retour du canal et rien de plus."
+israel.87.b:0 "Nous pouvons leur rendre tout le Sinaï, tant qu’il est démilitarisé."
+israel.87.c:0 "Nous sommes prêts à leur restituer l’intégralité du Sinaï, en échange d’une paix permanente."
+israel.87.d:0 "Qu’ils aillent au diable ! Assez !"
+
+israel.88.t:0 "Les négociations échouent"
+israel.88.d:0 "Nos négociations avec [ISR.GetNameDef] ont échoué. Le canal reste fermé, et la pression diplomatique persiste."
+israel.88.a:0 "Maudits soient-ils !"
+
+israel.89.t:0 "Échec des négociations de Suez"
+israel.89.d:0 "Comme beaucoup s’y attendaient, les récentes négociations entre [ISR.GetNameDef] et [EGY.GetNameDef] ont échoué. Les deux camps n’ont pas trouvé de terrain d’entente, et alors que les diplomates rentrent chez eux, le canal reste inutilisable. Beaucoup pensent que cela mènera à une guerre dans l’avenir."
+israel.89.a:0 "Quelqu’un s’attendait-il vraiment à autre chose ?"
+
+israel.90.t:0 "[ISR.GetNameDefCap] propose le retour de l’est de Suez"
+israel.90.d:0 "La délégation [ISR.GetAdjective] nous a proposé le retour de la rive orientale du canal de Suez en échange d’un traité de paix permanent. Bien que cette offre soit dure, il est peut-être dans notre intérêt d’accepter malgré tout."
+israel.90.a:0 "Nous accepterons si le Sinaï est démilitarisé."
+israel.90.b:0 "C’est inacceptable !"
+
+israel.91.t:0 "[EGY.GetNameDef] demande la démilitarisation du Sinaï"
+israel.91.d:0 "Les diplomates [EGY.GetAdjective] se sont dits prêts à accepter notre offre, mais posent comme seule condition que le Sinaï soit démilitarisé en retour. Acceptons-nous ?"
+israel.91.a:0 "Leurs conditions sont acceptables."
+israel.91.b:0 "Pourquoi pensent-ils négocier en position de force ? Non !"
+
+israel.92.t:0 "[ISR.GetNameDefCap] accepte"
+israel.92.d:0 "[ISR.GetLeader] a accepté nos conditions, et le Sinaï sera démilitarisé comme convenu. Le traité final sera signé prochainement."
+israel.92.a:0 "Un jour historique."
+
+israel.93.t:0 "[ISR.GetNameDefCap] propose un Sinaï démilitarisé"
+israel.93.d:0 "La délégation [ISR.GetAdjective] nous a proposé la restitution de l’intégralité de la péninsule du Sinaï à notre autorité, à condition qu’elle devienne une zone démilitarisée et qu’un traité de paix permanent soit signé. Cette offre semble aller dans notre sens, devons-nous l’accepter ?"
+israel.93.a:0 "Des conditions acceptables."
+israel.93.b:0 "Pas suffisant !"
+
+israel.94.t:0 "[EGY.GetNameDefCap] accepte"
+israel.94.d:0 "[EGY.GetLeader] a accepté nos conditions, et le Sinaï leur sera restitué et démilitarisé comme convenu. Le traité final sera signé prochainement."
+israel.94.a:0 "Un jour historique."
+
+israel.95.t:0 "[ISR.GetNameDefCap] propose le Sinaï contre la paix"
+israel.95.d:0 "La délégation [ISR.GetAdjective] nous a proposé la restitution de l’intégralité de la péninsule du Sinaï à notre autorité, à condition que nous signions un traité de paix permanent. Cette offre semble être en notre faveur, et la majorité du gouvernement souhaite que nous acceptions."
+israel.95.a:0 "Nous devrions saisir cette offre tant qu’elle est sur la table."
+
+israel.96.t:0 "[EGY.GetNameDefCap] accepte"
+israel.96.d:0 "[EGY.GetLeader] a accepté nos conditions, et le Sinaï leur sera restitué, un traité de paix permanent étant signé. Le traité final sera signé prochainement."
+israel.96.a:0 "Un jour historique."
+
+israel.99.t:0 "Le traité de Nicosie"
+israel.99.d.a:0 "Aujourd’hui, la nouvelle du traité final entre [EGY.GetNameDef] et [ISR.GetNameDef] est parvenue au monde. Après plusieurs jours de négociations intenses, [EGY.GetLeader] a serré la main de [ISR.GetLeader] lors de la signature. \n\nLe traité prévoit la réouverture du canal de Suez : la rive est du canal sera administrée par l’Égypte, avec un droit de passage total pour la navigation [ISR.GetAdjective]. Comme stipulé, la péninsule du Sinaï restera sous administration civile [ISR.GetAdjective], mais deviendra une zone démilitarisée. \n\nAvec la réouverture du canal, beaucoup se montrent plus optimistes quant à une paix durable au Moyen-Orient."
+israel.99.d.b:0 "Aujourd’hui, la nouvelle du traité final entre [EGY.GetNameDef] et [ISR.GetNameDef] est parvenue au monde. Après plusieurs jours de négociations intenses, [EGY.GetLeader] a serré la main de [ISR.GetLeader] lors de la signature. \n\nLe traité prévoit la réouverture du canal de Suez : la rive est du canal sera administrée par l’Égypte, avec un droit de passage total pour la navigation [ISR.GetAdjective]. Comme stipulé, la péninsule du Sinaï retournera sous administration civile égyptienne, mais deviendra une zone démilitarisée. \n\nAvec la réouverture du canal, beaucoup se montrent plus optimistes quant à une paix durable au Moyen-Orient."
+israel.99.d.c:0 "Aujourd’hui, la nouvelle du traité final entre [EGY.GetNameDef] et [ISR.GetNameDef] est parvenue au monde. Après plusieurs jours de négociations intenses, [EGY.GetLeader] a serré la main de [ISR.GetLeader] lors de la signature. \n\nLe traité prévoit la réouverture du canal de Suez : la rive est du canal sera administrée par l’Égypte, avec un droit de passage total pour la navigation [ISR.GetAdjective]. Comme stipulé, la péninsule du Sinaï retournera sous pleine administration égyptienne, et un pacte de non-agression sera signé entre les deux nations. \n\nAvec la réouverture du canal, beaucoup se montrent plus optimistes quant à une paix durable au Moyen-Orient."
+israel.99.a:0 "Un pas de plus vers la paix."
+
+
+israel.100.t:0 "[ISR.GetNameDefCap] déclare son indépendance"
+israel.100.d:0 "Plus tôt dans la journée, la nouvelle de la déclaration d’indépendance de [ISR.GetLeader] nous est parvenue. Bien qu’encore en guerre contre [PAL.GetNameDef], les milices arabes en Palestine ont prouvé qu’elles étaient trop incompétentes pour faire face aux forces sionistes, ce qui nous oblige à intervenir."
+israel.100.a:0 "Lancer l’invasion."
+israel.100.b:0 "Qu’ils se battent eux-mêmes."
+
+israel.101.t:0 "Les forces [ISR.GetAdjective] entrent dans le Sinaï"
+israel.101.d:0 "Avec nos récents échecs dans la guerre contre [ISR.GetNameDef], leurs troupes nous ont repoussés jusqu’à notre propre territoire. Beaucoup réclament un accord de cessez-le-feu."
+israel.101.a:0 "Nous devons négocier un cessez-le-feu."
+israel.101.b:0 "Nous devons continuer à nous battre !"
+
+israel.102.t:0 "[EGY.GetNameDefCap] propose un cessez-le-feu"
+israel.102.d:0 "Après l’entrée de nos troupes dans le Sinaï, les forces égyptiennes nous ont proposé un cessez-le-feu pour mettre fin aux combats. Nous devons l’accepter, car cela libérera nos troupes pour d’autres fronts."
+israel.102.a:0 "Am Yisrael Hai !"
+
+israel.103.t:0 "Les forces [ISR.GetAdjective] traversent le Jourdain"
+israel.103.d:0 "Avec nos récents échecs dans la guerre contre [ISR.GetNameDef], leurs troupes nous ont repoussés jusqu’à notre propre territoire. Beaucoup réclament un accord de cessez-le-feu."
+israel.103.a:0 "Nous devons négocier un cessez-le-feu."
+israel.103.b:0 "Nous devons continuer à nous battre !"
+
+israel.104.t:0 "[JOR.GetNameDefCap] propose un cessez-le-feu"
+israel.104.d:0 "Après que nos troupes ont traversé le Jourdain, les forces jordaniennes nous ont proposé un cessez-le-feu pour mettre fin aux combats. Nous devons l’accepter, car cela libérera nos troupes pour d’autres fronts."
+israel.104.a:0 "Am Yisrael Hai !"
+
+israel.105.t:0 "Les forces [ISR.GetAdjective] traversent le Jourdain"
+israel.105.d:0 "Avec nos récents échecs dans la guerre contre [ISR.GetNameDef], leurs troupes nous ont repoussés jusqu’à notre propre territoire. Beaucoup réclament un accord de cessez-le-feu."
+israel.105.a:0 "Nous devons négocier un cessez-le-feu."
+israel.105.b:0 "Nous devons continuer à nous battre !"
+
+israel.106.t:0 "[SYR.GetNameDefCap] propose un cessez-le-feu"
+israel.106.d:0 "Après que nos troupes ont traversé le Jourdain, les forces syriennes nous ont proposé un cessez-le-feu pour mettre fin aux combats. Nous devons l’accepter, car cela libérera nos troupes pour d’autres fronts."
+israel.106.a:0 "Am Yisrael Hai !"
+
+israel.107.t:0 "Les forces [ISR.GetAdjective] franchissent la frontière"
+israel.107.d:0 "Avec nos récents échecs dans la guerre contre [ISR.GetNameDef], leurs troupes nous ont repoussés jusqu’à notre propre territoire. Beaucoup réclament un accord de cessez-le-feu."
+israel.107.a:0 "Nous devons négocier un cessez-le-feu."
+israel.107.b:0 "Nous devons continuer à nous battre !"
+
+israel.108.t:0 "[LEB.GetNameDefCap] propose un cessez-le-feu"
+israel.108.d:0 "Après que nos troupes ont franchi la frontière, les forces libanaises nous ont proposé un cessez-le-feu pour mettre fin aux combats. Nous devons l’accepter, car cela libérera nos troupes pour d’autres fronts."
+israel.108.a:0 "Am Yisrael Hai !"
+
+israel.109.t:0 "Forces en Palestine coupées"
+israel.109.d:0 "Avec nos récents échecs dans la guerre contre [ISR.GetNameDef], les gouvernements jordanien et syrien se sont retirés du conflit, isolant nos unités du champ de bataille."
+israel.109.a:0 "Nous devons négocier un cessez-le-feu."
+israel.109.b:0 "Ce n’est qu’un revers temporaire !"
+
+israel.110.t:0 "[IRQ.GetNameDefCap] propose un cessez-le-feu"
+israel.110.d:0 "Après le retrait de la Jordanie et de la Syrie de la guerre, les forces irakiennes ne peuvent plus atteindre notre territoire et nous ont donc proposé un accord de cessez-le-feu."
+israel.110.a:0 "Am Yisrael Hai !"
+
+israel.111.t:0 "Les forces palestiniennes faiblissent"
+israel.111.d:0 "La guerre civile dans le Mandat de Palestine dure depuis un certain temps, et les Palestiniens se sont révélés incapables de faire face aux forces [ISR.GetAdjective]. Nous devons intervenir bientôt."
+israel.111.a:0 "Préparez-vous au pire."
+
+israel.112.t:0 "Les armées arabes envahissent"
+israel.112.d:0 "Face à notre incapacité à vaincre les forces [ISR.GetAdjective], les nations arabes voisines ont lancé une invasion sur notre territoire. À leur entrée, elles furent accueillies par des acclamations, mais, à notre surprise, elles commencèrent immédiatement à désarmer nos troupes.\n\nCe n’est pas une libération."
+israel.112.a:0 "Nous avons essayé."
+
+israel.999.t:0 "Ad Halom"
+israel.999.d:0 "Suite à notre déclaration d’indépendance, les armées des États arabes voisins sont entrées sur notre territoire. C’était un résultat attendu, mais nous ne devons pas laisser cela entamer notre moral.\n\nPendant 2000 ans, nous avons vécu dans l’ombre, gardant espoir, l’espoir qu’un jour, nous aurions une terre à appeler nôtre.\n\nCe jour est arrivé. Aujourd’hui, nous combattons pour nos ancêtres qui se sont battus il y a 2000 ans.\n\nAujourd’hui, nous n’avons plus nulle part où fuir !\n\nIl n’y a plus de retour possible !"
+israel.999.a:0 "Pas un pas de plus !"
+
+israel.1000.t:0 "Les armées arabes entrent en Palestine"
+israel.1000.d:0 "À la suite de la récente déclaration d’indépendance [ISR.GetAdjective], les États arabes voisins, qui soutenaient déjà les combattants arabes de la région, ont officiellement décidé d’intervenir dans le conflit.\n\nN’ayant pas réussi à vaincre les forces juives, les milices arabes locales ont été soit désarmées, soit intégrées aux armées envahissantes. Les forces [ISR.GetAdjective], en revanche, se sont unifiées sous une seule bannière, ce qui a considérablement renforcé leurs capacités de combat.\n\nLes dominos attendent leur tour."
+israel.1000.a:0 "Ad Halom !"
+israel.1000.b:0 "Notre victoire est assurée !"
+israel.1000.c:0 "David contre Goliath."
+
+################################
+ #IDÉES
+################################
+ISR_histadrut_start:0 "Les Histadrout"
+ISR_histadrut_start_desc:0 "Formées par le Yichouv travailliste sioniste à l’époque du Mandat, les Histadrout sont les principaux syndicats en Israël. Elles sont exceptionnellement puissantes comparées à la plupart des syndicats internationaux, ce qui nous donne à la fois certains avantages et inconvénients."
+
+ISR_disorganized_militias:0 "Partage des pouvoirs"
+ISR_disorganized_militias_desc:0 "Notre force de combat est principalement composée de la Haganah, la milice socialiste qui répond à David Ben-Gourion et au gouvernement du Yichouv. Toutefois, participe aussi à la lutte l’Irgun révisionniste, dirigé par [ISR.GetNeutralLeader], une milice de droite bien plus petite en effectifs mais qui n’obéit pas au gouvernement de Ben-Gourion, ce qui entrave notre effort de guerre."
+
+ISR_alei_barikadot:0 "Alei Barikadot !"
+ISR_alei_barikadot_desc:0 "Il est temps de mener notre nation à la victoire ! Sur les barricades, nous nous retrouverons !"
+
+ISR_always_first:0 "Le plan Ben Gourion"
+ISR_always_first_desc:0 "L’avancée ennemie doit être stoppée ! Pas un pas de plus !"
+
+ISR_ad_halom:0 "§OAd Halom§!"
+ISR_ad_halom_desc:0 "Pendant 2000 ans, nous avons vécu en exil, sous domination étrangère, sans voix.\nPendant 2000 ans, nous avons vécu dans l’espoir, l’espoir qu’un jour, nous aurions une terre à appeler la nôtre.\nCe jour est arrivé. Si nous perdons aujourd’hui, nous n’avons nulle part où fuir !\n\nPas un pas de plus !"
+
+r56_ISR_negev_modifier:0 "Désert non cartographié"
+r56_ISR_negev_offensive:0 "Opération Yoav"
+r56_ISR_jerusalem_strategy:0 "Stratégie de Jérusalem"
+r56_ISR_retake_jerusalem:0 "Stratégie de Jérusalem"
+r56_ISR_attack_west_bank:0 "Prendre la Cisjordanie"
+
+ISR_aliyah:0 "La sixième Aliyah"
+ISR_aliyah_desc:0 "À la suite de notre indépendance, des centaines de milliers de réfugiés juifs de partout dans le monde affluent vers Israël pour échapper aux horreurs du fascisme et de l’antisémitisme."
+
+ISR_president_weizmann:0 "Chaïm Weizmann (Président d’Israël)"
+ISR_president_weizmann_desc:0 "Délégué du Yichouv depuis le Traité de Sèvres, Chaïm Weizmann était le choix évident pour devenir président [ISR.GetAdjective]. Il a dirigé le mouvement sioniste durant ses heures les plus turbulentes, gagnant son titre de chef d’État."
+
+ISR_veteran_zionist:0 "Vétéran sioniste"
+
+ISR_president_einstein:0 "Albert Einstein (Président d’Israël)"
+ISR_president_einstein_desc:0 "Ayant consacré toute sa vie à l’avancement de la science, Albert Einstein n’a jamais pensé être destiné à la politique. Cependant, après avoir quitté l’Allemagne pour échapper aux persécutions antisémites, et avec la création d’un nouvel État juif en Israël, Einstein fut invité à devenir président de la nouvelle nation. Estimant qu’il s’agissait d’une bonne occasion pour promouvoir sa plateforme scientifique, il accepta l’offre et enseigne désormais à l’Université hébraïque de Jérusalem, qu’il a contribué à fonder."
+
+ISR_scientific_genius:0 "Génie scientifique"
+ISR_revisionist_author:0 "Auteur révisionniste"
+
+ISR_president_ben_zvi:0 "Yitshak Ben-Zvi (Président d’Israël)"
+ISR_president_ben_zvi_desc:0 "Ami de David Ben-Gourion depuis les jours de la Seconde Aliyah, Isaac Shimshelevich échappa aux autorités russes en 1907 et s’enfuit en Palestine, adoptant le nom hébreu Yitshak Ben-Zvi. Ben-Zvi contribua à renforcer le parti fracturé Poale Zion pour en faire la puissante force qu’est aujourd’hui Hashomer Hatzaïr, après avoir été recruté par Yisrael Shochat pour contrebalancer l’influence de Ben-Gourion dans le Yichouv. Malgré cela, Ben-Zvi et Ben-Gourion devinrent de bons amis et, après avoir été exilés en Égypte par les Ottomans pendant la Grande Guerre, ils revinrent en Palestine pour poursuivre la lutte pour un État juif indépendant, un rêve désormais réalisé."
+
+ISR_president_klausner:0 "Joseph Klausner (Président d’Israël)"
+ISR_president_klausner_desc:0 "Historien respecté et professeur de littérature hébraïque, Joseph Gedaliah Klausner est né en Lituanie en 1874. Sioniste convaincu, ayant des liens personnels avec Herzl, il assista au premier congrès sioniste en 1897 et s’installa ensuite en Palestine en 1919. Il se consacra à l’étude de la littérature hébraïque et se lia d’amitié avec de nombreux militants politiques tels que Ze’ev Jabotinsky et Menahem Ussishkin, ce qui lui valut plus tard la nomination de Jabotinsky à la présidence."
+
+ISR_labour_zionist:0 "Sioniste travailliste"
+ISR_inexperienced_politician:0 "Politicien inexpérimenté"
+ISR_the_great_father:0 "Le grand père d’Israël"
+ISR_figure_of_the_jewish_people:0 "Véritable successeur de Herzl"
+
+ISR_nathan_yellin_mor_trait:0 "Nathan Yellin-Mor"
+ISR_yisrael_elidad_trait:0 "Yisrael Elidad"
+ISR_yisrael_elidad_trait_communism:0 "Yisrael Elidad"
+ISR_yitshak_shamir_trait:0 "Yitshak Shamir"
+
+ISR_special_night_squads_idea:0 "Escouades spéciales de nuit"
+ISR_special_forces_idea:0 "Investir dans les forces spéciales"
+
+ISR_jewish_emigration:0 "Émigration juive"
+
+ISR_zionist_consensus:0 "Ce n’est pas un rêve"
+ISR_zionist_consensus_desc:0 "Après 2000 ans, le peuple juif a enfin son propre État. Mais cela n’est pas arrivé sans sacrifices. Nous avons beaucoup d’ennemis autour de nous, et nous devons nous assurer que nous pourrons défendre notre Sion."
+
+ISR_defense_of_zion:0 "Am Yisrael Hai"
+ISR_defense_of_zion_desc:0 "Après 2000 ans d’exil, d’oppression, de pogroms et de génocides, le peuple juif a enfin un endroit à appeler chez lui. Le chemin a été difficile, et l’avenir le sera aussi. Mais aujourd’hui, nous pouvons nous reposer avec la certitude que le peuple d’Israël vit encore."
+
+ISR_diaspora_volunteers:0 "Sonnez du Shofar"
+ISR_diaspora_volunteers_desc:0 "Des Juifs du monde entier affluent pour défendre leur patrie."
+
+r56_ISR_minority_government:0 "Gouvernement minoritaire"
+r56_ISR_minority_government_desc:0 "En raison du paysage politique divisé de notre pays, nous ne pouvons pas faire passer seuls la plupart des lois que nous souhaitons. Nous devons choisir avec quel parti nous compromettre pour atteindre nos objectifs."
+
+ISR_no_constitution:0 "Absence de constitution"
+ISR_no_constitution_desc:0 "Avec la création de notre nouvel État, notre nation ne dispose pas de constitution. Cela peut poser de graves problèmes à l’avenir si nous n’arrivons pas à en rédiger une."
+
+ISR_basic_laws:0 "Lois fondamentales d’Israël"
+ISR_basic_laws_desc:0 "Notre mission de rédiger une constitution a totalement échoué. Il ne nous reste qu’un ensemble ambigu de « Lois fondamentales » définissant les institutions de l’État, mais celles-ci sont bien trop faciles à modifier. Cela causera probablement des problèmes à l’avenir."
+
+ISR_austerity:0 "Mesures d’austérité sévères"
+ISR_austerity_desc:0 "Le Premier ministre Ben-Gourion a mis en place de sévères mesures d’austérité pour éviter l’effondrement complet de notre jeune nation. Cela inclut le rationnement alimentaire, des impôts élevés et bien plus. Ces politiques sont très impopulaires, mais certains en comprennent la nécessité. La durée de leur application reste un sujet de vifs débats."
+
+r56_ISR_israeli_constitution:0 "La Constitution [ISR.GetAdjective]"
+r56_ISR_israeli_constitution_desc:0 "Nous avons réussi à rédiger une constitution pour notre nouvel État. Cependant, beaucoup de personnes ne sont pas d’accord avec le texte final. Nous devons nous assurer que cela ne provoque pas de problèmes à l’avenir."
+
+ISR_economic_plan:0 "Le plan industriel de Meir Ya’ari"
+ISR_economic_plan_desc:0 "Le ministre des Finances Meir Ya’ari a présenté un vaste plan économique pour un Israël socialiste renforcé. Nous devons suivre ce plan pour développer notre économie."
+
+ISR_kibbutzim:0 "Investir dans les kibboutzim"
+ISR_kibbutzim_desc:0 "Les kibboutzim agricoles sont la base de notre plan économique. Nous devons les soutenir pour réduire notre dépendance aux importations alimentaires étrangères."
+
+ISR_histadrut_strong:0 "Histadrout renforcées"
+ISR_histadrut_strong_desc:0 "Les syndicats de notre pays, les Histadrout, doivent être renforcés afin que les droits des travailleurs soient protégés."
+
+ISR_nationalized_institutions:0 "Institutions nationalisées"
+ISR_nationalized_institutions_desc:0 "La nationalisation d’institutions comme l’éducation et la santé peut nous permettre de garantir qu’aucun fonds n’est détourné et que chacun bénéficie d’un traitement équitable."
+
+ISR_bituah_leumi:0 "Bituah Leumi"
+ISR_bituah_leumi_desc:0 "Nous devons veiller à prendre soin de ceux qui ne peuvent pas s’occuper d’eux-mêmes. Nous allons créer une nouvelle agence pour venir en aide aux personnes handicapées ou âgées."
+
+ISR_welfare:0 "Développer l’aide sociale pour les immigrants"
+ISR_welfare_desc:0 "Avec la crise de l’Aliyah, les immigrants arrivent dans des conditions de pauvreté. Nous devons y remédier rapidement en distribuant des aides sociales aux nouveaux arrivants."
+
+ISR_white_collar_boom:0 "Essor des cols blancs"
+ISR_white_collar_boom_desc:0 "Notre nation est petite et manque de ressources. Nous devons investir dans les secteurs tertiaires afin de toujours garder une avance technologique, même si nous ne pouvons pas rivaliser militairement."
+
+ISR_arab_voting:0 "Droit de vote des Arabes"
+ISR_arab_voting_desc:0 "Accorder aux Arabes le droit de voter à nos élections est un premier pas vers la coexistence."
+
+ISR_histadrut_weak:0 "Histadrout affaiblies"
+ISR_histadrut_weak_desc:0 "Affaiblir les Histadrout nous permet de réduire les compensations pour les travailleurs, ce qui nous laisse plus de capital à investir ailleurs."
+
+ISR_secularized_education:0 "Éducation laïque"
+ISR_secularized_education_desc:0 "Pour protéger notre nation, nous devons élever notre nouvelle génération avec des valeurs laïques et scientifiques."
+
+ISR_religious_parties_idea_1:0 "Coopération avec les partis religieux"
+ISR_religious_parties_idea_1_desc:0 "Bien que nous ne partagions pas les mêmes valeurs, nous devons coopérer avec les partis religieux en raison de leur grande influence."
+
+ISR_suez_pressure_1:0 "Pression diplomatique mineure"
+ISR_suez_pressure_1_desc:0 "En raison de la fermeture du canal de Suez, nous avons subi une légère pression diplomatique des grandes puissances afin de travailler à sa réouverture."
+
+ISR_suez_pressure_2:0 "Pression diplomatique marginale"
+ISR_suez_pressure_2_desc:0 "En raison de la fermeture du canal de Suez, nous avons subi une pression diplomatique marginale des grandes puissances afin de travailler à sa réouverture."
+
+ISR_suez_pressure_3:0 "Pression diplomatique modérée"
+ISR_suez_pressure_3_desc:0 "En raison de la fermeture du canal de Suez, nous avons subi une pression diplomatique modérée des grandes puissances afin de travailler à sa réouverture."
+
+ISR_suez_pressure_4:0 "Forte pression diplomatique"
+ISR_suez_pressure_4_desc:0 "En raison de la fermeture du canal de Suez, nous avons subi une forte pression diplomatique des grandes puissances afin de travailler à sa réouverture."
+
+ISR_suez_pressure_5:0 "Pression diplomatique sévère"
+ISR_suez_pressure_5_desc:0 "En raison de la fermeture du canal de Suez, nous avons subi une pression diplomatique sévère des grandes puissances afin de travailler à sa réouverture."
+
+
+
+r56_ISR_palestinian_resistance:0 "Forte résistance palestinienne"
+r56_ISR_palestinian_resistance_low:0 "Faible résistance palestinienne"
+r56_ISR_palestinian_resistance_lower:0 "Exemptions militaires arabes"
+ISR_1936:0 "Milice Haganah"
+
+################################
+#FOCUS#
+################################
+#WAR
+ISR_revolution:0 "Si vous le voulez..."
+ISR_revolution_desc:0 "Une bataille pour notre patrie a commencé. Nous devons surmonter ce défi, pour la gloire de Sion.\n\nSi vous le voulez, ce n’est pas un rêve !"
+
+ISR_call_diaspora_volunteers:0 "Sonnez le Shofar"
+ISR_call_diaspora_volunteers_desc:0 "Il y a d’innombrables Juifs à travers le monde qui viendront aider leur peuple. Nous devons lancer un appel officiel à l’aide."
+
+ISR_consolidate_haganah:0 "Consolider la Haganah"
+ISR_consolidate_haganah_desc:0 "David Ben Gourion et la Haganah sont notre meilleure chance de défendre la nation. Nous devons nous assurer que l’Irgoun ne puisse pas saper nos efforts."
+
+ISR_dealing_with_irgun:0 "Gérer l’Irgoun"
+ISR_dealing_with_irgun_desc:0 "Si nous voulons qu’ils ne prennent pas trop de pouvoir pendant la guerre, nous devons commencer à restreindre l’Irgoun."
+
+ISR_subvert_irgun_influence:0 "Saper l’influence de l’Irgoun"
+ISR_subvert_irgun_influence_desc:0 "Nous devons saper l’influence de l’Irgoun dans notre pays. Ils représentent une menace directe pour notre peuple."
+
+ISR_form_the_idf:0 "Former les Forces de défense d’Israël"
+ISR_form_the_idf_desc:0 "Afin de contrer l’influence de l’Irgoun, nous devons fusionner les nombreuses branches de la Haganah en une force unifiée : les Forces de défense d’Israël."
+
+ISR_purge_irgun:0 "Purger l’Irgoun"
+ISR_purge_irgun_desc:0 "Avec toutes nos préparations, il est temps de purger définitivement l’Irgoun."
+
+ISR_ben_gurion_strategy:0 "La stratégie de Ben Gourion"
+ISR_ben_gurion_strategy_desc:0 "Le Premier ministre Ben Gourion a élaboré une stratégie de percée vers le sud dans le Néguev afin de couper les forces arabes en deux. Nous devons suivre son plan."
+
+ISR_southern_plan:0 "Le plan du Néguev"
+ISR_southern_plan_desc:0 "Nous devons d’abord renforcer les capacités de notre armée si nous voulons réussir notre plan de libération du Néguev."
+
+ISR_operation_yoav:0 "Lancer l’opération Yoav"
+ISR_operation_yoav_desc:0 "Le moment est venu. Nous allons frapper vers le sud de toutes nos forces et couper les armées arabes en deux !"
+
+ISR_czech_weaponry:0 "Achat d’armes tchécoslovaques"
+ISR_czech_weaponry_desc:0 "[CZE.GetNameDefCap] dispose de nombreux stocks d’armes que nous pourrions acheter pour notre lutte."
+
+ISR_gather_irgun:0 "Rallier l’Irgoun"
+ISR_gather_irgun_desc:0 "David Ben Gourion et la Haganah ne peuvent être dignes de confiance pour l’avenir de notre pays. Seul Ze’ev Jabotinsky est apte à nous diriger, pour une Judée plus grande !"
+
+ISR_subvert_haganah:0 "Saper la Haganah"
+ISR_subvert_haganah_desc:0 "La Haganah est plus nombreuse que nous, mais elle est occupée par la guerre. Nous pouvons en tirer profit."
+
+ISR_steal_haganah_weapons:0 "Détourner les armes de la Haganah"
+ISR_steal_haganah_weapons_desc:0 "Nous devrions profiter de leur distraction pour détourner discrètement les armes de la Haganah afin d’armer nos propres soldats."
+
+ISR_spread_revisionist_media:0 "Diffuser les médias révisionnistes"
+ISR_spread_revisionist_media_desc:0 "Nous devons faire connaître notre cause dans tout le pays afin que le peuple rejoigne notre juste combat."
+
+ISR_assume_the_national_cause:0 "S’approprier la cause nationale"
+ISR_assume_the_national_cause_desc:0 "Cette guerre est un tournant crucial dans l’histoire de notre peuple. Nous ne pouvons pas laisser nos actions être contrôlées par le faible dirigeant Ben Gourion et sa Haganah. Il est temps de prendre le relais."
+
+ISR_begin_approach:0 "L’approche de Menahem Begin"
+ISR_begin_approach_desc:0 "Le chef de l’Irgoun, Menahem Begin, a proposé un nouveau plan, axé sur la défense de Jérusalem et la concentration de nos efforts sur la Cisjordanie. C’est la voie claire vers la victoire."
+
+ISR_jerusalem_strategy:0 "La stratégie de Jérusalem"
+ISR_jerusalem_strategy_desc:0 "Si nous voulons suivre le plan de Begin, nous devons nous assurer de contrôler Jérusalem et d’être capables de la défendre."
+
+ISR_the_west_bank:0 "Dégager le corridor de Jérusalem"
+ISR_the_west_bank_desc:0 "Notre ville sainte de Jérusalem est assiégée. Nous devons percer et rouvrir la route d’approvisionnement vers la ville."
+
+ISR_legacy_of_the_conference:0 "Héritage de la conférence de Jérusalem"
+ISR_legacy_of_the_conference_desc:0 "Avec la fin pacifique du mandat, nous nous trouvons dans une situation avantageuse. On ne nous a pas donné tout le territoire que nous désirions, mais nous ferons avec. Il est temps d’aller de l’avant."
+
+ISR_win:0 "...Ce n’est pas un rêve"
+ISR_win_desc:0 "Victoire ! Nous avons sécurisé la Terre sainte promise à nos ancêtres il y a si longtemps. Il est temps de bâtir notre nouvelle nation."
+
+#POLITICAL
+ISR_convene_knesset:0 "Convoquer la Knesset"
+ISR_convene_knesset_desc:0 "Après l’indépendance de notre nouvel État, nous devons convoquer la Knesset afin d’organiser nos premières élections."
+
+ISR_hashomer:0 "Renforcer la Jeune Garde"
+ISR_hashomer_desc:0 "Ben Gourion a la bonne approche, mais il ne voit pas le tableau d’ensemble. Nous devons avancer vers un avenir plus radieux et socialiste !"
+
+ISR_cooperate_maki:0 "Coopérer avec le Maki"
+ISR_cooperate_maki_desc:0 "Nous ne pouvons pas compromettre notre position pro-soviétique. Nous devons travailler avec le Maki et le PCP pour faire avancer notre rêve socialiste de Sion."
+
+ISR_lessen_soviet_stance:0 "Atténuer notre position soviétique"
+ISR_lessen_soviet_stance_desc:0 "Afin d’obtenir un soutien plus large, nous devons adoucir notre position pro-soviétique. Nous pourrions perdre l’appui des plus radicaux, mais nous gagnerons celui du reste."
+
+ISR_promise_arabs:0 "Promettre des droits aux Arabes"
+ISR_promise_arabs_desc:0 "Nous ne pouvons ignorer les besoins de la population arabe. Il est de notre devoir de veiller à ce qu’ils soient respectés."
+
+ISR_expand_rural_influence:0 "Élargir l’influence rurale"
+ISR_expand_rural_influence_desc:0 "Nous devons soutenir notre plus grande base électorale : les communautés de kibboutz. Elles sont le moteur vital qui maintient notre pays à flot."
+
+ISR_brighter_future:0 "Vers un avenir radieux"
+ISR_brighter_future_desc:0 "Le moment est venu. Nous devons faire confiance à notre Jeune Garde pour assurer un avenir plus radieux à notre peuple."
+
+ISR_mapai:0 "Se rallier à Ben Gourion"
+ISR_mapai_desc:0 "David Ben Gourion est le véritable dirigeant de notre jeune nation. Aucun homme n’a autant sacrifié que lui. Il nous mènera vers la stabilité !"
+
+ISR_demand_secular_education:0 "Imposer la laïcisation"
+ISR_demand_secular_education_desc:0 "Nous devons nous assurer que la prochaine génération de notre grande nation soit laïque et bien éduquée. Nous ne pouvons permettre que l’influence religieuse se propage trop loin."
+
+ISR_appease_religious:0 "Apaiser les partis religieux"
+ISR_appease_religious_desc:0 "La gauche de Hashomer est trop radicale. Si nous voulons une coalition fonctionnelle, nous devons apaiser les partis religieux."
+
+ISR_promote_urban:0 "Promouvoir la classe ouvrière urbaine"
+ISR_promote_urban_desc:0 "Les ouvriers urbains sont le cœur de la nation. Nous devons protéger leurs droits pour assurer leur soutien."
+
+ISR_form_DLN:0 "Former la DLN"
+ISR_form_DLN_desc:0 "Nous devrions soutenir la création d’un parti arabe ami de notre gouvernement afin de rallier leur soutien."
+
+ISR_steady:0 "Rester sur le cap"
+ISR_steady_desc:0 "Le Mapai et Ben Gourion nous ont menés jusqu’ici. Ils nous guideront vers une société stable !"
+
+ISR_centre:0 "Unir le bloc du Centre"
+ISR_centre_desc:0 "En présidant une coalition entre les partis de la Nouvelle Alyah et les Sionistes généraux, nous pourrons renforcer les éléments libéraux de notre société et créer un Israël moderne et technologiquement avancé, tel que l’avait imaginé Herzl."
+
+ISR_campaign_women:0 "Faire avancer les droits des femmes"
+ISR_campaign_women_desc:0 "Les droits des femmes sont un sujet sérieux dans notre société, et nous ne pouvons pas les laisser à la traîne. Ensemble, nous sommes plus forts."
+
+ISR_lean_mapai:0 "Pencher vers le Mapai"
+ISR_lean_mapai_desc:0 "Il est évident que nous ne pouvons pas gouverner seuls. En nous rapprochant du Mapai, nous assurons une société libre et juste, où chacun peut réussir."
+
+ISR_lean_hatzohar:0 "Pencher vers le Hatzohar"
+ISR_lean_hatzohar_desc:0 "Il est évident que nous ne pouvons pas gouverner seuls. En nous rapprochant du Hatzohar, nous pourrons nous débarrasser de la lourdeur bureaucratique des Histadrout."
+
+ISR_appeal_middle_class:0 "Séduire la classe moyenne"
+ISR_appeal_middle_class_desc:0 "Notre principale base électorale est la classe moyenne urbaine. Nous devons continuer à la soutenir si nous voulons réussir."
+
+ISR_herzl_followers:0 "Sur les traces de Herzl"
+ISR_herzl_followers_desc:0 "Nous sommes les héritiers du grand sionisme politique de Herzl. Nous ne devons pas nous éloigner de son héritage, pour le bien de notre nation."
+
+ISR_hatzohar:0 "Renforcer les révisionnistes"
+ISR_hatzohar_desc:0 "Ben Gourion a été trop indulgent avec l’occupation britannique. Qui nous dit qu’il ne nous trahira pas à nouveau ? Nous devons nous rallier à [ISR.GetNeutralLeader] si nous voulons restaurer notre gloire."
+
+ISR_affirm_territorial_claims:0 "Réaffirmer nos revendications territoriales"
+ISR_affirm_territorial_claims_desc:0 "La véritable Terre de Sion se trouve des deux côtés du Jourdain. Nous ne devons pas l’oublier."
+
+ISR_abandon_jordan:0 "Abandonner la Transjordanie"
+ISR_abandon_jordan_desc:0 "Si nous voulons séduire les électeurs modérés, nous devons renoncer à l’idée du Grand Israël. Peut-être qu’à l’avenir, nous aurons une autre chance."
+
+ISR_support_irgun_fighters:0 "Soutenir les anciens combattants de l’Irgoun"
+ISR_support_irgun_fighters_desc:0 "Même si l’Irgoun n’existe plus, nous devons toujours promettre notre soutien à ses anciens combattants pour leur loyauté."
+
+ISR_cooperate_religious:0 "Coopérer avec les partis religieux"
+ISR_cooperate_religious_desc:0 "Les partis religieux sont nos plus grands alliés. Nous devons leur accorder une pleine légitimité."
+
+ISR_betar_revived:0 "L’esprit de Betar"
+ISR_betar_revived_desc:0 "Nous devons honorer notre héritage de résistance. Yodfat, Massada, Betar."
+
+ISR_the_elections:0 "Organiser les élections"
+ISR_the_elections_desc:0 "Le moment est venu."
+
+ISR_elect_president:0 "Élire un président"
+ISR_elect_president_desc:0 "Notre nation doit avoir un représentant officiel sur la scène internationale. Nous devrions élire un président cérémoniel comme chef de l’État."
+
+ISR_draft_constitution:0 "Rédiger une constitution"
+ISR_draft_constitution_desc:0 "Notre jeune république n’a toujours pas de constitution, et cela met en danger notre démocratie. Nous devons avancer dans sa rédaction, même si cela sera difficile."
+
+ISR_hashomer_leads:0 "Hashomer prend la tête"
+ISR_hashomer_leads_desc:0 "Victoire ! Nos grands idéaux pour une communauté socialiste du peuple juif sont à portée de main. Mais nous devons nous rappeler que nous ne sommes pas seuls ici et que nous devons aussi répondre aux besoins de tous les autres."
+
+ISR_strengthen_union:0 "Renforcer les Histadrout"
+ISR_strengthen_union_desc:0 "Les syndicats ouvriers du pays, les Histadrout, doivent être renforcés afin de protéger les droits des travailleurs."
+
+ISR_soviet_support:0 "Obtenir le soutien soviétique"
+ISR_soviet_support_desc:0 "[SOV.GetNameDefCap] est le champion évident du sionisme dans le monde. Nous devons nous tourner vers eux pour obtenir du soutien."
+
+ISR_limited_austerity:0 "Limiter l’austérité"
+ISR_limited_austerity_desc:0 "Nous ne pouvons pas supprimer entièrement les mesures d’austérité actuelles, mais nous devons ouvrir légèrement notre économie afin d’exporter ce que nous avons."
+
+ISR_limited_return:0 "Retour limité des Arabes"
+ISR_limited_return_desc:0 "De nombreux Arabes de cette terre ont été déplacés durant la guerre. Si nous voulons nous légitimer, nous devons progressivement les laisser revenir."
+
+ISR_strengthen_maki:0 "Renforcer le Maki"
+ISR_strengthen_maki_desc:0 "Le rêve du Maki d’une commune binationale est l’avenir de cette nation. Nous devons l’appuyer et travailler à sa réalisation."
+
+ISR_expand_industrial_hubs:0 "Développer les pôles industriels urbains"
+ISR_expand_industrial_hubs_desc:0 "En développant des pôles industriels dans les zones urbaines comme Haïfa, nous pouvons encourager davantage l’urbanisation du pays."
+
+ISR_soviet_cooperation:0 "Coopération militaire soviétique"
+ISR_soviet_cooperation_desc:0 "Il est dans l’intérêt de nos deux nations de coopérer militairement, car les ennemis de la révolution se renforcent."
+
+ISR_centralization:0 "Poursuivre la centralisation politique"
+ISR_centralization_desc:0 "Notre nation est décentralisée depuis longtemps. Si nous voulons étendre notre influence, nous devons centraliser de nombreuses institutions."
+
+ISR_merge_unions:0 "Fusionner les syndicats"
+ISR_merge_unions_desc:0 "Nous devons travailler à fusionner les syndicats arabes et juifs afin de favoriser la coopération entre les populations."
+
+ISR_arab_recruitment:0 "Recrutement arabe"
+ISR_arab_recruitment_desc:0 "Si nous voulons bâtir une société unitaire, nous devons permettre aux soldats arabes d’intégrer notre armée."
+
+ISR_levantine_commune:0 "Une commune levantine"
+ISR_levantine_commune_desc:0 "Nous devons transcender les frontières ethniques et unir nos classes ouvrières une bonne fois pour toutes dans une nouvelle union. C’est ainsi que nous trouverons la paix."
+
+ISR_toe_line:0 "Suivre la ligne"
+ISR_toe_line_desc:0 "Les extrémistes du Maki sont trop radicaux et ne feront que déstabiliser la nation. Nous devons suivre une ligne médiane pour éviter un effondrement."
+
+ISR_fix_bureaucracy:0 "Réformer la bureaucratie des Histadrout"
+ISR_fix_bureaucracy_desc:0 "Les Histadrout sont aujourd’hui trop bureaucratiques, ce qui les rend impopulaires. Nous devons y remédier si nous voulons continuer à leur confier la gestion de l’économie."
+
+ISR_galilee_development:0 "Développer la Galilée"
+ISR_galilee_development_desc:0 "Nous devons développer la région de Galilée pour conserver le soutien de la population rurale qui y vit."
+
+ISR_reconciliation:0 "Réconciliation avec les Arabes"
+ISR_reconciliation_desc:0 "Nous ne pouvons pas rester ennemis pour toujours. Il est temps de nous réconcilier et de trouver une solution pour l’avenir."
+
+ISR_work_with_arab:0 "Travailler avec les dirigeants arabes"
+ISR_work_with_arab_desc:0 "Nous devons tendre la main aux dirigeants arabes partageant nos vues afin de conclure un accord mutuel."
+
+ISR_recognize_beduin:0 "Reconnaître les implantations bédouines"
+ISR_recognize_beduin_desc:0 "Si nous voulons obtenir le soutien des Bédouins du sud, nous devons reconnaître leurs implantations et les aider à s’établir."
+
+ISR_two_state_solution:0 "Solution à deux États"
+ISR_two_state_solution_desc:0 "Quiconque croit que nous pouvons conserver le contrôle sur les zones à majorité arabe se trompe. Nous devons leur accorder l’indépendance, pour le bien de nos deux peuples."
+
+ISR_shearim:0 "She'arim Po Niftach"
+ISR_shearim_desc:0 "Notre rêve d’une grande communauté socialiste a été réalisé. Pour le bien des Juifs et des Arabes.\n\nLes portes sont ouvertes."
+
+ISR_invest_in_kibbutzim:0 "Investir dans les kibboutzim"
+ISR_invest_in_kibbutzim_desc:0 "Les kibboutzim agricoles sont la base de notre plan économique. Nous devons les soutenir afin de réduire notre dépendance aux importations alimentaires étrangères."
+
+ISR_mapai_hashomer:0 "Réparer les vieilles querelles"
+ISR_mapai_hashomer_desc:0 "Bien que Mapai et Hashomer aient eu de nombreux désaccords, nous devons mettre nos différends de côté pour nous concentrer sur l’essentiel."
+
+ISR_setup_public_transit:0 "Développer les transports publics"
+ISR_setup_public_transit_desc:0 "En élargissant notre réseau de transports publics, nous permettrons à tous nos citoyens de se déplacer plus facilement, ce qui les rendra plus efficaces dans leur travail."
+
+ISR_mapai_cemented:0 "Suprématie du Mapai"
+ISR_mapai_cemented_desc:0 "Le grand vainqueur des élections est sans conteste le Mapai. Ils nous ont dirigés pendant 30 ans, ils nous dirigeront pour 30 de plus !"
+
+ISR_begin_nationalization:0 "Commencer la nationalisation de l’industrie"
+ISR_begin_nationalization_desc:0 "Nous devons nationaliser l’industrie de notre pays afin de garantir qu’elle soit utilisée à bon escient et non abusée."
+
+ISR_education_reforms:0 "Loi sur l’enseignement obligatoire"
+ISR_education_reforms_desc:0 "Nous devons veiller à ce que chaque enfant du pays reçoive une éducation de base, afin que la prochaine génération soit plus brillante et meilleure que la précédente."
+
+ISR_cement_histadrut_powers:0 "Consolider le pouvoir des Histadrout"
+ISR_cement_histadrut_powers_desc:0 "Donner trop de pouvoir aux Histadrout serait désastreux, mais nous ne pouvons pas sous-estimer leur rôle essentiel dans la société. Nous devons leur apporter davantage de soutien."
+
+ISR_establish_bituah_leumi:0 "Fonder le Bituah Leumi"
+ISR_establish_bituah_leumi_desc:0 "Nous devons prendre soin de ceux qui ne peuvent pas s’occuper d’eux-mêmes. Nous créerons une nouvelle agence pour venir en aide aux personnes handicapées ou âgées."
+
+ISR_lessen_austerity:0 "Alléger les mesures d’austérité"
+ISR_lessen_austerity_desc:0 "Les mesures d’austérité actuelles ont assez duré. Il est temps de rouvrir notre économie."
+
+ISR_palestinian_compromises:0 "Compromis avec les Palestiniens"
+ISR_palestinian_compromises_desc:0 "Nous ne devons pas oublier les besoins de la population arabe. Nous devons parvenir à un accord avec elle."
+
+ISR_operation_magic_carpet:0 "Opération Tapis Volant"
+ISR_operation_magic_carpet_desc:0 "Notre peuple au Yémen est persécuté. Nous devons les ramener chez eux, par tous les moyens nécessaires."
+
+ISR_the_ageing_father:0 "Le père vieillissant"
+ISR_the_ageing_father_desc:0 "Le Premier ministre Ben Gourion a exprimé à plusieurs reprises sa volonté de se retirer de la politique et de fonder un kibboutz dans le Néguev. Beaucoup estiment qu’il mérite un repos bien mérité, mais d’autres pensent que nous avons encore besoin de son leadership en ces temps troublés.\n\nQue doit-on faire ?"
+
+ISR_ben_gurion_stays:0 "Ben Gourion reste"
+ISR_ben_gurion_stays_desc:0 "Nous avons besoin du leadership de Ben Gourion en ces temps. Il doit rester."
+
+ISR_develop_negev:0 "Développer le Néguev"
+ISR_develop_negev_desc:0 "Nous devons développer le désert du Néguev, car il offre l’espace nécessaire pour accueillir de nouveaux immigrants."
+
+ISR_fund_urban_areas:0 "Financer les camps d’immigrants"
+ISR_fund_urban_areas_desc:0 "Si les zones urbaines du pays doivent construire suffisamment de logements pour les vagues d’immigrants, nous devons leur garantir des financements."
+
+ISR_herzl_successor:0 "Le grand successeur de Herzl"
+ISR_herzl_successor_desc:0 "Le Premier ministre Ben Gourion a prouvé qu’il est le grand successeur de Herzl. Nous devons le reconnaître."
+
+ISR_operation_ezra_nehamiah:0 "Opération Ezra et Néhémie"
+ISR_operation_ezra_nehamiah_desc:0 "Une fois de plus, nous devons évacuer par avion notre peuple d’un autre pays par crainte d’oppression. Cette fois, il s’agit de l’Irak."
+
+ISR_sharett_takes_over:0 "Sharett prend la relève"
+ISR_sharett_takes_over_desc:0 "Ben Gourion doit pouvoir se reposer. Le ministre des Affaires étrangères, Moshe Sharett, prendra sa place."
+
+ISR_sharett_reforms:0 "Les réformes économiques de Sharett"
+ISR_sharett_reforms_desc:0 "Nous devons libéraliser légèrement notre économie. Les Histadrout sont trop bureaucratiques."
+
+ISR_further_palestinian_negotiations:0 "Poursuivre les négociations avec les Palestiniens"
+ISR_further_palestinian_negotiations_desc:0 "Il est possible de mettre fin aux combats. Nous devons approfondir nos négociations avec les Palestiniens."
+
+ISR_sharett_diplomacy:0 "Diplomatie étrangère"
+ISR_sharett_diplomacy_desc:0 "Nous devons étendre notre diplomatie vers le reste du monde afin d’obtenir des investissements économiques."
+
+ISR_moses_hess_legacy:0 "Rome et Jérusalem"
+ISR_moses_hess_legacy_desc:0 "Moses Hess, le grand visionnaire du sionisme travailliste, est mort depuis longtemps. Mais ses idéaux restent vivants et ont contribué à créer notre glorieuse nation. Nous ne devons pas l’oublier.\n\nNe dis pas que le jour viendra. Fais que ce jour arrive."
+
+ISR_appeal_west:0 "Faire appel à l’Occident"
+ISR_appeal_west_desc:0 "Il est dans l’intérêt de l’Occident d’investir dans notre jeune nation. Nous devons solliciter leur soutien industriel."
+
+ISR_progressives:0 "La Nouvelle Alyah"
+ISR_progressives_desc:0 "Faisant partie de notre coalition, nous devons travailler avec le parti de la Nouvelle Alyah et soutenir certaines de leurs politiques."
+
+ISR_womens_rights:0 "Promouvoir les droits des femmes"
+ISR_womens_rights_desc:0 "Les droits des femmes sont indéniablement essentiels à notre nation si nous voulons qu’elle soit véritablement libre."
+
+ISR_secularize_public_laws:0 "Laïciser les lois publiques"
+ISR_secularize_public_laws_desc:0 "Les lois religieuses ne font que freiner notre progrès. Nous devons mettre fin à cette régression."
+
+ISR_general_zionists:0 "Les Sionistes généraux"
+ISR_general_zionists_desc:0 "Faisant partie de notre coalition, nous devons travailler avec le parti des Sionistes généraux et soutenir certaines de leurs politiques."
+
+ISR_develop_road_infrastructure:0 "Développer l’infrastructure routière"
+ISR_develop_road_infrastructure_desc:0 "Si notre nation veut prospérer, nous devons élargir nos infrastructures afin de faciliter les déplacements de nos citoyens."
+
+ISR_develop_gush_dan:0 "Développer le Goush Dan"
+ISR_develop_gush_dan_desc:0 "Le Goush Dan, le cœur de notre nation, nécessite davantage d’investissements. Nous devons y construire plus d’usines."
+
+ISR_centre_victorious:0 "La vieille garde"
+ISR_centre_victorious_desc:0 "Le sionisme libéral de Herzl n’était pas mort, seulement en sommeil. Nous accomplirons son héritage."
+
+ISR_undo_austerity:0 "Annuler les mesures d’austérité"
+ISR_undo_austerity_desc:0 "Les désastreuses mesures d’austérité de guerre de Ben Gourion doivent être abolies. Elles ne feront que nuire à notre nation."
+
+ISR_foreign_experts:0 "Inviter des experts étrangers"
+ISR_foreign_experts_desc:0 "De nombreux experts étrangers, sympathisants de notre cause, pourraient nous aider à progresser dans nos recherches. Nous devons les inviter."
+
+ISR_promote_electronic_developments:0 "Promouvoir le développement électronique"
+ISR_promote_electronic_developments_desc:0 "Il est clair que nous sommes entourés d’ennemis. Nous devons donc nous assurer de garder une avance technologique pour compenser cet état de fait."
+
+ISR_economic_liberalisation:0 "Libéralisation économique"
+ISR_economic_liberalisation_desc:0 "L’ancien modèle socialiste ne convient pas à un jeune État comme le nôtre. Nous devons libéraliser notre économie pour la développer au maximum."
+
+ISR_increase_urban_investments:0 "Augmenter les investissements urbains"
+ISR_increase_urban_investments_desc:0 "Nous devons développer nos zones urbaines en y créant davantage d’opportunités d’emploi, car la majorité de notre population y réside."
+
+ISR_best_of_the_best:0 "L’élite de l’élite"
+ISR_best_of_the_best_desc:0 "Notre nation, entourée d’ennemis, doit posséder la meilleure technologie possible pour déjouer nos adversaires."
+
+ISR_strengthen_progressives:0 "Renforcer les progressistes"
+ISR_strengthen_progressives_desc:0 "Le parti de la Nouvelle Alyah de Pinchas Rosen avance de bons arguments. Nous devons les écouter et renforcer leur influence."
+
+ISR_push_secular_education:0 "Promouvoir l’éducation laïque"
+ISR_push_secular_education_desc:0 "Nos enfants doivent bénéficier de la meilleure éducation possible. Nous devons veiller à ce qu’aucun temps ne soit perdu sur des matières superflues."
+
+ISR_invest_in_white_collar:0 "Investir dans les secteurs tertiaires"
+ISR_invest_in_white_collar_desc:0 "Notre nation est petite et manque de ressources. Nous devons investir dans les entreprises du tertiaire afin de toujours garder une avance technologique, même si nous ne pouvons pas l’obtenir sur le plan militaire."
+
+ISR_appeal_to_diaspora:0 "Faire appel à la diaspora"
+ISR_appeal_to_diaspora_desc:0 "De nombreux Juifs de la diaspora sont prêts à nous soutenir. Nous devons rassembler leurs fonds afin d’ouvrir de nouvelles industries dans notre pays."
+
+ISR_expand_immigrant_infrastructure:0 "Élargir l’infrastructure pour l’Alyah"
+ISR_expand_immigrant_infrastructure_desc:0 "Des centaines de milliers de personnes continuent d’arriver chaque année sur nos côtes. Nous devons élargir nos infrastructures pour les accueillir."
+
+ISR_status_quo_arabs:0 "Consolider le statu quo"
+ISR_status_quo_arabs_desc:0 "Avec notre indépendance, nous nous retrouvons avec une grande population arabe dans notre nation. Nous maintiendrons le statu quo, qui les exempte du service militaire obligatoire."
+
+ISR_shift_rightwards:0 "Virer à droite"
+ISR_shift_rightwards_desc:0 "Les Sionistes généraux ont la meilleure vision pour la nation. Nous devons suivre leur voie pour établir un État capitaliste."
+
+ISR_tax_reforms:0 "Réformes fiscales"
+ISR_tax_reforms_desc:0 "L’ancien gouvernement socialiste imposait de nombreux impôts superflus. Nous devons nous en débarrasser."
+
+ISR_histardrut_deregulation:0 "Affaiblir les Histadrout"
+ISR_histardrut_deregulation_desc:0 "Les Histadrout ont leur utilité, mais ils sont actuellement bien trop puissants. Nous devons réduire leur bureaucratie."
+
+ISR_further_industry_expansions:0 "Poursuivre l’expansion industrielle"
+ISR_further_industry_expansions_desc:0 "Notre industrie peut encore être développée davantage. Nous devons y investir."
+
+ISR_middle_class_investments:0 "Renforcer la classe moyenne"
+ISR_middle_class_investments_desc:0 "Le cœur de notre base électorale se trouve dans la classe moyenne. Nous devons la soutenir et accroître son influence."
+
+ISR_legacy_of_basel:0 "Altneuland"
+ISR_legacy_of_basel_desc:0 "Quand Herzl imaginait l’Ancien Nouveau Pays, il voyait un creuset de cultures, une nation libre, un État tolérant. Voilà ce pour quoi nous devons œuvrer, car son héritage ne doit pas être oublié.\n\nSi vous le voulez, ce n’est pas un rêve."
+
+ISR_the_religious_front:0 "Le Front religieux"
+ISR_the_religious_front_desc:0 "Faisant partie de notre coalition, nous devons travailler avec le Front religieux uni pour atteindre nos objectifs."
+
+ISR_fund_religious_education:0 "Financer l’éducation religieuse"
+ISR_fund_religious_education_desc:0 "Pour gagner le soutien des partis religieux, nous devons financer l’éducation religieuse dans leurs communautés à travers le pays."
+
+ISR_exempt_yeshiva_students:0 "Exemption pour les étudiants des yeshivot"
+ISR_exempt_yeshiva_students_desc:0 "Nous devons exempter les étudiants des yeshivot du service militaire obligatoire afin d’obtenir leur soutien."
+
+ISR_status_quo_agreement:0 "L’accord du statu quo"
+ISR_status_quo_agreement_desc:0 "L’accord du statu quo rendra plus difficile toute modification des lois religieuses, afin de garantir qu’elles ne soient pas remises en cause à l’avenir."
+
+ISR_revisionist_revolution:0 "La révolution révisionniste"
+ISR_revisionist_revolution_desc:0 "Victoire ! Notre grand rêve d’un gouvernement révisionniste, qui corrigera les erreurs des sionistes travaillistes, est devenu réalité."
+
+ISR_the_five_mems:0 "Les Cinq Mem"
+ISR_the_five_mems_desc:0 "Les Cinq Mem de Jabotinsky constituent un cadre définissant les besoins fondamentaux de chaque citoyen : nourriture, logement, vêtements, éducation et santé. Nous devons nous assurer que notre peuple y ait accès."
+
+ISR_periphery_investments:0 "Investissements dans la périphérie"
+ISR_periphery_investments_desc:0 "Nous ne pouvons pas laisser Tel-Aviv et le Goush Dan reléguer le reste de la nation à l’arrière-plan. Nous devons investir dans les villes périphériques."
+
+ISR_open_economy:0 "Ouvrir l’économie"
+ISR_open_economy_desc:0 "Nous devons abolir les mesures d’austérité de guerre et commencer à ouvrir notre commerce."
+
+ISR_cement_jewish_identity:0 "Consolider l’identité juive"
+ISR_cement_jewish_identity_desc:0 "Israël est avant tout un État pour le peuple juif. Cela ne doit pas être remis en question."
+
+ISR_push_military_industries:0 "Détourner les fonds vers l’industrie militaire"
+ISR_push_military_industries_desc:0 "Notre nation manque d’industries militaires. Nous devons leur attribuer une partie du financement."
+
+ISR_weaken_histadrut:0 "Affaiblir la Histadrout"
+ISR_weaken_histadrut_desc:0 "Les syndicats de la Histadrout sont devenus trop puissants. Nous devons contourner et réduire leur influence."
+
+ISR_cement_five_mems:0 "Un Hébreu dans la pauvreté – toujours noble"
+ISR_cement_five_mems_desc:0 "Le peuple juif a enduré plus de souffrances que quiconque. Nous ne devons pas oublier notre héritage de résistance."
+
+ISR_begin_takes_over:0 "Begin prend la relève"
+ISR_begin_takes_over_desc:0 "Jabotinsky est mort. Le grand père du sionisme révisionniste voudrait que nous poursuivions son héritage. Menachem Begin prendra sa place."
+
+ISR_expand_settlement:0 "Étendre la colonisation juive"
+ISR_expand_settlement_desc:0 "Nous devons étendre les colonies juives à travers le pays si nous voulons contrebalancer la résistance palestinienne."
+
+ISR_reject_lesser_israel:0 "Rejeter le « petit Israël »"
+ISR_reject_lesser_israel_desc:0 "Il y a des traîtres parmi nous qui pensent que nous devons céder des territoires pour faire la paix. Cela n’arrivera jamais."
+
+ISR_martial_law:0 "Loi martiale en Palestine"
+ISR_martial_law_desc:0 "Pour contrer la résistance, nous devons déclarer la loi martiale dans les zones palestiniennes afin de prévenir toute attaque."
+
+ISR_abandon_eretz_yisrael:0 "Abandonner le Grand Israël"
+ISR_abandon_eretz_yisrael_desc:0 "Nous devons comprendre que les temps ont changé, et que nous ne pouvons plus revendiquer la rive est du Jourdain si nous voulons avoir une chance de paix."
+
+ISR_only_thus:0 "Rak Kach – Seulement ainsi"
+ISR_only_thus_desc:0 "Le moment est venu. Nous allons enfin unir les deux rives du Jourdain pour former un Grand Israël."
+
+ISR_yodefet_masada_betar:0 "Yodefet, Massada, Betar."
+ISR_yodefet_masada_betar_desc:0 "L’héritage de résistance du peuple juif perdure. D’abord à Yodefet, puis à Massada, et maintenant.\n\nConquérir la montagne ou mourir."
+
+ISR_join_SOV:0 "Rejoindre les Soviétiques"
+ISR_join_SOV_desc:0 "[SOV.GetNameDefCap] s’est avéré être notre plus grand allié. Nous devons les rejoindre dans leur lutte."
+
+ISR_join_USA:0 "Rejoindre les États-Unis"
+ISR_join_USA_desc:0 "[USA.GetNameDefCap] abrite la plus grande population juive hors d’Israël. Nous devons nous allier avec eux pour le bien de notre peuple."
+
+ISR_alone:0 "Notre propre destin"
+ISR_alone_desc:0 "Les Européens nous ont opprimés pendant deux mille ans. Il est temps de forger notre propre destin, libres de toute influence, sur notre propre terre."
+
+ISR_join_ENG:0 "Rejoindre le Royaume-Uni"
+ISR_join_ENG_desc:0 "Même après l’occupation britannique, ils restent nos alliés les plus utiles. Nous ne devons pas laisser le passé se dresser entre nous et un Israël sûr."
+
+ISR_join_ITA:0 "Rejoindre [ITA.GetNameDef]"
+ISR_join_ITA_desc:0 "[ITA.GetNameDef] s’est montré un allié très fiable. Nous devons les rejoindre."
+
+ISR_am_yisrael_hai:0 "Am Israël Haï"
+ISR_am_yisrael_hai_desc:0 "Après 2000 ans d’exil, d’oppression, de pogroms et de génocides, le peuple juif a enfin un foyer. Le chemin n’a pas été facile, et l’avenir ne le sera pas non plus. Mais aujourd’hui, nous pouvons nous reposer en paix, sachant que le peuple d’Israël vit encore.\n\nTant qu’une âme juive aspire encore, notre espoir n’est pas perdu."
+
+ISR_destroy_nazi:0 "La bataille finale"
+ISR_destroy_nazi_desc:0 "Les porcs nazis en Allemagne détruisent notre culture, nos familles, notre peuple. Nous devons nous rassembler pour une bataille finale."
+
+ISR_irgun_in_power:0 "Poursuivre le règne de l’Irgoun"
+ISR_irgun_in_power_desc:0 "Notre nation a besoin de la guidance de l’Irgoun pour la protéger des menaces extérieures. Nous ne pouvons pas sacrifier la sécurité au nom de la démocratie."
+
+ISR_fight_resistance:0 "Réprimer la résistance"
+ISR_fight_resistance_desc:0 "Avant toute chose, nous devons réprimer la résistance sur nos territoires pour empêcher les attaques contre notre peuple."
+
+ISR_consolidate_power:0 "Consolider le pouvoir"
+ISR_consolidate_power_desc:0 "Après avoir partiellement réprimé la résistance dans nos terres, nous pouvons enfin consolider notre autorité."
+
+ISR_end_austerity:0 "Mettre fin aux mesures d’austérité"
+ISR_end_austerity_desc:0 "Nous devons mettre fin aux mesures d’austérité imposées durant la guerre d’indépendance et ouvrir notre commerce au monde."
+
+ISR_histadrut_legislation:0 "Législation contre la Histadrout"
+ISR_histadrut_legislation_desc:0 "Nous devons affaiblir le pouvoir de la Histadrout si nous voulons renforcer notre contrôle sur le pays."
+
+ISR_factory_investments:0 "Investissements industriels"
+ISR_factory_investments_desc:0 "Nous devons investir dans l’industrie afin d’accroître la capacité de défense de notre nation."
+
+ISR_push_jewish:0 "Le peuple éternel"
+ISR_push_jewish_desc:0 "Le peuple juif est resté sans État pendant deux millénaires, mais désormais, enfin, nous avons notre propre terre."
+
+ISR_watch_yishuv_leaders:0 "Surveiller les dirigeants du Yishouv"
+ISR_watch_yishuv_leaders_desc:0 "Les anciens dirigeants du Yishouv doivent être autorisés à poursuivre leurs activités politiques, mais nous devons veiller à ce qu’ils ne répandent pas de dissidence parmi la population."
+
+ISR_push_militarism:0 "La diplomatie du Mur de fer"
+ISR_push_militarism_desc:0 "Ze’ev Jabotinsky avait établi que notre diplomatie devait reposer sur une armée forte, capable de s’imposer, condition préalable à toute négociation réussie avec la population arabe et les États voisins. Seule la force militaire juive pourra garantir une paix durable."
+
+ISR_third_temple:0 "Le Troisième Temple"
+ISR_third_temple_desc:0 "Depuis la destruction du Second Temple par les Romains, les Juifs du monde entier aspirent à le reconstruire. C’est désormais une réalité, et un appel au rassemblement pour les Juifs du monde entier."
+
+ISR_foreign_assets_seized:0 "Biens étrangers saisis"
+
+ISR_jabotinsky_death:0 "Mort du père"
+ISR_jabotinsky_death_desc:0 "Ze’ev Jabotinsky, écrivain, poète, soldat, officier et père du sionisme révisionniste, s’est éteint.\nUne nouvelle ère commence, et les premières fissures apparaissent. Menachem Begin a été choisi pour poursuivre son héritage, mais beaucoup craignent que son autorité ne soit sapée avant même d’avoir commencé."
+
+ISR_the_revisionist_split:0 "La scission révisionniste"
+ISR_the_revisionist_split_desc:0 "Avraham Stern, accusant Menachem Begin de trahison envers la nation, a lancé une insurrection contre le nouveau gouvernement."
+
+ISR_gather_the_loyalists:0 "Rassembler les loyalistes"
+ISR_gather_the_loyalists_desc:0 "Stern n’est rien d’autre qu’un traître ! Nous écraserons son soulèvement !"
+
+ISR_appeal_to_haganah:0 "Faire appel aux anciens combattants de la Haganah"
+ISR_appeal_to_haganah_desc:0 "Malgré nos différends, nous devons reconnaître l’ennemi commun et coopérer avec les anciens soldats de la Haganah qui peuvent renforcer nos rangs."
+
+ISR_negotiate_lehi_defectors:0 "Négocier avec les déserteurs du Lehi"
+ISR_negotiate_lehi_defectors_desc:0 "Tous les membres de la faction de Stern ne soutiennent pas l’insurrection. Leur accorder l’amnistie pourrait nous fournir des renseignements sur les possibles quartiers généraux du Lehi."
+
+ISR_crown_of_david:0 "Porter la couronne de David"
+ISR_crown_of_david_desc:0 "L’insurrection de Stern a été écrasée, et il a été exécuté pour trahison. Il est temps d’aller de l’avant et de retrouver notre gloire."
+
+ISR_strengthen_military_industrial:0 "Renforcer le complexe militaro-industriel"
+ISR_strengthen_military_industrial_desc:0 "En détournant des fonds vers le complexe militaro-industriel, nous pouvons rationaliser la production de nouvelles armes."
+
+ISR_seize_foreign_assets:0 "Saisir les biens étrangers"
+ISR_seize_foreign_assets_desc:0 "De nombreux biens étrangers se trouvent encore dans notre pays. En les saisissant, nous pourrons en tirer profit."
+
+ISR_arms_sourcing:0 "Approvisionnement en armes"
+ISR_arms_sourcing_desc:0 "Nous devons nous procurer des armes sur les marchés internationaux pour développer nos capacités militaires."
+
+ISR_expand_support_uses:0 "Accroître l’usage des armes de soutien"
+ISR_expand_support_uses_desc:0 "Pour mieux affronter les guerres asymétriques, nous devons accroître l’utilisation des armes de soutien contre nos ennemis."
+
+ISR_judea_fell:0 "Par le feu et par le sang, la Judée est tombée"
+ISR_judea_fell_desc:0 "Il y a presque deux millénaires, le dernier État juif est tombé face aux Romains. Contre toute attente, nous avons défié l’Histoire et restauré une patrie juive."
+
+ISR_settlement_projects:0 "Étendre les projets de colonisation"
+ISR_settlement_projects_desc:0 "Afin de consolider notre contrôle sur la région, nous devons étendre les implantations juives à travers la nation."
+
+ISR_clean_resistance:0 "Éradiquer la résistance"
+ISR_clean_resistance_desc:0 "Nous devons éliminer les derniers foyers de résistance pour qu’ils ne puissent plus menacer notre État."
+
+ISR_the_italian_model:0 "Le modèle italien"
+ISR_the_italian_model_desc:0 "Benito Mussolini a esquissé une grande vision de la manière dont un peuple fort doit organiser sa nation. Nous devons suivre cette vision grandiose."
+
+ISR_joint_military_exercises:0 "Manœuvres militaires conjointes"
+ISR_joint_military_exercises_desc:0 "Nous devrions participer à des exercices conjoints avec l’armée [ITA.GetAdjective]. Nous avons beaucoup à apprendre."
+
+ISR_strike_egypt:0 "Frapper l’Égypte"
+ISR_strike_egypt_desc:0 "Avec l’aide des Italiens, nous pouvons attaquer l’Égypte des deux côtés, sécurisant ainsi le canal de Suez et la position de notre alliance en Afrique du Nord."
+
+ISR_support_maronite_lebanese:0 "Soutenir les maronites libanais"
+ISR_support_maronite_lebanese_desc:0 "Les chrétiens maronites du Liban nous ont demandé de l’aide contre les forces occupantes de leur pays. Nous devrions leur envoyer du soutien, et peut-être deviendront-ils un proche allié."
+
+ISR_the_periphery_strategy:0 "La stratégie de la périphérie"
+ISR_the_periphery_strategy_desc:0 "Nous devons sécuriser nos relations avec les pays non arabes du Moyen-Orient, afin de constituer un rempart contre l’agression arabe."
+
+ISR_turkish_alliance:0 "Réconciliation avec les [TUR.GetAdjective]"
+ISR_turkish_alliance_desc:0 "[TUR.GetNameDefCap] a autrefois régné sur notre Terre sainte, mais nous sommes prêts à nous réconcilier avec eux pour protéger nos deux nations."
+
+ISR_iranian_alliance:0 "Renforcer l’alliance [PER.GetAdjective]"
+ISR_iranian_alliance_desc:0 "Nos relations avec le gouvernement impérial iranien sont très importantes. Nous devrions renforcer notre alliance avec lui."
+
+ISR_partition_syria:0 "Partitionner la Syrie"
+ISR_partition_syria_desc:0 "[TUR.GetNameDef] revendique de nombreux territoires syriens. Peut-être pourrions-nous les partager entre nous."
+
+ISR_judea_rise:0 "Par le feu et par le sang, la Judée se relèvera !"
+ISR_judea_rise_desc:0 "Il y a près de deux millénaires, le dernier État juif est tombé face aux Romains. Contre toute attente, nous avons défié l’Histoire et restauré une patrie juive. Beaucoup se dressent contre nous, mais seul le feu et le sang pourront garantir notre destin !"
+
+ISR_empower_stern_gang:0 "Renforcer le groupe Stern"
+ISR_empower_stern_gang_desc:0 "Stern est le seul homme capable de nous mener à la grandeur ! À bas l’Irgoun !"
+
+ISR_gather_outside_support:0 "Chercher du soutien extérieur"
+ISR_gather_outside_support_desc:0 "Nous devons solliciter l’appui d’autres nations nationalistes à travers le monde, elles nous soutiendront sûrement."
+
+ISR_strike_infrastructure:0 "Frapper les infrastructures de l’Irgoun"
+ISR_strike_infrastructure_desc:0 "Cibler leurs infrastructures serait un bon moyen d’affaiblir l’Irgoun et de mettre à mal leur logistique."
+
+ISR_avenge_tragedies:0 "Venger les plus grandes tragédies"
+ISR_avenge_tragedies_desc:0 "Notre peuple s’est vu refuser son destin légitime pendant trop longtemps. Il est temps de prendre les choses en main."
+
+ISR_nile_to_euphrates:0 "Du Nil à l’Euphrate"
+ISR_nile_to_euphrates_desc:0 "Il y a longtemps, nos ancêtres ont reçu la promesse de terres allant du Nil à l’Euphrate. Cette promesse est toujours valable aujourd’hui."
+
+ISR_stern_cult:0 "Le culte de Stern"
+ISR_stern_cult_desc:0 "Avraham Stern est le seul digne de diriger notre grande patrie. Il nous a conduits à la gloire, et il nous mènera au salut !"
+
+ISR_join_fascists:0 "Alliés à l’étranger"
+ISR_join_fascists_desc:0 "Pour renforcer notre cause, nous devrions nous allier à d’autres nations nationalistes à travers le monde."
+
+ISR_kill_stern:0 "Éliminer Stern"
+ISR_kill_stern_desc:0 "Stern nous a été utile, mais nous devons nous en débarrasser avant qu’il ne mène notre nation à la ruine. Le triumvirat sera notre véritable direction."
+
+ISR_schizo_nazbol:0 "Réorienter la politique intérieure"
+ISR_schizo_nazbol_desc:0 "Les anciennes méthodes de Stern sont dépassées, et nous devons nous adapter pour survivre. Nous devrions adopter une idéologie de national-bolchevisme afin de nous rapprocher de l’Union soviétique."
+
+ISR_join_soviet:0 "Rejoindre [SOV.GetNameDef]"
+ISR_join_soviet_desc:0 "Nous devons rejoindre la lutte de [SOV.GetNameDef] pour faire avancer notre cause. Ils peuvent nous protéger."
+
+ISR_the_east_bank:0 "La rive est"
+ISR_the_east_bank_desc:0 "La rive est du Jourdain est tout aussi [ISR.GetAdjective] que la rive ouest. Nous devons en assurer le contrôle au plus vite."
+
+ISR_seize_lebanon:0 "S’emparer du Liban"
+ISR_seize_lebanon_desc:0 ""
+
+ISR_syria_war:0 "Guerre en Syrie"
+ISR_syria_war_desc:0 ""
+
+ISR_to_the_euphrates:0 "Vers l’Euphrate"
+ISR_to_the_euphrates_desc:0 ""
+
+ISR_into_the_desert:0 "Dans le désert"
+ISR_into_the_desert_desc:0 ""
+
+ISR_to_the_suez:0 "Vers le Suez"
+ISR_to_the_suez_desc:0 ""
+
+ISR_build_third_temple:0 "Construire le Troisième Temple"
+ISR_build_third_temple_desc:0 "Il y a 2000 ans, notre Second Temple fut détruit. Cependant, le Mont du Temple est toujours là, et nous devons venger nos tragédies passées en le reconstruisant, quel qu’en soit le prix."
+
+ISR_suez_crisis:0 "Crise du canal de Suez"
+ISR_suez_crisis_desc:0 "[EGY.GetNameDefCap] a bloqué notre accès au canal de Suez ! C’est un acte de guerre ! Nous ne devons pas tolérer cela !"
+
+ISR_appeal_to_uk:0 "Appel au [ENG.GetNameDef]"
+ISR_appeal_to_uk_desc:0 "[ENG.GetNameDefCap] était le précédent propriétaire du canal. Nous pourrions coopérer avec eux pour le sécuriser de nouveau."
+
+ISR_appeal_to_france:0 "Appel à [FRA.GetNameDef]"
+ISR_appeal_to_france_desc:0 "[FRA.GetNameDefCap] a également des intérêts dans l’affaire. Nous devons solliciter leur soutien."
+
+ISR_prepare_the_invasion:0 "Préparer l’invasion"
+ISR_prepare_the_invasion_desc:0 "La question de la guerre n’est pas de savoir si, mais quand. Nous devons nous préparer."
+
+ISR_operation_sinai:0 "Opération Kadesh"
+ISR_operation_sinai_desc:0 "Le moment est venu. Nous devons lancer notre invasion maintenant."
+
+ISR_a_resounding_victory:0 "Une victoire éclatante"
+ISR_a_resounding_victory_desc:0 "Nous avons remporté une grande victoire ! Avec le Sinaï entre nos mains, nous voilà à la table des négociations. Nous devons utiliser notre force pour obtenir un résultat favorable."
+
+ISR_stretch_out_the_hand:0 "Tendre la main"
+ISR_stretch_out_the_hand_desc:0 "Il est temps de s’asseoir à la table des négociations. Nous devons travailler ensemble pour trouver une solution définitive à la question du canal."
+
+ISR_one_zion:0 "Un sionisme, un Israël"
+ISR_one_zion_desc:0 "Assez ! Nous ne serons pas contraints à la table des négociations par des puissances étrangères ! Nous devons conserver le Sinaï pour nous protéger des Égyptiens."
+
+ISR_encourage_hebraic_settlement:0 "Encourager la colonisation hébraïque"
+ISR_encourage_hebraic_settlement_desc:0 "Encourager la colonisation hébraïque"
+
+ISR_raise_jewish_militias:0 "Renforcer les FDI"
+ISR_raise_jewish_militias_desc:0 "De nombreuses milices circulent encore dans notre pays. Nous devons établir les FDI comme la seule armée légitime de notre État."
+
+ISR_formalize_military:0 "Formaliser la structure militaire"
+ISR_formalize_military_desc:0 "Nous devons formaliser la structure des FDI afin de renforcer notre commandement militaire."
+
+ISR_provisional_government:0 "La question de la capitale"
+ISR_provisional_government_desc:0 "Avec la guerre terminée, nous devons trancher la question de la capitale. Restera-t-elle à Tel-Aviv ou sera-t-elle transférée à Jérusalem ?"
+
+ISR_national_higher_education:0 "Enseignement supérieur national"
+ISR_national_higher_education_desc:0 "Le manque d’éducation parmi la jeunesse reste un problème écrasant qui doit être résolu par tous les moyens possibles !"
+
+ISR_reading_power_station:0 "Ouvrir la centrale électrique de Reading"
+ISR_reading_power_station_desc:0 "Notre nation doit être capable de produire sa propre électricité. L’ouverture d’une nouvelle centrale à Tel-Aviv est un bon premier pas."
+
+ISR_link_communities:0 "Relier les communautés"
+ISR_link_communities_desc:0 ""
+
+ISR_military_vehicles:0 "Développer les véhicules militaires"
+ISR_military_vehicles_desc:0 "Développer les véhicules militaires"
+
+ISR_armored_vehicles:0 "Véhicules blindés"
+ISR_armored_vehicles_desc:0 "Véhicules blindés"
+
+ISR_building_the_new_homeland:0 "Construire la nouvelle patrie"
+ISR_building_the_new_homeland_desc:0 "Nous devons commencer la construction de la nouvelle patrie de notre peuple."
+
+ISR_land_reclamation:0 "Projets de récupération des terres"
+ISR_land_reclamation_desc:0 "Notre nation est petite et nous n’avons pas beaucoup d’espace pour construire de l’industrie. Nous devons lancer des projets de récupération des terres à travers le pays afin d’utiliser au mieux les rares terrains dont nous disposons."
+
+ISR_kibbutz_production:0 "Développement local des kibboutz"
+ISR_kibbutz_production_desc:0 "Développement local des kibboutz"
+
+ISR_industrial_expansion_plan:0 "Plan d’expansion industrielle"
+ISR_industrial_expansion_plan_desc:0 "Plan d’expansion industrielle"
+
+ISR_firearms_production:0 "Production d’armes à feu"
+ISR_firearms_production_desc:0 "Production d’armes à feu"
+
+ISR_issue_the_israeli_lira:0 "Émettre la livre [ISR.GetAdjective]"
+ISR_issue_the_israeli_lira_desc:0 "Afin de nous débarrasser de l’influence britannique, nous devons remplacer l’ancienne livre palestinienne par une nouvelle monnaie, la livre [ISR.GetAdjective]."
+
+ISR_independent_steel_production:0 "Production d’acier indépendante"
+ISR_independent_steel_production_desc:0 "Production d’acier indépendante"
+
+ISR_israel_military_industries:0 "Industries militaires israéliennes"
+ISR_israel_military_industries_desc:0 "Industries militaires israéliennes"
+
+ISR_equipment_modernization:0 "Modernisation de l’équipement"
+ISR_equipment_modernization_desc:0 "Modernisation de l’équipement"
+
+ISR_reading_power_station_idea:0 "Centrale électrique de Reading"
+
+ISR_special_night_squads:0 "Escouades spéciales de nuit"
+ISR_special_night_squads_desc:0 "Escouades spéciales de nuit"
+
+ISR_special_forces:0 "Investir dans les forces spéciales"
+ISR_special_forces_desc:0 "Investir dans les forces spéciales nous permettra de compenser notre manque d’hommes en faisant qu’un de nos soldats vaille deux ennemis."
+
+ISR_plane_imports:0 "Former le Sherut Avir"
+ISR_plane_imports_desc:0 "Après avoir obtenu l’indépendance, nous devons former notre propre armée de l’air. Nous pouvons utiliser les chasseurs britanniques laissés à l’aéroport de Lod comme point de départ."
+
+ISR_volunteer_pilots:0 "Pilotes volontaires"
+ISR_volunteer_pilots_desc:0 "Pilotes volontaires"
+
+ISR_israeli_air_school:0 "École de l’air [ISR.GetAdjective]"
+ISR_israeli_air_school_desc:0 "École de l’air [ISR.GetAdjective]"
+
+ISR_form_the_techni:0 "Former le service technique aérien"
+ISR_form_the_techni_desc:0 "Adif lizhol bahol me'asher lilbosh sarbal kahol\n\nAd matai"   # (phrase hébraïque non traduite, tu veux que je la laisse telle quelle ?)
+
+ISR_build_trainer_aircrafts:0 "Construire des avions d’entraînement"
+ISR_build_trainer_aircrafts_desc:0 "Construire des avions d’entraînement"
+
+ISR_bimotor_aircrafts:0 "Avions bimoteurs"
+ISR_bimotor_aircrafts_desc:0 "Avions bimoteurs"
+
+ISR_naval_aviation:0 "Défense côtière aérienne"
+ISR_naval_aviation_desc:0 "Défense côtière aérienne"
+
+ISR_military_research:0 "Recherche militaire"
+ISR_military_research_desc:0 "Recherche militaire"
+
+ISR_form_the_mossad:0 "Créer le Mossad"
+ISR_form_the_mossad_desc:0 "Certaines batailles peuvent être remportées sans effusion de sang. Notre petite nation ne peut pas se permettre de livrer de nombreuses guerres, et nous devons donc investir dans des méthodes alternatives de combat."
+
+ISR_world_wide_spy_web:0 "Réseau mondial d’espionnage"
+ISR_world_wide_spy_web_desc:0 "Nous devons développer nos capacités de renseignement pour nous assurer qu’aucune menace ne pèse sur nous."
+
+ISR_israeli_military_industies:0 "Industries militaires [ISR.GetAdjective]"
+
+ISR_form_the_israeli_navy:0 "Former la marine [ISR.GetAdjective]"
+ISR_form_the_israeli_navy_desc:0 "Avoir accès à la mer ouvre de nouvelles opportunités commerciales et augmente notre présence dans le monde."
+
+ISR_Small_Navy:0 "Miser sur une flotte de raiders"
+ISR_Small_Navy_desc:0 "Perturbation et chaos décriront parfaitement l’océan ouvert où notre marine attend une proie convoyée et sans méfiance."
+
+ISR_Submarine:0 "Nouveaux sous-marins modernes"
+ISR_Submarine_desc:0 "Le cœur d’une flotte de raiders est constitué de sous-marins modernes."
+
+ISR_stealth_upgrades:0 "Améliorations furtives"
+ISR_stealth_upgrades_desc:0 "Frapper et disparaître en mer est bien plus efficace si l’ennemi ne peut pas localiser les moteurs de nos sous-marins. L’investissement dans les schnorchels est justifié."
+
+ISR_Sea_Dominance:0 "Miser sur la domination navale"
+ISR_Sea_Dominance_desc:0 "Notre marine se dressera fièrement au-dessus des eaux et anéantira toute flotte ennemie apparaissant à l’horizon. Les cuirassés sont l’avenir de la guerre, et nous le prouverons au monde."
+
+ISR_Study_Ships:0 "Étudier les conceptions étrangères"
+ISR_Study_Ships_desc:0 "Nos ports sont constamment visités par des navires étrangers. Plusieurs « inspections de sécurité » nous donneraient sûrement des détails sur les nouveaux modèles."
+
+ISR_Ships_American:0 "Mission dans les chantiers navals américains"
+ISR_Ships_American_desc:0 "Nos bonnes relations avec les États-Unis se sont renforcées après des visites conjointes dans leurs chantiers navals."
+
+ISR_Ships_England:0 "Mission dans les chantiers navals britanniques"
+ISR_Ships_England_desc:0 "Les ingénieurs navals britanniques nous ont montré plusieurs méthodes pour améliorer la qualité et réduire le temps de construction de nos navires légers."
+
+ISR_Purchase_Ships:0 "Commander des navires capitaux"
+ISR_Purchase_Ships_desc:0 ""
+
+ISR_Dockyards:0 "Étendre les installations navales"
+ISR_Dockyards_desc:0 "Pour construire une marine digne de ce nom, nous devons étendre nos chantiers navals le long des nouvelles côtes."
+
+ISR_Carrier:0 "Miser sur les porte-avions"
+ISR_Carrier_desc:0 "Un nouveau prototype de porte-avions est en cours de développement par notre bureau naval."
+
+ISR_Navy_Aircrafts:0 "Modèles d’avions embarqués"
+ISR_Navy_Aircrafts_desc:0 "Un porte-avions sans avions n’est qu’une boîte métallique flottant sur l’océan. L’équiper de nouveaux bombardiers navals prendra du temps, mais l’effort en vaut la peine."
+
+ISR_Battleship:0 "Miser sur les cuirassés"
+ISR_Battleship_desc:0 "Un nouveau croiseur de bataille rutilant sera construit grâce à nos dernières conceptions. Que nos ennemis sachent que nous apportons le feu et la fureur des mers !"
+
+ISR_Destroyer:0 "Miser sur les destroyers"
+ISR_Destroyer_desc:0 "Les navires lourds sont particulièrement vulnérables aux attaques de torpilles. Améliorer et construire des destroyers résoudra ce problème."
+
+ISR_Cruisers:0 "Miser sur les croiseurs"
+ISR_Cruisers_desc:0 "Bien que moins puissants que les cuirassés ou les porte-avions, les croiseurs lourds sont un bon complément à notre puissance navale et nécessitent un financement supplémentaire."
+
+ISR_Naval_Doctrine:0 "Améliorer la doctrine navale"
+ISR_Naval_Doctrine_desc:0 "De nouveaux navires seraient inutiles sans tactiques appropriées. Nous devons améliorer notre doctrine immédiatement !"
+
+ISR_Generals:0 "Élargir l’état-major"
+ISR_Generals_EXPL:0 "Nous allons §Hélargir l’état-major§! et obtenir des §Hgénéraux§! et des §Hadmiraux§! formés.\nLe nombre et la qualité des généraux dépendront des objectifs §Hcomplétés§!."
+ISR_Generals_Other_tt:0 "\nEn complétant cet objectif, vous obtiendrez un commandant supplémentaire lors de l’objectif §HÉlargir l’état-major§!."
+ISR_Generals_Other_nav_tt:0 "\nEn complétant cet objectif, vous obtiendrez un amiral supplémentaire lors de l’objectif §HÉlargir l’état-major§!."
+ISR_Generals_desc:0 "L’organisation militaire de notre pays est insuffisante. La formation d’un état-major national améliorera les performances de nos armées régulières."
+
+ISR_State_Matter:0 "Se concentrer sur les affaires intérieures"
+ISR_State_Matter_desc:0 "Jamais notre pays ne s’est senti aussi divisé et déchiré par les luttes de pouvoir internes. Établir un gouvernement fort et consolidé doit être notre première priorité."
+
+ISR_Collectivist_Ethos:0 "Éthique collectiviste"
+ISR_Collectivist_Ethos_desc:0 "Un État puissant est un État à parti unique. Réduire au silence toute opposition démocratique ne fera que renforcer le régime en place."
+
+ISR_Organise_Youth:0 "Organiser la jeunesse"
+ISR_Organise_Youth_desc:0 "Des voix de jeunes louant le régime actuel se font entendre dans tout le pays. Leur soutien commun peut être utilisé pour renforcer la foi du peuple en notre cause."
+
+ISR_Com_Generals:0 "Élargir le commandement militaire communiste"
+ISR_Com_Generals_desc:0 "De nombreux paysans et ouvriers instruits rejoignent volontairement l’armée pour combler le manque d’officiers."
+
+ISR_Collectivist_Propaganda:0 "La culture ouvrière"
+ISR_Collectivist_Propaganda_desc:0 "Les richesses redistribuées sont utilisées avec succès pour améliorer le fonctionnement des usines et accroître la production."
+
+ISR_Conquer:0 "Politique expansionniste"
+ISR_Conquer_desc:0 "La force militaire et la puissance de notre régime, associées à la faiblesse et à l’incompétence des gouvernements voisins, nous laissent sans autre choix que d’imposer la juste direction."
+
+ISR_Intervene:0 "Politique d’ingérence"
+ISR_Intervene_desc:0 "Notre cause peut être promue dans le monde entier grâce à de petites brigades qui assisteront les régimes en place par l’éducation idéologique, la planification et le soutien militaire."
+
+ISR_Isolated:0 "État isolé"
+ISR_Isolated_desc:0 "Notre règne doit être associé à la stabilité politique et à la prospérité nationale. Mais si quelqu’un méprise notre neutralité, il le paiera très cher !"
+
+ISR_Forced_Conscription:0 "Loi sur la conscription"
+ISR_Forced_Conscription_desc:0 "Si nous voulons survivre dans le baril de poudre qu’est devenu le monde, nous aurons besoin de beaucoup plus de soldats pour défendre nos valeurs."
+
+ISR_Fanaticism:0 "Fanatisme idéologique"
+ISR_Fanaticism_desc:0 "Il n’y a aucune raison de limiter nos efforts de propagande. Si certains sont prêts à mourir pour notre cause, pourquoi les en empêcher ?"
+
+ISR_Liberty_Ethos:0 "Éthique de la liberté"
+ISR_Liberty_Ethos_desc:0 "Un nouveau gouvernement fonctionnera plus efficacement s’il écoute la volonté de tous les groupes de population et s’il ignore toute division liée au genre, à la race ou à l’affiliation politique."
+
+ISR_Strenghten_Monarchy:0 "Autocratie"
+ISR_Strenghten_Monarchy_desc:0 "Une figure forte à la tête de l’État, exprimant les idées du gouvernement au public, n’est finalement pas une mauvaise idée. Tant que la liberté d’expression et de réunion est préservée, rien ne peut aller de travers."
+
+ISR_Strenghten_Democracy:0 "Renforcer la démocratie"
+ISR_Strenghten_Democracy_desc:0 "La confiance et la dévotion du peuple envers notre cause sont indéniables : une nouvelle période législative apportera encore plus de valeurs libérales aux masses !"
+
+ISR_Defence_Act:0 "Loi sur la sécurité nationale"
+ISR_Defence_Act_desc:0 "Promouvoir des policiers, militaires et experts en renseignement loyaux améliorera la position du gouvernement et protégera l’appareil législatif de l’influence étrangère."
+
+ISR_Brigades:0 "Former des brigades internationales"
+ISR_Brigades_desc:0 "Si nos capacités militaires doivent être prises au sérieux à l’échelle mondiale, nous devons accroître la présence de nos volontaires à travers le globe."
+
+ISR_Military_Build:0 "Les armes protègent la nation"
+ISR_Military_Build_desc:0 "La sécurité extérieure des nations est liée à la taille de leur armée. Si nous voulons répondre aux besoins croissants de nos soldats, une expansion de l’industrie militaire est indispensable !"
+
+ISR_Anti_Invasion:0 "Les forts protègent la nation"
+ISR_Anti_Invasion_desc:0 "La défense des principaux centres industriels et de recherche sera plus efficace si les zones les plus vulnérables peuvent être fortifiées et leurs garnisons renforcées."
+
+ISR_Industrial_Boom:0 "Boom industriel"
+ISR_Industrial_Boom_desc:0 "Une expansion industrielle accrue de l’État est le seul moyen de garantir le bien-être de nos citoyens."
+
+ISR_Industrial_Expansion:0 "Expansion industrielle nationale"
+ISR_Industrial_Expansion_desc:0 "Le nouveau programme gouvernemental vise à augmenter le nombre d’installations de production dans tout le pays."
+
+ISR_Railway_System:0 "Moderniser le réseau routier"
+ISR_Railway_System_desc:0 "Les besoins industriels croissants exigent une infrastructure adaptée pour être satisfaits avec succès."
+
+ISR_Communication:0 "Appareils électroniques modernes"
+ISR_Communication_desc:0 "Une quantité importante de nouvelles informations peut être efficacement traitée par la nouvelle génération de machines informatiques."
+
+ISR_University:0 "Nouveau complexe de recherche"
+ISR_University_desc:0 "Les esprits courageux et audacieux seront vivement encouragés à rejoindre les nouveaux instituts, universités et centres de recherche."
+
+ISR_Shared_Research:0 "Collaboration de recherche conjointe"
+ISR_Shared_Research_desc:0 ""
+
+################################
+#KNESSET
+################################
+
+ISR_knesset_category:0 "La Knesset [ISR.GetAdjective]"
+open_parliament_gui:0 "Relancer la Knesset"
+ISR_seat_tt:0 "[ISR_seat_party]"
+
+ISR_party_1:0 "§RMaki§! - Un parti communiste issu du Parti communiste de Palestine à l’époque du mandat britannique, prônant une union unique de type léniniste alignée sur l’URSS."
+ISR_party_2:0 "§OHashomer Hatsair§! - Un parti socialiste radical, différent du Mapai de David Ben Gourion, qui cherche à s’aligner sur l’Union soviétique et bénéficie d’un large soutien parmi les kibboutz ruraux juifs. Il prône une politique plus conciliante envers le monde arabe, en favorisant la coexistence."
+ISR_party_3:0 "§tMapai§! - Un parti socialiste démocratique qui diffère du Hashomer Hatsair par son alignement sur l’Occident et son soutien plus fort auprès du prolétariat urbain. Historiquement, le Mapai s’est centré sur une approche pragmatique, disposé à coopérer avec les autorités britanniques. Le Mapai et ses prédécesseurs ont dominé le mouvement sioniste depuis la Seconde Aliyah."
+ISR_party_4:0 "§8Nouvelle Aliyah§! - Un parti social-libéral fondé par les réfugiés de la Cinquième Aliyah en provenance d’Allemagne et d’Autriche. Ses principaux objectifs sont la poursuite de l’expansion de l’Aliyah et le développement technologique d’Israël dans l’ère moderne."
+ISR_party_5:0 "§gSionistes généraux§! - Un parti libéral capitaliste fondé à l’origine par Theodor Herzl lui-même. Il attire surtout les résidents urbains de la classe moyenne avec un fort accent sur les libertés individuelles."
+ISR_party_6:0 "§3Hatzohar§! - Un parti conservateur qui a gagné du soutien grâce à l’afflux de réfugiés juifs du monde arabe. Hatzohar se distingue des autres partis par le fait qu’il était séparé du Yishouv et qu’il possédait sa propre milice durant l’ère du mandat, l’Irgoun. De ce fait, il est perçu comme un parti paria et n’a pas beaucoup de soutien populaire."
+ISR_party_7:0 "§2Front religieux uni§! - Une alliance de circonstance entre plusieurs partis religieux différents qui œuvrent à préserver les lois religieuses en Israël."
+ISR_party_8:0 "Vide - sera rempli après les élections."
+
+ISR_maki_seats:0 "§RMaki§!: [?ISR_maki_seats]"
+ISR_hashomer_seats:0 "§OHashomer Hatsair§!: [?ISR_hashomer_seats]"
+ISR_mapai_seats:0 "§tMapai§!: [?ISR_mapai_seats]"
+ISR_new_aliyah_seats:0 "§8Nouvelle Aliyah§!: [?ISR_new_aliyah_seats]"
+ISR_general_seats:0 "§gSionistes généraux§!: [?ISR_general_zionists_seats]"
+ISR_hatzohar_seats:0 "§3Hatzohar§!: [?ISR_hatzohar_seats]"
+ISR_urf_seats:0 "§2Front religieux uni§!: [?ISR_urf_seats]"
+ISR_total_seats:0 "Sièges totaux : §Y120§!"
+ISR_coalition_seats:0 "Sièges dans la coalition : §Y[?ISR_coalition_seats]§!"
+ISR_majority_seats:0 "Sièges requis pour la majorité : §Y61§!"
+
+ISR_current_parties_coalition:0 "Chef actuel de la coalition :\n[ISRGetCoalitionLeader]\nAutres partis de la coalition :\n[ISRGetMaki][ISRGetHashomer][ISRGetMapai][ISRGetNewAliyah][ISRGetGeneralZionists][ISRGetHatzohar][ISRGetURF]"
+
+ISR_maki_party:0 "§RMaki§!\n"
+ISR_hashomer_party:0 "§OHashomer Hatsair§!\n"
+ISR_mapai_party:0 "§RMapai§!\n"
+ISR_new_aliyah_party:0 "§8Nouvelle Aliyah§!\n"
+ISR_general_zionists_party:0 "§gSionistes généraux§!\n"
+ISR_hatzohar_party:0 "§3Hatzohar§!\n"
+ISR_urf_party:0 "§2Front religieux uni§!\n"
+
+ISR_marginally_strengthen_maki:0 "Cela §8renforcera légèrement§! le §RMaki§!."
+ISR_marginally_strengthen_hashomer:0 "Cela §8renforcera légèrement§! le §OHashomer Hatsair§!."
+ISR_marginally_strengthen_mapai:0 "Cela §8renforcera légèrement§! le §tMapai§!."
+ISR_marginally_strengthen_new_aliyah:0 "Cela §8renforcera légèrement§! la §8Nouvelle Aliyah§!."
+ISR_marginally_strengthen_general:0 "Cela §8renforcera légèrement§! les §gSionistes généraux§!."
+ISR_marginally_strengthen_hatzohar:0 "Cela §8renforcera légèrement§! le §3Hatzohar§!."
+ISR_marginally_strengthen_urf:0 "Cela §8renforcera légèrement§! le §2Front religieux uni§!."
+
+ISR_moderately_strengthen_maki:0 "Cela §7renforcera modérément§! le §RMaki§!."
+ISR_moderately_strengthen_hashomer:0 "Cela §7renforcera modérément§! le §OHashomer Hatsair§!."
+ISR_moderately_strengthen_mapai:0 "Cela §7renforcera modérément§! le §tMapai§!."
+ISR_moderately_strengthen_new_aliyah:0 "Cela §7renforcera modérément§! la §8Nouvelle Aliyah§!."
+ISR_moderately_strengthen_general:0 "Cela §7renforcera modérément§! les §gSionistes généraux§!."
+ISR_moderately_strengthen_hatzohar:0 "Cela §7renforcera modérément§! le §3Hatzohar§!."
+ISR_moderately_strengthen_urf:0 "Cela §7renforcera modérément§! le §2Front religieux uni§!."
+
+ISR_significantly_strengthen_maki:0 "Cela §Grenforcera significativement§! le §RMaki§!."
+ISR_significantly_strengthen_hashomer:0 "Cela §Grenforcera significativement§! le §OHashomer Hatsair§!."
+ISR_significantly_strengthen_mapai:0 "Cela §Grenforcera significativement§! le §tMapai§!."
+ISR_significantly_strengthen_new_aliyah:0 "Cela §Grenforcera significativement§! la §8Nouvelle Aliyah§!."
+ISR_significantly_strengthen_general:0 "Cela §Grenforcera significativement§! les §gSionistes généraux§!."
+ISR_significantly_strengthen_hatzohar:0 "Cela §Grenforcera significativement§! le §3Hatzohar§!."
+ISR_significantly_strengthen_urf:0 "Cela §Grenforcera significativement§! le §2Front religieux uni§!."
+
+ISR_held_elections_westbank_tt:0 "Si nous avons décidé d’organiser des élections en Cisjordanie :"
+ISR_not_held_elections_westbank_tt:0 "Si nous avons décidé de ne pas organiser d’élections en Cisjordanie ou si nous ne la contrôlons pas :"
+
+ISR_above_60_seats:0 "Notre coalition dispose d’au moins §Y61§! sièges\nVous pouvez réinitialiser votre coalition actuelle en tentant d’en former une autre."
+
+ISR_coalition_maki:0 "Nous pourrons inviter le §RMaki§! à notre coalition."
+ISR_coalition_hashomer:0 "Nous pourrons inviter le §OHashomer Hatsair§! à notre coalition."
+ISR_coalition_mapai:0 "Nous pourrons inviter le §tMapai§! à notre coalition."
+ISR_coalition_new_aliyah:0 "Nous pourrons inviter la §8Nouvelle Aliyah§! à notre coalition."
+ISR_coalition_general_zionists:0 "Nous pourrons inviter les §gSionistes généraux§! à notre coalition."
+ISR_coalition_hatzohar:0 "Nous pourrons inviter le §3Hatzohar§! à notre coalition."
+ISR_coalition_urf:0 "Nous pourrons inviter le §2Front religieux uni§! à notre coalition."
+
+ISR_maki_join:0 "Le §RMaki§! rejoindra notre coalition."
+ISR_hashomer_join:0 "Le §OHashomer Hatsair§! rejoindra notre coalition."
+ISR_mapai_join:0 "Le §tMapai§! rejoindra notre coalition."
+ISR_new_aliyah_join:0 "La §8Nouvelle Aliyah§! rejoindra notre coalition."
+ISR_general_zionists_join:0 "Les §gSionistes généraux§! rejoindront notre coalition."
+ISR_hatzohar_join:0 "Le §3Hatzohar§! rejoindra notre coalition."
+ISR_urf_join:0 "Le §2Front religieux uni§! rejoindra notre coalition."
+
+ISR_form_coalition:0 "Finaliser la coalition"
+ISR_form_coalition_hashomer:0 "Former une coalition avec le §OHashomer Hatsair§!"
+ISR_form_coalition_mapai:0 "Former une coalition avec le §tMapai§!"
+ISR_form_coalition_centre:0 "Former une coalition avec les §gSionistes généraux§! - §8Nouvelle Aliyah§!"
+ISR_form_coalition_hatzohar:0 "Former une coalition avec le §3Hatzohar§!"
+ISR_invite_maki:0 "Inviter §RMaki§! à notre coalition."
+ISR_invite_maki_desc:0 "§RMaki§! - Un parti communiste issu du Parti communiste de Palestine durant l’ère du mandat britannique, prônant une union unique de type léniniste alignée sur l’URSS."
+ISR_invite_hashomer:0 "Inviter §OHashomer Hatsair§! à notre coalition."
+ISR_invite_hashomer_desc:0 "§OHashomer Hatsair§! - Un parti socialiste radical différent du Mapai de David Ben Gourion, qui cherche à s’aligner sur l’Union soviétique et bénéficie d’un large soutien dans les kibboutzim ruraux juifs. Il prône une politique plus conciliante envers le monde arabe, plaidant pour la coexistence."
+ISR_invite_mapai:0 "Inviter §tMapai§! à notre coalition."
+ISR_invite_mapai_desc:0 "§tMapai§! - Un parti socialiste démocratique qui diffère du Hashomer Hatsair en s’alignant sur l’Occident et bénéficie d’un plus grand soutien au sein du prolétariat urbain. Historiquement, le Mapai s’est distingué par son pragmatisme et sa volonté de collaborer avec les autorités britanniques. Le Mapai et ses prédécesseurs ont dominé le mouvement sioniste depuis la Seconde Aliyah."
+ISR_invite_new_aliyah:0 "Inviter la §8Nouvelle Aliyah§! à notre coalition."
+ISR_invite_new_aliyah_desc:0 "§8Nouvelle Aliyah§! - Un parti social-libéral fondé par des réfugiés de la Cinquième Aliyah venus d’Allemagne et d’Autriche. Ses principaux objectifs sont la poursuite de l’expansion de l’Aliyah et le développement technologique d’Israël dans l’ère moderne."
+ISR_invite_general_zionists:0 "Inviter les §gSionistes généraux§! à notre coalition."
+ISR_invite_general_zionists_desc:0 "§gSionistes généraux§! - Un parti libéral capitaliste fondé à l’origine par Theodor Herzl lui-même. Il séduit surtout les classes moyennes urbaines, avec un fort accent sur les libertés individuelles."
+ISR_invite_hatzohar:0 "Inviter §3Hatzohar§! à notre coalition."
+ISR_invite_hatzohar_desc:0 "§3Hatzohar§! - Un parti conservateur qui a gagné beaucoup de soutien auprès des réfugiés juifs venus du monde arabe. Hatzohar se distingue des autres partis par son isolement du Yishouv et par la possession de sa propre milice durant l’ère du Mandat, l’Irgoun. À ce titre, il est considéré comme un parti paria et ne dispose pas d’un large soutien populaire."
+ISR_invite_urf:0 "Inviter le §2Front religieux uni§! à notre coalition."
+ISR_invite_urf_desc:0 "§2Front religieux uni§! - Une alliance de circonstance entre plusieurs partis religieux qui œuvrent à préserver les lois religieuses en Israël."
+
+ISR_hashomer_forming:0 "Nous formons une coalition menée par §OHashomer Hatsair§!"
+ISR_mapai_forming:0 "Nous formons une coalition menée par §tMapai§!"
+ISR_centre_forming:0 "Nous formons une coalition menée par les §gSionistes généraux§! - §8Nouvelle Aliyah§!"
+ISR_hatzohar_forming:0 "Nous formons une coalition menée par §3Hatzohar§!"
+ISR_coalition_formed:0 "Une coalition a été formée."
+
+ISR_hashomer_formed:0 "§OHashomer Hatsair§! dirige la coalition actuelle."
+ISR_mapai_formed:0 "§tMapai§! dirige la coalition actuelle."
+ISR_centre_formed:0 "Les §gSionistes généraux§! - §8Nouvelle Aliyah§! dirigent la coalition actuelle."
+ISR_hatzohar_formed:0 "§3Hatzohar§! dirige la coalition actuelle."
+
+ISR_maki_in_coalition:0 "§RMaki§! fait partie de notre coalition."
+ISR_hashomer_in_coalition:0 "§OHashomer Hatsair§! fait partie de notre coalition."
+ISR_mapai_in_coalition:0 "§tMapai§! fait partie de notre coalition."
+ISR_new_aliyah_in_coalition:0 "La §8Nouvelle Aliyah§! fait partie de notre coalition."
+ISR_general_zionists_in_coalition:0 "Les §gSionistes généraux§! font partie de notre coalition."
+ISR_hatzohar_in_coalition:0 "§3Hatzohar§! fait partie de notre coalition."
+ISR_urf_in_coalition:0 "Le §2Front religieux uni§! fait partie de notre coalition."
+
+ISR_elections_held:0 "La Knesset sera mise à jour."
+ISR_check_knesset:0 "§YNous devrons former une coalition pour continuer§!."
+
+## Président
+ISR_vote_president_category:0 "Élection d’un président"
+ISR_vote_president_category_desc:0 "Avec la fondation de notre nouvel État et l’élection de la première Knesset, nous devons nous réunir pour élire un président qui sera le visage de notre nation à l’extérieur.\nTrois options principales existent :\n§OYitshak Ben-Zvi§!, un vieux militant travailliste sioniste et ami de Ben Gourion, soutenu par la gauche ;\n§gChaim Weizmann§!, représentant du Yishouv au traité de Sèvres et à l’accord Fayçal-Weizmann, soutenu par le centre ;\n§3Joseph Klausner§!, universitaire et écrivain révisionniste, soutenu par la droite.\n\nCertains avancent l’idée d’inviter §RAlbert Einstein§! comme figure apolitique pour représenter la nation, mais il faudra des efforts pour le convaincre. Quoi qu’il en soit, nous devons choisir qui soutenir.\n\n§RAlbert Einstein§! est actuellement [ISRGetEinstein] pour être nommé président.[ISRGetPresidentialSupport]"
+ISR_president_vote_desc_2:0 "\n\n[?ISR_president_yes] - [ISRGetPresidentNominated][ISRGetMakiPresidentYes][ISRGetHashomerPresidentYes][ISRGetMapaiPresidentYes][ISRGetNewAliyahPresidentYes][ISRGetGeneralZionistsPresidentYes][ISRGetHatzoharPresidentYes][ISRGetURFPresidentYes]\n[?ISR_president_no] - [ISRGetPresidentOpposition][ISRGetMakiPresidentNo][ISRGetHashomerPresidentNo][ISRGetMapaiPresidentNo][ISRGetNewAliyahPresidentNo][ISRGetGeneralZionistsPresidentNo][ISRGetHatzoharPresidentNo][ISRGetURFPresidentNo]"
+ISR_nominate_einstein:0 "Nommer §REinstein§!"
+ISR_nominate_benzvi:0 "Nommer §OBen-Zvi§!"
+ISR_nominate_weizmann:0 "Nommer §gWeizmann§!"
+ISR_nominate_klausner:0 "Nommer §3Klausner§!"
+
+ISR_einstein_nom:0 "Albert Einstein :\n"
+ISR_benzvi_nom:0 "Yitshak Ben-Zvi :\n"
+ISR_weizmann_nom:0 "Chaim Weizmann :\n"
+ISR_klausner_nom:0 "Joseph Klausner :\n"
+
+ISR_president_vote:0 "Vote présidentiel"
+
+ISR_we_nominate_einstein:0 "Nous nommerons §RAlbert Einstein§! à la présidence."
+ISR_we_nominate_benzvi:0 "Nous nommerons §OYitshak Ben-Zvi§! à la présidence."
+ISR_we_nominate_weizmann:0 "Nous nommerons §gChaim Weizmann§! à la présidence."
+ISR_we_nominate_klausner:0 "Nous nommerons §3Joseph Klausner§! à la présidence."
+
+ISR_nominated_einstein:0 "Nous avons nommé §RAlbert Einstein§! président."
+ISR_nominated_benzvi:0 "Nous avons nommé §OYitshak Ben-Zvi§! président."
+ISR_nominated_weizmann:0 "Nous avons nommé §gChaim Weizmann§! président."
+ISR_nominated_klausner:0 "Nous avons nommé §3Joseph Klausner§! président."
+
+ISR_opposition_nominate_benzvi:0 "L’opposition nommera §OYitshak Ben-Zvi§! président."
+ISR_opposition_nominate_weizmann:0 "L’opposition nommera §gChaim Weizmann§! président."
+ISR_opposition_nominate_klaunser:0 "L’opposition nommera §3Joseph Klausner§! président."
+
+ISR_convince_maki:0 "Convaincre §RMaki§!"
+ISR_convince_hashomer:0 "Convaincre §OHashomer§!"
+ISR_convince_mapai:0 "Convaincre §tMapai§!"
+ISR_convince_new_aliyah:0 "Convaincre la §8Nouvelle Aliyah§!"
+ISR_convince_general_zionists:0 "Convaincre les §gSionistes généraux§!"
+ISR_convince_hatzohar:0 "Convaincre §3Hatzohar§!"
+ISR_convince_urf:0 "Convaincre le §2Front religieux uni§!"
+
+ISR_einstein_willing:0 "§Gprêt§!"
+ISR_einstein_unwilling:0 "§Rpas disposé§!"
+#Constitution
+ISR_maki_no_constitution:0 "§RMaki§! votera contre la constitution"
+ISR_hashomer_no_constitution:0 "§OHashomer§! votera contre la constitution"
+ISR_mapai_no_constitution:0 "§tMapai§! votera contre la constitution"
+ISR_new_aliyah_no_constitution:0 "§8Nouvelle Aliyah§! votera contre la constitution"
+ISR_general_zionists_no_constitution:0 "Les §gSionistes généraux§! voteront contre la constitution"
+ISR_hatzohar_no_constitution:0 "§3Hatzohar§! votera contre la constitution"
+ISR_urf_no_constitution:0 "Le §2Front religieux uni§! votera contre la constitution"
+
+ISR_modify_constitution:0 "Modifier §Yla constitution israélienne§! en"
+ISR_constitution_manpower:0 "Facteur de population recrutable : §G+10%§!"
+ISR_constitution_output:0 "Production d’usine : §G+5,00%§!"
+ISR_constitution_political_power:0 "Gain de pouvoir politique : §G+10%§!"
+ISR_constitution_stability:0 "Facteur de stabilité : §G+7,50%§!"
+
+#Vote
+ISR_voting:0 "Vote actuellement sur un projet de loi"
+
+ISR_vote_category:0 "Votes de la Knesset"
+ISR_vote_category_desc:0 "Une loi est actuellement en cours de vote à la Knesset. Afin d’assurer son adoption, nous devons obtenir une majorité de soutien parmi les partis, soit 61 sièges.\n\n[?ISR_yes_votes] - Favorables :\n[ISRGetMakiVoteYes][ISRGetHashomerVoteYes][ISRGetMapaiVoteYes][ISRGetNewAliyahVoteYes][ISRGetGeneralZionistsVoteYes][ISRGetHatzoharVoteYes][ISRGetURFVoteYes]\n[?ISR_no_votes] - Opposés :\n[ISRGetMakiVoteNo][ISRGetHashomerVoteNo][ISRGetMapaiVoteNo][ISRGetNewAliyahVoteNo][ISRGetGeneralZionistsVoteNo][ISRGetHatzoharVoteNo][ISRGetURFVoteNo]"
+
+ISR_constitution_category:0 "La constitution [ISR.GetAdjective]"
+ISR_constitution_category_desc:0 "Notre nation ne dispose pas encore de constitution, ce qui représente un risque pour nos institutions démocratiques puisqu’il n’existe aucun cadre fixé pour les fonctions du gouvernement. Nous devons tenter d’en rédiger une, mais sans trop heurter la population, au risque de faire échouer les négociations.\n\nPartis actuellement favorables à la constitution :\n[ISRGetMakiConstitutionYes][ISRGetHashomerConstitutionYes][ISRGetMapaiConstitutionYes][ISRGetNewAliyahConstitutionYes][ISRGetGeneralZionistsConstitutionYes][ISRGetHatzoharConstitutionYes][ISRGetURFConstitutionYes]\nTotal des votes : §Y[?ISR_constitution_votes]/61"
+
+ISR_if_vote_passes:0 "\n Si le vote passe :"
+ISR_education_reforms_vote:0 "La §YLoi sur l’éducation obligatoire§! sera soumise au vote de la Knesset."
+ISR_above_60_support:0 "Le projet de loi dispose de plus de 61 votes favorables."
+ISR_save_pp_tt:0 "\n§OIl est conseillé d’économiser jusqu’à 150 points de pouvoir politique avant de convoquer un vote afin de s’assurer qu’il recueille suffisamment de soutien !§!"
+
+ISR_education_vote:0 "Loi sur l’éducation obligatoire"
+
+ISR_strengthen_progressives_tt:0 "La §8Nouvelle Aliyah§! prendra la direction de la coalition."
+ISR_toe_line_tt:0 "6 membres du §tMapai§! rejoindront le §OHashomer Hatsair§!."
+ISR_maki_above_10:0 "§RMaki§! détient au moins 10 sièges"
