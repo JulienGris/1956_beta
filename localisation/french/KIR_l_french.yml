@@ -1,0 +1,13 @@
+l_french:
+
+ # EVENTS
+ canton_island.1.t:0 "[USA.getNameDefCap] occupe l’île Canton"
+ canton_island.1.d:0 "Récemment, un convoi de scientifiques américains a été envoyé sur les îles pour observer l’éclipse solaire en cours. Bien que leur mission initiale ait été uniquement d’étudier l’éclipse, ils ont décidé d’aller plus loin et d’occuper les îles."
+ canton_island.1.a:0 "Nous avons des affaires plus urgentes à régler…"
+
+ USA_contest_canton_island:0 "Occuper l’île Canton"
+ USA_contest_canton_island_desc:0 "La position stratégique de l’île Canton nous permet de mener des recherches sur l’île et ses environs, tout en en faisant une base militaire utile en cas de conflits potentiels à venir."
+
+ KIR_tekinaiti:0 "Tekinaiti"
+ KIR_taburimai:0 "Taburimai"
+ KIR_kaiea_ii:0 "Kaiea II"
