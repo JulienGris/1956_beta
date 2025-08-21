@@ -502,3 +502,94 @@ liechtenstein.20.d:0 "Avec la réussite de notre transition vers un gouvernement
 liechtenstein.20.a:0 "Les exiler."
 liechtenstein.20.b:0 "Ils doivent être exterminés."
 
+liechtenstein.21.t:0 "François-Joseph II du Liechtenstein demande l’exil"
+liechtenstein.21.d:0 "Avec la récente prise de pouvoir d’un gouvernement hostile au [LIE.GetNameDef], le prince François-Joseph II est entré dans notre pays et a officiellement demandé l’asile ainsi qu’un statut d’exilé.\n\nAccueillir un prince populaire pourrait être bénéfique, mais cela risque aussi de nuire à nos relations avec le nouveau gouvernement de [LIE.GetNonIdeologyName]."
+liechtenstein.21.a:0 "Vous serez en sécurité ici, prince."
+liechtenstein.21.b:0 "Envoyez-le ailleurs."
+
+liechtenstein.22.t:0 "[FROM.GetNameDefCap] propose un pacte de non-agression"
+liechtenstein.22.d:0 "Lors d’une visite officielle à [ROOT.capital.GetName] par François-Joseph II et [FROM.GetLeader], ils ont formellement demandé que nos deux pays signent un pacte de non-agression afin de protéger la neutralité de [FROM.GetNonIdeologyName] et d’assurer de bonnes relations. La question demeure : avons-nous vraiment un intérêt dans [FROM.GetNameDef] ?"
+liechtenstein.22.a:0 "Nous les laisserons tranquilles, pour l’instant."
+liechtenstein.22.b:0 "C’est une perte de temps."
+
+liechtenstein.23.t:0 "[FROM.GetNameDefCap] signe le pacte de non-agression"
+liechtenstein.23.d:0 "À la suite de notre demande officielle lors de notre visite d’État, [FROM.GetNameDef] a accepté de signer un pacte de non-agression entre nos deux pays. Ils nous assurent que notre neutralité sera protégée et que de bonnes relations seront maintenues. Bien que ce soit une bonne nouvelle, il reste à voir dans quelle mesure nous pouvons leur faire confiance."
+liechtenstein.23.a:0 "Excellent."
+
+liechtenstein.24.t:0 "[FROM.GetNameDefCap] rejette notre offre"
+liechtenstein.24.d:0 "La réponse officielle de Berlin a été livrée rapidement et sans condition : leur gouvernement ne cherche à engager aucune diplomatie avec nos responsables. Il semble que nous ne puissions compter que sur nous-mêmes désormais. Du moins pour l’instant."
+liechtenstein.24.a:0 "Que devons-nous faire maintenant ?"
+
+liechtenstein.25.t:0 "Tentative de coup d’État du [ROOT.GetFascistParty]"
+liechtenstein.25.d:0 "En début de soirée, environ 40 membres du [ROOT.GetFascistParty], partis de Nendeln, ont marché vers Vaduz dans une tentative de renversement du gouvernement. Leur plan final consistait à provoquer des affrontements, puis à appeler les troupes [GER.GetAdjective] de Feldkirch à intervenir et à incorporer le pays dans [GER.GetNameDef].\n\nHeureusement, le plan a échoué. À Schaan, des opposants se sont rassemblés et Anton Frommelt les a convaincus de faire demi-tour tout en bloquant leurs lignes téléphoniques. 76 personnes ont été arrêtées.\n\nLa population est sous le choc de ces événements, qui, combinés à la situation mondiale de plus en plus grave, ont porté le moral à son plus bas. Cependant, cela a aussi inspiré beaucoup de citoyens à demander une position plus ferme contre le fascisme."
+liechtenstein.25.a:0 "C’est très inquiétant."
+
+liechtenstein.26.t:0 "[FROM.GetNameDefCap] propose un accord commercial"
+liechtenstein.26.d:0 "Une mission diplomatique de [FROM.GetNameDef] nous a approchés concernant l’ouverture de relations économiques et la mise en place d’un accord commercial formel entre nos deux pays. Ils nous vantent les avantages d’un tel accord pour nos économies respectives. De plus, ils ont laissé entendre la possibilité d’ouvrir leurs banques au commerce de l’or, précédemment refusé."
+liechtenstein.26.a:0 "Un accord lucratif."
+liechtenstein.26.b:0 "Nous ne sommes pas intéressés."
+
+liechtenstein.27.t:0 "[FROM.GetNameDefCap] accepte l’accord commercial"
+liechtenstein.27.d:0 "Le gouvernement [FROM.GetAdjective] a officiellement accepté notre offre d’entrer dans des relations économiques favorables avec Vaduz. Nous espérons que cette action profitera aux économies des deux nations !"
+liechtenstein.27.a:0 "Merveilleux."
+
+liechtenstein.28.t:0 "[FROM.GetNameDefCap] refuse l’accord commercial"
+liechtenstein.28.d:0 "Malheureusement, malgré nos efforts et notre grande générosité, notre mission diplomatique auprès de [FROM.GetNameDef] s’est conclue par leur désintérêt total pour toute proposition."
+liechtenstein.28.a:0 "Ne jamais faire confiance à un communiste."
+
+liechtenstein.29.t:0 "Coup d’État des Russes blancs"
+liechtenstein.29.d:0 "Depuis la fin de la guerre civile russe en 1923, le [ROOT.GetNeutralParty] a offert une politique généreuse aux officiers russes blancs en exil. Cependant, avec l’instabilité récente liée au conseil de régence, les Russes, avec d’autres exilés militants, ont lancé un coup d’État contre le conseil, le déclarant dissous et proclamant leur chef, Boris Smyslovsky, comme Tsar de [ROOT.GetNonIdeologyName].\n\nBoris a juré de corriger la « faiblesse » de l’ancien gouvernement et a déclaré [ROOT.GetNonIdeologyName] comme un havre pour les Russes blancs désireux de poursuivre la lutte contre le communisme."
+liechtenstein.29.a:0 "Intéressant."
+
+liechtenstein.30.t:0 "Restauration de la constitution de 1862"
+liechtenstein.30.d:0 "Dans des circonstances incertaines, il a été décidé que le prince de [ROOT.GetNonIdeologyName] devait restaurer les pouvoirs accrus que lui conférait la constitution de 1862, remplacée en 1921. Par ce biais, le prince retrouve un pouvoir considérable et un contrôle effectif sur la politique.\n\nBien que cette décision ait suscité des critiques, beaucoup y voyant un retour vers l’autoritarisme, d’autres expriment leur confiance envers le prince pour guider le pays à travers ces temps difficiles."
+liechtenstein.30.a:0 "Nous ferons ce qu’il faut."
+
+liechtenstein.31.t:0 "Le [ROOT.GetFascistParty] organise un putsch"
+liechtenstein.31.d:0 "En début de soirée, environ 40 membres du [ROOT.GetFascistParty], partis de Nendeln, ont marché sur Vaduz et ont réussi à renverser le gouvernement. La violence qui s’en est suivie a provoqué un affrontement et contraint les autorités à fuir le pays. À Schaan, des opposants avaient tenté de les arrêter mais, incapables de les convaincre, ils ont dû fuir sous menace de violence.\n\nBien que cette nouvelle ait alarmé beaucoup de monde, notamment nos voisins, les fascistes contrôlent désormais totalement le pays."
+liechtenstein.31.a:0 "Une nouvelle ère !"
+
+liechtenstein.bop.1.t:0 "Un membre du Landtag soutient le gouvernement"
+liechtenstein.bop.1.d:0 "Lors d’une session du Landtag, un membre a prononcé un long discours émouvant en faveur des politiques de [ROOT.GetLeader], affirmant que beaucoup de ses collègues partageaient ce sentiment. Le discours a été largement relayé par la presse et est devenu le sujet principal des discussions locales."
+liechtenstein.bop.1.a:0 "Charmant."
+
+liechtenstein.bop.2.t:0 "Un membre du Landtag s’oppose au gouvernement"
+liechtenstein.bop.2.d:0 "Lors d’une interview, un membre du Landtag a déclaré qu’il ne pouvait plus soutenir les politiques « dangereuses et irréfléchies » de [ROOT.GetLeader]. Il a aussi affirmé que plusieurs de ses collègues partageaient cet avis. L’interview a mis certains politiciens locaux dans l’embarras, les obligeant à défendre leurs politiques."
+liechtenstein.bop.2.a:0 "Très bien."
+
+liechtenstein.bop.3.t:0 "Un membre du Landtag prend sa retraite"
+liechtenstein.bop.3.d:0 "Après de longues années de service au Landtag, un membre influent a annoncé sa retraite pour raisons de santé. Une élection partielle est organisée dans sa circonscription pour déterminer son successeur."
+liechtenstein.bop.3.a:0 "Il nous manquera."
+
+#drapeaux et infobulles
+
+LIE_otto_von_habsburg_in_the_house:0 "Otto von Habsbourg est présent dans notre pays."
+LIE_FBP_elected:0 "FBP élu"
+LIE_VU_elected:0 "VU élu"
+LIE_can_trade_gold_with_communist_nations_tt:0 "Si nous faisons du commerce d’or, nous pouvons aussi commercer avec les nations communistes."
+LIE_foreign_recruitment_tt:0 "§RCela pourrait inciter [FROM.GetNameDef] à intervenir dans notre pays !§!"
+LIE_coup_the_government_tt:0 "§RCela pourrait inciter [SWI.GetNameDef] à intervenir dans notre pays !§!"
+LIE_gold_trading_partner:0 "Est un partenaire commercial d’or"   #nécessaire pour le succès
+
+LIE_DUCHY_neutrality:0 "Royaume de Liechtenstein"
+LIE_DUCHY_neutrality_DEF:0 "le Royaume de Liechtenstein"
+LIE_RUS_neutrality:0 "Tsarat de Liechtenstein"
+LIE_RUS_neutrality_DEF:0 "le Tsarat de Liechtenstein"
+
+#modificateurs d’opinion
+
+LIE_armed_neutrality_op:0 "Neutralité armée instaurée"
+LIE_gold_trade:0 "Commerce d’or du [LIE.GetNonIdeologyName]"
+
+#personnages
+
+LIE_boris_smyslovsky_desc:0 "Tsariste russe et ancien commandant de l’armée impériale russe, installé ici après la chute de l’armée blanche en 1923, il offre actuellement ses services pour notre sécurité. Nul doute qu’il reprendra les armes si l’occasion se présente."
+
+#traits
+
+LIE_franz_i_prince_of_liechtenstein:0 "François Ier, prince de Liechtenstein"
+LIE_franz_joseph_ii_prince_of_liechtenstein:0 "François-Joseph II, prince de Liechtenstein"
+LIE_the_exiled_prince:0 "Le prince exilé"
+LIE_soldier_tsar:0 "Tsar soldat"
+
+foreign_intelligence_contacts:0 "Contacts du renseignement étranger"
