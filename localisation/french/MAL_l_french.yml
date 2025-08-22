@@ -1,0 +1,540 @@
+l_french:
+
+malaysia_focus:0 "Arbre de priorités national de la Malaisie"
+
+MAL_the_empire:0 "L’Empire"
+MAL_the_empire_desc:0 "Autonomie ? Nationalisme ? Autodétermination ? Ce dont cette colonie a VRAIMENT besoin, c’est d’une main ferme, d’une poigne solide et d’une lèvre supérieure raide, par Jove !"
+MAL_the_empire_1:0 "Résidents généraux"
+MAL_the_empire_1_desc:0 "Les résidents généraux sont la clé du contrôle de la Malaisie. Si nous renforçons leurs pouvoirs déjà considérables et marginalisons les dirigeants locaux, nous pourrons solidifier notre emprise sur la colonie pour des années à venir."
+MAL_the_empire_2:0 "Ouvrir la fonction publique"
+MAL_the_empire_2_desc:0 "Monter les populations les unes contre les autres a bien fonctionné jusqu’à présent, mais à long terme, un système aussi ouvertement antidémocratique posera plus de problèmes qu’il n’en résout. Ouvrir les postes gouvernementaux à tous les citoyens malaisiens est la bonne chose à faire."
+MAL_the_empire_3:0 "Renforcer le Ketuan Melayu"
+MAL_the_empire_3_desc:0 "Toute tentative de changement du statu quo ne ferait que nous causer plus de problèmes qu’autre chose. À la place, réaffirmons notre engagement envers le Ketuan Melayu et renforçons notre soutien auprès des Malais natifs."
+MAL_the_empire_4:0 "Déposer les princes"
+MAL_the_empire_4_desc:0 "Le dernier refuge du contrôle indigène, le Conseil des Princes, nous a été utile pour gouverner à distance notre colonie, mais ce temps est révolu. Désormais, nous gouvernerons comme bon nous semble, sans petits princes querelleurs pour nous barrer la route."
+MAL_the_empire_5:0 "La perle de l’Orient"
+MAL_the_empire_5_desc:0 "Singapour reste le cœur du contrôle britannique en Asie, reliant les concessions britanniques en Chine à nos lointains dominions du Pacifique. Nous devrions célébrer ce fait et faire de Singapour la plus grande ville d’Asie du Sud-Est !"
+MAL_the_empire_6:0 "Avantages de recherche du Commonwealth"
+MAL_the_empire_6_desc:0 "Avec notre engagement envers l’Empire réaffirmé, nous pouvons désormais profiter des avantages d’une telle loyauté grâce au partage des percées scientifiques et à leur mise en œuvre dans notre colonie."
+MAL_the_empire_7:0 "Se battre pour l’Empire"
+MAL_the_empire_7_desc:0 "L’Angleterre appelle à l’aide ! Et chaque citoyen loyal de l’Empire en Malaisie répondra présent, pour Dieu et pour la patrie !"
+
+MAL_the_workers:0 "Les travailleurs"
+MAL_the_workers_desc:0 "Trop longtemps, princes et gouverneurs ont exploité le peuple malaisien. Mais ce temps est révolu : nous apporterons le pouvoir au peuple de la péninsule malaise, par la force !"
+MAL_the_workers_1:0 "Recrutement antijaponais"
+MAL_the_workers_1_desc:0 "Ce n’est un secret pour personne : le Japon veut remplacer un maître colonial par un autre, et vu la négligence actuelle en matière de défense, cela pourrait arriver. Si nous voulons protéger notre liberté, la défense de la Malaisie doit être prise en main par le peuple."
+MAL_the_workers_2:0 "Soutien chinois"
+MAL_the_workers_2_desc:0 "Les communistes chinois sont nos alliés les plus proches dans la révolution ouvrière, et nous partageons un ennemi commun. Si leur révolution réussit, nous aurons un puissant allié pour assurer notre liberté."
+MAL_the_workers_3:0 "Soutien du Komintern"
+MAL_the_workers_3_desc:0 "Les Soviétiques sont une force puissante de révolution communiste, mais s’intéressent peu aux affaires hors de leur sphère. Cependant, même un soutien limité légitimera notre régime aux yeux du peuple."
+MAL_the_workers_4:0 "L’État d’urgence"
+MAL_the_workers_4_desc:0 "Les Japonais sont là ! C’est notre heure, frères et sœurs : que la Révolution malaisienne commence !"
+MAL_the_workers_5:0 "La révolution triomphante !"
+MAL_the_workers_5_desc:0 "Contre toute attente, contre tous les ennemis, nous avons affronté les géants de l’impérialisme et survécu. Que notre victoire soit l’étincelle qui embrase la révolution dans toute l’Asie !"
+MAL_the_workers_6:0 "Travailleurs unis !"
+MAL_the_workers_6_desc:0 "Nous devons au monde entier de combattre l’impérialisme partout où il existe. Ce faisant, nous répandrons cette étincelle encore plus loin, jusqu’à ce que tous les travailleurs du monde soient libres !"
+MAL_the_workers_7:0 "Le socialisme en une seule Malaisie"
+MAL_the_workers_7_desc:0 "En fait, peut-être que cette étincelle peut rester ici."
+
+MAL_status_quo:0 "Statu quo"
+MAL_status_quo_desc:0 "Changer ? Pourquoi changer ?"
+MAL_state_of_malaya:0 "L’État de Malaisie"
+MAL_state_of_malaya_desc:0 "L’État de Malaisie"
+
+MAL_centralisation:0 "Centralisation"
+MAL_centralisation_desc:0 "Dans le système actuel, le gouverneur n’a pratiquement aucun pouvoir sur les colonies. Si nous voulons réformer la colonie, nous devons centraliser notre autorité sous un État fort."
+MAL_centralisation_1:0 "Restructuration économique"
+MAL_centralisation_1_desc:0 "Trop de pouvoir économique est gaspillé par des producteurs concurrents et des manipulations de marché par des intérêts privés. Pour y remédier, nous devons restructurer l’économie malaise afin de permettre une régulation étatique et la protection des marchés."
+MAL_centralisation_2:0 "Nationaliser les plantations"
+MAL_centralisation_2_desc:0 "Les plantations d’hévéa représentent la plus grande part de nos exportations nationales, mais une infime portion des profits revient à l’État. En nationalisant certaines plantations sous-performantes et plus petites, nous ouvrirons la voie à un meilleur contrôle de nos exportations."
+MAL_centralisation_3:0 "Renégocier les investissements étrangers"
+MAL_centralisation_3_desc:0 "Notre statut de colonie signifie qu’une grande partie de nos ressources restera aux mains d’intérêts étrangers. Pour garantir notre succès économique à long terme, nous devons renégocier ces investissements à notre avantage."
+
+MAL_decentralisation:0 "Décentralisation"
+MAL_decentralisation_desc:0 "La vraie cause de nos difficultés politiques réside dans la bureaucratie coloniale et les privilèges des élites. En décentralisant l’autorité vers les régions, nous aurons une meilleure chance d’unir la nation."
+MAL_decentralisation_1:0 "Réinvestissement économique"
+MAL_decentralisation_1_desc:0 "Notre économie est trop peu diversifiée, la majorité de nos revenus provenant de quelques entreprises. Réinvestir ces profits dans de nouveaux secteurs de croissance permettra d’équilibrer l’économie nationale et de mieux résister aux crises."
+MAL_decentralisation_2:0 "Briser les monopoles"
+MAL_decentralisation_2_desc:0 "L’économie des plantations concentre richesse et production entre les mains de quelques individus. En divisant ces plantations en lots coopératifs individuels, nous briserons ces monopoles, même si cela réduit la croissance nette."
+MAL_decentralisation_3:0 "Autosuffisance"
+MAL_decentralisation_3_desc:0 "La décentralisation a renforcé le commerce local et la gestion des ressources. Plutôt que de dépendre d’importations étrangères pour nos biens essentiels, nous pouvons désormais garantir des produits de base à nos citoyens, quel que soit l’état du marché international."
+
+MAL_deslashcentralisation:0 "Les États non fédérés"
+MAL_deslashcentralisation_desc:0 "Les États non fédérés de Malaisie défendent farouchement leurs libertés face au contrôle britannique. Toute tentative d’unification de la nation doit d’abord décider comment soumettre ces princes indociles."
+MAL_deslashcentralisation_1:0 "Le Conseil"
+MAL_deslashcentralisation_1_desc:0 "Le Conseil des Princes est le seul semblant d’autorité indigène en Malaisie. Se faire des alliés ou des ennemis parmi les princes déterminera notre succès dans l’unification de la péninsule."
+MAL_deslashcentralisation_2:0 "La nouvelle économie malaise"
+MAL_deslashcentralisation_2_desc:0 "Avec notre avenir économique sécurisé, les citoyens commencent à croire en l’idée d’une Malaisie nationale, unie et travaillant ensemble pour le bien de tous."
+MAL_deslashcentralisation_3:0 "La question de Singapour"
+MAL_deslashcentralisation_3_desc:0 "Désolé ! Cela ne fait encore rien."
+
+MAL_the_princes:0 "Les Princes"
+MAL_the_princes_desc:0 "Les rajahs et sultans de Malaisie bénéficient encore d’un grand soutien populaire. Si nous parvenons à les mobiliser et à les unir, nous aurons une chance de briser la tyrannie britannique."
+MAL_the_princes_1:0 "Manipuler le Conseil"
+MAL_the_princes_1_desc:0 "Le Conseil, malgré ses défauts, représente la volonté des princes. Notre premier objectif est donc d’unifier ses membres derrière nos buts nationalistes, par la contrainte si nécessaire."
+MAL_the_princes_2:0 "Religion, langue, royauté"
+MAL_the_princes_2_desc:0 "La Malaisie a toujours été une terre divisée, mais grâce aux impérialistes britanniques, nous avons maintenant un ennemi commun qui nous unit. Célébrons notre unité culturelle en luttant contre nos oppresseurs."
+MAL_the_princes_3:0 "Faire pression sur les établissements"
+MAL_the_princes_3_desc:0 "Les Établissements des Détroits sont les seuls territoires de la Malaisie britannique hors de portée des rois locaux. Sous prétexte de droits nationaux, nous demanderons la démission du gouverneur et la nomination d’un dirigeant local, coupant ainsi l’influence britannique."
+MAL_the_princes_4:0 "Règle divine"
+MAL_the_princes_4_desc:0 "Avec la position du Conseil sécurisée, un monarque élu en son sein pourra être désigné chef d’État, premier parmi ses pairs dans le gouvernement de notre nouvelle nation."
+MAL_the_princes_4_a:0 "Pouvoir populaire"
+MAL_the_princes_4_a_desc:0 "Le Conseil a servi son but, mais n’est qu’un autre outil d’oppression du peuple malais. Nous l’abolirons et instaurerons un véritable leader populaire."
+MAL_the_princes_5:0 "Intervention divine"
+MAL_the_princes_5_desc:0 "Pour avoir une seconde chance dans notre lutte pour la liberté, nous aurons besoin de soutien extérieur. L’Empire japonais prône une Asie libérée de l’Occident ; peut-être pourra-t-il garantir notre indépendance."
+MAL_the_princes_6:0 "Une seule Malaisie"
+MAL_the_princes_6_desc:0 "Notre nation est née libre et égale, avec un peuple prêt à se battre et mourir pour sa souveraineté. Que la race malaise ne soit plus jamais soumise à qui que ce soit !"
+
+MAL_expand_the_realm:0 "Étendre le royaume"
+MAL_expand_the_realm_desc:0 "Divers territoires légitimement [ROOT.GetAdjective] nous ont été pris depuis longtemps. Il est temps de reprendre ce qui nous revient de droit."
+
+MAL_the_nation:0 "La Nation"
+MAL_the_nation_desc:0 "Si nous voulons obtenir notre liberté, elle doit être une liberté face à tous les tyrans, intérieurs comme extérieurs. Seule la volonté démocratique du peuple peut garantir l’avenir d’une Malaisie indépendante."
+MAL_the_nation_1:0 "La Malaisie pour les Malais"
+MAL_the_nation_1_desc:0 "Le peuple malais est le véritable citoyen de la Malaisie. Ce n’est qu’en appelant à notre unité ethnique que nous pourrons espérer soulever le peuple pour la liberté."
+MAL_the_nation_2:0 "La Malaisie pour les Malaisiens"
+MAL_the_nation_2_desc:0 "La liberté est la liberté pour tous, qu’ils soient Malais, Chinois ou Indiens. Tout homme et toute femme qui appelle notre pays sa patrie doit avoir le droit de se dire Malaisien."
+MAL_the_nation_3:0 "Mouvements étudiants"
+MAL_the_nation_3_desc:0 "La jeunesse de Malaisie, élevée dans la conscience de l’indépendance et de la liberté, est l’avenir du pays. Nous devons veiller à ce qu’elle soit prête à reprendre le flambeau pour guider notre nation vers la liberté."
+MAL_the_nation_4:0 "Soutenir le pouvoir princier"
+MAL_the_nation_4_desc:0 "Tout en restant fidèles à nos valeurs démocratiques, nous ne pouvons ignorer la popularité dont jouissent encore les princes de Malaisie. Leur offrir certaines garanties peut nous apporter le soutien nécessaire pour proclamer l’indépendance."
+MAL_the_nation_5:0 "Pourparlers de coalition"
+MAL_the_nation_5_desc:0 "Les communistes sont peu nombreux et peu populaires, mais ils sont très déterminés. Proposer une coalition politique pourrait éviter des bouleversements futurs."
+MAL_the_nation_6:0 "Renvoyer les résidents généraux"
+MAL_the_nation_6_desc:0 "Les résidents généraux infestaient chaque recoin de notre pays, contrôlant et manipulant notre peuple à distance. En dénonçant leur rôle et en refusant leurs conseils empoisonnés, nous pouvons révéler la mainmise britannique pour ce qu’elle est : une imposture fragile."
+MAL_the_nation_7:0 "La Fédération de Malaisie"
+MAL_the_nation_7_desc:0 "Nous sommes un phare de liberté en Asie de l’Est. Seuls parmi nos voisins, nous avons créé un havre d’unité, de démocratie et de liberté pour tous. Bersekutu Bertambah Mutu !"
+
+MAL_the_air:0 "L’Air"
+MAL_the_air_desc:0 "Notre armée de l’air est aujourd’hui totalement incapable de soutenir nos forces principales. En développant nos capacités aériennes, nous pouvons corriger cela et fournir une couverture adéquate à nos opérations terrestres et navales."
+MAL_the_air_1:0 "Réquisitions de la R.A.F."
+MAL_the_air_1_desc:0 "Les surplus de la R.A.F. ne sont peut-être pas de la meilleure qualité, mais ils sont disponibles et peu coûteux. Ces réquisitions formeront la base de notre nouvelle armée de l’air."
+MAL_the_air_2:0 "Efforts antiaériens"
+MAL_the_air_2_desc:0 "Malgré nos efforts pour moderniser notre aviation, il est probable que nous perdions toute bataille pour le contrôle du ciel. Des fortifications antiaériennes sont nécessaires pour nous permettre de riposter depuis le sol si nous perdons la maîtrise de l’air."
+MAL_the_air_3:0 "Entraînement à l’interception de chasseurs"
+MAL_the_air_3_desc:0 "Refuser la supériorité aérienne ennemie ne sera pas simple, mais avec un entraînement spécialisé à l’interception, nos équipages pourront se concentrer sur le combat aérien rapproché afin de conserver le contrôle de nos cieux."
+
+MAL_the_island:0 "L’Île"
+MAL_the_island_desc:0 "Si Singapour tombe, la colonie tombe. Fortifier proactivement toute la péninsule est crucial pour maintenir un minimum de défense."
+MAL_the_island_1:0 "Réorganisation militaire"
+MAL_the_island_1_desc:0 "Nos forces terrestres sont actuellement un mélange de conscrits coloniaux, de recrues britanniques et de milices locales. Pour tenir face à toute incursion, nous devons réorganiser ces groupes disparates en une force cohérente."
+MAL_the_island_2:0 "Sécuriser le Nord"
+MAL_the_island_2_desc:0 "Le Siam est faible et cédera probablement à toute pression extérieure. Des fortifications frontalières et des patrouilles accrues sont la première étape pour sécuriser nos défenses."
+MAL_the_island_3:0 "Fortifier les villes"
+MAL_the_island_3_desc:0 "Même s’il est impossible de tenir une ligne face à une avancée étrangère, sécuriser au moins nos principaux centres de population pourrait retarder l’effondrement de la colonie."
+MAL_the_island_air_straits:0 "Mesures préventives"
+MAL_the_island_air_straits_desc:0 "La guerre est inévitable, et nous devons nous préparer tôt. Légiférer sur des procédures de temps de guerre sera impopulaire, mais nécessaire pour protéger la colonie."
+MAL_the_island_air_straits_1:0 "Lois de guerre"
+MAL_the_island_air_straits_1_desc:0 "Le pire est arrivé : il n’y a plus de temps pour la préparation ou l’apaisement. Désormais, il faut attendre, espérer, et combattre."
+MAL_the_island_air_straits_2:0 "Détruire les chaussées"
+MAL_the_island_air_straits_2_desc:0 "En ultime recours pour ralentir l’ennemi, les chaussées reliant Singapour au continent doivent être détruites. Pas un pas en arrière."
+
+MAL_the_straits:0 "Les Détroits"
+MAL_the_straits_desc:0 "Le seul but de la Malaisie britannique en tant que colonie est d’assurer la puissance navale dans les détroits d’Asie du Sud-Est. Si nous échouons, nous ne valons rien sur la scène mondiale."
+MAL_the_straits_1:0 "Chantiers navals de Singapour"
+MAL_the_straits_1_desc:0 "Notre capacité de construction navale est faible, mais peut être améliorée. En réquisitionnant l’industrie civile de Singapour, nous pourrons commencer à produire nos propres navires."
+MAL_the_straits_2:0 "Demander la Division Z"
+MAL_the_straits_2_desc:0 "Bien que nous contrôlions un point stratégique en Asie du Sud-Est, le commandement britannique refuse de nous transférer le contrôle de la flotte malaise. Les convaincre du contraire renforcerait considérablement notre puissance navale."
+MAL_the_straits_3:0 "Stratégies anti-amphibies"
+MAL_the_straits_3_desc:0 "Il est probable qu’une invasion navale se prépare. Nous devons sécuriser tous les ports contre une incursion ennemie pour couper toute possibilité de ravitaillement."
+
+MAL_RND:0 "R.N.D."
+MAL_RND_desc:0 "Avec nos récentes avancées en autonomie, nous pouvons créer un véritable département de recherche, capable de développer des technologies adaptées à notre environnement colonial."
+MAL_RND_1:0 "Modernisation de l’équipement"
+MAL_RND_1_desc:0 "Les nouveaux équipements et technologies ne servent à rien si nous ne pouvons pas les intégrer pleinement à nos forces armées."
+MAL_RND_2:0 "Efforts navals"
+MAL_RND_2_desc:0 "Nous avons déjà une présence navale importante dans la région, mais pour la maintenir, nous devons développer des industries locales capables de réparer et d’améliorer notre flotte."
+MAL_RND_3:0 "Doctrine de la jungle"
+MAL_RND_3_desc:0 "Une grande partie de la péninsule malaise est couverte de jungle dense. Former nos troupes à ce terrain nous donnera un avantage contre tout envahisseur étranger."
+MAL_RND_4:0 "Mobilisation de l’infanterie"
+MAL_RND_4_desc:0 "La Malaisie est un enfer pour les véhicules traditionnels. En adoptant un modèle léger basé sur l’infanterie, nous pourrons mieux déplacer nos troupes et renforcer rapidement les zones menacées."
+MAL_RND_5:0 "Conservation de la flotte"
+MAL_RND_5_desc:0 "Nous ne pourrons jamais égaler nos voisins lors d’une bataille navale décisive. Notre objectif doit donc être de préserver nos forces et de n’engager le combat que lorsque cela est nécessaire."
+MAL_RND_6:0 "Défense en profondeur"
+MAL_RND_6_desc:0 "Il est plus facile de tenir une position que de la reprendre. En entraînant nos troupes aux tactiques d’entrenchment rapide, nous pourrons conserver nos territoires clés face aux pires assauts."
+MAL_RND_7:0 "Mécanisation"
+MAL_RND_7_desc:0 "L’infanterie ne peut pas toujours progresser à pied. L’intégration de véhicules motorisés dans nos forces nous évitera d’être coupés de nos lignes alliées dans la jungle."
+MAL_RND_8:0 "Marine des Détroits"
+MAL_RND_8_desc:0 "La priorité de notre marine est le contrôle du détroit de Malacca. Agrandir notre flotte pour mieux patrouiller cette zone est impératif pour notre souveraineté navale."
+MAL_RND_9:0 "Entraînement des marines"
+MAL_RND_9_desc:0 "La Malaisie britannique est unique en ce que ses deux régions principales sont séparées par un bras de mer. Si l’une de nos colonies venait à tomber, nos troupes doivent être capables de lancer une invasion navale pour la reprendre."
+MAL_RND_10:0 "Efforts théoriques"
+MAL_RND_10_desc:0 "Les chemins battus ne nous mèneront qu’à un certain point. Travaillons à développer de nouvelles technologies et concepts en prévision d’une guerre."
+
+MAL_worldstage:0 "La scène mondiale"
+MAL_worldstage_desc:0 "En tant que nation indépendante, nous pouvons désormais tourner notre regard vers nos voisins et bâtir de nouvelles relations."
+MAL_worldstage_1:0 "Soutenir les communistes indonésiens"
+MAL_worldstage_1_desc:0 "L’Indonésie est mûre pour la révolution. Avec notre culture et notre histoire communes, nous sommes en position unique pour l’aider à atteindre cet objectif."
+MAL_worldstage_2:0 "Libérer les Philippines"
+MAL_worldstage_2_desc:0 "L’Empire américain n’est qu’une autre forme d’impérialisme. Nous devons aider nos voisins philippins et les sauver d’eux-mêmes."
+MAL_worldstage_3:0 "L’Empire malaccan"
+MAL_worldstage_3_desc:0 "Le Siam est faible et corrompu, et détient des terres qui appartiennent de droit à notre peuple. Nous corrigerons cela et restaurerons la grandeur de nos ancêtres."
+MAL_worldstage_4:0 "Unir notre peuple"
+MAL_worldstage_4_desc:0 "Les discours ne suffisent pas à unir notre peuple. Seule la guerre, et rien d’autre, apportera l’unité et la paix durable à nos terres."
+MAL_worldstage_5:0 "Nusantara"
+MAL_worldstage_5_desc:0 "Nusantara est une idée qui considère tous les peuples de l’archipel indonésien comme une seule nation. C’est une idée que nous devons partager avec nos frères du sud."
+MAL_worldstage_6:0 "Soutenir les mouvements indépendantistes"
+MAL_worldstage_6_desc:0 "La démocratie est contagieuse. En éveillant les cœurs et les esprits de nos frères colonisés, nous pouvons planter une graine qu’aucun impérialisme ne pourra écraser."
+MAL_worldstage_7:0 "MalPhiIndo"
+MAL_worldstage_7_desc:0 "Nous avons prouvé être une démocratie stable et capable en Asie du Sud-Est. Il est juste d’exiger que tous les peuples de la région puissent en faire autant."
+
+MAL_japanese_puppet:0 "Un serviteur loyal"
+MAL_japanese_puppet_desc:0 "Résister au nouvel ordre est inutile. Mieux vaut accepter une position de servitude que de résister et être écrasé."
+MAL_japanese_puppet_1:0 "Un frère impérial ?"
+MAL_japanese_puppet_1_desc:0 "Nous avons prouvé notre loyauté et reçu les faveurs qui l’accompagnent. Continuons à servir joyeusement le trône du chrysanthème."
+
+MAL_seek_investors:0 "Chercher des investisseurs"
+MAL_seek_investors_desc:0 "En tant que nation coloniale, nous avons l’opportunité unique d’attirer de nouveaux investissements économiques des puissances occidentales présentes dans la région afin de développer notre économie."
+
+# Décisions
+mal_mining_decisions:0 "Exploitation minière en Malaisie"
+mal_mining_decisions_desc:0 "La Malaisie possède un vaste secteur minier. Elle abrite la 3ᵉ plus grande mine de tungstène du monde… mais pour combien de temps encore ? Les géologues en sont certains : d’ici quelques années, la mine sera épuisée et seules de petites quantités pourront encore être extraites de la région."
+mal_independence_decisions:0 "Attendre notre heure"
+mal_independence_decisions_desc:0 "Même si notre liberté nous a été refusée, tout espoir n’est pas perdu. La guerre engloutira l’empire tôt ou tard, et lorsque ce moment viendra, nous frapperons."
+mal_declare_independence:0 "Déclarer l’indépendance"
+mal_independence_tooltip:0 "Notre suzerain est occupé par une guerre majeure."
+
+MAL_restrain_tungsten_extraction:0 "Limiter l’extraction de tungstène"
+MAL_tungsten_mining_decline_1:0 "Déclin de l’extraction du tungstène à [915.GetName]"
+MAL_tungsten_mining_decline_2:0 "Graves perturbations dans l’extraction du tungstène à [915.GetName]"
+MAL_tungsten_mining_decline_3:0 "Aggravation du déclin de l’extraction du tungstène à [915.GetName]"
+MAL_tungsten_mining_decline_4:0 "Épuisement du minerai de tungstène à [915.GetName]"
+tungsten_mine_depleted:0 "Mines de tungstène épuisées"
+tungsten_mine_reduction_1:0 "Déclin mineur de l’extraction du tungstène"
+tungsten_mine_reduction_2:0 "Déclin croissant de l’extraction du tungstène"
+tungsten_mine_reduction_3:0 "Déclin significatif de l’extraction du tungstène"
+
+mal_available_factories_tooltip_1:0 "Nous avons besoin de §G1§! usine hors carte disponible pour lancer cette mission commerciale."
+mal_available_factories_tooltip_2:0 "Nous avons besoin de §G2§! usines hors carte disponibles pour lancer cette mission commerciale."
+mal_available_factories_tooltip_3:0 "Nous avons besoin de §G3§! usines hors carte disponibles pour lancer cette mission commerciale."
+mal_available_factories_tooltip_4:0 "Nous avons besoin de §G4§! usines hors carte disponibles pour lancer cette mission commerciale."
+mal_available_factories_tooltip_5:0 "Nous avons besoin de §G5§! usines hors carte disponibles pour lancer cette mission commerciale."
+
+mal_invest_tooltip:0 "Nous entretenons des relations commerciales positives avec le Royaume-Uni et ses colonies."
+mal_investor:0 "Investisseur"
+investors:0 "Investisseurs"
+current_industry:0 "Industrie actuelle"
+mal_trade_success:0 "Mission commerciale réussie"
+mal_trade_failure:0 "Mission commerciale échouée"
+
+mal_trade_decisions:0 "Missions commerciales coloniales"
+mal_trade_decisions_desc:0 "Usines hors carte actuelles : §G[?mal_trade_factory_total]§!"
+
+mal_trade_decisions_external:0 "Décisions financières"
+mal_trade_decisions_external_desc:0 ""
+
+mal_trade_external:0 "Investir dans [FROM.GetName]"
+mal_trade_external_desc:0 ""
+mal_trade_external_on:0 "Inviter des investisseurs étrangers"
+mal_trade_external_on_desc:0 ""
+
+mal_trade_start:0 "Préparer notre économie aux affaires étrangères"
+mal_trade_start_desc:0 ""
+
+mal_trade_usa:0 "Attirer les intérêts économiques américains"
+mal_trade_usa_desc:0 ""
+
+mal_trade_usa_mission:0 "Profits commerciaux américains"
+mal_trade_usa_mission_desc:0 ""
+
+mal_trade_france:0 "Attirer les intérêts économiques français"
+mal_trade_france_desc:0 ""
+
+mal_trade_france_mission:0 "Profits commerciaux français"
+mal_trade_france_mission_desc:0 ""
+
+mal_trade_italy:0 "Attirer les intérêts économiques italiens"
+mal_trade_italy_desc:0 ""
+
+mal_trade_italy_mission:0 "Profits commerciaux italiens"
+mal_trade_italy_mission_desc:0 ""
+
+mal_trade_holland:0 "Attirer les intérêts économiques néerlandais"
+mal_trade_holland_desc:0 ""
+
+mal_trade_holland_mission:0 "Profits commerciaux néerlandais"
+mal_trade_holland_mission_desc:0 ""
+
+mal_trade_external_mission:0 "Répondre aux exigences des investisseurs"
+mal_trade_external_mission_desc:0 "À mesure que d’autres nations investissent dans notre économie, la valeur de nos actions augmente. Cependant, si nous ne parvenons pas à satisfaire les attentes de croissance des investisseurs, nos deux économies en pâtiront."
+
+mal_investors_tooltip:0 "Nous avons actuellement besoin de §G[?current_industry]§! usines civiles libres pour répondre aux demandes des investisseurs."
+
+mal_trade_internal:0 "Investissements internes"
+mal_trade_internal_desc:0 ""
+
+mal_internal_investment_tt:0 "Des investissements internes continus nous permettront d’accroître nos capacités commerciales externes."
+
+# Idées de départ
+MAL_colonial_idea:0 "Administration coloniale"
+MAL_colonial_idea_desc:0 ""
+MAL_political_idea:0 "Ketuanan Melayu"
+MAL_political_idea_desc:0 ""
+MAL_government_idea:0 "États non fédérés"
+MAL_government_idea_desc:0 ""
+MAL_government_idea_1:0 "Centralisation"
+MAL_government_idea_1_desc:0 ""
+MAL_government_idea_2:0 "Décentralisation"
+MAL_government_idea_2_desc:0 ""
+
+# Idées de focus
+MAL_status_quo_idea:0 "Statu quo"
+MAL_japanese_puppet_idea:0 "Nouvelles loyautés"
+MAL_japanese_puppet_idea_2:0 "Nouvelles loyautés"
+MAL_political_idea_neutrality:0 "Ketuanan Melayu"
+MAL_political_idea_neutrality_1:0 "Ketuan Melayu"
+MAL_political_idea_neutrality_2:0 "Service civil déségrégé"
+MAL_government_idea_1_1:0 "Résidents généraux"
+MAL_government_idea_1_2:0 "Résidents généraux"
+MAL_government_idea_1_3:0 "La Perle de l’Orient"
+MAL_political_idea_communism:0 "Mouvements ouvriers"
+MAL_political_idea_communism_1:0 "Mouvements anti-japonais"
+MAL_political_idea_communism_2:0 "L’État d’urgence"
+MAL_political_idea_communism_3:0 "Révolution triomphante"
+MAL_political_idea_fascism:0 "Mouvements nationalistes"
+MAL_government_idea_fascism:0 "Unité royale"
+MAL_political_idea_fascism_final:0 "Bangsa Melayu"
+MAL_political_idea_monarchism:0 "Monarcho-nationalisme"
+MAL_political_idea_democracy:0 "Mouvements démocratiques"
+MAL_political_idea_democracy_1:0 "Nationalisme malais"
+MAL_political_idea_democracy_2:0 "Nationalisme malaisien"
+MAL_nationalise_idea:0 "Industrie nationalisée"
+MAL_economy_idea:0 "Investissements industriels étrangers"
+MAL_economy_idea_1:0 "Industrie autonome"
+MAL_economy_idea_final:0 "Économie post-coloniale"
+MAL_military_reorganisation:0 "Réorganisation militaire"
+MAL_military_reorganisation_timed:0 "Armée désorganisée"
+MAL_air_idea:0 "Entraînement de chasse"
+MAL_dockyard_idea:0 "Reconvertion de l’industrie navale"
+MAL_empire_research_idea:0 "Recherche du Commonwealth"
+MAL_RND_idea:0 "RND"
+MAL_RND_idea_1:0 "RND"
+MAL_jungle_idea:0 "Entraînement en jungle"
+MAL_jungle_idea_1:0 "Entraînement en jungle"
+
+MAL_fleet_conservation_idea:0 "Conservation de la flotte"
+
+MAL_communist_support_idea:0 "Soutien communiste"
+MAL_democratic_support_idea:0 "Soutien démocratique"
+
+MAL_empire_idea:0 "Pour le roi et le pays !"
+MAL_communist_malaysia_idea:0 "Isolationnisme malaisien"
+MAL_communist_malaya_idea:0 "Internationalisme malais"
+
+MAL_political_idea_democracy_fascism:0 "Soutien princier"
+MAL_political_idea_democracy_communism:0 "Soutien communiste"
+
+MAL_students_idea:0 "Soutien académique"
+
+
+# Traits
+status_quo_enthusiast:0 "Partisan du statu quo"
+royal_navy:0 "Royal Navy"
+royal_airforce:0 "Royal Air Force"
+malaya_command:0 "Commandement de Malaisie"
+
+royal_navy_tfv:0 "Royal Navy"
+royal_airforce_tfv:0 "Royal Air Force"
+malaya_command_tfv:0 "Commandement de Malaisie"
+trade_concern:0 "Préoccupation commerciale"
+infrastructure_concern:0 "Préoccupation infrastructurelle"
+
+
+# Entreprises
+fmsr:0 "Chemins de fer des États malais fédérés"
+
+bp_malaya:0 "British Petroleum Malaya"
+
+straits_steamship:0 "Straits Steamship Co."
+
+straits_trading:0 "Straits Trading Co."
+
+army_ordnance:0 "Commonwealth Ordnance"
+
+imperial_airways:0 "Imperial Airways"
+
+ford_malaya:0 "Ford Malaya"
+ford_malaya_2:0 "Ford Malaya"
+MAL_generic_artillery_manufacturer:0 "Far East Oxygen and Acetylene Company"
+MAL_generic_industrial_concern:0 "Pahang Consolidated Company"
+MAL_generic_electronics_concern:0 "Sarawak Electricity Supply Company"
+SGP_generic_artillery_manufacturer:0 "Far East Oxygen and Acetylene Company"
+SGP_generic_industrial_concern:0 "Pahang Consolidated Company"
+
+# Décisions économiques
+mal_internal_investments_idea:0 "Investissements internes"
+
+mal_good_investment_idea:0 "Bons investissements"
+mal_good_investment_idea_2:0 "Bons investissements"
+mal_good_investment_idea_3:0 "Bons investissements"
+
+mal_bad_investment_idea:0 "Mauvais investissements"
+mal_bad_investment_idea_2:0 "Mauvais investissements"
+mal_bad_investment_idea_3:0 "Mauvais investissements"
+
+mal_successful_financial_year_idea:0 "Année financière réussie"
+mal_successful_financial_year_idea_2:0 "Année financière réussie"
+mal_successful_financial_year_idea_3:0 "Année financière réussie"
+
+mal_unsuccessful_financial_year_idea:0 "Année financière ratée"
+mal_unsuccessful_financial_year_idea_2:0 "Année financière ratée"
+mal_unsuccessful_financial_year_idea_3:0 "Année financière ratée"
+
+
+# Événements
+malaysia.1.t:0 "L’état de la colonie"
+malaysia.1.desc:0 "Malgré une apparence relativement paisible, les colonies, protectorats et alliances locales qui composent la Malaisie britannique sont minés par les tensions. Plutôt qu’un véritable État, la Malaisie britannique est un patchwork de princes et de résidents généraux, dirigés de facto par le gouverneur de Singapour. Le résultat est une colonie prête à s’effondrer à tout moment, nécessitant une restructuration majeure pour survivre à la tempête à venir."
+malaysia.1.a:0 "Au travail."
+
+malaysia.2.t:0 "La Malaisie demande l’autonomie navale"
+malaysia.2.desc:0 "Malgré la distance entre la métropole et nos territoires asiatiques, le contrôle de notre présence navale dans la région reste à Londres, non à Singapour. Invoquant l’inefficacité de cette situation et les bénéfices d’un commandement local, le Far East Command a demandé que le contrôle d’une partie de la flotte en Asie soit transféré à la Malaisie britannique."
+malaysia.2.a:0 "Une demande raisonnable."
+malaysia.2.b:0 "Hors de question !"
+
+malaysia.3.t:0 ""
+malaysia.3.desc:0 ""
+malaysia.3.a:0 ""
+malaysia.3.b:0 ""
+
+malaysia.4.t:0 ""
+malaysia.4.desc:0 ""
+malaysia.4.a:0 ""
+malaysia.4.b:0 ""
+
+malaysia.5.t:0 ""
+malaysia.5.desc:0 ""
+malaysia.5.a:0 ""
+malaysia.5.b:0 ""
+
+malaysia.6.t:0 "Les États non fédérés"
+malaysia.6.desc:0 "Les États non fédérés de Malaisie sont le résultat d’une colonisation progressive et non planifiée de la péninsule. Bien que des efforts aient été faits pour organiser ces groupes disparates, ils se sont révélés infructueux. Il est donc temps de prendre une décision définitive quant à leur avenir et à leur place dans la colonie."
+malaysia.6.a:0 "Les intégrer totalement !"
+malaysia.6.b:0 "Favoriser leur union avec leurs frères fédérés."
+malaysia.6.c:0 "Les laisser tranquilles."
+
+malaysia.7.t:0 "Le Conseil des princes"
+malaysia.7.desc:0 "Le « Majlis Raja-Raja », ou Conseil des souverains, fut l’une des premières concessions accordées aux États malais fédérés. Si son pouvoir pratique reste limité, les princes et rajas qui le composent exercent une influence considérable dans la région, et doivent donc être pris en compte avant toute modernisation."
+malaysia.7.a:0 "Renforcer leurs pouvoirs."
+malaysia.7.b:0 "Chercher à réduire leur influence."
+malaysia.7.c:0 "Dissoudre le conseil."
+
+malaysia.8.t:0 ""
+malaysia.8.desc:0 ""
+malaysia.8.a:0 ""
+malaysia.8.b:0 ""
+
+malaysia.9.t:0 "La nouvelle Malaisie britannique"
+malaysia.9.desc:0 "Avec l’élimination des derniers vestiges d’autonomie locale, le contrôle britannique sur la Malaisie est total. Bien que cela puisse nous causer des problèmes un jour, pour l’instant, cela nous donne un pouvoir sans précédent sur la colonie."
+malaysia.9.a:0 "Dieu sauve le roi !"
+
+malaysia.10.t:0 "L’urgence malaise"
+malaysia.10.desc:0 "Face aux craintes croissantes d’une occupation japonaise, des agitateurs communistes malais ont réussi à prendre d’assaut la résidence du gouverneur à Singapour et à s’emparer du contrôle de la colonie. Tandis que des affrontements éclatent entre partisans et forces de police dans les autres établissements, les communistes profitent de cet élan pour déclarer leur indépendance vis-à-vis de nous !"
+malaysia.10.a:0 "Bon débarras."
+malaysia.10.b:0 "Le seul rouge accepté est celui de l’Union Jack !"
+
+malaysia.11.t:0 ""
+malaysia.11.desc:0 ""
+malaysia.11.a:0 ""
+malaysia.11.b:0 ""
+
+malaysia.12.t:0 "La nouvelle Malaisie"
+malaysia.12.desc:0 "Avec notre avenir économique désormais assuré, les citoyens commencent à croire véritablement au concept d’une Malaisie nationale, unie et coopérative, travaillant ensemble pour le bien de tous."
+malaysia.12.a:0 "Bersekutu Bertambah Mutu !"
+
+malaysia.13.t:0 "La Malaisie rompt les liens !"
+malaysia.13.desc:0 "Malgré tous nos efforts pour limiter l’autonomie malaise, une confédération de princes, d’hommes d’affaires et d’activistes natifs influents a paralysé la colonie. Ils exigent une autonomie politique et économique totale pour la Malaisie, et ont réussi à s’emparer de Singapour !"
+malaysia.13.a:0 "Qu’ils se débrouillent avec une invasion."
+malaysia.13.b:0 "Sont-ils fous ? Envoyez la flotte !"
+
+malaysia.14.t:0 ""
+malaysia.14.desc:0 ""
+malaysia.14.a:0 ""
+malaysia.14.b:0 ""
+
+malaysia.15.t:0 "Revendi­cations nationalistes malaises"
+malaysia.15.desc:0 "Une coalition de princes en Malaisie britannique exige le retour des Établissements des Détroits sous autorité princière. Bien que leurs revendications bénéficient d’un large soutien populaire, cela supprimerait pratiquement tout contrôle que nous avons sur la Malaisie continentale, et l’indépendance suivrait inévitablement."
+malaysia.15.a:0 "Peut-être feront-ils mieux que nous."
+malaysia.15.b:0 "Depuis quand écoutons-nous les natifs ?"
+
+malaysia.16.t:0 "Refus britannique"
+malaysia.16.desc:0 "Le Foreign Office a catégoriquement rejeté toute concession à l’autonomie locale. Bien que la situation soit tendue sur le terrain, le gouverneur reste en place, pour l’instant."
+malaysia.16.a:0 "Nous devons chercher ailleurs la liberté."
+
+malaysia.17.t:0 ""
+malaysia.17.desc:0 ""
+malaysia.17.a:0 ""
+malaysia.17.b:0 ""
+
+malaysia.18.t:0 "La Malaisie demande une plus grande autonomie"
+malaysia.18.desc:0 "S’étant montrée un sujet loyal, notre administration en Malaisie demande que nous lui accordions une autonomie accrue dans la région, en récompense de son obéissance continue."
+malaysia.18.a:0 "Très bien."
+malaysia.18.b:0 "Ils n’ont pas encore fait leurs preuves."
+
+malaysia.19.t:0 "La Malaisie réclame la décolonisation !"
+malaysia.19.desc:0 "Ayant arraché sa liberté aux Britanniques, la Malaisie se tourne maintenant vers nous, exigeant que nous respections les droits souverains du peuple indonésien et préparions la décolonisation. Si elle ne représente pas une grande menace militaire, il n’est pas certain que nous puissions écraser une révolte locale soutenue par la Malaisie. Quelle doit être notre réponse ?"
+malaysia.19.a:0 "Peut-être ont-ils raison."
+malaysia.19.b:0 "Depuis quand prenons-nous nos ordres de la Malaisie ?"
+
+malaysia.20.t:0 "La Malaisie réclame la décolonisation !"
+malaysia.20.desc:0 "Ayant arraché sa liberté aux Britanniques, la Malaisie se tourne maintenant vers nous, exigeant que nous respections les droits souverains du peuple philippin et préparions la décolonisation. Si elle ne représente pas une grande menace militaire, il n’est pas certain que nous puissions écraser une révolte locale soutenue par la Malaisie. Quelle doit être notre réponse ?"
+malaysia.20.a:0 "Peut-être ont-ils raison."
+malaysia.20.b:0 "Depuis quand prenons-nous nos ordres de la Malaisie ?"
+
+malaysia.21.t:0 "La Malaisie demande notre soutien !"
+malaysia.21.desc:0 "Un mouvement nationaliste s’est emparé de la colonie de Malaisie britannique. Bien que ses efforts aient été contrecarrés jusqu’à présent, une délégation de dirigeants locaux a envoyé un émissaire secret, offrant sa soumission en échange d’un appui à leur indépendance."
+malaysia.21.a:0 "Ils l’auront."
+malaysia.21.b:0 "C’est trop risqué."
+
+malaysia.22.t:0 "Le Japon impose l’indépendance malaise"
+malaysia.22.desc:0 "Nos tentatives de réprimer l’indépendance malaisienne se sont retournées contre nous : l’empereur du Japon exige personnellement que la Grande-Bretagne reconnaisse l’indépendance de la Malaisie, menaçant de passer à l’action si nous ne cédons pas. Céder livrerait presque certainement la Malaisie au Japon, mais refuser risquerait de nous entraîner dans une guerre défavorable. Que devons-nous faire ?"
+malaysia.22.a:0 "Nous n’avons pas le choix, il faut céder."
+malaysia.23.b:0 "Peut-être n’avons-nous pas été assez clairs : NON."
+
+malaysia.23.t:0 "Le Japon refuse"
+malaysia.23.desc:0 "Par indifférence ou incapacité, le Japon a refusé de soutenir notre cause pour la liberté. Une fois encore, nous sommes seuls."
+malaysia.23.a:0 "Notre heure viendra."
+
+malaysia.24.t:0 "L’Angleterre refuse de céder !"
+malaysia.24.desc:0 "Malgré les tensions régionales et le chaos à leurs portes, l’Empire britannique a refusé d’abandonner la Malaisie. Si nous voulons tenir notre promesse de soutien, nous devons recourir à la force."
+malaysia.24.a:0 "Enfin, un adversaire digne de ce nom."
+malaysia.24.b:0 "Attendons une occasion plus favorable."
+
+malaysia.25.t:0 "La Malaisie se révolte !"
+malaysia.25.desc:0 "Avec l’arrivée de la guerre à nos portes, la situation dans nos colonies malaisiennes, autrefois relativement stable, s’est totalement effondrée. Agacés par notre refus d’accorder l’indépendance, les nationalistes ont brutalement expulsé tous les officiers coloniaux et proclamé un État pleinement indépendant."
+malaysia.25.a:0 "D’accord."
+malaysia.25.b:0 "D’accord."
+
+malaysia.26.t:0 "L’extraction de tungstène ralentit"
+malaysia.26.desc:0 "Comme les géologues l’avaient prévu, l’extraction de tungstène commence à ralentir. Une intervention pourrait être nécessaire, mais elle ne ferait que retarder l’inévitable : un jour, il n’y aura plus de minerai à extraire."
+malaysia.26.a:0 "D’accord."
+
+#opinions
+malaysian_colonialism:0 "Colonialisme"
+malaysian_support:0 "Soutien malaisien"
+mal_autonomy:0 "Autonomie malaise"
+mal_fascist_denied:0 "Liberté refusée"
+
+#parties
+MAL_monarchy_party:0 "Royalistes"
+MAL_monarchy_party_long:0 "Royalistes malais"
+#  MAL_fascism_party:0 "KMM" #Jeune Union malaise # déplacé pour remplacement
+#  MAL_fascism_party_long:0 "Kesatuan Melayu Muda" # déplacé pour remplacement
+MAL_fascism_party_puppet:0 "PETA"
+MAL_fascism_party_puppet_long:0 "Pembela Tanah Ayer" #Défenseurs de la patrie
+#  MAL_democratic_party:0 "PEKEMBAR" #ou UMNO ou PEKEMBAR # déplacé pour remplacement
+#  MAL_democratic_party_long:0 "Pertubuhan Kebangsaan Melayu Bersatu" #ou UMNO ou PEKEMBAR # déplacé pour remplacement
+MAL_democratic_party_puppet:0 "KM"
+MAL_democratic_party_puppet_long:0 "Kesatuan Melayu"
+#  MAL_communism_party:0 "MCP" #ou MCP # déplacé pour remplacement
+MAL_communism_party_long:0 "Parti communiste malais" #ou MCP
+MAL_neutrality_party_puppet:0 "Administration coloniale"
+
+MAL_democratic_umno:0 "UMNO"
+MAL_democratic_umno_long:0 "Organisation nationale malaise unie"
+
+MAL_democratic_imp:0 "IMP"
+MAL_democratic_imp_long:0 "Parti de l’indépendance malais"
+
+#tooltips
+MAL_status_quo_tooltip:0 "Réservé à l’IA."
+MAL_singapore_tooltip:0 "N’a actuellement aucun effet."
