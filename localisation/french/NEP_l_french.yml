@@ -1,0 +1,36 @@
+l_french:
+
+ NEP_tribhuvan_idea:0 "Tribhuvan"
+ NEP_tribhuvan_idea_desc:0 "Bien que la fonction de roi du [ROOT.GetNonIdeologyName] ait été réduite à un rôle principalement cérémoniel, Tribhuvan demeure une figure populaire parmi la population [NEP.GetAdjective]."
+
+# NEP_kiran_rana:0 "Kiran Rana"
+# NEP_baber_rana:0 "Baber Rana"
+ NEP_matrika_prashad_koirala:0 "Matrika Prashad Koirala"
+ NEP_bishweshwar_prasad_koirala:0 "Bishweshwar Prasad Koirala"
+ NEP_kunwar_inderjit_singh:0 "Kunwar Inderjit Singh"
+ NEP_yogbir_singh_kansakar:0 "Yogbir Singh Kansakar"
+ NEP_chittadhar_hridaya:0 "Chittadhar Hridaya"
+ NEP_dhammalok_mahasthavir:0 "Dhammalok Mahasthavir"
+ NEP_kaiser_rana:0 "Kaiser Rana"
+ NEP_subarna_rana:0 "Subarna Rana"
+ NEP_brahma_rana:0 "Brahma Rana"
+ NEP_singha_rana:0 "Singha Rana"
+ NEP_mrigendra_rana:0 "Mrigendra Rana"
+#  NEP_generic_democratic_reformer:0 "Dharma Bhakta Mathema" #exécuté en 41 IRL # déplacé pour remplacement
+ NEP_nir_rana:0 "Nir Rana"
+ 
+ #rechercher un candidat réel
+ NEP_ENG_air_theorist:0 "John Smith"
+ 
+ NEP_reformist_religious_writer:0 "Écrivain religieux réformateur"
+ 
+ NEP_military_diplomat:0 "Diplomate militaire"
+ 
+ 
+ NEP_infantry_equipment_0:0 "Fusil Gahendra-Martini"
+ NEP_infantry_equipment_0_short:0 "Gahendra-Martini"
+
+ nepal.1.t:0 "[ENG.GetNameDefCap] est entré en guerre"
+ nepal.1.d:0 "Il y a quelques jours, une nouvelle guerre a éclaté en Europe, et peut-être dans le monde entier ! L’issue de ce qui sera appelé « la Grande Guerre ». Le [ROOT.GetNameDefCap] a des raisons de soutenir [ENG.GetNameDef] et, d’une certaine manière, y est obligé par le traité népal-britannique de 1923, selon lequel nos deux nations reconnaissent mutuellement leur souveraineté et s’engagent à la protéger."
+ nepal.1.a:0 "Nous devons aider nos alliés. Déclarons la guerre immédiatement !"
+ nepal.1.b:0 "Les intérêts nationaux du Népal passent avant tout..."
