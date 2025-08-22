@@ -1,0 +1,32 @@
+l_french:
+
+#Dirigeants non-alignés
+#    Dinu Simian (août 1938 - 31 janvier 1939)
+#    Grigore Cazacliu (1er février 1939 - 1940)
+
+#Grigore Turcuman : politique, réserve navale
+#Teodor Cojocaru : militaire avant-guerre
+#Elefterie Sinicliu : artilleur en 1919, encore vivant
+
+MOL_generic_democratic_reformer:0 "Daniel Ciugureanu"
+MOL_generic_communist_revolutionary:0 "Tihon Konstantinov"
+MOL_anton_crihan:0 "Anton Crihan"
+MOL_stefan_ciobanu:0 "Ștefan Ciobanu"
+MOL_nicolae_bosie_codreanu:0 "Nicolae Bosie-Codreanu"
+MOL_fedor_brovko:0 "Fedor Brovko"
+MOL_leonte_rautu:0 "Lev Nicolaievici Oigenstein"
+MOL_zinovie_serdiuk:0 "Zinovie Serdiuk"
+MOL_grigore_cazacliu:0 "Grigore Cazacliu"
+MOL_elefterie_sinicliu:0 "Elefterie Sinicliu"
+MOL_grigore_turcuman:0 "Grigore Turcuman"
+MOL_teodor_cojocaru:0 "Teodor Cojocaru"
+MOL_gherman_pantea:0 "Gherman Pântea"
+
+MOL_union_with_ROM:0 "Demander l’union avec [ROM.GetNameDef]"
+MOL_integrate_historical_moldova:0 "Intégrer la Moldavie historique"
+MOL_integrate_bukovina:0 "Intégrer la Bucovine"
+
+r56_moldova.1.t:0 "[MOL.GetNameDef] demande l’unification."
+r56_moldova.1.desc:0 "Des représentants de [MOL.GetNameDef] ont contacté notre gouvernement et annoncé que leur gouvernement avait décidé à l’unanimité d’exiger la dissolution et l’annexion de leur pays à la Roumanie."
+r56_moldova.1.a:0 "Bien sûr !"
+r56_moldova.1.b:0 "Cela ne sert pas nos intérêts."
