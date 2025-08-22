@@ -1,0 +1,351 @@
+l_french:
+
+#characters
+MAN_yoshisuke_aikawa:0 "Aikawa Yoshisuke"
+MAN_kenkichi_ueda:0 "Ueda Kenkichi"
+MAN_toshizo_nishio:0 "Nishio Toshizō"
+MAN_aisin_gioro_pujie:0 "Aisin Gioro Pujie"
+MAN_qi_xieyuan:0 "Qi Xieyuan"
+MAN_itagaki_seishiro:0 "Itagaki Seishirō"
+MAN_kishi_nobosuke:0 "Kishi Nobusuke"
+MAN_doihara_kenji:0 "Dōihara Kenji"
+MAN_yukio_kasahara:0 "Kasahara Yukio"
+MAN_heitaro_kimura:0 "Kimura Heitarō"
+MAN_muto_nobuyoshi:0 "Mutō Nobuyoshi"
+#  MAN_nakajima_kesago:0 "Nakajima Kesago" # déplacé pour remplacement
+MAN_naoki_hoshino:0 "Hoshino Naoki"
+MAN_xie_jieshi:0 "Xie Jieshi"
+
+#decisions
+core_outer_manchuria_decision:0 "Reprendre la Mandchourie extérieure"
+core_outer_manchuria_decision_desc:0 "Après près d’un siècle, l’ensemble du bassin mandchou est enfin à la portée de ses véritables propriétaires. Ayant pacifié ses nouveaux habitants, nous pouvons entamer sérieusement la réintégration de ces terres perdues depuis longtemps."
+
+MAN_lead_the_army_in_person:0 "Prendre le commandement de l’armée en personne"
+
+MAN_turn_over_the_rfr:0 "Livrer le RFP"
+MAN_turn_over_the_rfr_desc:0 "Les Soviétiques demandent que nous leur livrions les émigrés blancs présents dans notre pays pour leur « réhabilitation ». Peut-être pourrions-nous tirer profit de ces renseignements obtenus et gagner un allié dans notre lutte contre le Japon."
+
+#focuses
+MAN_finish_the_five_year_plan:0 "Achever le plan quinquennal"
+MAN_finish_the_five_year_plan_desc:0 "Notre deuxième plan quinquennal a porté ses fruits. Avec un peu plus d’efforts, notre industrie sera florissante en un rien de temps."
+
+MAN_reclaim_the_entierty_of_manchuria_puppet:0 "Dénoncer l’impérialisme russe"
+MAN_reclaim_the_entierty_of_manchuria_puppet_desc:0 "Alors que la Chine était à genoux, les Russes ont arraché de vastes pans de Mandchourie, qu’ils appellent aujourd’hui Primorié, dans une démonstration flagrante d’impérialisme colonial. Si nous nous opposons aux puissances impérialistes occidentales, le temps est venu d’affronter à nouveau les Russes, une chance de corriger ces injustices !"
+
+MAN_acquire_kanto_shu:0 "Acquérir le Kantō-shū"
+MAN_acquire_kanto_shu_desc:0 "Les autorités japonaises, trop occupées par la guerre contre les Chinois, cherchent à nous transférer le Kantō-shū pour alléger leurs charges législatives. Nous pourrions en profiter pour obtenir un port important."
+
+MAN_for_the_emperor:0 "Pour l’Empereur"
+MAN_for_the_emperor_desc:0 "Nos soldats combattent au nom de notre glorieux et bien-aimé empereur. La victoire est assurée !"
+
+MAN_send_cadets_to_japan:0 "Envoyer des cadets au Japon"
+MAN_send_cadets_to_japan_desc:0 "L’absence d’académie militaire dans notre pays a privé nos officiers d’expérience. Nous pouvons les envoyer dans les académies japonaises des îles principales pour remédier à cette situation."
+
+MAN_reform_command_structure:0 "Réformer la structure de commandement"
+MAN_reform_command_structure_desc:0 "Notre structure de commandement actuelle n’est pas très efficace ; une réforme est nécessaire."
+
+MAN_restore_the_old_frontier:0 "Restaurer l’ancienne frontière"
+MAN_restore_the_old_frontier_desc:0 "Maintenant que la plaine centrale est sous contrôle, l’étape suivante consiste à reprendre les territoires extérieurs perdus."
+
+MAN_restore_the_tributary_system:0 "Restaurer le système tributaire"
+MAN_restore_the_tributary_system_desc:0 "Avec la puissance colossale de l’Empire, les petits États voisins auront l’opportunité d’être protégés par le Grand Qing. Ce serait pour eux un honneur d’en faire partie."
+
+MAN_revive_zongli_yamen:0 "Rétablir le Zongli Yamen"
+MAN_revive_zongli_yamen_desc:0 "Le Zongli Yamen était une institution chargée principalement des affaires étrangères et des avancées technologiques de l’Empire Qing. Si l’Empire veut rivaliser avec les puissances occidentales, il doit impérativement le rétablir."
+
+MAN_revive_the_grand_council:0 "Rétablir le Grand Conseil"
+MAN_revive_the_grand_council_desc:0 "Le Grand Conseil a été abandonné lors de la création malheureuse du « cabinet royal ». Une institution aussi importante doit être restaurée pour contribuer à nouveau à la gloire du Grand Empire Qing."
+
+MAN_subjugate_japan:0 "Soumettre le Japon"
+MAN_subjugate_japan_desc:0 "Les Japonais paieront pour l’humiliation qu’ils nous ont infligée. Nous les mettrons à genoux !"
+
+MAN_reclaim_the_entierty_of_manchuria:0 "Révoquer l’annexion de l’Amour"
+MAN_reclaim_the_entierty_of_manchuria_desc:0 "Alors que notre peuple était à son plus faible, les Russes ont volé de vastes pans de nos terres ancestrales au-delà du fleuve Amour, la partie de la Mandchourie qu’ils appellent aujourd’hui Primorié. Avec notre force retrouvée et le renouveau du mandat céleste, il est temps de venger ce grief avec intérêt."
+
+MAN_qing_romanov_alliance:0 "Un rameau d’olivier à travers la Sibérie"
+MAN_qing_romanov_alliance_desc:0 "Bien que beaucoup veuillent se venger des Russes pour leurs crimes passés, les temps ont changé. Ces deux trônes d’Asie devraient s’unir contre les perversions de la modernité et la puissance impérialiste des autres grandes puissances."
+
+MAN_winter_training:0 "Entraînement hivernal"
+MAN_winter_training_desc:0 "Il fait froid dehors, les chapkas sont utiles."
+
+MAN_manchuria_petroleum_company:0 "Compagnie pétrolière de Mandchourie"
+MAN_manchuria_petroleum_company_desc:0 "Fondée le 10 mai 1935, cette compagnie a permis au Japon d’instaurer un monopole complet sur l’exploitation et le raffinage du pétrole en Mandchourie."
+
+MAN_national_martyr_shrine_idea:0 "Sanctuaire national des martyrs"
+MAN_national_martyr_shrine:0 "Sanctuaire national des martyrs"
+MAN_national_martyr_shrine_desc:0 "Leur sacrifice ne sera pas oublié. J’accepte leurs pertes comme une nécessité pour reprendre mon trône."
+
+MAN_support_aikawa:0 "Soutenir Aikawa"
+MAN_support_aikawa_desc:0 "Le plan d’Aikawa Yoshisuke pour l’économie nationale du Mandchoukouo, visant à établir un conglomérat industriel de type zaibatsu pour développer l’économie selon les besoins de l’État et de tous les acteurs concernés, profitera à tous ceux qui s’intéressent à l’industrialisation de la Mandchourie. Aikawa a convaincu le gouvernement."
+
+MAN_support_hoshino:0 "Soutenir Hoshino"
+MAN_support_hoshino_desc:0 "Le modèle syndicaliste national imaginé et partiellement mis en œuvre par Hoshino Naoki permettra davantage de flexibilité et une meilleure adaptation aux exigences militaires du Mandchoukouo. De plus, ses pratiques peu scrupuleuses généreront des revenus supplémentaires pour le gouvernement."
+
+MAN_establish_mangyo:0 "Fonder le Mangyō"
+MAN_establish_mangyo_desc:0 "La Compagnie de développement industriel de Mandchourie, ou Mangyō, sera créée comme conglomérat industriel disposant d’un monopole sur l’économie mandchoue. Plusieurs entreprises autrefois indépendantes, telles que les aciéries Shōwa ou les chemins de fer de Mandchourie du Sud, seront intégrées."
+
+MAN_manchurian_industrial_development_company:0 "Compagnie de développement industriel de Mandchourie"
+japanese_industrial_monopoly:0 "Monopole industriel"
+
+MAN_expand_opium_production:0 "Accroître la production d’opium"
+MAN_expand_opium_production_desc:0 "La promotion de Hoshino a ouvert de nouvelles possibilités pour le Bureau national du monopole de l’opium. Ces nouvelles recettes renforceront le gouvernement et lui permettront d’accroître son influence sur les régions turbulentes. Sous la direction de Hoshino, le Bureau deviendra le plus grand distributeur d’opium au monde."
+
+MAN_state_opium_monopoly_bureau:0 "Bureau national du monopole de l’opium"
+opium_monopoly:0 "Monopole de l’opium"
+
+MAN_mantetsu_railway_monopoly:0 "Monopole ferroviaire de la Mantetsu"
+MAN_mantetsu_railway_monopoly_desc:0 "Le chemin de fer de Mandchourie du Sud était déjà l’une des entreprises les plus rentables d’Asie avant même la création de l’Empire de Mandchourie. Son intégration dans la structure économique du Mandchoukouo apportera richesse et prospérité."
+
+MAN_total_economic_coherence:0 "Cohérence économique totale"
+MAN_total_economic_coherence_desc:0 "Les réformes continues entreprises par le gouvernement mandchou ont abouti à une économie impériale parfaitement organisée et efficace, dirigée de haut en bas. Tel une machine bien huilée, notre économie peut désormais répondre aux exigences de l’Empire japonais, de l’armée du Guandong et bien sûr du peuple mandchou."
+
+MAN_officer_academies:0 "Fonder des académies d’officiers"
+MAN_officer_academies_desc:0 "Pour créer une armée relativement fiable et autonome, le [MAN.GetName] doit former une classe d’officiers compétents et loyaux à notre cause."
+
+MAN_labor_corps:0 "Corps de travail mandchou"
+MAN_labor_corps_desc:0 "S’il y a bien une ressource dont dispose le [MAN.GetName], c’est une main-d’œuvre abondante. Elle peut également être utilisée à des fins militaires, comme l’entretien et la réparation des installations militaires."
+
+MAN_special_river_detachments:0 "Détachements spéciaux fluviaux"
+MAN_special_river_detachments_desc:0 "Pour que l’armée mandchoue puisse efficacement aider nos suzerains dans leurs entreprises, quelles qu’elles soient, elle doit créer un corps spécialisé capable d’exceller dans ses missions. Bien que nous ne puissions rivaliser avec l’armée du Guandong à tous les niveaux, la spécialisation nous permettra d’être tout de même utiles."
+
+MAN_military_supplies_requisition_law:0 "Adopter la loi sur la réquisition de fournitures militaires"
+MAN_military_supplies_requisition_law_desc:0 "L’adoption de la loi sur la réquisition de fournitures militaires permettra au gouvernement d’approprier terres et ressources à des fins militaires si nécessaire. De plus, elle donne à l’État le pouvoir officiel de recruter des travailleurs pour assister l’armée."
+
+MAN_auxiliary_forces:0 "Forces auxiliaires"
+MAN_auxiliary_forces_desc:0 "Afin de constituer une force de combat cohérente, les forces auxiliaires destinées à maintenir la paix à l’arrière sont indispensables."
+
+MAN_self_sufficient_military:0 "Armée autosuffisante"
+MAN_self_sufficient_military_desc:0 "Les réformes précédentes du gouvernement mandchou ont enfin transformé l’armée, passant d’une bande de bandits corrompus à une force fiable et suffisante, pleinement capable d’assister les opérations japonaises et de mener ses propres offensives."
+
+MAN_reinforce_the_heilongjiang:0 "Renforcer le Heilongjiang"
+MAN_reinforce_the_heilongjiang_desc:0 "Le [SOV.GetName] est sans doute la plus grande menace pour les possessions impériales japonaises sur le continent ainsi que pour le [MAN.GetName] lui-même. Nous devons concentrer nos efforts gouvernementaux sur la construction d’infrastructures militaires et d’un système d’approvisionnement suffisant pour mener des opérations le long de la frontière."
+
+MAN_reinforce_east_hebei:0 "Renforcer l’Est du Hebei"
+MAN_reinforce_east_hebei_desc:0 "Le gouvernement impérial japonais a exprimé sa volonté d’intensifier ses opérations contre le gouvernement nationaliste de [CHI.GetLeader]. Nous devons les soutenir en investissant dans le renforcement de l’Est du Hebei afin de faciliter les manœuvres sur le continent des armées mandchoues et japonaises."
+
+MAN_the_kwantung_connection:0 "La connexion du Guandong"
+MAN_the_kwantung_connection_desc:0 "Le chef d’état-major de l’armée du Guandong, Itagaki Seishirō, entretient de bonnes relations avec l’influent général et politicien Hideki Tōjō. Cette connexion nous offre la possibilité de convaincre le gouvernement japonais de ne pas soutenir un gouvernement rival du KMT et de reconnaître plutôt notre revendication légitime sur la Chine."
+
+MAN_imperial_tianjin_conference:0 "Conférence impériale de Tianjin"
+MAN_imperial_tianjin_conference_desc:0 "L’avenir du [MAN.GetName] en possession de toute la Chine sera décidé principalement à Tokyo, et non en Chine même. Pour devancer toute décision concernant la future direction de l’État chinois, le gouvernement mandchou et l’armée du Guandong ont convoqué une conférence à Tianjin occupée, invitant les représentants de toutes les parties prenantes de la sphère japonaise en Chine."
+
+MAN_order_under_the_marshal:0 "Ordre sous le maréchal"
+MAN_order_under_the_marshal_desc:0 "Avec la nomination inattendue d’un seigneur de guerre d’importance secondaire, [MAN.GetLeader], comme président et donc dirigeant fantoche du [MAN.GetName], le maintien de l’ordre à la campagne, notamment dans les anciens territoires du KMT, est d’une importance capitale. La loi martiale sera instaurée sur tout le continent."
+
+MAN_lessons_of_the_warlord_era:0 "Leçons de l’ère des seigneurs de guerre"
+MAN_lessons_of_the_warlord_era_desc:0 "Les nombreux conflits de l’ère des seigneurs de guerre, auxquels [MAN.GetLeader] a pris part en première ligne, furent parmi les rares affrontements militaires d’envergure de l’entre-deux-guerres. Beaucoup de choses peuvent être apprises en étudiant leurs stratégies et tactiques."
+
+MAN_honor_the_military:0 "Honorer l’armée"
+MAN_honor_the_military_desc:0 "Avec l’instauration de la loi martiale, l’armée peut désormais exercer de vastes pouvoirs. Il est donc crucial de montrer au peuple que l’armée mandchoue est une institution honorable, chargée de les protéger des bandits et des traîtres."
+
+MAN_back_to_the_basics:0 "Retour aux fondamentaux"
+MAN_back_to_the_basics_desc:0 "Avec la défaite du gouvernement du KMT, le plan défini lors de la conférence de Tianjin peut enfin être mis en œuvre. Sous la direction nominale du maréchal-président [MAN.GetLeader], une ligue de gouvernorats autonomes dirigés par des collaborateurs seigneurs de guerre sera créée à travers la Chine. Si cela affaiblit le gouvernement central, cela garantit le contrôle japonais sur de vastes territoires à un coût administratif minimal."
+
+MAN_return_of_the_manchus:0 "Le retour des Mandchous"
+MAN_return_of_the_manchus_desc:0 "Avec le couronnement d’Aisin Gioro Pujie comme empereur de Chine achevé et son frère incompétent écarté, nous pouvons nous inspirer de l’histoire des Qing, qui avaient affronté un gouvernement chinois corrompu pour restaurer la véritable gloire du pays, tout comme nous le faisons aujourd’hui. Mort au républicanisme !"
+
+MAN_the_republican_disgrace:0 "La honte républicaine"
+MAN_the_republican_disgrace_desc:0 "Avec le renversement de la dynastie Qing en 1911 et l’introduction des idéaux pernicieux du républicanisme en Chine, son histoire de centralisation s’est effondrée en un ensemble de seigneurs de guerre querelleurs qui avaient perdu tout respect de l’autorité. Cela doit être reconnu comme l’une des pires catastrophes de l’histoire chinoise. Le républicanisme doit être éradiqué et l’ordre restauré."
+
+MAN_vanguard_of_the_state:0 "Avant-garde de l’État"
+MAN_vanguard_of_the_state_desc:0 "La garde impériale mandchoue, dont l’empereur [MAN.GetLeader] est lui-même le chef cérémoniel, sera transformée en une petite force d’élite, chargée de missions spéciales au nom de l’empereur aux côtés de l’armée impériale japonaise."
+
+MAN_a_tale_of_two_emperors:0 "Un conte de deux empereurs"
+MAN_a_tale_of_two_emperors_desc:0 "L’Empire chinois a enfin été restauré ! Si ses dirigeants légitimes sont de retour, nous ne devons pas oublier qui nous y a conduits. Sans nos bienveillants suzerains japonais, notre héritage aurait été détruit par le républicanisme et le banditisme. Nous devons non seulement accepter mais aussi embrasser notre rôle de serviteurs de l’Empire du Chrysanthème."
+
+MAN_our_place_in_the_empire:0 "Notre place dans l’Empire"
+MAN_our_place_in_the_empire_desc:0 "Nous devons reconnaître que le destin de la Mandchourie est mandchou. Nous resterons distincts du gouvernement central chinois et tirerons le meilleur parti de cette situation ! Nous poursuivrons notre expansion industrielle et économique rapide et montrerons au monde la gloire du Nouvel Ordre en Asie !"
+
+MAN_mongol_dominion:0 "Domination mongole"
+MAN_mongol_dominion_desc:0 "Le règne de [MEN.GetLeader] est au mieux opportuniste et au pire traître. L’État mongol intérieur a dépassé sa raison d’être et doit être intégré au [MAN.GetName]."
+
+MAN_request_continental_territory:0 "Demander des territoires continentaux"
+MAN_request_continental_territory_desc:0 "Bien que nous reconnaissions notre statut de [MAN.GetName], demander des territoires proches de nos frontières actuelles pourrait réduire les coûts administratifs pour notre suzerain et nous fournir davantage de main-d’œuvre et de ressources."
+
+MAN_mukden_convention:0 "Convention de Mukden"
+MAN_mukden_convention_desc:0 "Ayant établi notre position distincte de celle de la Chine, subsiste encore la question des anciens territoires des Qing volés par l’Empire russe. Nous convoquerons une convention à Mukden avec des officiels et des délégués militaires japonais pour décider si nous devons revendiquer ces territoires en Mongolie et en Mandchourie extérieure."
+
+MAN_depose_the_weak_monarch:0 "Déposer le monarque faible"
+MAN_depose_the_weak_monarch_desc:0 "Le règne de Puyi a servi d’outil pour obtenir une légitimité internationale en nous posant comme dirigeants légitimes de la Chine. Mais ayant renoncé à notre revendication sur la Chine, nous n’avons plus besoin de maintenir l’illusion de son autorité. Il doit partir. Son éviction est assurée, mais la question de son successeur est plus complexe."
+
+MAN_reorganize_the_kwantung_army:0 "Réorganiser l’armée du Guandong"
+MAN_reorganize_the_kwantung_army_desc:0 "Avec l’armée du Guandong désormais en contrôle absolu du [MAN.GetName], sa relation avec l’État doit être redéfinie. Elle sera fusionnée avec les forces armées mandchoues existantes pour former l’Armée de la Frontière continentale. Avant cela, une réorganisation des deux entités est nécessaire."
+
+MAN_establish_continental_frontier_army:0 "Créer l’Armée de la Frontière continentale"
+MAN_establish_continental_frontier_army_desc:0 "Les préparatifs sont terminés et l’Armée de la Frontière continentale peut être fondée. Les commandants de l’armée du Guandong, qui exerçaient jusqu’ici leur pouvoir dans l’ombre des dirigeants fantoches mandchous, assumeront désormais des postes officiels et mettront plus efficacement leur expertise au service du [MAN.GetName]."
+
+MAN_technological_supremacy:0 "Suprématie technologique"
+MAN_technological_supremacy_desc:0 "L’un des moyens de prouver notre supériorité et de légitimer le Nouvel Ordre en Asie est d’atteindre la suprématie technologique sur les nations voisines et même sur les puissances européennes."
+
+MAN_the_imperial_wildcard:0 "La carte impériale imprévisible"
+MAN_the_imperial_wildcard_desc:0 "S’étant d’abord présenté comme un candidat de compromis, Kishi a révélé son véritable visage peu après sa prise de fonction. Grâce à ses connexions à Tokyo, il a rapidement éliminé l’influence de l’armée du Guandong et forcé les industriels restants à agir sous sa supervision. Il a accordé aux zaibatsu carte blanche pour exploiter et abuser du [MAN.GetName], bien entendu sous son contrôle."
+
+MAN_council_of_corporations:0 "Conseil des corporations"
+MAN_council_of_corporations_desc:0 "En créant un conseil regroupant tous les acteurs économiques du [MAN.GetName], les efforts industriels pourront être coordonnés plus efficacement et les inquiétudes des investisseurs traitées rapidement par le gouvernement."
+
+MAN_the_concord_of_ethnicities:0 "La concorde des ethnies"
+MAN_the_concord_of_ethnicities_desc:0 "La montée de l’Association Concordia, soutenue par les industriels, nous permet de poursuivre notre objectif de création d’un État panasiatique où les peuples indigènes de la région collaborent et coopèrent."
+
+MAN_the_pan_asian_dream:0 "Le rêve panasiatique"
+MAN_the_pan_asian_dream_desc:0 "Le règne de l’Association Concordia a vu la diffusion d’une propagande efficace non seulement en Mandchourie mais aussi dans les territoires alliés. Cela a conduit de nombreux peuples, fuyant la guerre en Chine ou l’occupation japonaise en Corée, à immigrer, nous apportant ainsi le bénéfice de nombreux réfugiés au nom du rêve panasiatique."
+
+MAN_central_control:0 "Dictature parfaite"
+MAN_central_control_desc:0 "Kishi a créé en Mandchourie ce dont les autres dictateurs ne peuvent que rêver : un État où rien ne se passe sans sa connaissance, un État où chaque acteur sait qu’il doit loyauté à son chef ou être écrasé, un État où personne n’ose résister aux sbires du chef exécutif."
+
+MAN_operation_kantokuen:0 "Opération Kantokuen"
+MAN_operation_kantokuen_desc:0 "Le moment est venu de vaincre l’ennemi ultime du Nouvel Ordre en Asie. Les Russes occupent depuis des siècles des territoires asiatiques en prétendant qu’ils leur appartiennent. Leur arrogance sera écrasée par une alliance unie des nations asiatiques ! Nous devons préparer nos forces pour une longue marche en Sibérie et bannir les Européens une bonne fois pour toutes."
+
+MAN_greater_manchuria:0 "Grande Mandchourie"
+MAN_greater_manchuria_desc:0 "Le [MAN.GetName] doit viser à reprendre les territoires de Mandchourie extérieure volés par les Russes en 1858 et 1860. §RRevendiquer des terres que nous n’avons pas contrôlées depuis si longtemps déstabilisera notre nation, mais la libération de l’Asie en vaudra chaque goutte de sang !§!"
+
+MAN_beyond_baikal:0 "Au-delà du Baïkal"
+MAN_beyond_baikal_desc:0 "Pour montrer réellement au monde notre paradis des peuples panasiatiques, nos revendications s’étendront au-delà du lac Baïkal pour inclure tous les Mongols, Bouriates et bien d’autres ! §RRevendiquer de si vastes territoires déstabilisera fortement notre nation, mais nous devons rester fidèles à la cause du panasiatisme !§!"
+
+MAN_revise_imperial_treaties:0 "Réviser les traités impériaux"
+MAN_revise_imperial_treaties_desc:0 "Nos préparatifs sont achevés et le moment est venu ! Les traités d’Aïgoun et de Pékin seront révisés et nos territoires récupérés ! Les colonisateurs européens seront repoussés au-delà de l’Oural ! §RDéclarer la guerre à une nation plus puissante provoquera le défaitisme dans l’armée.§!"
+
+MAN_liberation_is_nigh:0 "La libération est proche !"
+MAN_liberation_is_nigh_desc:0 "Nous avons réussi à libérer les territoires revendiqués par le gouvernement. §GTout en aidant à éradiquer le défaitisme§!, il nous reste encore beaucoup à faire avant que les Russes ne se rendent !"
+
+MAN_propagate_nanshinron:0 "Propager le Nanshin-ron"
+MAN_propagate_nanshinron_desc:0 "La doctrine Nanshin-ron adoptée par le gouvernement japonais doit être propagée au sein du gouvernement afin de permettre la mobilisation contre les ennemis du Nouvel Ordre en Asie. Des constructions militaires seront entreprises pour préparer la guerre contre les nations hostiles."
+
+MAN_pressure_tibet:0 "Faire pression sur le Tibet"
+MAN_pressure_tibet_desc:0 "Le [TIB.GetName] fait obstacle à notre capacité de menacer le [RAJ.GetName]. Ils doivent soit se soumettre au contrôle japonais et accepter notre compromis en cédant le Qinghai, soit être écrasés par la puissance du Nouvel Ordre en Asie. Nous leur adresserons l’ultimatum."
+
+MAN_the_kashmir_border:0 "La frontière du Cachemire"
+MAN_the_kashmir_border_desc:0 "La frontière du Cachemire est notre deuxième possible base pour des opérations terrestres contre le [RAJ.GetName], en plus de la Birmanie. Nous devons assurer l’existence d’une infrastructure suffisante et de capacités logistiques adéquates pour soutenir de telles manœuvres."
+
+MAN_remodel_the_river_detachments:0 "Remanier les détachements fluviaux"
+MAN_remodel_the_river_detachments_desc:0 "Nos ennemis en Asie possèdent de nombreuses colonies qui ne peuvent être libérées que par de grandes manœuvres navales. Nous allons donc remanier nos détachements fluviaux pour les rendre capables de débarquements amphibies."
+MAN_hainan_forward_operating_base:0 "Base avancée de Hainan"
+MAN_hainan_forward_operating_base_desc:0 "Hainan est un emplacement parfait pour une base avancée destinée aux débarquements navals. Nous allons développer l’île afin de permettre le stationnement d’importantes forces de marines et de la flotte impériale japonaise."
+
+MAN_assume_continental_responsibilities:0 "Assumer les responsabilités continentales"
+MAN_assume_continental_responsibilities_desc:0 "En assumant les simples tâches de garnison et de défense, nous pouvons alléger la pression sur l’IJA et l’IJN afin de leur permettre de mener des opérations offensives. Nos forces seront adaptées pour être aptes au service dans les terrains birmans et malais."
+
+MAN_new_imperial_chinese_navy:0 "Nouvelle marine impériale chinoise"
+MAN_new_imperial_chinese_navy_desc:0 "Avec le retrait de l’Armée du Kwantung, nous allons renforcer nos forces armées indépendantes et recréer notre marine impériale !"
+
+MAN_manchurian_auxiliary_navy:0 "Marine auxiliaire mandchoue"
+MAN_manchurian_auxiliary_navy_desc:0 "Nous allons investir dans nos capacités navales afin d’accroître les activités commerciales et d’assister la marine impériale japonaise."
+
+
+#Events:
+
+manchukuo_events.1.d:0 "L’influence de l’Armée du Kwantung ne peut être sous-estimée. En faisant appel au chef d’état-major Seishiro Itagaki, le [MAN.GetName] a consolidé son alliance fragile avec l’Armée du Kwantung. Celle-ci sera assurée de conserver sa position d’influence et ses officiers se verront confier des postes gouvernementaux, légitimant leur présence continue, en échange de leur soutien à une revendication mandchoue sur toute la Chine. Si Tojo et Itagaki soutiennent notre projet, le reste du gouvernement japonais suivra."
+manchukuo_events.2.d:0 "La convention de Mukden s’est ouverte et la situation est tendue, car l’avenir du [MAN.GetName] est en jeu. L’Armée du Kwantung et les radicaux de l’Association Concordia font pression sur les délégués pour soutenir une guerre contre le [SOV.GetName] afin de libérer les territoires asiatiques occupés par une puissance européenne, tandis que les civils du [JAP.GetName] plaident pour que la question de l’expansion territoriale soit laissée aux Japonais et que le [MAN.GetName] continue de se concentrer sur son expansion industrielle. Nous devons décider maintenant si nous allons embrasser notre quête de libération de l’Asie."
+manchukuo_events.3.d:0 "Les membres les plus influents du gouvernement mandchou se sont réunis en grand secret à Séoul pour décider d’un successeur à la domination nominale obsolète de Puyi et de son ancienne élite Qing. Deux factions se sont formées : l’Armée du Kwantung, qui plaide pour une prise en main du Conseil d’État des affaires générales avec le général Doihara à sa tête ; et les industriels et investisseurs menés par Aikawa et Naori, qui défendent le maintien d’un pouvoir civil et l’expansion de l’Association Concordia en une organisation de masse semblable aux partis fascistes européens. Bien que ces factions soient toujours rivales, Kishi Nobusuke a su rester médiateur, entretenant de bonnes relations avec les deux camps. Contrôlant de fait l’économie du [MAN.GetName], certains appellent désormais à ce qu’il prenne la fonction de chef exécutif, en tant que candidat de compromis."
+manchukuo_events.4.d:0 "Ce qui était déjà clair pour la plupart des participants avant même d’arriver à la conférence est devenu évident : Aisin Gioro Puyi, actuel empereur de Mandchourie, ne sera pas le futur dirigeant d’une Chine unifiée — son absence à la conférence en a été la preuve.                                                                                                                                                                                                          La principale question est donc de savoir s’il faut maintenir la monarchie sous l’ancienne dynastie Qing, avec le remplacement de Puyi par son frère plus fiable, Pujie, ou bien opter pour la création d’un système décentralisé dirigé nominalement par un seigneur de guerre chinois respecté, comme le préconisent les militaires."
+manchukuo_events.5.d:0 "La délégation mandchoue a demandé le transfert de tous les territoires continentaux chinois que nous contrôlons. En échange, elle nous a assuré que le [MAN.GetName] ne chercherait pas à revendiquer la Chine entière."
+
+r56_manchuria.28.t:0 "[From.GetNameDEF] propose la vassalisation"
+r56_manchuria.28.d:0 "Par le Mandat du Ciel, le décret impérial proclame :\n\nTon royaume est désormais invité à devenir un vassal sous la glorieuse Grande dynastie Qing. Obéis, ou péris sous la puissance de l’Empire céleste.\n\nRespecte ce décret. "
+r56_manchuria.28.a:0 "L’édit est reçu."
+r56_manchuria.28.b:0 "Balivernes !"
+r56_manchuria.29.t:0 "[From.GetName] devient notre vassal"
+r56_manchuria.29.d:0 "Par décret de l’empereur, [From.GetName] est devenu un honorable vassal du [MAN.GetNameDEF]."
+r56_manchuria.29.a:0 "Le monde s’inclinera de nouveau devant la puissante dynastie Qing !"
+r56_manchuria.29.b:0 "Ils seront mieux lotis en faisant partie de l’Empire."
+r56_manchuria.30.t:0 "[From.GetName] refuse la vassalisation"
+r56_manchuria.30.d:0 "L’arrogant [From.GetLeader] a refusé notre généreuse offre de vassalisation !"
+r56_manchuria.30.a:0 "Ils réaliseront bientôt leur erreur."
+r56_manchuria.31.t:0 "Le [MAN.GetName] veut acquérir le Kanto-Shu"
+r56_manchuria.31.d:0 "Le [MAN.GetName] a envoyé un représentant pour discuter du transfert du Kanto-Shu."
+r56_manchuria.31.a:0 "D’accord."
+r56_manchuria.31.b:0 "Hors de question."
+r56_manchuria.32.t:0 "Kanto-Shu acquis"
+r56_manchuria.32.d:0 "Nous avons obtenu la propriété du Kanto-Shu !"
+r56_manchuria.32.a:0 "Le meilleur résultat."
+r56_manchuria.33.t:0 "Le Kanto-Shu reste aux mains des Japonais"
+r56_manchuria.33.d:0 "Notre proposition n’a pas su convaincre les officiels japonais, le Kanto-Shu est resté sous leur contrôle."
+r56_manchuria.33.a:0 "Nous n’y pouvons rien."
+
+
+#modifiers:
+
+MAN_national_cooperation_government_modifier:0 "Gouvernement de coopération nationale"
+
+#Ideas:
+MAN_grand_council_idea:0 "Le Grand Conseil"
+MAN_zongli_yamen:0 "Zongli Yamen"
+MAN_efficient_command_structure:0 "Structure de commandement efficace"
+MAN_cadets_in_jap_academy:0 "Cadets en académie japonaise"
+
+MAN_army_academies:0 "Académies militaires mandchoues"
+MAN_army_academies_desc:0 "La création d’académies militaires assurera une future génération d’officiers confiants, capables de coordonner une armée moderne."
+MAN_labor_corps_idea:0 "Corps de travail civils"
+MAN_labor_corps_idea_desc:0 "Un corps de travail civils peut décharger l’armée des tâches subalternes et lui permettre ainsi de se concentrer principalement sur le combat."
+
+MAN_self_sufficient_military_idea:0 "Forces armées autosuffisantes"
+MAN_self_sufficient_military_idea_desc:0 "Les réformes précédentes ont transformé une bande d’anciens bandits en une armée moderne et confiante, capable de tenir tête à toutes les menaces."
+
+MAN_self_sufficient_military_idea_2:0 "Armée de la Frontière continentale"
+MAN_self_sufficient_military_idea_2_desc:0 "L’unification de l’Armée du Kwantung et des forces mandchoues a entraîné une hausse de la qualité et du moral des forces armées."
+
+MAN_martial_law:0 "Loi martiale"
+MAN_martial_law_desc:0 "La mobilisation totale contre le gouvernement du KMT a poussé le gouvernement à instaurer la loi martiale sur le continent."
+
+MAN_idea_military_primacy:0 "Primauté militaire"
+MAN_idea_military_primacy_desc:0 "Avec l’escalade continue de la guerre en Chine, l’armée est devenue le premier bénéficiaire des fonds gouvernementaux."
+
+MAN_warlord_governorates:0 "Gouvernorats des seigneurs de guerre"
+MAN_warlord_governorates_desc:0 "Dans le cadre du système de ligue, des chefs militaires non loyaux au gouvernement du KMT ont été installés comme seigneurs de guerre dans les régions de Chine, créant un système décentralisé mais stable."
+
+MAN_idea_return_of_the_manchus:0 "Retour des Mandchous"
+MAN_idea_return_of_the_manchus_desc:0 "Les Mandchous reviennent une fois de plus pour régner légitimement sur la Chine."
+
+MAN_idea_manchu_imperial_guard:0 "Garde impériale mandchoue"
+MAN_idea_manchu_imperial_guard_desc:0 "La garde impériale mandchoue a été transformée d’une brigade cérémonielle en une branche conventionnelle des forces armées, désignée pour exécuter des manœuvres spéciales sur ordre de l’empereur."
+
+MAN_subservient_empire:0 "Empire subordonné"
+MAN_subservient_empire_desc:0 "Notre nouvel Empire chinois a accepté son rôle de puissance subordonnée à l’Empire japonais, prenant sa place naturelle dans le Nouvel Ordre en Asie."
+
+MAN_zaibatsu_state:0 "État des Zaibatsu"
+MAN_zaibatsu_state_desc:0 "[MAN.GetLeader] a donné carte blanche aux Zaibatsu en Mandchourie. Ils ont rapidement établi un État où toutes les opérations économiques sont contrôlées par eux et par Kishi lui-même. Si cela génère une forte croissance économique, le peuple, lui, souffre d’exploitation et de difficultés."
+
+MAN_five_races_under_one_union:0 "Cinq races sous une union"
+MAN_five_races_under_one_union_desc:0 "La devise nationale « Cinq races sous une union » symbolise la coopération entre les cinq ethnies présentes en Mandchourie : les Mandchous, les Japonais, les Hans, les Mongols et les Coréens."
+
+MAN_concord_of_the_five_races:0 "Concorde des cinq races"
+MAN_concord_of_the_five_races_desc:0 "Avec l’ascension de l’Association Concordia en tant qu’organisation de masse, le peuple de Mandchourie apprend les avantages de la coopération interethnique plutôt que de la haine et des rivalités. Le nouvel État peut véritablement être décrit comme une concorde des cinq ethnies."
+
+MAN_mantetsu_railway:0 "Chemins de fer Mantetsu"
+MAN_mantetsu_railway_desc:0 "La South Manchuria Railway Company, Ltd., ou Mantetsu, est un grand conglomérat industriel, l’une des rares sociétés encore actives à avoir précédé la fondation du [MAN.GetName]. Malgré son nom, Mantetsu est actif dans presque tous les secteurs de l’économie civile et exerce donc une grande influence sur l’État lui-même."
+
+MAN_widespread_defeatism:0 "Défaitisme généralisé"
+MAN_widespread_defeatism_desc:0 "La déclaration de guerre au [SOV.GetName] a suscité un défaitisme généralisé au sein des forces armées et de la population civile."
+
+MAN_extreme_defeatism:0 "Défaitisme extrême"
+MAN_extrene_defeatism_desc:0 "La déclaration de guerre au [SOV.GetName] a suscité un défaitisme généralisé au sein des forces armées et de la population civile."
+
+MAN_false_government:0 "Gouvernement illégitime de Chine"
+MAN_false_government_desc:0 "Nos forces ont réussi nominalement à unir tous les territoires chinois sous notre gouvernement, mais la résistance communiste et républicaine persiste en raison de la revendication illégitime de notre autorité sur la Chine. Le peuple chinois n’acceptera jamais pleinement qu’un État fantoche japonais soit son gouvernement légitime. §RCet esprit national ne peut pas être supprimé§!"
+
+MAN_specialized_units:0 "Forces spéciales mandchoues"
+MAN_manchurian_army:0 "Armée conseillée par les Japonais"
+MAN_japanese_settlers:0 "Colons japonais"
+MAN_resource_manchu_idea:0 "Exploitation japonaise"
+
+#Traits:
+marshal_of_the_league:0 "Maréchal de la Ligue"
+emperor_of_china:0 "Empereur de Chine"
+monster_of_the_showa_era:0 "Monstre de l’ère Shōwa"
+economic_manager:0 "Gestionnaire économique"
+lawrence_of_manchuria:0 "Lawrence de Mandchourie"
+puppet_emperor:0 "Empereur fantoche"
+low_legitimacy:0 "Faible légitimité"
+joan_of_arc_of_manchukuo:0 "Jeanne d’Arc du Mandchoukouo"
+
+#Flags:
+asian_liberation:0 "§GA adopté la libération asiatique§ §W "
+
+#Tooltip text:
+asian_war:0 "§GLa guerre sera déclarée à toutes les nations possédant des territoires auparavant revendiqués !§!"
+MAN_vassal_tt:0 "Possède tous les États dans les régions suivantes :\n       §YMandchourie (sauf péninsule de Chōsen)§!\n       §YNord de la Chine§!\n       §YEst de la Chine§!\n       §YOuest de la Chine§!\n       §YSud de la Chine (sauf Guangzhouwan, Macao et Hong Kong)§!"
+
+### opinions ###
+helped_to_arrest_konstantin:0 "A aidé à arrêter Konstantin"
+
+#concerns
+Mukden_armory:0 "Arsenal de Mukden"
