@@ -1,0 +1,127 @@
+l_french:
+
+monaco_focus:0 "Arbre de priorités national monégasque"
+
+#personnages
+MNC_louis_antoine_grimaldi:0 "Louis Antoine Grimaldi"
+MNC_emile_roblot:0 "Émile Roblot"
+MNC_pierre_de_witasse:0 "Pierre de Witasse"
+MNC_benjamin_tucker:0 "Benjamin Tucker"
+MNC_rainier_louis_henri_grimaldi:0 "Rainier Louis Henri Grimaldi"
+MNC_charlotte_louise_juliette_grimaldi:0 "Charlotte Louise Juliette Grimaldi"
+
+#idées
+MNC_prestigious_international_reputation:0 "Réputation internationale prestigieuse"
+MNC_prestigious_international_reputation_desc:0 "[ROOT.GetNameDefCap] est connu dans le monde entier pour sa richesse ostentatoire, ses casinos et ses événements prestigieux tels que le Grand Prix de Monaco. Cela lui confère une réputation internationale prestigieuse, qu’il pourrait aisément exploiter à son avantage s’il le souhaite."
+MNC_reluctant_puppet:0 "Marionnette réticente"
+
+#militaire/industrie
+MNC_build_monaco_city_airport:0 "Construire l’aéroport de [1012.GetCapitalVictoryPointName]"
+MNC_the_monegasque_air_fleet:0 "La flotte aérienne [ROOT.GetAdjective]"
+MNC_torpedo_bombers:0 "Torpilleurs"
+MNC_torpedo_bombers_desc:0 "Torpilleurs"
+MNC_militarize_the_police_force:0 "Militariser la Force publique"
+MNC_weaponry_modernization:0 "Modernisation de l’armement"
+MNC_recruit_marines:0 "Recruter des marines"
+MNC_develop_special_forces:0 "Développer les forces spéciales"
+MNC_the_monaco_industrial_fund:0 "Fonds industriel de [ROOT.GetNonIdeologyName]"
+MNC_monaco_military_institute:0 "Institut militaire [ROOT.GetNonIdeologyName]"
+MNC_the_grand_university_of_monaco_city:0 "La grande université de [1012.GetCapitalVictoryPointName]"
+MNC_economic_mobilization:0 "Mobilisation économique"
+MNC_encourage_local_arms_production:0 "Encourager la production locale d’armes"
+MNC_resource_commission:0 "Commission des ressources"
+MNC_the_roars_of_thunder:0 "Les rugissements du tonnerre"
+MNC_introduce_motorization_technologies:0 "Introduire les technologies de motorisation"
+MNC_the_steel_lions:0 "Les lions d’acier"
+
+MNC_develop_our_dockyards:0 "Développer nos chantiers navals"
+MNC_develop_indigenous_models:0 "Développer des modèles indigènes"
+MNC_the_big_guns:0 "Les gros canons"
+MNC_monegasque_naval_academy:0 "Académie navale [ROOT.GetAdjective]"
+
+#traits
+MNC_louis_ii_of_monaco:0 "Louis II, Prince de Monaco"
+MNC_louis_ii_of_monaco_idea:0 "Louis II, Prince de Monaco"
+MNC_Louis_II:0 "Louis II"
+MNC_Rainier_III:0 "Rainier III"
+MNC_rainier_iii_of_monaco_idea:0 "Rainier III, Prince de Monaco"
+MNC_rainier_iii_of_monaco_fascism_idea:0 "Rainier III, Prince de Monaco"
+MNC_Rainier_III_fascism:0 "Rainier III"
+MNC_Rainier_III_fascism_desc:0 "Bien qu’opposé avec force au gouvernement actuel, le prince est maintenu en marionnette, à son grand désarroi."
+
+#Événements
+monaco.1.t:0 "Les forces italiennes avancent sur Monaco !"
+monaco.1.d:0 "En dépit de nos assurances de neutralité, [ITA.GetLeader] a annoncé une intervention à Monaco, affirmant que les installations de défense françaises, construites avant la guerre, étaient la preuve de nos projets de rompre notre neutralité. La situation est sombre, mais se soumettre à l’Italie est-il la meilleure option ?"
+monaco.1.a:0 "Nous devons nous soumettre."
+monaco.1.b:0 "Rassemblez tous les [MNC.GetAdjective], nous devons résister !"
+
+monaco.2.t:0 "L’Italie se retire de Monaco"
+monaco.2.d:0 "Alors que la guerre tourne contre elle, l’armée italienne commence à se retirer de Monaco. Bien que les Italiens aient laissé leur marque, la situation pourrait enfin s’améliorer pour nous."
+monaco.2.a:0 "Excellente nouvelle !"
+
+monaco.3.t:0 "Les forces allemandes avancent sur Monaco !"
+monaco.3.d:0 "Le vide laissé par la garnison italienne vient d’être comblé par les troupes allemandes. Une fois de plus, nous avons été transformés en État fantoche par une nation fasciste. Le gouvernement, craignant des représailles, supplie [Root.GetLeader] de collaborer avec les Allemands et de se plier à toutes leurs exigences, dans l’espoir d’un traitement préférentiel."
+monaco.3.a:0 "Nous devons nous soumettre, encore une fois."
+monaco.3.b:0 "Rassemblez tous les [MNC.GetAdjective], nous devons résister !"
+
+monaco.4.t:0 "L’Allemagne se retire de Monaco"
+monaco.4.d:0 "Une fois encore, la guerre tournant contre eux, les troupes allemandes se sont retirées. Si la population n’est pas satisfaite de l’attitude de notre gouvernement, notre collaboration nous a peut-être épargnés des horreurs vécues ailleurs en Europe."
+monaco.4.a:0 "Espérons que tout cela est terminé."
+
+monaco.5.t:0 "Les troupes [ROOT.GetAdjective] occupent Monaco"
+monaco.5.d:0 "À la suite d’une courte campagne, les troupes [ROOT.GetAdjective] ont franchi la frontière [MNC.GetAdjective], occupant [MNC.GetNameDef]. Bien que le territoire ne soit pas d’une importance capitale, cette occupation élimine un facteur d’incertitude, car nos ennemis auraient pu l’utiliser comme base pour attaquer le sud de la France."
+monaco.5.a:0 "Allons visiter ces casinos."
+
+monaco.6.t:0 "L’Italie occupe Monaco"
+monaco.6.d:0 "Affirmant que le gouvernement [MNC.GetAdjective] avait rompu sa neutralité, [ITA.GetLeader] a lancé une petite invasion de la cité-État de Monaco. L’occupation semble clémente, le gouvernement étant autorisé à rester en place et la richesse des citoyens n’ayant pas été saisie."
+monaco.6.a:0 "La guerre continue."
+
+monaco.7.t:0 "L’Allemagne occupe Monaco"
+monaco.7.d:0 "Après le retrait de l’Italie, l’armée allemande a investi Monaco, entraînant une nouvelle occupation de la petite cité-État. \n\nBien que toujours clémente, l’Allemagne a imposé au gouvernement [MNC.GetAdjective] un ensemble d’exigences."
+monaco.7.a:0 "Monaco n’a vraiment aucun répit."
+
+monaco.8.t:0 "Mort de Louis II"
+monaco.8.d:0 "Aujourd’hui, Louis Honoré Charles Antoine Grimaldi, connu sous le nom de Louis II, est décédé dans son château. \n\nSon petit-fils, Rainier Louis Henri Maxence Bertrand Grimaldi, devient le chef de la Maison Grimaldi après que sa fille, Charlotte, a renoncé à ses droits au trône. Il prend le nom de règne de « Rainier III »."
+monaco.8.a:0 "Le Prince est mort ! Vive le Prince !"
+monaco.8.b:0 "Peu importe ces autocrates."
+
+monaco.9.t:0 "L’avenir de la Maison Grimaldi"
+monaco.9.d:0 "À la suite de notre récent changement de gouvernement, des discussions ont lieu en vue de rédiger une nouvelle constitution afin de démocratiser la nation. L’un des sujets abordés concerne l’avenir même de la Principauté. \n\nBien que le mouvement républicain à Monaco ne soit pas aussi important qu’en France, certains appellent à l’abolition de la monarchie pour transformer Monaco en république. \n\nCependant, les détracteurs de cette idée citent des nations comme le Royaume-Uni ou la Norvège, qui ont trouvé un compromis en utilisant la monarchie comme figure de ralliement."
+monaco.9.a:0 "Gardons le prince."
+monaco.9.b:0 "À bas le prince !"
+
+monaco.10.t:0 "Une monarchie fantoche ?"
+monaco.10.d:0 "Notre récente réorganisation du gouvernement a suscité le scepticisme du prince et de ses plus proches alliés. \n\nBien sûr, il n’est pas en position de se défendre, mais certains au sein du gouvernement se demandent s’il vaut la peine de le garder."
+monaco.10.a:0 "Il nous est encore utile."
+monaco.10.b:0 "Nous n’avons pas besoin de lui."
+
+monaco.11.t:0 "Chute de la dynastie Grimaldi"
+monaco.11.d:0 "À la suite de troubles politiques dans la petite Principauté de Monaco, la dynastie Grimaldi, qui régnait depuis 1297, a été renversée. De plus, la constitution a été réécrite, rompant nombre de traités conclus entre nos nations. \n\nCela met en danger nos intérêts dans la cité et pourrait permettre à nos ennemis d’exercer leur influence sur le petit État. Mais une intervention en vaut-elle vraiment la peine ?"
+monaco.11.a:0 "Nous avons d’autres soucis."
+monaco.11.b:0 "Lançons un ultimatum."
+
+monaco.12.t:0 "Le sort de Monaco"
+monaco.12.d:0 "Ayant triomphé face aux forces françaises, nous occupons désormais la Savoie. Cependant, le minuscule État de Monaco, enclavé dans notre territoire, a permis la construction de défenses françaises sur son sol. \n\nCela viole leur prétendue neutralité et, malgré leurs assurances, ils pourraient servir de tremplin à nos ennemis."
+monaco.12.a:0 "Envahissons-les rapidement."
+monaco.12.b:0 "Pourquoi s’embêter."
+
+monaco.13.t:0 "Monaco nous défie"
+monaco.13.d:0 "Dans un geste surprenant, le minuscule [MNC.GetName] a non seulement refusé nos exigences, mais, avec un mélange de milices et d’unités de l’armée, a repoussé notre première invasion. \n\nBien que nous puissions aisément écraser leur petite armée, ce fiasco mineur a terni notre réputation, les détracteurs affirmant que même une nation aussi petite que Monaco n’a plus peur de nous."
+monaco.13.a:0 "Ils paieront pour leur insolence !"
+
+monaco.14.t:0 "L’occupation de Monaco"
+monaco.14.d:0 "À la suite de notre victoire en France et de leur contrôle sur la Savoie, l’Italie avait envahi et occupé Monaco, installant un gouvernement fantoche afin de sécuriser l’entrée potentielle des Alliés. \n\nAvec le retournement de la guerre et le retrait italien de Savoie, il nous revient de décider du sort de cette petite cité. Une invasion serait triviale et le gouvernement monégasque coopérerait probablement, comme il l’a fait avec l’Italie. Mais est-ce que cela vaut la peine ?"
+monaco.14.a:0 "Lançons l’invasion."
+monaco.14.b:0 "Nos troupes sont plus utiles ailleurs."
+
+Monaco_French_Intervention_TT:0 "§RLes Français n’apprécieront pas et pourraient réagir.§!"
+
+#Tags cosmétiques
+MNC_republic_democratic:0 "République monégasque"
+MNC_republic_democratic_DEF:0 "la République monégasque"
+MNC_republic_fascism:0 "État de Monaco"
+MNC_republic_fascism_DEF:0 "l’État de Monaco"
+MNC_republic_neutrality:0 "République monégasque"
+MNC_republic_neutrality_DEF:0 "la République monégasque"
+MNC_neutrality_party_republic:0 "Compagnie des carabiniers"
+MNC_neutrality_party_republic_long:0 "Junte de la Compagnie des carabiniers"
