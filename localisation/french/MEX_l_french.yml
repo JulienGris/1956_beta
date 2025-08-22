@@ -1,0 +1,669 @@
+l_french:
+ #option ajoutée pour l’événement MTG
+ mexico.2.d:0 "Montrer notre soutien aux travailleurs mexicains."
+
+ ###AJOUTS À L’ARBRE VANILLA
+ MEX_high_illiteracy:0 "Analphabétisme élevé"
+ MEX_high_illiteracy_desc:0 "La négligence des gouvernements précédents a conduit à ce que le Mexique possède aujourd’hui une large population rurale analphabète. Une action forte du gouvernement sera nécessaire pour surmonter ce frein à notre développement."
+ MEX_decision_fund_secular_education:0 "Financer l’éducation laïque"
+ MEX_decision_fund_secular_education_desc:0 "Il est temps d’agir contre l’analphabétisme rural au Mexique. Nous forgerons une nouvelle génération de Mexicains, libérés de la corruption cléricale et unis derrière notre grande nation."
+ MEX_decision_promote_catholic_schooling:0 "Promouvoir l’enseignement catholique"
+ MEX_decision_promote_catholic_schooling_desc:0 "Il est temps de lutter contre l’analphabétisme qui touche nos régions rurales. En nous appuyant sur les organisations catholiques, nous pourrons former une nouvelle génération de Mexicains brillants et pieux."
+
+ mexico.57.title:0 "Les monarchistes mexicains proposent une restauration impériale"
+ mexico.57.desc:0 "Bien que le mouvement monarchiste au Mexique reste faible, certains de ses partisans avancent l’idée qu’une restauration royale renforcerait notre prestige comme grande puissance catholique. Même si cela serait impopulaire, la décision finale nous appartient."
+ mexico.57.a:0 "Quelle idée absurde !"
+ mexico.57.b:0 "Une reine nous rejoindra dans notre combat pour la gloire et le salut !"
+ MEX_idea_unpopular_restoration:0 "Restauration impopulaire"
+ MEX_idea_unpopular_restoration_desc:0 "Malgré notre droit divin à gouverner, l’opposition républicaine paralyse la nation. Ces traîtres doivent être écrasés ou ralliés si nous voulons restaurer Dieu et la stabilité au Mexique."
+ MEX_idea_lackluster_support_for_the_monarchy:0 "Soutien mitigé à la monarchie"
+ MEX_idea_growing_support_for_the_monarchy:0 "Soutien croissant à la monarchie"
+
+ MEX_focus_support_the_spanish_carlists:0 "Soutenir les carlistes [SPB.GetAdjective]"
+ MEX_focus_support_the_spanish_carlists_desc:0 "Notre victoire ne saurait se limiter au Mexique. Les carlistes espagnols partagent notre cause : rejoignons nos frères et écrasons les horreurs qui frappent la péninsule !"
+
+ MEX_focus_focus_on_european_affairs:0 "Se concentrer sur les affaires européennes"
+ MEX_focus_focus_on_european_affairs_desc:0 "Les Yanquis sont devenus une puissance mondiale en s’engageant outre-mer. Si le Mexique veut devenir une grande puissance, il doit jouer un rôle décisif dans la politique internationale."
+ MEX_decision_seek_membership_in_the_FROM:0 "Demander l’adhésion à [From.GetFactionName]"
+ FACTION_IMPERIUM_HISPANICUM:0 "Imperium Hispanicum"
+
+ MEX_focus_defend_the_imperial_restoration:0 "Défendre la restauration impériale"
+ MEX_focus_defend_the_imperial_restoration_desc:0 "Si la victoire politique ne s’obtenait que par le sang, Calles tiendrait encore le pouvoir. Nous devons rallier le peuple et défendre l’honneur de la monarchie contre les accusations d’être des pions de l’impérialisme occidental."
+ MEX_decision_destroy_lingering_callista_influence:0 "Détruire l’influence calliste persistante"
+ MEX_decision_seek_the_papacys_support:0 "Chercher le soutien du Saint-Siège"
+ MEX_decision_restore_the_southern_borders:0 "Restaurer nos frontières méridionales"
+ MEX_decision_restore_the_southern_borders_desc:0 "Si les républicains veulent nous traiter de marionnettes européennes, rien ne réfutera mieux ces accusations qu’en restaurant l’influence mexicaine sur le continent américain."
+ MEX_decision_establish_control_in_madrid:0 "Établir le contrôle à Madrid"
+ MEX_decision_establish_control_in_madrid_desc:0 "En rétablissant notre autorité en Espagne, nous montrerons à notre peuple que nous bâtissons une grande puissance transatlantique crainte dans le monde entier."
+
+ MEX_focus_the_empresss_grand_armada:0 "La grande armada de l’impératrice"
+ MEX_focus_the_empresss_grand_armada_desc:0 "En tant qu’impératrice d’un vaste empire en expansion, il est impératif de développer une flotte prestigieuse à la hauteur de nos ambitions."
+
+ MEX_focus_return_to_the_peninsula:0 "Retourner dans la péninsule"
+ MEX_focus_return_to_the_peninsula_desc:0 "L’Espagne a été affaiblie trop longtemps. En tant que puissance montante du monde hispanique, il est temps de placer l’Espagne sous notre autorité totale."
+
+ mexico.58.title:0 "La question portugaise"
+ mexico.58.desc:0 "Comme l’Espagne, le Portugal a subi un long déclin impérial. En leur proposant une part du butin espagnol, peut-être pourront-ils se relever à nos côtés. Mais le destin de Lisbonne est entre nos mains."
+ mexico.58.a:0 "Offrons-leur la Galice et le Rif marocain en échange de leur soutien."
+ mexico.58.b:0 "Leur indépendance ne sera pas tolérée."
+ mexico.59.title:0 "Une offre mexicaine"
+ mexico.59.desc:0 "L’ambassadeur mexicain à Lisbonne nous propose une alliance contre l’Espagne : en échange de notre aide, ils nous cèdent la Galice et le Rif marocain. Que devons-nous répondre ?"
+ mexico.59.a:0 "Ensemble, nous serons invincibles !"
+ mexico.59.b:0 "Pourquoi soutenir ces fous ?"
+ mexico.60.title:0 "Les Portugais acceptent !"
+ mexico.60.desc:0 "Le Portugal a choisi de s’allier avec nous pour partitionner la péninsule ibérique. Désormais, il ne reste plus qu’à vaincre l’Espagne et à fonder deux grands empires."
+ mexico.60.a:0 "Excellente nouvelle."
+ mexico.61.title:0 "Les Portugais refusent !"
+ mexico.61.desc:0 "Malgré notre offre équitable, le Portugal a refusé de s’allier à nous contre l’Espagne."
+ mexico.61.a:0 "Peu importe, rien n’arrêtera nos plans."
+ mexico.61.b:0 "Ils apprendront le prix de la désobéissance."
+
+ MEX_focus_the_defenders_of_catholicism:0 "Les défenseurs du catholicisme"
+ MEX_focus_the_defenders_of_catholicism_desc:0 "En tant que grande nation catholique en plein essor, nous guiderons le monde catholique par la foi, revendiquant des lieux saints et frappant nos ennemis avant qu’ils ne puissent nuire à nos frères."
+
+ MEX_focus_forge_an_overseas_empire:0 "Forger un empire d’outre-mer"
+ MEX_focus_forge_an_overseas_empire_desc:0 "Il est tragique que l’Empire mexicain ait été trop affaibli par les dissensions internes pour participer au partage de l’Afrique. Aujourd’hui unis et forts, il est temps de marquer notre présence outre-mer."
+ MEX_idea_towards_a_pluricontinental_mexico:0 "Vers un Mexique pluricontinental"
+
+ MEX_focus_assert_control_in_manila:0 "Affirmer le contrôle sur Manille"
+ MEX_focus_assert_control_in_manila_desc:0 "Sous la colonisation espagnole, de nombreux Néo-Espagnols se sont installés aux Philippines. Avec le départ des [USA.GetAdjective], nous revendiquons cet héritage de notre nation."
+ MEX_EMPIRE_neutrality:0 "Empire mexicain"
+
+ ###56 FOCUS
+ Mexican_focus:0 "Arbre national mexicain"
+
+ MEX_force_calles_into_exile:0 "Forcer Calles à l’exil"
+ MEX_force_calles_into_exile_desc:0 "En conflit avec Cárdenas et affaibli, Calles a perdu tout soutien et a pu être exilé sans opposition."
+
+ MEX_oppose_cardenas_liberal_reforms:0 "S’opposer aux réformes libérales de Cárdenas"
+ MEX_oppose_cardenas_liberal_reforms_desc:0 "Cárdenas trouble l’héritage de Calles et continue de pousser son agenda gauchiste. Nos caudillos fidèles se préparent à agir."
+
+ MEX_purge_callistas:0 "Purger les callistes"
+ MEX_purge_callistas_desc:0 "Exilé, Calles conserve des soutiens dans l’armée. Pour préserver la liberté mexicaine, nous devons éliminer ses partisans."
+
+ MEX_contain_the_caudillos:0 "Contenir les caudillos"
+ MEX_contain_the_caudillos_desc:0 "Les caudillos demeurent puissants, mais unis nous pourrons les diviser et les réduire, forgeant ainsi un nouveau noyau pour nos forces armées."
+
+ MEX_establish_confederation_of_mexican_workers:0 "Fonder la Confédération des travailleurs mexicains"
+ MEX_establish_confederation_of_mexican_workers_desc:0 "La CTM est la plus grande confédération syndicale du Mexique, un pilier électoral crucial après la chute de Calles."
+
+ MEX_fund_national_railway_company:0 "Financer la Compagnie nationale des chemins de fer"
+ MEX_fund_national_railway_company_desc:0 "Nos infrastructures sont obsolètes. Il est nécessaire de créer une compagnie ferroviaire publique pour moderniser le réseau."
+
+ MEX_enforce_the_land_reforms:0 "Appliquer la réforme agraire"
+ MEX_enforce_the_land_reforms_desc:0 "Des millions d’hectares, dont certains aux mains de compagnies américaines, ont été redistribués au peuple mexicain."
+
+ MEX_cleanse_the_cabinet:0 "Nettoyer le cabinet"
+ MEX_cleanse_the_cabinet_desc:0 "Calles écarté, nous pouvons exiger la démission des ministres actuels et en nommer de nouveaux."
+
+ MEX_Selective_Retirement:0 "Retraite sélective"
+ MEX_Selective_Retirement_desc:0 "Nous pouvons choisir de ne retirer que certains généraux pour conserver les plus expérimentés. Mais cela sera perçu comme une manœuvre de pouvoir par les caudillos paranoïaques."
+
+ MEX_enforce_the_mandatory_retirement:0 "Appliquer la loi sur la retraite obligatoire"
+ MEX_enforce_the_mandatory_retirement_desc:0 "Ironiquement, le Mexique força de nombreux généraux à prendre leur retraite. L’objectif était de stabiliser le pays en écartant les vieux caudillos et en faisant place à une nouvelle génération. Cette mesure fut étonnamment acceptée sans résistance, même par Maximino Ávila Camacho."
+
+ MEX_secure_the_leftist_support:0 "S’assurer du soutien des gauchistes"
+ MEX_secure_the_leftist_support_desc:0 "Les communistes ont raison : pour résoudre les maux du Mexique, nous devons abandonner le capitalisme qui a tant fait souffrir notre peuple sous l’emprise des compagnies étrangères."
+
+ MEX_rural_militias_recruitment_draft:0 "Conscription des milices rurales"
+ MEX_rural_militias_recruitment_draft_desc:0 "L’Union agraire prévoyait de militariser les campagnes et d’intégrer les miliciens enregistrés dans les réserves militaires. Le gouvernement estimait qu’environ 3 millions de Mexicains pourraient ainsi être mobilisés."
+
+ MEX_side_with_the_rich:0 "Se ranger du côté des riches"
+ MEX_side_with_the_rich_desc:0 "Les porfiristes ont raison : le Mexique progressait plus vite sous dictature et a connu la plus longue période de paix de son histoire. Nous devons annuler les élections, car nous savons ce qui est juste."
+
+ MEX_negotiate_with_conservatives:0 "Négocier avec les conservateurs"
+ MEX_negotiate_with_conservatives_desc:0 "La seule véritable solution aux maux du Mexique est un vote démocratique authentique. Tout le reste n’est que répétition des erreurs passées."
+
+ MEX_consolidate_the_prm_grip:0 "Consolider la mainmise du PRM"
+ MEX_consolidate_the_prm_grip_desc:0 "La popularité croissante du PRM ne laisse pas d’autre option que d’en faire la voix de tout le Mexique. Les quatre ailes du parti doivent unir leurs efforts pour établir un État stable."
+
+ MEX_seize_strategic_businesses:0 "Saisir les entreprises stratégiques"
+ MEX_seize_strategic_businesses_desc:0 "L’article 33 stipule que seuls les citoyens mexicains peuvent influencer la politique nationale. Il est temps de l’appliquer et d’éliminer les ennemis politiques, consolidant ainsi notre monopole."
+
+ electric:0 "Commission fédérale de l’électricité"
+
+ MEX_oil_the_broken_relationships:0 "Réparer les relations pétrolières"
+ MEX_oil_the_broken_relationships_desc:0 "Après la nationalisation, nos experts étrangers ont quitté le pays, réduisant notre production. Nous pouvons attirer de nouveaux spécialistes en échange de pétrole, optimisant nos champs et augmentant les profits avec peu d’investissement."
+
+ MEX_pan_latinism_not_pan_americanism:0 "Pan-latinité, pas pan-américanisme"
+ MEX_pan_latinism_not_pan_americanism_desc:0 "Malgré les efforts des États-Unis, ils ne domineront pas l’Amérique latine ! Le Mexique avait envisagé un bloc neutre de pays latino-américains pour affirmer notre identité et contrer l’impérialisme yankee."
+
+ MEX_ratify_the_pacific_alliance:0 "Ratifier l’alliance du Pacifique"
+ MEX_ratify_the_pacific_alliance_desc:0 "Les services de renseignement savaient que les États-Unis et le Japon allaient vers une guerre. Le Mexique refusa d’appuyer Tokyo, incapable de défendre nos côtes des bombardements américains."
+
+ MEX_distance_from_europe:0 "S’éloigner de l’Europe"
+ MEX_distance_from_europe_desc:0 "Pendant la guerre, nous avions signé une commission de défense avec les États-Unis, en échange de livraisons d’armes. L’aide fut insignifiante et l’accord s’effondra rapidement après la guerre."
+
+ MEX_reintroduce_cientificos:0 "Réintroduire les Científicos"
+ MEX_reintroduce_cientificos_desc:0 "Les Científicos étaient des conseillers technocrates de Porfirio Díaz, travaillant avec les élites riches pour renforcer l’État mexicain, industriellement comme scientifiquement."
+
+ MEX_empower_the_caudillos:0 "Renforcer les caudillos"
+ MEX_empower_the_caudillos_desc:0 "Les caudillos étaient les hommes forts du Mexique, officiers militaires souvent plus puissants que l’État fédéral dans leurs régions. Ils usaient de cette influence pour défendre leurs idéaux, fomenter des coups ou exiger plus de budget militaire."
+
+ MEX_strengthen_seccion_primera:0 "Renforcer la Sección Primera"
+ MEX_strengthen_seccion_primera_desc:0 "La DGIPS était le service de sécurité intérieure du Mexique, équivalent du FBI ou de la DEA, avant d’être renommée DFS."
+
+ MEX_finish_the_red_transition:0 "Achever la transition rouge"
+ MEX_finish_the_red_transition_desc:0 "Francisco J. Múgica incarne l’aile radicale de gauche du régime de Cárdenas. Avec quelques remplacements bien choisis, il peut devenir chef du parti et l’opposition n’y pourra rien."
+
+ MEX_subversive_nationalization:0 "Nationalisation subversive"
+ MEX_subversive_nationalization_desc:0 "Les champs de Poza Rica, les plus productifs du pays, étaient convoités par les élites. Mais les révolutionnaires veulent les socialiser pour en faire un moteur de prospérité nationale."
+
+ MEX_subsidize_national_economy:0 "Subventionner l’économie nationale"
+ MEX_subsidize_national_economy_desc:0 "Une partie du budget doit être dirigée vers l’industrialisation, indépendante du capital et de l’influence étrangère. Le centre du Mexique reste en retard et a besoin de soutien."
+
+ MEX_focus_on_civilian_economy:0 "Se concentrer sur l’économie civile"
+ MEX_focus_on_civilian_economy_desc:0 "Que les puissances mondiales s’entredéchirent pour des terres inutiles. Nous, nous devons bâtir et développer notre propre pays."
+
+ MEX_support_militaristic_sentiment:0 "Soutenir le sentiment militariste"
+ MEX_support_militaristic_sentiment_desc:0 "Notre État a besoin de femmes et d’hommes forts pour le défendre. Nous devons étendre les usines et accroître la production afin de résister à la tempête qui s’annonce."
+
+ MEX_enforce_article_27:0 "Appliquer l’article 27"
+ MEX_enforce_article_27_desc:0 "Cet article de la Constitution confère à l’État la propriété des ressources stratégiques. Il fut la base légale de la création de PEMEX."
+
+ MEX_socialist_education:0 "Éducation socialiste"
+ MEX_socialist_education_desc:0 "En donnant à toutes les classes sociales un accès égal, nous vaincrons l’analphabétisme et fonderons une société moderne et industrieuse."
+
+ MEX_the_gentleman_agreement:0 "L’accord des gentlemen"
+ MEX_the_gentleman_agreement_desc:0 "Sans coalition, le pays sombrera à nouveau dans le chaos. Heureusement, certains candidats sont prêts à jouer ce rôle de médiateurs."
+
+ MEX_reassure_investors:0 "Rassurer les investisseurs"
+ MEX_reassure_investors_desc:0 "Après la nationalisation de PEMEX, il fallut six ans au Mexique pour regagner la confiance des investisseurs étrangers par de nouvelles lois protectrices."
+
+ MEX_amend_article_3:0 "Amender l’article 3"
+ MEX_amend_article_3_desc:0 "L’article 3 garantissait une éducation socialiste. Après 1940, cette clause fut supprimée."
+
+ MEX_strengthen_ties_with_industrialists:0 "Renforcer les liens avec les industriels"
+ MEX_strengthen_ties_with_industrialists_desc:0 "Axel Wenner-Gren, riche homme d’affaires suédois, tenta d’influencer le Mexique dans les années 1930. Suspecté de liens avec les nazis, il fut finalement mis sur liste noire par les Alliés."
+
+ MEX_utilize_the_foreign_capital:0 "Exploiter le capital étranger"
+ MEX_utilize_the_foreign_capital_desc:0 "Les investisseurs étrangers de droite offrent un terrain favorable à un Mexique économiquement fort. Profitons de leur soutien, quitte à en assumer les conséquences plus tard."
+
+ MEX_export_control_board:0 "Conseil de contrôle des exportations"
+ MEX_export_control_board_desc:0 "Wenner-Gren proposa la création d’un conseil qui l’aurait rendu maître de l’économie mexicaine. Cette initiative provoqua sa mise à l’écart par les Alliés."
+
+ MEX_assist_the_democratic_cause:0 "Soutenir la cause démocratique"
+ MEX_assist_the_democratic_cause_desc:0 "Après l’attaque des pétroliers mexicains par les sous-marins allemands en 1942, le Mexique entra en guerre aux côtés des Alliés."
+
+ MEX_sign_the_sinclair_agreements:0 "Signer l’accord Sinclair"
+ MEX_sign_the_sinclair_agreements_desc:0 "Cet accord fut le premier à reconnaître la propriété mexicaine du pétrole. Il devait être vendu à Sinclair, qui l’acheminait ensuite à l’effort de guerre."
+
+ MEX_secure_the_coastline:0 "Sécuriser le littoral"
+ MEX_secure_the_coastline_desc:0 "Les Américains réclamèrent des droits de base et la construction de radars sur nos côtes vulnérables."
+
+ MEX_launch_the_bracero_program:0 "Lancer le programme Bracero"
+ MEX_launch_the_bracero_program_desc:0 "Ce programme envoyait des Mexicains travailler dans les fermes et usines pour l’effort de guerre. Nombre d’entre eux ne furent jamais payés, laissant une dette estimée à 500 millions de dollars avec intérêts."
+
+ MEX_international_socialist_union:0 "Union socialiste internationale"
+ MEX_international_socialist_union_desc:0 "Jusqu’ici, nous avions limité notre diplomatie. Désormais, nous pouvons envisager une alliance avec d’autres nations socialistes pour atteindre nos buts communs."
+
+ MEX_approach_germany:0 "Se rapprocher de l’Allemagne"
+ MEX_approach_germany_desc:0 "Nous partageons beaucoup avec l’Allemagne, depuis nos liens établis lors de la Grande Guerre. Il est temps de resserrer ces relations."
+
+ MEX_solidify_the_davis_deal:0 "Consolider l’accord Davis"
+ MEX_solidify_the_davis_deal_desc:0 "Cet accord prévoyait la vente de pétrole mexicain à travers des intermédiaires vers l’Italie et l’Allemagne. Il prit fin en 1940 avec le blocus naval britannique."
+
+ MEX_joint_mining_expeditions:0 "Expéditions minières conjointes"
+ MEX_joint_mining_expeditions_desc:0 "L’Allemagne proposa de créer des sociétés minières germano-mexicaines pour remplacer l’influence américaine."
+
+ MEX_construct_the_salinas_cruz_pipeline:0 "Construire l’oléoduc de Salina Cruz"
+ MEX_construct_the_salinas_cruz_pipeline_desc:0 "Le Japon envisagea la construction d’un oléoduc reliant la côte est à Salina Cruz, à travers l’isthme de Tehuantepec."
+
+ MEX_lay_down_the_cooperative_basis:0 "Établir des bases coopératives"
+ MEX_lay_down_the_cooperative_basis_desc:0 "En ouvrant nos marchés et en multipliant les accords, nous pouvons prévenir les sanctions économiques des grandes puissances."
+
+ MEX_pan_american_highway:0 "L’autoroute panaméricaine"
+ MEX_pan_american_highway_desc:0 "Le projet d’une grande route reliant les Amériques fut signé en 1937. Dans les années 1950, le Mexique fut le premier pays d’Amérique latine à achever sa portion."
+
+ MEX_encourage_foreign_immigration:0 "Encourager l’immigration étrangère"
+ MEX_encourage_foreign_immigration_desc:0 "Les Japonais immigrèrent massivement dans l’ouest du Mexique comme ouvriers. Pendant la guerre, ils furent déplacés vers les villes pour éviter toute rébellion synarchiste."
+
+ MEX_squash_foreign_propaganda:0 "Écraser la propagande étrangère"
+ MEX_squash_foreign_propaganda_desc:0 "Le Mexique fut un terrain de jeu pour les propagandes soviétique, allemande et européenne. Franco y dépensa même des fortunes pour semer la discorde."
+
+ MEX_green_revolution:0 "La révolution verte"
+ MEX_green_revolution_desc:0 "Le Mexique connaît de grandes transformations politiques et économiques : agriculture modernisée, santé et éducation renforcées. Une véritable révolution verte est en marche."
+
+ MEX_finish_the_education_battle:0 "Achever la bataille de l’éducation"
+ MEX_finish_the_education_battle_desc:0 "Nos programmes d’alphabétisation ont porté leurs fruits. Il est temps d’étendre l’enseignement primaire jusque dans les campagnes les plus reculées."
+
+ MEX_invite_ibec_investors:0 "Inviter les investisseurs de l’IBEC"
+ MEX_invite_ibec_investors_desc:0 "L’IBEC fut fondée après 1945 par Nelson Rockefeller, en opposition au président Harry S. Truman. Nelson voulait prouver aux Latino-Américains, et surtout à Truman, comment industrialiser l’Amérique latine."
+
+ MEX_forge_the_pact_of_honor:0 "Forger le Pacte d’honneur"
+ MEX_forge_the_pact_of_honor_desc:0 "Maximino Ávila Camacho créa ce qu’on appelait le Pacte d’honneur, une sorte de gouvernement de l’ombre composé de personnes et d’organisations qu’il avait subverties ou convaincues. Il s’agissait souvent d’entreprises lésées par la nationalisation de PEMEX ou de soutiens de Calles affaiblis par sa chute."
+
+ MEX_subvert_the_political_unions:0 "Subvertir les syndicats politiques"
+ MEX_subvert_the_political_unions_desc:0 "Maximino excellait dans l’art de subvertir les syndicats. À Puebla, il démantela et réforma les syndicats pour en faire un outil politique, renforçant son image d’homme du peuple."
+
+ MEX_fill_the_loyal_cabinet:0 "Former un cabinet loyal"
+ MEX_fill_the_loyal_cabinet_desc:0 "Tout comme Maximino avait son Pacte d’honneur, Alemán disposait de sa propre organisation, que les historiens surnomment la Camarilla. Historiquement, ce terme désigne les hommes de l’ombre du roi dans le contexte de la couronne espagnole."
+
+ MEX_introduce_political_inquisition:0 "Introduire l’inquisition politique"
+ MEX_introduce_political_inquisition_desc:0 "Miguel Alemán, souvent « chanceux » face à la mort, était aussi connu pour détruire ses ennemis par des moyens parfaitement légaux, utilisant les enquêteurs fédéraux comme de véritables inquisiteurs."
+
+ MEX_a_union_of_unions:0 "Une union des unions"
+ MEX_a_union_of_unions_desc:0 "Le communisme mexicain était unique, proche du syndicalisme. Les syndicats y occupaient une place centrale, censée refléter la volonté du peuple. Certains espéraient même reprendre les mines aux étrangers pour les rendre aux Mexicains."
+
+ MEX_establish_union_regional_offices:0 "Établir des bureaux syndicaux régionaux"
+ MEX_establish_union_regional_offices_desc:0 "La révolution syndicaliste doit atteindre les régions les plus reculées du pays ! De nouveaux bureaux de travail permettront à tous d’embrasser le destin révolutionnaire du Mexique."
+
+ MEX_intervene_in_the_us:0 "Intervenir aux États-Unis"
+ MEX_intervene_in_the_us_desc:0 "À la suite des émeutes des Zoot Suits et des agressions contre les Mexicains par des citoyens et militaires américains, une forte clameur s’éleva à gauche comme à droite pour intervenir."
+
+ ###ÉVÉNEMENTS###
+
+ mexico_calles.1.t:0 "Des rebelles attaquent un train civil !"
+ mexico_calles.1.d:0 "Un train reliant Mexico à Veracruz a été attaqué hier par des dissidents, tuant plusieurs politiciens du PRM. \n\nLe train a été piégé sur un pont avec des explosifs, excluant la possibilité d’un simple vol de bandits. Les débris furent retrouvés calcinés, ne laissant que peu d’indices aux enquêteurs. Le pays est de plus en plus polarisé, et il semble que les extrémistes aient désormais recours à la violence."
+ mexico_calles.1.a:0 "Tragique… mais qui en est responsable ?"
+
+ mexico_calles.2.t:0 "Calles capturé et exilé !"
+ mexico_calles.2.d:0 "L’ancien président Plutarco Elías Calles et trois de ses proches ont été arrêtés sur ordre du président [MEX.GetLeader]. \n\nLes gauchistes l’accusaient de fomenter la dissidence parmi la droite contre Cárdenas, qu’il qualifiait de communiste, afin de plonger le pays dans une guerre civile. \n\nLors de la perquisition de son ranch, Calles fut trouvé au lit, lisant une traduction espagnole de « Mein Kampf ». Il fut immédiatement envoyé en avion vers Houston, avant de rejoindre San Diego où il résiderait chez sa sœur.\n\nUn stock d’armes, probablement destiné à des rebelles, fut également saisi."
+ mexico_calles.2.a:0 "Calles a subi le sort qu’il avait infligé à tant d’autres."
+
+ mexico_calles.3.t:0 "Rébellion calliste !"
+ mexico_calles.3.d:0 "Les partisans de Calles se sont soulevés, dénonçant la « soviétisation » du Mexique. \n\nEnflammés par la rhétorique de Plutarco, ses soutiens ont précipité le pays dans une nouvelle guerre civile. \n\nReste à savoir si cette rébellion atteindra la brutalité de la Révolution mexicaine qui avait ravagé le pays pendant dix ans."
+ mexico_calles.3.a:0 "Il est temps d’en finir avec cette mascarade."
+
+ mexico_pemex.1.t:0 "Grève des travailleurs du pétrole"
+ mexico_pemex.1.d:0 "Président [Root.GetLeader], les ouvriers se mettent en grève contre le traitement injuste des compagnies étrangères qui avaient racheté Aguila. Ils violent ouvertement nos lois, et les nationaliser ne soulèverait aucune opposition au sein du peuple. Mettre le pétrole sous contrôle étatique permettrait de financer notre industrialisation et de profiter en cas de guerre."
+ mexico_pemex.1.a:0 "Jouons notre coup de force."
+
+ mexico_pemex.2.t:0 "Le Mexique nationalise le pétrole !"
+ mexico_pemex.2.d:0 "[MEX.GetLeader] a annoncé la nationalisation des compagnies pétrolières. Les sociétés étrangères seront saisies et placées sous PEMEX. Cela touche surtout des intérêts britanniques et néerlandais, dont les gouvernements exigent la guerre. Les États-Unis hésitent encore, leur présence étant minime et la mesure éliminant même leurs concurrents."
+ mexico_pemex.2.a:0 "C’est insensé, cela mènera à la guerre !"
+ mexico_pemex.2.b:0 "Outrageux ! Ils osent nous voler ?!"
+ mexico_pemex.2.c:0 "Attendons de voir leur réponse."
+
+ mexico_pemex.3.t:0 "Le Mexique nationalise le pétrole !"
+ mexico_pemex.3.d:0 "Le Mexique a annoncé la nationalisation de toutes ses ressources naturelles. Les lobbies réclament la guerre, mais une telle décision serait périlleuse alors que l’Allemagne devient la menace principale. La guerre serait longue et difficile. L’alternative est de les embargo et de les forcer à revenir sur leur décision, une fois qu’ils auront prouvé leur incapacité à gérer PEMEX."
+ mexico_pemex.3.a:0 "Déclarons la guerre."
+ mexico_pemex.3.b:0 "Affamons-les."
+
+ mexico_pemex.4.t:0 "Le Mexique nationalise le pétrole !"
+ mexico_pemex.4.d:0 "Le Mexique a annoncé la nationalisation de toutes ses ressources naturelles. Les lobbies réclament la guerre, mais une telle décision serait périlleuse alors que l’Allemagne devient la menace principale. La guerre serait longue et difficile. L’alternative est de les embargo et de les forcer à revenir sur leur décision, une fois qu’ils auront prouvé leur incapacité à gérer PEMEX."
+ mexico_pemex.4.c:0 "Déclarons la guerre."
+ mexico_pemex.4.e:0 "Affamons-les."
+
+ mexico_pemex.5.t:0 "Les États-Unis imposent un embargo !"
+ mexico_pemex.5.d:0 "Le président [USA.GetLeader] a annoncé l’embargo du Mexique après la nationalisation des compagnies pétrolières américaines. Selon les analystes, Washington veut asphyxier PEMEX pour forcer un retour en arrière."
+ mexico_pemex.5.a:0 "Voyons si PEMEX résiste."
+ mexico_pemex.5.b:0 "Ils veulent nous affamer."
+
+ mexico_pemex.6.t:0 "Le Royaume-Uni impose un embargo !"
+ mexico_pemex.6.d:0 "[ENG.GetLeader] a annoncé l’embargo du Mexique après la nationalisation des compagnies britanniques et néerlandaises. Selon les analystes, Londres veut étrangler PEMEX pour récupérer ses avoirs."
+ mexico_pemex.6.a:0 "Voyons si PEMEX résiste."
+ mexico_pemex.6.b:0 "Ils veulent nous affamer."
+
+ mexico_pemex.7.t:0 "Les États-Unis déclarent la guerre au Mexique !"
+ mexico_pemex.7.d:0 "Le président [USA.GetLeader] a déclaré la guerre au Mexique après la saisie des actifs pétroliers américains. Il affirme défendre les intérêts des États-Unis. [MEX.GetLeader] a répliqué que la Constitution interdisait la propriété étrangère et qu’il défendrait le pays contre toute ingérence."
+ mexico_pemex.7.a:0 "Mon Dieu."
+ mexico_pemex.7.b:0 "Dios mío."
+
+ mexico_pemex.8.t:0 "Le Royaume-Uni déclare la guerre au Mexique !"
+ mexico_pemex.8.d:0 "Le Royaume-Uni a déclaré la guerre au Mexique après la saisie de plus de 130 millions de dollars d’actifs. [ENG.GetLeader] a affirmé : « Peu importe si l’Amérique nous suit ou non, le Royaume-Uni ne se laissera pas intimider ! »"
+ mexico_pemex.8.a:0 "Mon Dieu."
+ mexico_pemex.8.b:0 "Dios mío."
+
+ mexico_pemex.9.t:0 "Compensation"
+ mexico_pemex.9.d:0 "Sous embargo, il serait peut-être temps d’offrir 29 millions de dollars de compensations aux États-Unis. Cela éviterait la guerre et lèverait l’embargo, au prix d’un effort budgétaire temporaire. Mais l’accès élargi aux marchés compenserait ce coût."
+ mexico_pemex.9.a:0 "Ils veulent des compensations ? Qu’ils essaient donc !"
+ mexico_pemex.9.b:0 "Payons-les et mettons fin à cette crise."
+
+ mexico_minor.2.t:0 "Escobar revient au Mexique !"
+ mexico_minor.2.d:0 "José Gonzalo Escobar, chef de la rébellion échouée du même nom, revient d’exil. \n\nDans son discours, il a affirmé devoir être auprès de son pays en ces temps difficiles. Escobar, qui avait d’abord vaincu au sol avant d’être écrasé par l’aviation, cherche à se réhabiliter."
+ mexico_minor.2.a:0 "Vive le Mexique !"
+ mexico_minor.2.b:0 "Qui ça ?"
+
+ mexico_minor.4.t:0 "Le Mexique accueille des intellectuels espagnols"
+ mexico_minor.4.d:0 "[Root.GetLeader] a annoncé l’accueil des intellectuels fuyant la guerre d’Espagne dans notre système universitaire. Un nouveau campus, « La Maison d’Espagne », financé par des banques, bureaux fédéraux et intérêts privés, leur permettra de continuer leurs travaux."
+ mexico_minor.4.b:0 "Un véritable acte humanitaire."
+ mexico_minor.4.a:0 "Construisons-le, et ils viendront."
+
+ mexico_minor.5.t:0 "Bourses pour les caudillos"
+ mexico_minor.5.d:0 "Les caudillos réclament des bourses de recherche pour moderniser notre armée. Quels projets financer ?"
+ mexico_minor.5.a:0 "Bourses pour l’infanterie"
+ mexico_minor.5.b:0 "Bourses pour l’aviation"
+ mexico_minor.5.c:0 "Bourses pour les blindés"
+
+ mexico_article_30.2.t:0 "Les diplomates anglais demandent l’arrestation de Jenkins"
+ mexico_article_30.2.d:0 "Les diplomates du Royaume-Uni exigent l’arrestation de William Jenkins pour violation de l’article 30 de la Constitution. Ils l’accusent d’influencer la politique au moyen de son monopole médiatique. Nos sources affirment qu’il se contentait de refuser les films pro-britanniques, impopulaires auprès du public. Cette affaire pourrait aussi servir de prétexte pour expulser tous les contrevenants à la loi, et pas seulement Jenkins ou les Anglais."
+ mexico_article_30.2.a:0 "Expulser William Jenkins"
+ mexico_article_30.2.b:0 "Expulser les Anglais"
+ mexico_article_30.2.c:0 "Expulser tous les contrevenants"
+
+ mexico_article_30.3.t:0 "Rapport de renseignement : William Jenkins"
+ mexico_article_30.3.d:0 "Les diplomates britanniques exigent l’arrestation de Jenkins pour violation de l’article 30. Le DFS révèle que Jenkins est lié à Maximino Camacho, sympathisant de l’Axe, qui le protège en échange d’opportunités d’affaires. Jenkins aurait ainsi limité l’influence non fasciste au Mexique. Les films pro-britanniques, très impopulaires, furent souvent retirés. Cette affaire pourrait servir de prétexte pour expulser tous les contrevenants, pas seulement Jenkins ou les Britanniques."
+ mexico_article_30.3.a:0 "Expulser William Jenkins"
+ mexico_article_30.3.b:0 "Expulser les Britanniques"
+ mexico_article_30.3.c:0 "Expulser tous les contrevenants"
+
+ mexico_zoot_suit.1.t:0 "Déclencheur de Lagoon"
+ mexico_zoot_suit.1.d:0 "Comment voyez-vous ceci ?"
+ mexico_zoot_suit.1.a:0 "ACTIVER"
+
+ mexico_zoot_suit.2.t:0 "Meurtres de Sleepy Lagoon"
+ mexico_zoot_suit.2.d:0 "Le Sleepy Lagoon, lieu de rendez-vous prisé des jeunes Mexicains exclus des piscines publiques, fut le théâtre d’un meurtre sordide. Le corps de José Díaz, citoyen mexicain et soldat américain, y fut retrouvé. Intoxiqué et battu, il mourut de ses blessures à l’hôpital. La police arrêta Hank Leyvas, chef d’un gang, sa compagne Dora Barrios et un autre Mexicain-Américain, parmi 600 interpellés par le LAPD. Les tensions entre Anglo-Américains et Pachucos semblent loin d’être apaisées."
+ mexico_zoot_suit.2.a:0 "Un acte répugnant."
+
+ mexico_zoot_suit.3.t:0 "Procès de Sleepy Lagoon"
+ mexico_zoot_suit.3.d:0 "Le procès du meurtre de Sleepy Lagoon a commencé aujourd’hui, Hank et deux autres plaidant non coupable. Hank affirma que lui et sa petite amie furent attaqués ce soir-là par un groupe d’hommes. Pensant à une attaque liée à un gang, il appela ses camarades pour chercher les agresseurs. Ils trouvèrent une fête près du lieu de l’attaque, crurent à un gang rival et les affrontèrent. Une bagarre éclata, durant une dizaine de minutes. Au matin, le corps de Díaz fut retrouvé. Le rapport du médecin légiste indique que ses blessures correspondent à un accident de voiture. L’accusation fit témoigner E. Duran Ayres, chef du Bureau des relations étrangères du shérif de Los Angeles, qui déclara que les Mexicains dans leur ensemble sont assoiffés de sang et héritent biologiquement d’un instinct meurtrier transmis par leurs ancêtres aztèques."
+ mexico_zoot_suit.3.a:0 "Cela ne finira pas bien."
+
+ mexico_zoot_suit.4.t:0 "Condamnation de Hank"
+ mexico_zoot_suit.4.d:0 "L’affaire de Sleepy Lagoon est close : Hank et seize autres ont été condamnés pour meurtre. Les hommes seront envoyés à la prison de San Quentin, tandis que leurs petites amies, soupçonnées de complicité, seront envoyées à l’infâme Ventura School for Girls, une maison de redressement pour jeunes filles délinquantes ou jugées « sexuellement immorales ». La réputation de Ventura est terrible, et de nombreuses détenues y tentent le suicide. L’une aurait même avalé des épingles de sûreté pour échapper à sa peine."
+ mexico_zoot_suit.4.a:0 "Peut-être que les tensions vont retomber."
+
+ mexico_zoot_suit.5.t:0 "Émeutes des Zoot Suits"
+ mexico_zoot_suit.5.d:0 "Les tensions raciales ont explosé à Los Angeles, après une altercation entre pachucos et soldats américains. Des milliers de militaires quittent leurs bases, parfois jusqu’à Las Vegas, pour participer aux émeutes. On les voit envahir bars, théâtres et cafés, traînant dehors des jeunes Mexicains, parfois des enfants, pour les déshabiller, les battre et brûler leurs vêtements. Un petit groupe a aussi attaqué le quartier noir de Watts, mais l’ampleur des dégâts est inconnue. Le LAPD a refusé d’intervenir, déclarant : « Nous représentons l’opinion publique. Beaucoup d’entre nous ont fait la Première Guerre mondiale, et nous n’allons pas nous en prendre à des gamins en uniforme. »"
+ mexico_zoot_suit.5.a:0 "Horrible."
+
+ mexico_zoot_suit.6.t:0 "Le Mexique s’indigne"
+ mexico_zoot_suit.6.d:0 "Le Mexique est outré par la gestion des émeutes des Zoot Suits. Des nationalistes affirment que les attaques contre des citoyens mexicains par l’armée américaine équivalent à un acte de guerre. Ils réclament une déclaration de guerre. Communistes et nationalistes de gauche appuient cette position, déclarant que ce qui a été fait est impardonnable. La situation dégénère, et l’avenir des relations diplomatiques entre le Mexique et les États-Unis est plus incertain que jamais."
+ mexico_zoot_suit.6.a:0 "Les choses deviennent incontrôlables."
+
+ mexico_zoot_suit.7.t:0 "Renseignement : Los Angeles, Californie"
+ mexico_zoot_suit.7.d:0 "Nous avons conçu un plan pour utiliser les immigrés mexicains aux États-Unis comme informateurs pour nos services de renseignement. Beaucoup ont fui la révolution, certains servent même dans l’armée ! Peut-être trouverons-nous des patriotes prêts à nous transmettre des informations cruciales."
+ mexico_zoot_suit.7.a:0 "Voyons ce que tu peux faire."
+
+ mexico_communist.1.t:0 "Rapport de renseignement sur Dionisio Encinia"
+ mexico_communist.1.d:0 "Le PCM fut fondé et largement financé par l’URSS. Son dirigeant, Dionisio Encinia, est connu pour être une marionnette soviétique, ce qui divise fortement. Dans les années 20, le PCM se fragmenta en partis rivaux à cause de son insécurité et des purges qu’il menait contre ses propres membres. Après l’échec du coup soutenu par Moscou en 1929, le PCM fut interdit par Calles. \n\nDépendant totalement des conseils soviétiques et de l’appui de sa femme plus compétente, un Mexique dirigé par Encinia serait un simple État satellite de l’URSS en Amérique centrale, avec un soutien intérieur dérisoire. Comme nous avons choisi la voie de gauche, la prise de pouvoir communiste est inévitable, mais nous pouvons encore décider qui le dirigera. La tentative d’assassinat..."
+ mexico_communist.1.a:0 "...réussit à tuer Dionisio"
+ mexico_communist.1.b:0 "...n’est qu’un rêve de bureaucrates avides de pouvoir !"
+
+ mexico_1940.1.t:0 "Candidat du PRI"
+ mexico_1940.1.d:0 "L’élection approche, et nous devons présenter un candidat du PRI face à la droite. Deux noms émergent : Francisco Múgica, plus proche des idéaux socialistes, mais risqué si ces idées manquent de popularité. Ou Manuel Ávila Camacho, plus centriste et accepté par la droite, mais qui bloquerait toute réforme de gauche."
+ mexico_1940.1.a:0 "Choisir Francisco Múgica. (Option communiste)"
+ mexico_1940.1.b:0 "Choisir Manuel Ávila Camacho. (Option neutre)"
+
+ mexico_1940.2.t:0 "Candidat de droite"
+ mexico_1940.2.d:0 "La droite est déchirée entre Juan Andreu Almazán et Joaquín Amaro. Almazán, homme d’affaires, séduit les riches mais pas les pauvres, et son alignement pro-américain irrite. Amaro, figure militaire respectée, attire les nationalistes mais perd du terrain. Les soutiens affluent vers Almazán, vu comme inévitable grâce à l’appui américain. Certains fascistes veulent pourtant l’éliminer. Maximino Ávila Camacho, frère de Manuel, aurait prévu de l’assassiner à Puebla en simulant un accident ferroviaire."
+ mexico_1940.2.a:0 "Juan Almazán se présente. (Option démocratique)"
+ mexico_1940.2.b:0 "Juan Almazán meurt, Amaro se présente. (Option fasciste)"
+
+ mexico_1940.3.t:0 "Candidat présidentiel mexicain tué !"
+ mexico_1940.3.d:0 "Juan Almazán, favori de la droite, est mort dans un déraillement à Puebla. Ses partisans accusent le PRI d’avoir orchestré l’accident. Déjà cible de plusieurs tentatives, il avait survécu à une attaque d’hommes armés de sarapes cachant des mitraillettes. Ses soutiens affirment qu’il avait résisté à une armée de cent assassins, mais d’autres estiment qu’ils n’étaient que cinq."
+ mexico_1940.3.a:0 "Horrible."
+
+ mexico_1940.4.t:0 "Élection mexicaine"
+ mexico_1940.4.d:0 "Les élections ont eu lieu, et le vainqueur est..."
+ mexico_1940.4.a:0 "Francisco Múgica (Option communiste)"
+ mexico_1940.4.b:0 "Manuel Ávila Camacho (Option neutre)"
+ mexico_1940.4.c:0 "Juan Almazán (Option démocratique)"
+ mexico_1940.4.e:0 "Joaquín Amaro (Option fasciste)"
+
+ ###DÉCISIONS
+
+ MEX_PEMEX_Situation:0 "L’embargo de PEMEX"
+ MEX_PEMEX_Situation_desc:0 "Le Mexique n’a pas subi passivement l’embargo de PEMEX. Des contre-mesures furent mises en place pour soutenir la nouvelle compagnie nationalisée et protéger son industrie pétrolière."
+ MEX_Stove:0 "La loi sur les poêles"
+ MEX_Stove_desc:0 "Dans un geste quasi écologiste, le Mexique remplaça les poêles à bois par des poêles au kérosène. Cela réduisit la déforestation et créa un marché intérieur pour le pétrole."
+ MEX_Charity:0 "Dons nationalistes"
+ MEX_Charity_desc:0 "Lors de la nationalisation, les Mexicains firent don de tout ce qu’ils avaient pour couvrir les coûts. Des bijoux aux bovins, un immense élan de solidarité finança la République."
+ MEX_Camargo:0 "Exploiter le gisement de bauxite de Camargo"
+ MEX_Camargo_desc:0 "Mentionné dans un rapport de 1957, le gisement était connu depuis les années 30 mais restait inexploité."
+ MEX_DGIPS:0 "Opérations de la D.G.I.P.S"
+ MEX_DGIPS_desc:0 "Pour certains, la DGIPS était une force de paix ; pour d’autres, une bande d’assassins formés par les Américains. Comme toujours, la vérité se situe entre les deux."
+ MEX_arrest_hilde_kruger:0 "Arrêter Hilde Krüger"
+ MEX_arrest_hilde_kruger_desc:0 "Actrice allemande, Hilde Krüger infiltra les élites américaines et mexicaines, y compris le président Ávila Camacho. Pendant la guerre, elle devint espionne pour l’Allemagne."
+ MEX_utilize_spy_cells_in_the_usa:0 "Utiliser les cellules d’espionnage aux États-Unis"
+ MEX_meddling_in_foreign_affairs:0 "Ingérence dans les affaires étrangères"
+### CONSEILLERS + IDÉES
+
+MEX_andres_figeroa:0 "Andres Figeroa"
+MEX_juan_andreu_almazan:0 "Juan Andreu Almazán"
+MEX_maximino_avila_camacho:0 "Maximino Ávila Camacho"
+MEX_manuel_gomez_morin:0 "Manuel Gómez Morín"
+MEX_gustavo_l_gonzalez:0 "Gustavo González"
+MEX_miguel_comacho:0 "Miguel Comacho"
+MEX_luis_schaufelberger_alatorre:0 "Luís Schaufelberger Alatorre"
+MEX_goerge_puflea_craciun:0 "George Puflea Crăciun"
+MEX_alfonso_virgen_meza:0 "Alfonso Virgen Meza"
+MEX_francisco_luis_urquizo:0 "Francisco Luis Urquizo"
+MEX_roberto_fierro_villalobos:0 "Roberto Fierro Villalobos"
+MEX_gustavo_adolfo_salinas_camina:0 "Gustavo Adolfo Salinas Camiña"
+MEX_manuel_zermeno_araico:0 "Manuel Zermeño Araico"
+MEX_alvaro_rosado_osorio:0 "Álvaro Rosado Osorio"
+
+Salinas:0 "Gustavo Adolfo Salinas Camiña"
+Salinas_desc:0 "Premier aviateur à réaliser une frappe navale. En 1943, il déclara : « Les bombes que j’utilisais étaient artisanales, avec une charge de 52 bâtons de dynamite. Aussi primitives qu’elles fussent, elles fonctionnaient à merveille. À l’époque, je pilotais un vieux Wright à hélice propulsive. Il m’est venu à l’esprit qu’un jour, nous disposerions d’avions capables de supporter des charges bien au-delà de nos rêves les plus fous, et que l’avion deviendrait alors une arme d’assaut militaire d’une puissance fabuleuse. Ce jour est arrivé. »"
+
+agustin_olachea2:0 "Agustin Aviles Olachea"
+agustin_olachea2_desc:0 "Agustin Aviles Olachea créa des écoles aéronautiques durant la Seconde Guerre mondiale et contribua à formaliser l’armée de l’air mexicaine pour les générations suivantes, alors que s’achevait l’ère des héros révolutionnaires autodidactes de l’aviation."
+
+antonio:0 "Antonio Cardenas Rodriguez"
+antonio_desc:0 "Le fait marquant de la carrière militaire d’Antonio fut de diriger l’Escadron 201 aux Philippines dans les dernières étapes de la Seconde Guerre mondiale."
+
+Maximino:0 "Maximino Ávila Camacho"
+Maximino_desc:0 "Maximino est le frère de Manuel Ávila Camacho. Il est connu non seulement comme sympathisant de l’Axe, mais aussi comme associé de William Jenkins, détenteur d’un monopole sur les médias mexicains et grand opposant à l’influence alliée. L’ingérence de Maximino a, à elle seule, réduit à néant les tentatives de propagande de la France et de la Grande-Bretagne."
+
+MEX_PAB:0 "Pablo Quiroga Treviño"
+MEX_PAB_desc:0 "Pablo Quiroga Treviño est considéré comme l’un des plus proches alliés de Cárdenas. Il fut chargé d’imposer l’éducation socialiste controversée et de défendre avec ferveur la politique de Cárdenas. Pablo Quiroga fut l’un des rares ministres du cabinet d’origine à rester fidèle à Cárdenas."
+
+MEX_SANTA:0 "Miguel G. Santa Ana"
+MEX_SANTA_desc:0 "Miguel G. Santa Ana était responsable de l’acquisition de matériel, de fournitures et d’autres ressources pour le compte de la S.E.D.E.N.A., le secrétariat mexicain de l’Armée et de la Marine."
+
+Castillo:0 "Francisco Castillo"
+Castillo_desc:0 "Castillo est surtout connu pour son rôle d’ambassadeur auprès de pays étrangers, où il explorait des possibilités d’accords commerciaux et travaillait à l’amélioration des relations diplomatiques."
+
+agustin_olachea:0 "Agustin Aviles Olachea"
+agustin_olachea_desc:0 "Agustin Olachea était chargé de la construction de tout ce qui était jugé essentiel au fonctionnement des forces armées mexicaines. Il supervisa de nombreux projets militaires allant de nouvelles bases aériennes à de nouvelles académies militaires dans tout le pays."
+
+MEX_plutarco_e_calles_desc:0 "Plutarco Calles, également connu sous le nom de « El Jefe Máximo », fut président populiste de 1924 à 1928. Au départ, il jouissait d’un grand soutien populaire et était considéré comme un héros de la révolution. Malheureusement, à l’instar du dictateur Porfirio Díaz contre lequel la révolution s’était levée, il conserva le pouvoir jusqu’en 1936 grâce à des présidents fantoches et des alliés au sein du PRM. Ses idées politiques dérivèrent vers la droite et, lorsque ses politiques contribuèrent au déclenchement de la guerre des Cristeros, sa réputation fut entièrement ruinée. Celle-ci culmina en 1936 avec son exil à San Diego."
+
+padilla:0 "Ezequiel Padilla Peñaloza"
+padilla_desc:0 "Durant sa carrière gouvernementale, Padilla est surtout connu pour sa position résolument pro-américaine. Il soutenait tellement les intérêts des États-Unis qu’il leur transmit à plusieurs reprises des documents mexicains top secrets."
+
+MEX_eduardo_saurez:0 "Eduardo Saurez"
+MEX_eduardo_saurez_desc:0 "Eduardo Saurez fut ministre des Finances du Mexique de 1935 à 1946."
+
+MEX_rex_applegate:0 "Rex Applegate"
+MEX_rex_applegate_desc:0 "Rex Applegate était un officier américain et garde du corps personnel de Roosevelt, envoyé pour former les soldats mexicains aux tactiques des forces spéciales, notamment le combat rapproché, et il resta conseiller bien après la guerre."
+
+Heriberto:0 "Heriberto Jara Corona"
+Heriberto_desc:0 "Heriberto fut le tout premier secrétaire de la Marine du Mexique. En raison de la centralisation de l’armée, ce poste fut créé pour réduire l’influence politique des forces militaires."
+
+hector:0 "Héctor Meixueiro"
+
+gustavo:0 "Gustavo Adolfo Salinas Camiña"
+gustavo_desc:0 "Premier aviateur à réaliser une frappe navale. En 1943, il déclara : « Les bombes que j’utilisais étaient artisanales, avec une charge de 52 bâtons de dynamite. Aussi primitives qu’elles fussent, elles fonctionnaient à merveille. À l’époque, je pilotais un vieux Wright à hélice propulsive. Il m’est venu à l’esprit qu’un jour, nous disposerions d’avions capables de supporter des charges bien au-delà de nos rêves les plus fous, et que l’avion deviendrait alors une arme d’assaut militaire d’une puissance fabuleuse. Ce jour est arrivé. »"
+
+enrique_estrada:0 "Enrique Estrada"
+enrique_estrada_desc:0 "Enrique Estrada fut élève du célèbre général révolutionnaire Felipe Ángeles, qui lui enseigna l’art de l’artillerie."
+
+MEX_Manuel_Sandoval_Vallarta:0 "Manuel Sandoval Vallarta"
+MEX_Manuel_Sandoval_Vallarta_desc:0 "Vallarta était un physicien mexicain qui donna des cours à la fois au MIT et à l’UNAM. Son domaine d’expertise portait sur les rayons cosmiques. En 1927, il reçut une bourse Guggenheim qui lui permit d’être accueilli aux universités de Berlin et Leipzig. Là, il apprit aux côtés d’Einstein, Heisenberg, Schrödinger et Planck. En 1946, il choisit de rester à l’UNAM à plein temps pour devenir conseiller en politique scientifique. Vallarta se distingue par le fait qu’il forma des étudiants aux États-Unis qui participèrent ensuite au projet Manhattan. Parmi ses élèves figuraient Richard Feynman et Julius Stratton. Il fut également collègue du physicien belge Georges Lemaître lors de recherches sur les rayons cosmiques."
+
+MEX_nationalize_oil_fields:0 "Nationaliser les champs pétrolifères"
+MEX_nationalize_oil_fields_desc:0 "PEMEX est la compagnie pétrolière nationalisée du Mexique. Sa création lança une vaste vague de découvertes géologiques, d’évolution sociale et d’innovations économiques, devenant le principal moteur de l’industrialisation du pays."
+
+aguila:0 "Aguila Oil"
+aguila_desc:0 "Les Sinarquistes, fascistes mexicains, étaient des capitalistes convaincus qui prônaient la maîtrise du marché mexicain par les Mexicains eux-mêmes. Toute entreprise étrangère souhaitant pénétrer ce marché devait passer par un intermédiaire mexicain indépendant. Sous leur direction, l’industrie pétrolière étrangère aurait été brutalement nationalisée et, si PEMEX avait existé, elle aurait été morcelée et vendue aux élites mexicaines."
+
+CEMEX:0 "CEMEX"
+
+Azcarate:0 "Azcarate S.A."
+Azcarate_desc:0 "Après son exil politique, Azcárate fonda une petite entreprise aéronautique avec laquelle il mena des projets en partenariat avec Lockheed Martin durant la Seconde Guerre mondiale."
+
+baja:0 "Mariscraft S.A."
+baja_desc:0 "Mariscraft était une obscure entreprise aéronautique mexicaine qui ne produisit qu’un seul avion, le MA-260. Ce projet visait à créer un bombardier de chasse à long rayon d’action, inspiré du concept du 8W Zeus."
+
+Mendoza:0 "Productos Mendoza"
+Mendoza_desc:0 "Mendoza est le deuxième grand nom de la conception d’armes mexicaines, derrière Manuel Mondragón. L’entreprise se spécialise dans les mitrailleuses, allant des HMG aux SMG, ainsi que dans les fusils automatiques."
+
+Obregon: "Alejandro Obregón"
+Obregon_desc:0 "Obregón est surtout connu pour son pistolet Obregón .45, qui innovait en simplifiant le design extérieur proche du 1911. À l’intérieur, il était très différent et comportait de nombreuses pièces simplifiées, ce qui le rendait plus fiable et moins coûteux que le 1911. Les pistolets Obregón sont réputés comme des modèles de savoir-faire."
+
+Grupo_Ramirez:0 "Grupo Ramirez"
+Grupo_Ramirez_desc:0 "Première entreprise automobile du Mexique et créatrice du camion Rural Ramirez. Elle se spécialise dans les voitures et moteurs bon marché et fiables."
+
+Grupo_Ramirez2:0 "Grupo Ramirez"
+Grupo_Ramirez2_desc:0 "Première entreprise automobile du Mexique et créatrice du camion Rural Ramirez. Elle se spécialise dans les voitures et moteurs bon marché et fiables."
+
+VAM:0 "VAM"
+VAM_desc:0 "Un constructeur automobile contrôlé par l’État, initialement filiale américaine de Jeep, qui devint une société indépendante après un rachat gouvernemental."
+
+VAM2:0 "VAM"
+VAM2_desc:0 "Un constructeur automobile contrôlé par l’État, initialement filiale américaine de Jeep, qui devint une société indépendante après un rachat gouvernemental."
+
+TELMEX:0 "TELMEX"
+TELMEX_DESC:0 "Telmex est le monopole mexicain des télécommunications. Avant d’être vendu à des intérêts privés, il fut racheté par le gouvernement mexicain afin de moderniser les réseaux de communication du pays."
+
+MEX_ASTIMAR:0 "ASTIMAR"
+MEX_ASTIMAR_desc:0 "ASTIMAR est le constructeur naval dirigé par l’État. L’entreprise s’est spécialisée dans les canonnières et la défense côtière."
+
+AHMSA:0 "AHMSA"
+AHMSA_desc:0 "AHMSA est le plus grand exploitant de minerai de fer et de charbon du Mexique, ainsi que le plus grand producteur d’acier. Elle se spécialise dans les pièces mécaniques et les composants en acier destinés aux infrastructures comme les ponts."
+
+league:0 "Ligue mexicaine des expériences radiophoniques"
+league_desc:0 "La Ligue mexicaine des expériences radiophoniques réunissait un groupe de scientifiques, dont certains enfants prodiges, qui innovèrent dans le domaine des communications radio. Ils sont surtout connus pour avoir inventé la technologie qui permit l’apparition de la télévision en couleur."
+
+Echevarrieta:0 "Chantiers navals Echevarrieta"
+Echevarrieta_desc:0 "Echevarrieta était une entreprise navale espagnole qui vendit des escorteurs de convois au Mexique."
+
+Odero:0 "Chantiers navals Odero"
+Odero_desc:0 "Les chantiers navals Odero étaient une entreprise italienne, responsable de la construction des navires les plus blindés de la flotte mexicaine."
+
+Angel:0 "Ángel Lascurain"
+Angel_desc:0 "Ángel Lascurain fut un aviateur légendaire au Mexique, créateur de l’avion le plus avancé et futuriste jamais produit dans le pays. Les magazines spécialisés s’émerveillèrent de la façon dont il conçut et fabriqua, à partir d’un simple établi, un avion de transport monoplace à deux moteurs conçu localement. Cet appareil, baptisé Aura, fut décrit par les observateurs comme d’une agilité surnaturelle pour un avion de cette taille."
+
+electridad:0 "Comisión Federal de Electricidad"
+electridad_desc:0 "La Comisión Federal de Electricidad est l’entreprise publique d’énergie, également responsable du développement et de la construction des centrales nucléaires mexicaines."
+
+yokosuka_naval_arsenal2:0 "Arsenal naval de Yokosuka"
+
+MEX_jenkins_blockade:0 "Blocus Jenkins"
+MEX_jenkins_blockade_desc:0 "William O. Jenkins détient un monopole sur les médias mexicains. Son associé discret dans cette affaire fut Maximino Ávila Camacho, sympathisant de l’Axe. Cette alliance, surnommée le « Blocus Jenkins » par certains historiens, fut l’un des principaux facteurs de l’échec cuisant de la tentative franco-britannique d’exploiter l’isolationnisme de la politique étrangère américaine pour entraîner le Mexique dans la sphère d’influence européenne."
+
+MEX_porfiriato_heritage_idea:0 "Héritage du Porfiriato"
+MEX_porfiriato_heritage_idea_desc:0 "L’ancienne élite économique mexicaine est fortement porfiriste, ayant bénéficié de la dictature de Porfirio Díaz. Elle soutient l’Allemagne par rancune envers le Royaume-Uni et s’emploie activement à contrer les efforts des propagandistes britanniques et français. Grâce à son immense influence politique, elle pousse le Mexique dans les bras de l’Axe."
+
+MEX_new_era_of_porfirato:0 "Nouvelle ère du Porfiriato"
+MEX_pact_of_honor_idea:0 "Pacte d’honneur"
+
+MEX_conservative_politics_idea:0 "Politiques conservatrices"
+MEX_camarilla_cabinet:0 "Cabinet de la camarilla"
+MEX_active_political_inquisition:0 "Inquisition politique active"
+MEX_moderate_oil_concessions:0 "Concessions pétrolières modérées"
+MEX_industrial_concessions:0 "Concessions industrielles"
+MEX_PAN7:0 "Dictature parfaite"
+
+#designers
+MEX_state_railroad_company:0 "Compagnie nationale des chemins de fer mexicains"
+MEX_state_railroad_company_desc:0 "Connue au niveau national sous le nom de Ferrocarril Nacional Mexicano ou FNM, cette compagnie ferroviaire publique fut créée par le gouvernement pour développer le réseau ferré insuffisant du pays et renforcer les liaisons existantes entre les grandes villes comme Mexico, Ciudad Juárez, Nuevo Laredo et Matamoros."
+
+MEX_maximato_legacy:0 "Héritage du Maximato"
+MEX_maximato_legacy_desc:0 "Le gouvernement [ROOT.getAdjective] est imprégné de loyalistes de Plutarco Calles, également connu sous le nom de « El Jefe Máximo ». Président du Mexique de 1924 à 1928, Calles contrôla ensuite le pays par le biais de présidents fantoches et de soutiens au sein du PRM. De 1924 jusqu’en 1936, c’est lui qui détenait le véritable pouvoir au Mexique. Cette période de l’histoire mexicaine est connue sous le nom de Maximato."
+
+MEX_recovering_from_maximato:0 "Sortir du Maximato"
+
+MEX_military_purges:0 "Purg es militaires"
+
+MEX_political_union_support:0 "Soutien de l’Union politique"
+
+MEX_funding_public_enterprises:0 "Financer les entreprises publiques"
+MEX_funding_public_enterprises_desc:0 "Le gouvernement [ROOT.getAdjective] réoriente actuellement certains fonds afin de soutenir la création de services publics, améliorant considérablement le bien-être de la population."
+
+MEX_new_maximato:0 "Nouveau Maximato"
+
+MEX_political_rearrangements:0 "Réarrangements politiques"
+
+MEX_leftist_policies:0 "Politiques de gauche"
+MEX_syndicalist_policies:0 "Politiques syndicalistes"
+
+MEX_technocrats_in_the_government:0 "Technocrates au gouvernement"
+
+MEX_contributing_to_the_construction_project:0 "Contribution au projet de construction"
+
+#neutrality ideas
+MEX_prm_dominance:0 "Domination du PRM"
+MEX_internal_security_prioritized:0 "Priorité à la sécurité intérieure"
+
+#decisions
+MEX_foreign_affairs:0 "Affaires étrangères"
+MEX_invite_FROM_to_the_treaty:0 "Inviter [FROM.getNameDef] au traité"
+MEX_invite_FROM_to_the_treaty_tt:0 "Débloque £decision_icon_small pour §Yinviter§! les pays indépendants d’Amérique latine à rejoindre notre alliance !"
+
+#tooltips
+MEX_pan_american_highway_tt:0 "Cet Esprit national sera supprimé une fois le focus « §YLa route panaméricaine§! » complété par le Mexique."
+
+fierro:0 "Roberto Fierro"
+abelardo:0 "Abelardo Rodríguez"
+abelardo_desc:0 "Abelardo fut un magnat des affaires, général mexicain et président intérimaire du Mexique. Il fonda 80 entreprises et participa à 120 au total. Il créa Baja California, un sous-traitant militaire aéronautique, ainsi que les chantiers navals Rodríguez à Tijuana."
+
+rodriguez:0 "Chantiers navals Rodríguez"
+rodriguez_desc:0 "Propriété du magnat des affaires et ancien président mexicain Abelardo Rodríguez, les chantiers navals Rodríguez étaient situés à Tijuana. D’après les rares informations disponibles, ils se concentraient sur des navires de petite taille."
+
+MEX_almazan:0 "Juan Almazán"
+MEX_almazan_desc:0 "Juan fut décrit comme un homme d’affaires déguisé en général. Son principal secteur d’activité était la construction militaire : sa société fut responsable de la construction de la plus grande base militaire du Mexique, à Monterrey, dans les années 1920."
+
+Maximino2:0 "Maximino Ávila Camacho"
+Maximino2_desc:0 "Maximino fut le Caudillo de Puebla, où il possédait les télégraphes, les chemins de fer, les mines et la plupart des infrastructures. À cette époque, le Mexique faisait appel aux ingénieurs militaires pour construire rapidement infrastructures et bâtiments, Maximino y prenant une part active. Pour cette raison, Maximino serait un expert en logistique, capable d’apporter son expérience en matière de lignes d’approvisionnement et de construction d’infrastructures à tout conflit."
+
+Maximino3:0 "Maximino Ávila Camacho"
+Maximino3_desc:0 "Les historiens mexicains décrivaient Maximino comme arrogant, colérique et vindicatif. On disait de lui qu’il s’en prenait avec une extrême sévérité à ceux qui osaient le défier."
+
+MEX_MARC:0 "El Compa Nacho"
+MEX_MARC_desc:0 "El Compa Nacho, de son vrai nom Ignacio Morales, était un agent lié à la fois aux groupes cardénistes et alémanistes, et aurait reçu des missions spéciales de leur part. Morales fut accusé par les partisans d’Almazán d’être impliqué dans un complot d’assassinat raté contre ce dernier. Source : « Political Intelligence and the Creation of Modern Mexico, 1938-1954 », p. 46."
+
+lopez:0 "Raúl López Sánchez"
+
+pawling1:0 "Alberto J. Pawling"
+pawling2:0 "Alberto J. Pawling"
+
+MEX_agrarian_army:0 "Union agraire"
+MEX_agrarian_army_desc:0 ""
+
+MEX_constable_army:0 "Armée de constables"
+MEX_constable_army_desc:0 "L’armée mexicaine fut longtemps tournée vers le maintien de l’ordre intérieur et manquait de la structure nécessaire pour affronter efficacement des menaces extérieures. Durant cette période, les Caudillos représentaient une menace sérieuse pour la paix nationale, forçant le gouvernement à employer l’armée dans des projets d’ingénierie. Cela permettait non seulement d’occuper les effectifs afin que les Caudillos ne puissent lever de rébellions, mais aussi d’améliorer en parallèle les infrastructures nationales."
+
+MEX_constable_army_caudillos_sided:0 "Armées des Caudillos"
+MEX_constable_army_caudillos_sided_desc:0 "Le renforcement du pouvoir des Caudillos a conduit à la domination de secteurs locaux par des armées privées. Pour le meilleur ou pour le pire, c’est au moins un pas en avant vers une structure militaire plus fiable."
+
+MEX_low_literacy_rate:0 "Faible taux d’alphabétisation"
+MEX_low_literacy_rate_desc:0 "En 1936, le Mexique affichait un taux d’alphabétisation d’environ 40 %. La principale cause résidait dans la répartition de la population, majoritairement rurale, tandis que l’accès à l’éducation était concentré dans les zones urbaines."
+
+MEX_heavily_subsidized_rural_education:0 "Éducation rurale fortement subventionnée"
+
+MEX_conservative_education:0 "Éducation conservatrice"
+MEX_conservative_education_desc:0 ""
+
+MEX_modernize_the_education_system:0 "Moderniser le système éducatif"
+MEX_modernize_the_education_system_desc:0 ""
+
+MEX_major_economic_sanctions:0 "Sanctions économiques majeures"
+MEX_major_economic_sanctions_desc:0 "Les sanctions économiques étrangères ont un impact catastrophique sur l’ensemble du paysage économique et industriel du Mexique."
+
+MEX_small_aviation_industry:0 "Blocage de l’industrie aéronautique"
+MEX_small_aviation_industry_desc:0 "Le Mexique ne manquait pas de bons concepteurs d’avions. Cependant, l’industrie souffrait d’un manque de capacités de production en série, faute non seulement de machines, mais aussi d’ingénieurs qualifiés. Le principal obstacle du Mexique pour déployer ses propres conceptions résidait dans la lenteur de la production."
+
+MEX_idea_expanded_mining_industry:0 "Compagnies minières allemandes"
+MEX_idea_expanded_mining_industry_desc:0 "L’Allemagne s’intéressait, entre autres, à l’installation de sociétés minières au Mexique afin de réduire l’influence écrasante des Américains dans ce secteur."
+
+###TRAITS
+state_car:0 "Constructeur automobile d’État"
+
+state_energy:0 "Compagnie énergétique d’État"
+
+###OPINIONS + DIVERS
+MEX_expelled_diplomats:0 "Diplomates expulsés"
+
+#tooltips
+MEX_oil_concessions_tt:0 "§YNos installations d’extraction pétrolière sont entre les mains de sociétés étrangères !§!"
+
+MEX_strength_of_the_civil_War_depends_on_low_stability_tt:0 "Une §Gfaible stabilité§! garantit que les §Yr ébelles§! reçoivent §Gmoins§! de forces !"
+
+MEX_diplomatic_opportunity_tt:0 "Peut déclencher une guerre à la fois avec les États-Unis et le Royaume-Uni si la tension est trop faible. Il pourrait être possible de monter les États-Unis et le Royaume-Uni l’un contre l’autre si le moment est bien choisi."
+
+tt_mexpromotion:0 "Le président du Mexique est considéré comme un général 5 étoiles en raison du système de classement. De ce fait, ce candidat militaire sera promu au niveau 5 et recevra des bonus en fonction de son parcours.\n"
+
+tt_MEX_racial_tensions:0 "Ne passera pas inaperçu et accentuera les tensions raciales en Amérique."
+
+juan_is_dead:0 "Mort"
+juan_loses:0 "a quitté le Mexique après avoir perdu les élections"
+
+escobar_returns:0 "Escobar est revenu au Mexique"
+election_1940:0 "Élections de 1940"
+riot:0 "Émeute du Zoot Suit"
+
+POLITICS_DIONISIO_ENCINA_DESC:0 "Dionisio était décrit comme une figure polarisante, et les historiens avaient rarement des commentaires positifs sur son leadership. Il fut responsable de la fragmentation du plus grand parti communiste mexicain, le PCM. Soutenu par des agents soviétiques chargés de diffuser le communisme au Mexique, il n’agissait jamais sans ordre et craignait constamment que ses supérieurs soviétiques ne trouvent un dirigeant plus apte pour le PCM. Cette peur le poussa à purger toute personne ayant de meilleures compétences de direction ou plus de charisme, de peur d’être remplacé. Il laissa ainsi le PCM cruellement dépourvu de dirigeants compétents et de pensée proactive."
