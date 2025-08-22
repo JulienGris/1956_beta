@@ -1,0 +1,200 @@
+l_french:
+yugoslavia_focus:0 "Arbre de priorités yougoslave"
+
+zastava_subsidy:0 "Subventions à Zastava"
+zastava_subsidy_desc:0 "Zastava Arms a un immense potentiel pour fournir des armes à notre grande nation. Nous devons lui accorder les fonds et les infrastructures nécessaires à son expansion."
+
+research_teams:0 "Chercheurs de Zastava"
+research_teams_desc:0 "Zastava serait reconnaissante si nous pouvions lui trouver les scientifiques les plus brillants du pays. Avec un peu d’efforts, nous pouvons leur fournir l’expertise dont ils ont besoin."
+
+art_branch:0 "Branche d’artillerie"
+art_branch_desc:0 "Avec l’essor de Zastava comme grand acteur de l’armement, une branche entière dédiée à l’artillerie sera créée."
+
+mech_branch:0 "Branche motorisée"
+mech_branch_desc:0 "Avec l’essor de Zastava, une branche entière sera consacrée aux véhicules motorisés."
+
+armor_branch:0 "Branche blindée"
+armor_branch_desc:0 "Avec l’essor de Zastava, une branche entière sera consacrée aux blindés."
+
+qual_lines:0 "Chaînes de qualité"
+qual_lines_desc:0 "Alors que Zastava se développe rapidement, nous devons nous assurer que la qualité n’en pâtisse pas."
+
+royal_army:0 "Armée royale"
+royal_army_desc:0 "Qu’elle soit perçue comme un vestige du passé, un simple symbole ou une véritable autorité, l’armée royale attire toujours les volontaires. Une force bien entraînée de l’armée yougoslave."
+
+drill_serg:0 "Sergents-instructeurs efficaces"
+drill_serg_desc:0 "Nous devons redoubler d’efforts pour moderniser notre armée. La première étape est d’améliorer la qualité de nos sergents-instructeurs."
+
+trained_military:0 "Armée entraînée"
+trained_military_desc:0 "Avec de meilleurs instructeurs, nos soldats seront capables d’apprendre de nouvelles méthodes complexes de guerre."
+
+spec_ops:0 "Forces spéciales"
+spec_ops_desc:0 "Alors que nos grandes branches militaires sont prêtes à la guerre, nous devons préparer de petites unités dédiées aux opérations spéciales."
+
+anv_research:0 "Emplacement de recherche supplémentaire"
+anv_research_desc:0 "Nos nouvelles connaissances militaires nous offrent la possibilité de mener plus de recherches que jamais auparavant."
+
+arm_navy:0 "Renforcer la marine"
+arm_navy_desc:0 "Avec la Grèce au sud, l’Italie à l’ouest et les dangers croissants hors de la Méditerranée, nous devons considérablement agrandir notre flotte."
+
+arm_coast:0 "Fortifier les côtes"
+arm_coast_desc:0 "Avec une marine en expansion, il faut militariser notre littoral. De nouveaux chantiers navals seront construits afin de développer une flotte plus importante."
+
+arm_sky:0 "Dominer le ciel"
+arm_sky_desc:0 "Pour utiliser notre marine de la meilleure manière possible, nous devons aussi frapper la flotte ennemie depuis le ciel."
+
+sub_warfare:0 "Guerre sous-marine"
+sub_warfare_desc:0 "Face aux grandes puissances navales d’Europe, notre petite flotte doit apprendre à frapper en profondeur. Ainsi, nous pourrons opposer une résistance efficace malgré notre infériorité numérique."
+
+dest_res:0 "Recherche sur les destroyers"
+dest_res_desc:0 "Dédier des équipes exclusivement à la conception de destroyers donnera des résultats plus rapides que la recherche navale générale."
+
+crus_res:0 "Recherche sur les croiseurs"
+crus_res_desc:0 "Dédier des équipes exclusivement à la conception de croiseurs donnera des résultats plus rapides que la recherche navale générale."
+
+cap_ship:0 "Recherche sur les cuirassés"
+cap_ship_desc:0 "Alors que nous avons commencé par de plus petits navires, nos chercheurs nous pressent de passer aux bâtiments capitaux, capables de dominer les mers à coups de canons lourds."
+
+car_ship:0 "Recherche sur les porte-avions"
+car_ship_desc:0 "L’apogée de notre marine pourrait être la construction de gigantesques porte-avions. Ambitieux certes, mais avec nos équipes et installations, un peu plus de dévouement pourrait nous y mener plus tôt que prévu."
+
+more_ship:0 "Augmenter la production navale"
+more_ship_desc:0 "Nos recherches ont dépassé nos capacités de production. Il est évident que nous devons renforcer nos infrastructures industrielles pour suivre la demande."
+
+found_soko:0 "Fonder SOKO"
+found_soko_desc:0 "La production aéronautique n’est aujourd’hui qu’un projet gouvernemental parmi d’autres. Nous devons créer une entreprise dédiée : SOKO. Avec un financement public, nous pourrons enfin lancer une véritable industrie aéronautique."
+
+fighter_res:0 "Recherche sur les chasseurs"
+fighter_res_desc:0 "SOKO fonctionne déjà bien, mais avec un soutien gouvernemental accru, nous pourrons accélérer la recherche sur les chasseurs."
+
+cas_res:0 "Recherche sur les avions d’appui rapproché"
+cas_res_desc:0 "SOKO fonctionne déjà bien, mais avec un soutien gouvernemental accru, nous pourrons accélérer la recherche sur les appareils d’appui rapproché."
+
+sb_res:0 "Recherche sur les bombardiers stratégiques"
+sb_res_desc:0 "La responsabilité de produire des bombardiers pèse sur nous. En nous concentrant sur les bombardiers stratégiques, nous maximiserons nos avantages."
+
+tb_res:0 "Recherche sur les bombardiers tactiques"
+tb_res_desc:0 "La responsabilité de produire des bombardiers pèse sur nous. En nous concentrant sur les bombardiers tactiques, nous maximiserons nos avantages."
+
+airbase_blue:0 "Plans d’aérodrome"
+airbase_blue_desc:0 "Jusqu’ici, chaque aérodrome était construit différemment selon les besoins et le terrain. Nous devons désormais les standardiser afin de réduire les délais de construction."
+
+YUG_nuclear_effort:0 "Institut nucléaire de Vinča"
+YUG_nuclear_effort_desc:0 "Notre gouvernement a posé une question aux savants : pouvons-nous utiliser la fission de l’atome à notre avantage ? L’Institut nucléaire de Vinča sera créé pour y répondre."
+
+YUG_rocketry:0 "Recherche en fusées"
+YUG_rocketry_desc:0 "Lorsqu’une nation a ses hommes au front, disposer de missiles pour les soutenir semble logique. Après tous nos efforts en aviation, cette recherche devrait être facilement réalisable."
+
+missile_blue:0 "Plans de sites de missiles"
+missile_blue_desc:0 "La clé pour multiplier les sites de lancement de fusées est de créer un modèle standardisé que nous pourrons dupliquer."
+
+anv_research2:0 "Emplacement de recherche supplémentaire"
+anv_research2_desc:0 "Notre étude de l’aviation a fortement amélioré notre capacité à rechercher de nouvelles technologies avancées. Nous pouvons désormais utiliser de nouveaux laboratoires au service de l’État."
+
+political_quag:0 "Bourbier politique"
+political_quag_desc:0 "Notre nation se trouve à la croisée des chemins dans un monde nouveau. Nous devons choisir où placer nos allégeances."
+
+side_nuetral:0 "Rester fidèle à la royauté"
+side_nuetral_desc:0 "Notre nation doit rester du côté de la royauté. Le monde est traversé par de grandes tensions à cause de nouveaux régimes."
+
+kings_men:0 "Les hommes du roi"
+kings_men_desc:0 "Avec un peu de propagande et de nationalisme, beaucoup de jeunes hommes rejoindront l’armée au nom de la préservation de notre pays."
+
+make_jobs:0 "Créer des emplois"
+make_jobs_desc:0 "Le meilleur moyen de renforcer le soutien à la royauté est de créer davantage d’emplois."
+
+royal_fav:0 "Popularité de la royauté"
+royal_fav_desc:0 "Avec un peu de propagande, nous pouvons convaincre le peuple que, bien qu’imparfaite, la royauté reste la meilleure manière de gouverner notre nation, face à d’autres régimes barbares."
+
+create_fear:0 "Instaurer la peur"
+create_fear_desc:0 "Le seul moyen de maintenir notre pouvoir est de susciter une crainte qui empêche le peuple de se soulever."
+
+to_arms:0 "Aux armes !"
+to_arms_desc:0 "Face à une nouvelle menace, la population apeurée est prête à prendre les armes pour défendre la nation."
+
+royal_stab:0 "Stabilité royale"
+royal_stab_desc:0 "Grâce à nos efforts pour améliorer l’image de la royauté, nos dirigeants sont devenus de grands orateurs, et leurs discours réguliers rassurent la population."
+
+side_ut:0 "S’allier aux Oustachis"
+side_ut_desc:0 "Les Oustachis, mouvement fasciste croate, luttent pour une cause sanglante mais nécessaire. L’Allemagne et l’Italie ont gagné puissance et industrie grâce au fascisme ; nous devons suivre leur exemple."
+
+r_terror:0 "Règne de terreur"
+r_terror_desc:0 "Les Oustachis sont considérés par beaucoup comme un groupe terroriste, une milice qui élimine ses opposants. Les tolérer sèmera la terreur parmi les citoyens qui rejettent le fascisme."
+
+ut_youth:0 "Jeunesse oustachie"
+ut_youth_desc:0 "La jeunesse oustachie s’inspire de la Hitlerjugend. Elle cherche à initier très tôt les jeunes au maniement militaire."
+
+loc_mil:0 "Milices locales"
+loc_mil_desc:0 "Toutes les armées ne peuvent pas être contrôlées par l’État. Nous pouvons permettre aux milices locales de se développer, en leur fournissant les armes nécessaires pour qu’elles se battent pour nous."
+
+croat_war:0 "Machine de guerre croate"
+croat_war_desc:0 "À présent que les fascistes croates contrôlent davantage le pays, ils feront travailler le peuple aussi dur que possible jusqu’à ce que notre production s’améliore."
+
+side_axis:0 "S’allier à l’Axe"
+side_axis_desc:0 "Nos dirigeants comme notre peuple sont désormais d’accord avec l’Axe. Nous devons rejoindre leur lutte."
+
+axis_pride:0 "Fierté de l’Axe"
+axis_pride_desc:0 "Avec suffisamment de propagande, nous pouvons rendre notre peuple fier de faire partie de l’Axe. Nous ne serons pas seulement membres de leur alliance, mais nos populations marcheront véritablement unies."
+
+side_tito:0 "Soutenir Tito"
+side_tito_desc:0 "Aider le révolutionnaire communiste Tito semble être la seule manière d’échapper à l’emprise fasciste. La propagande accroîtra son soutien."
+
+fund_ch:0 "Financer les Tchetniks"
+fund_ch_desc:0 "Les Tchetniks sont un groupe résolument antifasciste. Avec un soutien matériel et financier, ils pourront éradiquer le fascisme là où nous n’osons pas agir."
+
+dest_ch:0 "Éliminer les Tchetniks"
+dest_ch_desc:0 "Les Tchetniks nous ont aidés à combattre le fascisme, mais beaucoup estiment qu’ils répandent la même peur que leurs ennemis. Si notre soutien venait à être découvert, il y aurait des conséquences. Nous devons dissoudre le groupe."
+
+int_ch:0 "Intégrer les Tchetniks"
+int_ch_desc:0 "Les Tchetniks se sont révélés être une force militaire efficace. Nous n’avons aucune raison de ne pas les intégrer officiellement à l’armée yougoslave."
+
+com_spe:0 "Discours communistes"
+com_spe_desc:0 "Rien n’est plus efficace que la propagande portée par de grands orateurs. Le Parti communiste en compte beaucoup, dont Tito lui-même. La propagande ne cessera que lorsque tous seront convaincus."
+
+blood:0 "Sang"
+blood_desc:0 "Le sang communiste irrigue la nation et son armée. Les hommes afflueront pour défendre leur idéologie, et nous leur demanderons de le faire."
+
+sweat:0 "Sueur"
+sweat_desc:0 "Le communisme n’existera que si le peuple travaille jusqu’à l’épuisement. Nous rappellerons sans cesse que notre nation repose sur la capacité à travailler jusqu’à en avoir les mains gonflées et les pieds ensanglantés."
+
+steel:0 "Acier"
+# steel_desc:0 "Nous devons améliorer nos capacités militaires. La meilleure façon est d’accroître notre production militaire. Le terme « Acier yougoslave » résonnera dans le monde entier." # déplacé pour remplacement
+
+mimic_west:0 "Imiter l’Ouest"
+mimic_west_desc:0 "La démocratie connaît un succès relatif en Occident. La Grande-Bretagne dirige un empire mondial et les États-Unis montrent comment un peuple peut élire un dirigeant fort. Nous devons suivre leur exemple."
+
+loc_ele:0 "Élections locales"
+loc_ele_desc:0 "Les élections nationales étant rares, voire inexistantes, le peuple peut regretter la démocratie. Mettre en place des élections locales pour des fonctions mineures renforcera le patriotisme démocratique."
+
+aid_ally:0 "Aide des Alliés"
+aid_ally_desc:0 "Avec la montée du communisme et du fascisme en Europe, les Alliés ont accepté d’aider notre nation à accroître sa production."
+
+fac_men:0 "La menace fasciste"
+fac_men_desc:0 "La propagande sera utilisée à notre avantage, démocratie ou non. Le fascisme sera présenté comme le démon de notre société."
+
+capit:0 "Capitalisme"
+capit_desc:0 "La liberté d’acheter et de produire est au cœur de nombreuses démocraties. Peut-être est-il temps d’adopter l’offre et la demande."
+
+capit_ind:0 "Industrie capitaliste"
+capit_ind_desc:0 "Nous devons encourager les citoyens à créer leurs propres entreprises. Montrons-leur qu’il est possible de partir de rien et de finir à la tête d’un empire industriel."
+
+join_ally:0 "Rejoindre les Alliés"
+join_ally_desc:0 "Avec l’Axe et le Komintern menaçant l’Europe, nous devons prendre notre destin en main et rejoindre les Alliés."
+
+anv_research3:0 "Emplacement de recherche supplémentaire"
+anv_research3_desc:0 "Les bénéfices technologiques issus d’une industrie capitaliste sont considérables. Les citoyens ont désormais les moyens de réussir par eux-mêmes ; les jours où l’on devait chercher les talents sont révolus, les talents se révèlent d’eux-mêmes."
+
+mil_prep:0 "Préparation militaire"
+mil_prep_desc:0 "Les Balkans sont une région instable, nous devons nous préparer à la guerre."
+
+ind_prep:0 "Préparation industrielle"
+ind_prep_desc:0 "Les Balkans n’ont jamais été considérés comme un foyer industriel. Il est temps de changer cela."
+
+mil_prep2:0 "Préparation militaire II"
+mil_prep2_desc:0 "Les Balkans sont une région instable, nous devons nous préparer à la guerre."
+
+ind_prep2:0 "Préparation industrielle II"
+ind_prep2_desc:0 "Les Balkans n’ont jamais été considérés comme un foyer industriel. Il est temps de changer cela."
+
+claim_bulg:0 "Irrédentisme yougoslave"
+claim_bulg_desc:0 "Nous avons le droit d’être la puissance dominante des Balkans. De nombreuses régions nous appartiennent légitimement, et nous les revendiquerons."
