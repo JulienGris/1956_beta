@@ -1,0 +1,28 @@
+l_french:
+
+OMA_reliant_on_the_rupee:0 "Dépendance à la roupie"
+OMA_reliant_on_the_rupee_desc:0 "[ROOT.GetNameDefCap] ne possède pas la capacité industrielle nécessaire pour soutenir une monnaie stable ; ainsi, il n’en a pas et reste dépendant et lié à la roupie indienne, seule devise permettant à [ROOT.GetName] d’échanger et de commercer."
+
+OMA_immamate_of_oman:0 "Le huitième imamat d’Oman"
+OMA_immamate_of_oman_desc:0 "L’imamat d’Oman existe depuis des siècles, de façon intermittente. Après la rébellion de Mascate de 1913, qui dura sept ans, le sultan de Mascate et l’imam Salim ibn Rashid signèrent le traité de Seeb, qui mena à la création du huitième imamat d’Oman : un État autonome et auto-administré dans l’intérieur du pays, dirigé par Muhammad al-Khalili. Depuis une décennie, les relations entre le sultan et l’imam sont restées stables et pacifiques, parfois même coopératives, sans doute en raison de la volonté de l’imam de collaborer, ainsi que de sa personnalité modeste et pieuse."
+
+OMA_said_bin_taimur_of_oman:0 "Sa Majesté, sultan de Mascate et d’Oman"
+
+# objectifs
+OMA_establish_the_rial:0 "Établir le rial"
+OMA_establish_the_rial_desc:0 "Depuis bien trop longtemps, nous dépendons de la roupie indienne et des Britanniques. Nous devons créer notre propre monnaie pour soutenir notre économie et rendre Oman moins dépendant des puissances étrangères !"
+
+OMA_tear_up_the_treaties:0 "Dénoncer les traités anglo-omanais"
+OMA_tear_up_the_treaties_desc:0 "Au cours du siècle dernier, [ROOT.GetNameDef] et les Britanniques ont signé de nombreux traités, le plus notable étant celui de 1891, conclu en secret afin d’éviter toute montée de tensions. Ces accords ont conféré aux Britanniques de nombreux privilèges, tant économiques que politiques, leur permettant de contrôler de facto la politique étrangère [OMA.GetAdjective]. Tout cela au nom de la protection…"
+
+OMA_our_african_holdings:0 "Nos possessions africaines"
+OMA_our_african_holdings_desc:0 "Il y a quelques décennies, voire siècles, [ROOT.GetNameDef] était une puissance majeure de l’océan Indien, possédant de nombreuses colonies au large de [546.GetName], notamment Zanzibar. Il est temps de montrer au monde de quoi nous sommes faits et de reconquérir nos colonies perdues !"
+
+OMA_reclaim_the_northern_lands:0 "Reprendre les terres du Nord"
+OMA_reclaim_the_northern_lands_desc:0 "Les États du Nord, perdus il y a deux siècles, restent ce que [ROOT.GetNameDef] revendique comme son propre territoire et son propre peuple ! Nous devons libérer nos frères du Nord des colonisateurs."
+
+OMA_across_the_gulf:0 "De l’autre côté du Golfe"
+OMA_across_the_gulf_desc:0 "Il va de soi que celui qui contrôle le détroit d’Ormuz contrôle le flux du commerce dans tout le golfe Persique. Ainsi, il serait judicieux de traverser le Golfe et d’affirmer notre domination sur toute la région. Nous l’avons déjà fait, qui peut dire que nous ne pourrions pas recommencer ?"
+
+# décisions
+OMA_integrate_khasab:0 "Intégrer Khasab"
