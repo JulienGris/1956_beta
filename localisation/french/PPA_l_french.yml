@@ -1,0 +1,20 @@
+l_french:
+
+#Personnages
+PPA_rumagesan:0 "Machmoed Singgirei Roemagesan" #1885, 50 ans en 1936, Monarque du Royaume de Sekar
+PPA_silas_papare:0 "Silas Papare" #1918, 17 ans en 1936, Nationaliste indonésien dans l’après-guerre
+PPA_johan_ariks:0 "Johan Ariks" #Autonomiste papou
+PPA_eechoud:0 "Jan Pieter Karel van Eechoud" #1904, 31 ans en 1936, Résident de police à Manokwari et premier Gouverneur général de Papouasie
+PPA_pki:0 "Comité papou du PKI"
+PPA_lukas_rumkorem:0 "Lukas Rumkorem" #1900, 35 ans en 1936, Chef du mouvement Koreri, père du FPM Seth Rumkorem
+PPA_stephanus_simonpyaref:0 "Stephanus Simopyaref" #autre chef du mouvement Koreri
+
+PPA_become_papua:0 "Intégrer l’Est"
+
+PPA_fascism_party:0 "Parindra"
+PPA_fascism_party_long:0 "Partai Indonesia Raya" #parti de Thamrin et du docteur Soetomo
+PPA_democratic_party:0 "Koreri"
+PPA_democratic_party_long:0 "Mouvement Koreri" #parti d’Abikoesno
+PPA_communism_party:0 "PKI-PA" #Parti communiste indonésien
+PPA_communism_party_long:0 "Partai Komunis Indonesia - Papouasie"
+PPA_neutrality_party:0 "Maison de Roemagesan" #Royaume de Sekar
