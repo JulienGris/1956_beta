@@ -1,0 +1,354 @@
+l_french:
+
+ #Descriptions génériques spéciales
+ country_capitulated.0.d_defeat_hitler:0 "[FROM.FROM.GetLeader] a finalement annoncé qu’après un effort colossal, les forces armées [ROOT.GetAdjective] ont accepté de se rendre sans condition. Il a donc proclamé que sa grande victoire, rendue possible par l’effort de tout le peuple [ROOT.ROOT] et de ses alliés, marque la fin de la tyrannie hitlérienne. \n\nLe nazisme enfin vaincu, une aurore nouvelle se lève sur l’Europe, mais pour l’heure, [ROOT.GetAdjective] restera sous occupation militaire jusqu’à l’établissement d’un accord de paix clair."
+
+ #Actualités
+ r56.news_event.1.t:0 "Mussolini écarté du pouvoir"
+ r56.news_event.1.desc:0 "À la suite de la défaite de l’Italie en Éthiopie et de l’accord de paix récemment conclu entre les gouvernements italien et éthiopien, d’immenses manifestations ont éclaté dans presque toutes les grandes villes italiennes pour exiger la destitution de Mussolini et la tenue d’élections. Face aux troubles massifs et au risque d’émeutes, Victor-Emmanuel III a démis Mussolini de ses fonctions de président du Conseil et a nommé le général Pietro Badoglio comme chef du gouvernement par intérim. À Rome, une foule a ensuite pris d’assaut le siège du Parti fasciste et a découvert Mussolini mort d’une balle qu’il s’était tirée."
+ r56.news_event.1.a:0 "L’incompétence italienne frappe encore…"
+
+ #Coupe du monde 1938
+ r56.news_event.2.t:0 "Coupe du monde 1938"
+ r56.news_event.2.desc:0 "La Coupe du monde s’est tenue récemment en France. Il s’agissait de la troisième édition du tournoi. Quinze équipes ont participé à une compétition à élimination directe. \n \n[SWI.GetName] a créé la surprise en éliminant [GER.GetName] dès le premier tour, avant d’être sortie par [HUN.GetName] au tour suivant. L’équipe [HUN.GetAdjective] a atteint la finale, mais a finalement été battue par [ITA.GetName]. C’est la deuxième victoire de [ITA.GetName] dans la compétition.\n \n La Coupe du monde a offert une diversion bienvenue à beaucoup, éloignant les esprits des nuages menaçants qui s’amoncellent sur le globe."
+ r56.news_event.2.a:0 "Rendez-vous dans quatre ans."
+ r56.news_event.2.b:0 "Gloire à tous les [ITA.GetAdjective] !"
+
+ r56.news_event.3.t:0 "L’Albanie rejoint le Komintern"
+ r56.news_event.3.d:0 "Le président du Parti communiste d’Albanie, Enver Hoxha, a demandé l’adhésion au Komintern. L’Union soviétique a accepté, et l’ancienne monarchie albanaise fait désormais partie de la Troisième Internationale. Les deux pays partageant les mêmes idées et ambitions, leur amitié paraît solide et l’Albanie entrevoit un avenir radieux pour sa place en Europe."
+ r56.news_event.3.a:0 "Une victoire de plus pour le prolétariat."
+
+ #était news 336
+ r56.news_event.4.t:0 "L’Albanie rejoint l’Axe"
+ r56.news_event.4.d:0 "L’Allemagne a accepté la demande de l’Albanie d’intégrer l’Axe. Ils se dressent désormais ensemble contre le communisme et les démocraties. Le roi Zog a exprimé sa volonté de montrer au monde la puissance de son pays. Le Royaume-Uni et la France se sont inquiétés de la montée du fascisme en Europe et ont rappelé aux responsables allemands les règles du traité de Versailles. Il semble que les démocraties occidentales ne réagiront pas face à l’Allemagne et à l’Albanie."
+ r56.news_event.4.a:0 "Encore une nation qui plie le genou devant l’Allemagne."
+
+ #Coupe du monde 1942 (fiction)
+ r56.news_event.6.t:0 "Coupe du monde 1942"
+ r56.news_event.6.desc:0 "La Coupe du monde s’est tenue récemment en [URG.GetNameDef]. Il s’agissait de la quatrième édition du tournoi. Seize équipes ont participé à une compétition à élimination directe. \n \nLes champions en titre [ITA.GetAdjective] ont été éliminés au deuxième tour par les hôtes, dont le parcours s’est toutefois arrêté en demi-finale face à [GER.GetNameDef]. L’équipe [GER.GetAdjective] a ensuite remporté la finale en battant [BRA.GetName] au terme d’un match tendu. C’est la première victoire de [GER.GetName] dans le tournoi.\n \n La Coupe du monde a offert une diversion bienvenue, tandis que la situation politique mondiale se tendait."
+ r56.news_event.6.a:0 "Rendez-vous dans quatre ans."
+ r56.news_event.6.b:0 "Gloire à tous les [GER.GetAdjective] !"
+
+ #Brésil impérialisme
+ r56.news_event.7.t:0 "[BRA.GetLeader] prend le pouvoir au Brésil"
+ r56.news_event.7.d:0 "Une nouvelle qui a stupéfié une grande partie de l’Amérique latine : [BRA.GetLeader] a pris le contrôle du gouvernement et de l’armée brésiliens. Ce renversement soudain a surpris nombre d’observateurs internationaux et même certains citoyens, mais des voix au sein de la classe politique brésilienne affirment qu’un tel changement était attendu au vu des luttes internes de la dernière décennie.\n\nNul ne sait encore où ce gouvernement mènera le pays, mais beaucoup soupçonnent une volonté d’expansion immédiate."
+ r56.news_event.7.a:0 "Développement préoccupant."
+ r56.news_event.7.b:0 "Independência ou Morte !"
+
+ #Coup au Paraguay
+ r56.news_event.8.t:0 "Coup d’État militaire au Paraguay"
+ r56.news_event.8.d:0 "Après la guerre du Chaco terminée l’an passé par une victoire paraguayenne, le gouvernement avait conservé le leadership vacillant d’Eusebio Ayala. Mais [PAR.GetLeader], de retour d’exil, a orchestré un coup d’État et instauré rapidement un régime militaire bien plus ferme.\n\nLe gouvernement paraguayen devra sans doute se réorganiser après l’éviction de nombreux loyalistes d’Ayala."
+ r56.news_event.8.a:0 "Évolution intéressante."
+ r56.news_event.8.b:0 "Il le fallait."
+
+ #Guerre civile au Paraguay
+ r56.news_event.9.t:0 "Guerre civile au Paraguay"
+ r56.news_event.9.d:0 "Après la guerre du Chaco gagnée l’an dernier, le Paraguay conservait la direction faible d’Eusebio Ayala. Le colonel Rafael Franco, rentré d’exil, a tenté un coup d’État pour instaurer un régime militaire plus fort. Mais l’opération ne s’est pas déroulée comme prévu : prévenu, Ayala a mobilisé d’autres partis et armé une résistance contre l’armée. \n\nIl semble que ce différend politique ne se règlera que dans le sang."
+ r56.news_event.9.a:0 "Espérons une fin rapide."
+ r56.news_event.9.b:0 "Nous l’emporterons !"
+
+ #Voisin expansionniste (générique)
+ r56.news_event.10.t:0 "[From.GetNameDefCap] proclame une politique expansionniste"
+ r56.news_event.10.d:0 "\nAujourd’hui, dans la capitale de [FROM.GetNameDef], [FROM.GetLeader] a déclaré à son peuple qu’il fallait regarder au-delà des frontières pour trouver la gloire et le bonheur — et étendre le territoire actuel du pays. [FROM.GetLeader] a aussi multiplié les allusions aux « offenses » que [ROOT.GetName] aurait commises contre [FROM.GetName]. Reste à savoir s’il ne s’agit que de rodomontades ou si ces ambitions déboucheront sur un conflit. Les voisins de [FROM.GetName] s’inquiètent, beaucoup espérant une solution diplomatique."
+ r56.news_event.10.a:0 "Inquiétant, c’est le moins qu’on puisse dire."
+
+ #Honduras fascisant
+ r56.news_event.11.t:0 "Mainmise de l’United Fruit Company au Honduras"
+ r56.news_event.11.d:0 "L’United Fruit Company opère au Honduras depuis 1899, année où elle a racheté sept producteurs locaux de bananes et commencé à exporter vers La Nouvelle-Orléans. Depuis, son ingérence en politique hondurienne n’a cessé de croître. Son dernier mouvement marque une escalade : la compagnie semble avoir pris le contrôle total du petit pays d’Amérique centrale.\n\nNul ne sait ce que cela augure pour le reste de l’Amérique centrale."
+ r56.news_event.11.a:0 "Mauvais présage."
+ r56.news_event.11.b:0 "Au moins, les bananes seront bon marché."
+ r56.news_event.11.c:0 "Ce n’est que du business."
+
+ #Honduras anarcho-capitaliste
+ r56.news_event.12.t:0 "« Zone de libre entreprise » en Amérique centrale"
+ r56.news_event.12.d:0 "\nDepuis la prise de contrôle du Honduras par United Fruit, les affaires vont bien pour l’entreprise de Samuel Zemurray. Mais sous la surface, le ressentiment grandissait face à sa brutalité et à sa mainmise sur l’État. Ce matin, de puissants administrateurs ont renversé Zemurray par un coup d’État. Ils ont instauré un nouveau gouvernement censé offrir « l’environnement idéal » pour les entreprises : le secteur privé contrôle désormais le quotidien du pays. Première mesure radicale : privatiser l’armée et la police au profit d’agences concurrentes de « restitution et recouvrement »."
+ r56.news_event.12.a:0 "Une expérience intéressante."
+ r56.news_event.12.b:0 "Plus le marché est libre, plus le peuple l’est !"
+ r56.news_event.12.c:0 "Une abomination."
+
+ #Grande Colombie
+ r56.news_event.14.t:0 "[COL.GetNameDefCap] proclame des ambitions gran-colombiennes"
+ r56.news_event.14.d:0 "\nAujourd’hui, dans la capitale de [COL.GetNameDef], [COL.GetLeader] a exhorté son peuple à regarder au-delà des frontières pour la gloire et le bonheur, et à restaurer les limites de la Grande Colombie historique. Si ce ne sont que paroles ou le prélude à un conflit reste à voir ; toutefois, les voisins de [COL.GetName] s’inquiètent. La guerre pourrait bien poindre à l’horizon."
+ r56.news_event.14.a:0 "Tournure préoccupante."
+ r56.news_event.14.b:0 "Il faudra peut-être intervenir…"
+ r56.news_event.14.c:0 "Rien n’arrêtera nos ambitions."
+
+ #Guerre civile chilienne
+ r56.news_event.13.t:0 "La troisième guerre civile chilienne"
+ r56.news_event.13.d:0 "À la suite d’événements politiques récents, le mouvement naciste est devenu de plus en plus hostile et combatif envers le gouvernement chilien. Ce matin, un grand nombre de fascistes armés menés par Jorge González von Marées ont tenté un coup d’État. Le gouvernement a sécurisé l’armée au nord et prépare une riposte, mais il semble avoir sous-estimé la force des nacistes, rejoints par d’anciens officiers et des sous-officiers en poste. Les combats ont dégénéré en l’espace de vingt-quatre heures en une véritable guerre civile."
+ r56.news_event.13.a:0 "Développement préoccupant."
+ r56.news_event.13.b:0 "Nous écraserons ces fascistes !"
+
+ #Guerre équatoriano-péruvienne
+ r56.news_event.16.t:0 "Escalade entre l’Équateur et le Pérou"
+ r56.news_event.16.d:0 "Depuis 1935, des accrochages opposent les garnisons de [ECU.GetnameDEF] et de [PRU.GetnameDEF] dans la région disputée de Pichincha. Les efforts diplomatiques ont, jusqu’ici, évité un conflit ouvert. Mais les passes d’armes récentes ont mené à une impasse, et, la semaine passée, cette impasse s’est muée en guerre. \n\nLes observateurs espèrent que le conflit restera circonscrit à Pichincha et n’entraînera pas les deux nations dans le chaos international actuel."
+ r56.news_event.16.a:0 "Regrettable."
+ r56.news_event.16.a.1:0 "Espérons que cette guerre soit brève."
+ r56.news_event.16.a.2:0 "Nous les écraserons !"
+
+ #Empire inca
+ r56.news_event.inc.t:0 "La résurgence de l’Empire inca"
+ r56.news_event.inc.d:0 "Depuis longtemps, les peuples andins attendent l’Inkari, cet être céleste qui reviendrait unir les Quechuas comme le fit jadis Pachacútec.\nÀ présent, [PRU.GetLeader] se voit confier la tâche de rendre à l’antique Empire inca sa splendeur, porté par la force des Quechuas d’Amérique du Sud.\n\nCe nouvel État émerge comme une puissance régionale appelée à détrôner [ARG.GetnameDEF] et [BRA.GetnameDEF], et peut-être à porter un coup à la grande puissance du continent, les [USA.GetnameDEF]. Les Quechuas ont formé une armée aguerrie au combat de montagne."
+ r56.news_event.inc.a:0 "Il est temps de revenir à nos racines."
+ r56.news_event.inc.b:0 "La naissance d’une nouvelle puissance sud-américaine ?"
+
+ #Ureta au pouvoir
+ r56.news_event.2010.t:0 "Le général Ureta prend le pouvoir au Pérou"
+ r56.news_event.2010.d:0 "Après sa rivalité politique avec Alberto Flores, le général Eloy Ureta dirige aujourd’hui le Pérou, chargé de poursuivre l’héritage de Sánchez Cerro et d’achever son œuvre. Urriste de la première heure, Ureta devrait rapidement lancer des réformes et éloigner le parti de l’influence du fascisme italien.\n\nLes fascistes entendent éradiquer l’APRA et purger toute l’Amérique du Sud du « cancer rouge » dont les tentacules s’étendraient de Moscou à Lima. Des milliers de Péruviens, séduits par les discours d’Ureta, sont prêts à le suivre jusque dans la guerre."
+ r56.news_event.2010.a:0 "¡Viva el Perú!"
+ r56.news_event.2010.b:0 "Un nouveau départ pour le Pérou."
+
+ #Flores au pouvoir
+ r56.news_event.2011.t:0 "Les Chemises noires péruviennes prennent le pouvoir"
+ r56.news_event.2011.d:0 "Fondées par l’urriste Luis Alberto Flores pour contrer les vagues de communisme portées par l’APRA et le Parti communiste, les Chemises noires ont pris le contrôle du gouvernement péruvien. Les faits d’armes de Flores en défense du catholicisme lui ont valu la direction de l’Union Révolutionnaire, qu’il gouverne désormais sur le modèle du fascisme italien.\n\nLes fascistes entendent éradiquer l’APRA et purger l’Amérique du Sud du « cancer rouge ». Des milliers de Péruviens, convaincus par Flores, sont prêts à le suivre jusque dans la guerre."
+ r56.news_event.2011.a:0 "¡Viva el Perú!"
+ r56.news_event.2011.b:0 "Un nouveau départ pour le Pérou."
+
+ #Révolution péruvienne
+ r56.news_event.2012.t:0 "La grande marche de Trujillo"
+ r56.news_event.2012.d:0 "Après de graves atteintes aux droits humains commises par le dictateur Benavides et son prédécesseur Sánchez Cerro, la suppression des élections a été la goutte de trop. Les communistes jurent de prendre les armes pour renverser Benavides.\n\nLa révolution mettra fin à la mortalité infantile qui ravage le Pérou — 60 % des enfants mourant avant 10 ans, des chiffres attestés par des responsables péruviens et internationaux. Des décennies de gouvernements civilistes et oligarchiques n’ont rien fait pour décentraliser le pays.\nIl est fort probable que la révolution se propage à toute l’Amérique latine."
+ r56.news_event.2012.a:0 "¡Viva la revolución!"
+ r56.news_event.2012.b:0 "Le pouvoir est désormais entre les mains du peuple péruvien."
+
+ #Le trône pour [PRU.GetLeader]
+ r56.news_event.2013.t:0 "[PRU.GetLeader] accepte le trône de [PRU.GetNameDefCap]"
+ r56.news_event.2013.d:0 "[PRU.GetLeader] vient d’accepter le trône de [PRU.GetNameDefCap] à la demande du gouvernement provisoire. Après plus de cent ans d’histoire républicaine sans avancées notables, la majorité des Péruviens a opté pour la refondation d’une monarchie afin de retrouver la splendeur de l’époque vice-royale, quand le pays dominait l’Amérique du Sud en commerce et en économie.\n\nLe nouveau roi appelle à l’unité, mais dans un pays si divisé politiquement, des opposants ne manqueront pas. Il lui faudra faire preuve de fermeté pour maîtriser ses détracteurs et unifier la nation."
+ r56.news_event.2013.a:0 "¡Viva el Rey [PRU.GetLeader]!"
+ r56.news_event.2013.b:0 "La naissance d’une nouvelle puissance sud-américaine ?"
+
+ r56.news_event.17.t:0 "[new_controller.GetNameDefCap] se révolte contre l’occupation [FROM.GetAdjective] !"
+ r56.news_event.17.d:0 "\nAprès des mois de guérilla intense, les forces de la résistance [new_controller.GetAdjective] sont sorties de la clandestinité et ont lancé une révolte coordonnée contre l’oppression [FROM.GetAdjective]. Les garnisons ont été rapidement encerclées et, constatant le caractère désespéré de leur situation, les troupes [FROM.GetAdjective] se sont repliées vers les territoires sous leur contrôle.\n\nS’il s’agit d’un revers important pour [FROM.GetLeader] et ses forces armées, la guerre n’est pas encore terminée et une contre-attaque demeure possible.\nIl est clair, en effet, que le mouvement de résistance [new_controller.GetAdjective] devra s’organiser en véritable armée s’il veut mener des opérations militaires conventionnelles."
+ r56.news_event.17.a:0 "Ce bain de sang finira-t-il un jour ?"
+
+ # Unification hispano-américaine
+ r56.news_event.18.t:1 "L’Amérique hispanique réunifiée"
+ r56.news_event.18.d:1 "Pour la première fois depuis l’époque de l’Empire espagnol, tous les Hispano-Américains se rallient à une seule bannière. Unis par le désir de forger leur propre destin et de se tenir d’égal à égal avec les Européens comme avec les Anglo-Américains.\nAprès cet exploit qui paraissait impossible, la propagande pan-hispanique s’est intensifiée avec un soutien manifeste du gouvernement, tandis qu’un souffle d’espoir gagne l’Amérique hispanique. Le gouvernement [From.GetOldAdjective] entame désormais le long processus d’unification des différents organes et institutions des territoires hispano-américains nouvellement unis pour en faire des structures efficaces, tout en adoptant le nom officiel de « [From.GetNameDef] ». L’incertitude demeure quant aux prochaines étapes pour l’Hispanoamérica ; seul l’avenir dira ce que réserve le destin à cette puissance américaine montante."
+ r56.news_event.18.a:1 "Un pas de plus vers le rêve."
+ r56.news_event.18.b:1 "L’esprit de Bolívar serait-il de retour ?"
+
+ # Saisie du Groenland
+ r56.news_event.19.t:0 "[USA.getnameDefCap] s’empare du Groenland"
+ r56.news_event.19.d:0 "\nÉtranges nouvelles en provenance de Washington ce matin : un diplomate danois, Henrik Kauffmann, a signé et remis le contrôle du Groenland à [USA.getnameDEF]. Kauffmann a rencontré les représentants de [USA.GetLeader] pour formaliser l’accord. Les autorités de Nuuk ont contacté Kauffmann pour lui demander de proposer cet arrangement, préférant une occupation américaine à une possible occupation par [ENG.getnameDEF] ou [CAN.getnameDEF]. Des observateurs ont émis des doutes sur la légalité de ce traité au regard du droit international. Mais ces inquiétudes sont restées lettre morte : le gouvernement américain s’est empressé de signer."
+ r56.news_event.19.a:0 "Groenland ? Appelons-le désormais notre-terre."
+ r56.news_event.19.b:0 "Un geste audacieux de la part de l’Amérique."
+ r56.news_event.19.c:0 "Comment osent-ils kidnapper ce que nous avions légitimement volé !"
+
+ # Rébellion islamique de Kachgar (Xinjiang)
+ r56.news_event.20.t:0 "Rébellion islamique ouïghoure au Xinjiang"
+ r56.news_event.20.d:0 "La fin de la rébellion de Kumul en 1934 n’ayant pas apporté la paix au Xinjiang ravagé par la guerre, les tensions semblent à nouveau atteindre un point de rupture. [SIK.Getleader] agit contre les milices musulmanes ouïghoures de plus en plus autonomes à Kachgar, où son influence déclinait depuis un certain temps. S’appuyant sur un soutien [SOV.GetAdjective] étendu, [SIK.Getleader] cherche à affaiblir à la fois les milices ouïghoures du sud et les seigneurs de guerre Hui au sud, à savoir [TNG.Getleader], à la tête de la « Nouvelle 36e division » de l’Armée nationale révolutionnaire chinoise.\n\nOn ne peut qu’espérer qu’une fois l’orage passé, les tensions et les conflits laisseront enfin quelque répit au Xinjiang…"
+ r56.news_event.20.a:0 "Vous m’y contraignez !"
+ r56.news_event.20.b:0 "Un simple échange de pions."
+ r56.news_event.20.c:0 "Où tracer la ligne…"
+
+ # Faction franco-américaine fasciste
+ r56.news_event.21.t:0 "La France s’allie à [USA.GetNameDef]"
+ r56.news_event.21.d:0 "Dans un grand discours solennel, le président [USA.getLeader] a annoncé une alliance avec le gouvernement [FRA.GetAdjective]. Il a ajouté que cette alliance serait aussi solide que la résolution unissant George Washington, fondateur de la nation, et son aide, le marquis de La Fayette.\n\n Les peuples [USA.GetAdjective] et [FRA.GetAdjective] se tiennent désormais côte à côte pour défendre leurs libertés."
+
+ r56.news_event.22.t:0 "Un Napoléon s’empare de la France"
+ r56.news_event.22.desc:0 "Soutenu par une large fraction de l’armée, Louis, chef de la maison Bonaparte, a pris le pouvoir en France et a pris le nom de règne Napoléon VI. Selon les déclarations officielles, il ne s’agit pas d’un coup de force mais d’un moyen de résoudre les querelles parlementaires en amenant une figure consensuelle, au-dessus des partis, afin de permettre à la République de prospérer à nouveau.\n\nMalgré ce ton républicain, le nouveau pouvoir convoque sans cesse la mémoire du Premier Empire et l’Empereur a réduit l’opposition officielle dans sa nouvelle « république »."
+ r56.news_event.22.a:0 "Ce n’est certainement pas l’un des nôtres !"
+ r56.news_event.22.b:0 "Le bonapartisme a toujours été une dictature bourgeoise déguisée."
+ r56.news_event.22.c:0 "Combien de temps avant qu’il n’y ait plus de partis du tout ?"
+ r56.news_event.22.e:0 "Une menace ou un allié potentiel ?"
+ r56.news_event.22.d:0 "Vive l’Empereur !"
+
+ # Guerre civile roumaine
+ r56.news_event.23.t:0 "Guerre civile en Roumanie"
+ r56.news_event.23.desc:0 "Menacée par le roi, la Garde de Fer nationaliste roumaine a décidé de se soulever ouvertement contre le gouvernement. Aidés par de puissants alliés au sein de l’armée, les insurgés ont sécurisé de larges pans du pays.\n\n Devant ses partisans, leur chef a proclamé l’abolition de la monarchie et déclaré la Roumanie « État national-légionnaire »."
+ r56.news_event.23.a:0 "La monarchie roumaine doit être défendue."
+ r56.news_event.23.b:0 "La forme ultime des luttes intestines capitalistes bourgeoises."
+ r56.news_event.23.c:0 "Un pays de plus déchiré par les extrémistes."
+ r56.news_event.23.e:0 "La Garde de Fer doit l’emporter."
+
+ r56.news_event.24.t:0 "Les monarchistes roumains déposent les armes"
+ r56.news_event.24.desc:0 "À l’annonce de la capitulation des monarchistes, la Garde de Fer a défilé triomphalement dans les rues de Bucarest. Maintenant qu’elle a gagné la guerre, la nouvelle « Roumanie national-légionnaire » doit gagner la paix et asseoir sa légitimité comme seule représentante de la volonté du peuple roumain."
+ r56.news_event.24.a:0 "Une autre couronne tombée face à de dangereux révolutionnaires."
+ r56.news_event.24.b:0 "Le résultat des rivalités bourgeoises."
+ r56.news_event.24.c:0 "Le pari de Cordeanu a payé."
+ r56.news_event.24.d:0 "Le pari de Cordeanu a payé."
+
+ r56.news_event.25.t:0 "Fin de la guerre civile roumaine"
+ r56.news_event.25.desc:0 "La tentative de coup d’État de la Garde de Fer — branche paramilitaire du parti roumain « Tout pour le pays » — a été déjouée par les forces loyalistes défendant la monarchie. \n\nBeaucoup de fascistes ont refusé de se rendre, fidèles à leurs slogans glorifiant la mort donnée et reçue. Certains chefs ont cependant choisi l’exil pour assurer la survie du mouvement."
+ r56.news_event.25.a:0 "Les institutions ont tenu bon."
+ r56.news_event.25.b:0 "Le chaos bourgeois rend notre ascension inévitable."
+ r56.news_event.25.c:0 "Les institutions ont tenu bon."
+ r56.news_event.25.d:0 "Félicitations à Codreanu !"
+
+ # Guerre civile italienne
+ r56.news_event.26.t:0 "Guerre civile en Italie"
+ r56.news_event.26.desc:0 "Révoqué par le roi Victor-Emmanuel III de sa charge de président du Conseil, le « Duce » Benito Mussolini a rassemblé ses partisans dans le nord de l’Italie et est revenu à ses racines républicaines. \n\nS’adressant à ses partisans à Salò, il a déclaré qu’un pays vraiment fasciste ne devait suivre qu’un seul dictateur, ajoutant que s’il est une chose que les anciens Romains méprisaient, c’était bien la monarchie."
+ r56.news_event.26.a:0 "La maison de Savoie doit être protégée."
+ r56.news_event.26.b:0 "La forme ultime des luttes intestines capitalistes bourgeoises."
+ r56.news_event.26.c:0 "Le berceau du fascisme montre l’étendue de son échec."
+ r56.news_event.26.e:0 "Les fascistes doivent gagner pour prouver la force de notre idéal."
+
+ # Victoire de la RSI
+ r56.news_event.27.t:0 "Fin de la guerre civile italienne"
+ r56.news_event.27.desc:0 "Benito Mussolini s’est adressé à une foule de partisans pour proclamer le triomphe de la République sociale italienne. Des troupes comme la Xe Flottiglia MAS et divers éléments de la Garde nationale républicaine ont défilé sur la Via dell’Impero, au milieu des vestiges des Forums romains. Si l’Italie était déjà fasciste, la purge totale de l’opposition annonce une application encore plus stricte des politiques fascistes — peut-être même de nouvelles lois « fascistissimes ».\n\n Parallèlement, de nombreux opposants ont été arrêtés et un nombre encore plus grand a choisi l’exil."
+ r56.news_event.27.a:0 "Le fascisme est décidément difficile à extirper."
+ r56.news_event.27.b:0 "Le fascisme est décidément difficile à extirper."
+ r56.news_event.27.c:0 "Le fascisme est décidément difficile à extirper."
+ r56.news_event.27.e:0 "Une preuve supplémentaire de la force du fascisme."
+
+ # Victoire monarchiste
+ r56.news_event.28.t:0 "Fin de la guerre civile italienne"
+ r56.news_event.28.desc:0 "[ITA.GetLeader] triomphe alors que les dernières forces rebelles se rendent aux unités de l’Armée royale italienne. Une grand-messe pour l’âme des victimes de la guerre civile, suivie d’une procession expiatoire, s’est tenue à la basilique collégiale Santa Maria ad Martyres (le Panthéon).\n\nLa monarchie est rétablie : le roi rouvrira-t-il le parlement et laissera-t-il la vie politique refleurir, ou cherchera-t-il à se protéger derrière une forme de dictature royale ? Il est encore trop tôt pour le dire."
+ r56.news_event.28.a:0 "Un trône a été sauvé !"
+ r56.news_event.28.b:0 "Le capitalisme féodo-bourgeois est l’antithèse du pouvoir prolétarien."
+ r56.news_event.28.c:0 "Il n’est pas de guerre plus horrible que la guerre civile."
+ r56.news_event.28.e:0 "Il n’est pas de guerre plus horrible que la guerre civile."
+
+ r56.news_event.29.title:0 "Tensions entre [VEN.GetName] et [695.Owner.GetName]"
+ r56.news_event.29.desc:0 "\nLes tensions montent : le dirigeant vénézuélien [VEN.GetLeader] affirme clairement que l’île de Curaçao, à seulement 60 km des côtes du Venezuela, fait légitimement partie de la nation et doit être rendue — au besoin par la force.\n\nÀ défaut d’un accord pacifique, un conflit pourrait éclater au sujet de l’île."
+ r56.news_event.29.a:0 "Sans importance."
+ r56.news_event.29.b:0 "Elle nous revient de droit."
+
+ # Occupation alliée de l’Allemagne
+ r56.news_event.30.title:0 "Occupation alliée de l’Allemagne"
+ r56.news_event.30.desc:0 "La seconde grande guerre en Europe terminée, les Alliés ont pris le contrôle total de l’Allemagne et l’ont divisée en quatre zones d’occupation : britanniques et françaises à l’ouest, américaines et soviétiques à l’est. Nul ne sait combien de temps il faudra pour reconstruire ces terres et les dénazifier."
+ r56.news_event.30.a:0 "Plus jamais ça."
+
+ # Diplomatie japonaise (démocratique)
+ r56.news_event.31.title:0 "Mission diplomatique [JAP.getAdjective] : négociations d’alliance"
+ r56.news_event.31.desc:0 "\nNos renseignements signalent une activité accrue du ministère [JAP.getAdjective] des Affaires étrangères : leurs diplomates se rendent dans d’autres pays pour établir des relations amicales avec de possibles alliés. \n\nReste à savoir si ces négociations porteront leurs fruits ; nous devons toutefois rester attentifs à l’évolution de la situation et nous préparer au pire."
+ r56.news_event.31.a:0 "Restons vigilants."
+
+ # Göring réapparaît au Texas
+ r56.news_event.32.title:0 "Göring réapparaît au Texas !"
+ r56.news_event.32.desc:0 "\nUne photo laisse penser qu’Hermann Göring a survécu et s’est enfui vers [375.Controller.GetNameDef]. As de la Grande Guerre et soutien de Hitler dans son ascension, il avait disparu à la fin du conflit qui ravageait l’Allemagne et on le croyait mort. Il semble avoir quitté sa patrie dans un avion capable de porter son poids, une partie de sa garde-robe et un échantillon de sa collection d’art.\n\nAccueilli et hébergé par des admirateurs [375.Controller.GetAdjective], il pourrait finir par collaborer avec l’Armée de l’air [375.Controller.GetAdjective]."
+ r56.news_event.32.a:0 "S’il s’est échappé, combien d’autres nazis en ont fait autant ?"
+ r56.news_event.32.b:0 "Bienvenue à [375.Controller.GetNameDef]."
+ r56.news_event.32.c:0 "Ainsi donc, voilà où ce salaud s’est réfugié !"
+
+ r56.news_event.33.t:0 "Le monde celtique s’unit"
+ r56.news_event.33.desc:0 "À la suite d’événements récents, le monde celtique a été unifié sous la direction de [FROM.GetLeader]. Le gouvernement celtique a annoncé qu’il protégera et nourrira les traditions, appelant au soutien des mouvements néo-druidiques et néo-bardiques pour diffuser le celtisme.\n\nTandis que les célébrations se tiennent à [FROM.Capital.GetCapitalVictoryPointName], les détracteurs critiquent la naissance tourmentée de l’union et soulignent qu’une marine puissante pourrait bloquer la mer d’Irlande et séparer les différentes parties de la nouvelle union, menaçant potentiellement son unité."
+ r56.news_event.33.a:0 "Des siècles d’humiliation vengés !"
+ r56.news_event.33.b:0 "Fascinant !"
+ r56.news_event.33.c:0 "Un développement préoccupant."
+
+ r56.news_event.34.t:0 "Le Levant s’unit"
+ r56.news_event.34.desc:0 "Après les récents événements, l’ensemble du Levant a été unifié sous la direction de [FROM.GetLeader]. Le gouvernement panarabe a annoncé qu’il protégerait les lieux saints des agresseurs étrangers.\n\nTandis que les célébrations se tiennent à [FROM.Capital.GetCapitalVictoryPointName], les détracteurs critiquent la création tourmentée de l’union. Ils notent néanmoins que la religion servira probablement de facteur d’unification pour la population arabe musulmane."
+ r56.news_event.34.a:0 "L’humiliation de 1919 est vengée !"
+ r56.news_event.34.b:0 "Fascinant !"
+ r56.news_event.34.c:0 "Un développement préoccupant."
+
+ r56.news_event.35.t:0 "Les îles des Caraïbes unifiées"
+ r56.news_event.35.desc:0 "Après certains événements, les principales îles de l’archipel caribéen ont été unifiées sous la direction de [FROM.GetLeader]. Le gouvernement [FROM.GetAdjective] a annoncé qu’il protégerait tous ses habitants et œuvrerait à la reconnaissance internationale du pays.\n\nTandis que les célébrations se tiennent à [FROM.Capital.GetCapitalVictoryPointName], les détracteurs critiquent la naissance tourmentée de l’union. Ils soulignent aussi qu’une marine puissante pourrait bloquer la mer des Caraïbes et séparer les différentes parties de la nouvelle union, menaçant potentiellement son unité. Certains pensent même qu’elle pourrait être contrainte d’utiliser des sous-marins pour pratiquer une forme de piraterie moderne."
+ r56.news_event.35.a:0 "Hourra !"
+ r56.news_event.35.b:0 "Fascinant !"
+ r56.news_event.35.c:0 "Un développement préoccupant."
+
+ r56.news_event.36.t:0 "[FROM.GetLeader] unit les territoires du Río de la Plata"
+ r56.news_event.36.desc:0 "\nÀ la suite d’événements récents, les pays qui formaient la vice-royauté du Río de la Plata sous domination espagnole ont été unifiés sous la direction de [FROM.GetLeader]. Le gouvernement [FROM.GetAdjective] a annoncé qu’il protégerait tous ses habitants et œuvrerait à la reconnaissance internationale du pays.\n\nTandis que les célébrations se tiennent à [FROM.Capital.GetCapitalVictoryPointName], les détracteurs critiquent la naissance tourmentée de l’union."
+ r56.news_event.36.a:0 "Hourra !"
+ r56.news_event.36.b:0 "Fascinant !"
+ r56.news_event.36.c:0 "Un développement préoccupant."
+
+ r56.news_event.37.t:0 "[FROM.GetLeader] proclame [FROM.GetNameDef]"
+ r56.news_event.37.desc:0 "\nLe continent africain évolue rapidement. Lors d’une cérémonie à sa capitale, [FROM.Capital.GetCapitalVictoryPointName], [FROM.GetLeader] a proclamé la création d’une nouvelle union nommée [FROM.GetNameDef]. La déclaration du gouvernement [FROM.GetAdjective] annonce qu’il protégera tous ses habitants et veillera à la reconnaissance internationale du pays.\n\nCette nouvelle soulève des questions quant au potentiel de cette union à devenir un acteur majeur du continent."
+ r56.news_event.37.a:0 "Hourra !"
+ r56.news_event.37.b:0 "Fascinant !"
+ r56.news_event.37.c:0 "Un développement inquiétant."
+
+ r56.news_event.38.t:0 "La Grande-Bretagne réunifiée"
+ r56.news_event.38.desc:0 "\nLondres est en fête : le gouvernement anglais a réussi à reprendre le contrôle de toute l’île de Grande-Bretagne et proclame un nouvel acte d’union. Ce geste réunit de facto la Grande-Bretagne.\n\nTandis que Londres célèbre, d’autres puissances craignent un retour de l’impérialisme [FROM.GetAdjective] sur la scène mondiale."
+ r56.news_event.38.a:0 "Hourra !"
+ r56.news_event.38.b:0 "Fascinant !"
+ r56.news_event.38.c:0 "Un développement inquiétant."
+
+ r56.news_event.39.t:0 "L’Allemagne réunifiée"
+ r56.news_event.39.desc:0 "Une fois encore, le peuple allemand est uni sous un seul gouvernement. [FROM.getleader] est immédiatement comparé à Otto von Bismarck pour avoir égalé, sinon surpassé, les accomplissements politiques du « chancelier de fer ».\n\nAlors que Berlin célèbre, d’autres puissances redoutent le retour des forces armées [FROM.GetAdjective] sur la scène mondiale."
+ r56.news_event.39.a:0 "Plus jamais nous ne serons divisés !"
+ r56.news_event.39.b:0 "Les Allemands sont de retour, dites-vous ? Que pourrait-il mal se passer ?"
+ r56.news_event.39.c:0 "Un développement inquiétant."
+
+ r56.news_event.40.t:0 "[ROM.GetNameDefCap] aligne la Hongrie"
+ r56.news_event.40.desc:0 "\nSous la pression du gouvernement [ROM.getAdjective], [HUN.getLeader] a accepté un traité d’amitié joignant les deux pays au sein de la [ROM.GetFactionName]. Cela rend clairement la Hongrie dépendante de la Roumanie pour les questions de défense, sans résoudre les tensions hongroises quant au sort des magyarophones en Transylvanie. On dit que des concessions ont été faites en faveur des Sicules, mais le gouvernement [ROM.GetAdjective] pourrait en limiter la portée dans les faits."
+ r56.news_event.40.a:0 "La sécurité roumaine s’en trouve assurée."
+ r56.news_event.40.b:0 "Nos ennemis s’étendent !"
+
+ r56.news_event.41.t:0 "[BRA.GetNameDefCap] se tourne vers l’Atlantique"
+ r56.news_event.41.desc:0 "\nConformément à l’engagement de [BRA.getLeader] de contrôler les voies commerciales vitales entre [BRA.GetNameDef] et le reste du monde, la politique étrangère [BRA.GetAdjective] recherche des alliés riverains de l’Atlantique. Pour ce faire, la [BRA.GetFactionName] a été proclamée et des efforts diplomatiques doivent en assurer le succès."
+ r56.news_event.41.a:0 "La sécurité [BRA.GetAdjective] s’en trouve assurée."
+ r56.news_event.41.b:0 "Nos ennemis s’étendent !"
+
+ r56.news_event.42.t:0 "La [BRA.GetFactionName] a été signée"
+ r56.news_event.42.desc:0 "\nDans le cadre de l’engagement de [BRA.getLeader] à combattre les régimes expansionnistes en Amérique du Sud, un nouveau traité d’alliance, la [BRA.GetFactionName], a été signé à [BRA.Capital.GetCapitalVictoryPointName].\n\nAu vu du nombre de délégués, ambassadeurs et ministres présents, il est certain que cela aura de lourdes implications pour la politique régionale… voire mondiale."
+ r56.news_event.42.a:0 "La sécurité [BRA.GetAdjective] s’en trouve assurée."
+ r56.news_event.42.b:0 "Nos ennemis s’étendent !"
+
+ r56.news_event.43.t:0 "[SWE.GetNameDefCap] organise sa propre diplomatie défensive"
+ r56.news_event.43.desc:0 "\nInfléchissant sa neutralité, la [SWE.GetAdjective] a décidé d’établir une organisation de traité défensif servant de pivot à sa politique de défense.\n\nCela lui donnera des alliés pour sécuriser son voisinage, mais pourrait aussi l’entraîner dans des guerres au sujet de pays étrangers."
+ r56.news_event.43.a:0 "La sécurité [SWE.GetAdjective] s’en trouve assurée."
+ r56.news_event.43.b:0 "Nos ennemis s’étendent !"
+
+ r56.news_event.45.t:0 "Pologne et Ukraine coadministrent l’Ukraine occidentale"
+ r56.news_event.45.desc:0 "\nDepuis sa création, l’existence d’un État ukrainien a eu d’énormes conséquences politiques en Galicie-Volhynie. Avant même l’effondrement de l’URSS, l’UNDO et d’autres partis ukrainiens réclamaient davantage d’autonomie, tandis que les ultranationalistes de l’OUN commettaient des assassinats politiques. Un plébiscite était d’ailleurs initialement prévu en 1944. À la place, après négociations avec le gouvernement [UKR.GetAdjective], [POL.Capital.GetName] a accepté d’étendre « l’Expérience de Volhynie » par l’établissement d’un condominium sur l’Ukraine occidentale. Les Ukrainiens locaux jouiront d’une large autonomie sous la direction de [DOU.Getleader], et Henryk Józewski servira de trait d’union entre [DOU.Capital.GetName] et [POL.Capital.GetName]."
+ r56.news_event.45.a:0 "Il va falloir refaire toutes nos cartes."
+ r56.news_event.45.b:0 "Un compromis bénéfique !"
+ r56.news_event.45.c:0 "Un compromis bénéfique !"
+
+ r56.news_event.46.t:0 "[USA.GetNameDefCap] restitue la souveraineté [ENG.getAdjective] dans les territoires du « destroyers contre bases »"
+ r56.news_event.46.desc:0 "\n\nL’accord « Destroyers contre bases » permettait de livrer des navires au [ENG.GetNameDef] en échange du contrôle territorial de possessions [ENG.getAdjective]. À présent que son utilité a diminué, [USA.getLeader] a signé un ordre exécutif retirant les forces [USA.getAdjective] et les redéployant ailleurs. Des cérémonies de lever de drapeau organisées par les autorités locales [ENG.getAdjective] ont marqué le retour au statu quo ante bellum."
+ r56.news_event.46.a:0 "Les [USA.getAdjective] respectent les traités."
+ r56.news_event.46.b:0 "Il est normal de respecter les traités."
+ r56.news_event.46.c:0 "Encore un accord anglo-saxon."
+
+ r56.news_event.47.t:0 "[ENG.GetNameDefCap] accepte de fédérer [NFL.GetNonIdeologyName] avec [CAN.GetNonIdeologyName]"
+ r56.news_event.47.desc:0 "\n\nÀ la suite d’un référendum local, le gouvernement [ENG.GetAdjective] a accepté la fédération de [NFL.GetNonIdeologyName] avec [CAN.GetNonIdeologyName]. En pratique, le territoire deviendra une province [CAN.GetAdjective] avec un certain degré d’autonomie."
+ r56.news_event.47.a:0 "Eh bien, c’est leur problème désormais."
+ r56.news_event.47.b:0 "Hourra !"
+ r56.news_event.47.c:0 "Si c’est leur souhait…"
+
+ r56.news_event.48.t:0 "[ENG.GetNameDefCap] rétablit l’autonomie de [NFL.GetAdjective]"
+ r56.news_event.48.desc:0 "\n\nÀ la suite d’un référendum local, le gouvernement [ENG.GetAdjective] a accepté de rétablir l’autonomie de [NFL.GetNonIdeologyName]. Le territoire avait été autonome jusqu’en 1934 et l’instauration de la « Commission de gouvernement de Terre-Neuve », organe de l’administration directe britannique. Cette époque prend fin avec le retour d’un gouvernement [NFL.getAdjective] élu."
+ r56.news_event.48.a:0 "Ils se sont enfin remis."
+ r56.news_event.48.b:0 "Si c’est leur souhait…"
+ r56.news_event.48.c:0 "Hourra !"
+ r56.news_event.48.d:0 "Encore un accord anglo-saxon."
+
+ r56.news_event.49.t:0 "[CSA.GetNameDefCap] impose ses conditions à [USA.GetNameDef]"
+ r56.news_event.49.desc:0 "\n\nAprès une campagne victorieuse, les forces [CSA.GetAdjective] ont dominé leurs adversaires [USA.GetAdjective] et imposé leur volonté aux Yankees dans un traité dur et humiliant. Selon un représentant des affaires étrangères [CSA.getAdjective], cet état de fait est une revanche pour l’ignoble occupation imposée à nos États après notre première guerre d’indépendance. Une parade de la victoire s’est tenue à [CSA.GetCapitalVictoryPointName], menée par l’un des derniers vétérans encore en vie du conflit précédent. Si les livres d’histoire l’appellent encore « la guerre de Sécession », les [CSA.getAdjective] entendent bien la renommer « première guerre d’indépendance » pour marquer une rupture claire avec l’histoire [USA.getAdjective]."
+ r56.news_event.49.a:0 "Atlanta est vengée ! Pour Dixie !"
+ r56.news_event.49.b:0 "Nous avons perdu…"
+ r56.news_event.49.c:0 "Une preuve de plus que le capitalisme est une servitude."
+ r56.news_event.49.d:0 "Ennuyeux…"
+
+ r56.news_event.50.t:0 "Le Mexique élit Léon Trotski"
+ r56.news_event.50.desc:0 "\nAprès avoir vécu en France et en Norvège, le dirigeant communiste en exil Léon Trotski a été accueilli par le gouvernement mexicain. Il a su immédiatement séduire la population par ses discours enflammés et a même été nommé inspecteur spécial des forces armées. Fort de son influence nouvelle, l’exilé a mené une campagne victorieuse et a été élu président du Mexique. Une aube rouge se lève sur le pays ; reste à savoir s’il utilisera ce pouvoir pour abolir la propriété privée et défier le capitalisme… ou pour contester la Troisième Internationale et prendre l’ascendant sur les marxistes du monde."
+ r56.news_event.50.a:0 "¡Viva la Revolución!"
+ r56.news_event.50.b:0 "Lui seul peut sauver les travailleurs !"
+ r56.news_event.50.c:0 "Il faudra traiter avec ce traître idéologique."
+ r56.news_event.50.d:0 "Ennuyeux…"
+
+ r56.news_event.1116.t:0 "Crise à [901.GetName]"
+ r56.news_event.1116.d:0 "« Nous avons creusé le canal avec nos vies, nos os et notre sang. Le canal de Suez est à nous ! », déclare le dirigeant [EGY.GetAdjective] [EGY.GetLeader] en annonçant la nationalisation immédiate de la Compagnie du canal de Suez afin d’expulser toute influence étrangère et de placer l’ouvrage sous contrôle exclusivement [EGY.GetAdjective].\n\nLe [901.Owner.GetName] a qualifié cette décision de menace pour ses intérêts dans la région et a adressé un sévère avertissement à [EGY.GetNameDef] : il est prêt à employer la force si Le Caire ne recule pas.\n\nLes deux parties étant au bord de la rupture, un conflit pourrait éclater bientôt."
+ r56.news_event.1116.a:0 "Le canal est à nous de droit."
+ r56.news_event.1116.b:0 "Un pas pour le monde arabe."
+ r56.news_event.1116.c:0 "Les [EGY.GetAdjective] doivent être apaisés."
+ r56.news_event.1116.e:0 "L’ordre mondial se recompose."
+
+ r56.news_event.1117.t:0 "Soulèvement nationaliste en Égypte"
+ r56.news_event.1117.d:0 "Des éléments nationalistes au sein de [EGY.GetNameDef], menés par les Frères musulmans, ont lancé une insurrection d’ampleur contre la monarchie et le modèle farouchement anti-impérialiste qu’ils entendent imposer pour expulser définitivement l’ingérence étrangère, sous la houlette d’un chef fort.\n\nCe développement intervient peu après que des puissances étrangères ont tenté de consolider leurs intérêts dans le pays, perçus comme une trahison par un peuple [EGY.GetAdjective] à qui la monarchie avait juré force et indépendance. Ayant trahi cette promesse, le régime a poussé la population à bout."
+ r56.news_event.1117.a:0 "Notre humiliation prend fin."
+ r56.news_event.1117.b:0 "Cette rébellion doit être écrasée."
+ r56.news_event.1117.c:0 "Un effet domino au Moyen-Orient ?"
+
+ r56.news_event.1119.t:0 "Rébellion au [SUD.GetNonIdeologyName]"
+ r56.news_event.1119.d:0 "Les tensions montent au [SUD.GetNonIdeologyName] depuis des mois, la population supportant de moins en moins l’occupation [EGY.GetAdjective]. Les politiques sévères imposées par les [EGY.GetAdjective] n’ont fait qu’attiser la colère et l’agitation chez les [SUD.GetAdjective].\n\n En réaction, des leaders nationalistes soudanais se sont unis pour lancer une rébellion armée contre les occupants [EGY.GetAdjective]. Malgré des revers initiaux, les rebelles [SUD.GetAdjective] sont déterminés à poursuivre le combat.\n\nLes deux camps campant sur leurs positions, l’issue reste incertaine. Une chose est sûre : l’avenir du Soudan est en jeu."
+ r56.news_event.1119.a:0 "Des sauvages insensés."
+ r56.news_event.1119.b:0 "Notre libération est proche !"
+ r56.news_event.1119.c:0 "L’équilibre africain change."
+
+ r56.news_event.1120.t:0 "Restauration de la monarchie [MEX.GetAdjective]"
+ r56.news_event.1120.d:0 "Contre toute attente, la famille royale [MEX.GetAdjective], déchue de longue date, revient au pouvoir à la faveur d’un regain soudain de soutien populaire. La prétendante est couronnée María Josepha Ire, impératrice de [MEX.GetNonIdeologyName].\n\nToutefois, des milices socialistes se sont organisées dans certaines régions pour s’opposer à la restauration et promettent d’écraser la monarchie afin de poursuivre la république. Les combats ayant déjà éclaté, nul ne sait ce qu’il adviendra."
+ r56.news_event.1120.a:0 "Glorieux !"
+ r56.news_event.1120.b:0 "Intéressant."
+
+ r56.news_event.1122.t:0 "Le canal de Suez, frappé par le feu atomique !"
+ r56.news_event.1122.desc:0 "\nUne lumière d’une puissance écrasante, digne des descriptions antiques du dieu-soleil Rê, a récemment illuminé le ciel d’Égypte. L’explosion d’une bombe atomique près du canal de Suez a dévasté les infrastructures et profondément altéré la géographie locale. Bâtiments calcinés, épaves de navires éparpillées dans les dunes comme des pions d’un jeu divin, réduisant à rien le colosse de Memnon.\nAu vu de ces descriptions, il est évident que le canal sera inutilisable pour l’avenir prévisible et que rétablir la navigation exigera des efforts cyclopéens."
+ r56.news_event.1122.a:0 "Quel désastre…"
+ r56.news_event.1122.b:0 "Leurs logistiques en souffriront…"
+
+ r56.news_event.1123.t:0 "Le canal de Panama détruit par le feu atomique !"
+ r56.news_event.1123.desc:0 "\nEnchevêtrement de restes d’écluses, d’arbres, de bâtiments et de navires : tel est le tableau terrifiant de la zone du canal de Panama. Le canal a été frappé par un engin nucléaire assez puissant pour anéantir ses écluses et ravager toute la région. En raison de la différence d’altitude de l’isthme, la navigation y sera interrompue pour longtemps. La guerre se poursuit, et les navires devront de nouveau emprunter la longue route du détroit de Magellan."
