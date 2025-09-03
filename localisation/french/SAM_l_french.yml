@@ -1,0 +1,168 @@
+l_french:
+ ## PRIORITÉS
+
+ #Voie pro-britannique
+ SAM_aftermath_of_the_goodwill_mission:0 "Suite de la mission de bonne volonté"
+ SAM_aftermath_of_the_goodwill_mission_desc:0 "Après des négociations fructueuses avec le gouvernement [NZL.GetAdjective], nous avons obtenu un haut degré d’autonomie. Où allons-nous à partir d’ici ?"
+ SAM_with_the_crown:0 "Loyauté envers l’Empire"
+ SAM_with_the_crown_desc:0 "La place des Samoa est dans l’Empire. Nous ne serions pas mieux lotis en tant que nation libre, et d’autres puissances pourraient nous voir comme une proie facile à conquérir."
+ SAM_reorganising_the_mandate:0 "Réorganiser le mandat"
+ SAM_reorganising_the_mandate_desc:0 ""
+ SAM_our_place_in_the_empire:0 "Notre place dans l’Empire"
+ SAM_our_place_in_the_empire_desc:0 ""
+
+ #Administrateur néo-zélandais
+ SAM_new_zealand_commisar:0 "Nommer un Néo-Zélandais responsable"
+ SAM_new_zealand_commisar_desc:0 ""
+ SAM_invest_into_civilian_infanstructure:0 "Investir dans les infrastructures civiles"
+ SAM_invest_into_civilian_infanstructure_desc:0 ""
+ SAM_develop_apia_port:0 "Aménager le port d’Apia"
+ SAM_develop_apia_port_desc:0 ""
+ SAM_imperial_airforce_bases:0 "Bases aériennes impériales"
+ SAM_imperial_airforce_bases_desc:0 ""
+ SAM_commonwealth_air_training_program:0 "Programme d’entraînement aérien du Commonwealth"
+ SAM_commonwealth_air_training_program_desc:0 ""
+ SAM_invite_commonwealth_investors:0 "Inviter les investisseurs du Commonwealth"
+ SAM_invite_commonwealth_investors_desc:0 ""
+
+ #Nommer Tanumafili
+ SAM_malietoa_leadership:0 "Nommer Tanumafili"
+ SAM_malietoa_leadership_desc:0 ""
+ SAM_request_the_ellice_islands:0 "Demander les îles Ellice"
+ SAM_request_the_ellice_islands_desc:0 ""
+ SAM_for_a_united_polynesia:0 "Vers une Polynésie unie"
+ SAM_for_a_united_polynesia_desc:0 ""
+ SAM_request_british_polynesia:0 "Demander les Fidji"
+ SAM_request_british_polynesia_desc:0 ""
+ SAM_request_french_holdings:0 "Demander Tahiti"
+ SAM_request_french_holdings_desc:0 ""
+ SAM_request_hawaii:0 "Demander Hawaï"
+ SAM_request_hawaii_desc:0 ""
+ SAM_proclaim_a_polynesian_protectorate:0 "Proclamer la Polynésie !"
+ SAM_proclaim_a_polynesian_protectorate_desc:0 ""
+
+ #Préparatifs de guerre
+ SAM_the_japanese_threat:0 "La menace japonaise"
+ SAM_the_japanese_threat_desc:0 ""
+ SAM_fortify_our_coast:0 "Fortifier nos côtes"
+ SAM_fortify_our_coast_desc:0 ""
+ SAM_request_weapons:0 "Armer le peuple"
+ SAM_request_weapons_desc:0 ""
+ SAM_war_economy:0 "Économie de guerre samoane"
+ SAM_war_economy_desc:0 ""
+ SAM_sun_and_mercury:0 "Soleil et Mercure"
+ SAM_sun_and_mercury_desc:0 ""
+ SAM_invite_commonwealth_teachers:0 "Inviter des enseignants du Commonwealth"
+ SAM_invite_commonwealth_teachers_desc:0 ""
+
+ #Samoa américaines
+ SAM_extend_a_hand_to_america:0 "Relations avec les Américains"
+ SAM_extend_a_hand_to_america_desc:0 "Les relations entre les Samoa et les États-Unis ont toujours été délicates. Si les Américains garantissent notre sécurité, ils occupent aussi la partie orientale de notre nation, incontestablement samoane. Ils ont en outre réprimé le Tu’i Manu’a et interdit totalement le mouvement Mau. Pour éviter que tout cela ne détériore davantage les relations samoano-américaines, nous devrions tenter d’obtenir ce territoire afin d’apaiser la situation."
+
+ #Notre propre voie
+ SAM_our_own_way:0 "Indépendance !"
+ SAM_our_own_way_desc:0 ""
+
+ ## IDÉES
+ SAM_goodwill_mission:0 "Mission de bonne volonté"
+ SAM_a_divided_samoa:0 "Des Samoa divisées"
+ SAM_tumua_and_pule:0 "Tumua ma Pule"
+ SAM_tumua_and_pule_desc:0 "Les Tumua ma Pule sont essentiels pour l’élection d’un roi et forment le cœur de la politique samoane depuis que les Samoa sont une monarchie. Mieux vaut les apaiser que les défier."
+ SAM_cacao_industry:0 "Cultures de rente"
+ SAM_cacao_industry_desc:0 "Les principales exportations des Samoa sont le cacao et la coprah. Si les Samoa offrent un terrain idéal pour ces cultures, la plupart des plantations appartiennent à des intérêts étrangers — grandes sociétés ou riches capitalistes européens… Nationaliser ces plantations pourrait aussi entraîner des tensions avec leurs propriétaires et leurs pays d’origine."
+ SAM_sun_and_mercury_idea:0 "Guerre du Pacifique"
+
+ ## ÉVÉNEMENTS
+ new_zealand.11.t:0 "Mission de bonne volonté"
+ new_zealand.11.d:0 "Une récente « mission de bonne volonté » à Apia, aux Samoa, a reconnu le Mau comme organisation politique légitime, l’Ordonnance sur les contrevenants samoans a été abrogée et l’exil d’Olaf Nelson révoqué. Avec ces avancées, il est peut-être temps d’entamer le processus graduel d’établissement d’un État samoan indépendant."
+ new_zealand.11.a:0 "Ils ne sont pas encore prêts."
+ new_zealand.11.b:0 "Ils ont assez attendu."
+ new_zealand.11.c:0 ""L’oiseau Toloa vole loin, mais revient toujours à l’eau.""
+
+ samoa.1.t:0 "Indépendance des Samoa"
+ samoa.1.desc:0 "Après un processus graduel de formation de notre État, nous avons enfin obtenu l’indépendance tant attendue. Il est temps de décider qui doit diriger le pays."
+ samoa.1.a:0 "La monarchie nous a trahis !"
+ samoa.1.b:0 "La monarchie a fait ce qui était le mieux pour les Samoa."
+ samoa.2.t:0 "[SAM.getNameDefCap] demande [1088.GetName]"
+ samoa.2.desc:0 "Les Samoa souhaitent réunifier leur peuple sous un seul pays. En vertu du traité de cession de Manu’a et de l’acte de cession de Tutuila, nous avons annexé la partie orientale des Samoa et l’avons conservée comme territoire jusqu’à aujourd’hui, où nous pouvons choisir de la rendre à la nation et au peuple samoans, ou de la garder. Ce dernier choix pourrait provoquer des troubles, compte tenu des liens sacrés et historiques avec les Samoa."
+ samoa.2.a:0 "Rendons-leur leurs îles."
+ samoa.2.b:0 "Le traité doit être respecté !"
+ samoa.3.t:0 "Les Samoa demandent [643.GetName]"
+ samoa.3.desc:0 "Dans le cadre de la politique samoane récente d’une Polynésie unie, ils cherchent à obtenir [643.GetName]."
+ samoa.3.a:0 "Qu’avons-nous à perdre ?"
+ samoa.3.b:0 "Vous essayez encore de prendre nos îles, hein ?"
+ samoa.4.t:0 "Les Samoa demandent [734.GetName]"
+ samoa.4.desc:0 "Dans le cadre de la politique samoane récente d’une Polynésie unie, ils cherchent à obtenir [734.GetName]."
+ samoa.4.a:0 "Ils semblent prometteurs."
+ samoa.4.b:0 "Tonga ne tombera pas !"
+ samoa.5.t:0 "Les Samoa demandent [641.GetName]"
+ samoa.5.desc:0 "Dans le cadre de la politique samoane récente d’une Polynésie unie, ils cherchent à obtenir [641.GetName]."
+ samoa.5.a:0 "Ils semblent prometteurs."
+ samoa.5.b:0 "Tahiti aux Tahitiens !"
+ samoa.6.t:0 "Les Samoa demandent [636.GetName]"
+ samoa.6.desc:0 "Dans le cadre de la politique samoane récente d’une Polynésie unie, ils cherchent à obtenir [636.GetName]."
+ samoa.6.a:0 "Ils semblent prometteurs."
+ samoa.6.b:0 "Les Fidji aux Fidjiens !"
+ samoa.7.t:0 "Les Samoa demandent [629.GetName]"
+ samoa.7.desc:0 "Dans le cadre de la politique samoane récente d’une Polynésie unie, ils cherchent à obtenir [629.GetName]."
+ samoa.7.a:0 "Ils semblent prometteurs."
+ samoa.7.b:0 "Qu’ils viennent."
+
+ samoa_result.1.t:0 "[FROM.getNameDefCap] accepte notre demande !"
+ samoa_result.1.desc:0 "[FROM.getNameDefCap] nous a remis le territoire souhaité."
+ samoa_result.1.a:0 "Eh bien, c’était facile."
+
+ samoa_result.2.t:0 "[FROM.getNameDefCap] rejette notre demande !"
+ samoa_result.2.desc:0 "[FROM.getNameDefCap] a rejeté nos exigences. Nous devrions peut-être revoir notre approche."
+ samoa_result.2.a:0 "Nous reviendrons."
+
+ samoa_smuggle_stuffs.1.t:0 "Opération réussie !"
+ samoa_smuggle_stuffs.1.desc:0 "Notre récente opération de contrebande d’armes depuis [1088.GetName] a réussi ! \nMême si nous ne pouvons pas mener des opérations à grande échelle ni récupérer autant d’armes que nous l’espérions, des opérations de moindre ampleur fonctionneront tout aussi bien et nous fourniront le matériel nécessaire pour l’instant — même si ce n’est pas beaucoup."
+ samoa_smuggle_stuffs.6.t:0 "Échec de l’opération !"
+ samoa_smuggle_stuffs.6.desc:0 "Malgré nos efforts, nous n’avons saisi aucun équipement et notre équipe a été arrêtée sur-le-champ."
+ samoa_smuggle_stuffs.6.a:0 "Alors rentrons…"
+
+ samoa_fautasi_race.1.t:0 "Course de Fautasi !"
+ samoa_fautasi_race.1.desc:0 "Aujourd’hui, la course de Fautasi a eu lieu aux Samoa occidentales. Elle se tient chaque année le 1er juillet pour célébrer l’autonomie samoane vis-à-vis de [NZL.GetName], et aujourd’hui est ce jour. Voyons qui remporte cette manche."
+ samoa_fautasi_race.1.a:0 "Et le gagnant est… ?"
+
+#  samoa_result.1.t:0 "Samoa Requests [629.GetName]"
+#  samoa_result.1.desc:0 "Under Samoa's recent policy of a united Polynesia, they have sought to obtain [629.GetName]"
+#  samoa_result.1.a:0 "They seem promising."
+
+ samoa_coup.1.t:0 "Coup d’État des Tumua ma Pule !"
+ samoa_coup.1.desc:0 "Les Tumua ma Pule sont les plus hautes autorités aux Samoa. Les défier ne serait bon pour personne. \nMême si nous n’avions pas l’intention de renverser ou de limiter leur autorité, ils nous voient comme des ennemis à cause de nos politiques contraires à la monarchie, système politique traditionnel des Samoa, et ont lancé un coup d’État pour renverser notre régime. Avec le soutien du peuple, il a été rapidement mené. Les Tumua ma Pule contrôlent maintenant le gouvernement : qui doit diriger ?"
+ samoa_coup.1.a:0 "Tupua Tamasese semble un bon choix."
+ samoa_coup.1.b:0 "Mata’afa Faumuina est un meilleur candidat."
+
+ ## MODIFICATEURS
+ mau_movement:0 "Mouvement Mau"
+ calm_mau_movement:0 "Mouvement Mau"
+
+ # autre
+ SAM_western_puppet:0 "Marionnette occidentale"
+
+ SAM_smuggle_operations:0 "Opérations de contrebande"
+ SAM_smuggle_operations_desc:0 "Actuellement, les Samoa n’ont pas la capacité industrielle de produire leurs propres armes. Pour compenser, nous devrions tenter d’acquérir des armes par des opérations de contrebande à l’est, où la garnison américaine peut laisser du matériel sans surveillance, vulnérable à la récupération. En sécurisant ces fournitures, nous renforcerons nos forces à court terme."
+ SAM_smuggle_operation_decision:0 "Lancer une opération de contrebande"
+ SAM_launch_operation_into_pago_pago:0 "Nous lancerons une opération de contrebande vers [1088.GetName] pour voir si du matériel non gardé peut être récupéré."
+ samoa_smuggle_stuffs.success:0 "Opération de contrebande : succès !"
+ samoa_smuggle_stuffs.failed:0 "Opération de contrebande : échec !"
+
+ SAM_request_american_samoa:0 "Demander les Samoa américaines"
+ SAM_request_american_samoa_desc:0 "[USA.getNameDefCap] et les Samoa entretiennent une longue histoire commune. Les Américains sont impliqués dans les affaires samoanes depuis le XIXe siècle et ont affirmé leur présence en signant des traités avec les chefs de Tutuila et de Manu’a, qui ont aboli l’indépendance des chefs et mené à l’annexion formelle des îles par les États-Unis. \nMais même sous supervision américaine, ces îles restent samoanes et appartiennent à la nation samoane. Avec un peu de chance, nous pourrons conclure un accord avec les États-Unis pour nous rendre ces îles."
+
+ # PERSONNAGES
+ SAM_olaf_nelson:0 "Olaf Frederick Nelson"
+ SAM_tanumafili_i:0 "Tanumafili Iᵉʳ"
+ SAM_tanumafili_ii:0 "Tanumafili II"
+ SAM_council:0 "Gouvernement de transition"
+ SAM_alfred_turnbull:0 "Alfred Turnbull"
+ SAM_tupua_tamasese:0 "Tupua Tamasese Mea’ole"
+ SAM_mataafa_faumuina_fiame:0 "Faumuina Mulinu’u"
+ SAM_leiataua:0 "Leiataua"
+ SAM_tualaulelei_mauri:0 "Tualaulelei Mauri"
+ SAM_irving_carruthers:0 "Irving Carruthers"
+
+ # AUTRES
+ RULE_ALLOW_RELEASE_NATIONS_NOT_SAMOA_TOOLTIP:0 "Le gouvernement [NZL.GetAdjective] n’est pas encore disposé à coopérer avec les mouvements indépendantistes de ses colonies."
